@@ -1,0 +1,32 @@
+StartChar: parenleft
+Encoding: 40 40 63
+Width: 1152
+VWidth: 0
+Flags: W
+VStem: 368 128<311.953 1094.8>
+LayerCount: 4
+Back
+SplineSet
+808 1818 m 4
+ 566.047950459 1500.40876422 431.782807855 1102.2554823 432 703 c 4
+ 432.216829483 304.4111843 566.451955807 -92.939069952 808 -410 c 1028
+  Spiro
+    808 1818 {
+    432 703 o
+    808 -410 o
+    0 0 z
+  EndSpiro
+EndSplineSet
+Fore
+SplineSet
+777 -256 m 5
+ 629 -256 l 5
+ 460 34 368 368 368 703 c 4
+ 368 1039 459 1374 629 1664 c 5
+ 777 1664 l 5
+ 596 1379 496 1041 496 703 c 4
+ 496 365 596 28 777 -256 c 5
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

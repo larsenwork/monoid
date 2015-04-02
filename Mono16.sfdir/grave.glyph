@@ -1,0 +1,12 @@
+StartChar: grave
+Encoding: 96 96 27
+Width: 1152
+VWidth: 0
+InSpiro: 1
+Flags: W
+LayerCount: 4
+Back
+Fore
+Layer: 2
+Layer: 3
+EndChar

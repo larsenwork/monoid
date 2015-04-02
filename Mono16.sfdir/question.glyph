@@ -1,0 +1,14 @@
+StartChar: question
+Encoding: 63 63 85
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: 0 256<384 640>
+VStem: 384 256<0 256>
+LayerCount: 4
+Back
+Fore
+Refer: 68 46 N 1 0 0 1 0 0 2
+Layer: 2
+Layer: 3
+EndChar

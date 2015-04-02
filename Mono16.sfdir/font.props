@@ -1,0 +1,234 @@
+SplineFontDB: 3.0
+FontName: Mono16
+FullName: Mono16
+FamilyName: Mono16
+Weight: Regular
+Copyright: Copyright (c) 2015, Andreas Larsen
+UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -262
+UnderlineWidth: 131
+Ascent: 1536
+Descent: 512
+InvalidEm: 0
+LayerCount: 4
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 0 "Back 2" 1
+Layer: 3 0 "Back 3" 1
+XUID: [1021 365 -928128380 13773435]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1427918972
+ModificationTime: 1427997989
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 184
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 1024
+OS2WinAOffset: 1
+OS2WinDescent: 512
+OS2WinDOffset: 1
+HheadAscent: 256
+HheadAOffset: 1
+HheadDescent: -128
+HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -36
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 19 14
+BeginPrivate: 0
+EndPrivate
+Grid
+-1920 1492 m 4
+ 4224 1492 l 1028
+  Spiro
+    -1920 1492 {
+    4224 1492 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 128 m 0
+ 4224 128 l 1024
+-1920 256 m 0
+ 4224 256 l 1024
+-1920 384 m 0
+ 4224 384 l 1024
+-1920 1408 m 0
+ 4224 1408 l 1024
+-1920 1280 m 0
+ 4224 1280 l 1024
+-1920 1152 m 0
+ 4224 1152 l 1024
+-1920 896 m 0
+ 4224 896 l 1024
+-1920 768 m 0
+ 4224 768 l 1024
+-1920 640 m 0
+ 4224 640 l 1024
+-1920 512 m 0
+ 4224 512 l 1024
+  Named: ".5x"
+-1920 -468 m 0
+ 4224 -468 l 1024
+  Spiro
+    -1920 -468 {
+    4224 -468 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 980 m 0
+ 4224 980 l 1024
+  Spiro
+    -1920 980 {
+    4224 980 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 44 m 0
+ 4224 44 l 1024
+  Spiro
+    -1920 44 {
+    4224 44 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 1024 m 0
+ 4224 1024 l 1024
+  Spiro
+    -1920 1024 {
+    4224 1024 o
+    0 0 z
+  EndSpiro
+  Named: "x"
+1024 2688 m 0
+ 1024 -1408 l 1024
+  Spiro
+    1024 2688 {
+    1024 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+128 2688 m 0
+ 128 -1408 l 1024
+  Spiro
+    128 2688 {
+    128 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+EndSplineSet
+EndSplineFont

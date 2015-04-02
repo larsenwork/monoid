@@ -1,0 +1,22 @@
+StartChar: L
+Encoding: 76 76 40
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 1516 20G<256 384>
+VStem: 256 128<120 1536>
+LayerCount: 4
+Back
+Fore
+SplineSet
+256 0 m 5
+ 256 1536 l 5
+ 384 1536 l 5
+ 384 120 l 5
+ 1024 120 l 5
+ 1024 0 l 5
+ 256 0 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

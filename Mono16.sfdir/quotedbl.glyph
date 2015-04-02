@@ -1,0 +1,25 @@
+StartChar: quotedbl
+Encoding: 34 34 57
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: 1024 640<384 512 640 768>
+VStem: 384 128<1024 1664> 640 128<1024 1664>
+LayerCount: 4
+Back
+Fore
+SplineSet
+640 1664 m 5
+ 768 1664 l 5
+ 768 1024 l 5
+ 640 1024 l 5
+ 640 1664 l 5
+384 1664 m 1
+ 512 1664 l 1
+ 512 1024 l 1
+ 384 1024 l 1
+ 384 1664 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+EndChar

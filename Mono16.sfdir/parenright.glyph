@@ -1,0 +1,13 @@
+StartChar: parenright
+Encoding: 41 41 64
+Width: 1152
+VWidth: 0
+Flags: W
+VStem: 656 128<311.953 1094.8>
+LayerCount: 4
+Back
+Fore
+Refer: 63 40 S -1 0 0 1 1152 0 2
+Layer: 2
+Layer: 3
+EndChar
