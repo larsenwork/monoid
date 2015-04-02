@@ -6,4 +6,4 @@ WIP so suggestions more than welcome. Currently source only since it's still mis
 
 **Click image for full res:**
 
-![screenshot](http://i.imgur.com/VsmMsJN.png)
+![screenshot](http://i.imgur.com/paoOu7P.png)
