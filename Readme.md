@@ -1,6 +1,6 @@
-Mono16 is a monospaced programming font best used at 16px - hence the original name.
+Mono16 - a programming font best used at 16px.
 
-It's work in progress (suggestions more than welcome). I will upload the font file when I'm done with the basic characters.
+WIP so suggestions more than welcome. Currently source only since it's still missing some basic characters.
 
 
 
