@@ -1,8 +1,6 @@
 Mono16 - a programming font best used at 16px.
 
-WIP so suggestions more than welcome. Currently source only since it's still missing some basic characters.
-
-Some of the characters:
+WIP so suggestions more than welcome. Currently source only since it's still missing basic characters.
 
 ![screenshot](http://i.imgur.com/CeCPguc.png)
 
