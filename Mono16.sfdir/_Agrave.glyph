@@ -1,0 +1,14 @@
+StartChar: Agrave
+Encoding: 192 192 100
+Width: 2048
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Refer: 27 96 N 1 0 0 1 110.371 522 2
+Refer: 29 65 N 1 0 0 1 0 0 3
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -2,7 +2,7 @@ StartChar: one
 Encoding: 49 49 71
 Width: 1152
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 128<256 512 640 896> 1388 20G<493.667 640>
 VStem: 512 128<128 1156>
 LayerCount: 5
