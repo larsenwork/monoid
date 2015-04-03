@@ -1,1 +1,1 @@
-See website for more info
+More info on http://andreaslarsen.github.io/mono16
