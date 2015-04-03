@@ -1,0 +1,16 @@
+StartChar: agrave
+Encoding: 224 224 150
+Width: 1152
+VWidth: 0
+Flags: H
+HStem: -16 120<416.403 660.71> 0 21G<768 896> 512 110<418.102 768> 920 120<324.593 738.851> 1388 20G<360 510.969>
+VStem: 224 128<169.682 443.733> 768 128<0 123 195.803 512 622 892.213>
+LayerCount: 5
+Back
+Fore
+Refer: 104 768 N 1 0 0 1 0 -128 2
+Refer: 2 97 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,32 @@
+StartChar: igrave
+Encoding: 236 236 144
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 904 120<256 512> 1388 20G<360 510.969>
+VStem: 512 128<120 904>
+LayerCount: 5
+Back
+Fore
+SplineSet
+664 1152 m 1
+ 526 1152 l 1
+ 360 1408 l 1
+ 498 1408 l 1
+ 664 1152 l 1
+256 0 m 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

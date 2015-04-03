@@ -1,0 +1,16 @@
+StartChar: Uacute
+Encoding: 218 218 125
+Width: 1152
+VWidth: 0
+Flags: H
+HStem: -16 120<404.818 747.152> 1260 20G<128 256 896 1024>
+VStem: 128 128<254.095 1280> 896 128<254.095 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 106 769 N 1 0 0 1 0 128 2
+Refer: 48 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

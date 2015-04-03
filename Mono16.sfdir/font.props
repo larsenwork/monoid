@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428092876
+ModificationTime: 1428098218
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 19 14
+WinInfo: 57 19 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -234,4 +234,5 @@ Grid
   EndSpiro
   Named: "1"
 EndSplineSet
+AnchorClass2: "bottom" "" "top" "" 
 EndSplineFont
