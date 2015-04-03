@@ -1,0 +1,16 @@
+StartChar: semicolon
+Encoding: 59 59 81
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: -384 640<384 512> 768 256<384 640>
+VStem: 384 128<-384 -326.656> 384 256<70.656 256 768 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 68 46 S 1 0 0 1 0 768 2
+Refer: 67 44 N 1 0 0 1 0 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
