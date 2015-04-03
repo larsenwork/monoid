@@ -1,3 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
 @font-face {
   font-family: 'mono16regular';
   src: url('Mono16.woff2') format('woff2'), url('Mono16.woff') format('woff'), url('Mono16.ttf') format('truetype');
@@ -6,10 +128,16 @@
 }
 
 body {
-  margin: 80px 20%;
+  margin: 120px auto;
   font-size: 16px;
-  color: #666;
+  color: #505050;
   -webkit-font-smoothing: antialiased;
+  background-color: #f5f5f5;
+}
+
+body,
+pre {
+  width: 440px;
 }
 
 body,
@@ -30,10 +158,21 @@ pre {
   font-size: 16px;
   padding: 10px 20px;
   display: inline-block;
+  box-shadow: 5px 0px 100px 0 rgba(0, 0, 0, 0.16);
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+.blabla a {
+  color: #52add3;
+}
+
+.blabla,
+pre {
+  margin-bottom: 80px;
 }
 
 #scheme-select {
@@ -43,15 +182,14 @@ a {
   right: 0;
   z-index: 99;
   padding-right: 50px;
-  background-color: rgba(0, 0, 0, 0.3);
-  transition: ease .4s;
-}
-#scheme-select:hover {
-  background-color: rgba(0, 0, 0, 1.0);
 }
 
 #scheme-select:hover .scheme-list {
   display: block;
+}
+
+#scheme-select:hover .current-scheme {
+  display: none;
 }
 
 .scheme-list {
