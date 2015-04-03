@@ -12,18 +12,19 @@ UnderlineWidth: 131
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-LayerCount: 4
+LayerCount: 5
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "Back 2" 1
 Layer: 3 0 "Back 3" 1
+Layer: 4 0 "Back 4" 1
 XUID: [1021 365 -928128380 13773435]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1427918972
-ModificationTime: 1427997989
+ModificationTime: 1428014777
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

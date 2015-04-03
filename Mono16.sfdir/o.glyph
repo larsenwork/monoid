@@ -6,7 +6,7 @@ InSpiro: 1
 Flags: W
 HStem: -16 120<446.042 705.958> 920 120<446.042 705.958>
 VStem: 224 128<209.125 814.875> 800 128<209.125 814.875>
-LayerCount: 4
+LayerCount: 5
 Back
 Fore
 SplineSet
@@ -161,4 +161,5 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Layer: 4
 EndChar

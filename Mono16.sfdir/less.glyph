@@ -4,7 +4,7 @@ Width: 1152
 VWidth: 0
 Flags: W
 VStem: 256 639
-LayerCount: 4
+LayerCount: 5
 Back
 SplineSet
 136 67 m 5
@@ -15,4 +15,5 @@ Fore
 Refer: 84 62 S -1 0 0 1 1151 0 2
 Layer: 2
 Layer: 3
+Layer: 4
 EndChar

@@ -3,7 +3,7 @@ Encoding: 47 47 69
 Width: 1152
 VWidth: 0
 Flags: W
-LayerCount: 4
+LayerCount: 5
 Back
 SplineSet
 0 -640 m 29
@@ -19,4 +19,5 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Layer: 4
 EndChar

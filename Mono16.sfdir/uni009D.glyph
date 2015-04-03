@@ -4,7 +4,7 @@ Width: 2048
 VWidth: 0
 HStem: 0 21G<-574 1102> 1516 20G<-574 1102>
 VStem: -574 1676<0 1536>
-LayerCount: 4
+LayerCount: 5
 Back
 Fore
 SplineSet
@@ -16,4 +16,5 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Layer: 4
 EndChar
