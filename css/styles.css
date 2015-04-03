@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'mono16regular';
+  src: url('Mono16.woff2') format('woff2'), url('Mono16.woff') format('woff'), url('Mono16.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 80px 20%;
+  font-size: 16px;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+.scheme,
+.author,
+pre,
+.block {
+  font-family: "mono16regular", monospace;
+}
+
+.block {
+  display: inline-block;
+  padding: 15px;
+  margin: 0 5px 10px 0;
+}
+
+pre {
+  font-size: 16px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}
+
+#scheme-select {
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding-right: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: ease .4s;
+}
+#scheme-select:hover {
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+#scheme-select:hover .scheme-list {
+  display: block;
+}
+
+.scheme-list {
+  display: none;
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.scheme-list li {
+  margin: 2px 0;
+}
+
+.triangle {
+  position: absolute;
+  top: 26px;
+  right: 23px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-top: 6px solid #fff;
+  border-right: 6px solid transparent;
+}
