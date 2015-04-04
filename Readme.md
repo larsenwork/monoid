@@ -2,7 +2,7 @@
 [andreaslarsen.github.io/mono16](http://andreaslarsen.github.io/mono16)
 
 ## Download fonts only
-[Mono16](https://github.com/andreaslarsen/mono16/blob/master/Mono16.ttf?raw=true), [Mono16 SemiCondensed](https://github.com/andreaslarsen/mono16/blob/master/Mono16-SemiCondensed.ttf?raw=true),  & [Mono16 Condensed](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Condensed.ttf?raw=true)
+[Mono16 Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true), [Mono16 SemiCondensed](https://github.com/andreaslarsen/mono16/blob/master/Mono16-SemiCondensed.ttf?raw=true),  & [Mono16 Condensed](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Condensed.ttf?raw=true)
 
 ## Contribute
 Please send me whatever modifications you may make - they could be valuable to me/others and your name will be added to the list of contributors.
