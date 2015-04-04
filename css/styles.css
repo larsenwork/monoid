@@ -187,15 +187,15 @@ pre.base02 {
   font-family: 'mono16';
 }
 
-.normal:focus span,
-.condensed:focus span,
+.normal span:focus,
+.condensed span:focus,
 .normal:focus,
 .condensed:focus {
   color: white;
 }
 
 .semi:focus,
-.semi:focus span {
+.semi span:focus {
   color: black;
 }
 
