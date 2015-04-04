@@ -172,6 +172,16 @@ pre.base02 {
   font-family: 'mono16condensed';
 }
 
+.prewrap {
+  outline: none;
+}
+.prewrap:focus pre {
+  color: white;
+}
+.prewrap:focus pre.base02 {
+  color: black;
+}
+
 a {
   color: inherit;
   text-decoration: none;
