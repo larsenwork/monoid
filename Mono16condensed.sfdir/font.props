@@ -3,7 +3,7 @@ FontName: Mono16-Condensed
 FullName: Mono16 Condensed
 FamilyName: Mono16
 Weight: Regular
-Copyright: Copyright (c) 2015, Andreas Larsen
+Copyright: Copyright (c) 2015, @andreaslarsendk
 UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
 FontLog: "0.1 - 03.04.15 Latin characters+AAoA-0.2 - 04.04.15 Latin extended (00C0-017E)"
 Version: 0.2
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428157499
+ModificationTime: 1428170677
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 3
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 19 19 14
+WinInfo: 1113856 19 14
 BeginPrivate: 0
 EndPrivate
 Grid
