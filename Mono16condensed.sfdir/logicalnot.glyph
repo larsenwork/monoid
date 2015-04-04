@@ -1,0 +1,23 @@
+StartChar: logicalnot
+Encoding: 172 172 319
+Width: 896
+VWidth: 0
+Flags: W
+HStem: 644 120<0 768>
+VStem: 768 128<384 644>
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 764 m 5
+ 896 384 l 5
+ 768 384 l 5
+ 768 644 l 5
+ 0 644 l 5
+ 0 764 l 5
+ 896 764 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

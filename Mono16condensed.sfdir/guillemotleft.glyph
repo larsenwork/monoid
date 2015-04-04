@@ -1,0 +1,14 @@
+StartChar: guillemotleft
+Encoding: 171 171 315
+Width: 896
+VWidth: 0
+Flags: W
+HStem: 1019 20G<306.035 351.588 690.035 735.588>
+LayerCount: 5
+Back
+Fore
+Refer: 314 187 S -1 0 0 1 896 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

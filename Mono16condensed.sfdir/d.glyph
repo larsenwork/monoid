@@ -1,0 +1,15 @@
+StartChar: d
+Encoding: 100 100 4
+Width: 896
+VWidth: 0
+Flags: W
+HStem: -16 120<317.978 540.384> 0 21G<640 768> 920 120<317.978 540.384> 1516 20G<640 768>
+VStem: 96 128<213.326 810.674> 640 128<0 125 212.637 811.363 899 1536>
+LayerCount: 5
+Back
+Fore
+Refer: 0 98 S -1 0 0 1 896 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

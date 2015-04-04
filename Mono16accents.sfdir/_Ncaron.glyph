@@ -1,0 +1,35 @@
+StartChar: Ncaron
+Encoding: 327 327 229
+Width: 1152
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1280 l 5
+ 255 1280 l 5
+ 886 260 l 1
+ 896 260 l 1
+ 896 1280 l 5
+ 1024 1280 l 5
+ 1024 0 l 1
+ 896 0 l 1
+ 266 1020 l 5
+ 256 1020 l 5
+ 256 0 l 1
+497 1408 m 5
+ 655 1408 l 5
+ 952 1664 l 5
+ 794 1664 l 5
+ 576 1500.03710938 l 5
+ 358 1664 l 5
+ 200 1664 l 5
+ 497 1408 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

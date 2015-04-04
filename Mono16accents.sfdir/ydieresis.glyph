@@ -1,0 +1,16 @@
+StartChar: ydieresis
+Encoding: 255 255 130
+Width: 1152
+VWidth: 0
+Flags: H
+HStem: -528 120<256 392.5> 1004 20G<201 353 803 951> 1200 224<261.032 442.968 709.032 890.968>
+VStem: 201 135<727.078 1024> 240 224<1221.03 1402.97> 688 224<1221.03 1402.97> 816 135<712.23 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 113 776 N 1 0 0 1 0 -128 2
+Refer: 24 121 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

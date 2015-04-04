@@ -11,8 +11,8 @@ Fore
 SplineSet
 640 512 m 1xd0
  512 512 l 1
- 502 1408 l 5
- 650 1408 l 5
+ 502 1408 l 1
+ 650 1408 l 1
  640 512 l 1xd0
 EndSplineSet
 Refer: 68 46 N 1 0 0 1 64 0 2

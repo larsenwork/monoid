@@ -1,0 +1,32 @@
+StartChar: Imacron
+Encoding: 298 298 212
+Width: 1152
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1280 m 1
+ 896 1160 l 1
+ 640 1160 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1160 l 1
+ 256 1160 l 1
+ 256 1280 l 1
+ 896 1280 l 1
+256 1532 m 5
+ 896 1532 l 5
+ 896 1412 l 5
+ 256 1412 l 5
+ 256 1532 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

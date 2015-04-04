@@ -1,15 +1,31 @@
 StartChar: iacute
-Encoding: 237 237 143
+Encoding: 237 237 146
 Width: 1152
 VWidth: 0
-Flags: H
+Flags: W
 HStem: 0 120<256 512 640 896> 904 120<256 512>
 VStem: 512 128<120 904>
 LayerCount: 5
 Back
 Fore
-Refer: 106 769 N 1 0 0 1 0 -128 2
-Refer: 129 305 N 1 0 0 1 0 0 3
+SplineSet
+256 0 m 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+488 1152 m 1
+ 626 1152 l 1
+ 792 1408 l 1
+ 654 1408 l 1
+ 488 1152 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

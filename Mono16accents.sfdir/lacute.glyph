@@ -1,0 +1,30 @@
+StartChar: lacute
+Encoding: 314 314 284
+Width: 1152
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 -2 m 1
+ 853 -9 808 -16 758 -16 c 0
+ 686 -16 627 9 585 52 c 0
+ 512 128 512 218 512 279 c 2
+ 512 1280 l 1
+ 640 1280 l 1
+ 640 279 l 2
+ 640 232 640 186 668 148 c 0
+ 688 121 719 104 768 104 c 0
+ 805 104 855 113 896 121 c 1
+ 896 -2 l 1
+488 1408 m 5
+ 626 1408 l 5
+ 792 1664 l 5
+ 654 1664 l 5
+ 488 1408 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

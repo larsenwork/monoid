@@ -1,0 +1,15 @@
+StartChar: p
+Encoding: 112 112 16
+Width: 896
+VWidth: 0
+Flags: W
+HStem: -512 20G<128 256> -16 120<355.616 578.022> 920 120<355.616 578.022> 1003 21G<128 256>
+VStem: 128 128<-512 125 212.637 811.363 899 1024> 672 128<213.326 810.674>
+LayerCount: 5
+Back
+Fore
+Refer: 0 98 S 1 0 0 -1 0 1024 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

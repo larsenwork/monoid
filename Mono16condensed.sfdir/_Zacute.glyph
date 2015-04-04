@@ -1,0 +1,33 @@
+StartChar: Zacute
+Encoding: 377 377 216
+Width: 896
+VWidth: 0
+Flags: W
+HStem: 0 120<165 896> 1160 120<20 711>
+LayerCount: 5
+Back
+Fore
+SplineSet
+360 1408 m 1
+ 498 1408 l 1
+ 664 1664 l 1
+ 526 1664 l 1
+ 360 1408 l 1
+20 1160 m 1
+ 20 1280 l 1
+ 876 1280 l 1
+ 876 1190 l 1
+ 165 130 l 1
+ 165 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 0 0 l 1
+ 0 92 l 1
+ 711 1150 l 1
+ 711 1160 l 1
+ 20 1160 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

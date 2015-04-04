@@ -1,0 +1,15 @@
+StartChar: bracketright
+Encoding: 93 93 88
+Width: 896
+VWidth: 0
+Flags: W
+HStem: -256 120<128 512> 1542 120<128 512>
+VStem: 512 128<-136 1542>
+LayerCount: 5
+Back
+Fore
+Refer: 87 91 S -1 0 0 -1 896 1406 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

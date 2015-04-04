@@ -1,0 +1,28 @@
+StartChar: Ldot
+Encoding: 319 319 284
+Width: 896
+VWidth: 0
+Flags: W
+HStem: 0 120<256 896> 720 224<485.032 666.968> 1388 20G<128 256>
+VStem: 128 128<120 1408> 464 224<741.032 922.968>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 0 m 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 128 0 l 1
+576 944 m 0
+ 642 944 688 898 688 832 c 0
+ 688 766 642 720 576 720 c 0
+ 510 720 464 766 464 832 c 0
+ 464 898 510 944 576 944 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

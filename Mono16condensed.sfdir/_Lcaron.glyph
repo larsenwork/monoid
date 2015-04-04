@@ -1,0 +1,28 @@
+StartChar: Lcaron
+Encoding: 317 317 278
+Width: 896
+VWidth: 0
+Flags: W
+HStem: 0 120<256 896> 1024 21G<640 768> 1388 20G<128 256 640 768>
+VStem: 128 128<120 1408> 640 128<1024 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 1408 m 1
+ 768 1408 l 1
+ 768 1024 l 1
+ 640 1024 l 1
+ 640 1408 l 1
+128 0 m 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 128 0 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

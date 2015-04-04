@@ -1,15 +1,14 @@
 StartChar: acutecomb
-Encoding: 769 769 106
+Encoding: 769 769 296
 Width: 1152
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1280 256
 VStem: 488 304
-AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore
-Refer: 104 768 S -1 0 0 1 1152 0 2
+Refer: 295 768 S -1 0 0 1 1152 0 2
 Layer: 2
 Layer: 3
 Layer: 4

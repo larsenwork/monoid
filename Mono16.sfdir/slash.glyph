@@ -11,11 +11,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1056 1664 m 5
- 234 -256 l 5
- 96 -256 l 5
- 918 1664 l 5
- 1056 1664 l 5
+1056 1664 m 1
+ 234 -256 l 1
+ 96 -256 l 1
+ 918 1664 l 1
+ 1056 1664 l 1
 EndSplineSet
 Layer: 2
 Layer: 3

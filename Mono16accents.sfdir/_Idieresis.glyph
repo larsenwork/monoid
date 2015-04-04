@@ -1,0 +1,17 @@
+StartChar: Idieresis
+Encoding: 207 207 120
+Width: 1152
+VWidth: 0
+Flags: H
+HStem: 0 120<256 512 640 896> 1160 120<256 512 640 896> 1456 224<261.032 442.968 709.032 890.968>
+VStem: 240 224<1477.03 1658.97> 512 128<120 1160> 688 224<1477.03 1658.97>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+Refer: 113 776 N 1 0 0 1 0 128 2
+Refer: 37 73 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

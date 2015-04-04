@@ -1,0 +1,16 @@
+StartChar: braceright
+Encoding: 125 125 93
+Width: 640
+VWidth: 0
+Flags: W
+HStem: -256 120<128 306.746> 643 120<588.461 768> 1542 120<128 306.746>
+VStem: 384 128<-67.9502 574.95 831.05 1473.95>
+CounterMasks: 1 e0
+LayerCount: 5
+Back
+Fore
+Refer: 91 123 S -1 0 0 1 896 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

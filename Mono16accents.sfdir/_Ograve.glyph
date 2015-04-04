@@ -1,0 +1,16 @@
+StartChar: Ograve
+Encoding: 210 210 161
+Width: 1152
+VWidth: 0
+Flags: H
+HStem: -16 120<408.149 743.851> 1176 120<408.149 743.851> 1408 21G<513.031 664>
+VStem: 112 128<298.492 981.508> 912 128<298.492 981.508>
+LayerCount: 5
+Back
+Fore
+Refer: 104 768 N 1 0 0 1 0 128 2
+Refer: 42 79 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

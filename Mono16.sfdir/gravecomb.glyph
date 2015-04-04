@@ -1,11 +1,10 @@
 StartChar: gravecomb
-Encoding: 768 768 104
+Encoding: 768 768 295
 Width: 1152
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1280 256
 VStem: 360 304
-AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore

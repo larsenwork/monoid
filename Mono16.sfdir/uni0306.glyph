@@ -1,14 +1,22 @@
 StartChar: uni0306
-Encoding: 774 774 111
+Encoding: 774 774 300
 Width: 1152
 VWidth: 0
-Flags: W
-HStem: 1280 256
-AnchorPoint: "top" 576 1152 mark 0
+Flags: HW
+HStem: 1264 120<418.7 733.3> 1516 20G<236 364 788 916>
+VStem: 236 128<1435.55 1536> 788 128<1435.55 1536>
 LayerCount: 5
 Back
 Fore
-Refer: 107 770 S 1 0 0 -1 0 2816 2
+SplineSet
+788 1536 m 5
+ 916 1536 l 5
+ 916 1368 764 1264 576 1264 c 4
+ 388 1264 236 1368 236 1536 c 5
+ 364 1536 l 5
+ 364 1450 433 1384 576 1384 c 4
+ 719 1384 788 1450 788 1536 c 5
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4
