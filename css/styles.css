@@ -180,7 +180,18 @@ pre {
   min-height: 56px;
 }
 
-#scheme-select:hover .colors {
+.colors {
+  opacity: 0;
+  position: relative;
+  height: 0px;
+  width: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-transition: 0.3s ease-in-out, opacity 0.15s ease-in-out 0.25s;
+  transition: 0.3s ease-in-out, opacity 0.15s ease-in-out 0.25s;
+}
+
+#scheme-select:hover .colors, #scheme-select.active .colors {
   height: 222px;
   width: 391px;
   visibility: visible;
@@ -196,20 +207,9 @@ pre {
   position: absolute;
 }
 
-#scheme-select:hover .current-scheme {
+#scheme-select:hover .current-scheme, #scheme-select.active .current-scheme {
   visibility: hidden;
   opacity: 0;
-}
-
-.colors {
-  opacity: 0;
-  position: relative;
-  height: 0px;
-  width: 0px;
-  visibility: hidden;
-  overflow: hidden;
-  -webkit-transition: 0.3s ease-in-out, opacity 0.15s ease-in-out 0.25s;
-  transition: 0.3s ease-in-out, opacity 0.15s ease-in-out 0.25s;
 }
 
 .scheme-list {
@@ -232,5 +232,8 @@ pre {
   }
   pre.base02 {
     box-shadow: none;
+  }
+  #scheme-select {
+    display: none;
   }
 }
