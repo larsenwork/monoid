@@ -228,7 +228,7 @@ pre {
 
 @media all and (max-width: 560px) {
   .prewrap {
-    overflow: scroll;
+    overflow: hidden;
   }
   pre.base02 {
     box-shadow: none;
