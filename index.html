@@ -135,7 +135,7 @@
     </div>
   </div>
   <div class="blabla base07-background base02">
-    <p>Mono16 &amp; <span class="condensed">Mono16 Condensed</span>
+    <p>Mono16, <span class="semi">Mono16 SemiCondensed</span> &amp; <span class="condensed">Mono16 Condensed</span>
       <br>======
       <br>Monospaced fonts made for programming</p>
     <p>· Download, issues &amp; contribute on <a class="base0D" href="https://github.com/andreaslarsen/Mono16">Github</a>
@@ -164,6 +164,7 @@
       <br>Edit anything below</p>
   </div>
   <div class="prewrap" contenteditable="true"> <pre class="base00-background base05">Mono16
+
 <span class="base0E">require</span> <span class="base0B">"gem"</span>
 
 <span class="base08">string</span> = <span class="base0B">"base16"</span>
@@ -194,7 +195,8 @@
 <span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
       </pre>
 
-    <pre class="base07-background base02">Mono16 Condensed
+    <pre class="base07-background base02 semi">Mono16 SemiCondensed
+
 <span class="base0E">require</span> <span class="base0B">"rubygems"</span>
 
 <span class="base08">string</span> = <span class="base0B">"tomorrow"</span>
@@ -217,6 +219,38 @@
 
   <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
     <span class="base06-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+
+<pre class="base00-background base05 condensed">Mono16 Condensed
+
+<span class="base0E">require</span> <span class="base0B">"gem"</span>
+
+<span class="base08">string</span> = <span class="base0B">"base16"</span>
+<span class="base08">symbol</span> = <span class="base0B">:base16</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base02-background"><span class="base0B">"hello"</span></span>
   <span class="base0E">end</span>
 <span class="base0E">end</span>
 

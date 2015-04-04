@@ -134,6 +134,13 @@ ul {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'mono16semicondensed';
+  src: url('Mono16-SemiCondensed.woff2') format('woff2'), url('Mono16-SemiCondensed.woff') format('woff'), url('Mono16-SemiCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 120px auto;
   padding: 0 20px;
@@ -165,19 +172,23 @@ pre {
 
 pre.base02 {
   box-shadow: 0px 2px 20px 0 rgba(0, 0, 0, 0.16);
-  font-family: 'mono16condensed';
 }
 
 .condensed {
   font-family: 'mono16condensed';
 }
+.semi {
+  font-family: 'mono16semicondensed';
+}
 
 .prewrap {
   outline: none;
 }
+
 .prewrap:focus pre {
   color: white;
 }
+
 .prewrap:focus pre.base02 {
   color: black;
 }
