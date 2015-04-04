@@ -1,0 +1,15 @@
+StartChar: acute
+Encoding: 180 180 312
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 384
+VStem: 489 304
+LayerCount: 5
+Back
+Fore
+Refer: 27 96 S -1 0 0 1 1152 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

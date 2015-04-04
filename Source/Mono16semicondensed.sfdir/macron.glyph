@@ -1,0 +1,15 @@
+StartChar: macron
+Encoding: 175 175 320
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1156 120<256 896>
+VStem: 256 640<1156 1276>
+LayerCount: 5
+Back
+Fore
+Refer: 55 45 S 1 0 0 1 0 512 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

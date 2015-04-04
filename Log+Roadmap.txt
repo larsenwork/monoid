@@ -2,7 +2,11 @@ Version, date, change (headline style), (contributer - if other than @andreaslar
 
 0.10 2015.04.03 Latin characters
 0.20 2015.04.04 Latin extended (00C0-017E)
-
-Roadmap
 0.21 2015.04.04 Alternate characters (zeros, @, ~, 1, l)
 0.22 2015.04.04 Semi-condensed version
+
+Roadmap
+Ideas, requests and contributions
+
+Wishlist
+Font builder á la Input - I need help with this

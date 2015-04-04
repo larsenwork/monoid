@@ -1,0 +1,15 @@
+StartChar: u
+Encoding: 117 117 21
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<319.689 552.727> 0 20G<640 768> 1003 21G<128 256 640 768>
+VStem: 128 128<169.924 1024> 640 128<0 112 166.016 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 14 110 S -1 0 0 -1 1024 1024 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
