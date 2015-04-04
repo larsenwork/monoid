@@ -2,7 +2,7 @@ StartChar: asterisk.alt
 Encoding: 1114112 -1 101
 Width: 1152
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 1388 20G<318.358 364.534 788.402 834.642>
 VStem: 512 128<512 906>
 LayerCount: 5

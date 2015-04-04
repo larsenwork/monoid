@@ -1,4 +1,0 @@
-Version, date, change, (contributer - if other than @andreaslarsendk)
-
-0.10 2015.04.03 Latin characters
-0.20 2015.04.04 Latin extended (00C0-017E)

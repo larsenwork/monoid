@@ -245,4 +245,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "'ss03' Style Set 3 in Latin lookup 2-1" zero.dotless
+Substitution2: "'ss02' Style Set 2 in Latin lookup 1-1" zero.slashed
 EndChar

@@ -1,4 +1,4 @@
-StartChar: asciitilde
+StartChar: tilde
 Encoding: 126 126 94
 Width: 1152
 VWidth: 0
@@ -68,4 +68,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "'ss05' Style Set 5 in Latin lookup 4-1" tilde.alt
 EndChar

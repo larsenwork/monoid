@@ -1,0 +1,42 @@
+StartChar: NameMe.1114117
+Encoding: 1114117 -1 325
+Width: 896
+VWidth: 0
+Flags: WO
+HStem: 0 120<128 384 512 768> 1065 21G<128 155.182>
+VStem: 384 128<120 1246>
+LayerCount: 5
+Back
+SplineSet
+404 1408 m 1
+ 512 1408 l 1
+ 512 120 l 1
+ 768 120 l 1
+ 768 0 l 1
+ 512 0 l 1
+ 384 0 l 1
+ 128 0 l 1
+ 128 120 l 1
+ 384 120 l 1
+ 384 1246 l 1
+ 374 1246 l 1
+ 128 1065 l 1
+ 128 1203 l 1
+ 404 1408 l 1
+EndSplineSet
+Fore
+SplineSet
+532 1408 m 5
+ 640 1408 l 5
+ 640 0 l 5
+ 512 0 l 5
+ 512 1246 l 5
+ 502 1246 l 5
+ 128 976 l 5
+ 128 1114 l 5
+ 532 1408 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

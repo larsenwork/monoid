@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428170721
+ModificationTime: 1428173257
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -47,6 +47,10 @@ HheadDOffset: 0
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss05' Style Set 5 in Latin lookup 4" { "'ss05' Style Set 5 in Latin lookup 4-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 in Latin lookup 1" { "'ss02' Style Set 2 in Latin lookup 1-1"  } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Style Set 3 in Latin lookup 2" { "'ss03' Style Set 3 in Latin lookup 2-1"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss04' Style Set 4 in Latin lookup 3" { "'ss04' Style Set 4 in Latin lookup 3-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 in Latin lookup 0" { "'ss01' Style Set 1 in Latin lookup 0-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -57,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113856 19 14
+WinInfo: 19 19 14
 BeginPrivate: 0
 EndPrivate
 Grid

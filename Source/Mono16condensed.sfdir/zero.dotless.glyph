@@ -2,7 +2,9 @@ StartChar: zero.dotless
 Encoding: 1114114 -1 322
 Width: 896
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -18 124<340.706 555.294> 1302 124<340.706 555.294>
+VStem: 125 124<240.586 1167.41> 647 124<240.586 1167.41>
 LayerCount: 5
 Back
 Fore
