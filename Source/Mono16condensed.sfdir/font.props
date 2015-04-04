@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: Copyright (c) 2015, @andreaslarsendk
 UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
 FontLog: "0.1 - 03.04.15 Latin characters+AAoA-0.2 - 04.04.15 Latin extended (00C0-017E)"
-Version: 0.2
+Version: 0.21
 ItalicAngle: 0
 UnderlinePosition: -262
 UnderlineWidth: 131
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428173488
+ModificationTime: 1428174833
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 3
@@ -47,6 +47,8 @@ HheadDOffset: 0
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss06' Style Set 6 in Latin lookup 5" { "'ss06' Style Set 6 in Latin lookup 5-1"  } ['ss06' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss07' Style Set 7 in Latin lookup 6" { "'ss07' Style Set 7 in Latin lookup 6-1"  } ['ss07' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss05' Style Set 5 in Latin lookup 4" { "'ss05' Style Set 5 in Latin lookup 4-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Style Set 2 in Latin lookup 1" { "'ss02' Style Set 2 in Latin lookup 1-1"  } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Style Set 3 in Latin lookup 2" { "'ss03' Style Set 3 in Latin lookup 2-1"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
