@@ -146,7 +146,7 @@ body {
   padding: 0 20px;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  font-family: "mono16regular", monospace;
+  font-family: "mono16semicondensed", monospace;
 }
 
 body {
@@ -177,19 +177,25 @@ pre.base02 {
 .condensed {
   font-family: 'mono16condensed';
 }
+
 .semi {
   font-family: 'mono16semicondensed';
+}
+
+.normal {
+  font-family: 'mono16';
 }
 
 .prewrap {
   outline: none;
 }
 
-.prewrap:focus pre {
+.prewrap:focus .normal,
+.prewrap:focus .condensed {
   color: white;
 }
 
-.prewrap:focus pre.base02 {
+.prewrap:focus .semi {
   color: black;
 }
 
