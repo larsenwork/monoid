@@ -168,6 +168,7 @@ pre {
   padding: 25px 20px 10px;
   display: inline-block;
   width: 100%;
+  outline: none;
 }
 
 pre.base02 {
@@ -186,16 +187,15 @@ pre.base02 {
   font-family: 'mono16';
 }
 
-.prewrap {
-  outline: none;
-}
-
-.prewrap:focus .normal,
-.prewrap:focus .condensed {
+.normal:focus span,
+.condensed:focus span,
+.normal:focus,
+.condensed:focus {
   color: white;
 }
 
-.prewrap:focus .semi {
+.semi:focus,
+.semi:focus span {
   color: black;
 }
 
