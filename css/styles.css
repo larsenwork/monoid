@@ -112,7 +112,7 @@ body {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 ol,
@@ -165,6 +165,10 @@ pre {
 
 pre.base02 {
   box-shadow: 0px 2px 20px 0 rgba(0, 0, 0, 0.16);
+  font-family: 'mono16condensed';
+}
+
+.condensed {
   font-family: 'mono16condensed';
 }
 
