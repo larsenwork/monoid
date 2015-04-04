@@ -168,7 +168,7 @@ pre {
 #scheme-select {
   padding: 20px;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   right: 0;
   z-index: 99;
   padding-right: 50px;
