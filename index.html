@@ -69,69 +69,70 @@
 <body class="base07-background">
   <div id="scheme-select" class="base00-background default">
     <div class="current-scheme base07">Color</div>
-    <div class="triangle"></div>
-    <ul class="scheme-list">
-      <li class="base0F"><a href="#3024">3024</a>
-      </li>
-      <li class="base0E"><a href="#ashes">Ashes</a>
-      </li>
-      <li class="base0D"><a href="#atelierdune">Atelier Dune</a>
-      </li>
-      <li class="base0C"><a href="#atelierforest">Atelier Forest</a>
-      </li>
-      <li class="base0B"><a href="#atelierheath">Atelier Heath</a>
-      </li>
-      <li class="base0A"><a href="#atelierlakeside">Atelier Lakeside</a>
-      </li>
-      <li class="base09"><a href="#atelierseaside">Atelier Seaside</a>
-      </li>
-      <li class="base08"><a href="#bespin">Bespin</a>
-      </li>
-      <li class="base06"><a href="#bright">Bright</a>
-      </li>
-      <li class="base04"><a href="#chalk">Chalk</a>
-      </li>
-    </ul>
-    <ul class="scheme-list">
-      <li class="base0F"><a href="#default">Default</a>
-      </li>
-      <li class="base0E"><a href="#eighties">Eighties</a>
-      </li>
-      <li class="base0D"><a href="#flat">Flat</a>
-      </li>
-      <li class="base0C"><a href="#grayscale">Grayscale</a>
-      </li>
-      <li class="base0B"><a href="#greenscreen">Greenscreen</a>
-      </li>
-      <li class="base0A"><a href="#isotope">Isotope</a>
-      </li>
-      <li class="base09"><a href="#londontube">London Tube</a>
-      </li>
-      <li class="base08"><a href="#marrakesh">Marrakesh</a>
-      </li>
-      <li class="base06"><a href="#mocha">Mocha</a>
-      </li>
-      <li class="base04"><a href="#monokai">Monokai</a>
-      </li>
-    </ul>
-    <ul class="scheme-list">
-      <li class="base0F"><a href="#ocean">Ocean</a>
-      </li>
-      <li class="base0E"><a href="#paraiso">Paraiso</a>
-      </li>
-      <li class="base0D"><a href="#pop">Pop</a>
-      </li>
-      <li class="base0C"><a href="#railscasts">Railscasts</a>
-      </li>
-      <li class="base0B"><a href="#shapeshifter">Shapeshifter</a>
-      </li>
-      <li class="base0A"><a href="#solarized">Solarized</a>
-      </li>
-      <li class="base09"><a href="#tomorrow">Tomorrow</a>
-      </li>
-      <li class="base08"><a href="#twilight">Twilight</a>
-      </li>
-    </ul>
+    <div class="colors">
+      <ul class="scheme-list">
+        <li class="base0F"><a href="#3024">3024</a>
+        </li>
+        <li class="base0E"><a href="#ashes">Ashes</a>
+        </li>
+        <li class="base0D"><a href="#atelierdune">Atelier Dune</a>
+        </li>
+        <li class="base0C"><a href="#atelierforest">Atelier Forest</a>
+        </li>
+        <li class="base0B"><a href="#atelierheath">Atelier Heath</a>
+        </li>
+        <li class="base0A"><a href="#atelierlakeside">Atelier Lakeside</a>
+        </li>
+        <li class="base09"><a href="#atelierseaside">Atelier Seaside</a>
+        </li>
+        <li class="base08"><a href="#bespin">Bespin</a>
+        </li>
+        <li class="base06"><a href="#bright">Bright</a>
+        </li>
+        <li class="base04"><a href="#chalk">Chalk</a>
+        </li>
+      </ul>
+      <ul class="scheme-list">
+        <li class="base0F"><a href="#default">Default</a>
+        </li>
+        <li class="base0E"><a href="#eighties">Eighties</a>
+        </li>
+        <li class="base0D"><a href="#flat">Flat</a>
+        </li>
+        <li class="base0C"><a href="#grayscale">Grayscale</a>
+        </li>
+        <li class="base0B"><a href="#greenscreen">Greenscreen</a>
+        </li>
+        <li class="base0A"><a href="#isotope">Isotope</a>
+        </li>
+        <li class="base09"><a href="#londontube">London Tube</a>
+        </li>
+        <li class="base08"><a href="#marrakesh">Marrakesh</a>
+        </li>
+        <li class="base06"><a href="#mocha">Mocha</a>
+        </li>
+        <li class="base04"><a href="#monokai">Monokai</a>
+        </li>
+      </ul>
+      <ul class="scheme-list last">
+        <li class="base0F"><a href="#ocean">Ocean</a>
+        </li>
+        <li class="base0E"><a href="#paraiso">Paraiso</a>
+        </li>
+        <li class="base0D"><a href="#pop">Pop</a>
+        </li>
+        <li class="base0C"><a href="#railscasts">Railscasts</a>
+        </li>
+        <li class="base0B"><a href="#shapeshifter">Shapeshifter</a>
+        </li>
+        <li class="base0A"><a href="#solarized">Solarized</a>
+        </li>
+        <li class="base09"><a href="#tomorrow">Tomorrow</a>
+        </li>
+        <li class="base08"><a href="#twilight">Twilight</a>
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="blabla base07-background base02">
     <p>Mono16
@@ -157,8 +158,7 @@
       <br>Mono16 by <a class="base0D" href="https://twitter.com/intent/follow?screen_name=andreaslarsendk">@andreaslarsendk</a>
       <br><a class="base0D" href="http://chriskempson.github.io/base16/" target="_blank">Base16</a> color schemes</p>
   </div>
-  <div>
-    <pre class="base00-background base05">
+  <div class="prewrap"> <pre class="base00-background base05">
 <span class="base0E">require</span> <span class="base0B">"gem"</span>
 
 <span class="base08">string</span> = <span class="base0B">"base16"</span>
