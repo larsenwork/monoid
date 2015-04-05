@@ -4,6 +4,8 @@
 ##### Download
 [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true), [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true),  & [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true)
 
+[AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/) by [u/veeti](http://www.reddit.com/user/veeti)
+
 ##### Contribute
 Please send me whatever modifications you may make - they could be valuable to me/others and your name will be added to the list of contributors.
 
