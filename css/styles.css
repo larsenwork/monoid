@@ -162,8 +162,11 @@ pre {
   display: inline-block;
   width: 100%;
   outline: none;
-  border-radius: 6px;
-  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+pre.normal {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
 }
 
 .tight {
@@ -208,8 +211,8 @@ pre {
   z-index: 99;
   min-width: 80px;
   min-height: 56px;
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .colors {
@@ -227,11 +230,6 @@ pre {
   box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.0);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-#scheme-select:hover,
-#scheme-select.active {
-  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 1);
 }
 
 #scheme-select:hover .colors,
