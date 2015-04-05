@@ -209,7 +209,7 @@ pre {
   position: fixed;
   right: 0;
   z-index: 99;
-  min-width: 80px;
+  min-width: 140px;
   min-height: 56px;
   border-bottom-left-radius: 14px;
   border-top-left-radius: 14px;
