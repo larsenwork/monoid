@@ -11,6 +11,10 @@
 Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmono16%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/mono16/), :star: here on GitHub and :+1: on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
 
 ----
+##### License
+Open Font License Without Reserved Font Name [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+
+----
 ##### Contribute
 Please send me whatever modifications you may make - they could be valuable to me/others.
 
