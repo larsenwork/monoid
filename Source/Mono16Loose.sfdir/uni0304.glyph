@@ -1,0 +1,15 @@
+StartChar: uni0304
+Encoding: 772 772 299
+Width: 1152
+VWidth: 0
+Flags: W
+HStem: 1284 120<256 896>
+VStem: 256 640<1284 1404>
+LayerCount: 5
+Back
+Fore
+Refer: 55 45 S 1 0 0 1 0 640 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
