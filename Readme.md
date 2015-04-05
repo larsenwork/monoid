@@ -8,7 +8,7 @@
 
 ----
 ##### Thank me 
-Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmono16%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/mono16/), :star: here on GitHub and :+1: on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
+Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmono16%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/mono16/), ★ here on GitHub and 👍 on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
 
 ----
 ##### License
