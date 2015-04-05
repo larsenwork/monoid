@@ -2,11 +2,8 @@
 [andreaslarsen.github.io/mono16](http://andreaslarsen.github.io/mono16)
 
 ##### Download
-
-* [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true) 
-* [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true)
-* [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true)
-* [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/)
+| [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true) | [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true) | [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true) | [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/) |
+| ---- | ---- | ---- | ---- |
 
 ##### Contribute
 Please send me whatever modifications you may make - they could be valuable to me/others.
