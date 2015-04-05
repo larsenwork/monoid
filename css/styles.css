@@ -210,7 +210,7 @@ pre {
   right: 0;
   z-index: 99;
   min-width: 140px;
-  min-height: 56px;
+  min-height: 58px;
   border-bottom-left-radius: 14px;
   border-top-left-radius: 14px;
 }
@@ -241,17 +241,19 @@ pre {
 }
 
 .current-scheme {
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
   visibility: visible;
   opacity: 1;
   position: absolute;
+  -webkit-transition: 0.15s ease-in-out 0.25s;
+  transition:0.15s ease-in-out 0.25s;
 }
 
 #scheme-select:hover .current-scheme,
 #scheme-select.active .current-scheme {
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .scheme-list {
