@@ -1,0 +1,6 @@
+# Byte-compiled / optimized files
+*.py[co]
+__pycache__/
+
+# Wercker
+_release/
