@@ -12,7 +12,7 @@ Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+font
 
 ----
 ##### License
-Open Font License Without Reserved Font Name [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)
+Open Font License Without Reserved Font Name ([FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web))
 
 ----
 ##### Contribute
