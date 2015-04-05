@@ -4,6 +4,7 @@
 ##### Download
 | [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true) | [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true) | [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true) | [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/) |
 | ---- | ---- | ---- | ---- |
+Thank me by :star: here on GitHub and :+1: on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
 
 ##### Contribute
 Please send me whatever modifications you may make - they could be valuable to me/others.
