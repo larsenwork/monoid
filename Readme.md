@@ -9,7 +9,7 @@
 * [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/)
 
 ##### Contribute
-Please send me whatever modifications you may make - they could be valuable to me/others and your name will be added to the list of contributors.
+Please send me whatever modifications you may make - they could be valuable to me/others.
 
 ##### Contributors
 [u/veeti](http://www.reddit.com/user/veeti) - AUR package
