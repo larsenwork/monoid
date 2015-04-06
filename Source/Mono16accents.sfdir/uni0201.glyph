@@ -1,0 +1,14 @@
+StartChar: uni0201
+Encoding: 513 513 299
+Width: 1152
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Refer: 297 783 N 1 0 0 1 0 -128 2
+Refer: 2 97 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
