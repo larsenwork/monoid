@@ -187,4 +187,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 5-1" three.cyrillic
+Substitution2: "'ss02' Style Set 2 in Latin lookup 1-1" three.cyrillic
 EndChar

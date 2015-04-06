@@ -6,7 +6,13 @@ Flags: W
 LayerCount: 5
 Back
 Fore
-Refer: 69 47 S -1 0 0 1 1152 0 2
+SplineSet
+96 1664 m 1
+ 918 -256 l 1
+ 1056 -256 l 1
+ 234 1664 l 1
+ 96 1664 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,0 +1,25 @@
+StartChar: quoteright
+Encoding: 8217 8217 429
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1136 120<384 483.002>
+VStem: 512 128<1302.74 1664>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 1431 m 6
+ 640 1371 639.727500334 1301.2016076 588 1231 c 4
+ 546 1174 474 1136 384 1136 c 5
+ 384 1256 l 5
+ 431 1256 462.879506544 1273.0907765 484 1301 c 4
+ 512 1338 512 1381 512 1431 c 6
+ 512 1664 l 5
+ 640 1664 l 5
+ 640 1431 l 6
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,5 +1,5 @@
 StartChar: one
-Encoding: 49 49 71
+Encoding: 17 49 71
 Width: 896
 VWidth: 0
 Flags: W
@@ -23,5 +23,4 @@ Layer: 2
 Layer: 3
 Layer: 4
 Substitution2: "'ss04' Style Set 4 in Latin lookup 3-1" one.alt
-Substitution2: "'ss06' Style Set 6 in Latin lookup 5-1" one.alt
 EndChar

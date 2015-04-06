@@ -4,12 +4,21 @@ Width: 1152
 VWidth: 0
 Flags: W
 HStem: 1280 256
-VStem: 360 304 616 304
 LayerCount: 5
 Back
 Fore
-Refer: 294 768 N -1 0 0 1 1280 0 2
-Refer: 294 768 S -1 0 0 1 1024 0 2
+SplineSet
+360 1280 m 5
+ 498 1280 l 5
+ 664 1536 l 5
+ 526 1536 l 5
+ 360 1280 l 5
+616 1280 m 5
+ 754 1280 l 5
+ 920 1536 l 5
+ 782 1536 l 5
+ 616 1280 l 5
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: l
-Encoding: 108 108 12
+Encoding: 76 108 12
 Width: 896
 VWidth: 0
 Flags: W
@@ -122,5 +122,4 @@ SplineSet
 EndSplineSet
 Layer: 4
 Substitution2: "'ss05' Style Set 5 in Latin lookup 4-1" l.alt
-Substitution2: "'ss07' Style Set 7 in Latin lookup 6-1" l.alt
 EndChar
