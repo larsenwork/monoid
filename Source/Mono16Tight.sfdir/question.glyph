@@ -1,5 +1,5 @@
 StartChar: question
-Encoding: 31 63 85
+Encoding: 63 63 85
 Width: 896
 VWidth: 0
 Flags: W
@@ -97,6 +97,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
+320 256 m 1xe8
+ 576 256 l 1
+ 576 0 l 1
+ 320 0 l 1
+ 320 256 l 1xe8
 384 512 m 1xd8
  384 796 652 846 652 1092 c 0
  652 1228 571 1304 436 1304 c 0
@@ -107,7 +112,6 @@ SplineSet
  780 806 513 727 512 512 c 1
  384 512 l 1xd8
 EndSplineSet
-Refer: 68 46 S 1 0 0 1 64 0 2
 Layer: 2
 SplineSet
 576 1364 m 4

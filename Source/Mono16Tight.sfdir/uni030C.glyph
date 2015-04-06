@@ -1,13 +1,21 @@
 StartChar: uni030C
-Encoding: 313 780 304
+Encoding: 780 780 304
 Width: 896
 VWidth: 0
 Flags: W
-HStem: 1280 256
 LayerCount: 5
 Back
 Fore
-Refer: 296 770 S 1 0 0 -1 0 2816 2
+SplineSet
+369 1280 m 1
+ 527 1280 l 1
+ 824 1536 l 1
+ 666 1536 l 1
+ 448 1372 l 1
+ 230 1536 l 1
+ 72 1536 l 1
+ 369 1280 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

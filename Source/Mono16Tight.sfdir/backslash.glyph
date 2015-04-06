@@ -1,12 +1,18 @@
 StartChar: backslash
-Encoding: 60 92 26
+Encoding: 92 92 26
 Width: 896
 VWidth: 0
 Flags: W
 LayerCount: 5
 Back
 Fore
-Refer: 69 47 S -1 0 0 1 896 0 2
+SplineSet
+-32 1664 m 1
+ 790 -256 l 1
+ 928 -256 l 1
+ 106 1664 l 1
+ -32 1664 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

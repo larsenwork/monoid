@@ -1,15 +1,25 @@
 StartChar: semicolon
-Encoding: 27 59 81
+Encoding: 59 59 81
 Width: 896
 VWidth: 0
 Flags: W
-HStem: -384 640<256 384> 768 256<256 512>
-VStem: 256 128<-384 -312.32> 256 256<768 1024>
+HStem: 768 256<256 512>
+VStem: 256 256<184.32 256 768 1024> 256 128<-384 -312.32>
 LayerCount: 5
 Back
 Fore
-Refer: 68 46 S 1 0 0 1 0 768 2
-Refer: 67 44 N 1 0 0 1 0 0 2
+SplineSet
+256 256 m 1xc0
+ 512 256 l 1xc0
+ 384 -384 l 1
+ 256 -384 l 1xa0
+ 256 256 l 1xc0
+256 1024 m 1
+ 512 1024 l 1
+ 512 768 l 1
+ 256 768 l 1
+ 256 1024 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: uni00AD
-Encoding: 100 173 96
+Encoding: 173 173 96
 Width: 896
 VWidth: 0
 Flags: W
@@ -8,7 +8,13 @@ VStem: 128 640<644 764>
 LayerCount: 5
 Back
 Fore
-Refer: 55 45 S 1 0 0 1 0 0 2
+SplineSet
+128 764 m 5
+ 768 764 l 5
+ 768 644 l 5
+ 128 644 l 5
+ 128 764 l 5
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

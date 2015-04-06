@@ -1,5 +1,5 @@
 StartChar: macron
-Encoding: 101 175 319
+Encoding: 175 175 319
 Width: 896
 VWidth: 0
 Flags: W
@@ -8,7 +8,13 @@ VStem: 128 640<1156 1276>
 LayerCount: 5
 Back
 Fore
-Refer: 55 45 S 1 0 0 1 0 512 2
+SplineSet
+128 1276 m 5
+ 768 1276 l 5
+ 768 1156 l 5
+ 128 1156 l 5
+ 128 1276 l 5
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

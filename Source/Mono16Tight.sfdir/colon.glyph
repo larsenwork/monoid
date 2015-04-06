@@ -1,5 +1,5 @@
 StartChar: colon
-Encoding: 26 58 80
+Encoding: 58 58 80
 Width: 896
 VWidth: 0
 Flags: W
@@ -8,8 +8,18 @@ VStem: 256 256<0 256 768 1024>
 LayerCount: 5
 Back
 Fore
-Refer: 68 46 S 1 0 0 1 0 768 2
-Refer: 68 46 N 1 0 0 1 0 0 2
+SplineSet
+256 256 m 1
+ 512 256 l 1
+ 512 0 l 1
+ 256 0 l 1
+ 256 256 l 1
+256 1024 m 1
+ 512 1024 l 1
+ 512 768 l 1
+ 256 768 l 1
+ 256 1024 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4
