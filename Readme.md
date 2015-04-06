@@ -1,4 +1,4 @@
-##### More info
+##### Info + Preview
 [andreaslarsen.github.io/mono16](http://andreaslarsen.github.io/mono16)
 
 ----
@@ -15,10 +15,6 @@ Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+font
 Open Font License Without Reserved Font Name ([FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web))
 
 ----
-##### Contribute
-Please send me whatever modifications you may make - they could be valuable to me/others.
-
-----
 ##### Contributors
 [u/veeti](http://www.reddit.com/user/veeti) - AUR package
 
@@ -29,7 +25,3 @@ Drawn over a 16 pt grid with stroke width 128, height 120 and overshoot 16.
 ----
 ##### Questions?
 Don't hesitate to ask!
-
-![image](https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Mono16NormalWhiteLowRes.png?raw=true)
-![image](https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Mono16TightWhiteLowRes.png?raw=true)
-![image](https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Mono16WideWhiteLowRes.png?raw=true)
