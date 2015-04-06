@@ -1,0 +1,29 @@
+StartChar: uni041A
+Encoding: 1050 1050 334
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 880.981 1062> 1388 20G<128 256 802.457 969>
+VStem: 128 128<0 578 765 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 5
+ 128 0 l 5
+ 128 1408 l 5
+ 256 1408 l 5
+ 256 765 l 5
+ 820 1408 l 5
+ 969 1408 l 5
+ 486 827 l 5
+ 1062 0 l 5
+ 895 0 l 5
+ 384 729 l 5
+ 256 578 l 5
+ 256 0 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

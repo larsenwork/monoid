@@ -5,6 +5,7 @@ Version, date, change (headline style), (contributer - if other than @andreaslar
 0.21 2015.04.04 Alternate characters (zeros, @, ~, 1, l)
 0.22 2015.04.04 Semi-condensed version
 0.23 2015.04.06 Updated AVWYfvwy, renamed to Normal, Loose and Tight
+0.24 2015.04.06 Cyrillic support (Normal only)
 
 Roadmap
 Ideas, requests and contributions

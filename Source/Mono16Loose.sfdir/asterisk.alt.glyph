@@ -1,8 +1,8 @@
 StartChar: asterisk.alt
-Encoding: 1114112 -1 101
+Encoding: 1114112 -1 100
 Width: 1152
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 5
 Back
 Fore

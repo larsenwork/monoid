@@ -2,7 +2,7 @@ StartChar: asciicircum
 Encoding: 94 94 89
 Width: 896
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 1299 109<387.565 423 473 508.435>
 VStem: 73 135<896 1017.61> 688 135<896 1017.61>
 LayerCount: 5

@@ -1,5 +1,5 @@
 StartChar: uni030C
-Encoding: 780 780 305
+Encoding: 780 780 304
 Width: 1024
 VWidth: 0
 Flags: W
@@ -7,7 +7,7 @@ HStem: 1280 256
 LayerCount: 5
 Back
 Fore
-Refer: 297 770 S 1 0 0 -1 0 2816 2
+Refer: 296 770 S 1 0 0 -1 0 2816 2
 Layer: 2
 Layer: 3
 Layer: 4

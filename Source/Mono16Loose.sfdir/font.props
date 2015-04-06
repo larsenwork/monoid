@@ -6,7 +6,7 @@ Weight: Normal
 Copyright: Copyright (c) 2015, @andreaslarsendk
 UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
 FontLog: "0.1 - 03.04.15 Latin characters+AAoA-0.2 - 04.04.15 Latin extended (00C0-017E)"
-Version: 0.22
+Version: 0.23
 ItalicAngle: 0
 UnderlinePosition: -262
 UnderlineWidth: 131
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428302961
+ModificationTime: 1428335952
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 7
@@ -61,7 +61,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 19 14
+WinInfo: 57 19 14
 BeginPrivate: 0
 EndPrivate
 Grid

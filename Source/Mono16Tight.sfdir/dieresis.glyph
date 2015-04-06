@@ -1,5 +1,5 @@
 StartChar: dieresis
-Encoding: 168 168 317
+Encoding: 168 168 316
 Width: 896
 VWidth: 0
 Flags: W
@@ -8,8 +8,8 @@ VStem: 112 224<1157.03 1338.97> 560 224<1157.03 1338.97>
 LayerCount: 5
 Back
 Fore
-Refer: 301 775 S 1 0 0 1 224 -192 2
-Refer: 301 775 S 1 0 0 1 -224 -192 2
+Refer: 300 775 S 1 0 0 1 224 -192 2
+Refer: 300 775 S 1 0 0 1 -224 -192 2
 Layer: 2
 Layer: 3
 Layer: 4
