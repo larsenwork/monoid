@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1428220639
-ModificationTime: 1428223166
+ModificationTime: 1428302145
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,6 +37,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1

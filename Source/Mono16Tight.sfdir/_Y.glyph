@@ -2,7 +2,7 @@ StartChar: Y
 Encoding: 89 89 52
 Width: 896
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21G<384 512> 1388 20G<5 160.309 735.691 891>
 VStem: 5 125<1242.39 1408> 384 128<0 675.518> 766 125<1242.39 1408>
 CounterMasks: 1 38
