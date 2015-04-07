@@ -56,10 +56,10 @@
             <br>Bold punctuation&nbsp;&nbsp;&nbsp;.,:;·!?
             <br>Big operators&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-*=&lt;&gt;%
             <br>Distinguishable&nbsp;&nbsp;&nbsp;&nbsp;1Il| 0Oo ~-_ ([{ “”"
-            <br>Alternates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="alt">01234</span> <a href="https://github.com/andreaslarsen/mono16/blob/master/Resources/Readme.pdf" target="_blank">Guide</a>
+            <br>Alternates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="alternates">0<span class="slashed">0</span><span class="dotless">0</span> 1<span class="one">1</span> 3<span class="three">3</span> *<span class="asterisk">*</span> l<span class="lll">l</span> </span><a href="https://github.com/andreaslarsen/mono16/blob/master/Resources/Readme.pdf" target="_blank">Guide</a>
             <br>Diacritics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AÅÄÃA EÉËÊE hĥħh
             <br>
-            <br><span class="small">*Note that Mono16 Tight+Loose are currently "behind" Normal and thus not displayed here. They will be updated as soon as the <a href="https://github.com/andreaslarsen/mono16/issues/2">font builder</a> is complete.</span>
+            <br><span class="small">*Mono16 Tight+Loose will be updated soon.</span>
         </p>
         <h2>~500 Characters</h2>
         <p class="charmap">ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -79,7 +79,25 @@
 
     </section>
 
-    <h2>Preview</h2>
+    <h2 id="preview">Preview</h2>
+    <div id="settings">
+        <p>
+            <input id="dotted" type="radio" name="zero" checked="checked">
+            <label for="dotted" class="default">0</label>
+            <input id="zero" type="radio" name="zero">
+            <label for="zero" class="slashed">0</label>
+            <input id="ss03" type="radio" name="zero">
+            <label for="ss03" class="dotless">0</label>
+            <input id="ss02" type="checkbox">
+            <label for="ss02" class="three">3</label>
+            <input id="ss05" type="checkbox">
+            <label for="ss05" class="lll">l</label>
+            <input id="ss01" type="checkbox">
+            <label for="ss01" class="asterisk">*</label>
+            <input id="ss04" type="checkbox">
+            <label for="ss04" class="one">1</label>
+        </p>
+    </div>
     <div class="dark code">
         <pre><code class="language-swift" data-font="Mono16 Normal">func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
@@ -158,8 +176,48 @@ def hello():
 
 print hello() ## returns <b><i>hello world</i></b></code></pre>
     </div>
+    <div id="safarialert">Use Chrome/Firefox to see + testdrive alternate characters.</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+    </script>
 
 
+    <script>
+        $(function () {
+            if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+                $('body').addClass("safari")
+            }
+
+            function refreshFeatures() {
+                var codeCSS3 = "";
+                if ($("#ss01").is(":checked")) {
+                    codeCSS3 += '"ss01" ,'
+                }
+                if ($("#ss02").is(":checked")) {
+                    codeCSS3 += '"ss02" ,'
+                }
+                if ($("#ss03").is(":checked")) {
+                    codeCSS3 += '"ss03" ,'
+                }
+                if ($("#ss04").is(":checked")) {
+                    codeCSS3 += '"ss04" ,'
+                }
+                if ($("#ss05").is(":checked")) {
+                    codeCSS3 += '"ss05" ,'
+                }
+                if ($("#zero").is(":checked")) {
+                    codeCSS3 += '"zero" ,'
+                }
+                codeCSS3 = codeCSS3.substring(0, codeCSS3.length - 2);
+                $('body').css("font-feature-settings", codeCSS3);
+            };
+            $('#zero, #ss01, #ss02, #ss03, #ss04, #ss05, #dotted').change(function () {
+                refreshFeatures();
+            });
+        });
+    </script>
 </body>
 
 </html>
