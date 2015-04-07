@@ -159,26 +159,32 @@ header * {
     line-height: 1em;
     margin-bottom: 0;
 }
+
 header h1 {
     font-size: 147px;
     margin-left: -2px;
 }
+
 header .widths {
     font-size: 41px;
 }
 
 h2,
 h3 {
-    font-size: 1.618em;
-    line-height: 33px;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top: 40px;
 }
 
 h3 {
     margin-bottom: 22px;
 }
+
 .small {
     font-size: 12px;
 }
+
 ::-moz-selection {
     background-color: #B02F30;
     color: #c0c5ce;
@@ -242,7 +248,7 @@ a {
 }
 
 .code {
-    margin-bottom: 60px;
+    margin-bottom: 66px;
 }
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+python+ruby+swift&plugins=line-numbers+show-language */
 /**
@@ -269,7 +275,7 @@ pre[class*="language-"] {
 
 pre[class*='language-'] {
     position: relative;
-    padding: 50px 30px 36px;
+    padding: 54px 30px 36px;
     border-radius: 16px;
 }
 
