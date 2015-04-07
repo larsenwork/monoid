@@ -1,7 +1,7 @@
 # Mono16
 [Webpage](http://andreaslarsen.github.io/mono16) - preview + more info<br> 
 [Download](#download)<br> 
-[Thank me](#download)<br> 
+[Thank me](#thanks)<br> 
 [License](#license)<br> 
 [Contributors](#team-members)<br> 
 
