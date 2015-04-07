@@ -136,11 +136,49 @@ body {
     font-size: 16px !important;
     -webkit-font-smoothing: antialiased;
     font-family: "mono16normal", monospace;
-    line-height: 21px;
-    max-width: 1200px;
+    line-height: 24px;
+    max-width: 1100px;
     color: #2a343a;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+header {
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+header * {
+    line-height: 1em;
+    margin-bottom: 0;
+}
+header h1 {
+    font-size: 147px;
+    margin-left: -2px;
+}
+header .widths {
+    font-size: 41px;
+}
+
+h2,
+h3 {
+    font-size: 1.618em;
+    line-height: 33px;
+}
+
+h3 {
+    margin-bottom: 22px;
+}
+.small {
+    font-size: 12px;
+}
 ::-moz-selection {
     background-color: #B02F30;
     color: #c0c5ce;
@@ -157,7 +195,7 @@ body {
 
 .blabla,
 svg {
-    max-width: 460px;
+    max-width: 420px;
     margin: 0 auto 100px;
 }
 
@@ -165,6 +203,7 @@ svg {
     position: absolute;
     width: 100%;
     padding: 20%;
+    top: 20px;
     pointer-events: none;
     box-sizing: border-box;
 }
@@ -183,11 +222,13 @@ svg {
     box-sizing: border-box;
 }
 
-code[data-font='Mono16 Tight'] {
+code[data-font='Mono16 Tight'],
+.tight {
     font-family: 'mono16tight';
 }
 
-code[data-font='Mono16 Loose'] {
+code[data-font='Mono16 Loose'],
+.loose {
     font-family: 'mono16loose';
 }
 
@@ -433,3 +474,11 @@ pre[class*='language-'] > code[data-language]::after {
     color: #4f5b66;
     background-color: rgba(255, 255, 255, 0.3);
 }
+/*
+
+@media (max-width: 470px) {
+    .bigonly {
+        display: none;
+    }
+}
+*/
