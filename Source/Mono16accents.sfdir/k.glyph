@@ -1,9 +1,9 @@
 StartChar: k
 Encoding: 107 107 11
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
-HStem: 0 21G<256 384 833.964 1002> 1004 20G<764.815 955> 1516 20G<256 384>
+Flags: W
+HStem: 0 21G<256 384 833.964 1002> 1004 20G<764.815 955>
 VStem: 256 128<0 435 607 1536>
 AnchorPoint: "bottom" 576 0 basechar 0
 LayerCount: 5

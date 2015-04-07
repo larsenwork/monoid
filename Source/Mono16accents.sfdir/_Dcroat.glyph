@@ -1,8 +1,11 @@
 StartChar: Dcroat
 Encoding: 272 272 186
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 120<384 697.496> 644 120<128 256 384 640> 1288 120<384 696.764>
+VStem: 256 128<120 644 764 1288> 912 128<352.628 1040.49>
+CounterMasks: 1 e0
 LayerCount: 5
 Back
 Fore

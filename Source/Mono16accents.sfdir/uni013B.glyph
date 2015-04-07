@@ -1,8 +1,10 @@
 StartChar: uni013B
 Encoding: 315 315 285
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
+Flags: W
+HStem: -528 120<384 483.002> 0 120<384 1024> 1260 20G<256 384>
+VStem: 256 128<120 1280> 512 128<-361.261 -128>
 LayerCount: 5
 Back
 Fore

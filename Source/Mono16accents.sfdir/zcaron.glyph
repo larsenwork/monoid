@@ -1,8 +1,9 @@
 StartChar: zcaron
 Encoding: 382 382 244
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
+Flags: HW
+HStem: 0 120<401 896> 904 120<276 730.92>
 LayerCount: 5
 Back
 Fore
@@ -20,14 +21,14 @@ SplineSet
  731 894 l 1
  730.919921875 904 l 1
  276 904 l 1
-497 1152 m 5
- 655 1152 l 5
- 952 1408 l 5
- 794 1408 l 5
- 576 1244.03710938 l 5
- 358 1408 l 5
- 200 1408 l 5
- 497 1152 l 5
+497 1152 m 1
+ 655 1152 l 1
+ 952 1408 l 1
+ 794 1408 l 1
+ 576 1244.03710938 l 1
+ 358 1408 l 1
+ 200 1408 l 1
+ 497 1152 l 1
 EndSplineSet
 Layer: 2
 Layer: 3

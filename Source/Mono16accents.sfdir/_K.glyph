@@ -1,8 +1,8 @@
 StartChar: K
 Encoding: 75 75 39
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<128 256 880.981 1062> 1388 20G<128 256 802.457 969>
 VStem: 128 128<0 578 765 1408>
 AnchorPoint: "bottom" 576 0 basechar 0

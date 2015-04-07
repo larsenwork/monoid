@@ -1,8 +1,8 @@
 StartChar: s
 Encoding: 115 115 19
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -16 120<260.566 720.345> 920 120<413.623 843.839>
 VStem: 234 128<687.599 867.607> 800 128<183.035 441.813>
 AnchorPoint: "bottom" 704 0 basechar 0

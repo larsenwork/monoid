@@ -1,8 +1,8 @@
 StartChar: dotlessi
 Encoding: 305 305 129
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 120<256 512 640 896> 904 120<256 512>
 VStem: 512 128<120 904>
 AnchorPoint: "bottom" 832 0 basechar 0

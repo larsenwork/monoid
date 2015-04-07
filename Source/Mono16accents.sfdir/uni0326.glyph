@@ -1,8 +1,8 @@
 StartChar: uni0326
 Encoding: 806 806 273
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -528 120<384 483.002>
 VStem: 512 128<-361.261 -128>
 AnchorPoint: "bottom" 576 0 mark 0

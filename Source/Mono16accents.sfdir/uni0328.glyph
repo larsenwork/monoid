@@ -1,9 +1,9 @@
 StartChar: uni0328
 Encoding: 808 808 171
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
-HStem: -400 120<395.912 638.146> -20 20G<480.5 639>
+Flags: W
+HStem: -400 120<395.912 638.146> -20 20G<481.38 640>
 VStem: 256 128<-262.716 -135.229>
 AnchorPoint: "bottom" 576 0 mark 0
 LayerCount: 5

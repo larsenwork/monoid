@@ -3,21 +3,22 @@ Encoding: 161 161 101
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 448 256
+HStem: 768 256<448 704>
+VStem: 448 256<768 1024> 502 148<-384 512>
 LayerCount: 5
 Back
 Fore
 SplineSet
-448 640 m 1
- 704 640 l 1
- 704 896 l 1
- 448 896 l 1
- 448 640 l 1
-640 384 m 1
- 512 384 l 1
- 502 -512 l 1
- 650 -512 l 1
- 640 384 l 1
+448 768 m 5xc0
+ 448 1024 l 5
+ 704 1024 l 5
+ 704 768 l 5
+ 448 768 l 5xc0
+640 512 m 5
+ 650 -384 l 5
+ 502 -384 l 5xa0
+ 512 512 l 5
+ 640 512 l 5
 EndSplineSet
 Layer: 2
 Layer: 3

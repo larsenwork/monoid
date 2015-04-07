@@ -2,7 +2,7 @@ StartChar: zero
 Encoding: 48 48 0
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 Fore

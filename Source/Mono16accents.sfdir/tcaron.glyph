@@ -1,8 +1,10 @@
 StartChar: tcaron
 Encoding: 357 357 296
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -16 120<572.655 893.284> 898 126<128 384 512 896> 1260 20G<384 512 631 759>
+VStem: 384 128<164.223 898 1024 1280> 631 128<640 1280>
 LayerCount: 5
 Back
 Fore

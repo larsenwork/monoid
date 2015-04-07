@@ -4,14 +4,15 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 1280 256
+VStem: 488 304
 LayerCount: 5
 Back
 Fore
 SplineSet
 488 1280 m 5
- 626 1280 l 5
- 792 1536 l 5
  654 1536 l 5
+ 792 1536 l 5
+ 626 1280 l 5
  488 1280 l 5
 EndSplineSet
 Layer: 2

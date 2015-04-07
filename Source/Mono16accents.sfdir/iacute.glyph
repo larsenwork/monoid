@@ -1,10 +1,10 @@
 StartChar: iacute
 Encoding: 237 237 143
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
-HStem: 0 120<256 512 640 896> 904 120<256 512>
-VStem: 512 128<120 904>
+Flags: W
+HStem: 0 120<256 512 640 896> 904 120<256 512> 1152 256
+VStem: 488 304 512 128<120 904>
 LayerCount: 5
 Back
 Fore

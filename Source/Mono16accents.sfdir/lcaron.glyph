@@ -1,9 +1,9 @@
 StartChar: lcaron
 Encoding: 318 318 283
-Width: 1152
+Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<540.664 766.027> 1024 21G<768 896> 1516 20G<384 512>
+HStem: -16 120<540.664 766.027> 1024 21G<768 896>
 VStem: 384 128<149.787 1536> 768 128<1024 1664>
 LayerCount: 5
 Back

@@ -1,8 +1,10 @@
 StartChar: hcircumflex
 Encoding: 293 293 272
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
+Flags: W
+HStem: 0 21G<256 384 768 896> 920 120<471.275 704.332> 1260 20G<256 384> 1408 21G<200 384.591 767.409 952>
+VStem: 256 128<0 857.984 912 1280> 768 128<0 854.076>
 LayerCount: 5
 Back
 Fore

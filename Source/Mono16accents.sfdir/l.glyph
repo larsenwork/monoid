@@ -1,12 +1,12 @@
 StartChar: l
 Encoding: 108 108 12
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: HW
-HStem: -16 120<668.725 894.027> 1260 20G<512 640>
-VStem: 512 128<149.787 1280>
+Flags: W
+HStem: -16 120<668.725 894.027> 1132 20G<512 640>
+VStem: 512 128<149.787 1152>
 AnchorPoint: "bottom" 704 0 basechar 0
-AnchorPoint: "top" 576 1280 basechar 0
+AnchorPoint: "top" 576 1152 basechar 0
 LayerCount: 5
 Back
 SplineSet
@@ -85,8 +85,8 @@ SplineSet
  853 -9 808 -16 758 -16 c 0
  686 -16 627 9 585 52 c 0
  512 128 512 218 512 279 c 2
- 512 1280 l 1
- 640 1280 l 1
+ 512 1152 l 5
+ 640 1152 l 5
  640 279 l 2
  640 232 640 186 668 148 c 0
  688 121 719 104 768 104 c 0

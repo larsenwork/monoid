@@ -1,8 +1,11 @@
 StartChar: uni0145
 Encoding: 325 325 288
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
+Flags: W
+HStem: -528 120<384 483.002> 0 21G<128 256 883.647 1024> 1260 20G<128 267.373 896 1024>
+VStem: 128 128<0 1020> 512 128<-361.261 -128> 896 128<260 1280>
+CounterMasks: 1 1c
 LayerCount: 5
 Back
 Fore

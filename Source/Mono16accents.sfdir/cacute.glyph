@@ -1,8 +1,10 @@
 StartChar: cacute
 Encoding: 263 263 181
-Width: 1152
+Width: 1024
 VWidth: 0
-Flags: H
+Flags: HW
+HStem: -16 120<450.346 890.029> 920 120<450.346 890.029>
+VStem: 224 128<209.807 814.193>
 LayerCount: 5
 Back
 Fore
