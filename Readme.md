@@ -1,9 +1,9 @@
-# Mono16 - Open Source Coding Fonts
+<!--# Mono16 - Open Source Coding Fonts
 [Download](#download)<br> 
 [Thank me](#thanks)<br> 
 [License](#license)<br> 
 [Contributors](#team-members)<br> 
-
+-->
 ### <a name="download"></a>Download
 [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true)<br> [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true)<br> [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true)<br>
 [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/)
