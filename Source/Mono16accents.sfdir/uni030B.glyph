@@ -4,13 +4,13 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 1280 256
-VStem: 360 304 616 304
+VStem: 360 304 744 304
 AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore
-Refer: 104 768 N -1 0 0 1 1280 0 2
-Refer: 104 768 S -1 0 0 1 1024 0 2
+Refer: 104 768 S -1 0 0 1 1408 0 2
+Refer: 104 768 N -1 0 0 1 1024 0 2
 Layer: 2
 Layer: 3
 Layer: 4
