@@ -1,5 +1,4 @@
 # Mono16 - Open Source Coding Fonts
-[Webpage](http://andreaslarsen.github.io/mono16) - preview + more info<br> 
 [Download](#download)<br> 
 [Thank me](#thanks)<br> 
 [License](#license)<br> 
