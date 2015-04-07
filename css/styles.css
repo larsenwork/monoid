@@ -131,7 +131,7 @@ ul {
 }
 
 body {
-    margin: 120px auto;
+    margin: 0px auto 120px;
     padding: 0 5%;
     font-size: 16px !important;
     -webkit-font-smoothing: antialiased;
@@ -141,6 +141,13 @@ body {
     color: #2a343a;
 }
 
+.small {
+    font-size: 13px;
+}
+.charmap {
+    word-wrap: break-word;
+    letter-spacing: .5em;
+}
 h1,
 h2,
 h3 {
@@ -149,10 +156,19 @@ h3 {
 
 header {
     text-align: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    height: 80vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 header * {
@@ -161,12 +177,12 @@ header * {
 }
 
 header h1 {
-    font-size: 147px;
+    font-size: 18vw;
     margin-left: -2px;
 }
 
-header .widths {
-    font-size: 41px;
+header p {
+    font-size: 4.3vw;
 }
 
 h2,
@@ -225,6 +241,12 @@ svg {
 }
 
 code[data-font='Mono16 Tight'],
+.tight, code[data-font='Mono16 Loose'],
+.loose {
+    display: none !important;
+}
+
+code[data-font='Mono16 Tight'],
 .tight {
     font-family: 'mono16tight';
 }
@@ -239,7 +261,7 @@ code[data-font='Mono16 Loose'],
 }
 
 a {
-    color: #60aaea;
+    color: #3896e6;
     text-decoration: none;
 }
 
