@@ -44,20 +44,20 @@
         </div>
     </header>
     <section class="blabla">
-        <h2>Open Source</h2>
         <p>Download, issues &amp; contribute on <a href="https://github.com/andreaslarsen/Mono16">Github</a>
         </p>
         <h2>Design</h2>
         <p>Minimal, legible and sharp looking at 16px even on low resolution displays while still looking decent at bigger sizes.</p>
-        <h2>MadeForCoding</h2>
+        <h2>Features</h2>
         <p>Semi-narrow letters with 3 letter spacing options allows for long lines of code.*
             <br>The short ascenders/descenders + "squeezed" capitals with diacritics prevents overlap even with tight line spacing.
             <br>
             <br>Bold punctuation&nbsp;&nbsp;&nbsp;.,:;·!?
             <br>Big operators&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-*=&lt;&gt;%
+            <br>Big apertures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;acefgs
             <br>Distinguishable&nbsp;&nbsp;&nbsp;&nbsp;1Il| 0Oo ~-_ ([{ “”"
             <br>Alternates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="alternates">0<span class="slashed">0</span><span class="dotless">0</span> 1<span class="one">1</span> 3<span class="three">3</span> *<span class="asterisk">*</span> l<span class="lll">l</span> </span><a href="https://github.com/andreaslarsen/mono16/blob/master/Resources/Readme.pdf" target="_blank">Guide</a>
-            <br>Diacritics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AÅÄÃA EÉËÊE hĥħh
+            <br>Squeeze&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AÅÄÃA EÉËÊE hĥħh
             <br>
             <br><span class="small">*Mono16 Tight+Loose will be updated soon.</span>
         </p>
@@ -79,7 +79,6 @@
 
     </section>
 
-    <h2 id="preview">Preview</h2>
     <div id="settings">
         <p>
             <input id="dotted" type="radio" name="zero" checked="checked">
@@ -120,23 +119,27 @@
     </div>
 
     <div class="code">
-        <pre><code class="language-javascript" data-font="Mono16 Normal">(function () {
-
-    if (!self.Prism) {
-        return;
+        <pre><code class="language-javascript" data-font="Mono16 Normal">
+$(function () {
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+        $('body').addClass("safari")
     }
 
-    var Languages = {
-        'csharp': 'C#',
-        'cpp': 'C++'
+    function refreshFeatures() {
+        var FontFeature = "";
+        if ($("#ss01").is(":checked")) {
+            FontFeature += '"ss01" ,'
+        }
+        if ($("#ss02").is(":checked")) {
+            FontFeature += '"ss02" ,'
+        }
+        FontFeature = FontFeature.substring(0, FontFeature.length - 2);
+        $('body').css("font-feature-settings", FontFeature);
     };
-
-    Prism.hooks.add('before-highlight', function (env) {
-        var language = Languages[env.language] || env.language;
-        env.element.setAttribute('data-language', language);
+    $('#zero, #ss01, #ss02').change(function () {
+        refreshFeatures();
     });
-
-})();
+});
 </code></pre>
     </div>
 
@@ -176,6 +179,16 @@ def hello():
 
 print hello() ## returns <b><i>hello world</i></b></code></pre>
     </div>
+
+    <div class="code dark">
+        <pre><code class="language-ruby" data-font="Mono16 Normal">  x = 1           #=>1
+  x += x          #=>2
+  x -= x          #=>0
+  x += 4          #=>x was 0 so x= + 4 # x is positive 4
+  x *= x          #=>16
+  x **= x         #=>18446744073709551616 # Raise to the power
+  x /= x          #=>1</code></pre>
+    </div>
     <div id="safarialert">Use Chrome/Firefox to see + testdrive alternate characters.</div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -191,27 +204,27 @@ print hello() ## returns <b><i>hello world</i></b></code></pre>
             }
 
             function refreshFeatures() {
-                var codeCSS3 = "";
+                var FontFeature = "";
                 if ($("#ss01").is(":checked")) {
-                    codeCSS3 += '"ss01" ,'
+                    FontFeature += '"ss01" ,'
                 }
                 if ($("#ss02").is(":checked")) {
-                    codeCSS3 += '"ss02" ,'
+                    FontFeature += '"ss02" ,'
                 }
                 if ($("#ss03").is(":checked")) {
-                    codeCSS3 += '"ss03" ,'
+                    FontFeature += '"ss03" ,'
                 }
                 if ($("#ss04").is(":checked")) {
-                    codeCSS3 += '"ss04" ,'
+                    FontFeature += '"ss04" ,'
                 }
                 if ($("#ss05").is(":checked")) {
-                    codeCSS3 += '"ss05" ,'
+                    FontFeature += '"ss05" ,'
                 }
                 if ($("#zero").is(":checked")) {
-                    codeCSS3 += '"zero" ,'
+                    FontFeature += '"zero" ,'
                 }
-                codeCSS3 = codeCSS3.substring(0, codeCSS3.length - 2);
-                $('body').css("font-feature-settings", codeCSS3);
+                FontFeature = FontFeature.substring(0, FontFeature.length - 2);
+                $('body').css("font-feature-settings", FontFeature);
             };
             $('#zero, #ss01, #ss02, #ss03, #ss04, #ss05, #dotted').change(function () {
                 refreshFeatures();
@@ -219,5 +232,4 @@ print hello() ## returns <b><i>hello world</i></b></code></pre>
         });
     </script>
 </body>
-
 </html>
