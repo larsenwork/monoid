@@ -11,7 +11,7 @@
 
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="Mono16">
-    <meta itemprop="description" content="Mono16 Open Source Coding Fonts">
+    <meta itemprop="description" content="Mono16 Open Source Coding Font">
     <meta itemprop="image" content="">
 
     <!-- Twitter Card data -->
@@ -30,7 +30,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:description" content="Mono16 Open Source Coding Fonts">
+    <meta property="og:description" content="Mono16 Open Source Coding Font">
 
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
@@ -40,7 +40,7 @@
     <header>
         <div>
             <h1>Mono16</h1>
-            <h3>Open Source Coding Fonts</h3>
+            <h3>Open Source Coding Font</h3>
             <p>Download, issues &amp; contribute on <a href="https://github.com/andreaslarsen/Mono16">Github</a>
             </p>
         </div>
@@ -107,7 +107,7 @@
             <label for="ss01">&#xE000;</label></span>
             <span><input id="ss04" type="checkbox">
             <label for="ss04">&#xE003;</label></span>
-            <br> Line spacing <span id="plus">+</span> <span id="minus">÷</span> <span id="fontdefault">1</span>
+            <br> Line Height in px: <span class="clickme" id="17">17</span> <span class="clickme active" id="18">18</span> <span class="clickme" id="19">19</span> <span class="clickme" id="20">20</span> <span class="clickme" id="21">21</span> <span class="clickme" id="22">22</span> <span class="clickme" id="23">23</span> <span class="clickme" id="24">24</span></span>
         </p>
     </div>
     <div class="dark code">
@@ -193,13 +193,13 @@ print hello() ## returns <b><i>hello world</i></b></code></pre>
     </div>
 
     <div class="code dark">
-        <pre><code class="language-ruby" data-font="Mono16 Normal">  x = 1           #=>1
-  x += x          #=>2
-  x -= x          #=>0
-  x += 4          #=>x was 0 so x= + 4 # x is positive 4
-  x *= x          #=>16
-  x **= x         #=>18446744073709551616 # Raise to the power
-  x /= x          #=>1</code></pre>
+        <pre><code class="language-ruby" data-font="Mono16 Normal">x = 1           #=>1
+x += x          #=>2
+x -= x          #=>0
+x += 4          #=>x was 0 so x= + 4 # x is positive 4
+x *= x          #=>16
+x **= x         #=>18446744073709551616 # Raise to the power
+x /= x          #=>1</code></pre>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -251,8 +251,45 @@ print hello() ## returns <b><i>hello world</i></b></code></pre>
                 LineString += "px";
                 $('.code').css("line-height", LineString);
             });
-            $("#fontdefault").on("click touch", function () {
-                $('.code').css("line-height", "16px");
+            $("#17").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "17px");
+            });
+            $("#18").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "18px");
+            });
+            $("#19").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "19px");
+            });
+            $("#20").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "20px");
+            });
+            $("#21").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "21px");
+            });
+            $("#22").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "22px");
+            });
+            $("#23").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "23px");
+            });
+            $("#24").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "24px");
             });
         });
     </script>

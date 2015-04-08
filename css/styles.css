@@ -117,11 +117,6 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
-
-p {
-    margin-bottom: 2em;
-}
-
 ol,
 ul {
     list-style: none;
@@ -133,7 +128,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "mono16normal", monospace;
-    line-height: 1.5;
     color: hsl(210, 10%, 10%);
     font-size: 16px;
     max-width: 1500px;
@@ -141,7 +135,10 @@ body {
 
 p {
     font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
 }
+
 
 .charmap {
     word-wrap: break-word;
@@ -169,22 +166,16 @@ p {
     display: block;
 }
 
-#plus,
-#minus,
-#fontdefault {
+.clickme {
     color: #3896e6;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.6rem;
-    -webkit-transform: translateY(3px);
-    -ms-transform: translateY(3px);
-    transform: translateY(3px)
+}
+.active {
+    text-decoration: underline;
 }
 
-label {
+label, .clickme {
     cursor: pointer;
     margin-right: .5em;
-    color: black;
 }
 
 #settings span {
@@ -323,6 +314,9 @@ a {
 .code {
     margin-bottom: 66px;
 }
+code {
+    overflow-y: hidden !important;
+}
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+python+ruby+swift&plugins=line-numbers+show-language */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
@@ -348,7 +342,7 @@ pre[class*="language-"] {
 
 pre[class*='language-'] {
     position: relative;
-    padding: 3em 2em 2.8em;
+    padding: 3em 2em 2em;
     border-radius: 1em;
 }
 
