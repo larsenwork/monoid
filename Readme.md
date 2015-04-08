@@ -8,7 +8,7 @@
 [Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true)<br> [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true)<br> [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true)<br>
 [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/)
 
-Note that Loose+Tight are currently a bit behind - e.g. longer ascenders/descenders + no cyrillics.
+Note that Loose+Tight are currently a bit "behind" - e.g. longer ascenders/descenders + no cyrillics.
 
 ### <a name="thanks"></a>Thank me 
 Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmono16%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/mono16/), ★ here on GitHub and 👍 on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
