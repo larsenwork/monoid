@@ -562,6 +562,9 @@ pre[class*='language-'] > code[data-language]::after {
     .charmap {
         letter-spacing: 10px;
     }
+    h3 {
+        display: none;
+    }
 }
 @media (min-width: 501px) {
     .charmap {
