@@ -336,6 +336,7 @@ header p {
 
 h2 {
     color: black;
+    margin-left: -1px;
 }
 
 h2,
