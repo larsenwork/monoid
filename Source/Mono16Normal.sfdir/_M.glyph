@@ -7,13 +7,6 @@ HStem: 0 21G<128 256 896 1024> 1388 20G<128 266.032 886 1024>
 VStem: 128 128<0 1150> 896 128<0 1150>
 LayerCount: 5
 Back
-SplineSet
-192 0 m 29
- 192 1521 l 29
- 576 900 l 29
- 960 1521 l 29
- 960 0 l 1053
-EndSplineSet
 Fore
 SplineSet
 256 0 m 5
@@ -35,6 +28,13 @@ SplineSet
  256 0 l 5
 EndSplineSet
 Layer: 2
+SplineSet
+192 0 m 29
+ 192 1521 l 29
+ 576 900 l 29
+ 960 1521 l 29
+ 960 0 l 1053
+EndSplineSet
 Layer: 3
 Layer: 4
 EndChar

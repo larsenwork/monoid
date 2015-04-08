@@ -6,11 +6,6 @@ Flags: W
 VStem: 256 639
 LayerCount: 5
 Back
-SplineSet
-136 67 m 5
- 857 576 l 5
- 136 1085 l 1029
-EndSplineSet
 Fore
 SplineSet
 895 355 m 1
@@ -24,6 +19,11 @@ SplineSet
  895 355 l 1
 EndSplineSet
 Layer: 2
+SplineSet
+136 67 m 5
+ 857 576 l 5
+ 136 1085 l 1029
+EndSplineSet
 Layer: 3
 Layer: 4
 EndChar

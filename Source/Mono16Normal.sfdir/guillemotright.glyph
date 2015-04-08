@@ -1,16 +1,11 @@
 StartChar: guillemotright
-Encoding: 187 187 313
+Encoding: 187 187 312
 Width: 1024
 VWidth: 0
 Flags: W
 HStem: 1019 20G<288.412 333.965 672.412 717.965>
 LayerCount: 5
 Back
-SplineSet
-520 147 m 5
- 841 576 l 5
- 520 1005 l 1029
-EndSplineSet
 Fore
 SplineSet
 515 581 m 5
@@ -33,6 +28,11 @@ SplineSet
  899 581 l 5
 EndSplineSet
 Layer: 2
+SplineSet
+520 147 m 5
+ 841 576 l 5
+ 520 1005 l 1029
+EndSplineSet
 Layer: 3
 Layer: 4
 EndChar

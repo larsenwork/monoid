@@ -1,5 +1,5 @@
 StartChar: Ecircumflex
-Encoding: 202 202 110
+Encoding: 202 202 109
 Width: 1024
 VWidth: 0
 Flags: W
@@ -27,7 +27,7 @@ SplineSet
  655 1536 l 1
  952 1280 l 1
  794 1280 l 1
- 576 1443.96289062 l 1
+ 576 1444 l 1
  358 1280 l 1
  200 1280 l 1
  497 1536 l 1

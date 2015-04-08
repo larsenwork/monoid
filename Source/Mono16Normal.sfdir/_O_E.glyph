@@ -1,5 +1,5 @@
 StartChar: OE
-Encoding: 338 338 254
+Encoding: 338 338 253
 Width: 1024
 VWidth: 0
 Flags: W
@@ -8,30 +8,6 @@ VStem: 112 128<286.47 1121.53> 640 128<120 644 764 1288>
 CounterMasks: 1 e0
 LayerCount: 5
 Back
-SplineSet
-640 508 m 1xfa
- 640 1288 l 1
- 412 1288 l 1
- 342 1060 295 800 263 508 c 1
- 640 508 l 1xfa
-640 388 m 1
- 242 388 l 1
- 238 278 238 155 238 0 c 1
- 103 0 l 1
- 103 496 187 971 357 1408 c 5
- 1024 1408 l 5
- 1024 1288 l 5xfc
- 768 1288 l 5
- 768 764 l 5xfa
- 1024 764 l 5
- 1024 644 l 5xfc
- 768 644 l 5
- 768 120 l 5xfa
- 1024 120 l 5
- 1024 0 l 5
- 640 0 l 5xfc
- 640 388 l 1
-EndSplineSet
 Fore
 SplineSet
 112 704 m 4

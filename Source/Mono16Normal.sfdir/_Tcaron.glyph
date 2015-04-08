@@ -1,5 +1,5 @@
 StartChar: Tcaron
-Encoding: 356 356 287
+Encoding: 356 356 286
 Width: 1024
 VWidth: 0
 Flags: W
@@ -22,7 +22,7 @@ SplineSet
  655 1280 l 1
  952 1536 l 1
  794 1536 l 1
- 576 1372.03710938 l 1
+ 576 1372 l 1
  358 1536 l 1
  200 1536 l 1
  497 1280 l 1
