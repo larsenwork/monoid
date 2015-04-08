@@ -92,7 +92,7 @@
     <div id="settings">
 
         <h2>Live Preview</h2>
-        <p><span id="safarialert">Use Chrome/Firefox to preview the alternates.<br></span>
+        <p><span id="safarialert">Use Chrome/Firefox to preview the alternates.<br></span>Alternates:
             <span><input id="dotted" type="radio" name="zero" checked="checked">
             <label for="dotted" class="default">0</label></span>
             <span><input id="zero" type="radio" name="zero">
@@ -107,7 +107,7 @@
             <label for="ss01">&#xE000;</label></span>
             <span><input id="ss04" type="checkbox">
             <label for="ss04">&#xE003;</label></span>
-            <br> Line Height in px: <span class="clickme" id="17">17</span> <span class="clickme active" id="18">18</span> <span class="clickme" id="19">19</span> <span class="clickme" id="20">20</span> <span class="clickme" id="21">21</span> <span class="clickme" id="22">22</span> <span class="clickme" id="23">23</span> <span class="clickme" id="24">24</span></span>
+            <br> Line Height in px: <span class="clickme" id="16">16</span> <span class="clickme" id="17">17</span> <span class="clickme active" id="18">18</span> <span class="clickme" id="19">19</span> <span class="clickme" id="20">20</span> <span class="clickme" id="21">21</span> <span class="clickme" id="22">22</span> <span class="clickme" id="23">23</span> <span class="clickme" id="24">24</span></span>
         </p>
     </div>
     <div class="dark code">
@@ -250,6 +250,11 @@ x /= x          #=>1</code></pre>
                 var LineString = LineNumber.toString();
                 LineString += "px";
                 $('.code').css("line-height", LineString);
+            });
+            $("#16").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "16px");
             });
             $("#17").on("click touch", function () {
                 $(".clickme").removeClass('active');

@@ -144,17 +144,13 @@ p {
     word-wrap: break-word;
 }
 
-#settings,
-#safarialert {
+#settings {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-#settings {
-    text-align: center;
     margin-bottom: 1em;
+    padding: 0 2%;
 }
 
 #safarialert {
@@ -167,10 +163,11 @@ p {
 }
 
 .clickme {
-    color: #3896e6;
+    opacity: 0.65
 }
 .active {
     text-decoration: underline;
+    opacity: 1;
 }
 
 label, .clickme {
@@ -190,7 +187,15 @@ input[type=radio] {
 input[type=checkbox] + label::before,
 input[type=radio] + label::before {
     content: '[ ] ';
-    color: #3896e6;
+    opacity: 0.65;
+}
+input[type=checkbox] + label,
+input[type=radio] + label {
+    opacity: 0.65;
+}
+input[type=checkbox]:checked + label,
+input[type=radio]:checked + label {
+    opacity: 1;
 }
 
 input[type=checkbox]:checked + label::before,
@@ -267,7 +272,6 @@ h2 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-bottom: 4em;
 }
 
 .blabla > section {
