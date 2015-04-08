@@ -10,9 +10,7 @@
 
 @font-face {
     font-family: 'mono16normal';
-    src: url('Mono16-Normal.ttf') format('truetype');
-    /*    src: url('Mono16-Normal.woff2') format('woff2'), url('Mono16-Normal.woff') format('woff'), url('Mono16-Normal.ttf') format('truetype');*/
-
+    src: url('Mono16-Normal.woff2') format('woff2'), url('Mono16-Normal.woff') format('woff'), url('Mono16-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -117,6 +115,7 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
 ol,
 ul {
     list-style: none;
@@ -138,7 +137,6 @@ p {
     margin-bottom: 2rem;
     line-height: 1.5;
 }
-
 
 .charmap {
     word-wrap: break-word;
@@ -165,12 +163,14 @@ p {
 .clickme {
     opacity: 0.65
 }
+
 .active {
     text-decoration: underline;
     opacity: 1;
 }
 
-label, .clickme {
+label,
+.clickme {
     cursor: pointer;
     margin-right: .5em;
 }
@@ -189,10 +189,12 @@ input[type=radio] + label::before {
     content: '[ ] ';
     opacity: 0.65;
 }
+
 input[type=checkbox] + label,
 input[type=radio] + label {
     opacity: 0.65;
 }
+
 input[type=checkbox]:checked + label,
 input[type=radio]:checked + label {
     opacity: 1;
@@ -318,6 +320,7 @@ a {
 .code {
     margin-bottom: 66px;
 }
+
 code {
     overflow-y: hidden !important;
 }
@@ -564,26 +567,31 @@ pre[class*='language-'] > code[data-language]::after {
         display: none;
     }
 }
+
 @media (min-width: 501px) {
     .charmap {
         letter-spacing: 12px;
     }
 }
+
 @media (min-width: 700px) {
     .charmap {
         letter-spacing: 14px;
     }
 }
+
 @media (min-width: 9000px) {
     .charmap {
         letter-spacing: 16px;
     }
 }
+
 @media (min-width: 1100px) {
     .charmap {
         letter-spacing: 18px;
     }
 }
+
 @media (min-width: 1300px) {
     .charmap {
         letter-spacing: 20px;
