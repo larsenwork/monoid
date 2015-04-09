@@ -1,0 +1,6 @@
+pre[class*="language-"] {
+    background-color: hsl(210, 10%, 10%);
+    color: white;
+    border-radius: 14px;
+    border: 1px solid #e1e1e8;
+}
