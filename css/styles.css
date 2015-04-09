@@ -145,11 +145,13 @@ p {
 
 #settings #safarialert {
     display: none;
-    color: #b02f30;
 }
 
 .safari #settings #safarialert {
     display: block;
+}
+.safari #alternates {
+    display: none;
 }
 
 .clickme:not(.active),
