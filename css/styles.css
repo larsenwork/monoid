@@ -143,12 +143,12 @@ p {
     margin-top: -20px;
 }
 
-#safarialert {
+#settings #safarialert {
     display: none;
     color: #b02f30;
 }
 
-.safari #safarialert {
+.safari #settings #safarialert {
     display: block;
 }
 
