@@ -106,17 +106,28 @@
             <label for="ss01">&#xE000;</label></span>
             <span><input id="ss04" type="checkbox">
             <label for="ss04">&#xE003;</label></span></span>
+            <br>Font Size&nbsp;&nbsp;&nbsp;
+            <span class="clickme2" id="122">12</span>
+            <span class="clickme2" id="132">13</span>
+            <span class="clickme2" id="142">14</span>
+            <span class="clickme2" id="152">15</span>
+            <span class="clickme2 active" id="162">16</span>
+            <span class="clickme2" id="172">17</span>
+            <span class="clickme2" id="182">18</span>
+            <span class="clickme2" id="192">19</span>
+            <span class="clickme2" id="202">20</span>
+            <span class="clickme2" id="212">21</span>
             <br>Line Height&nbsp;
-            <span class="clickme" id="15">15</span>
-            <span class="clickme" id="16">16</span>
-            <span class="clickme" id="17">17</span>
-            <span class="clickme active" id="18">18</span>
-            <span class="clickme" id="19">19</span>
-            <span class="clickme" id="20">20</span>
-            <span class="clickme" id="21">21</span>
-            <span class="clickme" id="22">22</span>
-            <span class="clickme" id="23">23</span>
-            <span class="clickme" id="24">24</span>
+            <span class="clickme" id="15">##</span>
+            <span class="clickme" id="16">##</span>
+            <span class="clickme" id="17">##</span>
+            <span class="clickme active" id="18">##</span>
+            <span class="clickme" id="19">##</span>
+            <span class="clickme" id="20">##</span>
+            <span class="clickme" id="21">##</span>
+            <span class="clickme" id="22">##</span>
+            <span class="clickme" id="23">##</span>
+            <span class="clickme" id="24">##</span>
             <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="active">ifElse Normal</span> <span id="teaser">(More to come)</span>
             <br>Highlight&nbsp;&nbsp;&nbsp;
             <span id="themechooser">
@@ -1182,52 +1193,102 @@ end</code></pre>
             $("#15").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "15px");
+                $('.code').css("line-height", "0.9375");
             });
             $("#16").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "16px");
+                $('.code').css("line-height", "1");
             });
             $("#17").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "17px");
+                $('.code').css("line-height", "1.0625");
             });
             $("#18").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "18px");
+                $('.code').css("line-height", "1.125");
             });
             $("#19").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "19px");
+                $('.code').css("line-height", "1.1875");
             });
             $("#20").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "20px");
+                $('.code').css("line-height", "1.25");
             });
             $("#21").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "21px");
+                $('.code').css("line-height", "1.3125");
             });
             $("#22").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "22px");
+                $('.code').css("line-height", "1.375");
             });
             $("#23").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "23px");
+                $('.code').css("line-height", "1.4375");
             });
             $("#24").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "24px");
+                $('.code').css("line-height", "1.5");
+            });
+            $("#122").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "12px");
+            });
+            $("#132").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "13px");
+            });
+            $("#142").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "14px");
+            });
+            $("#152").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "15px");
+            });
+            $("#162").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "16px");
+            });
+            $("#172").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "18px");
+            });
+            $("#182").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "19px");
+            });
+            $("#192").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "20px");
+            });
+            $("#202").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "20px");
+            });
+            $("#212").on("click touch", function () {
+                $(".clickme2").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("font-size", "21px");
             });
             $("#none").on("click touch", function () {
                 $("#theme").attr("href", "")

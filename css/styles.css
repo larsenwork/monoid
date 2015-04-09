@@ -155,6 +155,7 @@ p {
 }
 
 .clickme:not(.active),
+.clickme2:not(.active),
 .tabs span:not(.active),
 #themechooser span:not(.active),
 #teaser {
@@ -166,6 +167,7 @@ p {
 
 label,
 .clickme,
+.clickme2,
 #themechooser span,
 .tabs span {
     cursor: pointer;
@@ -319,6 +321,7 @@ code {
     transform: translateY(9px);
     margin-left: -400px;
     margin-bottom: 20vh;
+    line-height: 1.125;
 }
 
 .code.current {
@@ -334,7 +337,6 @@ code {
 code[class*="language-"],
 pre[class*="language-"] {
     font-family: 'ifelsenormal';
-    font-size: 16px;
     -moz-tab-size: 2;
     -o-tab-size: 2;
     tab-size: 2;
