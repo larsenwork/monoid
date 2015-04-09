@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1428577897
+ModificationTime: 1428605482
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,6 +51,10 @@ Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 5" { "'locl' Localized 
 Lookup: 1 0 0 "'ss05' Style Set 5 in Latin lookup 4" { "'ss05' Style Set 5 in Latin lookup 4-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss04' Style Set 4 in Latin lookup 3" { "'ss04' Style Set 4 in Latin lookup 3-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Style Set 2 in Latin lookup 1" { "'ss02' Style Set 2 in Latin lookup 1-1"  } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss06' Style Set 6 lookup 7" { "'ss06' Style Set 6 lookup 7-1"  } ['ss06' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss07' Style Set 7 lookup 8" { "'ss07' Style Set 7 lookup 8-1"  } ['ss07' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss08' Style Set 8 lookup 9" { "'ss08' Style Set 8 lookup 9-1"  } ['ss08' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss09' Style Set 9 lookup 10" { "'ss09' Style Set 9 lookup 10-1"  } ['ss09' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'zero' Slashed Zero lookup 6" { "'zero' Slashed Zero lookup 6-1"  } ['zero' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Style Set 3 in Latin lookup 2" { "'ss03' Style Set 3 in Latin lookup 2-1"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 in Latin lookup 0" { "'ss01' Style Set 1 in Latin lookup 0-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
@@ -63,7 +67,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 19 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 Grid
