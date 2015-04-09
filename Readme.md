@@ -1,20 +1,19 @@
 <!--# Mono16 - Open Source Coding Fonts
-[Download](#download)<br> 
-[Thank me](#thanks)<br> 
-[License](#license)<br> 
-[Contributors](#team-members)<br> 
+[Download](#download)<br>
+[Thank me](#thanks)<br>
+[License](#license)<br>
+[Contributors](#team-members)<br>
 -->
 ### <a name="download"></a>Download
-[Normal](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Normal.ttf?raw=true)<br> [Loose](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Loose.ttf?raw=true)<br> [Tight](https://github.com/andreaslarsen/mono16/blob/master/Mono16-Tight.ttf?raw=true)<br>
+[Normal](https://github.com/andreaslarsen/mono16/blob/master/ifElse-Normal.ttf?raw=true)<br>
 [AUR package](https://aur.archlinux.org/packages/ttf-mono16-git/)
 
-Note that Loose+Tight are currently a bit "behind" - e.g. longer ascenders/descenders + no cyrillics.
+Tight+Loose and other variants will come soon
 
-### <a name="thanks"></a>Thank me 
-Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmono16%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/mono16/), ★ here on GitHub and 👍 on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts) 
+### <a name="thanks"></a>Thank me
+Share on [Twitter](https://twitter.com/intent/tweet?text=Mono16+programming+fonts+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2FifElse%2F) and [Facebook](https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/ifelse/), ★ here on GitHub and 👍 on [Behance](https://www.behance.net/gallery/25073801/Mono16-Free-Programming-Fonts)
 
-### <a name="license"></a>License
-Open Font License Without Reserved Font Name.<br>
+### <a name="license"></a>Open Font License
 This means you can use + modify it as you please.<br>
 Basically the only thing you can't do is sell it alone,<br>
 but consult the [faq](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web) if you have any questions.
