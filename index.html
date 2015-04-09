@@ -42,19 +42,18 @@
         <div>
             <h1>ifElse</h1>
             <h3>Open Source Coding Font</h3>
-            <p>Download, issues &amp; contribute on <a href="https://github.com/andreaslarsen/ifelse">Github</a>
             </p>
         </div>
     </header>
     <div class="blabla">
         <section>
             <h2>Concept</h2>
-            <p>A minimal and legible font optimized for coding that looks sharp at 16px even on low resolution displays while still looking decent at bigger sizes or better displays.</p>
+            <p>ifElse is a customizable, minimal and legible font optimized for coding.
+                <br>It's drawn to look sharp at 16px even on low resolution displays while still looking decent at bigger sizes and/or better displays.</p>
         </section>
         <section>
-            <h2>Design</h2>
-            <p>Semi-narrow letters allows for long lines of code.
-                <br>Short ascenders and descenders + "squeezed" capitals with diacritics prevents overlap even with tight line spacing.
+            <h2>Open Source</h2>
+            <p>Download, issues &amp; contribute on <a href="https://github.com/andreaslarsen/ifelse">Github</a> where any help/feedback is always much appreciated. Chase is currently creating a script that will make chosing alternates and custom line+letter spacing easy. I am <a href="https://twitter.com/intent/follow?screen_name=andreaslarsendk">@andreaslarsendk</a> by the way.
         </section>
         <section>
             <h2>Features</h2>
@@ -69,7 +68,7 @@
             <h2>Latin + Symbols</h2>
             <p class="charmap">ABCDEFGHIJKLMNOPQRSTUVWXYZ
                 <br>abcdefghijklmnopqrstuvwxyz
-                <br>0123456789#$&pound;&yen;&euro;%&amp;@&para;
+                <br>0123456789½#$&pound;&yen;&euro;%&amp;@&para;
                 <br>.,:;&middot;!&iexcl;?&iquest;+&times;&div;&pm;=&lt;&gt;&quot;&apos;&lsquo;&rsquo;&sbquo;&ldquo;&rdquo;&bdquo;&laquo;&raquo;_-~&not;()[]{}/\|&brvbar;^&deg;*</p>
         </section>
         <section>
@@ -93,7 +92,7 @@
     <div id="settings">
 
         <h2>Preview</h2>
-        <p><span id="safarialert">Use Chrome/Firefox to preview the alternates.<br></span>Alternates&nbsp;&nbsp;
+        <p><span id="safarialert">Use Chrome/Firefox on Mac/PC to preview the alternates.<br></span>Alternates&nbsp;&nbsp;
             <span><input id="dotted" type="radio" name="zero" checked="checked">
             <label for="dotted" class="default">0</label></span>
             <span><input id="zero" type="radio" name="zero">
@@ -119,7 +118,7 @@
             <span class="clickme" id="22">22</span>
             <span class="clickme" id="23">23</span>
             <span class="clickme" id="24">24</span>
-            <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="active">ifElse Normal</span>
+            <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="active">ifElse Normal</span> <span id="teaser">(More to come)</span>
             <br>Highlight&nbsp;&nbsp;&nbsp;
             <span id="themechooser">
                 <span id="none">None</span>
@@ -157,7 +156,7 @@ import Foundation
 // MARK: - DSL for GCD queues
 
 private class GCD {
-    
+
     /* dispatch_get_queue() */
     class func mainQueue() -> dispatch_queue_t {
         return dispatch_get_main_queue()
@@ -194,7 +193,7 @@ public struct Async {
 
 public extension Async { // Static methods
 
-    
+
     /* dispatch_async() */
 
     private static func async(block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
@@ -266,14 +265,14 @@ public extension Async {
 
 
     /* dispatch_async() */
-    
+
     private func chain(block chainingBlock: dispatch_block_t, runInQueue queue: dispatch_queue_t) -> Async {
         // See Async.async() for comments
         let _chainingBlock = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, chainingBlock)
         dispatch_block_notify(self.block, queue, _chainingBlock)
         return Async(_chainingBlock)
     }
-    
+
     func main(chainingBlock: dispatch_block_t) -> Async {
         return chain(block: chainingBlock, runInQueue: GCD.mainQueue())
     }
@@ -293,15 +292,15 @@ public extension Async {
         return chain(block: chainingBlock, runInQueue: queue)
     }
 
-    
+
     /* dispatch_after() */
 
     private func after(seconds: Double, block chainingBlock: dispatch_block_t, runInQueue queue: dispatch_queue_t) -> Async {
-        
+
         // Create a new block (Qos Class) from block to allow adding a notification to it later (see Async)
         // Create block with the "inherit" type
         let _chainingBlock = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, chainingBlock)
-        
+
         // Wrap block to be called when previous block is finished
         let chainingWrapperBlock: dispatch_block_t = {
             // Calculate time from now
@@ -342,7 +341,7 @@ public extension Async {
     public func cancel() {
         dispatch_block_cancel(block)
     }
-    
+
 
     /* wait */
 
@@ -422,8 +421,7 @@ public func ==(lhs: qos_class_t, rhs: qos_class_t) -> Bool {
 }</code></pre>
     </div>
 
-    </div>
-    <!-- container -->
+
 
     <div id="javascript" class="code">
         <pre><code class="language-javascript">/*
@@ -947,7 +945,8 @@ for i in xrange(bitmap_max):
         # Build the combinations based on the current bitmap
         cmbs = list(expand_options(compress(opt_keys, bitmap)))
         for cmb in cmbs:
-            build(font, cmb)</code></pre></div>
+            build(font, cmb)</code></pre>
+    </div>
 
     <div id="ruby" class="code">
         <pre><code class="language-ruby">#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0
@@ -1129,8 +1128,10 @@ else
 end</code></pre>
     </div>
 
-
-
+    <div id="jump">
+        <h2><a href="#settings">Jump back to preview options</a></h2>
+    </div>
+    <div id="grid"></div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
@@ -1276,4 +1277,5 @@ end</code></pre>
         });
     </script>
 </body>
+
 </html>
