@@ -276,8 +276,7 @@ a {
 }
 
 .blabla,
-#settings,
-code {
+#settings {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -363,6 +362,17 @@ pre[class*="language-"] code {
     padding: 5% 5% 100px 5%;
     white-space: pre;
     display: block;
+}
+
+code:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 30px;
+    background-color: white;
+    z-index: 100;
 }
 /* Responsive */
 

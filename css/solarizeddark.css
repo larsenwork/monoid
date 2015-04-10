@@ -1,5 +1,5 @@
 pre[class*="language-"] {
-    background: #002b36;
+    background: #001e26;
     color: #93a1a1
 }
 
@@ -17,7 +17,7 @@ pre:after {
     content: "";
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 0;
     height: 30px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);

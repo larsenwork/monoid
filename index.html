@@ -151,7 +151,7 @@
             <span class="tabs">
                 <span class="active" data-tab="swift">Swift</span>
             <span data-tab="javascript">JavaScript</span>
-            <span data-tab="css">CSS</span>
+            <span data-tab="less">LESS</span>
             <span data-tab="python">Python</span>
             <span data-tab="ruby">Ruby</span>
             </span>
@@ -274,876 +274,369 @@ public extension Async { // Static methods
     static func customQueue(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
         return Async.after(after, block: block, inQueue: queue)
     }
-}
-
-
-// MARK: - Async – Regualar methods matching static ones
-
-public extension Async {
-
-
-    /* dispatch_async() */
-
-    private func chain(block chainingBlock: dispatch_block_t, runInQueue queue: dispatch_queue_t) -> Async {
-        // See Async.async() for comments
-        let _chainingBlock = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, chainingBlock)
-        dispatch_block_notify(self.block, queue, _chainingBlock)
-        return Async(_chainingBlock)
-    }
-
-    func main(chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: GCD.mainQueue())
-    }
-    func userInteractive(chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: GCD.userInteractiveQueue())
-    }
-    func userInitiated(chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: GCD.userInitiatedQueue())
-    }
-    func utility(chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: GCD.utilityQueue())
-    }
-    func background(chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: GCD.backgroundQueue())
-    }
-    func customQueue(queue: dispatch_queue_t, chainingBlock: dispatch_block_t) -> Async {
-        return chain(block: chainingBlock, runInQueue: queue)
-    }
-
-
-    /* dispatch_after() */
-
-    private func after(seconds: Double, block chainingBlock: dispatch_block_t, runInQueue queue: dispatch_queue_t) -> Async {
-
-        // Create a new block (Qos Class) from block to allow adding a notification to it later (see Async)
-        // Create block with the "inherit" type
-        let _chainingBlock = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, chainingBlock)
-
-        // Wrap block to be called when previous block is finished
-        let chainingWrapperBlock: dispatch_block_t = {
-            // Calculate time from now
-            let nanoSeconds = Int64(seconds * Double(NSEC_PER_SEC))
-            let time = dispatch_time(DISPATCH_TIME_NOW, nanoSeconds)
-            dispatch_after(time, queue, _chainingBlock)
-        }
-        // Create a new block (Qos Class) from block to allow adding a notification to it later (see Async)
-        // Create block with the "inherit" type
-        let _chainingWrapperBlock = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, chainingWrapperBlock)
-        // Add block to queue *after* previous block is finished
-        dispatch_block_notify(self.block, queue, _chainingWrapperBlock)
-        // Wrap block in a struct since dispatch_block_t can't be extended
-        return Async(_chainingBlock)
-    }
-    func main(#after: Double, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: GCD.mainQueue())
-    }
-    func userInteractive(#after: Double, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: GCD.userInteractiveQueue())
-    }
-    func userInitiated(#after: Double, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: GCD.userInitiatedQueue())
-    }
-    func utility(#after: Double, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: GCD.utilityQueue())
-    }
-    func background(#after: Double, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: GCD.backgroundQueue())
-    }
-    func customQueue(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
-        return self.after(after, block: block, runInQueue: queue)
-    }
-
-
-    /* cancel */
-
-    public func cancel() {
-        dispatch_block_cancel(block)
-    }
-
-
-    /* wait */
-
-    /// If optional parameter forSeconds is not provided, use DISPATCH_TIME_FOREVER
-    public func wait(seconds: Double = 0.0) {
-        if seconds != 0.0 {
-            let nanoSeconds = Int64(seconds * Double(NSEC_PER_SEC))
-            let time = dispatch_time(DISPATCH_TIME_NOW, nanoSeconds)
-            dispatch_block_wait(block, time)
-        } else {
-            dispatch_block_wait(block, DISPATCH_TIME_FOREVER)
-        }
-    }
-}
-
-
-// MARK: - Apply
-
-public struct Apply {
-
-    // DSL for GCD dispatch_apply()
-    //
-    // Apply runs a block multiple times, before returning.
-    // If you want run the block asynchronously from the current thread,
-    // wrap it in an Async block,
-    // e.g. Async.main { Apply.background(3) { ... } }
-
-    public static func userInteractive(iterations: Int, block: Int -> ()) {
-        dispatch_apply(iterations, GCD.userInteractiveQueue(), block)
-    }
-    public static func userInitiated(iterations: Int, block: Int -> ()) {
-        dispatch_apply(iterations, GCD.userInitiatedQueue(), block)
-    }
-    public static func utility(iterations: Int, block: Int -> ()) {
-        dispatch_apply(iterations, GCD.utilityQueue(), block)
-    }
-    public static func background(iterations: Int, block: Int -> ()) {
-        dispatch_apply(iterations, GCD.backgroundQueue(), block)
-    }
-    public static func customQueue(iterations: Int, queue: dispatch_queue_t, block: Int -> ()) {
-        dispatch_apply(iterations, queue, block)
-    }
-}
-
-
-// MARK: - qos_class_t
-
-public extension qos_class_t {
-
-    // Convenience description of qos_class_t
-    // Calculated property
-    var description: String {
-        get {
-            switch self {
-                case qos_class_main(): return "Main"
-                case QOS_CLASS_USER_INTERACTIVE: return "User Interactive"
-                case QOS_CLASS_USER_INITIATED: return "User Initiated"
-                case QOS_CLASS_DEFAULT: return "Default"
-                case QOS_CLASS_UTILITY: return "Utility"
-                case QOS_CLASS_BACKGROUND: return "Background"
-                case QOS_CLASS_UNSPECIFIED: return "Unspecified"
-                default: return "Unknown"
-            }
-        }
-    }
-}
-
-// Binary operator for qos_class_t allows for comparison in switch-statements
-func ~=(lhs: qos_class_t, rhs: qos_class_t) -> Bool {
-    return lhs.value ~= rhs.value
-}
-
-// Make qos_class_t equatable
-extension qos_class_t: Equatable {}
-public func ==(lhs: qos_class_t, rhs: qos_class_t) -> Bool {
-    return lhs.value == rhs.value
 }</code></pre>
     </div>
 
 
 
     <div id="javascript" class="code">
-        <pre><code class="language-javascript">/*
- * GLContext is a part of HTML GL library describing rendering context
- * Copyright (c) 2015 pixelscommander.com
- * Distributed under MIT license
- * http://htmlgl.com
- * */
+        <pre><code class="language-javascript">// https://github.com/muro/meniny
 
-(function (w) {
-    //Defining global namespace with respect if exists
-    HTMLGL = w.HTMLGL = w.HTMLGL || {};
+function DataSk() {
+    this.meniny = [
+    [ "", "Alexandra, Karina", "Daniela, Radmila", "Drahoslav, Diana", "Andrea, Dalimil", "Antónia", "Bohuslava, Vilma", "Severín", "Alexej", "Dáša", "Malvína", "Ernest", "Rastislav", "Radovan", "Dobroslav", "Kristína", "Nataša", "Bohdana", "Drahomíra, Mário", "Dalibor", "Vincent", "Zora", "Miloš", "Timotej", "Gejza", "Tamara", "Bohuš", "Alfonz", "Gašpar", "Ema", "Emil", ],
+    [ "Tatiana", "Erika, Erik", "Blažej", "Veronika", "Agáta", "Dorota", "Vanda", "Zoja", "Zdenko", "Gabriela", "Dezider", "Perla", "Arpád", "Valentín", "Pravoslav", "Ida, Liana", "Miloslava", "Jaromír", "Vlasta", "Lívia", "Eleonóra", "Etela", "Roman, Romana", "Matej", "Frederik, Frederika", "Viktor", "Alexander", "Zlatica", ],
+    [ "Albín", "Anežka", "Bohumil, Bohumila", "Kazimír", "Fridrich", "Radoslav, Radoslava", "Tomáš", "Alan, Alana", "Františka", "Branislav, Bruno", "Angela, Angelika", "Gregor", "Vlastimil", "Matilda", "Svetlana", "Boleslav", "Ľubica", "Eduard", "Jozef", "Víťazoslav, Klaudius", "Blahoslav", "Beňadik", "Adrián", "Gabriel", "Marián", "Emanuel", "Alena", "Soňa", "Miroslav", "Vieroslava", "Benjamín", ],
+    [ "Hugo", "Zita", "Richard", "Izidor", "Miroslava", "Irena", "Zoltán", "Albert", "Milena", "Igor", "Július", "Estera", "Aleš", "Justína", "Fedor", "Dana, Danica", "Rudolf", "Valér", "Jela", "Marcel", "Ervin", "Slavomír", "Vojtech", "Juraj", "Marek", "Jaroslava", "Jaroslav", "Jarmila", "Lea", "Anastázia", ],
+    [ "", "Žigmund", "Galina", "Florián", "Lesana, Lesia", "Hermína", "Monika", "Ingrida", "Roland", "Viktória", "Blažena", "Pankrác", "Servác", "Bonifác", "Žofia", "Svetozár", "Gizela", "Viola", "Gertrúda", "Bernard", "Zina", "Júlia, Juliána", "Želmíra", "Ela", "Urban", "Dušan", "Iveta", "Viliam", "Vilma", "Ferdinand", "Petronela, Petrana", ],
+    [ "Žaneta", "Xénia, Oxana", "Karolína", "Lenka", "Laura", "Norbert", "Róbert", "Medard", "Stanislava", "Margaréta", "Dobroslava", "Zlatko", "Anton", "Vasiľ", "Vít", "Blanka, Bianka", "Adolf", "Vratislav", "Alfréd", "Valéria", "Alojz", "Paulína", "Sidónia", "Ján", "Olívia, Tadeáš", "Adriána", "Ladislav, Ladislava", "Beáta", "Peter, Pavol", "Melánia", ],
+    [ "Diana", "Berta", "Miloslav", "Prokop", "", "Patrik, Patrícia", "Oliver", "Ivan", "Lujza", "Amália", "Milota", "Nina", "Margita", "Kamil", "Henrich", "Drahomír", "Bohuslav", "Kamila", "Dušana", "Iľja, Eliáš", "Daniel", "Magdaléna", "Oľga", "Vladimír", "Jakub", "Anna, Hana", "Božena", "Krištof", "Marta", "Libuša", "Ignác", ],
+    [ "Božidara", "Gustáv", "Jerguš", "Dominik, Dominika", "Hortenzia", "Jozefína", "Štefánia", "Oskár", "Ľubomíra", "Vavrinec", "Zuzana", "Darina", "Ľubomír", "Mojmír", "Marcela", "Leonard", "Milica", "Elena, Helena", "Lýdia", "Anabela", "Jana", "Tichomír", "Filip", "Bartolomej", "Ľudovít", "Samuel", "Silvia", "Augustín", "Nikola", "Ružena", "Nora", ],
+    [ "Drahoslava", "Linda", "Belo", "Rozália", "Regína", "Alica", "Marianna", "Miriama", "Martina", "Oleg", "Bystrík", "Mária", "Ctibor", "Ľudomil", "Jolana", "Ľudmila", "Olympia", "Eugénia", "Konštantín", "Ľuboslav, Ľuboslava", "Matúš", "Móric", "Zdenka", "Ľuboš, Ľubor", "Vladislav", "Edita", "Cyprián", "Václav", "Michal, Michaela", "Jarolím", ],
+    [ "Arnold", "Levoslav", "Stela", "František", "Viera", "Natália", "Eliška", "Brigita", "Dionýz", "Slavomíra", "Valentína", "Maximilián", "Koloman", "Boris", "Terézia", "Vladimíra", "Hedviga", "Lukáš", "Kristián", "Vendelín", "Uršula", "Sergej", "Alojzia", "Kvetoslava", "Aurel", "Demeter", "Sabína", "Dobromila", "Klára", "Šimon, Šimona", "Aurélia", ],
+    [ "Denis, Denisa", "", "Hubert", "Karol", "Imrich", "Renáta", "René", "Bohumír", "Teodor", "Tibor", "Martin, Maroš", "Svätopluk", "Stanislav", "Irma", "Leopold", "Agnesa", "Klaudia", "Eugen", "Alžbeta", "Félix", "Elvíra", "Cecília", "Klement", "Emília", "Katarína", "Kornel", "Milan", "Henrieta", "Vratko", "Ondrej, Andrej", ],
+    [ "Edmund", "Bibiána", "Oldrich", "Barbora, Barbara", "Oto", "Mikuláš", "Ambróz", "Marína", "Izabela", "Radúz", "Hilda", "Otília", "Lucia", "Branislava, Bronislava", "Ivica", "Albína", "Kornélia", "Sláva, Slávka", "Judita", "Dagmara", "Bohdan", "Adela", "Nadežda", "Adam, Eva ", "", "Štefan", "Filoména", "Ivana, Ivona", "Milada", "Dávid", "Silvester", ]
+    ];
 
-    //Defining it`s properties
-    HTMLGL.JQ_PLUGIN_NAME = 'htmlgl';
-    HTMLGL.CUSTOM_ELEMENT_TAG_NAME = 'html-gl';
-    HTMLGL.context = undefined;
-    HTMLGL.stage = undefined;
-    HTMLGL.renderer = undefined;
-    HTMLGL.elements = [];
+    this.sviatky = [
+    [ 1, 1, "Deň vzniku Slovenskej republiky" ],
+    [ 6, 1, "Zjavenie Pána" ],
+    [ 1, 5, "Sviatok práce" ],
+    [ 8, 5, "Deň víťazstva nad fašizmom" ],
+    [ 5, 7, "Sviatok svätého Cyrila a svätého Metoda" ],
+    [ 29, 8, "Výročie Slovenského Národného Povstania" ],
+    [ 1, 9, "Deň Ústavy Slovenskej republiky" ],
+    [ 1, 11, "Sviatok všetkých svätých" ],
+    [ 2, 11, "Pamiatka zosnulých" ],
+    [ 15, 9, "Sedembolestná Panna Mária" ],
+    [ 17, 11, "Deň boja za slobodu a demokraciu" ],
+    [ 24, 12, "Štedrý deň" ],
+    [ 25, 12, "Prvý sviatok vianočný" ],
+    [ 26, 12, "Druhý sviatok vianočný" ],
+    ];
 
-    //Cache for window`s scroll position, filled in by updateScrollPosition
-    HTMLGL.scrollX = 0;
-    HTMLGL.scrollY = 0;
+    this.easter = [
+    [ -7, "Kvetná nedeľa" ],
+    [ -3, "Zelený štvrtok" ],
+    [ -2, "Veľký piatok" ],
+    [ -1, "Biela sobota" ],
+    [ 0, "Veľkonočná nedeľa" ],
+    [ 1, "Veľkonočný pondelok" ],
+    ];
 
-    var GLContext = function () {
-        w.HTMLGL.context = this;
-
-        this.createStage();             //Creating stage before showing it
-        this.updateScrollPosition();    //Initialize scroll position for first time
-        this.initListeners();
-        this.elementResolver = new w.HTMLGL.GLElementResolver(this);
-
-        //Wait for DOMContentLoaded and initialize viewer then
-        if (!document.body) {
-            document.addEventListener("DOMContentLoaded", this.initViewer.bind(this));
-        } else {
-            this.initViewer();
-        }
-    }
-
-    var p = GLContext.prototype;
-
-    p.initViewer = function () {
-        this.createViewer();
-        this.resizeViewer();
-        this.appendViewer();
-    }
-
-    p.initListeners = function () {
-        //window listeners
-        w.addEventListener('scroll', this.updateScrollPosition.bind(this));
-        w.addEventListener('resize', this.resizeViewer.bind(this));
-
-        //document listeners - mouse and touch events
-        document.addEventListener('click', this.onMouseEvent.bind(this), true);
-        document.addEventListener('mousemove', this.onMouseEvent.bind(this), true);
-        document.addEventListener('mouseup', this.onMouseEvent.bind(this), true);
-        document.addEventListener('mousedown', this.onMouseEvent.bind(this), true);
-        document.addEventListener('touchstart', this.onMouseEvent.bind(this));
-        document.addEventListener('touchend', this.onMouseEvent.bind(this));
-    }
-
-    p.updateScrollPosition = function () {
-        var scrollOffset = {};
-
-        if (window.pageYOffset != undefined) {
-            scrollOffset = {
-                left: pageXOffset,
-                top: pageYOffset
-            };
-        } else {
-            var sx, sy, d = document, r = d.documentElement, b = d.body;
-            sx = r.scrollLeft || b.scrollLeft || 0;
-            sy = r.scrollTop || b.scrollTop || 0;
-            scrollOffset = {
-                left: sx,
-                top: sy
-            };
-        }
-
-        this.document.x = -scrollOffset.left;
-        this.document.y = -scrollOffset.top;
-        w.HTMLGL.scrollX = scrollOffset.left;
-        w.HTMLGL.scrollY = scrollOffset.top;
-
-        this.markStageAsChanged();
-    }
-
-    p.createViewer = function () {
-        w.HTMLGL.renderer = this.renderer = PIXI.autoDetectRenderer(0, 0, {transparent: true});
-        this.renderer.view.style.position = 'fixed';
-        this.renderer.view.style.top = '0px';
-        this.renderer.view.style.left = '0px';
-        this.renderer.view.style['pointer-events'] = 'none';
-        this.renderer.view.style['pointerEvents'] = 'none';
-    }
-
-    p.appendViewer = function () {
-        document.body.appendChild(this.renderer.view);
-        requestAnimFrame(this.redrawStage.bind(this));
-    }
-
-    p.resizeViewer = function () {
-        var width = w.innerWidth,
-            height = w.innerHeight;
-
-        this.renderer.resize(width, height);
-        this.updateTextures();
-
-        this.markStageAsChanged();
-    }
-
-    p.createStage = function () {
-        w.HTMLGL.stage = this.stage = new PIXI.Stage(0xFFFFFF);
-        w.HTMLGL.document = this.document = new PIXI.DisplayObjectContainer();
-        this.stage.addChild(w.HTMLGL.document);
-    }
-
-    //Avoiding function.bind() for performance and memory consuming reasons
-    p.redrawStage = function () {
-        if (w.HTMLGL.stage.changed) {
-            w.HTMLGL.renderer.render(w.HTMLGL.stage);
-            w.HTMLGL.stage.changed = false;
-        }
-    }
-
-    p.updateTextures = function () {
-        w.HTMLGL.elements.forEach(function(element){
-            element.updateTexture();
-        });
-    }
-
-    p.onMouseEvent = function (event) {
-        var x = event.x || event.pageX,
-            y = event.y || event.pageY,
-            //Finding element under mouse position
-            element = event.dispatcher !== 'html-gl' ? this.elementResolver.getElementByCoordinates(x, y) : null;
-
-        //Emit event if there is an element under mouse position
-        element ? w.HTMLGL.util.emitEvent(element, event) : null;
-    }
-
-    //We would like to rerender if something changed, otherwise stand by
-    p.markStageAsChanged = function () {
-        if (w.HTMLGL.stage && !w.HTMLGL.stage.changed) {
-            requestAnimFrame(this.redrawStage);
-            w.HTMLGL.stage.changed = true;
-        }
-    }
-
-    w.HTMLGL.GLContext = GLContext;
-    new GLContext();
-})(window);</code></pre>
+    return this;
+}</code></pre>
     </div>
 
-    <div id="css" class="code">
-        <pre><code class="language-css">@-webkit-keyframes slideInLeft {
-  0% {
-    -webkit-transform: translate3d(-250px, 0, 0);
-            transform: translate3d(-250px, 0, 0);
-    visibility: visible; }
+    <div id="less" class="code">
+        <pre><code class="language-less">// Bootstrap
+// Buttons
+// --------------------------------------------------
 
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); } }
 
-@keyframes slideInLeft {
-  0% {
-    -webkit-transform: translate3d(-250px, 0, 0);
-            transform: translate3d(-250px, 0, 0);
-    visibility: visible; }
+// Base styles
+// --------------------------------------------------
 
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); } }
-
-@-webkit-keyframes slideOutLeft {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); }
-
-  100% {
-    -webkit-transform: translate3d(-250px, 0, 0);
-            transform: translate3d(-250px, 0, 0);
-    visibility: hidden; } }
-
-@keyframes slideOutLeft {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); }
-
-  100% {
-    -webkit-transform: translate3d(-250px, 0, 0);
-            transform: translate3d(-250px, 0, 0);
-    visibility: hidden; } }
-
-* {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent; }
-
-html, body {
-  height: 100%;
-  margin: 0;
-  min-height: 100%; }
-
-body {
-  position: relative; }
-  body:after {
-    background: #046380;
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: fixed;
-    top: 0;
-    -webkit-transition: all .4s ease;
-            transition: all .4s ease;
-    width: 100%;
-    z-index: 10; }
-  body.open:after {
-    background: #046380;
-    opacity: 1; }
-
-.burger-nav {
-  font-family: Helvetica Neue, Helvetica, Sans-Serif;
-  position: absolute;
-  z-index: 11; }
-  .burger-nav li {
-    color: #fff;
-    list-style-type: none;
-    padding: 10px;
-    text-align: left;
-    -webkit-transform: translateX(-250px);
-        -ms-transform: translateX(-250px);
-            transform: translateX(-250px); }
-  .burger-nav li:not(.open) {
-    -webkit-animation-duration: .4s;
-            animation-duration: .4s;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-name: slideOutLeft;
-            animation-name: slideOutLeft; }
-  .burger-nav li:first-child {
-    padding-top: 120px; }
-  .burger-nav.open li {
-    -webkit-animation-duration: .4s;
-            animation-duration: .4s;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-name: slideInLeft;
-            animation-name: slideInLeft; }
-
-.burger-link {
-  border-left: #fff solid 0;
-  color: #fff;
-  font-family: Helvetica Neue, Helvetica, Sans-Serif;
-  font-size: 24px;
-  font-weight: 300;
-  margin-left: 30px;
-  text-decoration: none;
-  -webkit-transition: all .4s ease;
-          transition: all .4s ease;
-  width: auto; }
-
-.burger-link:hover, .burger-link.active {
-  border-left: #fff solid 2px;
-  padding-left: 30px; }
-
-.burger {
-  background: #046380;
-  border: white solid 2px;
-  border-radius: 50%;
-  cursor: pointer;
+.btn {
   display: inline-block;
-  height: 60px;
-  padding-left: 16px;
-  padding-top: 18px;
-  position: relative;
-  -webkit-transition: all .4s ease;
-          transition: all .4s ease;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  width: 60px;
-  z-index: 12; }
+  margin-bottom: 0; // For input.btn
+  font-weight: @btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
+  .user-select(none);
 
-.bun {
-  background: #fff;
-  position: relative;
-  -webkit-transition: all .4s ease;
-          transition: all .4s ease; }
+  &#x26;,
+  &#x26;:active,
+  &#x26;.active {
+    &#x26;:focus,
+    &#x26;.focus {
+      .tab-focus();
+    }
+  }
 
-.bun-top {
-  height: 2px;
-  top: 0;
-  width: 24px; }
+  &#x26;:hover,
+  &#x26;:focus,
+  &#x26;.focus {
+    color: @btn-default-color;
+    text-decoration: none;
+  }
 
-.bun-mid {
-  height: 2px;
-  top: 8px;
-  width: 24px; }
+  &#x26;:active,
+  &#x26;.active {
+    outline: 0;
+    background-image: none;
+    .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
 
-.bun-bottom {
-  height: 2px;
-  top: 16px;
-  width: 24px; }
+  &#x26;.disabled,
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    cursor: @cursor-disabled;
+    .opacity(.65);
+    .box-shadow(none);
+  }
 
-.burger-brand {
-  color: #046380;
-  font-family: Helvetica Neue, Helvetica, Sans-Serif;
-  font-size: 24px;
-  font-weight: 300;
-  left: 0;
-  margin-left: 30px;
-  position: relative;
-  text-decoration: none;
-  top: -21.4285714286px;
-  -webkit-transition: all .4s ease;
-          transition: all .4s ease;
-  z-index: 2000; }
+  a&#x26; {
+    &#x26;.disabled,
+    fieldset[disabled] &#x26; {
+      pointer-events: none; // Future-proof disabling of clicks on &#x60;&#x3C;a&#x3E;&#x60; elements
+    }
+  }
+}
 
-.burger-contain {
-  left: 30px;
-  position: absolute;
-  top: 30px;
-  width: auto; }
-  .burger-contain:hover:not(.open) .burger {
-    background: #0689b1; }
-  .burger-contain.open .burger {
-    border: #046380 solid 2px; }
-  .burger-contain.open .bun-top {
-    background: #fff;
-    top: 9px;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
-  .burger-contain.open .bun-mid {
-    opacity: 0; }
-  .burger-contain.open .bun-bottom {
-    background: #fff;
-    top: 5px;
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
-  .burger-contain.open .burger-brand {
-    color: #fff; }
-  .burger-contain.open:hover .burger {
-    border: white solid 2px; }</code></pre>
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-default {
+  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+}
+.btn-primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+// Success appears as green
+.btn-success {
+  .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
+}
+// Info appears as blue-green
+.btn-info {
+  .button-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
+}
+// Warning appears as orange
+.btn-warning {
+  .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
+}
+// Danger and error appear as red
+.btn-danger {
+  .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+  color: @link-color;
+  font-weight: normal;
+  border-radius: 0;
+
+  &#x26;,
+  &#x26;:active,
+  &#x26;.active,
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    background-color: transparent;
+    .box-shadow(none);
+  }
+  &#x26;,
+  &#x26;:hover,
+  &#x26;:focus,
+  &#x26;:active {
+    border-color: transparent;
+  }
+  &#x26;:hover,
+  &#x26;:focus {
+    color: @link-hover-color;
+    text-decoration: @link-hover-decoration;
+    background-color: transparent;
+  }
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    &#x26;:hover,
+    &#x26;:focus {
+      color: @btn-link-disabled-color;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.btn-xs {
+  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+
+
+// Block button
+// --------------------------------------------------
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+// Specificity overrides
+input[type=&#x22;submit&#x22;],
+input[type=&#x22;reset&#x22;],
+input[type=&#x22;button&#x22;] {
+  &#x26;.btn-block {
+    width: 100%;
+  }
+}</code></pre>
     </div>
 
     <div id="python" class="code">
-        <pre><code class="language-python" >#!/usr/bin/env python2.7
-# vim: sts=4 sw=4 ts=4 et
+        <pre><code class="language-python" ># https://github.com/pierrehumblot/pystics
 
-import fontforge
-from itertools import chain, compress, ifilter, ifilterfalse, imap, product
-from os import mkdir
-from os.path import basename, splitext, join
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 23 11:03:03 2013
 
-# Configuration
-## Source directory
-source = "Source"
+@author: Stagiaire1
+"""
 
-## Fonts to modify
-fonts = ['Mono16Normal.sfdir']
+# a priori nous allons utiliser psycopg2 pour gérer postgresql
+# téléchargement http://www.stickpeople.com/projects/python/win-psycopg/
+# si il ne trouve pas python dans le registre, il faut remplacer le .exe en .zip, dézipper et copier le dossier dans Lib/sitepackages.
 
-## Options to generate
-conflicting(
-    style('Loose', Bearing(right=128)),
-    style('HalfLoose', Bearing(right=64)),
-    style('HalfTight', Bearing(left=-64)),
-    style('Tight', Bearing(left=-128)),
-)
+import psycopg2
 
-option('al', 'Alternative l', Swap("l", "l.alt")),
-option('a1', 'Alternative 1', Swap("one", "one.alt")),
-option('sa', 'Standard asterisk', Swap("asterisk", "asterisk.alt"))
+class gestionBD:
+    """Mise en place et interfaçage d'une base de données pSQL"""
 
-conflicting(
-    option('sz', 'Slashed zero', Swap("zero", "zero.slashed")),
-    option('uz', 'Undotted zero', Swap("zero", "zero.dotless")),
-)
+    def __init__(self, dbName, user, password, host, port):
+        "Établissement de la connexion - Création du curseur"
+        try:
+            self.connection = psycopg2.connect(dbname = dbName,user = user, password = password,host = host,port = port)
+        except Exception, err:
+            print 'La connexion avec la base de données a échoué :\n'\
+            'Erreur détectée :\n%s' % err
+            self.echec =1
+        else:
+            self.cursor = self.connection.cursor()   # création du curseur
+            print "connection réussie et curseur créé!"
+            self.echec =0
 
-# TODO: Implement conflicting option processing
-def conflicting(*args):
-    pass
+    def execute_query(self, req):
+        "Exécution de la requête <req>, avec détection d'erreur éventuelle"
+        try:
+            self.cursor.execute(req)
+        except Exception, err:
+            # afficher la requête et le message d'erreur système :
+            print "Requête SQL incorrecte :\n%s\nErreur détectée :\n%s"\
+            % (req, err)
+            return 0
+        else:
+            return 1
 
-def style(name, does):
-    if type(does) is not list:
-        does = list(does)
-    option(name, name, [Variant(name)] + does)
+    def result_query(self):
+        "renvoie le résultat de la requête précédente (un tuple de tuples)"
+        return self.cursor.fetchall()
 
-    return name
 
-def option(abrv, name, does):
-    operations = option.__dict__.setdefault("operations", {})
-    option.operations[abrv] = does
 
-    return abrv
+# TEST DE LA CLASSE
 
-# Operations
-## NOTE:
-## All operations return a closure with the 1st argument being a fontforge.font
+if __name__ == "__main__":
+    # connection BDD
+    connection = gestionBD(dbName = "pierre", user = 'postgres', password = 'postgres', host = 'localhost', port = 5432)
+    # On exécute une requete simple : lister les tables présentes
+    connection.execute_query("select * from pg_tables")
+    # On affiche le résultat
+    connection.result_query()
+    connection.execute_query("select S.* FROM sol S, region_sol R WHERE R.numsol = S.numsol AND R.codregion = 121")
+    df = connection.result_query()
 
-## Adjusts the left and/or right bearings of all glyphs
-def Bearing(left=0, right=0):
-    def op(fnt):
-        fnt.genericGlyphChange(
-                hCounterType="nonUniform",
-                hCounterScale=1.0,
-                lsbScale=1.0,
-                rsbScale=1.0,
-                lsbAdd=left,
-                rsbAdd=right)
-    return op
+    connection = gestionBD(dbName = "pierre", user = 'postgres', password = 'postgres', host = 'localhost', port = 5432)
+    connection.execute_query("select S.* FROM sol S, region_sol RS, region R WHERE RS.numsol = S.numsol AND RS.codregion = R.codregion AND R.cod4paysa = 'fra1'")
+    df = connection.result_query()
 
-## Swaps the places of two glyphs using the DEL char as swap space
-def Swap(glyph1, glyph2):
-    def op(fnt):
-        # G1 -> SWP
-        fnt.selection.select(glyph1)
-        fnt.copy()
-        fnt.selection.select(127) # DEL
-        fnt.paste()
 
-        # G2 -> G1
-        fnt.selection.select(glyph2)
-        fnt.copy()
-        fnt.selection.select(glyph1)
-        fnt.paste()
 
-        # SWP -> G1
-        fnt.selection.select(127) # DEL
-        fnt.copy()
-        fnt.selection.select(glyph2)
-        fnt.paste()
 
-        # Clear SWP
-        fnt.selection.select(127) # DEL
-        fnt.clear()
-    return op
 
-## Changes the subfamily/variation of the font
-def Variation(name):
-    def op(fnt):
-        basename = f.fontname.split('-')[0]
-        fontname = [basename] + name.split()
-        f.fontname = '-'.join(fontname)
-        f.fullname = ' '.join(fontname)
-    return op
-
-#############################
-# WARNING: Here be dragons! #
-#############################
-
-# TODO: Rewrite looped-build to streamlined-build
-print("Sorry, not quite done yet")
-exit(1)
-
-# Ensure we have a font release directory
-try:
-    mkdir('release')
-except OSError:
-    # Already exists, carry on
-    pass
-
-# Expand any tuple options into exclusive combinations
-## Split options into tuples and non-tuples
-## Flatten the operation map
-tuples = []
-nontuples = []
-op_map = {}
-for option in options:
-    if type(option) is tuple:
-        tuples.append(option)
-    else:
-        nontuples.append(option)
-
-## Get tuple combinations using the cartesian product of each tuple
-cmbs = product(*nontuples)
-
-## For each combination, append it to the end of the nontuples
-map(lambda cmb: nontuples + list(cmb) , cmbs)
-
-def build(font, opts):
-    # Fork the original font
-    fnt = fontforge.open(join(source, font))
-
-    # Get the base name for the font
-    name = join('release', splitext(basename(font))[0])
-
-    for opt in opts:
-        # Append this option to the font name
-        name += '-' + str(opt)
-
-        # Run all the operations for this option
-        #for oper in options[opt]:
-            #opers[oper](fnt, *oper[opt])
-
-    # Output the file and cleanup
-    fnt.generate(name + ".ttf")
-    fnt.close()
-
-# Get the names/tuples of all the options in alphabetical order
-opt_keys = options.keys()
-opt_len = len(opt_keys)
-
-# Each option is a binary choice, so we use an int as a quick bitmap.
-# To iterate over every possible combination, all we have to do is increment
-# up to the maximum value 2^(#options)
-bitmap_max = 1 << opt_len
-
-# Iterate over all possible combinations
-for i in xrange(bitmap_max):
-    # For each font listed
-    for font in fonts:
-        bitmap = map(lambda n: i >> n & 1, xrange(opt_len))
-        # Build the combinations based on the current bitmap
-        cmbs = list(expand_options(compress(opt_keys, bitmap)))
-        for cmb in cmbs:
-            build(font, cmb)</code></pre>
+</code></pre>
     </div>
 
     <div id="ruby" class="code">
-        <pre><code class="language-ruby">#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0
+        <pre><code class="language-ruby"># https://github.com/PatreevIgor/blog
 
-std_trap = trap("INT") { exit! 130 } # no backtrace thanks
+#encoding: UTF-8
+class DrController &lt; ApplicationController
 
-HOMEBREW_BREW_FILE = ENV['HOMEBREW_BREW_FILE']
-
-if ARGV == %w{--prefix}
-  puts File.dirname(File.dirname(HOMEBREW_BREW_FILE))
-  exit 0
-end
-
-require 'pathname'
-HOMEBREW_LIBRARY_PATH = Pathname.new(__FILE__).realpath.dirname.parent.join("Library", "Homebrew")
-$:.unshift(HOMEBREW_LIBRARY_PATH.to_s)
-require 'global'
-
-if ARGV.first == '--version'
-  puts HOMEBREW_VERSION
-  exit 0
-elsif ARGV.first == '-v'
-  puts "Homebrew #{HOMEBREW_VERSION}"
-  # Shift the -v to the end of the parameter list
-  ARGV << ARGV.shift
-  # If no other arguments, just quit here.
-  exit 0 if ARGV.length == 1
-end
-
-# Check for bad xcode-select before anything else, because `doctor` and
-# many other things will hang
-# Note that this bug was fixed in 10.9
-if OS.mac? && MacOS.version < :mavericks && MacOS.active_developer_dir == "/"
-  odie <<-EOS.undent
-  Your xcode-select path is currently set to '/'.
-  This causes the `xcrun` tool to hang, and can render Homebrew unusable.
-  If you are using Xcode, you should:
-    sudo xcode-select -switch /Applications/Xcode.app
-  Otherwise, you should:
-    sudo rm -rf /usr/share/xcode-select
-  EOS
-end
-
-case HOMEBREW_PREFIX.to_s when '/', '/usr'
-  # it may work, but I only see pain this route and don't want to support it
-  abort "Cowardly refusing to continue at this prefix: #{HOMEBREW_PREFIX}"
-end
-if OS.mac? and MacOS.version < "10.5"
-  abort <<-EOABORT.undent
-    Homebrew requires Leopard or higher. For Tiger support, see:
-    https://github.com/mistydemeo/tigerbrew
-  EOABORT
-end
-
-# Many Pathname operations use getwd when they shouldn't, and then throw
-# odd exceptions. Reduce our support burden by showing a user-friendly error.
-Dir.getwd rescue abort "The current working directory doesn't exist, cannot proceed."
-
-def require? path
-  require path
-rescue LoadError => e
-  # HACK :( because we should raise on syntax errors but
-  # not if the file doesn't exist. TODO make robust!
-  raise unless e.to_s.include? path
-end
-
-begin
-  trap("INT", std_trap) # restore default CTRL-C handler
-
-  aliases = {'ls' => 'list',
-             'homepage' => 'home',
-             '-S' => 'search',
-             'up' => 'update',
-             'ln' => 'link',
-             'instal' => 'install', # gem does the same
-             'rm' => 'uninstall',
-             'remove' => 'uninstall',
-             'configure' => 'diy',
-             'abv' => 'info',
-             'dr' => 'doctor',
-             '--repo' => '--repository',
-             'environment' => '--env',
-             '--config' => 'config',
-             }
-
-  empty_argv = ARGV.empty?
-  help_regex = /(-h$|--help$|--usage$|-\?$|^help$)/
-  help_flag = false
-  cmd = nil
-
-  ARGV.dup.each_with_index do |arg, i|
-    if help_flag && cmd
-      break
-    elsif arg =~ help_regex
-      help_flag = true
-    elsif !cmd
-      cmd = ARGV.delete_at(i)
+    def counting_years(year, month, number)
+        ((Time.new - Time.new(year,month,number))/60/60/24/365).to_i
     end
-  end
 
-  cmd = aliases[cmd] if aliases[cmd]
-
-  sudo_check = Set.new %w[ install link pin unpin upgrade ]
-
-  if sudo_check.include? cmd
-    if Process.uid.zero? and not File.stat(HOMEBREW_BREW_FILE).uid.zero?
-      raise "Cowardly refusing to `sudo brew #{cmd}`\n#{SUDO_BAD_ERRMSG}"
+    def counting_days_before_birthday(year, month, number)
+        (((Time.new(2014,month,number)) - (Time.new))/60/60/24).to_i
     end
-  end
 
-  # Add contributed commands to PATH before checking.
-  Dir["#{HOMEBREW_LIBRARY}/Taps/*/*/cmd"].each do |tap_cmd_dir|
-    ENV["PATH"] += "#{File::PATH_SEPARATOR}#{tap_cmd_dir}"
-  end
+    def index
+        m2 = []
+        hash_surname_and_days = {}
+        hash_surname_and_years = {}
+        h = {[1987,10,04] => "Патреев Игорь Иванович", [1972,07,21] => "Петухов Алексей Владимирович", [1983,02,15] => "Алексеева Марина Александровна",
+        [1950,05,14] => "Анин Роман Марьянович", [1993,02,19] => "Белоножко Александр Петрович", [1976,02,14] => "Астрейко Ирина Владимировна",
+        [1964,10,13] => "Анашенков Андрей Сергеевич", [1962,8,8] => "Богданович Александр Иванович", [1950,12,02] => "Баньковский Бронислав Павлович",
+        [1961,07,05] => "Бразовский Стас Зигмундович", [1956,01,23] => "Васильков Владимир Михайлович",[1990,06,15] => "Быковская Екатерина Петровна",
+        [1937,12,29] => "Воробец Николай Данилович",[1974,07,18] => "Гардевич Олег Алексеевич",[1985,9,18] => "Гетманенко Алеся Викторовна",
+        [1964,07,03] => "Головач Юрий Антонович",[1940,01,02] => "Горобец Людмила Сергеевна",[1978,9,17] => "Забагонский Сергей Александрович",
+        [1983,01,05] => "Данченко Денис Николаевич",[1951,05,8] => "Демкин Михаил Николаевич",[1958,8,15] => "Девякович Валентина Николаевна",
+        [1980,02,9] => "Зарубина Ольга Васильевна",[1957,11,24] => "Жавнерко Владимир Иванович",[1966,10,04] => "Жилко Александр Михайлович",
+        [1986,10,8] => "Зозулько Павел Александрович",[1990,04,22] => "Кайгородов Владимир Юрьевич",[1990,12,25] => "Иванова Елена Андреевна",
+        [1980,05,06] => "Заяц Наталья Ивановна",[1986,12,18] => "Кириняускене Людмила Александровна",[1954,05,29] => "Ковалева Наталья Павловна",
+        [1962,12,9] => "Копанев Вячеслав Сергеевич",[1958,8,06] => "Кожемяка Анатолий Викторович",[1966,05,25] => "Комаровский Сергей Анатольевич",
+        [1947,1,22] => "Котова Ванда Вячеславовна",[1965,9,13] => "Красуцкий Валерий Михайлович",[1978,9,23] => "Кравченко Елена Петровна",
+        [1985,05,21] => "Лехнович Александр Генадьевич",[1959,12,02] => "Кубрак Тамара Николаевна",[1956,9,05] => "Липинская Тамара Михайловна",
+        [1991,11,10] => "Курьянова Кристина Владимировна",[1987,06,24] => "Лобач Василий Владимирович",[1956,12,02] => "Леонов Сергей Васильевич",
+        [1979,11,23] => "Литвинова Инна Васильевна",[1980,07,19] => "Логвин Сергей Николаевич",[1988,04,16] => "Мажуль Максим Владимирович",
+        [1989,01,31] => "Мазуров Игорь Викторович",[1943,05,11] => "Лузгина Людмила Алексеевна",[1986,10,25] => "Лукашик Дмитрий Евгеньевич",
+        [1940,8,05] => "Малинин Николай Кирилович",[1993,04,29] => "Малиновский Станислав Николаевич",[1980,10,07] => "Мациевская Марина Генадьевна",
+        [1950,9,10] => "Мисса Евгения Ивановна",[1946,12,03] => "Падалка Галина Алексеевна",[1950,01,10] => "Мисса Петр Петрович",
+        [1982,8,06] => "Мациевский Алексей Владимирович",[1987,9,17] => "Небышинец Денис Алексеевич",[1990,8,02] => "Мисса Дарья Петровна",
+        [1983,12,9] => "Неберова Юлия Викторовна",[1988,11,04] => "Нескеева Светлана Викторовна",[1958,03,06] => "Рудницкая Надежда Ильинична",
+        [1959,9,27] => "Нитов Александр Антонович",[1987,11,16] => "Нищик Сергей Александрович",[1993,02,14] => "Петрович Дарья Сергеевна",
+        [1978,05,11] => "Рогова Ольга Александровна",[1984,8,22] => "Савицкий Александр Сергеевич",[1986,04,10] => "Соколов Артем Сергеевич",
+        [1985,8,28] => "Святохо Екатерина Ивановна",[1978,12,28] => "Самурганов Ясон Григорьевич",[1982,01,03] => "Титова Майя Александровна",
+        [1981,06,02] => "Стрикова Ирина Владимировна",[1978,10,15] => "Тихонович Дмитрий Евгеньевич",[1960,03,24] => "Забело Татьяна Анатольевна",
+        [1946,03,05] => "Токарик Люся Васильевна",[1988,12,02] => "Тухто Татьяна Викторовна",[1977,12,21] => "Третьяк Леонид Александрович",
+        [1960,12,07] => "Хмелинко Александр Константинович",[1982,02,24] => "Ходос Анна Викторовна",[1959,8,16] => "Шиш Василий Иванович",
+        [1950,12,13] => "Савченко Людмила Казимировна",[1973,8,21] => "Булгакова Людмила Евгениевна",[1989,02,27] => "Шкель Сергей Александрович",
+        [1961,01,18] => "Дортикос Эррера Елена Михайловна",[1978,06,20] => "Якимова Ирина Игоревна",[1965,02,22] => "Заяц Андрей Михайлович",
+        [1960,8,05] => "Присяжнюк Анатолий Петрович",[1989,03,21] => "Петлицкий Артем Александрович"}
 
-  # Add SCM wrappers.
-  ENV["PATH"] += "#{File::PATH_SEPARATOR}#{HOMEBREW_LIBRARY}/ENV/scm"
+        h.each do |k,v|
+            days = counting_days_before_birthday(k[0],k[1],k[2])
+            hash_surname_and_days[days] = v
+            hash_surname_and_years[v] = counting_years(k[0],k[1],k[2])
+        end
 
-  internal_cmd = require? HOMEBREW_LIBRARY_PATH.join("cmd", cmd) if cmd
-
-  # Usage instructions should be displayed if and only if one of:
-  # - a help flag is passed AND an internal command is matched
-  # - a help flag is passed AND there is no command specified
-  # - no arguments are passed
-  #
-  # It should never affect external commands so they can handle usage
-  # arguments themselves.
-
-  if empty_argv || (help_flag && (cmd.nil? || internal_cmd))
-    # TODO - `brew help cmd` should display subcommand help
-    require 'cmd/help'
-    puts ARGV.usage
-    exit ARGV.any? ? 0 : 1
-  end
-
-  if internal_cmd
-    Homebrew.send cmd.to_s.gsub('-', '_').downcase
-  elsif which "brew-#{cmd}"
-    %w[CACHE CELLAR LIBRARY_PATH PREFIX REPOSITORY].each do |e|
-      ENV["HOMEBREW_#{e}"] = Object.const_get("HOMEBREW_#{e}").to_s
+        hash_surname_and_days.sort.each do |key,value|
+        if key.to_i >= 0
+            m2 << "У следующего(ей) день рождения: " + value.to_s + " через " + key.to_s + " дней." + " Ему(ей) будет: " + (hash_surname_and_years[value]+1).to_s + " лет (года)."
+        end
+        end
+            @a = m2[0]
+            @b = m2[1]
+            @c = m2[2]
+            @d = m2[3]
+            @e = m2[4]
     end
-    exec "brew-#{cmd}", *ARGV
-  elsif (path = which("brew-#{cmd}.rb")) && require?(path)
-    exit Homebrew.failed? ? 1 : 0
-  else
-    onoe "Unknown command: #{cmd}"
-    exit 1
-  end
-
-rescue FormulaUnspecifiedError
-  abort "This command requires a formula argument"
-rescue KegUnspecifiedError
-  abort "This command requires a keg argument"
-rescue UsageError
-  onoe "Invalid usage"
-  abort ARGV.usage
-rescue SystemExit
-  puts "Kernel.exit" if ARGV.verbose?
-  raise
-rescue Interrupt => e
-  puts # seemingly a newline is typical
-  exit 130
-rescue BuildError => e
-  e.dump
-  exit 1
-rescue RuntimeError, SystemCallError => e
-  raise if e.message.empty?
-  onoe e
-  puts e.backtrace if ARGV.debug?
-  exit 1
-rescue Exception => e
-  onoe e
-  puts "#{Tty.white}Please report this bug:"
-  puts "    #{Tty.em}#{OS::ISSUES_URL}#{Tty.reset}"
-  puts e.backtrace
-  exit 1
-else
-  exit 1 if Homebrew.failed?
-end</code></pre>
+end
+</code></pre>
     </div>
 
     <div id="jump">
