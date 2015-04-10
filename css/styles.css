@@ -2,13 +2,11 @@
 
 @font-face {
     font-family: 'ifelsenormal';
-    src: url('ifElse-Normal.woff2') format('woff2'),
-         url('ifElse-Normal.woff') format('woff'),
-         url('ifElse-Normal.ttf') format('truetype');
+    src: url('ifElse-Normal.woff2') format('woff2'), url('ifElse-Normal.woff') format('woff'), url('ifElse-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
 
-}*/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -107,18 +105,13 @@ ol,
 ul {
     list-style: none;
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
 body {
-    margin: 0px auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "ifelsenormal", monospace;
     color: hsl(210, 10%, 10%);
     font-size: 16px;
-    max-width: 1500px;
     overflow-x: hidden;
 }
 
@@ -150,6 +143,7 @@ p {
 .safari #settings #safarialert {
     display: block;
 }
+
 .safari #alternates {
     display: none;
 }
@@ -161,6 +155,7 @@ p {
 #teaser {
     opacity: 0.65
 }
+
 .active {
     text-decoration: underline;
 }
@@ -250,19 +245,18 @@ h2 {
     margin: 34px 0 24px -1px;
 }
 
-
 a {
     color: #3896e6;
     text-decoration: none;
 }
 
 ::-moz-selection {
-    background-color: #B02F30;
+    background-color: #ef3b7d;
     color: white;
 }
 
 ::selection {
-    background-color: #B02F30;
+    background-color: #ef3b7d;
     color: white;
 }
 
@@ -279,6 +273,13 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 0 2%;
+}
+
+.blabla,
+#settings,
+code {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .blabla > section {
@@ -319,7 +320,7 @@ code {
     -webkit-transform: translateY(9px);
     -ms-transform: translateY(9px);
     transform: translateY(9px);
-    margin-left: -400px;
+    margin: 0 auto;
     margin-bottom: 20vh;
     line-height: 1.125;
 }
@@ -350,18 +351,16 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] {
-    padding-left: 400px;
+    padding: 0;
     border-radius: 0px;
     border-width: 0;
     overflow-y: hidden;
-}
-
-pre[class*="language-"] {
-    position: relative
+    position: relative;
+    margin: 0;
 }
 
 pre[class*="language-"] code {
-    padding: 2.5% 5% 100px 5%;
+    padding: 5% 5% 100px 5%;
     white-space: pre;
     display: block;
 }
@@ -416,7 +415,6 @@ pre[class*="language-"] code {
 #grid {
     display: none;
 }
-
 /* Baseline Grid */
 /*
 #grid {
@@ -430,7 +428,6 @@ pre[class*="language-"] code {
     right: 0;
 }
 */
-
 /* 1/2 baseline */
 /*
 #grid {

@@ -1,19 +1,17 @@
 code[class*="language-"],
 pre[class*="language-"] {
     color: #76d9e6;
-    text-shadow: none
+    text-shadow: none;
 }
 
 pre[class*="language-"],
 :not(pre)>code[class*="language-"] {
-    background: #2a2a2a
+    background: #141414
 }
 
 pre[class*="language-"] {
-    padding: 15px;
-    border-radius: 4px;
     border: 1px solid #e1e1e8;
-    overflow: auto
+    overflow: auto;
 }
 
 pre[class*="language-"] {
@@ -25,11 +23,24 @@ pre[class*="language-"] code {
     display: block
 }
 
-:not(pre)>code[class*="language-"] {
-    padding: 0.15em 0.2em 0.05em;
-    border-radius: .3em;
-    border: 0.13em solid #7a6652;
-    box-shadow: 1px 1px 0.3em -0.1em #000 inset
+pre:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left 0;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+}
+pre:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    z-index: 100;
 }
 
 .token.namespace {

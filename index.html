@@ -48,11 +48,11 @@
         <section>
             <h2>Concept</h2>
             <p>ifElse is a customizable, minimal and legible font optimized for coding.
-                <br>It's drawn to look sharp at 16px even on low resolution displays while still looking decent at bigger sizes and/or better displays.</p>
+                <br>It's drawn to be bitmap-like sharp at this size even on low res displays and still look good at bigger sizes and/or better displays.</p>
         </section>
         <section>
             <h2>Open Source</h2>
-            <p>Download, issues &amp; contribute on <a class="token keyword" href="https://github.com/andreaslarsen/ifelse">GitHub</a> where any help/feedback is always much appreciated. Chase is currently creating a script that will make chosing alternates and custom line+letter spacing easy. I am <a class="token keyword" href="https://twitter.com/intent/follow?screen_name=andreaslarsendk">@andreaslarsendk</a> by the way.
+            <p>Everything's on <a class="token keyword" href="https://github.com/andreaslarsen/ifelse">GitHub</a> where any help/feedback is always much appreciated. Chase is currently creating a script that will make chosing alternates and downloading line+letter spacing easy. I am <a class="token keyword" href="https://twitter.com/intent/follow?screen_name=andreaslarsendk">@andreaslarsendk</a> by the way.
         </section>
         <section>
             <h2>Features</h2>
@@ -67,7 +67,7 @@
             <h2>Latin + Symbols</h2>
             <p class="charmap">ABCDEFGHIJKLMNOPQRSTUVWXYZ
                 <br>abcdefghijklmnopqrstuvwxyz
-                <br>0123456789½#$&pound;&yen;&euro;%&amp;@&para;
+                <br>0123456789½¼¾¹²³$&pound;&yen;&euro;%&amp;@&para;
                 <br>.,:;&middot;!&iexcl;?&iquest;+&times;&div;&pm;=&lt;&gt;&quot;&apos;&lsquo;&rsquo;&sbquo;&ldquo;&rdquo;&bdquo;&laquo;&raquo;_-~&not;()[]{}/\|&brvbar;^&deg;*</p>
         </section>
         <section>
@@ -97,15 +97,23 @@
             <span><input id="zero" type="radio" name="zero">
             <label for="zero">&#xE001;</label></span>
             <span><input id="ss03" type="radio" name="zero">
-            <label for="ss03">&#xE002;</label></span>
-            <span><input id="ss02" type="checkbox">
-            <label for="ss02">&#xE005;</label></span>
-            <span><input id="ss05" type="checkbox">
-            <label for="ss05">&#xE004;</label></span>
-            <span><input id="ss01" type="checkbox">
-            <label for="ss01">&#xE000;</label></span>
+            <label for="ss03">&#xE002;</label></span> <!-- 0 -->
             <span><input id="ss04" type="checkbox">
-            <label for="ss04">&#xE003;</label></span></span>
+            <label for="ss04">&#xE003;</label></span> <!-- 1 -->
+            <span><input id="ss02" type="checkbox">
+            <label for="ss02">&#xE005;</label></span> <!-- 3 -->
+            <span><input id="ss07" type="checkbox">
+            <label for="ss07">&#xE008;&#xE009;</label></span> <!-- ij -->
+            <span><input id="ss05" type="checkbox">
+            <label for="ss05">&#xE004;</label></span><!-- l -->
+            <span><input id="ss08" type="checkbox">
+            <label for="ss08">&#xE00A;</label></span> <!-- r -->
+            <span><input id="ss06" type="checkbox">
+            <label for="ss06">&#xE006;&#xE007;</label></span> <!-- w -->
+            <span><input id="ss01" type="checkbox">
+            <label for="ss01">&#xE000;</label></span><!-- * -->
+            <span><input id="ss09" type="checkbox">
+            <label for="ss09">&#xE00B;</label></span></span> <!-- $ -->
             <br>Font Size&nbsp;&nbsp;&nbsp;
             <span class="clickme2" id="122">12</span>
             <span class="clickme2" id="132">13</span>
@@ -129,10 +137,10 @@
             <span class="clickme" id="23">##</span>
             <span class="clickme" id="24">##</span>
             <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="active">ifElse Normal</span> <span id="teaser">(More to come)</span>
-            <br>Highlight&nbsp;&nbsp;&nbsp;
+            <br>Color&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span id="themechooser">
                 <span id="none">None</span>
-            <span id="inverted">Inverted</span>
+            <span id="inverted">Terminal</span>
             <span class="active" id="xonokai">Xonokai</span>
             <span id="base16light">Base16Light</span>
             <span id="base16dark">Base16Dark</span>
@@ -1169,13 +1177,25 @@ end</code></pre>
                 if ($("#ss05").is(":checked")) {
                     FontFeature += '"ss05" ,'
                 }
+                if ($("#ss06").is(":checked")) {
+                    FontFeature += '"ss06" ,'
+                }
+                if ($("#ss07").is(":checked")) {
+                    FontFeature += '"ss07" ,'
+                }
+                if ($("#ss08").is(":checked")) {
+                    FontFeature += '"ss08" ,'
+                }
+                if ($("#ss09").is(":checked")) {
+                    FontFeature += '"ss09" ,'
+                }
                 if ($("#zero").is(":checked")) {
                     FontFeature += '"zero" ,'
                 }
                 FontFeature = FontFeature.substring(0, FontFeature.length - 2);
                 $('body').css("font-feature-settings", FontFeature);
             };
-            $('#zero, #ss01, #ss02, #ss03, #ss04, #ss05, #dotted').change(function () {
+            $('#zero, #ss01, #ss02, #ss03, #ss04, #ss05, #ss06, #ss07, #ss08, #ss09, #dotted').change(function () {
                 refreshFeatures();
             });
             $("#plus").on("click touch", function () {
