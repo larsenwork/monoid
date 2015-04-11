@@ -235,6 +235,7 @@ header * {
 h1 {
     font-size: 26vmin;
     margin-top: 10vmin;
+    margin-left: -0.08em;
 }
 
 h3 {
