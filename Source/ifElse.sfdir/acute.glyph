@@ -9,11 +9,11 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-489 1024 m 5
- 655 1408 l 5
- 793 1408 l 5
- 627 1024 l 5
- 489 1024 l 5
+489 1024 m 1
+ 655 1408 l 1
+ 793 1408 l 1
+ 627 1024 l 1
+ 489 1024 l 1
 EndSplineSet
 Layer: 2
 Layer: 3

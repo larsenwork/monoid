@@ -15,8 +15,8 @@ SplineSet
  640 0 l 1
  512 0 l 1
  512 904 l 1
- 256 904 l 5
- 256 1024 l 5
+ 256 904 l 1
+ 256 1024 l 1
  896 1024 l 1
 EndSplineSet
 Layer: 2
