@@ -125,13 +125,16 @@ p {
 .charmap {
     word-wrap: break-word;
 }
+.charmap span {
+    letter-spacing: 0;
+}
 
 #settings {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 0 5%;
+    padding: 0 20px;
     padding-top: 20px;
     margin-top: -20px;
 }
@@ -272,18 +275,18 @@ a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 0 2%;
+    padding: 0;
 }
 
 .blabla,
 #settings {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 .blabla > section {
     width: 380px;
-    padding: 0 3%;
+    padding: 0 20px;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
@@ -359,7 +362,7 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] code {
-    padding: 5% 5% 100px 5%;
+    padding: 60px 20px 100px 20px;
     white-space: pre;
     display: block;
 }
@@ -376,6 +379,11 @@ code:before {
 }
 /* Responsive */
 
+@media (max-width: 800px) {
+    #settings .bigonly {
+        display: none;
+    }
+}
 @media (max-width: 500px) {
     .blabla > section {
         width: auto;
@@ -401,11 +409,22 @@ code:before {
     }
 }
 
-@media (min-width: 9000px) {
+@media (min-width: 900px) {
     .charmap {
         letter-spacing: 16px;
         margin-right: -16px;
     }
+    #settings, pre[class*="language-"] code {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .blabla {
+        padding: 0 10px;
+    }
+    .blabla section {
+        padding: 0 30px;
+    }
+
 }
 
 @media (min-width: 1100px) {
@@ -436,6 +455,7 @@ code:before {
     bottom: 0;
     left: 0;
     right: 0;
+    pointer-events: none;
 }
 */
 /* 1/2 baseline */
