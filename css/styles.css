@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'ifelsenormal';
-    src: url('ifElse-Normal.ttf') format('truetype');
-    /*    src: url('ifElse-Normal.woff2') format('woff2'), url('ifElse-Normal.woff') format('woff'), url('ifElse-Normal.ttf') format('truetype');*/
+    /*    src: url('ifElse-Normal.ttf') format('truetype');*/
 
+    src: url('ifElse-Normal.woff2') format('woff2'), url('ifElse-Normal.woff') format('woff'), url('ifElse-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -131,7 +131,6 @@ p {
     display: inline-block;
 }
 
-
 .clickme:not(.active),
 .clickme2:not(.active),
 .tabs span:not(.active),
@@ -160,7 +159,6 @@ input[type=checkbox],
 input[type=radio] {
     display: none;
 }
-
 /*
 input[type=checkbox] + label::before,
 input[type=radio] + label::before {
@@ -179,7 +177,6 @@ input[type=radio]:checked + label {
     opacity: 1;
     text-decoration: underline;
 }
-
 /*
 input[type=checkbox]:checked + label::before,
 input[type=radio]:checked + label::before {
@@ -194,6 +191,7 @@ h3 {
     font-weight: normal;
     margin-bottom: 0;
 }
+
 .default {
     -webkit-font-feature-settings: 'zero' off;
     -moz-font-feature-settings: 'zero' off;
@@ -307,7 +305,7 @@ a {
     justify-content: center;
     padding: 0;
     max-width: 1500px;
-    margin: 0 auto 11vh;
+    margin: 0 auto 10px;
     -webkit-animation: type2 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 1100ms forwards;
     animation: type2 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 1100ms forwards;
     -webkit-transform: translateY(15vh);
@@ -409,7 +407,7 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] code {
-    padding: 100px 20px 100px 20px;
+    padding: 60px 20px 100px 20px;
     white-space: pre;
     display: block;
 }
@@ -457,9 +455,15 @@ code:before {
 }
 
 @media (min-width: 1100px) {
-    .charmap {
-        margin-right: -18px;
-        letter-spacing: 18px;
+    pre[class*="language-"] code {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .blabla {
+        padding: 0 30px;
+    }
+    .blabla section {
+        padding: 0 30px;
     }
 }
 
