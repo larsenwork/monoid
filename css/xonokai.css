@@ -6,7 +6,21 @@ pre[class*="language-"] {
 
 pre[class*="language-"],
 :not(pre)>code[class*="language-"] {
-    background: #141414
+    background-color: white;
+    -webkit-animation: bg 0ms 200ms forwards;
+    animation: bg 0ms 200ms forwards;
+}
+
+@keyframes bg {
+    to {
+        background-color: #141414
+    }
+}
+
+@-webkit-keyframes bg {
+    to {
+        background-color: #141414
+    }
 }
 
 pre[class*="language-"] {
@@ -30,8 +44,9 @@ pre:before {
     top: 0;
     left 0;
     height: 30px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
 }
+
 pre:after {
     content: "";
     width: 100%;
@@ -39,7 +54,7 @@ pre:after {
     bottom: 30px;
     left: 0;
     height: 30px;
-    background: linear-gradient(to top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
     z-index: 100;
 }
 
