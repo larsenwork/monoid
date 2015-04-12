@@ -238,8 +238,8 @@ h1 {
     width: 100%;
     height: 90%;
     background-color: white;
-    -webkit-animation: type 480ms steps(6, end) forwards;
-    animation: type 480ms steps(6, end) forwards;
+    -webkit-animation: type 480ms steps(6, end) 200ms forwards;
+    animation: type 480ms steps(6, end) 200ms forwards;
 }
 
 #h3load {
@@ -249,8 +249,8 @@ h1 {
     width: 69vmin;
     height: 100%;
     background-color: white;
-    -webkit-animation: type 690ms steps(23, end) 600ms forwards;
-    animation: type 690ms steps(23, end) 600ms forwards;
+    -webkit-animation: type 690ms steps(23, end) 700ms forwards;
+    animation: type 690ms steps(23, end) 700ms forwards;
 }
 
 @keyframes type {
