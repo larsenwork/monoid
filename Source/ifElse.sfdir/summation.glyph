@@ -1,0 +1,14 @@
+StartChar: summation
+Encoding: 8721 8721 584
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 388 120<128 1024> 900 120<128 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 542 931 N 1 0 0 1 0 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
