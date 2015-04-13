@@ -337,8 +337,8 @@ a {
 
 #postdownload {
     position: fixed;
-    top: -10vmin;
-    padding-top: 10vmin;
+    top: -20vmin;
+    padding-top: 20vmin;
     left: 0;
     right: 0;
     bottom: 0;
@@ -381,7 +381,7 @@ a {
 
 #close {
     position: absolute;
-    top: 5vmin;
+    top: 15vmin;
     right: 5vmin;
     cursor: pointer;
     -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
