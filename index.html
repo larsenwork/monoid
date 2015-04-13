@@ -52,11 +52,11 @@
         <section>
             <h2>Concept</h2>
             <p>Monoid is a customizable, minimal + legible font optimized for coding.
-                <br>It's drawn to be bitmap-like sharp at this size on low res displays and still look great at bigger sizes and/or better displays.
+                <br>It's drawn over a 16pt grid for bitmap-like sharpness at this size.
         </section>
         <section>
             <h2>Open Source</h2>
-            <p>Everything's on <a class="token keyword" href="https://github.com/andreaslarsen/monoid">GitHub</a> where any help, feedback and requests are welcome.
+            <p>On <a class="token keyword" href="https://github.com/andreaslarsen/monoid">GitHub</a> where any help, feedback and requests are welcome.
                 <br>You can request additional characters <a class="token keyword" href="https://github.com/andreaslarsen/monoid/issues/12">here</a> and suggest improvements <a class="token keyword" href="https://github.com/andreaslarsen/monoid/issues/13">here</a>.
         </section>
         <section>
@@ -1205,6 +1205,9 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
                 $(this).addClass('active');
                 $("#" + tab_id).addClass('current');
             });
+        });
+        $(window).bind("load", function () {
+            $('body').addClass('loaded');
         });
     </script>
 </body>

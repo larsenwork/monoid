@@ -2,25 +2,7 @@ pre[class*="language-"] {
     background: #181818;
     color: #d8d8d8
 }
-pre:before {
-    content: "";
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left 0;
-    height: 30px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
-}
-pre:after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    height: 30px;
-    background: linear-gradient(to top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
-    z-index: 100;
-}
+
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection, code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
     text-shadow: none;
     background: #b8b8b8

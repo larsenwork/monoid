@@ -228,7 +228,6 @@ h3 {
 h1 {
     font-size: 26vmin;
     margin-top: 8vh;
-    margin-left: 0.08em;
 }
 
 #h1load {
@@ -245,7 +244,7 @@ h1 {
 #h3load {
     position: absolute;
     top: 0;
-    right: 5.2vmin;
+    right: 4.5vmin;
     width: 69vmin;
     height: 100%;
     background-color: white;
@@ -267,7 +266,7 @@ h1 {
 
 h3 {
     font-size: 6vmin;
-    margin: -.3em auto 0;
+    margin: 0 auto 0;
 }
 
 h2 {
@@ -468,12 +467,13 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] {
-    padding: 0 !important;
-    border-radius: 0px;
-    border-width: 0;
+    padding: 0;
+    border: 0px;
     overflow-y: hidden;
     position: relative;
     margin: 0 !important;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
 }
 
 pre[class*="language-"] code {
@@ -486,7 +486,7 @@ code:before {
     content: "";
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 0;
     height: 30px;
     background-color: white;
