@@ -1,8 +1,8 @@
-StartChar: uniE00C
-Encoding: 57356 57356 606
-Width: 512
+StartChar: uni200B
+Encoding: 8203 8203 606
+Width: 0
 VWidth: 0
-Flags: W
+Flags: WO
 LayerCount: 5
 Back
 Fore
