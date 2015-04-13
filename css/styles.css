@@ -428,13 +428,13 @@ code {
 
 .code code {
     opacity: 0;
-    -webkit-transition: .2s ease-in;
-    transition: .2s ease-in;
+    -webkit-transition: opacity .2s ease-in;
+    transition: opacity .2s ease-in;
 }
 
 .code.current {
     height: auto;
-    margin: 0 auto 16vh;
+    margin: 0 auto;
 }
 
 #codewrapper > div:not(.current) pre {
@@ -447,7 +447,10 @@ code {
 
 #jump {
     text-align: center;
-    margin-bottom: 20vh;
+    margin: 5vh 0;
+}
+#jump p {
+    font-size: 16vmin;
 }
 /* PRISM OVERRIDE */
 
@@ -482,16 +485,6 @@ pre[class*="language-"] code {
     display: block;
 }
 
-code:before {
-    content: "";
-    width: 100%;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    height: 30px;
-    background-color: white;
-    z-index: 100;
-}
 /* Responsive */
 
 @media (max-width: 500px) {
