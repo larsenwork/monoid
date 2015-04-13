@@ -32,8 +32,8 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:description" content="Monoid Open Source Coding Font">
 
+    <link id="theme" rel="stylesheet" href="css/xonokai.min.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.min.css" type="text/css" />
-    <link id="theme" rel="stylesheet" href="" type="text/css" />
 </head>
 
 <body>
@@ -1172,7 +1172,7 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
                 $(this).addClass('active');
             });
             $("#xonokai").on("click touch", function () {
-                $("#theme").attr("href", "")
+                $("#theme").attr("href", "css/xonokai.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
