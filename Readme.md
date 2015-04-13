@@ -4,6 +4,6 @@
 [License](#license)<br>
 [Contributors](#team-members)<br>
 -->
-More info on [andreaslarsen.github.io/ifelse](http://andreaslarsen.github.io/ifelse/)
+More info on [andreaslarsen.github.io/monoid](http://andreaslarsen.github.io/monoid/)
 
-![screenshot](https://raw.githubusercontent.com/andreaslarsen/ifelse/gh-pages/ifelseface.png)
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/monoid/gh-pages/monoidface.png)
