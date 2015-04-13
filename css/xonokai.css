@@ -6,21 +6,7 @@ pre[class*="language-"] {
 
 pre[class*="language-"],
 :not(pre)>code[class*="language-"] {
-    background-color: white;
-    -webkit-animation: bg 0ms 200ms forwards;
-    animation: bg 0ms 200ms forwards;
-}
-
-@keyframes bg {
-    to {
-        background-color: #141414
-    }
-}
-
-@-webkit-keyframes bg {
-    to {
-        background-color: #141414
-    }
+    background-color: #141414;
 }
 
 pre[class*="language-"] {

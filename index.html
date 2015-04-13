@@ -32,8 +32,8 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:description" content="Monoid Open Source Coding Font">
 
-    <link id="theme" rel="stylesheet" href="css/xonokai.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.min.css" type="text/css" />
+    <link id="theme" rel="stylesheet" href="" type="text/css" />
 </head>
 
 <body>
@@ -65,7 +65,7 @@
                 <br>Big &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-*=&lt;&gt;%
                 <br>Different&nbsp;&nbsp;&nbsp;&nbsp;1Il| 0Oo ~-_ ([{ “”"
                 <br>Options&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="default">0</span>&#xE001;&#xE002; <span class="default">1</span>&#xE003; <span class="default">3</span>&#xE005; <span class="default">*</span>&#xE000; l&#xE004; <a class="token keyword" href="https://github.com/andreaslarsen/monoid/raw/master/Resources/Readme.pdf?raw=true">Guide</a>
-                <br>Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Details on <a class="token keyword" href="https://www.behance.net/gallery/25073801/monoid-Open-Source-Coding-Font">Bēhance</a>
+                <br>Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Details on <a class="token keyword" href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">Bēhance</a>
             </p>
         </section>
         <section>
@@ -88,9 +88,9 @@
                 <span id="safarialert">Use Chrome/Firefox on Mac/PC to preview the alternates.</span>
                 <br>Alternates
                 <input id="dotted" type="radio" name="zero" checked="checked">
-                <label for="dotted" class="default">0</label>&#xE00C;
+                <label for="dotted" class="default">0</label>
                 <input id="zero" type="radio" name="zero">
-                <label for="zero">&#xE001;</label>&#xE00C;
+                <label for="zero">&#xE001;</label>
                 <input id="ss03" type="radio" name="zero">
                 <label for="ss03">&#xE002;</label>
                 <input id="ss04" type="checkbox">
@@ -156,7 +156,7 @@
                 <span id="solarizedlight">D</span>
                 <span id="solarizeddark">E</span>
                 </span>
-                <br><span class="bigonly">Examples&nbsp;&nbsp;</span>
+                <br>Examples&nbsp;&nbsp;
                 <span class="tabs">
                 <span class="active" data-tab="ccode">c</span>
                 <span data-tab="python">py</span>
@@ -172,8 +172,9 @@
 
 
 
-    <div id="swift" class="code">
-        <pre><code class="language-swift">//  Async.swift
+    <div id="codewrapper">
+        <div id="swift" class="code">
+            <pre><code class="language-swift">//  Async.swift
 //  Created by Tobias DM on 15/07/14.
 //	OS X 10.10+ and iOS 8.0+
 //	Only use with ARC
@@ -288,12 +289,12 @@ public extension Async { // Static methods
         return Async.after(after, block: block, inQueue: queue)
     }
 }</code></pre>
-    </div>
+        </div>
 
 
 
-    <div id="ccode" class="current code">
-        <pre><code class="language-clike">//
+        <div id="ccode" class="current code">
+            <pre><code class="language-clike">//
 //  pangram.c
 //
 //  Created by Andreas Larsen on 11/04/15.
@@ -479,11 +480,11 @@ pangram(
 pangram(
     zlm, "Saya boleh makan kaca dan ia tidak mencederakan saya."
     )</code></pre>
-    </div>
+        </div>
 
 
-    <div id="javascript" class="code">
-        <pre><code class="language-javascript">/* ========================================================================
+        <div id="javascript" class="code">
+            <pre><code class="language-javascript">/* ========================================================================
  * Bootstrap: alert.js v3.3.4
  * http://getbootstrap.com/javascript/#alerts
  * ========================================================================
@@ -577,10 +578,10 @@ pangram(
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
 }(jQuery);</code></pre>
-    </div>
+        </div>
 
-    <div id="less" class="code">
-        <pre><code class="language-less">// Bootstrap
+        <div id="less" class="code">
+            <pre><code class="language-less">// Bootstrap
 // Buttons
 // --------------------------------------------------
 
@@ -746,10 +747,10 @@ input[type=&#x22;button&#x22;] {
     width: 100%;
   }
 }</code></pre>
-    </div>
+        </div>
 
-    <div id="python" class="code">
-        <pre><code class="language-python" ># vim: sts=4 sw=4 ts=4 et
+        <div id="python" class="code">
+            <pre><code class="language-python" ># vim: sts=4 sw=4 ts=4 et
 
 import fontforge
 from itertools import compress
@@ -885,10 +886,10 @@ def Variation(name):
         f.fontname = '-'.join(fontname)
         f.fullname = ' '.join(fontname)
     return op</code></pre>
-    </div>
+        </div>
 
-    <div id="ruby" class="code">
-        <pre><code class="language-ruby">#
+        <div id="ruby" class="code">
+            <pre><code class="language-ruby">#
 # Author: Brandon Mathis
 # A full rewrite based on the work of: Josediaz Gonzalez - https://github.com/josegonzalez/josediazgonzalez.com/blob/master/_plugins/blockquote.rb
 #
@@ -970,6 +971,7 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
+        </div>
     </div>
 
     <div id="jump">
@@ -981,7 +983,8 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
             <h2>Happy coding!</h2>
             <p>Tell your <a class="token keyword" href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmonoid%2F">Twitter</a> and <a class="token keyword" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/monoid/">Facebook</a> comrades
                 <br>and drop a Github <a class="token keyword" href="https://github.com/andreaslarsen/monoid">star</a> and Bēhance <a class="token keyword" href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">like</a>
-                <br><br>Thanks, спасибо, ευχαριστίες &amp; gracias!
+                <br>
+                <br>Thanks, спасибо, ευχαριστίες &amp; gracias!
             </p>
         </div>
     </div>
@@ -1164,32 +1167,32 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
                 $(this).addClass('active');
             });
             $("#inverted").on("click touch", function () {
-                $("#theme").attr("href", "css/blackbg.css")
+                $("#theme").attr("href", "css/blackbg.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#xonokai").on("click touch", function () {
-                $("#theme").attr("href", "css/xonokai.css")
+                $("#theme").attr("href", "")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#base16light").on("click touch", function () {
-                $("#theme").attr("href", "css/base16light.css")
+                $("#theme").attr("href", "css/base16light.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#base16dark").on("click touch", function () {
-                $("#theme").attr("href", "css/base16dark.css")
+                $("#theme").attr("href", "css/base16dark.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#solarizedlight").on("click touch", function () {
-                $("#theme").attr("href", "css/solarizedlight.css")
+                $("#theme").attr("href", "css/solarizedlight.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#solarizeddark").on("click touch", function () {
-                $("#theme").attr("href", "css/solarizeddark.css")
+                $("#theme").attr("href", "css/solarizeddark.min.css")
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
