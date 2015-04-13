@@ -6,4 +6,4 @@
 -->
 More info on [andreaslarsen.github.io/ifelse](http://andreaslarsen.github.io/ifelse/)
 
-![screenshot](https://raw.githubusercontent.com/andreaslarsen/ifelse/gh-pages/ifelseface.png)
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/monoid/gh-pages/ifelseface.png)
