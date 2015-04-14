@@ -1,26 +1,55 @@
-#Monoid 
-
 <table>
+    <tr>
+        <td colspan="4"><img src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
+    </tr>
     <tr>
         <td><a href="http://andreaslarsen.github.io/monoid/">Webpage</a></td>
         <td><a href="#fl">Font Log</a></td>
+        <td><a href="#ct">Contribute</a></td>
         <td><a href="#li">License</a></td>
-    </tr>
-    <tr>
-        <td colspan="3"><img src"https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Monoid1.png?raw=true"/></td>
     </tr>
 </table>
 
 
 
 #FontLog<a name="fl"></a>
-```
-0.10  2015.04.03  Latin characters   @andreaslarsendk
-0.20  2015.04.04  Latin extended     @andreaslarsendk
-0.24  2015.04.06  Cyrillic           @andreaslarsendk, feedback from K900
-0.27  2015.04.11  Greek              @andreaslarsendk
-0.28  2015.04.12  Misc. symbols      @andreaslarsendk
-```
+<table>
+    <tr>
+        <td>0.10</td>
+        <td>2015.04.03</td>
+        <td>latin basic</td>
+        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+    </tr>
+    <tr>
+        <td>0.20</td>
+        <td>2015.04.04</td>
+        <td>latin extended</td>
+        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+    </tr>
+    <tr>
+        <td>0.24</td>
+        <td>2015.04.06</td>
+        <td>cyrillic</td>
+        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a>, feedback from <a href="https://github.com/K900">k900</a></td>
+    </tr>
+    <tr>
+        <td>0.27</td>
+        <td>2015.04.11</td>
+        <td>greek</td>
+        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+    </tr>
+    <tr>
+        <td>0.28</td>
+        <td>2015.04.12</td>
+        <td>misc. symbols</td>
+        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+    </tr>
+</table>
+
+#Contribute<a name="ct"></a>
+Follow the general GitHub guide for [contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing).<br>
+Be sure to up the version number and add version number, date, change and your name to the Font Log above.
+
 #License<a name="li"></a>
 
 Copyright (c) 2015, @andreaslarsendk
