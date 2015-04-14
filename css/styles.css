@@ -113,7 +113,6 @@ body {
     font-family: "ifelsenormal", monospace;
     color: hsl(210, 10%, 10%);
     font-size: 16px;
-    overflow-x: hidden;
 }
 
 p {
@@ -135,12 +134,15 @@ p {
 .clickme2:not(.active),
 .tabs span:not(.active),
 #themechooser span:not(.active),
-#teaser {
-    opacity: 0.5
+#teaser, input[type=checkbox] + label,
+input[type=radio] + label {
+    color: hsla(210, 10%, 10%, 0.5);
 }
 
-.active {
+.active, input[type=checkbox]:checked + label,
+input[type=radio]:checked + label {
     text-decoration: underline;
+    color: hsl(210, 10%, 10%);
 }
 
 label,
@@ -167,16 +169,20 @@ input[type=radio] + label::before {
 }
 */
 
+/*
 input[type=checkbox] + label,
 input[type=radio] + label {
     opacity: 0.5;
 }
+*/
 
+/*
 input[type=checkbox]:checked + label,
 input[type=radio]:checked + label {
     opacity: 1;
     text-decoration: underline;
 }
+*/
 /*
 input[type=checkbox]:checked + label::before,
 input[type=radio]:checked + label::before {
@@ -276,17 +282,64 @@ h2 {
 }
 
 a {
-    color: #3896e6;
+    color: hsl(210, 80%, 45%);
     text-decoration: none;
 }
 
+#badgewrap {
+    position: fixed;
+    right: -95px;
+    top: -55px;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    z-index: 90;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#badge {
+    display: block;
+    color: white;
+    margin-top: 0px;
+    margin-left: 55px;
+    padding-top: 70px;
+    width: 300px;
+    height: 110px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: hsl(210, 100%, 100%);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.0);
+    -webkit-animation: git 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 2400ms forwards;
+    animation: git 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 2400ms forwards;
+}
+
+@keyframes git {
+    to {
+        background-color: hsl(210, 70%, 55%);
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+}
+
+@-webkit-keyframes git {
+    to {
+        background-color: hsl(210, 70%, 55%);
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+}
+
 ::-moz-selection {
-    background-color: #ef3b7d;
+    background-color: hsl(210, 70%, 55%);
     color: white;
 }
 
 ::selection {
-    background-color: #ef3b7d;
+    background-color: hsl(210, 70%, 55%);
     color: white;
 }
 
@@ -343,6 +396,7 @@ a {
     background-color: white;
     z-index: 101;
 }
+
 .loaded #loadoverlay {
     display: none;
 }
@@ -462,6 +516,7 @@ code {
     text-align: center;
     margin: 5vh 0;
 }
+
 #jump p {
     font-size: 16vmin;
 }
@@ -497,7 +552,6 @@ pre[class*="language-"] code {
     white-space: pre;
     display: block;
 }
-
 /* Responsive */
 
 @media (max-width: 500px) {
