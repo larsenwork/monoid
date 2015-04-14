@@ -1,10 +1,17 @@
 #Monoid 
 
-[Webpage](http://andreaslarsen.github.io/monoid/)<br>
-[Font Log](#fl)<br>
-[License](#li)
+<table>
+    <tr>
+        <td><a href="http://andreaslarsen.github.io/monoid/">Webpage</a></td>
+        <td><a href="#fl">Font Log</a></td>
+        <td><a href="#li">License</a></td>
+    </tr>
+    <tr>
+        <td colspan="3"><img src"https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Monoid1.png?raw=true"/></td>
+    </tr>
+</table>
 
-![image](https://github.com/andreaslarsen/mono16/blob/master/Screenshots/Monoid1.png?raw=true)
+
 
 #FontLog<a name="fl"></a>
 ```
