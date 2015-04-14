@@ -11,7 +11,7 @@
 Copyright (c) 2015, @andreaslarsendk
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.<br>
-This license is copied below, and is also has a [FAQ](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web)<br>
+This license is copied below, and it also has a [FAQ](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web)<br>
 
 ###SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
