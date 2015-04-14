@@ -12,7 +12,7 @@
 
 
 
-#FontLog<a name="fl"></a>
+#Font Log<a name="fl"></a>
 <table>
     <tr>
         <td>0.10</td>
