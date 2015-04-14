@@ -1,18 +1,19 @@
 <table>
     <tr>
-        <td colspan="4"><img src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="5"><img src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
         <td><a href="http://andreaslarsen.github.io/monoid/">Website</a></td>
         <td><a href="#fl">Font Log</a></td>
         <td><a href="#ct">Guidelines</a></td>
         <td><a href="#li">License</a></td>
+        <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web">License FAQ</a></td>
     </tr>
 </table>
 
 
-
-#Font Log<a name="fl"></a>
+<a name="fl"></a>
+#Font Log
 <table>
     <tr>
         <td>0.10</td>
@@ -46,11 +47,13 @@
     </tr>
 </table>
 
-#Guidelines<a name="ct"></a>
+<a name="ct"></a>
+#Guidelines
 Follow the general GitHub guide for [contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Be sure to up update the Font Log if you make any contributions.
 
-#License<a name="li"></a>
+<a name="li"></a>
+#License
 
 Copyright (c) 2015, @andreaslarsendk
 
