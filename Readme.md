@@ -19,31 +19,31 @@
         <td>0.10</td>
         <td>2015.04.03</td>
         <td>latin basic</td>
-        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
     </tr>
     <tr>
         <td>0.20</td>
         <td>2015.04.04</td>
         <td>latin extended</td>
-        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
     </tr>
     <tr>
         <td>0.24</td>
         <td>2015.04.06</td>
         <td>cyrillic</td>
-        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a>, feedback from <a href="https://github.com/K900">k900</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a>, feedback from <a href="https://github.com/K900">k900</a></td>
     </tr>
     <tr>
         <td>0.27</td>
         <td>2015.04.11</td>
         <td>greek</td>
-        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
     </tr>
     <tr>
         <td>0.28</td>
         <td>2015.04.12</td>
         <td>misc. symbols</td>
-        <td><a href="https://github.com/andreaslarsen">andreaslarsendk</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
     </tr>
 </table>
 
