@@ -1,3 +1,13 @@
+#FontLog
+```
+0.10  2015.04.03  Latin characters   @andreaslarsendk
+0.20  2015.04.04  Latin extended     @andreaslarsendk
+0.24  2015.04.06  Cyrillic           @andreaslarsendk
+0.27  2015.04.11  Greek              @andreaslarsendk
+0.28  2015.04.12  Misc. symbols      @andreaslarsendk
+```
+#License
+
 Copyright (c) 2015, @andreaslarsendk
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.<br>
@@ -5,8 +15,7 @@ This license is copied below, and is also available with a FAQ at:<br>
 http://scripts.sil.org/OFL<br>
 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web<br>
 
-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
------------------------------------------------------------
+###SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
 #####PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
