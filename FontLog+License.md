@@ -2,7 +2,7 @@
 ```
 0.10  2015.04.03  Latin characters   @andreaslarsendk
 0.20  2015.04.04  Latin extended     @andreaslarsendk
-0.24  2015.04.06  Cyrillic           @andreaslarsendk
+0.24  2015.04.06  Cyrillic           @andreaslarsendk, feedback from K900
 0.27  2015.04.11  Greek              @andreaslarsendk
 0.28  2015.04.12  Misc. symbols      @andreaslarsendk
 ```
