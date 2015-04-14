@@ -3,11 +3,11 @@
         <td colspan="5"><img src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://andreaslarsen.github.io/monoid/">Website</a></td>
+        <td><a href="http://andreaslarsen.github.io/monoid/" target="_blank">Website</a></td>
         <td><a href="#fl">Font Log</a></td>
         <td><a href="#ct">Guidelines</a></td>
         <td><a href="#li">License</a></td>
-        <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web">License FAQ</a></td>
+        <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web" target="_blank">License FAQ</a></td>
     </tr>
 </table>
 
