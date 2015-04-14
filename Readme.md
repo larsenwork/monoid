@@ -3,9 +3,9 @@
         <td colspan="4"><img src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://andreaslarsen.github.io/monoid/">Webpage</a></td>
+        <td><a href="http://andreaslarsen.github.io/monoid/">Website</a></td>
         <td><a href="#fl">Font Log</a></td>
-        <td><a href="#ct">Contribute</a></td>
+        <td><a href="#ct">Guidelines</a></td>
         <td><a href="#li">License</a></td>
     </tr>
 </table>
@@ -46,9 +46,9 @@
     </tr>
 </table>
 
-#Contribute<a name="ct"></a>
-Follow the general GitHub guide for [contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing).<br>
-Be sure to up the version number and add version number, date, change and your name to the Font Log above.
+#Guidelines<a name="ct"></a>
+Follow the general GitHub guide for [contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
+Be sure to up update the Font Log if you make any contributions.
 
 #License<a name="li"></a>
 
