@@ -34,13 +34,10 @@
     <meta property="og:image:height" content="1575">
     <meta property="og:image:type" content="image/png">
     <meta property="og:description" content="Monoid Open Source Coding Font">
-
-    <link id="theme" rel="stylesheet" href="css/xonokai.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/styles.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 
-<body>
-
+<body class="dark">
     <header>
         <div>
             <h1>Monoid
@@ -57,39 +54,21 @@
             <p>Monoid is a customizable font optimized for coding with bitmap-like sharpness at this size even on low res displays.
         </section>
         <section>
-            <h2>Open Source</h2>
-            <p>Fork away and help make Monoid even better! Please share your bug findings, requests and ideas - we use <a href="https://github.com/andreaslarsen/monoid/issues/">issues</a> for that.
+            <h2>Features</h2>
+            <p>600+ semi-narrow glyphs, bold punctuation, big operators and distinguisable glyphs such as 1Il| 0Oo ~-_ ([{ “”"</p>
         </section>
         <section>
-            <h2>Features</h2>
-            <p>Bold &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.,:;·!?
-                <br>Big &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-*=&lt;&gt;%
-                <br>Different&nbsp;&nbsp;&nbsp;&nbsp;1Il| 0Oo ~-_ ([{ “”"
-            </p>
+            <h2>Monoid</h2>
+            <p><a href="http://en.wikipedia.org/wiki/Monoid" target="_blank">Wiki</a>: An algebraic structure with a single associative binary operation and an identity element. Used in e.g. computer science.</p>
         </section>
         <section>
             <h2>Media</h2>
-            <p>Please use <a href="https://github.com/andreaslarsen/monoid/tree/master/Screenshots">these</a> images and refer to this website if you blog/post and don't hesitate to contact me if you have any questions.</p>
-        </section>
-        <section>
-            <h2>Contributors</h2>
-            <p>Chase - <a href="https://github.com/andreaslarsen/monoid/issues/2">#2</a> Fontbuilding script
-                <br>K900 - <a href="https://github.com/andreaslarsen/monoid/issues/7">#7</a> Feedback on Cyrillics
-                <br>Veeti - <a href="https://aur.archlinux.org/packages/ttf-mono16-git/">AUR package</a>
-                <br>Your name?</p>
-        </section>
-        <section>
-            <h2>Creator</h2>
-            <p><a href="https://twitter.com/intent/follow?screen_name=andreaslarsendk">@andreaslarsendk</a>
-                <br>Why? Because I kept changing coding fonts and I'm learning how to design typefaces.
-                <br>I also made <a target="_blank" href="https://gidole.github.io">Gidole</a> Open Source Modern DIN.
+            <p>Please use <a href="https://github.com/andreaslarsen/monoid/tree/master/Images">these</a> images and refer to this website if you blog/post. I'll gladly answer any questions you might have.</p>
         </section>
         <section id="settings">
-            <h2>Download</h2>
-            <p>Custom download soon - default <a id="download" href="https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true">ttf</a> for now.
-                <br>
-                <span id="safarialert">Use Chrome/Firefox + Mac/PC to preview the alternates.</span>
-                <br>Alternates
+            <h2>Options</h2>
+            <p><span id="safarialert">Works better in Chrome/Firefox.</span>
+                <br id="safaribreak">Alternates&nbsp;&nbsp;
                 <input id="dotted" type="radio" name="zero" checked="checked">
                 <label for="dotted" class="default">0</label>
                 <input id="zero" type="radio" name="zero">
@@ -103,7 +82,7 @@
                 <label for="ss02">&#xE005;</label>
                 <!-- 3 -->
                 <input id="ss07" type="checkbox">
-                <label for="ss07">&#xE008;&#xE009;</label>
+                <label for="ss07">&#xE008;</label>
                 <!-- ij -->
                 <input id="ss05" type="checkbox">
                 <label for="ss05">&#xE004;</label>
@@ -111,16 +90,16 @@
                 <input id="ss08" type="checkbox">
                 <label for="ss08">&#xE00A;</label>
                 <!-- r -->
+                <input id="ss09" type="checkbox">
+                <label for="ss09">&#xE00B;</label>
+                <!-- $ -->
                 <input id="ss06" type="checkbox">
                 <label for="ss06">&#xE006;&#xE007;</label>
                 <!-- w -->
                 <input id="ss01" type="checkbox">
                 <label for="ss01">&#xE000;</label>
                 <!-- * -->
-                <input id="ss09" type="checkbox">
-                <label for="ss09">&#xE00B;</label>
-                <!-- $ -->
-                <br>LineHeight
+                <br>LineHeight&nbsp;&nbsp;
                 <span class="clickme" id="15">x</span>
                 <span class="clickme" id="16">x</span>
                 <span class="clickme" id="17">x</span>
@@ -131,6 +110,11 @@
                 <span class="clickme" id="22">x</span>
                 <span class="clickme" id="23">x</span>
                 <span class="clickme" id="24">x</span>
+            </p>
+        </section>
+        <section>
+            <h2>Download</h2>
+            <p>The customizeable options will work soon. Get the <a id="download" href="https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true">ttf</a> for now.
             </p>
         </section>
         <section>
@@ -148,16 +132,10 @@
                 <span class="clickme2" id="212">21</span>
                 <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span class="active">Normal</span>
-                <span id="teaser">(More to come)</span>
-                <br>Color&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span id="themechooser">
-                <span id="none">None</span>
-                <span id="inverted">Black</span>
-                <span class="active" id="xonokai">A</span>
-                <span id="base16light">B</span>
-                <span id="base16dark">C</span>
-                <span id="solarizedlight">D</span>
-                <span id="solarizeddark">E</span>
+                <span id="light">Light</span>
+                <span id="dark" class="active">Dark</span>
                 </span>
                 <br>Examples&nbsp;&nbsp;
                 <span class="tabs">
@@ -166,841 +144,754 @@
                 <span data-tab="swift">swift</span>
                 <span data-tab="javascript">js</span>
                 <span data-tab="less">less</span>
-                <span data-tab="ruby">rb</span>
                 </span>
             </p>
         </section>
     </div>
 
-
-
-
     <div id="codewrapper">
         <div id="swift" class="code">
-            <pre><code class="language-swift">//  Async.swift
-//  Created by Tobias DM on 15/07/14.
-//	OS X 10.10+ and iOS 8.0+
-//	Only use with ARC
-//	The MIT License (MIT)
-//	Copyright (c) 2014 Tobias Due Munk
+            <pre><code class="language-swift hljs"><span class="hljs-comment">//  Async.swift</span>
+<span class="hljs-comment">//  Created by Tobias DM on 15/07/14.</span>
+<span class="hljs-comment">//	OS X 10.10+ and iOS 8.0+</span>
+<span class="hljs-comment">//	Only use with ARC</span>
+<span class="hljs-comment">//	The MIT License (MIT)</span>
+<span class="hljs-comment">//	Copyright (c) 2014 Tobias Due Munk</span>
 
 
-import Foundation
+<span class="hljs-keyword">import</span> <span class="hljs-type">Foundation</span>
 
 
-// MARK: - DSL for GCD queues
+<span class="hljs-comment">// MARK: - DSL for GCD queues</span>
 
-private class GCD {
+private <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">GCD</span> </span>{
 
-    /* dispatch_get_queue() */
-    class func mainQueue() -> dispatch_queue_t {
-        return dispatch_get_main_queue()
-        // Don't ever use dispatch_get_global_queue(qos_class_main(), 0) re https://gist.github.com/duemunk/34babc7ca8150ff81844
+    <span class="hljs-comment">/* dispatch_get_queue() */</span>
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">mainQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
+        <span class="hljs-keyword">return</span> dispatch_get_main_queue()
+        <span class="hljs-comment">// Don't ever use dispatch_get_global_queue(qos_class_main(), 0) re https://gist.github.com/duemunk/34babc7ca8150ff81844</span>
     }
-    class func userInteractiveQueue() -> dispatch_queue_t {
-        return dispatch_get_global_queue(QOS_CLASS_USER_INTERACTIVE, 0)
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">userInteractiveQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
+        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_USER_INTERACTIVE</span>, <span class="hljs-number">0</span>)
     }
-    class func userInitiatedQueue() -> dispatch_queue_t {
-         return dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">userInitiatedQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
+         <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_USER_INITIATED</span>, <span class="hljs-number">0</span>)
     }
-    class func utilityQueue() -> dispatch_queue_t {
-        return dispatch_get_global_queue(QOS_CLASS_UTILITY, 0)
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">utilityQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
+        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_UTILITY</span>, <span class="hljs-number">0</span>)
     }
-    class func backgroundQueue() -> dispatch_queue_t {
-        return dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)
-    }
-}
-
-
-// MARK: - Async – Struct
-
-public struct Async {
-
-    private let block: dispatch_block_t
-
-    private init(_ block: dispatch_block_t) {
-        self.block = block
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">backgroundQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
+        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_BACKGROUND</span>, <span class="hljs-number">0</span>)
     }
 }
 
 
-// MARK: - Async – Static methods
+<span class="hljs-comment">// MARK: - Async – Struct</span>
 
-public extension Async { // Static methods
+public <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Async</span> </span>{
+
+    private <span class="hljs-keyword">let</span> block: dispatch_block_t
+
+    private <span class="hljs-keyword">init</span>(<span class="hljs-number">_</span> block: dispatch_block_t) {
+        <span class="hljs-keyword">self</span>.block = block
+    }
+}
 
 
-    /* dispatch_async() */
+<span class="hljs-comment">// MARK: - Async – Static methods</span>
 
-    private static func async(block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
-        // Create a new block (Qos Class) from block to allow adding a notification to it later (see matching regular Async methods)
-        // Create block with the "inherit" type
-        let _block = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, block)
-        // Add block to queue
+public <span class="hljs-class"><span class="hljs-keyword">extension</span> <span class="hljs-title">Async</span> </span>{ <span class="hljs-comment">// Static methods</span>
+
+
+    <span class="hljs-comment">/* dispatch_async() */</span>
+
+    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">async</span><span class="hljs-params">(block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-comment">// Create a new block (Qos Class) from block to allow adding a notification to it later (see matching regular Async methods)</span>
+        <span class="hljs-comment">// Create block with the "inherit" type</span>
+        <span class="hljs-keyword">let</span> _block = dispatch_block_create(<span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block)
+        <span class="hljs-comment">// Add block to queue</span>
         dispatch_async(queue, _block)
-        // Wrap block in a struct since dispatch_block_t can't be extended
-        return Async(_block)
+        <span class="hljs-comment">// Wrap block in a struct since dispatch_block_t can't be extended</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>(_block)
     }
-    static func main(block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: GCD.mainQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.mainQueue())
     }
-    static func userInteractive(block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: GCD.userInteractiveQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInteractive</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.userInteractiveQueue())
     }
-    static func userInitiated(block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: GCD.userInitiatedQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInitiated</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.userInitiatedQueue())
     }
-    static func utility(block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: GCD.utilityQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">utility</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.utilityQueue())
     }
-    static func background(block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: GCD.backgroundQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">background</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.backgroundQueue())
     }
-    static func customQueue(queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
-        return Async.async(block, inQueue: queue)
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">customQueue</span><span class="hljs-params">(queue: dispatch_queue_t, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: queue)
     }
 
 
-    /* dispatch_after() */
+    <span class="hljs-comment">/* dispatch_after() */</span>
 
-    private static func after(seconds: Double, block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
-        let nanoSeconds = Int64(seconds * Double(NSEC_PER_SEC))
-        let time = dispatch_time(DISPATCH_TIME_NOW, nanoSeconds)
-        return at(time, block: block, inQueue: queue)
+    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">after</span><span class="hljs-params">(seconds: Double, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">let</span> nanoSeconds = <span class="hljs-type">Int64</span>(seconds * <span class="hljs-type">Double</span>(<span class="hljs-type">NSEC_PER_SEC</span>))
+        <span class="hljs-keyword">let</span> time = dispatch_time(<span class="hljs-type">DISPATCH_TIME_NOW</span>, nanoSeconds)
+        <span class="hljs-keyword">return</span> at(time, block: block, inQueue: queue)
     }
-    private static func at(time: dispatch_time_t, block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
-        // See Async.async() for comments
-        let _block = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, block)
+    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">at</span><span class="hljs-params">(time: dispatch_time_t, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-comment">// See Async.async() for comments</span>
+        <span class="hljs-keyword">let</span> _block = dispatch_block_create(<span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block)
         dispatch_after(time, queue, _block)
-        return Async(_block)
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>(_block)
     }
-    static func main(#after: Double, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: GCD.mainQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.mainQueue())
     }
-    static func userInteractive(#after: Double, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: GCD.userInteractiveQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInteractive</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.userInteractiveQueue())
     }
-    static func userInitiated(#after: Double, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: GCD.userInitiatedQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInitiated</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.userInitiatedQueue())
     }
-    static func utility(#after: Double, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: GCD.utilityQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">utility</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.utilityQueue())
     }
-    static func background(#after: Double, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: GCD.backgroundQueue())
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">background</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.backgroundQueue())
     }
-    static func customQueue(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
-        return Async.after(after, block: block, inQueue: queue)
+    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">customQueue</span><span class="hljs-params">(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: queue)
     }
 }</code></pre>
         </div>
 
 
 
-        <div id="ccode" class="current code">
-            <pre><code class="language-clike">//
-//  pangram.c
-//
-//  Created by Andreas Larsen on 11/04/15.
-//
+        <div id="ccode" class="current code lang-">
+            <pre><code class="hljs cpp"><span class="hljs-comment">/* Pango Language Sample Table
+*
+* The sample text may be a pangram, but is not necessarily.  It is chosen to
+* be demonstrative of normal text in the language, as well as exposing font
+* feature requirements unique to the language.  It should be suitable for use
+* as sample text in a font selection dialog.
+*
+* Needless to say, the list MUST be sorted on the language code.
+*/</span>
 
-#include "pangram.h"
-#ifndef pangram
-#define pangram(x, y)
-#endif
-
-pangram(
-    af, "Voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis."
+lang(
+    af, <span class="hljs-string">"Voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis."</span>
     )
-pangram(
-    bg, "Щурчо Цоньо хапваше ловджийско кюфте с бяла гъмза."
+lang(
+    bg, <span class="hljs-string">"Щурчо Цоньо хапваше ловджийско кюфте с бяла гъмза."</span>
     )
-pangram(
-    cz, "Příliš žluťoučký kůň úpěl ďábelské ódy."
+lang(
+    cz, <span class="hljs-string">"Příliš žluťoučký kůň úpěl ďábelské ódy."</span>
     )
-pangram(
-    de, "Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."
+lang(
+    de, <span class="hljs-string">"Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."</span>
     )
-pangram(
-    dk, "Høj bly gom vandt fræk sexquiz på wc."
+lang(
+    dk, <span class="hljs-string">"Høj bly gom vandt fræk sexquiz på wc."</span>
     )
-pangram(
-    ee, "Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."
+lang(
+    ee, <span class="hljs-string">"Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."</span>
     )
-pangram(
-    fi, "Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä."
+lang(
+    fi, <span class="hljs-string">"Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä."</span>
     )
-pangram(
-    fro, "Je puis mangier del voirre. Ne me nuit."
+lang(
+    fro, <span class="hljs-string">"Je puis mangier del voirre. Ne me nuit."</span>
     )
-pangram(
-    ga, "Chuaigh bé mhórshách le dlúthspád fíorfhinn trí hata mo dhea-phorcáin bhig."
+lang(
+    ga, <span class="hljs-string">"Chuaigh bé mhórshách le dlúthspád fíorfhinn trí hata mo dhea-phorcáin bhig."</span>
     )
-pangram(
-    gd, "S urrainn dhomh gloinne ithe; cha ghoirtich i mi."
+lang(
+    gd, <span class="hljs-string">"S urrainn dhomh gloinne ithe; cha ghoirtich i mi."</span>
     )
-pangram(
-    gl, "Eu podo xantar cristais e non cortarme."
+lang(
+    gl, <span class="hljs-string">"Eu podo xantar cristais e non cortarme."</span>
     )
-pangram(
-    gr, "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός."
+lang(
+    gr, <span class="hljs-string">"Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός."</span>
     )
-pangram(
-    gv, "Foddym gee glonney agh cha jean eh gortaghey mee."
+lang(
+    gv, <span class="hljs-string">"Foddym gee glonney agh cha jean eh gortaghey mee."</span>
     )
-pangram(
-    haw, "Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha."
+lang(
+    haw, <span class="hljs-string">"Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha."</span>
     )
-pangram(
-    hr, "Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."
+lang(
+    hr, <span class="hljs-string">"Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."</span>
     )
-pangram(
-    hu, "Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít."
+lang(
+    hu, <span class="hljs-string">"Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít."</span>
     )
-pangram(
-    is, "Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa"
+lang(
+    is, <span class="hljs-string">"Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa"</span>
     )
-pangram(
-    it, "Ma la volpe, col suo balzo, ha raggiunto il quieto Fido."
+lang(
+    it, <span class="hljs-string">"Ma la volpe, col suo balzo, ha raggiunto il quieto Fido."</span>
     )
-pangram(
-    jam, "Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?"
+lang(
+    jam, <span class="hljs-string">"Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?"</span>
     )
-pangram(
-    jbo, ".o'i mu xagji sofybakni cu zvati le purdi"
+lang(
+    jbo, <span class="hljs-string">".o'i mu xagji sofybakni cu zvati le purdi"</span>
     )
-pangram(
-    jv, "Aku isa mangan beling tanpa lara."
+lang(
+    jv, <span class="hljs-string">"Aku isa mangan beling tanpa lara."</span>
     )
-pangram(
-    kw, "Mý a yl dybry gwéder hag éf ny wra ow ankenya."
+lang(
+    kw, <span class="hljs-string">"Mý a yl dybry gwéder hag éf ny wra ow ankenya."</span>
     )
-pangram(
-    la, "Sic surgens, dux, zelotypos quam karus haberis"
+lang(
+    la, <span class="hljs-string">"Sic surgens, dux, zelotypos quam karus haberis"</span>
     )
-pangram(
-    lt, "Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą."
+lang(
+    lt, <span class="hljs-string">"Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą."</span>
     )
-pangram(
-    lv, "Sarkanās jūrascūciņas peld pa jūru."
+lang(
+    lv, <span class="hljs-string">"Sarkanās jūrascūciņas peld pa jūru."</span>
     )
-pangram(
-    map, "E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau."
+lang(
+    <span class="hljs-built_in">map</span>, <span class="hljs-string">"E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau."</span>
     )
-pangram(
-    mk, "Можам да јадам стакло, а не ме штета."
+lang(
+    mk, <span class="hljs-string">"Можам да јадам стакло, а не ме штета."</span>
     )
-pangram(
-    ms, "Saya boleh makan kaca dan ia tidak mencederakan saya."
+lang(
+    ms, <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
     )
-pangram(
-    nap, "M' pozz magna' o'vetr, e nun m' fa mal."
+lang(
+    nap, <span class="hljs-string">"M' pozz magna' o'vetr, e nun m' fa mal."</span>
     )
-pangram(
-    nb, "Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."
+lang(
+    nb, <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
     )
-pangram(
-    nl, "Pa's wijze lynx bezag vroom het fikse aquaduct."
+lang(
+    nl, <span class="hljs-string">"Pa's wijze lynx bezag vroom het fikse aquaduct."</span>
     )
-pangram(
-    nn, "Eg kan eta glas utan å skada meg."
+lang(
+    nn, <span class="hljs-string">"Eg kan eta glas utan å skada meg."</span>
     )
-pangram(
-    no, "Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."
+lang(
+    no, <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
     )
-pangram(
-    nv, "Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da."
+lang(
+    nv, <span class="hljs-string">"Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da."</span>
     )
-pangram(
-    oc, "Pòdi manjar de veire, me nafrariá pas."
+lang(
+    oc, <span class="hljs-string">"Pòdi manjar de veire, me nafrariá pas."</span>
     )
-pangram(
-    pcd, "Ch'peux mingi du verre, cha m'foé mie n'ma."
+lang(
+    pcd, <span class="hljs-string">"Ch'peux mingi du verre, cha m'foé mie n'ma."</span>
     )
-pangram(
-    pl, "Pchnąć w tę łódź jeża lub ośm skrzyń fig."
+lang(
+    pl, <span class="hljs-string">"Pchnąć w tę łódź jeża lub ośm skrzyń fig."</span>
     )
-pangram(
-    pt, "Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português."
+lang(
+    pt, <span class="hljs-string">"Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português."</span>
     )
-pangram(
-    pt - br, "À noite, vovô Kowalsky vê o ímã cair no pé do pingüim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz."
+lang(
+    pt - br, <span class="hljs-string">"À noite, vovô Kowalsky vê o ímã cair no pé do pingüim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz."</span>
     )
-pangram(
-    ro, "Fumegând hipnotic sașiul azvârle mreje în bălți."
+lang(
+    ro, <span class="hljs-string">"Fumegând hipnotic sașiul azvârle mreje în bălți."</span>
     )
-pangram(
-    ru, "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"
+lang(
+    ru, <span class="hljs-string">"В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"</span>
     )
-pangram(
-    scn, "Puotsu mangiari u vitru, nun mi fa mali."
+lang(
+    scn, <span class="hljs-string">"Puotsu mangiari u vitru, nun mi fa mali."</span>
     )
-pangram(
-    sk, "Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote."
+lang(
+    sk, <span class="hljs-string">"Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote."</span>
     )
-pangram(
-    sl, "Šerif bo za vajo spet kuhal domače žgance."
+lang(
+    sl, <span class="hljs-string">"Šerif bo za vajo spet kuhal domače žgance."</span>
     )
-pangram(
-    sq, "Unë mund të ha qelq dhe nuk më gjen gjë."
+lang(
+    sq, <span class="hljs-string">"Unë mund të ha qelq dhe nuk më gjen gjë."</span>
     )
-pangram(
-    sr, "Чешће цeђење мрeжастим џаком побољшава фертилизацију генских хибрида."
-    )# if 0
-pangram(
-    sr - sr@ latin, "Češće ceđenje mrežastim džakom poboljšava fertilizaciju genskih hibrida."
-    )# endif
-pangram(
-    sv, "Flygande bäckasiner söka strax hwila på mjuka tuvor."
+lang(
+    sr, <span class="hljs-string">"Чешће цeђење мрeжастим џаком побољшава фертилизацију генских хибрида."</span>
     )
-pangram(
-    swg, "I kå Glas frässa, ond des macht mr nix!"
+<span class="hljs-preprocessor">#<span class="hljs-keyword">if</span> 0</span>
+lang(
+    sr - sr@ latin, <span class="hljs-string">"Češće ceđenje mrežastim džakom poboljšava fertilizaciju genskih hibrida."</span>
     )
-pangram(
-    tl, "Kaya kong kumain nang bubog at hindi ako masaktan."
+<span class="hljs-preprocessor">#<span class="hljs-keyword">endif</span></span>
+lang(
+    sv, <span class="hljs-string">"Flygande bäckasiner söka strax hwila på mjuka tuvor."</span>
     )
-pangram(
-    tr, "Pijamalı hasta yağız şoföre çabucak güvendi."
+lang(
+    swg, <span class="hljs-string">"I kå Glas frässa, ond des macht mr nix!"</span>
     )
-pangram(
-    tw, "Metumi awe tumpan, ɜnyɜ me hwee."
+lang(
+    tl, <span class="hljs-string">"Kaya kong kumain nang bubog at hindi ako masaktan."</span>
     )
-pangram(
-    ua, "Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"
+lang(
+    tr, <span class="hljs-string">"Pijamalı hasta yağız şoföre çabucak güvendi."</span>
     )
-pangram(
-    vec, "Mi posso magnare el vetro, no'l me fa mae."
-    )<!--
-pangram(
-    vi, "Con sói nâu nhảy qua con chó lười."
+lang(
+    tw, <span class="hljs-string">"Metumi awe tumpan, ɜnyɜ me hwee."</span>
     )
--->
-pangram(
-    wa, "Dji pou magnî do vêre, çoula m' freut nén må."
+lang(
+    ua, <span class="hljs-string">"Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"</span>
     )
-pangram(
-    yo, "Mo lè je̩ dígí, kò ní pa mí lára."
+lang(
+    vec, <span class="hljs-string">"Mi posso magnare el vetro, no'l me fa mae."</span>
     )
-pangram(
-    zlm, "Saya boleh makan kaca dan ia tidak mencederakan saya."
+lang(
+    wa, <span class="hljs-string">"Dji pou magnî do vêre, çoula m' freut nén må."</span>
+    )
+lang(
+    yo, <span class="hljs-string">"Mo lè je̩ dígí, kò ní pa mí lára."</span>
+    )
+lang(
+    zlm, <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
     )</code></pre>
         </div>
 
 
         <div id="javascript" class="code">
-            <pre><code class="language-javascript">/* ========================================================================
+            <pre><code class="language-javascript hljs"><span class="hljs-comment">/* ========================================================================
  * Bootstrap: alert.js v3.3.4
  * http://getbootstrap.com/javascript/#alerts
  * ========================================================================
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
+ * ======================================================================== */</span>
 
 
-+function ($) {
-  'use strict';
++<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($)</span> </span>{
+<span class="hljs-pi">  'use strict'</span>;
 
-  // ALERT CLASS DEFINITION
-  // ======================
+  <span class="hljs-comment">// ALERT CLASS DEFINITION</span>
+  <span class="hljs-comment">// ======================</span>
 
-  var dismiss = '[data-dismiss="alert"]'
-  var Alert   = function (el) {
-    $(el).on('click', dismiss, this.close)
+  <span class="hljs-keyword">var</span> dismiss = <span class="hljs-string">'[data-dismiss="alert"]'</span>
+  <span class="hljs-keyword">var</span> Alert   = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(el)</span> </span>{
+    $(el).on(<span class="hljs-string">'click'</span>, dismiss, <span class="hljs-keyword">this</span>.close)
   }
 
-  Alert.VERSION = '3.3.4'
+  Alert.VERSION = <span class="hljs-string">'3.3.4'</span>
 
-  Alert.TRANSITION_DURATION = 150
+  Alert.TRANSITION_DURATION = <span class="hljs-number">150</span>
 
-  Alert.prototype.close = function (e) {
-    var $this    = $(this)
-    var selector = $this.attr('data-target')
+  Alert.prototype.close = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(e)</span> </span>{
+    <span class="hljs-keyword">var</span> $<span class="hljs-keyword">this</span>    = $(<span class="hljs-keyword">this</span>)
+    <span class="hljs-keyword">var</span> selector = $<span class="hljs-keyword">this</span>.attr(<span class="hljs-string">'data-target'</span>)
 
-    if (!selector) {
-      selector = $this.attr('href')
-      selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    <span class="hljs-keyword">if</span> (!selector) {
+      selector = $<span class="hljs-keyword">this</span>.attr(<span class="hljs-string">'href'</span>)
+      selector = selector &amp;&amp; selector.replace(<span class="hljs-regexp">/.*(?=#[^\s]*$)/</span>, <span class="hljs-string">''</span>) <span class="hljs-comment">// strip for ie7</span>
     }
 
-    var $parent = $(selector)
+    <span class="hljs-keyword">var</span> $parent = $(selector)
 
-    if (e) e.preventDefault()
+    <span class="hljs-keyword">if</span> (e) e.preventDefault()
 
-    if (!$parent.length) {
-      $parent = $this.closest('.alert')
+    <span class="hljs-keyword">if</span> (!$parent.length) {
+      $parent = $<span class="hljs-keyword">this</span>.closest(<span class="hljs-string">'.alert'</span>)
     }
 
-    $parent.trigger(e = $.Event('close.bs.alert'))
+    $parent.trigger(e = $.Event(<span class="hljs-string">'close.bs.alert'</span>))
 
-    if (e.isDefaultPrevented()) return
+    <span class="hljs-keyword">if</span> (e.isDefaultPrevented()) <span class="hljs-keyword">return</span>
 
-    $parent.removeClass('in')
+    $parent.removeClass(<span class="hljs-string">'in'</span>)
 
-    function removeElement() {
-      // detach from parent, fire event then clean up data
-      $parent.detach().trigger('closed.bs.alert').remove()
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">removeElement</span><span class="hljs-params">()</span> </span>{
+      <span class="hljs-comment">// detach from parent, fire event then clean up data</span>
+      $parent.detach().trigger(<span class="hljs-string">'closed.bs.alert'</span>).remove()
     }
 
-    $.support.transition && $parent.hasClass('fade') ?
+    $.support.transition &amp;&amp; $parent.hasClass(<span class="hljs-string">'fade'</span>) ?
       $parent
-        .one('bsTransitionEnd', removeElement)
+        .one(<span class="hljs-string">'bsTransitionEnd'</span>, removeElement)
         .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
       removeElement()
   }
 
 
-  // ALERT PLUGIN DEFINITION
-  // =======================
+  <span class="hljs-comment">// ALERT PLUGIN DEFINITION</span>
+  <span class="hljs-comment">// =======================</span>
 
-  function Plugin(option) {
-    return this.each(function () {
-      var $this = $(this)
-      var data  = $this.data('bs.alert')
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Plugin</span><span class="hljs-params">(option)</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.each(<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+      <span class="hljs-keyword">var</span> $<span class="hljs-keyword">this</span> = $(<span class="hljs-keyword">this</span>)
+      <span class="hljs-keyword">var</span> data  = $<span class="hljs-keyword">this</span>.data(<span class="hljs-string">'bs.alert'</span>)
 
-      if (!data) $this.data('bs.alert', (data = new Alert(this)))
-      if (typeof option == 'string') data[option].call($this)
+      <span class="hljs-keyword">if</span> (!data) $<span class="hljs-keyword">this</span>.data(<span class="hljs-string">'bs.alert'</span>, (data = <span class="hljs-keyword">new</span> Alert(<span class="hljs-keyword">this</span>)))
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> option == <span class="hljs-string">'string'</span>) data[option].call($<span class="hljs-keyword">this</span>)
     })
   }
 
-  var old = $.fn.alert
+  <span class="hljs-keyword">var</span> old = $.fn.alert
 
   $.fn.alert             = Plugin
   $.fn.alert.Constructor = Alert
 
 
-  // ALERT NO CONFLICT
-  // =================
+  <span class="hljs-comment">// ALERT NO CONFLICT</span>
+  <span class="hljs-comment">// =================</span>
 
-  $.fn.alert.noConflict = function () {
+  $.fn.alert.noConflict = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
     $.fn.alert = old
-    return this
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
   }
 
 
-  // ALERT DATA-API
-  // ==============
+  <span class="hljs-comment">// ALERT DATA-API</span>
+  <span class="hljs-comment">// ==============</span>
 
-  $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
+  $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">'click.bs.alert.data-api'</span>, dismiss, Alert.prototype.close)
 
 }(jQuery);</code></pre>
         </div>
 
         <div id="less" class="code">
-            <pre><code class="language-less">// Bootstrap
-// Buttons
-// --------------------------------------------------
+            <pre><code class="language-less hljs"><span class="hljs-comment">// Bootstrap</span>
+<span class="hljs-comment">// Buttons</span>
+<span class="hljs-comment">// --------------------------------------------------</span>
 
 
-// Base styles
-// --------------------------------------------------
+<span class="hljs-comment">// Base styles</span>
+<span class="hljs-comment">// --------------------------------------------------</span>
 
-.btn {
-  display: inline-block;
-  margin-bottom: 0; // For input.btn
-  font-weight: @btn-font-weight;
-  text-align: center;
-  vertical-align: middle;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid transparent;
-  white-space: nowrap;
-  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
-  .user-select(none);
+<span class="hljs-class">.btn</span> {
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">// For input.btn</span>
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-variable">@btn-font-weight</span>;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">vertical-align</span>: middle;
+  <span class="hljs-attribute">touch-action</span>: manipulation;
+  <span class="hljs-attribute">cursor</span>: pointer;
+  <span class="hljs-attribute">background-image</span>: none; <span class="hljs-comment">// Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214</span>
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid transparent;
+  <span class="hljs-attribute">white-space</span>: nowrap;
+  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-base-vertical</span>; <span class="hljs-variable">@padding-base-horizontal</span>; <span class="hljs-variable">@font-size-base</span>; <span class="hljs-variable">@line-height-base</span>; <span class="hljs-variable">@border-radius-base</span>);
+  <span class="hljs-class">.user-select</span>(none);
 
-  &#x26;,
-  &#x26;:active,
-  &#x26;.active {
-    &#x26;:focus,
-    &#x26;.focus {
-      .tab-focus();
+  <span class="hljs-keyword">&amp;</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span> {
+    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
+    <span class="hljs-keyword">&amp;</span><span class="hljs-class">.focus</span> {
+      <span class="hljs-class">.tab-focus</span>();
     }
   }
 
-  &#x26;:hover,
-  &#x26;:focus,
-  &#x26;.focus {
-    color: @btn-default-color;
-    text-decoration: none;
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.focus</span> {
+    <span class="hljs-attribute">color</span>: <span class="hljs-variable">@btn-default-color</span>;
+    <span class="hljs-attribute">text-decoration</span>: none;
   }
 
-  &#x26;:active,
-  &#x26;.active {
-    outline: 0;
-    background-image: none;
-    .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span> {
+    <span class="hljs-attribute">outline</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">background-image</span>: none;
+    <span class="hljs-class">.box-shadow</span>(inset <span class="hljs-number">0</span> <span class="hljs-number">3px</span> <span class="hljs-number">5px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">125</span>));
   }
 
-  &#x26;.disabled,
-  &#x26;[disabled],
-  fieldset[disabled] &#x26; {
-    cursor: @cursor-disabled;
-    .opacity(.65);
-    .box-shadow(none);
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.disabled</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
+  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
+    <span class="hljs-attribute">cursor</span>: <span class="hljs-variable">@cursor-disabled</span>;
+    <span class="hljs-class">.opacity</span>(.<span class="hljs-number">65</span>);
+    <span class="hljs-class">.box-shadow</span>(none);
   }
 
-  a&#x26; {
-    &#x26;.disabled,
-    fieldset[disabled] &#x26; {
-      pointer-events: none; // Future-proof disabling of clicks on &#x60;&#x3C;a&#x3E;&#x60; elements
-    }
-  }
-}
-
-
-// Alternate buttons
-// --------------------------------------------------
-
-.btn-default {
-  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
-}
-.btn-primary {
-  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
-}
-// Success appears as green
-.btn-success {
-  .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
-}
-// Info appears as blue-green
-.btn-info {
-  .button-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
-}
-// Warning appears as orange
-.btn-warning {
-  .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
-}
-// Danger and error appear as red
-.btn-danger {
-  .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
-}
-
-
-// Link buttons
-// -------------------------
-
-// Make a button look and behave like a link
-.btn-link {
-  color: @link-color;
-  font-weight: normal;
-  border-radius: 0;
-
-  &#x26;,
-  &#x26;:active,
-  &#x26;.active,
-  &#x26;[disabled],
-  fieldset[disabled] &#x26; {
-    background-color: transparent;
-    .box-shadow(none);
-  }
-  &#x26;,
-  &#x26;:hover,
-  &#x26;:focus,
-  &#x26;:active {
-    border-color: transparent;
-  }
-  &#x26;:hover,
-  &#x26;:focus {
-    color: @link-hover-color;
-    text-decoration: @link-hover-decoration;
-    background-color: transparent;
-  }
-  &#x26;[disabled],
-  fieldset[disabled] &#x26; {
-    &#x26;:hover,
-    &#x26;:focus {
-      color: @btn-link-disabled-color;
-      text-decoration: none;
+  <span class="hljs-tag">a</span><span class="hljs-keyword">&amp;</span> {
+    <span class="hljs-keyword">&amp;</span><span class="hljs-class">.disabled</span>,
+    <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
+      <span class="hljs-attribute">pointer-events</span>: none; <span class="hljs-comment">// Future-proof disabling of clicks on `&lt;a&gt;` elements</span>
     }
   }
 }
 
 
-// Button Sizes
-// --------------------------------------------------
+<span class="hljs-comment">// Alternate buttons</span>
+<span class="hljs-comment">// --------------------------------------------------</span>
 
-.btn-lg {
-  // line-height: ensure even-numbered height of button next to large input
-  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+<span class="hljs-class">.btn-default</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-default-color</span>; <span class="hljs-variable">@btn-default-bg</span>; <span class="hljs-variable">@btn-default-border</span>);
 }
-.btn-sm {
-  // line-height: ensure proper height of button next to small input
-  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+<span class="hljs-class">.btn-primary</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-primary-color</span>; <span class="hljs-variable">@btn-primary-bg</span>; <span class="hljs-variable">@btn-primary-border</span>);
 }
-.btn-xs {
-  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+<span class="hljs-comment">// Success appears as green</span>
+<span class="hljs-class">.btn-success</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-success-color</span>; <span class="hljs-variable">@btn-success-bg</span>; <span class="hljs-variable">@btn-success-border</span>);
 }
-
-
-// Block button
-// --------------------------------------------------
-
-.btn-block {
-  display: block;
-  width: 100%;
+<span class="hljs-comment">// Info appears as blue-green</span>
+<span class="hljs-class">.btn-info</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-info-color</span>; <span class="hljs-variable">@btn-info-bg</span>; <span class="hljs-variable">@btn-info-border</span>);
 }
-
-// Vertically space out multiple block buttons
-.btn-block + .btn-block {
-  margin-top: 5px;
+<span class="hljs-comment">// Warning appears as orange</span>
+<span class="hljs-class">.btn-warning</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-warning-color</span>; <span class="hljs-variable">@btn-warning-bg</span>; <span class="hljs-variable">@btn-warning-border</span>);
+}
+<span class="hljs-comment">// Danger and error appear as red</span>
+<span class="hljs-class">.btn-danger</span> {
+  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-danger-color</span>; <span class="hljs-variable">@btn-danger-bg</span>; <span class="hljs-variable">@btn-danger-border</span>);
 }
 
-// Specificity overrides
-input[type=&#x22;submit&#x22;],
-input[type=&#x22;reset&#x22;],
-input[type=&#x22;button&#x22;] {
-  &#x26;.btn-block {
-    width: 100%;
+
+<span class="hljs-comment">// Link buttons</span>
+<span class="hljs-comment">// -------------------------</span>
+
+<span class="hljs-comment">// Make a button look and behave like a link</span>
+<span class="hljs-class">.btn-link</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-variable">@link-color</span>;
+  <span class="hljs-attribute">font-weight</span>: normal;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0</span>;
+
+  <span class="hljs-keyword">&amp;</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
+  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
+    <span class="hljs-attribute">background-color</span>: transparent;
+    <span class="hljs-class">.box-shadow</span>(none);
+  }
+  <span class="hljs-keyword">&amp;</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span> {
+    <span class="hljs-attribute">border-color</span>: transparent;
+  }
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
+  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span> {
+    <span class="hljs-attribute">color</span>: <span class="hljs-variable">@link-hover-color</span>;
+    <span class="hljs-attribute">text-decoration</span>: <span class="hljs-variable">@link-hover-decoration</span>;
+    <span class="hljs-attribute">background-color</span>: transparent;
+  }
+  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
+  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
+    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
+    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span> {
+      <span class="hljs-attribute">color</span>: <span class="hljs-variable">@btn-link-disabled-color</span>;
+      <span class="hljs-attribute">text-decoration</span>: none;
+    }
+  }
+}
+
+
+<span class="hljs-comment">// Button Sizes</span>
+<span class="hljs-comment">// --------------------------------------------------</span>
+
+<span class="hljs-class">.btn-lg</span> {
+  <span class="hljs-comment">// line-height: ensure even-numbered height of button next to large input</span>
+  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-large-vertical</span>; <span class="hljs-variable">@padding-large-horizontal</span>; <span class="hljs-variable">@font-size-large</span>; <span class="hljs-variable">@line-height-large</span>; <span class="hljs-variable">@border-radius-large</span>);
+}
+<span class="hljs-class">.btn-sm</span> {
+  <span class="hljs-comment">// line-height: ensure proper height of button next to small input</span>
+  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-small-vertical</span>; <span class="hljs-variable">@padding-small-horizontal</span>; <span class="hljs-variable">@font-size-small</span>; <span class="hljs-variable">@line-height-small</span>; <span class="hljs-variable">@border-radius-small</span>);
+}
+<span class="hljs-class">.btn-xs</span> {
+  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-xs-vertical</span>; <span class="hljs-variable">@padding-xs-horizontal</span>; <span class="hljs-variable">@font-size-small</span>; <span class="hljs-variable">@line-height-small</span>; <span class="hljs-variable">@border-radius-small</span>);
+}
+
+
+<span class="hljs-comment">// Block button</span>
+<span class="hljs-comment">// --------------------------------------------------</span>
+
+<span class="hljs-class">.btn-block</span> {
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+}
+
+<span class="hljs-comment">// Vertically space out multiple block buttons</span>
+<span class="hljs-class">.btn-block</span> + <span class="hljs-class">.btn-block</span> {
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">5px</span>;
+}
+
+<span class="hljs-comment">// Specificity overrides</span>
+<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="submit"]</span>,
+<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="reset"]</span>,
+<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="button"]</span> {
+  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.btn-block</span> {
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
   }
 }</code></pre>
         </div>
-
         <div id="python" class="code">
-            <pre><code class="language-python" ># vim: sts=4 sw=4 ts=4 et
+            <pre><code class="language-python hljs"><span class="hljs-comment"># vim: sts=4 sw=4 ts=4 et</span>
 
-import fontforge
-from itertools import compress
-from os.path import basename, splitext, join
+<span class="hljs-keyword">import</span> fontforge
+<span class="hljs-keyword">from</span> itertools <span class="hljs-keyword">import</span> compress
+<span class="hljs-keyword">from</span> os.path <span class="hljs-keyword">import</span> basename, splitext, join
 
-# Builder
-def style(name, does):
-    try:
+<span class="hljs-comment"># Builder</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">style</span><span class="hljs-params">(name, does)</span>:</span>
+    <span class="hljs-keyword">try</span>:
         does = list(does)
-    except TypeError:
+    <span class="hljs-keyword">except</span> TypeError:
         does = [does]
-    if type(does) is not list:
+    <span class="hljs-keyword">if</span> type(does) <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> list:
         does = list(does)
     option(name, name, [Variation(name)] + does)
 
-    return name
+    <span class="hljs-keyword">return</span> name
 
-def option(abrv, name, does):
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">option</span><span class="hljs-params">(abrv, name, does)</span>:</span>
     option.operations[abrv] = does
 
-    option.count += 1
-    for permutation in option.permutations:
+    option.count += <span class="hljs-number">1</span>
+    <span class="hljs-keyword">for</span> permutation <span class="hljs-keyword">in</span> option.permutations:
         permutation.append(abrv)
 
-    return abrv
+    <span class="hljs-keyword">return</span> abrv
 
-# Initialize the operations map, option count, and permutations
+<span class="hljs-comment"># Initialize the operations map, option count, and permutations</span>
 option.operations = {}
-option.count = 0
+option.count = <span class="hljs-number">0</span>
 option.permutations = [[]]
 
-def conflicting(*args):
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">conflicting</span><span class="hljs-params">(*args)</span>:</span>
     permutations = option.permutations
-    # Deconflict
-    # Assumes last #args options in each permutation are conflicting options
-    for arg in args:
-        for p in permutations:
+    <span class="hljs-comment"># Deconflict</span>
+    <span class="hljs-comment"># Assumes last #args options in each permutation are conflicting options</span>
+    <span class="hljs-keyword">for</span> arg <span class="hljs-keyword">in</span> args:
+        <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> permutations:
             p.pop()
 
-    # Only one of the options should be counted
-    option.count -= len(args) - 1
+    <span class="hljs-comment"># Only one of the options should be counted</span>
+    option.count -= len(args) - <span class="hljs-number">1</span>
 
-    # Get all permutations for conflicting options
-    option.permutations = [ p + [arg] for p in permutations for arg in args ]
+    <span class="hljs-comment"># Get all permutations for conflicting options</span>
+    option.permutations = [ p + [arg] <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> permutations <span class="hljs-keyword">for</span> arg <span class="hljs-keyword">in</span> args ]
 
-# Walk through all the options
-def walk(walker):
-    # Each option is a binary choice, so we use an int as a quick bitmap.
-    # To iterate over every possible permutation, all we have to do is increment
-    # up to the maximum value 2^(#options)
-    bitmap_max = 1 << option.count
+<span class="hljs-comment"># Walk through all the options</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">walk</span><span class="hljs-params">(walker)</span>:</span>
+    <span class="hljs-comment"># Each option is a binary choice, so we use an int as a quick bitmap.</span>
+    <span class="hljs-comment"># To iterate over every possible permutation, all we have to do is increment</span>
+    <span class="hljs-comment"># up to the maximum value 2^(#options)</span>
+    bitmap_max = <span class="hljs-number">1</span> &lt;&lt; option.count
 
-    # Iterate over all possible permutations
-    for i in xrange(bitmap_max):
-        # Map the iteration's permutations using a bitmap
-        bitmap = map(lambda n: i >> n & 1, xrange(option.count))
-        # NOTE: This does not effectively handle de-duplication.
-        # TODO: Tuples? Revert to expand_options and modify?
-        last = None
-        for p in option.permutations:
+    <span class="hljs-comment"># Iterate over all possible permutations</span>
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(bitmap_max):
+        <span class="hljs-comment"># Map the iteration's permutations using a bitmap</span>
+        bitmap = map(<span class="hljs-keyword">lambda</span> n: i &gt;&gt; n &amp; <span class="hljs-number">1</span>, xrange(option.count))
+        <span class="hljs-comment"># NOTE: This does not effectively handle de-duplication.</span>
+        <span class="hljs-comment"># TODO: Tuples? Revert to expand_options and modify?</span>
+        last = <span class="hljs-keyword">None</span>
+        <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> option.permutations:
             current = list(compress(p, bitmap))
-            if current == last:
-                break
+            <span class="hljs-keyword">if</span> current == last:
+                <span class="hljs-keyword">break</span>
             last = current
             walker(current)
 
-def build(outdir, font):
-    # Fork the original font
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">build</span><span class="hljs-params">(outdir, font)</span>:</span>
+    <span class="hljs-comment"># Fork the original font</span>
     fnt = fontforge.open(join(source, font))
 
-    # Get the base name for the font
-    name = join(outdir, splitext(basename(font))[0])
+    <span class="hljs-comment"># Get the base name for the font</span>
+    name = join(outdir, splitext(basename(font))[<span class="hljs-number">0</span>])
 
-    for opt in opts:
-        # Append this option to the font name
-        name += '-' + str(opt)
+    <span class="hljs-keyword">for</span> opt <span class="hljs-keyword">in</span> opts:
+        <span class="hljs-comment"># Append this option to the font name</span>
+        name += <span class="hljs-string">'-'</span> + str(opt)
 
-        # Run all the operations for this option
-        #for oper in options[opt]:
-            #opers[oper](fnt, *oper[opt])
+        <span class="hljs-comment"># Run all the operations for this option</span>
+        <span class="hljs-comment">#for oper in options[opt]:</span>
+            <span class="hljs-comment">#opers[oper](fnt, *oper[opt])</span>
 
-    # Output the file and cleanup
-    fnt.generate(name + ".ttf")
+    <span class="hljs-comment"># Output the file and cleanup</span>
+    fnt.generate(name + <span class="hljs-string">".ttf"</span>)
     fnt.close()
 
-# Operations
-## NOTE:
-## All operations return a closure with the 1st argument being a fontforge.font
+<span class="hljs-comment"># Operations</span>
+<span class="hljs-comment">## NOTE:</span>
+<span class="hljs-comment">## All operations return a closure with the 1st argument being a fontforge.font</span>
 
-## Adjusts the left and/or right bearings of all glyphs
-def Bearing(left=0, right=0):
-    def op(fnt):
+<span class="hljs-comment">## Adjusts the left and/or right bearings of all glyphs</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Bearing</span><span class="hljs-params">(left=<span class="hljs-number">0</span>, right=<span class="hljs-number">0</span>)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
         fnt.genericGlyphChange(
-                hCounterType="nonUniform",
-                hCounterScale=1.0,
-                lsbScale=1.0,
-                rsbScale=1.0,
+                hCounterType=<span class="hljs-string">"nonUniform"</span>,
+                hCounterScale=<span class="hljs-number">1.0</span>,
+                lsbScale=<span class="hljs-number">1.0</span>,
+                rsbScale=<span class="hljs-number">1.0</span>,
                 lsbAdd=left,
                 rsbAdd=right)
-    return op
+    <span class="hljs-keyword">return</span> op
 
-## Swaps the places of two glyphs using the DEL char as swap space
-def Swap(glyph1, glyph2):
-    def op(fnt):
-        # G1 -> SWP
+<span class="hljs-comment">## Swaps the places of two glyphs using the DEL char as swap space</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Swap</span><span class="hljs-params">(glyph1, glyph2)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
+        <span class="hljs-comment"># G1 -&gt; SWP</span>
         fnt.selection.select(glyph1)
         fnt.copy()
-        fnt.selection.select(127) # DEL
+        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
         fnt.paste()
 
-        # G2 -> G1
+        <span class="hljs-comment"># G2 -&gt; G1</span>
         fnt.selection.select(glyph2)
         fnt.copy()
         fnt.selection.select(glyph1)
         fnt.paste()
 
-        # SWP -> G1
-        fnt.selection.select(127) # DEL
+        <span class="hljs-comment"># SWP -&gt; G1</span>
+        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
         fnt.copy()
         fnt.selection.select(glyph2)
         fnt.paste()
 
-        # Clear SWP
-        fnt.selection.select(127) # DEL
+        <span class="hljs-comment"># Clear SWP</span>
+        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
         fnt.clear()
-    return op
+    <span class="hljs-keyword">return</span> op
 
-## Changes the subfamily/variation of the font
-def Variation(name):
-    def op(fnt):
-        basename = f.fontname.split('-')[0]
+<span class="hljs-comment">## Changes the subfamily/variation of the font</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Variation</span><span class="hljs-params">(name)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
+        basename = f.fontname.split(<span class="hljs-string">'-'</span>)[<span class="hljs-number">0</span>]
         fontname = [basename] + name.split()
-        f.fontname = '-'.join(fontname)
-        f.fullname = ' '.join(fontname)
-    return op</code></pre>
-        </div>
-
-        <div id="ruby" class="code">
-            <pre><code class="language-ruby">#
-# Author: Brandon Mathis
-# A full rewrite based on the work of: Josediaz Gonzalez - https://github.com/josegonzalez/josediazgonzalez.com/blob/master/_plugins/blockquote.rb
-#
-# Outputs a string with a given attribution as a quote
-#
-#   {% blockquote Bobby Willis http://google.com/search?q=pants the search for bobby's pants %}
-#   Wheeee!
-#   {% endblockquote %}
-#   ...
-#   <blockquote>
-#     <p>Wheeee!</p>
-#     <footer>
-#     <strong>Bobby Willis</strong><cite><a href="http://google.com/search?q=pants">The Search For Bobby's Pants</a>
-#   </blockquote>
-#
-require './plugins/titlecase.rb'
-
-module Jekyll
-
-  class Blockquote < Liquid::Block
-    FullCiteWithTitle = /(\S.*)\s+(https?:\/\/)(\S+)\s+(.+)/i
-    FullCite = /(\S.*)\s+(https?:\/\/)(\S+)/i
-    AuthorTitle = /([^,]+),([^,]+)/
-    Author =  /(.+)/
-
-    def initialize(tag_name, markup, tokens)
-      @by = nil
-      @source = nil
-      @title = nil
-      if markup =~ FullCiteWithTitle
-        @by = $1
-        @source = $2 + $3
-        @title = $4.titlecase.strip
-      elsif markup =~ FullCite
-        @by = $1
-        @source = $2 + $3
-      elsif markup =~ AuthorTitle
-        @by = $1
-        @title = $2.titlecase.strip
-      elsif markup =~ Author
-        @by = $1
-      end
-      super
-    end
-
-    def render(context)
-      quote = paragraphize(super)
-      author = "<strong>#{@by.strip}</strong>" if @by
-      if @source
-        url = @source.match(/https?:\/\/(.+)/)[1].split('/')
-        parts = []
-        url.each do |part|
-          if (parts + [part]).join('/').length < 32
-            parts << part
-          end
-        end
-        source = parts.join('/')
-        source << '/&hellip;' unless source == @source
-      end
-      if !@source.nil?
-        cite = " <cite><a href='#{@source}'>#{(@title || source)}</a></cite>"
-      elsif !@title.nil?
-        cite = " <cite>#{@title}</cite>"
-      end
-      blockquote = if @by.nil?
-        quote
-      elsif cite
-        "#{quote}<footer>#{author + cite}</footer>"
-      else
-        "#{quote}<footer>#{author}</footer>"
-      end
-      "<blockquote>#{blockquote}</blockquote>"
-    end
-
-    def paragraphize(input)
-      "<p>#{input.lstrip.rstrip.gsub(/\n\n/, '</p><p>').gsub(/\n/, '<br/>')}</p>"
-    end
-  end
-end
-
-Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
+        f.fontname = <span class="hljs-string">'-'</span>.join(fontname)
+        f.fullname = <span class="hljs-string">' '</span>.join(fontname)
+    <span class="hljs-keyword">return</span> op</code></pre>
         </div>
     </div>
 
     <div id="jump">
-        <p><a href="#settings">↑</a></p>
+        <p><a href="#settings">↑</a>
+        </p>
     </div>
     <div id="postdownload">
-        <h2 id="close">×</h2>
-        <div>
-            <h2>Happy coding!</h2>
-            <p>Tell your <a href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+by+%40andreaslarsendk+http%3A%2F%2Fandreaslarsen.github.io%2Fmonoid%2F">Twitter</a> and <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/monoid/">Facebook</a> comrades
-                <br>and drop a Github <a href="https://github.com/andreaslarsen/monoid">star</a> and Bēhance <a href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">like</a>
-                <br>
-                <br>Thanks, спасибо, ευχαριστίες &amp; gracias!
-            </p>
-        </div>
+        <div id="close">×</div>
+        <p>if (<a href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+http%3A%2F%2Fandreaslarsen.github.io%2Fmonoid%2F">Tweeted</a> || <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/monoid/">Facebooked</a>) {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;AuthorHappinessLevel += 1;
+            <br>}
+            <br>if (<a href="https://github.com/andreaslarsen/monoid">GithubStarred</a> &amp;&amp; <a href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">BehanceLiked</a>) {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;KarmaBalance = true;
+            <br>} else {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;$('Author').say('Hrmph');
+            <br>}
+        </p>
     </div>
-<div id="badgewrap"><a id="badge" href="https://github.com/andreaslarsen/monoid">GitHub<div id="badgeshadow"></div></a></div>
+    <div id="badgewrap"><a id="badge" href="https://github.com/andreaslarsen/monoid">GitHub<div id="badgeshadow"></div></a>
+    </div>
     <div id="loadoverlay"></div>
     <div id="grid"></div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
     </script>
-    <script type="text/javascript" src="js/prism.js" charset="utf-8"></script>
+<!--    <script src="js/highlight.pack.js"></script>-->
     <script>
         $(function () {
+
+//            hljs.initHighlightingOnLoad();
+
             if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
                 $('body').addClass("safari")
             }
@@ -1043,16 +934,23 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
             $('#zero, #ss01, #ss02, #ss03, #ss04, #ss05, #ss06, #ss07, #ss08, #ss09, #dotted').change(function () {
                 refreshFeatures();
             });
+            $('#jump').on("click touch", function (a) {
+                a.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $("#settings").offset().top
+                }, 500);
+            });
             $('#download').on("click touch", function (e) {
                 e.preventDefault();
-                $('#postdownload').addClass('downloaded').delay(600).queue(function (next) {
+                $('body').addClass('downloaded').delay(100).queue(function (next) {
                     window.location.href = 'https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true';
                     next();
                 });
                 return false;
             });
+
             $('#close').on("click touch", function () {
-                $('#postdownload').removeClass('downloaded');
+                $('body').removeClass('downloaded');
             });
             $("#plus").on("click touch", function () {
                 var LineNumber = parseInt($(".code").css("line-height")) + 1;
@@ -1166,38 +1064,13 @@ Liquid::Template.register_tag('blockquote', Jekyll::Blockquote)</code></pre>
                 $(this).addClass('active');
                 $('.code').css("font-size", "21px");
             });
-            $("#none").on("click touch", function () {
-                $("#theme").attr("href", "")
+            $("#light").on("click touch", function () {
+                $("body").removeClass('dark');
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
-            $("#inverted").on("click touch", function () {
-                $("#theme").attr("href", "css/blackbg.min.css")
-                $("#themechooser span").removeClass('active');
-                $(this).addClass('active');
-            });
-            $("#xonokai").on("click touch", function () {
-                $("#theme").attr("href", "css/xonokai.min.css")
-                $("#themechooser span").removeClass('active');
-                $(this).addClass('active');
-            });
-            $("#base16light").on("click touch", function () {
-                $("#theme").attr("href", "css/base16light.min.css")
-                $("#themechooser span").removeClass('active');
-                $(this).addClass('active');
-            });
-            $("#base16dark").on("click touch", function () {
-                $("#theme").attr("href", "css/base16dark.min.css")
-                $("#themechooser span").removeClass('active');
-                $(this).addClass('active');
-            });
-            $("#solarizedlight").on("click touch", function () {
-                $("#theme").attr("href", "css/solarizedlight.min.css")
-                $("#themechooser span").removeClass('active');
-                $(this).addClass('active');
-            });
-            $("#solarizeddark").on("click touch", function () {
-                $("#theme").attr("href", "css/solarizeddark.min.css")
+            $("#dark").on("click touch", function () {
+                $("body").addClass('dark');
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });

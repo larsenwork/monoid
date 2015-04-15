@@ -1,0 +1,716 @@
+<div id="codewrapper">
+    <div id="swift" class="code">
+        <pre><code class="language-swift">//  Async.swift
+//  Created by Tobias DM on 15/07/14.
+//	OS X 10.10+ and iOS 8.0+
+//	Only use with ARC
+//	The MIT License (MIT)
+//	Copyright (c) 2014 Tobias Due Munk
+
+
+import Foundation
+
+
+// MARK: - DSL for GCD queues
+
+private class GCD {
+
+    /* dispatch_get_queue() */
+    class func mainQueue() -> dispatch_queue_t {
+        return dispatch_get_main_queue()
+        // Don't ever use dispatch_get_global_queue(qos_class_main(), 0) re https://gist.github.com/duemunk/34babc7ca8150ff81844
+    }
+    class func userInteractiveQueue() -> dispatch_queue_t {
+        return dispatch_get_global_queue(QOS_CLASS_USER_INTERACTIVE, 0)
+    }
+    class func userInitiatedQueue() -> dispatch_queue_t {
+         return dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)
+    }
+    class func utilityQueue() -> dispatch_queue_t {
+        return dispatch_get_global_queue(QOS_CLASS_UTILITY, 0)
+    }
+    class func backgroundQueue() -> dispatch_queue_t {
+        return dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)
+    }
+}
+
+
+// MARK: - Async – Struct
+
+public struct Async {
+
+    private let block: dispatch_block_t
+
+    private init(_ block: dispatch_block_t) {
+        self.block = block
+    }
+}
+
+
+// MARK: - Async – Static methods
+
+public extension Async { // Static methods
+
+
+    /* dispatch_async() */
+
+    private static func async(block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
+        // Create a new block (Qos Class) from block to allow adding a notification to it later (see matching regular Async methods)
+        // Create block with the "inherit" type
+        let _block = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, block)
+        // Add block to queue
+        dispatch_async(queue, _block)
+        // Wrap block in a struct since dispatch_block_t can't be extended
+        return Async(_block)
+    }
+    static func main(block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: GCD.mainQueue())
+    }
+    static func userInteractive(block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: GCD.userInteractiveQueue())
+    }
+    static func userInitiated(block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: GCD.userInitiatedQueue())
+    }
+    static func utility(block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: GCD.utilityQueue())
+    }
+    static func background(block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: GCD.backgroundQueue())
+    }
+    static func customQueue(queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
+        return Async.async(block, inQueue: queue)
+    }
+
+
+    /* dispatch_after() */
+
+    private static func after(seconds: Double, block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
+        let nanoSeconds = Int64(seconds * Double(NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW, nanoSeconds)
+        return at(time, block: block, inQueue: queue)
+    }
+    private static func at(time: dispatch_time_t, block: dispatch_block_t, inQueue queue: dispatch_queue_t) -> Async {
+        // See Async.async() for comments
+        let _block = dispatch_block_create(DISPATCH_BLOCK_INHERIT_QOS_CLASS, block)
+        dispatch_after(time, queue, _block)
+        return Async(_block)
+    }
+    static func main(#after: Double, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: GCD.mainQueue())
+    }
+    static func userInteractive(#after: Double, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: GCD.userInteractiveQueue())
+    }
+    static func userInitiated(#after: Double, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: GCD.userInitiatedQueue())
+    }
+    static func utility(#after: Double, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: GCD.utilityQueue())
+    }
+    static func background(#after: Double, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: GCD.backgroundQueue())
+    }
+    static func customQueue(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t) -> Async {
+        return Async.after(after, block: block, inQueue: queue)
+    }
+}</code></pre>
+    </div>
+
+
+
+    <div id="ccode" class="current code lang-">
+        <pre><code>/* Pango Language Sample Table
+*
+* The sample text may be a pangram, but is not necessarily.  It is chosen to
+* be demonstrative of normal text in the language, as well as exposing font
+* feature requirements unique to the language.  It should be suitable for use
+* as sample text in a font selection dialog.
+*
+* Needless to say, the list MUST be sorted on the language code.
+*/
+
+lang(
+    af, "Voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis."
+    )
+lang(
+    bg, "Щурчо Цоньо хапваше ловджийско кюфте с бяла гъмза."
+    )
+lang(
+    cz, "Příliš žluťoučký kůň úpěl ďábelské ódy."
+    )
+lang(
+    de, "Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."
+    )
+lang(
+    dk, "Høj bly gom vandt fræk sexquiz på wc."
+    )
+lang(
+    ee, "Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."
+    )
+lang(
+    fi, "Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä."
+    )
+lang(
+    fro, "Je puis mangier del voirre. Ne me nuit."
+    )
+lang(
+    ga, "Chuaigh bé mhórshách le dlúthspád fíorfhinn trí hata mo dhea-phorcáin bhig."
+    )
+lang(
+    gd, "S urrainn dhomh gloinne ithe; cha ghoirtich i mi."
+    )
+lang(
+    gl, "Eu podo xantar cristais e non cortarme."
+    )
+lang(
+    gr, "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός."
+    )
+lang(
+    gv, "Foddym gee glonney agh cha jean eh gortaghey mee."
+    )
+lang(
+    haw, "Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha."
+    )
+lang(
+    hr, "Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."
+    )
+lang(
+    hu, "Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít."
+    )
+lang(
+    is, "Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa"
+    )
+lang(
+    it, "Ma la volpe, col suo balzo, ha raggiunto il quieto Fido."
+    )
+lang(
+    jam, "Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?"
+    )
+lang(
+    jbo, ".o'i mu xagji sofybakni cu zvati le purdi"
+    )
+lang(
+    jv, "Aku isa mangan beling tanpa lara."
+    )
+lang(
+    kw, "Mý a yl dybry gwéder hag éf ny wra ow ankenya."
+    )
+lang(
+    la, "Sic surgens, dux, zelotypos quam karus haberis"
+    )
+lang(
+    lt, "Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą."
+    )
+lang(
+    lv, "Sarkanās jūrascūciņas peld pa jūru."
+    )
+lang(
+    map, "E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau."
+    )
+lang(
+    mk, "Можам да јадам стакло, а не ме штета."
+    )
+lang(
+    ms, "Saya boleh makan kaca dan ia tidak mencederakan saya."
+    )
+lang(
+    nap, "M' pozz magna' o'vetr, e nun m' fa mal."
+    )
+lang(
+    nb, "Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."
+    )
+lang(
+    nl, "Pa's wijze lynx bezag vroom het fikse aquaduct."
+    )
+lang(
+    nn, "Eg kan eta glas utan å skada meg."
+    )
+lang(
+    no, "Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."
+    )
+lang(
+    nv, "Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da."
+    )
+lang(
+    oc, "Pòdi manjar de veire, me nafrariá pas."
+    )
+lang(
+    pcd, "Ch'peux mingi du verre, cha m'foé mie n'ma."
+    )
+lang(
+    pl, "Pchnąć w tę łódź jeża lub ośm skrzyń fig."
+    )
+lang(
+    pt, "Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português."
+    )
+lang(
+    pt - br, "À noite, vovô Kowalsky vê o ímã cair no pé do pingüim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz."
+    )
+lang(
+    ro, "Fumegând hipnotic sașiul azvârle mreje în bălți."
+    )
+lang(
+    ru, "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"
+    )
+lang(
+    scn, "Puotsu mangiari u vitru, nun mi fa mali."
+    )
+lang(
+    sk, "Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote."
+    )
+lang(
+    sl, "Šerif bo za vajo spet kuhal domače žgance."
+    )
+lang(
+    sq, "Unë mund të ha qelq dhe nuk më gjen gjë."
+    )
+lang(
+    sr, "Чешће цeђење мрeжастим џаком побољшава фертилизацију генских хибрида."
+    )
+#if 0
+lang(
+    sr - sr@ latin, "Češće ceđenje mrežastim džakom poboljšava fertilizaciju genskih hibrida."
+    )
+#endif
+lang(
+    sv, "Flygande bäckasiner söka strax hwila på mjuka tuvor."
+    )
+lang(
+    swg, "I kå Glas frässa, ond des macht mr nix!"
+    )
+lang(
+    tl, "Kaya kong kumain nang bubog at hindi ako masaktan."
+    )
+lang(
+    tr, "Pijamalı hasta yağız şoföre çabucak güvendi."
+    )
+lang(
+    tw, "Metumi awe tumpan, ɜnyɜ me hwee."
+    )
+lang(
+    ua, "Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"
+    )
+lang(
+    vec, "Mi posso magnare el vetro, no'l me fa mae."
+    )<!--
+lang(
+    vi, "Con sói nâu nhảy qua con chó lười."
+    )
+-->
+lang(
+    wa, "Dji pou magnî do vêre, çoula m' freut nén må."
+    )
+lang(
+    yo, "Mo lè je̩ dígí, kò ní pa mí lára."
+    )
+lang(
+    zlm, "Saya boleh makan kaca dan ia tidak mencederakan saya."
+    )</code></pre>
+    </div>
+
+
+    <div id="javascript" class="code">
+        <pre><code class="language-javascript">/* ========================================================================
+ * Bootstrap: alert.js v3.3.4
+ * http://getbootstrap.com/javascript/#alerts
+ * ========================================================================
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // ALERT CLASS DEFINITION
+  // ======================
+
+  var dismiss = '[data-dismiss="alert"]'
+  var Alert   = function (el) {
+    $(el).on('click', dismiss, this.close)
+  }
+
+  Alert.VERSION = '3.3.4'
+
+  Alert.TRANSITION_DURATION = 150
+
+  Alert.prototype.close = function (e) {
+    var $this    = $(this)
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = $(selector)
+
+    if (e) e.preventDefault()
+
+    if (!$parent.length) {
+      $parent = $this.closest('.alert')
+    }
+
+    $parent.trigger(e = $.Event('close.bs.alert'))
+
+    if (e.isDefaultPrevented()) return
+
+    $parent.removeClass('in')
+
+    function removeElement() {
+      // detach from parent, fire event then clean up data
+      $parent.detach().trigger('closed.bs.alert').remove()
+    }
+
+    $.support.transition && $parent.hasClass('fade') ?
+      $parent
+        .one('bsTransitionEnd', removeElement)
+        .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
+      removeElement()
+  }
+
+
+  // ALERT PLUGIN DEFINITION
+  // =======================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.alert')
+
+      if (!data) $this.data('bs.alert', (data = new Alert(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.alert
+
+  $.fn.alert             = Plugin
+  $.fn.alert.Constructor = Alert
+
+
+  // ALERT NO CONFLICT
+  // =================
+
+  $.fn.alert.noConflict = function () {
+    $.fn.alert = old
+    return this
+  }
+
+
+  // ALERT DATA-API
+  // ==============
+
+  $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
+
+}(jQuery);</code></pre>
+    </div>
+
+    <div id="less" class="code">
+        <pre><code class="language-less">// Bootstrap
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: @btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
+  .user-select(none);
+
+  &#x26;,
+  &#x26;:active,
+  &#x26;.active {
+    &#x26;:focus,
+    &#x26;.focus {
+      .tab-focus();
+    }
+  }
+
+  &#x26;:hover,
+  &#x26;:focus,
+  &#x26;.focus {
+    color: @btn-default-color;
+    text-decoration: none;
+  }
+
+  &#x26;:active,
+  &#x26;.active {
+    outline: 0;
+    background-image: none;
+    .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
+
+  &#x26;.disabled,
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    cursor: @cursor-disabled;
+    .opacity(.65);
+    .box-shadow(none);
+  }
+
+  a&#x26; {
+    &#x26;.disabled,
+    fieldset[disabled] &#x26; {
+      pointer-events: none; // Future-proof disabling of clicks on &#x60;&#x3C;a&#x3E;&#x60; elements
+    }
+  }
+}
+
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-default {
+  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+}
+.btn-primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+// Success appears as green
+.btn-success {
+  .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
+}
+// Info appears as blue-green
+.btn-info {
+  .button-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
+}
+// Warning appears as orange
+.btn-warning {
+  .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
+}
+// Danger and error appear as red
+.btn-danger {
+  .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+  color: @link-color;
+  font-weight: normal;
+  border-radius: 0;
+
+  &#x26;,
+  &#x26;:active,
+  &#x26;.active,
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    background-color: transparent;
+    .box-shadow(none);
+  }
+  &#x26;,
+  &#x26;:hover,
+  &#x26;:focus,
+  &#x26;:active {
+    border-color: transparent;
+  }
+  &#x26;:hover,
+  &#x26;:focus {
+    color: @link-hover-color;
+    text-decoration: @link-hover-decoration;
+    background-color: transparent;
+  }
+  &#x26;[disabled],
+  fieldset[disabled] &#x26; {
+    &#x26;:hover,
+    &#x26;:focus {
+      color: @btn-link-disabled-color;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.btn-xs {
+  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+
+
+// Block button
+// --------------------------------------------------
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+// Specificity overrides
+input[type=&#x22;submit&#x22;],
+input[type=&#x22;reset&#x22;],
+input[type=&#x22;button&#x22;] {
+  &#x26;.btn-block {
+    width: 100%;
+  }
+}</code></pre>
+    </div>
+    <div id="python" class="code">
+        <pre><code class="language-python" ># vim: sts=4 sw=4 ts=4 et
+
+import fontforge
+from itertools import compress
+from os.path import basename, splitext, join
+
+# Builder
+def style(name, does):
+    try:
+        does = list(does)
+    except TypeError:
+        does = [does]
+    if type(does) is not list:
+        does = list(does)
+    option(name, name, [Variation(name)] + does)
+
+    return name
+
+def option(abrv, name, does):
+    option.operations[abrv] = does
+
+    option.count += 1
+    for permutation in option.permutations:
+        permutation.append(abrv)
+
+    return abrv
+
+# Initialize the operations map, option count, and permutations
+option.operations = {}
+option.count = 0
+option.permutations = [[]]
+
+def conflicting(*args):
+    permutations = option.permutations
+    # Deconflict
+    # Assumes last #args options in each permutation are conflicting options
+    for arg in args:
+        for p in permutations:
+            p.pop()
+
+    # Only one of the options should be counted
+    option.count -= len(args) - 1
+
+    # Get all permutations for conflicting options
+    option.permutations = [ p + [arg] for p in permutations for arg in args ]
+
+# Walk through all the options
+def walk(walker):
+    # Each option is a binary choice, so we use an int as a quick bitmap.
+    # To iterate over every possible permutation, all we have to do is increment
+    # up to the maximum value 2^(#options)
+    bitmap_max = 1 << option.count
+
+    # Iterate over all possible permutations
+    for i in xrange(bitmap_max):
+        # Map the iteration's permutations using a bitmap
+        bitmap = map(lambda n: i >> n & 1, xrange(option.count))
+        # NOTE: This does not effectively handle de-duplication.
+        # TODO: Tuples? Revert to expand_options and modify?
+        last = None
+        for p in option.permutations:
+            current = list(compress(p, bitmap))
+            if current == last:
+                break
+            last = current
+            walker(current)
+
+def build(outdir, font):
+    # Fork the original font
+    fnt = fontforge.open(join(source, font))
+
+    # Get the base name for the font
+    name = join(outdir, splitext(basename(font))[0])
+
+    for opt in opts:
+        # Append this option to the font name
+        name += '-' + str(opt)
+
+        # Run all the operations for this option
+        #for oper in options[opt]:
+            #opers[oper](fnt, *oper[opt])
+
+    # Output the file and cleanup
+    fnt.generate(name + ".ttf")
+    fnt.close()
+
+# Operations
+## NOTE:
+## All operations return a closure with the 1st argument being a fontforge.font
+
+## Adjusts the left and/or right bearings of all glyphs
+def Bearing(left=0, right=0):
+    def op(fnt):
+        fnt.genericGlyphChange(
+                hCounterType="nonUniform",
+                hCounterScale=1.0,
+                lsbScale=1.0,
+                rsbScale=1.0,
+                lsbAdd=left,
+                rsbAdd=right)
+    return op
+
+## Swaps the places of two glyphs using the DEL char as swap space
+def Swap(glyph1, glyph2):
+    def op(fnt):
+        # G1 -> SWP
+        fnt.selection.select(glyph1)
+        fnt.copy()
+        fnt.selection.select(127) # DEL
+        fnt.paste()
+
+        # G2 -> G1
+        fnt.selection.select(glyph2)
+        fnt.copy()
+        fnt.selection.select(glyph1)
+        fnt.paste()
+
+        # SWP -> G1
+        fnt.selection.select(127) # DEL
+        fnt.copy()
+        fnt.selection.select(glyph2)
+        fnt.paste()
+
+        # Clear SWP
+        fnt.selection.select(127) # DEL
+        fnt.clear()
+    return op
+
+## Changes the subfamily/variation of the font
+def Variation(name):
+    def op(fnt):
+        basename = f.fontname.split('-')[0]
+        fontname = [basename] + name.split()
+        f.fontname = '-'.join(fontname)
+        f.fullname = ' '.join(fontname)
+    return op</code></pre>
+    </div>
+</div>
