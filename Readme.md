@@ -56,7 +56,7 @@
 <a name="ct"></a>
 #Guidelines
 Follow the general GitHub guide for [contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
-Be sure to up update the Font Log if you make any contributions.
+Remember to update the Font Log if you make any contributions.
 
 <a name="li"></a>
 #License
