@@ -55,7 +55,7 @@
         </section>
         <section>
             <h2>Features</h2>
-            <p>600+ semi-narrow glyphs, bold punctuation, big operators and distinguisable glyphs such as 1Il| 0Oo ~-_ ([{ “”"</p>
+            <p>600+ semi-narrow glyphs, latin, кириллица, ελληνικά, bold punctuation, big operators and distinguisable glyphs such as 1Il| 0Oo ~-_ ([{ “”"</p>
         </section>
         <section>
             <h2>Monoid</h2>
@@ -63,12 +63,19 @@
         </section>
         <section>
             <h2>Media</h2>
-            <p>Please use <a href="https://github.com/andreaslarsen/monoid/tree/master/Images">these</a> images and refer to this website if you blog/post. I'll gladly answer any questions you might have.</p>
+            <p><a href="https://github.com/andreaslarsen/monoid/tree/master/Images">Images</a> for web use. Please link to this site so that your readers gets the customizeable options.</p>
+        </section>
+        <section>
+            <h2>Open Source</h2>
+            <p>Please report any bugs and requests on GitHub - or fork, modify and pull like a pro.</p>
+        </section>
+        <section>
+            <h2>License</h2>
+            <p>Monoid is free to use both for commercial and private projects. See source for details.</p>
         </section>
         <section id="settings">
             <h2>Options</h2>
-            <p><span id="safarialert">Works better in Chrome/Firefox.</span>
-                <br id="safaribreak">Alternates&nbsp;&nbsp;
+            <p><span id="dloptions">Alternates&nbsp;&nbsp;&nbsp;
                 <input id="dotted" type="radio" name="zero" checked="checked">
                 <label for="dotted" class="default">0</label>
                 <input id="zero" type="radio" name="zero">
@@ -99,7 +106,7 @@
                 <input id="ss01" type="checkbox">
                 <label for="ss01">&#xE000;</label>
                 <!-- * -->
-                <br>LineHeight&nbsp;&nbsp;
+                <br>Line Height&nbsp;&nbsp;
                 <span class="clickme" id="15">x</span>
                 <span class="clickme" id="16">x</span>
                 <span class="clickme" id="17">x</span>
@@ -109,12 +116,8 @@
                 <span class="clickme" id="21">x</span>
                 <span class="clickme" id="22">x</span>
                 <span class="clickme" id="23">x</span>
-                <span class="clickme" id="24">x</span>
-            </p>
-        </section>
-        <section>
-            <h2>Download</h2>
-            <p>The customizeable options will work soon. Get the <a id="download" href="https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true">ttf</a> for now.
+                <span class="clickme" id="24">x</span></span>
+                <br><a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span></a> <a class="button" href="https://github.com/andreaslarsen/monoid" target="_blank">Source <span class="icon">githubIcon</span></a>
             </p>
         </section>
         <section>
@@ -139,7 +142,7 @@
                 </span>
                 <br>Examples&nbsp;&nbsp;
                 <span class="tabs">
-                <span class="active" data-tab="ccode">c</span>
+                    <span class="active" data-tab="ccode">c</span>
                 <span data-tab="python">py</span>
                 <span data-tab="swift">swift</span>
                 <span data-tab="javascript">js</span>
@@ -147,6 +150,7 @@
                 </span>
             </p>
         </section>
+        <section id="flexfake"></section>
     </div>
 
     <div id="codewrapper">
@@ -863,22 +867,20 @@ option.permutations = [[]]
     </div>
 
     <div id="jump">
-        <p><a href="#settings">↑</a>
-        </p>
+        <h2><a href="#settings">Jump back up</a>
+        </h2>
     </div>
     <div id="postdownload">
         <div id="close">×</div>
-        <p>if (<a href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+http%3A%2F%2Fandreaslarsen.github.io%2Fmonoid%2F">Tweeted</a> || <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/monoid/">Facebooked</a>) {
+        <p>if (<a target="_blank" href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+http%3A%2F%2Fandreaslarsen.github.io%2Fmonoid%2F">Tweeted</a> || <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://andreaslarsen.github.io/monoid/">Facebooked</a>) {
             <br>&nbsp;&nbsp;&nbsp;&nbsp;AuthorHappinessLevel += 1;
             <br>}
-            <br>if (<a href="https://github.com/andreaslarsen/monoid">GithubStarred</a> &amp;&amp; <a href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">BehanceLiked</a>) {
+            <br>if (<a target="_blank" href="https://github.com/andreaslarsen/monoid">GithubStarred</a> &amp;&amp; <a target="_blank" href="https://www.behance.net/gallery/25073801/Monoid-Open-Source-Coding-Font">BehanceLiked</a>) {
             <br>&nbsp;&nbsp;&nbsp;&nbsp;KarmaBalance = true;
             <br>} else {
             <br>&nbsp;&nbsp;&nbsp;&nbsp;$('Author').say('Hrmph');
             <br>}
         </p>
-    </div>
-    <div id="badgewrap"><a id="badge" href="https://github.com/andreaslarsen/monoid">GitHub<div id="badgeshadow"></div></a>
     </div>
     <div id="loadoverlay"></div>
     <div id="grid"></div>
@@ -886,15 +888,25 @@ option.permutations = [[]]
     <script>
         window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
     </script>
-<!--    <script src="js/highlight.pack.js"></script>-->
+    <!--    <script src="js/highlight.pack.js"></script>-->
     <script>
         $(function () {
 
-//            hljs.initHighlightingOnLoad();
-
-            if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-                $('body').addClass("safari")
-            }
+            //            hljs.initHighlightingOnLoad();
+            $('#dloptions').one("click touch", function () {
+                if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+                    alert('Only default download for now. Update imminent. Preview alternates doesn\'t work in Safari.');
+                } else {
+                    alert('Only default download for now. Update imminent. Preview works.');
+                }
+            });
+            //            $('#dloptions').one("click touch", function () {
+            //                if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+            //                    alert('Previewing alternates doesn\'t work in Safari.');
+            //                } else {
+            //                    return false;
+            //                }
+            //            });
 
             function refreshFeatures() {
                 var FontFeature = "";
