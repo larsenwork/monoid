@@ -16,6 +16,12 @@
 #Font Log
 <table>
     <tr>
+        <td>Version</td>
+        <td>Date</td>
+        <td>Change</td>
+        <td>Author</td>
+    </tr>
+    <tr>
         <td>0.10</td>
         <td>2015.04.03</td>
         <td>latin basic</td>
