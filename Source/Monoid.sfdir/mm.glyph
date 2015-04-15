@@ -57,5 +57,5 @@ EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4
-Ligature2: "'liga' Standard Ligatures lookup 11-1" m m
+Ligature2: "'dlig' Discretionary Ligatures lookup 12-1" m m
 EndChar
