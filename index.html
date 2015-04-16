@@ -883,6 +883,8 @@ option.permutations = [[]]
         </p>
     </div>
     <div id="loadoverlay"></div>
+    <div id="safari" class="alert"><p>Only default download for now. Update imminent. Preview of alternates doesn't work in Safari.</p></div>
+    <div id="chrome" class="alert"><p>Only default download for now. Update imminent. Preview of alternates still works though.</p></div>
     <div id="grid"></div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
@@ -893,20 +895,21 @@ option.permutations = [[]]
         $(function () {
 
             //            hljs.initHighlightingOnLoad();
-            $('#dloptions').one("click touch", function () {
+            $("#dloptions").one("click touch", function () {
                 if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-                    alert('Only default download for now. Update imminent. Preview alternates doesn\'t work in Safari.');
+                    $("body").addClass("safari").delay(6000).queue(function (next) {
+                        $("body").removeClass("safari");
+                        next();
+                    });
+                    return false;
                 } else {
-                    alert('Only default download for now. Update imminent. Preview works.');
+                    $("body").addClass("chrome").delay(6000).queue(function (next) {
+                        $("body").removeClass("chrome");
+                        next();
+                    });
+                    return false;
                 }
             });
-            //            $('#dloptions').one("click touch", function () {
-            //                if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-            //                    alert('Previewing alternates doesn\'t work in Safari.');
-            //                } else {
-            //                    return false;
-            //                }
-            //            });
 
             function refreshFeatures() {
                 var FontFeature = "";
@@ -954,11 +957,8 @@ option.permutations = [[]]
             });
             $('#download').on("click touch", function (e) {
                 e.preventDefault();
-                $('body').addClass('downloaded').delay(100).queue(function (next) {
-                    window.location.href = 'https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true';
-                    next();
-                });
-                return false;
+                $('body').addClass('downloaded');
+                window.location.href = 'https://github.com/andreaslarsen/mono16/blob/master/Monoid-Normal.ttf?raw=true';
             });
 
             $('#close').on("click touch", function () {

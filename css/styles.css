@@ -305,7 +305,7 @@ label,
 }
 
 .button {
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: hsl(219, 48%, 50%);
     color: white;
     padding: 0px 12px 5px 14px;
@@ -319,9 +319,9 @@ label,
 }
 .button:hover, .button:focus {
     background-color: hsl(219, 52%, 54%);
+    box-shadow: inset 0 0 0px 1px rgba(0, 0, 0, 0.1), inset 0 0 10px 0px rgba(0, 0, 0, 0.01);
 }
 .button:active {
-    background-color: hsl(219, 47%, 44%);
 }
 .button .icon {
     font-size: 2rem;
@@ -347,6 +347,35 @@ LOAD OVERLAY */
 
 .loaded #loadoverlay {
     display: none;
+}
+/* SAFARI ALERT
+
+*/
+.alert {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #e88501;
+    color: white;
+    text-align: center;
+    z-index: 101;
+    padding: 0 10px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+.alert p {
+    margin-bottom: 10px;
+}
+.safari #safari {
+    visibility: visible;
+    opacity: 1;
+}
+.chrome #chrome {
+    visibility: visible;
+    opacity: 1;
 }
 /*
 
