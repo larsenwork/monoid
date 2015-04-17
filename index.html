@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 
-<body class="dark">
+<body>
     <header>
         <div>
             <h1>Monoid
@@ -55,7 +55,7 @@
         </section>
         <section>
             <h2>Features</h2>
-            <p>&rsaquo;600 semi-condensed and distinguishable glyphs with big apertures, bold punctuation, big operators and more.</p>
+            <p>&gt;600 semi-condensed and distinguishable glyphs with big apertures, bold punctuation, big operators and more.</p>
         </section>
         <section>
             <h2>Monoid</h2>
@@ -142,8 +142,10 @@
                 <span class="clickme2" id="212">21</span>
                 <br>Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span id="themechooser">
-                <span id="light">Light</span>
-                <span id="dark" class="active">Dark</span>
+                <span id="white">White</span>
+                <span id="light" class="active">Light</span>
+                <span id="dark">Dark</span>
+                <span id="black">Black</span>
                 </span>
                 <br>Example&nbsp;&nbsp;&nbsp;
                 <span class="tabs">
@@ -1122,12 +1124,22 @@ option.permutations = [[]]
                 $('.code').css("font-size", "21px");
             });
             $("#light").on("click touch", function () {
-                $("body").removeClass('dark');
+                $("body").removeClass('dark white black');
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
             $("#dark").on("click touch", function () {
-                $("body").addClass('dark');
+                $("body").removeClass('dark white black').addClass('dark');
+                $("#themechooser span").removeClass('active');
+                $(this).addClass('active');
+            });
+            $("#white").on("click touch", function () {
+                $("body").removeClass('dark white black').addClass('white');
+                $("#themechooser span").removeClass('active');
+                $(this).addClass('active');
+            });
+            $("#black").on("click touch", function () {
+                $("body").removeClass('dark white black').addClass('black');
                 $("#themechooser span").removeClass('active');
                 $(this).addClass('active');
             });
