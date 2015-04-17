@@ -486,7 +486,7 @@ CODE */
     margin: 0 -10vh;
     line-height: 1.15;
     height: 0;
-    box-shadow: inset 0 0 20vh rgba(0, 0, 0, 0.2), inset 0 0 3vh rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 20vh rgba(0, 0, 0, 0.1), inset 0 0 3vh rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
     -webkit-transition: box-shadow 0.2s ease, background-color 0.4s ease;
     transition: box-shadow 0.2s ease, background-color 0.4s ease;
 }
@@ -540,7 +540,7 @@ code span {
 }
 
 .code {
-    background-color: #f8f8f8;
+    background-color: #fafafa;
 }
 
 .hljs-keyword,
@@ -548,7 +548,8 @@ code span {
 .hljs-tag,
 .hljs-pseudo,
 .hljs-attr_selector,
-.hljs-constant {
+.hljs-constant,
+.xml .hljs-title {
     color: #446fbd;
 }
 
@@ -568,11 +569,13 @@ code span {
 
 .hljs-string,
 .hljs-pi,
-.language-less .hljs-keyword {
+.language-less .hljs-keyword,
+.xml .hljs-value {
     color: #e88501;
 }
 
-.hljs-number {
+.hljs-number,
+.xml .hljs-attribute {
     color: #6d8600;
 }
 .black .code {
@@ -601,7 +604,8 @@ code span {
 .dark .hljs-tag,
 .dark .hljs-pseudo,
 .dark .hljs-attr_selector,
-.dark .hljs-constant {
+.dark .hljs-constant,
+.dark .xml .hljs-title {
     color: #6c9ef8;
 }
 
@@ -621,11 +625,13 @@ code span {
 
 .dark .hljs-string,
 .dark .hljs-pi,
-.dark .language-less .hljs-keyword {
+.dark .language-less .hljs-keyword,
+.dark .xml .hljs-value {
     color: #D89333;
 }
 
-.dark .hljs-number {
+.dark .hljs-number,
+.dark .xml .hljs-attribute {
     color: #85a300;
 }
 /*
