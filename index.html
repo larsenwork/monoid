@@ -116,7 +116,16 @@
                 <span class="clickme" id="21">x</span>
                 <span class="clickme" id="22">x</span>
                 <span class="clickme" id="23">x</span>
-                <span class="clickme" id="24">x</span></span>
+                <span class="clickme" id="24">x</span>
+                <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span id="letterspacing">
+                <span id="tight">Tight</span>
+                <span id="halftight">½Tight</span>
+                <span id="normal" class="active">Normal</span>
+                <span id="halfloose">½Loose</span>
+                <span id="loose">Loose</span>
+                </span>
+                </span>
                 <br><a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span></a> <a class="button" href="https://github.com/andreaslarsen/monoid" target="_blank">Source <span class="icon">githubIcon</span></a>
             </p>
         </section>
@@ -133,16 +142,15 @@
                 <span class="clickme2" id="192">19</span>
                 <span class="clickme2" id="202">20</span>
                 <span class="clickme2" id="212">21</span>
-                <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="active">Normal</span>
                 <br>Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span id="themechooser">
                 <span id="light">Light</span>
                 <span id="dark" class="active">Dark</span>
                 </span>
-                <br>Examples&nbsp;&nbsp;
+                <br>Example&nbsp;&nbsp;&nbsp;
                 <span class="tabs">
-                    <span class="active" data-tab="ccode">c</span>
+                <span data-tab="test">test</span>
+                <span class="active" data-tab="ccode">c</span>
                 <span data-tab="python">py</span>
                 <span data-tab="swift">swift</span>
                 <span data-tab="javascript">js</span>
@@ -154,6 +162,9 @@
     </div>
 
     <div id="codewrapper">
+        <div id="test" class="code">
+            <pre><code><div id="txt" class="hljs" contenteditable="true" spellcheck="false" placeholder="Type or paste your own code here. You can use the tab key as you'd normally would in an editor."></div></code></pre>
+        </div>
         <div id="swift" class="code">
             <pre><code class="language-swift hljs"><span class="hljs-comment">//  Async.swift</span>
 <span class="hljs-comment">//  Created by Tobias DM on 15/07/14.</span>
@@ -883,8 +894,12 @@ option.permutations = [[]]
         </p>
     </div>
     <div id="loadoverlay"></div>
-    <div id="safari" class="alert"><p>Only default download for now. Update imminent. Preview of the alternates doesn't work in Safari.</p></div>
-    <div id="chrome" class="alert"><p>Only default download for now. Update imminent. Preview of the options still works though.</p></div>
+    <div id="safari" class="alert">
+        <p>You can only download the default font for now but an update is imminent. Preview of the alternates doesn't work in Safari.</p>
+    </div>
+    <div id="chrome" class="alert">
+        <p>You can only download the default font for now but an update is imminent. Preview of the options still works though.</p>
+    </div>
     <div id="grid"></div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
@@ -909,6 +924,35 @@ option.permutations = [[]]
                     });
                     return false;
                 }
+            });
+
+            function insertTextAtCursor(text) {
+                var sel, range, html;
+                sel = window.getSelection();
+                range = sel.getRangeAt(0);
+                range.deleteContents();
+                var textNode = document.createTextNode(text);
+                range.insertNode(textNode);
+                range.setStartAfter(textNode);
+                sel.removeAllRanges();
+                sel.addRange(range);
+            }
+
+            $("#txt").focusout(function () {
+                var element = $(this);
+                if (!element.text().replace(" ", "").length) {
+                    element.empty();
+                }
+            });
+            $("#txt").keydown(function (objEvent) {
+                if (objEvent.keyCode == 9) { //tab pressed
+                    objEvent.preventDefault(); // stops its action
+                    insertTextAtCursor('\t'); // insert tab
+                }
+//                if (objEvent.keyCode == 13) { //enter pressed
+//                    objEvent.preventDefault(); // stops its action
+//                    insertTextAtCursor('\n'); // insert newline
+//                }
             });
 
             function refreshFeatures() {
@@ -975,6 +1019,31 @@ option.permutations = [[]]
                 var LineString = LineNumber.toString();
                 LineString += "px";
                 $('.code').css("line-height", LineString);
+            });
+            $("#loose").on("click touch", function () {
+                $("#letterspacing span").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("letter-spacing", "0.0625em");
+            });
+            $("#halfloose").on("click touch", function () {
+                $("#letterspacing span").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("letter-spacing", "0.03125em");
+            });
+            $("#normal").on("click touch", function () {
+                $("#letterspacing span").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("letter-spacing", "0");
+            });
+            $("#halftight").on("click touch", function () {
+                $("#letterspacing span").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("letter-spacing", "-0.03125em");
+            });
+            $("#tight").on("click touch", function () {
+                $("#letterspacing span").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("letter-spacing", "-0.0625em");
             });
             $("#15").on("click touch", function () {
                 $(".clickme").removeClass('active');
