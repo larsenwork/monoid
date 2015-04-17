@@ -3,26 +3,25 @@ Encoding: 60 60 82
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 256 639
 LayerCount: 5
 Back
 Fore
 SplineSet
-895 355 m 1
- 895 205 l 1
- 256 656 l 1
- 256 752 l 1
- 895 1203 l 1
- 895 1053 l 1
- 400 709 l 1
- 400 699 l 1
- 895 355 l 1
+895 355 m 5
+ 895 205 l 5
+ 256 656 l 5
+ 256 752 l 5
+ 895 1203 l 5
+ 895 1053 l 5
+ 400 709 l 5
+ 400 699 l 5
+ 895 355 l 5
 EndSplineSet
 Layer: 2
 SplineSet
-136 67 m 5
- 857 576 l 5
- 136 1085 l 1029
+1016 15 m 5
+ 299 704 l 5
+ 1016 1393 l 1029
 EndSplineSet
 Layer: 3
 Layer: 4

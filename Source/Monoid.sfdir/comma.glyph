@@ -3,8 +3,7 @@ Encoding: 44 44 67
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -256 656<412.366 490>
-VStem: 384 256<90.6406 371.839> 384 106<-256 -208.756>
+VStem: 384 256<111.031 365.856> 384 106<-256 -214.662>
 LayerCount: 5
 Back
 SplineSet
@@ -16,14 +15,14 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-384 -256 m 5xa0
+384 -256 m 5x40
  384 254 l 6
  384 272 384 295 391 317 c 4
  407 366 451 400 512 400 c 4
- 589 400 640 346 640 272 c 4xc0
+ 589 400 640 346 640 272 c 4x80
  640 240 631 209 622 179 c 6
  490 -256 l 5
- 384 -256 l 5xa0
+ 384 -256 l 5x40
 EndSplineSet
 Layer: 2
 SplineSet

@@ -10,8 +10,8 @@ Version: 0.28
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
-Ascent: 1536
-Descent: 512
+Ascent: 1408
+Descent: 384
 InvalidEm: 0
 LayerCount: 5
 Layer: 0 0 "Back" 1
@@ -25,28 +25,29 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1429040987
+ModificationTime: 1429287867
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 184
-OS2TypoAscent: 1792
+OS2TypoAscent: 1408
 OS2TypoAOffset: 0
-OS2TypoDescent: -512
+OS2TypoDescent: -384
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1792
+OS2WinAscent: 1408
 OS2WinAOffset: 0
-OS2WinDescent: 512
+OS2WinDescent: 384
 OS2WinDOffset: 0
-HheadAscent: 1792
+HheadAscent: 1408
 HheadAOffset: 0
-HheadDescent: -512
+HheadDescent: -384
 HheadDOffset: 0
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 12" { "'liga' Standard Ligatures lookup 12-1"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 12" { "'dlig' Discretionary Ligatures lookup 12-1"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 5" { "'locl' Localized Forms in Cyrillic lookup 5-1"  } ['locl' ('cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss05' Style Set 5 in Latin lookup 4" { "'ss05' Style Set 5 in Latin lookup 4-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'cyrl' <'dflt' > ) ]
@@ -68,12 +69,10 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57209 19 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 Grid
--1920 1536 m 4
- 4224 1536 l 1028
 -1920 -384 m 0
  4224 -384 l 1024
   Spiro
@@ -95,11 +94,11 @@ Grid
     4224 -128 o
     0 0 z
   EndSpiro
--1920 1492 m 0
- 4224 1492 l 1024
+-1920 1364 m 0
+ 4224 1364 l 1024
   Spiro
-    -1920 1492 {
-    4224 1492 o
+    -1920 1364 {
+    4224 1364 o
     0 0 z
   EndSpiro
   Named: "o"
@@ -174,11 +173,11 @@ Grid
     0 0 z
   EndSpiro
   Named: ".5x"
--1920 -468 m 0
- 4224 -468 l 1024
+-1920 -340 m 0
+ 4224 -340 l 1024
   Spiro
-    -1920 -468 {
-    4224 -468 o
+    -1920 -340 {
+    4224 -340 o
     0 0 z
   EndSpiro
   Named: "o"
