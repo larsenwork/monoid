@@ -51,27 +51,27 @@
     <div class="blabla">
         <section>
             <h2>Concept</h2>
-            <p>Monoid is a customizable font optimized for coding with bitmap-like sharpness at this size even on low res displays.
+            <p>Monoid is a customizable font optimized for coding with bitmap-like sharpness at 14px even on low res displays.
         </section>
         <section>
             <h2>Features</h2>
-            <p>600+ semi-narrow glyphs, latin, кириллица, ελληνικά, bold punctuation, big operators and distinguisable glyphs such as 1Il| 0Oo ~-_ ([{ “”"</p>
+            <p>600+ semi-narrow glyphs, bold punctuation, big operators and distinguisable glyphs such as 1Il| 0Oo ~-_ ([{ “”"</p>
         </section>
         <section>
             <h2>Monoid</h2>
-            <p><a href="http://en.wikipedia.org/wiki/Monoid" target="_blank">Wiki</a>: An algebraic structure with a single associative binary operation and an identity element. Used in e.g. computer science.</p>
+            <p>An algebraic structure with a single associative binary operation and an identity element. Used in e.g. computer science<a href="http://en.wikipedia.org/wiki/Monoid" target="_blank">¹</a>.</p>
         </section>
         <section>
             <h2>Media</h2>
-            <p><a href="https://github.com/andreaslarsen/monoid/tree/master/Images">Images</a> for web use. Please link to this site so that your readers gets the customizeable options.</p>
+            <p>Images available<a href="https://github.com/andreaslarsen/monoid/tree/master/Images">²</a>. Please link to this site for the customizeable options.</p>
         </section>
         <section>
             <h2>Open Source</h2>
-            <p>Please report any bugs and requests on GitHub - or fork, modify and pull like a pro.</p>
+            <p>Please report bugs + requests on GitHub. Or fork, modify and pull.</p>
         </section>
         <section>
             <h2>License</h2>
-            <p>Monoid is free to use both for commercial and private projects. See source for details.</p>
+            <p>Monoid is free to use both for commercial and private projects<a href="https://github.com/andreaslarsen/monoid#li">³</a>.</p>
         </section>
         <section id="settings">
             <h2>Options</h2>
@@ -107,16 +107,14 @@
                 <label for="ss01">&#xE000;</label>
                 <!-- * -->
                 <br>Line Height&nbsp;&nbsp;
+                <span class="clickme" id="14">x</span>
                 <span class="clickme" id="15">x</span>
-                <span class="clickme" id="16">x</span>
+                <span class="clickme active" id="16">x</span>
                 <span class="clickme" id="17">x</span>
-                <span class="clickme active" id="18">x</span>
+                <span class="clickme" id="18">x</span>
                 <span class="clickme" id="19">x</span>
                 <span class="clickme" id="20">x</span>
                 <span class="clickme" id="21">x</span>
-                <span class="clickme" id="22">x</span>
-                <span class="clickme" id="23">x</span>
-                <span class="clickme" id="24">x</span>
                 <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span id="letterspacing">
                 <span id="tight">Tight</span>
@@ -134,9 +132,9 @@
             <p>FontSize&nbsp;&nbsp;
                 <span class="clickme2" id="122">12</span>
                 <span class="clickme2" id="132">13</span>
-                <span class="clickme2" id="142">14</span>
+                <span class="clickme2 active" id="142">14</span>
                 <span class="clickme2" id="152">15</span>
-                <span class="clickme2 active" id="162">16</span>
+                <span class="clickme2" id="162">16</span>
                 <span class="clickme2" id="172">17</span>
                 <span class="clickme2" id="182">18</span>
                 <span class="clickme2" id="192">19</span>
@@ -1008,18 +1006,6 @@ option.permutations = [[]]
             $('#close').on("click touch", function () {
                 $('body').removeClass('downloaded');
             });
-            $("#plus").on("click touch", function () {
-                var LineNumber = parseInt($(".code").css("line-height")) + 1;
-                var LineString = LineNumber.toString();
-                LineString += "px";
-                $('.code').css("line-height", LineString);
-            });
-            $("#minus").on("click touch", function () {
-                var LineNumber = parseInt($(".code").css("line-height")) - 1;
-                var LineString = LineNumber.toString();
-                LineString += "px";
-                $('.code').css("line-height", LineString);
-            });
             $("#loose").on("click touch", function () {
                 $("#letterspacing span").removeClass('active');
                 $(this).addClass('active');
@@ -1045,55 +1031,45 @@ option.permutations = [[]]
                 $(this).addClass('active');
                 $('.code').css("letter-spacing", "-0.0625em");
             });
-            $("#15").on("click touch", function () {
-                $(".clickme").removeClass('active');
-                $(this).addClass('active');
-                $('.code').css("line-height", "0.9375");
-            });
-            $("#16").on("click touch", function () {
+            $("#14").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
                 $('.code').css("line-height", "1");
             });
+            $("#15").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "1.08");
+            });
+            $("#16").on("click touch", function () {
+                $(".clickme").removeClass('active');
+                $(this).addClass('active');
+                $('.code').css("line-height", "1.15");
+            });
             $("#17").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "1.0625");
+                $('.code').css("line-height", "1.22");
             });
             $("#18").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "1.125");
+                $('.code').css("line-height", "1.30");
             });
             $("#19").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "1.1875");
+                $('.code').css("line-height", "1.36");
             });
             $("#20").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "1.25");
+                $('.code').css("line-height", "1.43");
             });
             $("#21").on("click touch", function () {
                 $(".clickme").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("line-height", "1.3125");
-            });
-            $("#22").on("click touch", function () {
-                $(".clickme").removeClass('active');
-                $(this).addClass('active');
-                $('.code').css("line-height", "1.375");
-            });
-            $("#23").on("click touch", function () {
-                $(".clickme").removeClass('active');
-                $(this).addClass('active');
-                $('.code').css("line-height", "1.4375");
-            });
-            $("#24").on("click touch", function () {
-                $(".clickme").removeClass('active');
-                $(this).addClass('active');
-                $('.code').css("line-height", "1.5");
+                $('.code').css("line-height", "1.51");
             });
             $("#122").on("click touch", function () {
                 $(".clickme2").removeClass('active');
@@ -1123,17 +1099,17 @@ option.permutations = [[]]
             $("#172").on("click touch", function () {
                 $(".clickme2").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("font-size", "18px");
+                $('.code').css("font-size", "17px");
             });
             $("#182").on("click touch", function () {
                 $(".clickme2").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("font-size", "19px");
+                $('.code').css("font-size", "18px");
             });
             $("#192").on("click touch", function () {
                 $(".clickme2").removeClass('active');
                 $(this).addClass('active');
-                $('.code').css("font-size", "20px");
+                $('.code').css("font-size", "19px");
             });
             $("#202").on("click touch", function () {
                 $(".clickme2").removeClass('active');
