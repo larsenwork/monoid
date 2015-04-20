@@ -4,15 +4,15 @@
     </tr>
     <tr>
         <td><a href="http://andreaslarsen.github.io/monoid/" target="_blank">Website</a></td>
-        <td><a href="#fl">Font Log</a></td>
-        <td><a href="#ct">Guidelines</a></td>
-        <td><a href="#li">License</a></td>
+        <td><a href="#font_log">Font Log</a></td>
+        <td><a href="#guidelines">Guidelines</a></td>
+        <td><a href="#license">License</a></td>
         <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web" target="_blank">License FAQ</a></td>
     </tr>
 </table>
 
 
-<a name="fl"></a>
+<a name="font_log"></a>
 #Font Log
 <table>
     <tr>
@@ -53,12 +53,12 @@
     </tr>
 </table>
 
-<a name="ct"></a>
+<a name="guidelines"></a>
 #Guidelines
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
 
-<a name="li"></a>
+<a name="license"></a>
 #License
 
 Copyright (c) 2015, @andreaslarsendk
