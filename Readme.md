@@ -14,6 +14,7 @@
 
 <a name="font_log"></a>
 #Font Log
+<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="40" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="40" /><img width="6">Andreas<img width="20"></a>
 <table>
     <tr>
         <td>Version</td>
@@ -25,33 +26,46 @@
         <td>0.10</td>
         <td>2015.04.03</td>
         <td>latin basic</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.20</td>
         <td>2015.04.04</td>
         <td>latin extended</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.24</td>
         <td>2015.04.06</td>
         <td>cyrillic</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a>, feedback from <a href="https://github.com/K900">k900</a></td>
+        <td>Andreas, feedback from <a href="https://github.com/K900">k900</a></td>
     </tr>
     <tr>
         <td>0.27</td>
         <td>2015.04.11</td>
         <td>greek</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas</a></td>
     </tr>
     <tr>
         <td>0.28</td>
         <td>2015.04.12</td>
         <td>misc. symbols</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas Larsen</a></td>
+        <td><a href="https://github.com/andreaslarsen">Andreas</a></td>
+    </tr>
+    <tr>
+        <td>0.30</td>
+        <td>2015.04.XX</td>
+        <td>headlineByChase</td>
+        <td>Chase</td>
+    </tr>
+    <tr>
+        <td>0.31</td>
+        <td>2015.04.XX</td>
+        <td>someFontThings</td>
+        <td>Andreas</td>
     </tr>
 </table>
+
 
 <a name="guidelines"></a>
 #Guidelines
