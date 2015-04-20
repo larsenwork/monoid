@@ -1,0 +1,4 @@
+# Ignore all but .ttf.zip and this file
+*
+!.gitignore
+!*.ttf.zip
