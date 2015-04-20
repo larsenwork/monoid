@@ -14,7 +14,9 @@
 
 <a name="font_log"></a>
 #Font Log
+#####Contributors
 <a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="40" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="40" /><img width="6">Andreas<img width="20"></a>
+#####Log
 <table>
     <tr>
         <td>Version</td>
@@ -44,13 +46,13 @@
         <td>0.27</td>
         <td>2015.04.11</td>
         <td>greek</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas</a></td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.28</td>
         <td>2015.04.12</td>
         <td>misc. symbols</td>
-        <td><a href="https://github.com/andreaslarsen">Andreas</a></td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.30</td>
