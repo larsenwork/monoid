@@ -11,18 +11,17 @@
     </tr>
 </table>
 
+##Contributors
+<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="40" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="40" /><img width="6">Andreas<img width="20"></a>
 
 <a name="font_log"></a>
-#Font Log
-#####Contributors
-<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="40" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="40" /><img width="6">Andreas<img width="20"></a>
-#####Log
+##Font Log
 <table>
     <tr>
-        <td>Version</td>
-        <td>Date</td>
-        <td>Change</td>
-        <td>Author</td>
+        <td><b>Version</b></td>
+        <td><b>Date</b></td>
+        <td><b>Change</b></td>
+        <td><b>Contributor</b></td>
     </tr>
     <tr>
         <td>0.10</td>
@@ -70,16 +69,16 @@
 
 
 <a name="guidelines"></a>
-#Guidelines
+##Guidelines
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
 
 <a name="license"></a>
-#License
+##License
 
 Copyright (c) 2015, @andreaslarsendk
 
-###SIL OPEN FONT LICENSE Version 1.1
+####SIL OPEN FONT LICENSE Version 1.1
 
 #####PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
