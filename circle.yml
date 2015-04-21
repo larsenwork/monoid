@@ -1,7 +1,7 @@
 general:
   branches:
     only:
-      - fontbuild-circleci
+      - master
 machine:
   services:
     - docker
@@ -19,5 +19,5 @@ test:
     - git add .
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
-    - git checkout fontbuild-circleci
+    - git checkout master
     - git branch -D release
