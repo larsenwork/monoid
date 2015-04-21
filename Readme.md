@@ -12,7 +12,7 @@
 </table>
 
 ##Contributors
-<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="40" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="40" /><img width="6">Andreas<img width="20"></a>
+<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><img width="6">Andreas<img width="20"></a>
 
 <a name="font_log"></a>
 ##Font Log
