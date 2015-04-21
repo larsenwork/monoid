@@ -1029,10 +1029,10 @@ option.permutations = [[]]
           insertTextAtCursor('\t'); // insert tab
         }
       });
-      var FontName = "https://github.com/andreaslarsen/monoid/blob/andreas/Release/Monoid.ttf.zip?raw=true";
+      var FontName = "https://cdn.rawgit.com/andreaslarsen/monoid/release/Monoid.ttf.zip";
 
       function refreshFeatures() {
-        FontName = "https://github.com/andreaslarsen/monoid/blob/andreas/Release/Monoid";
+        FontName = "https://cdn.rawgit.com/andreaslarsen/monoid/release/Monoid";
         var FontFeature = "";
         if ($("#tight").is(":checked")) {
           $('.code').css("letter-spacing", "-0.07142857142em");
@@ -1074,29 +1074,29 @@ option.permutations = [[]]
         }
         if ($("#ss10").is(":checked")) {
           FontFeature += '"ss10" ,';
-          FontName += '-0'
+          FontName += '-a0'
         }
         if ($("#ss11").is(":checked")) {
           FontFeature += '"ss11" ,';
-          FontName += '-1'
+          FontName += '-a1'
         }
         if ($("#ss12").is(":checked")) {
           FontFeature += '"ss12" ,';
-          FontName += '-3'
+          FontName += '-a3'
         }
         if ($("#ss13").is(":checked")) {
           FontFeature += '"ss13" ,';
-          FontName += '-l'
+          FontName += '-al'
         }
         if ($("#ss14").is(":checked")) {
           FontFeature += '"ss14" ,';
-          FontName += '-$'
+          FontName += '-ad'
         }
         if ($("#ss15").is(":checked")) {
           FontFeature += '"ss15" ,';
-          FontName += '-*'
+          FontName += '-aa'
         }
-        FontName += '.ttf.zip?raw=true'
+        FontName += '.ttf.zip'
         FontFeature = FontFeature.substring(0, FontFeature.length - 2);
         $('body').css("font-feature-settings", FontFeature);
       };
