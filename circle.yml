@@ -19,3 +19,5 @@ test:
     - git add .
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
+    - git checkout fontbuild-circleci
+    - git branch -D release
