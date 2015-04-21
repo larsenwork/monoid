@@ -12,8 +12,13 @@
 </table>
 
 ##Contributors
-<a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><img width="6">Chase<img width="20"></a><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><img width="6">Andreas<img width="20"></a>
-
+<table>
+    <tr>
+        <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
+        <td><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><br>Andreas</td>
+    </tr>
+</table>
+    
 <a name="font_log"></a>
 ##Font Log
 <table>
@@ -54,15 +59,15 @@
         <td>Andreas</td>
     </tr>
     <tr>
-        <td>0.30</td>
-        <td>2015.04.XX</td>
-        <td>headlineByChase</td>
+        <td>0.29</td>
+        <td>2015.04.21</td>
+        <td>CircleCI automation + build scripts</td>
         <td>Chase</td>
     </tr>
     <tr>
-        <td>0.31</td>
-        <td>2015.04.XX</td>
-        <td>someFontThings</td>
+        <td>0.30</td>
+        <td>2015.04.21</td>
+        <td>Powerline symbols + major website update</td>
         <td>Andreas</td>
     </tr>
 </table>
