@@ -1,0 +1,14 @@
+StartChar: minus
+Encoding: 8722 8722 585
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 643 120<128 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 604 8213 N 1 0 0 1 0 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
