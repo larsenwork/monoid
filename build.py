@@ -15,26 +15,28 @@ fonts = ['Monoid.sfdir']
 
 # Options to generate
 conflicting(
-    style('Loose', Bearing(right=128)),
-    style('HalfLoose', Bearing(right=64)),
-    style('HalfTight', Bearing(left=-64)),
-    style('Tight', Bearing(left=-128)),
-)
-
-option('al', 'Alternative l', Swap("l", "l.alt"))
-option('a1', 'Alternative 1', Swap("one", "one.alt"))
-option('sa', 'Standard asterisk', Swap("asterisk", "asterisk.alt"))
-
-conflicting(
-    option('17px', 'Deci', Line(ascent=1664, descent=512)),
-    option('19px', 'Deca', Line(1792, 512)),
-    option('20px', 'Hecto', Line(1792, 640)),
+    style('loose', Bearing(right=128)),
+    style('halfloose', Bearing(right=64)),
+#   style('normal', Bearing(left=0)),
+    style('halftight', Bearing(left=-64)),
+    style('tight', Bearing(left=-128)),
 )
 
 conflicting(
-    option('sz', 'Slashed zero', Swap("zero", "zero.slashed")),
-    option('uz', 'Undotted zero', Swap("zero", "zero.dotless")),
+    option('xsmall', '14px', Line(ascent=1408, descent=384)),
+    option('small', '15px', Line(1408, 512)),
+#   option('medium', '16px', Line(1536, 512)),
+    option('large', '17px', Line(1536, 640)),
+    option('xlarge', '18px', Line(1792, 640)),
 )
+
+option('a0', 'Alt 0', Swap("zero", "zero.alt"))
+option('a1', 'Alt 1', Swap("one", "one.alt"))
+option('a3', 'Alt 3', Swap("three", "three.alt"))
+option('al', 'Alt l', Swap("l", "l.alt"))
+option('ad', 'Alt $', Swap("dollar", "dollar.alt"))
+option('aa', 'Alt asterisk', Swap("asterisk", "asterisk.alt"))
+
 
 for font in fonts:
     build(output, source, font)
