@@ -1,3 +1,7 @@
+general:
+  branches:
+    only:
+      - fontbuild-circleci
 machine:
   services:
     - docker
