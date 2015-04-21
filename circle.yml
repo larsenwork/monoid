@@ -11,13 +11,9 @@ dependencies:
 test:
   override:
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
-deployment:
-  release:
-    branch: release
-    commands:
-      - git remote set-url origin "git@github.com:chase/monoid.git"
-      - git clean -fdx
-      - cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
-      - git add .
-      - git commit -m "Release build for ${CIRCLE_SHA1}"
-      - git push origin release
+    - git remote set-url origin "git@github.com:chase/monoid.git"
+    - git clean -fdx
+    - cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
+    - git add .
+    - git commit -m "Release build for ${CIRCLE_SHA1}"
+    - git push origin release
