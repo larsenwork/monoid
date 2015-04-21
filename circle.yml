@@ -11,7 +11,7 @@ dependencies:
 test:
   override:
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
-deploy:
+deployment:
   release:
     branch: release
     commands:
