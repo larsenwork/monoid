@@ -10,10 +10,12 @@ dependencies:
     - docker pull colman/py-fontforge
 test:
   override:
+    - git config --global user.email "chase+circleci@colman.io"
+    - git config --global user.name "CircleCI Bot"
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
+    - git fetch origin release:release && git checkout release
     - git remote set-url origin "git@github.com:chase/monoid.git"
-    - git clean -fdx
-    - cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
+    - git clean -fdx || cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
     - git add .
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
