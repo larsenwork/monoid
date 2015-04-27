@@ -5,12 +5,14 @@ general:
 machine:
   services:
     - docker
+checkout:
+  post:
+    - "! git diff --name-only --exit-code Source"
 dependencies:
   override:
     - docker pull colman/py-fontforge
 test:
   override:
-    - ! git diff --name-only --exit-code Source
     - git config --global user.email "chase+circleci@colman.io"
     - git config --global user.name "CircleCI Bot"
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
