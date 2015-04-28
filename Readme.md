@@ -7,7 +7,6 @@
         <td><a href="#font_log">Font Log</a></td>
         <td><a href="#guidelines">Guidelines</a></td>
         <td><a href="#license">License</a></td>
-        <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web" target="_blank">License FAQ</a></td>
     </tr>
 </table>
 
