@@ -7,7 +7,9 @@ machine:
     - docker
 checkout:
   post:
-    - "! git diff --name-only --exit-code Source"
+    - git fetch origin release:release
+    # Check if there were any changes in the Source directory since the last release
+    - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
 dependencies:
   override:
     - docker pull colman/py-fontforge
@@ -16,7 +18,7 @@ test:
     - git config --global user.email "chase+circleci@colman.io"
     - git config --global user.name "CircleCI Bot"
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
-    - git fetch origin release:release && git checkout release
+    - git checkout release
     - git rm -f *.ttf.zip
     - git remote set-url origin "git@github.com:andreaslarsen/monoid.git"
     - git clean -fdx || cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
