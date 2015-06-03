@@ -86,7 +86,7 @@ Remember to update the Font Log when you make contributions.
 
 <a name="license"></a>
 ##License
-Monoid is dual licensed - pick whatever you fancy.
+Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 
 ####The MIT License (MIT)
 
