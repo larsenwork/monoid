@@ -359,6 +359,20 @@ label,
   -ms-transform: translateY(5px);
   transform: translateY(5px)
 }
+
+.tight {
+  letter-spacing: -0.07142857142em;
+}
+.halftight {
+  letter-spacing: -0.03571428571em;
+}
+.halfloose {
+  letter-spacing: 0.03571428571em;
+}
+.loose {
+  letter-spacing: 0.07142857142em;
+}
+
 /*
 
 
