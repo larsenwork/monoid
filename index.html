@@ -1209,10 +1209,18 @@ option.permutations = [[]]
         $(this).addClass('active');
         $("#" + tab_id).addClass('current');
       });
-      $('#jump').on("click touch", function(a) {
-        a.preventDefault();
-        $('html, body').animate({}, 500);
-      });
+      $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 600, 'swing', function () {
+          window.location.hash = target;
+        });
+    	});
 
       $('#close').on("click touch", function() {
         $('body').removeClass('downloaded');
