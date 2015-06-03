@@ -85,9 +85,11 @@ Follow the [GitHub guide for contributing](https://guides.github.com/activities/
 Remember to update the Font Log when you make contributions.
 
 <a name="license"></a>
+Monoid is dual licensed - pick whatever you fancy.
+
 ##The MIT License (MIT)
 
-Copyright (c) 2015, Andreas Larsen (@larsenwork)
+Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -106,3 +108,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+##SIL OPEN FONT LICENSE
+Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is available with a FAQ at: http://scripts.sil.org/OFL
