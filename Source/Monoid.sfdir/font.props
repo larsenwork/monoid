@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1433339780
+ModificationTime: 1433351251
 PfmFamily: 49
 TTFWeight: 300
 TTFWidth: 4
@@ -55,6 +55,7 @@ Lookup: 1 0 0 "'ss11' Style Set 11 lookup 3" { "'ss11' Style Set 11 lookup 3-1" 
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 4" { "'ss12' Style Set 12 lookup 4-1"  } ['ss12' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss13' Style Set 13 lookup 5" { "'ss13' Style Set 13 lookup 5-1"  } ['ss13' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss14' Style Set 14 lookup 6" { "'ss14' Style Set 14 lookup 6-1"  } ['ss14' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss16' Style Set 16 lookup 11" { "'ss16' Style Set 16 lookup 11-1"  } ['ss16' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures" { "'liga' Standard Ligatures 1"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures" { "'dlig' Discretionary Ligatures 2"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -66,7 +67,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 319 29 11
+WinInfo: 28 14 11
 BeginPrivate: 0
 EndPrivate
 Grid
