@@ -69,6 +69,13 @@
         <td>Powerline symbols + major website update</td>
         <td>Andreas</td>
     </tr>
+    <tr>
+        <td>0.31</td>
+        <td>2015.06.03</td>
+        <td>Alt s, smoother curves + bigger apertures</td>
+        <td>Andreas</td>
+    </tr>
+, wider apertures
 </table>
 
 
