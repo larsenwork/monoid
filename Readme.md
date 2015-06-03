@@ -80,7 +80,7 @@ Remember to update the Font Log when you make contributions.
 <a name="license"></a>
 ##The MIT License (MIT)
 
-Copyright (c) 2015, @andreaslarsendk
+Copyright (c) 2015, Andreas Larsen (@larsenwork)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
