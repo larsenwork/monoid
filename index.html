@@ -109,9 +109,6 @@
     <section id="settings">
       <h2>Download</h2>
       <p>
-        Currently building version 0.31 - will be live in ~10 minutes:)
-      </p>
-      <p>
         <span id="dloptions">Alternates&nbsp;&nbsp;
           <input id="ss10" type="checkbox">
           <label for="ss10" name="0">&#xE001;</label>
@@ -121,22 +118,24 @@
           <label for="ss12" name="3">&#xE005;</label>
           <input id="ss13" type="checkbox">
           <label for="ss13" name="l">&#xE004;</label>
+          <input id="ss16" type="checkbox">
+          <label for="ss16" name="s">&#xE00E;</label>
           <input id="ss14" type="checkbox">
           <label for="ss14" name="$">&#xE00B;</label>
           <input id="ss15" type="checkbox">
           <label for="ss15" name="*">&#xE000;</label>
         </span>
         <br>LineHeight&nbsp;&nbsp;
-        <input id="xsmall" type="radio" name="lh">
-        <label for="xsmall">XS</label>
+        <!-- <input id="xsmall" type="radio" name="lh">
+        <label for="xsmall">XS</label> -->
         <input id="small" type="radio" name="lh">
         <label for="small">S</label>
         <input id="medium" type="radio" name="lh" checked>
         <label for="medium">M</label>
         <input id="large" type="radio" name="lh">
         <label for="large">L</label>
-        <input id="xlarge" type="radio" name="lh">
-        <label for="xlarge">XL</label>
+        <!-- <input id="xlarge" type="radio" name="lh">
+        <label for="xlarge">XL</label> -->
         <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input id="tight" type="radio" name="fw">
         <label for="tight" class="tight">Tight</label>
@@ -150,8 +149,7 @@
         <label for="loose" class="loose">Loose</label>
         <br>
         <span class="noselect default">
-          <!--<a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span>
-        </a>-->
+          <a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span></a>
           <a class="button" href="https://github.com/larsenwork/monoid" target="_blank">GitHub Source <span class="icon">githubIcon</span></a>
         </span>
       </p>
@@ -1577,10 +1575,10 @@
           $('.code').css("letter-spacing", "0.07142857142em");
           FontName += '-loose'
         }
-        if ($("#xsmall").is(":checked")) {
-          $('.code').css("line-height", "1");
-          FontName += '-xsmall'
-        }
+        // if ($("#xsmall").is(":checked")) {
+        //   $('.code').css("line-height", "1");
+        //   FontName += '-xsmall'
+        // }
         if ($("#small").is(":checked")) {
           $('.code').css("line-height", "1.08");
           FontName += '-small'
@@ -1592,39 +1590,43 @@
           $('.code').css("line-height", "1.22");
           FontName += '-large'
         }
-        if ($("#xlarge").is(":checked")) {
-          $('.code').css("line-height", "1.30");
-          FontName += '-xlarge'
-        }
+        // if ($("#xlarge").is(":checked")) {
+        //   $('.code').css("line-height", "1.30");
+        //   FontName += '-xlarge'
+        // }
         if ($("#ss10").is(":checked")) {
           FontFeature += '"ss10" ,';
-          FontName += '-a0'
+          FontName += '-0'
         }
         if ($("#ss11").is(":checked")) {
           FontFeature += '"ss11" ,';
-          FontName += '-a1'
+          FontName += '-1'
         }
         if ($("#ss12").is(":checked")) {
           FontFeature += '"ss12" ,';
-          FontName += '-a3'
+          FontName += '-3'
         }
         if ($("#ss13").is(":checked")) {
           FontFeature += '"ss13" ,';
-          FontName += '-al'
+          FontName += '-l'
+        }
+        if ($("#ss16").is(":checked")) {
+          FontFeature += '"ss16" ,';
+          FontName += '-s'
         }
         if ($("#ss14").is(":checked")) {
           FontFeature += '"ss14" ,';
-          FontName += '-ad'
+          FontName += '-dollar'
         }
         if ($("#ss15").is(":checked")) {
           FontFeature += '"ss15" ,';
-          FontName += '-aa'
+          FontName += '-asterisk'
         }
         FontName += '.ttf.zip'
         FontFeature = FontFeature.substring(0, FontFeature.length - 2);
         $('body').css("font-feature-settings", FontFeature);
       };
-      $('#tight, #halftight, #normal, #halfloose, #loose, #xsmall, #small, #medium, #large, #xlarge, #ss10, #ss11, #ss12, #ss13, #ss14, #ss15').change(function() {
+      $('#tight, #halftight, #normal, #halfloose, #loose, #xsmall, #small, #medium, #large, #xlarge, #ss10, #ss11, #ss12, #ss13, #ss14, #ss15, #ss16').change(function() {
         refreshFeatures();
       });
 
