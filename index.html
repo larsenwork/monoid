@@ -42,11 +42,11 @@
   <header>
     <div>
       <h1>Monoid
-            <div id="h1load"></div>
-            </h1>
+        <div id="h1load"></div>
+      </h1>
       <h3>Open Source Coding Font
-            <div id="h3load"></div>
-            </h3>
+        <div id="h3load"></div>
+      </h3>
     </div>
   </header>
   <div class="blabla">
@@ -89,38 +89,43 @@
         <span class="clickme2" id="212">21</span>
         <br>Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span id="themechooser">
-                <span id="white">White</span>
-        <span id="light">Light</span>
-        <span id="dark" class="active">Dark</span>
-        <span id="black">Black</span>
+          <span id="white">White</span>
+          <span id="light">Light</span>
+          <span id="dark" class="active">Dark</span>
+          <span id="black">Black</span>
         </span>
         <br>Example&nbsp;&nbsp;&nbsp;
         <span class="tabs">
-                <span data-tab="test">test</span>
-        <span class="active" data-tab="ccode">c</span>
-        <span data-tab="python">py</span>
-        <span data-tab="swift">swift</span>
-        <span data-tab="javascript">js</span>
-        <span data-tab="less">less</span>
-        <span data-tab="html">html</span>
+          <span data-tab="test">test</span>
+          <span class="active" data-tab="ccode">c</span>
+          <span data-tab="python">py</span>
+          <span data-tab="swift">swift</span>
+          <span data-tab="javascript">js</span>
+          <span data-tab="less">less</span>
+          <span data-tab="html">html</span>
         </span>
       </p>
     </section>
     <section id="settings">
       <h2>Download</h2>
-      <p><span id="dloptions">Alternates&nbsp;&nbsp;
-        <input id="ss10" type="checkbox">
-        <label for="ss10" name="0">&#xE001;</label>
-        <input id="ss11" type="checkbox">
-        <label for="ss11" name="1">&#xE003;</label>
-        <input id="ss12" type="checkbox">
-        <label for="ss12" name="3">&#xE005;</label>
-        <input id="ss13" type="checkbox">
-        <label for="ss13" name="l">&#xE004;</label>
-        <input id="ss14" type="checkbox">
-        <label for="ss14" name="$">&#xE00B;</label>
-        <input id="ss15" type="checkbox">
-        <label for="ss15" name="*">&#xE000;</label></span>
+      <p>
+        Currently building version 0.31 - will be live in ~10 minutes:)
+      </p>
+      <p>
+        <span id="dloptions">Alternates&nbsp;&nbsp;
+          <input id="ss10" type="checkbox">
+          <label for="ss10" name="0">&#xE001;</label>
+          <input id="ss11" type="checkbox">
+          <label for="ss11" name="1">&#xE003;</label>
+          <input id="ss12" type="checkbox">
+          <label for="ss12" name="3">&#xE005;</label>
+          <input id="ss13" type="checkbox">
+          <label for="ss13" name="l">&#xE004;</label>
+          <input id="ss14" type="checkbox">
+          <label for="ss14" name="$">&#xE00B;</label>
+          <input id="ss15" type="checkbox">
+          <label for="ss15" name="*">&#xE000;</label>
+        </span>
         <br>LineHeight&nbsp;&nbsp;
         <input id="xsmall" type="radio" name="lh">
         <label for="xsmall">XS</label>
@@ -143,8 +148,11 @@
         <label for="halfloose" class="halfloose">½Loose</label>
         <input id="loose" type="radio" name="fw">
         <label for="loose" class="loose">Loose</label>
-        <br><span class="noselect default"><a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span>
-        </a> <a class="button" href="https://github.com/larsenwork/monoid" target="_blank">GitHub Source <span class="icon">githubIcon</span></a>
+        <br>
+        <span class="noselect default">
+          <!--<a class="button" href="#" id="download">Download <span class="icon">downloadIcon</span>
+        </a>-->
+          <a class="button" href="https://github.com/larsenwork/monoid" target="_blank">GitHub Source <span class="icon">githubIcon</span></a>
         </span>
       </p>
     </section>
@@ -153,819 +161,1336 @@
 
   <div id="codewrapper">
     <div id="test" class="code">
-      <pre><code><div id="txt" class="hljs" contenteditable="true" spellcheck="false" placeholder="Type or paste your own code here. You can use the tab key as you'd normally would in an editor."></div></code></pre>
+      <pre>
+        <code>
+          <div id="txt" class="hljs" contenteditable="true" spellcheck="false" placeholder="Type or paste your own code here. You can use the tab key as you'd normally would in an editor."></div>
+        </code>
+      </pre>
     </div>
     <div id="swift" class="code">
-      <pre><code class="language-swift hljs"><span class="hljs-comment">//  Async.swift</span>
-<span class="hljs-comment">//  Created by Tobias DM on 15/07/14.</span>
-<span class="hljs-comment">//  OS X 10.10+ and iOS 8.0+</span>
-<span class="hljs-comment">//  Only use with ARC</span>
-<span class="hljs-comment">//  The MIT License (MIT)</span>
-<span class="hljs-comment">//  Copyright (c) 2014 Tobias Due Munk</span>
+      <pre>
+        <code class="language-swift hljs">
+          <span class="hljs-comment">// Async.swift</span>
+          <span class="hljs-comment">// Created by Tobias DM on 15/07/14.</span>
+          <span class="hljs-comment">// OS X 10.10+ and iOS 8.0+</span>
+          <span class="hljs-comment">// Only use with ARC</span>
+          <span class="hljs-comment">// The MIT License (MIT)</span>
+          <span class="hljs-comment">// Copyright (c) 2014 Tobias Due Munk</span>
 
 
-<span class="hljs-keyword">import</span> <span class="hljs-type">Foundation</span>
+          <span class="hljs-keyword">import</span>
+          <span class="hljs-type">Foundation</span>
 
 
-<span class="hljs-comment">// MARK: - DSL for GCD queues</span>
+          <span class="hljs-comment">// MARK: - DSL for GCD queues</span>
 
-private <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">GCD</span> </span>{
+          private
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">GCD</span>
+          </span>{
 
-    <span class="hljs-comment">/* dispatch_get_queue() */</span>
-    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">mainQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
-        <span class="hljs-keyword">return</span> dispatch_get_main_queue()
-        <span class="hljs-comment">// Don't ever use dispatch_get_global_queue(qos_class_main(), 0) re https://gist.github.com/duemunk/34babc7ca8150ff81844</span>
-    }
-    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">userInteractiveQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
-        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_USER_INTERACTIVE</span>, <span class="hljs-number">0</span>)
-    }
-    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">userInitiatedQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
-         <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_USER_INITIATED</span>, <span class="hljs-number">0</span>)
-    }
-    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">utilityQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
-        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_UTILITY</span>, <span class="hljs-number">0</span>)
-    }
-    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">func</span> <span class="hljs-title">backgroundQueue</span>() -&gt; <span class="hljs-title">dispatch_queue_t</span> </span>{
-        <span class="hljs-keyword">return</span> dispatch_get_global_queue(<span class="hljs-type">QOS_CLASS_BACKGROUND</span>, <span class="hljs-number">0</span>)
-    }
-}
-
-
-<span class="hljs-comment">// MARK: - Async – Struct</span>
-
-public <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Async</span> </span>{
-
-    private <span class="hljs-keyword">let</span> block: dispatch_block_t
-
-    private <span class="hljs-keyword">init</span>(<span class="hljs-number">_</span> block: dispatch_block_t) {
-        <span class="hljs-keyword">self</span>.block = block
-    }
-}
-
-
-<span class="hljs-comment">// MARK: - Async – Static methods</span>
-
-public <span class="hljs-class"><span class="hljs-keyword">extension</span> <span class="hljs-title">Async</span> </span>{ <span class="hljs-comment">// Static methods</span>
-
-
-    <span class="hljs-comment">/* dispatch_async() */</span>
-
-    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">async</span><span class="hljs-params">(block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-comment">// Create a new block (Qos Class) from block to allow adding a notification to it later (see matching regular Async methods)</span>
-        <span class="hljs-comment">// Create block with the "inherit" type</span>
-        <span class="hljs-keyword">let</span> _block = dispatch_block_create(<span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block)
-        <span class="hljs-comment">// Add block to queue</span>
-        dispatch_async(queue, _block)
-        <span class="hljs-comment">// Wrap block in a struct since dispatch_block_t can't be extended</span>
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>(_block)
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.mainQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInteractive</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.userInteractiveQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInitiated</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.userInitiatedQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">utility</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.utilityQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">background</span><span class="hljs-params">(block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: <span class="hljs-type">GCD</span>.backgroundQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">customQueue</span><span class="hljs-params">(queue: dispatch_queue_t, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.async(block, inQueue: queue)
-    }
+          <span class="hljs-comment">/* dispatch_get_queue() */</span>
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">func</span>
+            <span class="hljs-title">mainQueue</span>() -&gt;
+            <span class="hljs-title">dispatch_queue_t</span>
+          </span>{
+          <span class="hljs-keyword">return</span> dispatch_get_main_queue()
+          <span class="hljs-comment">// Don't ever use dispatch_get_global_queue(qos_class_main(), 0) re https://gist.github.com/duemunk/34babc7ca8150ff81844</span>
+          }
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">func</span>
+            <span class="hljs-title">userInteractiveQueue</span>() -&gt;
+            <span class="hljs-title">dispatch_queue_t</span>
+          </span>{
+          <span class="hljs-keyword">return</span> dispatch_get_global_queue(
+          <span class="hljs-type">QOS_CLASS_USER_INTERACTIVE</span>,
+          <span class="hljs-number">0</span>) }
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">func</span>
+            <span class="hljs-title">userInitiatedQueue</span>() -&gt;
+            <span class="hljs-title">dispatch_queue_t</span>
+          </span>{
+          <span class="hljs-keyword">return</span> dispatch_get_global_queue(
+          <span class="hljs-type">QOS_CLASS_USER_INITIATED</span>,
+          <span class="hljs-number">0</span>) }
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">func</span>
+            <span class="hljs-title">utilityQueue</span>() -&gt;
+            <span class="hljs-title">dispatch_queue_t</span>
+          </span>{
+          <span class="hljs-keyword">return</span> dispatch_get_global_queue(
+          <span class="hljs-type">QOS_CLASS_UTILITY</span>,
+          <span class="hljs-number">0</span>) }
+          <span class="hljs-class">
+            <span class="hljs-keyword">class</span>
+            <span class="hljs-title">func</span>
+            <span class="hljs-title">backgroundQueue</span>() -&gt;
+            <span class="hljs-title">dispatch_queue_t</span>
+          </span>{
+          <span class="hljs-keyword">return</span> dispatch_get_global_queue(
+          <span class="hljs-type">QOS_CLASS_BACKGROUND</span>,
+          <span class="hljs-number">0</span>) } }
 
 
-    <span class="hljs-comment">/* dispatch_after() */</span>
+          <span class="hljs-comment">// MARK: - Async – Struct</span>
 
-    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">after</span><span class="hljs-params">(seconds: Double, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">let</span> nanoSeconds = <span class="hljs-type">Int64</span>(seconds * <span class="hljs-type">Double</span>(<span class="hljs-type">NSEC_PER_SEC</span>))
-        <span class="hljs-keyword">let</span> time = dispatch_time(<span class="hljs-type">DISPATCH_TIME_NOW</span>, nanoSeconds)
-        <span class="hljs-keyword">return</span> at(time, block: block, inQueue: queue)
-    }
-    private <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">at</span><span class="hljs-params">(time: dispatch_time_t, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-comment">// See Async.async() for comments</span>
-        <span class="hljs-keyword">let</span> _block = dispatch_block_create(<span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block)
-        dispatch_after(time, queue, _block)
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>(_block)
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.mainQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInteractive</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.userInteractiveQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">userInitiated</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.userInitiatedQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">utility</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.utilityQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">background</span><span class="hljs-params">(#after: Double, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: <span class="hljs-type">GCD</span>.backgroundQueue())
-    }
-    <span class="hljs-keyword">static</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">customQueue</span><span class="hljs-params">(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t)</span></span> -&gt; <span class="hljs-type">Async</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-type">Async</span>.after(after, block: block, inQueue: queue)
-    }
-}</code></pre>
+          public
+          <span class="hljs-class">
+            <span class="hljs-keyword">struct</span>
+            <span class="hljs-title">Async</span>
+          </span>{ private
+          <span class="hljs-keyword">let</span> block: dispatch_block_t private
+          <span class="hljs-keyword">init</span>(
+          <span class="hljs-number">_</span> block: dispatch_block_t) {
+          <span class="hljs-keyword">self</span>.block = block } }
+
+
+          <span class="hljs-comment">// MARK: - Async – Static methods</span>
+
+          public
+          <span class="hljs-class">
+            <span class="hljs-keyword">extension</span>
+            <span class="hljs-title">Async</span>
+          </span>{
+          <span class="hljs-comment">// Static methods</span>
+
+
+          <span class="hljs-comment">/* dispatch_async() */</span>
+
+          private
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">async</span>
+            <span class="hljs-params">(block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-comment">// Create a new block (Qos Class) from block to allow adding a notification to it later (see matching regular Async methods)</span>
+          <span class="hljs-comment">// Create block with the "inherit" type</span>
+          <span class="hljs-keyword">let</span> _block = dispatch_block_create(
+          <span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block)
+          <span class="hljs-comment">// Add block to queue</span>
+          dispatch_async(queue, _block)
+          <span class="hljs-comment">// Wrap block in a struct since dispatch_block_t can't be extended</span>
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>(_block) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">main</span>
+            <span class="hljs-params">(block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue:
+          <span class="hljs-type">GCD</span>.mainQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">userInteractive</span>
+            <span class="hljs-params">(block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue:
+          <span class="hljs-type">GCD</span>.userInteractiveQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">userInitiated</span>
+            <span class="hljs-params">(block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue:
+          <span class="hljs-type">GCD</span>.userInitiatedQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">utility</span>
+            <span class="hljs-params">(block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue:
+          <span class="hljs-type">GCD</span>.utilityQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">background</span>
+            <span class="hljs-params">(block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue:
+          <span class="hljs-type">GCD</span>.backgroundQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">customQueue</span>
+            <span class="hljs-params">(queue: dispatch_queue_t, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.async(block, inQueue: queue) }
+
+
+          <span class="hljs-comment">/* dispatch_after() */</span>
+
+          private
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">after</span>
+            <span class="hljs-params">(seconds: Double, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">let</span> nanoSeconds =
+          <span class="hljs-type">Int64</span>(seconds *
+          <span class="hljs-type">Double</span>(
+          <span class="hljs-type">NSEC_PER_SEC</span>))
+          <span class="hljs-keyword">let</span> time = dispatch_time(
+          <span class="hljs-type">DISPATCH_TIME_NOW</span>, nanoSeconds)
+          <span class="hljs-keyword">return</span> at(time, block: block, inQueue: queue) } private
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">at</span>
+            <span class="hljs-params">(time: dispatch_time_t, block: dispatch_block_t, inQueue queue: dispatch_queue_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-comment">// See Async.async() for comments</span>
+          <span class="hljs-keyword">let</span> _block = dispatch_block_create(
+          <span class="hljs-type">DISPATCH_BLOCK_INHERIT_QOS_CLASS</span>, block) dispatch_after(time, queue, _block)
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>(_block) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">main</span>
+            <span class="hljs-params">(#after: Double, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue:
+          <span class="hljs-type">GCD</span>.mainQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">userInteractive</span>
+            <span class="hljs-params">(#after: Double, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue:
+          <span class="hljs-type">GCD</span>.userInteractiveQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">userInitiated</span>
+            <span class="hljs-params">(#after: Double, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue:
+          <span class="hljs-type">GCD</span>.userInitiatedQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">utility</span>
+            <span class="hljs-params">(#after: Double, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue:
+          <span class="hljs-type">GCD</span>.utilityQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">background</span>
+            <span class="hljs-params">(#after: Double, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue:
+          <span class="hljs-type">GCD</span>.backgroundQueue()) }
+          <span class="hljs-keyword">static</span>
+          <span class="hljs-func">
+            <span class="hljs-keyword">func</span>
+            <span class="hljs-title">customQueue</span>
+            <span class="hljs-params">(#after: Double, queue: dispatch_queue_t, block: dispatch_block_t)</span>
+          </span> -&gt;
+          <span class="hljs-type">Async</span> {
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-type">Async</span>.after(after, block: block, inQueue: queue) } }
+        </code>
+      </pre>
     </div>
 
 
 
     <div id="ccode" class="current code lang-">
-      <pre><code class="hljs cpp"><span class="hljs-comment">/* Pango Language Sample Table
-*
-* The sample text may be a pangram, but is not necessarily.  It is chosen to
-* be demonstrative of normal text in the language, as well as exposing font
-* feature requirements unique to the language.  It should be suitable for use
-* as sample text in a font selection dialog.
-*
-* Needless to say, the list MUST be sorted on the language code.
-*/</span>
+      <pre>
+        <code class="hljs cpp">
+          <span class="hljs-comment">/* Pango Language Sample Table * * The sample text may be a pangram, but is not necessarily. It is chosen to * be demonstrative of normal text in the language, as well as exposing font * feature requirements unique to the language. It should
+            be suitable for use * as sample text in a font selection dialog. * * Needless to say, the list MUST be sorted on the language code. */
+          </span>
 
-lang(
-    af, <span class="hljs-string">"Voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis."</span>
-    )
-lang(
-    bg, <span class="hljs-string">"Щурчо Цоньо хапваше ловджийско кюфте с бяла гъмза."</span>
-    )
-lang(
-    cz, <span class="hljs-string">"Příliš žluťoučký kůň úpěl ďábelské ódy."</span>
-    )
-lang(
-    de, <span class="hljs-string">"Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."</span>
-    )
-lang(
-    dk, <span class="hljs-string">"Høj bly gom vandt fræk sexquiz på wc."</span>
-    )
-lang(
-    ee, <span class="hljs-string">"Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."</span>
-    )
-lang(
-    fi, <span class="hljs-string">"Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä."</span>
-    )
-lang(
-    fro, <span class="hljs-string">"Je puis mangier del voirre. Ne me nuit."</span>
-    )
-lang(
-    ga, <span class="hljs-string">"Chuaigh bé mhórshách le dlúthspád fíorfhinn trí hata mo dhea-phorcáin bhig."</span>
-    )
-lang(
-    gd, <span class="hljs-string">"S urrainn dhomh gloinne ithe; cha ghoirtich i mi."</span>
-    )
-lang(
-    gl, <span class="hljs-string">"Eu podo xantar cristais e non cortarme."</span>
-    )
-lang(
-    gr, <span class="hljs-string">"Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός."</span>
-    )
-lang(
-    gv, <span class="hljs-string">"Foddym gee glonney agh cha jean eh gortaghey mee."</span>
-    )
-lang(
-    haw, <span class="hljs-string">"Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha."</span>
-    )
-lang(
-    hr, <span class="hljs-string">"Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."</span>
-    )
-lang(
-    hu, <span class="hljs-string">"Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít."</span>
-    )
-lang(
-    is, <span class="hljs-string">"Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa"</span>
-    )
-lang(
-    it, <span class="hljs-string">"Ma la volpe, col suo balzo, ha raggiunto il quieto Fido."</span>
-    )
-lang(
-    jam, <span class="hljs-string">"Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?"</span>
-    )
-lang(
-    jbo, <span class="hljs-string">".o'i mu xagji sofybakni cu zvati le purdi"</span>
-    )
-lang(
-    jv, <span class="hljs-string">"Aku isa mangan beling tanpa lara."</span>
-    )
-lang(
-    kw, <span class="hljs-string">"Mý a yl dybry gwéder hag éf ny wra ow ankenya."</span>
-    )
-lang(
-    la, <span class="hljs-string">"Sic surgens, dux, zelotypos quam karus haberis"</span>
-    )
-lang(
-    lt, <span class="hljs-string">"Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą."</span>
-    )
-lang(
-    lv, <span class="hljs-string">"Sarkanās jūrascūciņas peld pa jūru."</span>
-    )
-lang(
-    <span class="hljs-built_in">map</span>, <span class="hljs-string">"E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau."</span>
-    )
-lang(
-    mk, <span class="hljs-string">"Можам да јадам стакло, а не ме штета."</span>
-    )
-lang(
-    ms, <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
-    )
-lang(
-    nap, <span class="hljs-string">"M' pozz magna' o'vetr, e nun m' fa mal."</span>
-    )
-lang(
-    nb, <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
-    )
-lang(
-    nl, <span class="hljs-string">"Pa's wijze lynx bezag vroom het fikse aquaduct."</span>
-    )
-lang(
-    nn, <span class="hljs-string">"Eg kan eta glas utan å skada meg."</span>
-    )
-lang(
-    no, <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
-    )
-lang(
-    nv, <span class="hljs-string">"Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da."</span>
-    )
-lang(
-    oc, <span class="hljs-string">"Pòdi manjar de veire, me nafrariá pas."</span>
-    )
-lang(
-    pcd, <span class="hljs-string">"Ch'peux mingi du verre, cha m'foé mie n'ma."</span>
-    )
-lang(
-    pl, <span class="hljs-string">"Pchnąć w tę łódź jeża lub ośm skrzyń fig."</span>
-    )
-lang(
-    pt, <span class="hljs-string">"Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português."</span>
-    )
-lang(
-    pt - br, <span class="hljs-string">"À noite, vovô Kowalsky vê o ímã cair no pé do pingüim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz."</span>
-    )
-lang(
-    ro, <span class="hljs-string">"Fumegând hipnotic sașiul azvârle mreje în bălți."</span>
-    )
-lang(
-    ru, <span class="hljs-string">"В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"</span>
-    )
-lang(
-    scn, <span class="hljs-string">"Puotsu mangiari u vitru, nun mi fa mali."</span>
-    )
-lang(
-    sk, <span class="hljs-string">"Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote."</span>
-    )
-lang(
-    sl, <span class="hljs-string">"Šerif bo za vajo spet kuhal domače žgance."</span>
-    )
-lang(
-    sq, <span class="hljs-string">"Unë mund të ha qelq dhe nuk më gjen gjë."</span>
-    )
-lang(
-    sr, <span class="hljs-string">"Чешће цeђење мрeжастим џаком побољшава фертилизацију генских хибрида."</span>
-    )
-<span class="hljs-preprocessor">#<span class="hljs-keyword">if</span> 0</span>
-lang(
-    sr - sr@ latin, <span class="hljs-string">"Češće ceđenje mrežastim džakom poboljšava fertilizaciju genskih hibrida."</span>
-    )
-<span class="hljs-preprocessor">#<span class="hljs-keyword">endif</span></span>
-lang(
-    sv, <span class="hljs-string">"Flygande bäckasiner söka strax hwila på mjuka tuvor."</span>
-    )
-lang(
-    swg, <span class="hljs-string">"I kå Glas frässa, ond des macht mr nix!"</span>
-    )
-lang(
-    tl, <span class="hljs-string">"Kaya kong kumain nang bubog at hindi ako masaktan."</span>
-    )
-lang(
-    tr, <span class="hljs-string">"Pijamalı hasta yağız şoföre çabucak güvendi."</span>
-    )
-lang(
-    tw, <span class="hljs-string">"Metumi awe tumpan, ɜnyɜ me hwee."</span>
-    )
-lang(
-    ua, <span class="hljs-string">"Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"</span>
-    )
-lang(
-    vec, <span class="hljs-string">"Mi posso magnare el vetro, no'l me fa mae."</span>
-    )
-lang(
-    wa, <span class="hljs-string">"Dji pou magnî do vêre, çoula m' freut nén må."</span>
-    )
-lang(
-    yo, <span class="hljs-string">"Mo lè je̩ dígí, kò ní pa mí lára."</span>
-    )
-lang(
-    zlm, <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
-    )</code></pre>
+          lang( af,
+          <span class="hljs-string">"Voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis."</span>
+          ) lang( bg,
+          <span class="hljs-string">"Щурчо Цоньо хапваше ловджийско кюфте с бяла гъмза."</span>
+          ) lang( cz,
+          <span class="hljs-string">"Příliš žluťoučký kůň úpěl ďábelské ódy."</span>
+          ) lang( de,
+          <span class="hljs-string">"Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."</span>
+          ) lang( dk,
+          <span class="hljs-string">"Høj bly gom vandt fræk sexquiz på wc."</span>
+          ) lang( ee,
+          <span class="hljs-string">"Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."</span>
+          ) lang( fi,
+          <span class="hljs-string">"Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä."</span>
+          ) lang( fro,
+          <span class="hljs-string">"Je puis mangier del voirre. Ne me nuit."</span>
+          ) lang( ga,
+          <span class="hljs-string">"Chuaigh bé mhórshách le dlúthspád fíorfhinn trí hata mo dhea-phorcáin bhig."</span>
+          ) lang( gd,
+          <span class="hljs-string">"S urrainn dhomh gloinne ithe; cha ghoirtich i mi."</span>
+          ) lang( gl,
+          <span class="hljs-string">"Eu podo xantar cristais e non cortarme."</span>
+          ) lang( gr,
+          <span class="hljs-string">"Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός."</span>
+          ) lang( gv,
+          <span class="hljs-string">"Foddym gee glonney agh cha jean eh gortaghey mee."</span>
+          ) lang( haw,
+          <span class="hljs-string">"Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha."</span>
+          ) lang( hr,
+          <span class="hljs-string">"Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."</span>
+          ) lang( hu,
+          <span class="hljs-string">"Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít."</span>
+          ) lang( is,
+          <span class="hljs-string">"Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa"</span>
+          ) lang( it,
+          <span class="hljs-string">"Ma la volpe, col suo balzo, ha raggiunto il quieto Fido."</span>
+          ) lang( jam,
+          <span class="hljs-string">"Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?"</span>
+          ) lang( jbo,
+          <span class="hljs-string">".o'i mu xagji sofybakni cu zvati le purdi"</span>
+          ) lang( jv,
+          <span class="hljs-string">"Aku isa mangan beling tanpa lara."</span>
+          ) lang( kw,
+          <span class="hljs-string">"Mý a yl dybry gwéder hag éf ny wra ow ankenya."</span>
+          ) lang( la,
+          <span class="hljs-string">"Sic surgens, dux, zelotypos quam karus haberis"</span>
+          ) lang( lt,
+          <span class="hljs-string">"Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą."</span>
+          ) lang( lv,
+          <span class="hljs-string">"Sarkanās jūrascūciņas peld pa jūru."</span>
+          ) lang(
+          <span class="hljs-built_in">map</span>,
+          <span class="hljs-string">"E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau."</span>
+          ) lang( mk,
+          <span class="hljs-string">"Можам да јадам стакло, а не ме штета."</span>
+          ) lang( ms,
+          <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
+          ) lang( nap,
+          <span class="hljs-string">"M' pozz magna' o'vetr, e nun m' fa mal."</span>
+          ) lang( nb,
+          <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
+          ) lang( nl,
+          <span class="hljs-string">"Pa's wijze lynx bezag vroom het fikse aquaduct."</span>
+          ) lang( nn,
+          <span class="hljs-string">"Eg kan eta glas utan å skada meg."</span>
+          ) lang( no,
+          <span class="hljs-string">"Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi."</span>
+          ) lang( nv,
+          <span class="hljs-string">"Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da."</span>
+          ) lang( oc,
+          <span class="hljs-string">"Pòdi manjar de veire, me nafrariá pas."</span>
+          ) lang( pcd,
+          <span class="hljs-string">"Ch'peux mingi du verre, cha m'foé mie n'ma."</span>
+          ) lang( pl,
+          <span class="hljs-string">"Pchnąć w tę łódź jeża lub ośm skrzyń fig."</span>
+          ) lang( pt,
+          <span class="hljs-string">"Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português."</span>
+          ) lang( pt - br,
+          <span class="hljs-string">"À noite, vovô Kowalsky vê o ímã cair no pé do pingüim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz."</span>
+          ) lang( ro,
+          <span class="hljs-string">"Fumegând hipnotic sașiul azvârle mreje în bălți."</span>
+          ) lang( ru,
+          <span class="hljs-string">"В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"</span>
+          ) lang( scn,
+          <span class="hljs-string">"Puotsu mangiari u vitru, nun mi fa mali."</span>
+          ) lang( sk,
+          <span class="hljs-string">"Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote."</span>
+          ) lang( sl,
+          <span class="hljs-string">"Šerif bo za vajo spet kuhal domače žgance."</span>
+          ) lang( sq,
+          <span class="hljs-string">"Unë mund të ha qelq dhe nuk më gjen gjë."</span>
+          ) lang( sr,
+          <span class="hljs-string">"Чешће цeђење мрeжастим џаком побољшава фертилизацију генских хибрида."</span>
+          )
+          <span class="hljs-preprocessor">#
+            <span class="hljs-keyword">if</span> 0</span>
+          lang( sr - sr@ latin,
+          <span class="hljs-string">"Češće ceđenje mrežastim džakom poboljšava fertilizaciju genskih hibrida."</span>
+          )
+          <span class="hljs-preprocessor">#
+            <span class="hljs-keyword">endif</span>
+          </span>
+          lang( sv,
+          <span class="hljs-string">"Flygande bäckasiner söka strax hwila på mjuka tuvor."</span>
+          ) lang( swg,
+          <span class="hljs-string">"I kå Glas frässa, ond des macht mr nix!"</span>
+          ) lang( tl,
+          <span class="hljs-string">"Kaya kong kumain nang bubog at hindi ako masaktan."</span>
+          ) lang( tr,
+          <span class="hljs-string">"Pijamalı hasta yağız şoföre çabucak güvendi."</span>
+          ) lang( tw,
+          <span class="hljs-string">"Metumi awe tumpan, ɜnyɜ me hwee."</span>
+          ) lang( ua,
+          <span class="hljs-string">"Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"</span>
+          ) lang( vec,
+          <span class="hljs-string">"Mi posso magnare el vetro, no'l me fa mae."</span>
+          ) lang( wa,
+          <span class="hljs-string">"Dji pou magnî do vêre, çoula m' freut nén må."</span>
+          ) lang( yo,
+          <span class="hljs-string">"Mo lè je̩ dígí, kò ní pa mí lára."</span>
+          ) lang( zlm,
+          <span class="hljs-string">"Saya boleh makan kaca dan ia tidak mencederakan saya."</span>
+          )</code>
+      </pre>
     </div>
 
 
     <div id="javascript" class="code">
-      <pre><code class="language-javascript hljs"><span class="hljs-comment">/* ========================================================================
- * Bootstrap: alert.js v3.3.4
- * http://getbootstrap.com/javascript/#alerts
- * ========================================================================
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */</span>
+      <pre>
+        <code class="language-javascript hljs">
+          <span class="hljs-comment">/* ======================================================================== * Bootstrap: alert.js v3.3.4 * http://getbootstrap.com/javascript/#alerts * ======================================================================== * Copyright 2011-2015
+            Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) * ======================================================================== */</span>
 
 
-+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($)</span> </span>{
-<span class="hljs-pi">  'use strict'</span>;
+          +
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-params">($)</span>
+          </span>{
+          <span class="hljs-pi"> 'use strict'</span>;
 
-  <span class="hljs-comment">// ALERT CLASS DEFINITION</span>
-  <span class="hljs-comment">// ======================</span>
+          <span class="hljs-comment">// ALERT CLASS DEFINITION</span>
+          <span class="hljs-comment">// ======================</span>
 
-  <span class="hljs-keyword">var</span> dismiss = <span class="hljs-string">'[data-dismiss="alert"]'</span>
-  <span class="hljs-keyword">var</span> Alert   = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(el)</span> </span>{
-    $(el).on(<span class="hljs-string">'click'</span>, dismiss, <span class="hljs-keyword">this</span>.close)
-  }
+          <span class="hljs-keyword">var</span> dismiss =
+          <span class="hljs-string">'[data-dismiss="alert"]'</span>
+          <span class="hljs-keyword">var</span> Alert =
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-params">(el)</span>
+          </span>{ $(el).on(
+          <span class="hljs-string">'click'</span>, dismiss,
+          <span class="hljs-keyword">this</span>.close) } Alert.VERSION =
+          <span class="hljs-string">'3.3.4'</span>
 
-  Alert.VERSION = <span class="hljs-string">'3.3.4'</span>
+          Alert.TRANSITION_DURATION =
+          <span class="hljs-number">150</span>
 
-  Alert.TRANSITION_DURATION = <span class="hljs-number">150</span>
+          Alert.prototype.close =
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-params">(e)</span>
+          </span>{
+          <span class="hljs-keyword">var</span> $
+          <span class="hljs-keyword">this</span> = $(
+          <span class="hljs-keyword">this</span>)
+          <span class="hljs-keyword">var</span> selector = $
+          <span class="hljs-keyword">this</span>.attr(
+          <span class="hljs-string">'data-target'</span>)
 
-  Alert.prototype.close = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(e)</span> </span>{
-    <span class="hljs-keyword">var</span> $<span class="hljs-keyword">this</span>    = $(<span class="hljs-keyword">this</span>)
-    <span class="hljs-keyword">var</span> selector = $<span class="hljs-keyword">this</span>.attr(<span class="hljs-string">'data-target'</span>)
+          <span class="hljs-keyword">if</span> (!selector) { selector = $
+          <span class="hljs-keyword">this</span>.attr(
+          <span class="hljs-string">'href'</span>) selector = selector &amp;&amp; selector.replace(
+          <span class="hljs-regexp">/.*(?=#[^\s]*$)/</span>,
+          <span class="hljs-string">''</span>)
+          <span class="hljs-comment">// strip for ie7</span>
+          }
 
-    <span class="hljs-keyword">if</span> (!selector) {
-      selector = $<span class="hljs-keyword">this</span>.attr(<span class="hljs-string">'href'</span>)
-      selector = selector &amp;&amp; selector.replace(<span class="hljs-regexp">/.*(?=#[^\s]*$)/</span>, <span class="hljs-string">''</span>) <span class="hljs-comment">// strip for ie7</span>
-    }
+          <span class="hljs-keyword">var</span> $parent = $(selector)
 
-    <span class="hljs-keyword">var</span> $parent = $(selector)
+          <span class="hljs-keyword">if</span> (e) e.preventDefault()
 
-    <span class="hljs-keyword">if</span> (e) e.preventDefault()
+          <span class="hljs-keyword">if</span> (!$parent.length) { $parent = $
+          <span class="hljs-keyword">this</span>.closest(
+          <span class="hljs-string">'.alert'</span>) } $parent.trigger(e = $.Event(
+          <span class="hljs-string">'close.bs.alert'</span>))
 
-    <span class="hljs-keyword">if</span> (!$parent.length) {
-      $parent = $<span class="hljs-keyword">this</span>.closest(<span class="hljs-string">'.alert'</span>)
-    }
+          <span class="hljs-keyword">if</span> (e.isDefaultPrevented())
+          <span class="hljs-keyword">return</span>
 
-    $parent.trigger(e = $.Event(<span class="hljs-string">'close.bs.alert'</span>))
+          $parent.removeClass(
+          <span class="hljs-string">'in'</span>)
 
-    <span class="hljs-keyword">if</span> (e.isDefaultPrevented()) <span class="hljs-keyword">return</span>
-
-    $parent.removeClass(<span class="hljs-string">'in'</span>)
-
-    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">removeElement</span><span class="hljs-params">()</span> </span>{
-      <span class="hljs-comment">// detach from parent, fire event then clean up data</span>
-      $parent.detach().trigger(<span class="hljs-string">'closed.bs.alert'</span>).remove()
-    }
-
-    $.support.transition &amp;&amp; $parent.hasClass(<span class="hljs-string">'fade'</span>) ?
-      $parent
-        .one(<span class="hljs-string">'bsTransitionEnd'</span>, removeElement)
-        .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
-      removeElement()
-  }
-
-
-  <span class="hljs-comment">// ALERT PLUGIN DEFINITION</span>
-  <span class="hljs-comment">// =======================</span>
-
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Plugin</span><span class="hljs-params">(option)</span> </span>{
-    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.each(<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
-      <span class="hljs-keyword">var</span> $<span class="hljs-keyword">this</span> = $(<span class="hljs-keyword">this</span>)
-      <span class="hljs-keyword">var</span> data  = $<span class="hljs-keyword">this</span>.data(<span class="hljs-string">'bs.alert'</span>)
-
-      <span class="hljs-keyword">if</span> (!data) $<span class="hljs-keyword">this</span>.data(<span class="hljs-string">'bs.alert'</span>, (data = <span class="hljs-keyword">new</span> Alert(<span class="hljs-keyword">this</span>)))
-      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> option == <span class="hljs-string">'string'</span>) data[option].call($<span class="hljs-keyword">this</span>)
-    })
-  }
-
-  <span class="hljs-keyword">var</span> old = $.fn.alert
-
-  $.fn.alert             = Plugin
-  $.fn.alert.Constructor = Alert
-
-
-  <span class="hljs-comment">// ALERT NO CONFLICT</span>
-  <span class="hljs-comment">// =================</span>
-
-  $.fn.alert.noConflict = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
-    $.fn.alert = old
-    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
-  }
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-title">removeElement</span>
+            <span class="hljs-params">()</span>
+          </span>{
+          <span class="hljs-comment">// detach from parent, fire event then clean up data</span>
+          $parent.detach().trigger(
+          <span class="hljs-string">'closed.bs.alert'</span>).remove() } $.support.transition &amp;&amp; $parent.hasClass(
+          <span class="hljs-string">'fade'</span>) ? $parent .one(
+          <span class="hljs-string">'bsTransitionEnd'</span>, removeElement) .emulateTransitionEnd(Alert.TRANSITION_DURATION) : removeElement() }
 
 
-  <span class="hljs-comment">// ALERT DATA-API</span>
-  <span class="hljs-comment">// ==============</span>
+          <span class="hljs-comment">// ALERT PLUGIN DEFINITION</span>
+          <span class="hljs-comment">// =======================</span>
 
-  $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">'click.bs.alert.data-api'</span>, dismiss, Alert.prototype.close)
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-title">Plugin</span>
+            <span class="hljs-params">(option)</span>
+          </span>{
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-keyword">this</span>.each(
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-params">()</span>
+          </span>{
+          <span class="hljs-keyword">var</span> $
+          <span class="hljs-keyword">this</span> = $(
+          <span class="hljs-keyword">this</span>)
+          <span class="hljs-keyword">var</span> data = $
+          <span class="hljs-keyword">this</span>.data(
+          <span class="hljs-string">'bs.alert'</span>)
 
-}(jQuery);</code></pre>
+          <span class="hljs-keyword">if</span> (!data) $
+          <span class="hljs-keyword">this</span>.data(
+          <span class="hljs-string">'bs.alert'</span>, (data =
+          <span class="hljs-keyword">new</span> Alert(
+          <span class="hljs-keyword">this</span>)))
+          <span class="hljs-keyword">if</span> (
+          <span class="hljs-keyword">typeof</span> option ==
+          <span class="hljs-string">'string'</span>) data[option].call($
+          <span class="hljs-keyword">this</span>) }) }
+
+          <span class="hljs-keyword">var</span> old = $.fn.alert $.fn.alert = Plugin $.fn.alert.Constructor = Alert
+
+
+          <span class="hljs-comment">// ALERT NO CONFLICT</span>
+          <span class="hljs-comment">// =================</span>
+
+          $.fn.alert.noConflict =
+          <span class="hljs-function">
+            <span class="hljs-keyword">function</span>
+            <span class="hljs-params">()</span>
+          </span>{ $.fn.alert = old
+          <span class="hljs-keyword">return</span>
+          <span class="hljs-keyword">this</span>
+          }
+
+
+          <span class="hljs-comment">// ALERT DATA-API</span>
+          <span class="hljs-comment">// ==============</span>
+
+          $(
+          <span class="hljs-built_in">document</span>).on(
+          <span class="hljs-string">'click.bs.alert.data-api'</span>, dismiss, Alert.prototype.close) }(jQuery);
+
+        </code>
+      </pre>
     </div>
 
     <div id="less" class="code">
-      <pre><code class="language-less hljs"><span class="hljs-comment">// Bootstrap</span>
-<span class="hljs-comment">// Buttons</span>
-<span class="hljs-comment">// --------------------------------------------------</span>
+      <pre>
+        <code class="language-less hljs">
+          <span class="hljs-comment">// Bootstrap</span>
+          <span class="hljs-comment">// Buttons</span>
+          <span class="hljs-comment">// --------------------------------------------------</span>
 
 
-<span class="hljs-comment">// Base styles</span>
-<span class="hljs-comment">// --------------------------------------------------</span>
+          <span class="hljs-comment">// Base styles</span>
+          <span class="hljs-comment">// --------------------------------------------------</span>
 
-<span class="hljs-class">.btn</span> {
-  <span class="hljs-attribute">display</span>: inline-block;
-  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">// For input.btn</span>
-  <span class="hljs-attribute">font-weight</span>: <span class="hljs-variable">@btn-font-weight</span>;
-  <span class="hljs-attribute">text-align</span>: center;
-  <span class="hljs-attribute">vertical-align</span>: middle;
-  <span class="hljs-attribute">touch-action</span>: manipulation;
-  <span class="hljs-attribute">cursor</span>: pointer;
-  <span class="hljs-attribute">background-image</span>: none; <span class="hljs-comment">// Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214</span>
-  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid transparent;
-  <span class="hljs-attribute">white-space</span>: nowrap;
-  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-base-vertical</span>; <span class="hljs-variable">@padding-base-horizontal</span>; <span class="hljs-variable">@font-size-base</span>; <span class="hljs-variable">@line-height-base</span>; <span class="hljs-variable">@border-radius-base</span>);
-  <span class="hljs-class">.user-select</span>(none);
+          <span class="hljs-class">.btn</span> {
+          <span class="hljs-attribute">display</span>: inline-block;
+          <span class="hljs-attribute">margin-bottom</span>:
+          <span class="hljs-number">0</span>;
+          <span class="hljs-comment">// For input.btn</span>
+          <span class="hljs-attribute">font-weight</span>:
+          <span class="hljs-variable">@btn-font-weight</span>;
+          <span class="hljs-attribute">text-align</span>: center;
+          <span class="hljs-attribute">vertical-align</span>: middle;
+          <span class="hljs-attribute">touch-action</span>: manipulation;
+          <span class="hljs-attribute">cursor</span>: pointer;
+          <span class="hljs-attribute">background-image</span>: none;
+          <span class="hljs-comment">// Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214</span>
+          <span class="hljs-attribute">border</span>:
+          <span class="hljs-number">1px</span> solid transparent;
+          <span class="hljs-attribute">white-space</span>: nowrap;
+          <span class="hljs-class">.button-size</span>(
+          <span class="hljs-variable">@padding-base-vertical</span>;
+          <span class="hljs-variable">@padding-base-horizontal</span>;
+          <span class="hljs-variable">@font-size-base</span>;
+          <span class="hljs-variable">@line-height-base</span>;
+          <span class="hljs-variable">@border-radius-base</span>);
+          <span class="hljs-class">.user-select</span>(none);
 
-  <span class="hljs-keyword">&amp;</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span> {
-    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
-    <span class="hljs-keyword">&amp;</span><span class="hljs-class">.focus</span> {
-      <span class="hljs-class">.tab-focus</span>();
-    }
-  }
+          <span class="hljs-keyword">&amp;</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:active</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.active</span> {
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:focus</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.focus</span> {
+          <span class="hljs-class">.tab-focus</span>(); } }
 
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.focus</span> {
-    <span class="hljs-attribute">color</span>: <span class="hljs-variable">@btn-default-color</span>;
-    <span class="hljs-attribute">text-decoration</span>: none;
-  }
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:hover</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:focus</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.focus</span> {
+          <span class="hljs-attribute">color</span>:
+          <span class="hljs-variable">@btn-default-color</span>;
+          <span class="hljs-attribute">text-decoration</span>: none; }
 
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span> {
-    <span class="hljs-attribute">outline</span>: <span class="hljs-number">0</span>;
-    <span class="hljs-attribute">background-image</span>: none;
-    <span class="hljs-class">.box-shadow</span>(inset <span class="hljs-number">0</span> <span class="hljs-number">3px</span> <span class="hljs-number">5px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">125</span>));
-  }
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:active</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.active</span> {
+          <span class="hljs-attribute">outline</span>:
+          <span class="hljs-number">0</span>;
+          <span class="hljs-attribute">background-image</span>: none;
+          <span class="hljs-class">.box-shadow</span>(inset
+          <span class="hljs-number">0</span>
+          <span class="hljs-number">3px</span>
+          <span class="hljs-number">5px</span>
+          <span class="hljs-function">rgba</span>(
+          <span class="hljs-number">0</span>,
+          <span class="hljs-number">0</span>,
+          <span class="hljs-number">0</span>,.
+          <span class="hljs-number">125</span>)); }
 
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.disabled</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
-  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
-    <span class="hljs-attribute">cursor</span>: <span class="hljs-variable">@cursor-disabled</span>;
-    <span class="hljs-class">.opacity</span>(.<span class="hljs-number">65</span>);
-    <span class="hljs-class">.box-shadow</span>(none);
-  }
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.disabled</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-attr_selector">[disabled]</span>,
+          <span class="hljs-tag">fieldset</span>
+          <span class="hljs-attr_selector">[disabled]</span>
+          <span class="hljs-keyword">&amp;</span> {
+          <span class="hljs-attribute">cursor</span>:
+          <span class="hljs-variable">@cursor-disabled</span>;
+          <span class="hljs-class">.opacity</span>(.
+          <span class="hljs-number">65</span>);
+          <span class="hljs-class">.box-shadow</span>(none); }
 
-  <span class="hljs-tag">a</span><span class="hljs-keyword">&amp;</span> {
-    <span class="hljs-keyword">&amp;</span><span class="hljs-class">.disabled</span>,
-    <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
-      <span class="hljs-attribute">pointer-events</span>: none; <span class="hljs-comment">// Future-proof disabling of clicks on `&lt;a&gt;` elements</span>
-    }
-  }
-}
-
-
-<span class="hljs-comment">// Alternate buttons</span>
-<span class="hljs-comment">// --------------------------------------------------</span>
-
-<span class="hljs-class">.btn-default</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-default-color</span>; <span class="hljs-variable">@btn-default-bg</span>; <span class="hljs-variable">@btn-default-border</span>);
-}
-<span class="hljs-class">.btn-primary</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-primary-color</span>; <span class="hljs-variable">@btn-primary-bg</span>; <span class="hljs-variable">@btn-primary-border</span>);
-}
-<span class="hljs-comment">// Success appears as green</span>
-<span class="hljs-class">.btn-success</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-success-color</span>; <span class="hljs-variable">@btn-success-bg</span>; <span class="hljs-variable">@btn-success-border</span>);
-}
-<span class="hljs-comment">// Info appears as blue-green</span>
-<span class="hljs-class">.btn-info</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-info-color</span>; <span class="hljs-variable">@btn-info-bg</span>; <span class="hljs-variable">@btn-info-border</span>);
-}
-<span class="hljs-comment">// Warning appears as orange</span>
-<span class="hljs-class">.btn-warning</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-warning-color</span>; <span class="hljs-variable">@btn-warning-bg</span>; <span class="hljs-variable">@btn-warning-border</span>);
-}
-<span class="hljs-comment">// Danger and error appear as red</span>
-<span class="hljs-class">.btn-danger</span> {
-  <span class="hljs-class">.button-variant</span>(<span class="hljs-variable">@btn-danger-color</span>; <span class="hljs-variable">@btn-danger-bg</span>; <span class="hljs-variable">@btn-danger-border</span>);
-}
-
-
-<span class="hljs-comment">// Link buttons</span>
-<span class="hljs-comment">// -------------------------</span>
-
-<span class="hljs-comment">// Make a button look and behave like a link</span>
-<span class="hljs-class">.btn-link</span> {
-  <span class="hljs-attribute">color</span>: <span class="hljs-variable">@link-color</span>;
-  <span class="hljs-attribute">font-weight</span>: normal;
-  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0</span>;
-
-  <span class="hljs-keyword">&amp;</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.active</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
-  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
-    <span class="hljs-attribute">background-color</span>: transparent;
-    <span class="hljs-class">.box-shadow</span>(none);
-  }
-  <span class="hljs-keyword">&amp;</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:active</span> {
-    <span class="hljs-attribute">border-color</span>: transparent;
-  }
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
-  <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span> {
-    <span class="hljs-attribute">color</span>: <span class="hljs-variable">@link-hover-color</span>;
-    <span class="hljs-attribute">text-decoration</span>: <span class="hljs-variable">@link-hover-decoration</span>;
-    <span class="hljs-attribute">background-color</span>: transparent;
-  }
-  <span class="hljs-keyword">&amp;</span><span class="hljs-attr_selector">[disabled]</span>,
-  <span class="hljs-tag">fieldset</span><span class="hljs-attr_selector">[disabled]</span> <span class="hljs-keyword">&amp;</span> {
-    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:hover</span>,
-    <span class="hljs-keyword">&amp;</span><span class="hljs-pseudo">:focus</span> {
-      <span class="hljs-attribute">color</span>: <span class="hljs-variable">@btn-link-disabled-color</span>;
-      <span class="hljs-attribute">text-decoration</span>: none;
-    }
-  }
-}
+          <span class="hljs-tag">a</span>
+          <span class="hljs-keyword">&amp;</span> {
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.disabled</span>,
+          <span class="hljs-tag">fieldset</span>
+          <span class="hljs-attr_selector">[disabled]</span>
+          <span class="hljs-keyword">&amp;</span> {
+          <span class="hljs-attribute">pointer-events</span>: none;
+          <span class="hljs-comment">// Future-proof disabling of clicks on `&lt;a&gt;` elements</span>
+          } } }
 
 
-<span class="hljs-comment">// Button Sizes</span>
-<span class="hljs-comment">// --------------------------------------------------</span>
+          <span class="hljs-comment">// Alternate buttons</span>
+          <span class="hljs-comment">// --------------------------------------------------</span>
 
-<span class="hljs-class">.btn-lg</span> {
-  <span class="hljs-comment">// line-height: ensure even-numbered height of button next to large input</span>
-  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-large-vertical</span>; <span class="hljs-variable">@padding-large-horizontal</span>; <span class="hljs-variable">@font-size-large</span>; <span class="hljs-variable">@line-height-large</span>; <span class="hljs-variable">@border-radius-large</span>);
-}
-<span class="hljs-class">.btn-sm</span> {
-  <span class="hljs-comment">// line-height: ensure proper height of button next to small input</span>
-  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-small-vertical</span>; <span class="hljs-variable">@padding-small-horizontal</span>; <span class="hljs-variable">@font-size-small</span>; <span class="hljs-variable">@line-height-small</span>; <span class="hljs-variable">@border-radius-small</span>);
-}
-<span class="hljs-class">.btn-xs</span> {
-  <span class="hljs-class">.button-size</span>(<span class="hljs-variable">@padding-xs-vertical</span>; <span class="hljs-variable">@padding-xs-horizontal</span>; <span class="hljs-variable">@font-size-small</span>; <span class="hljs-variable">@line-height-small</span>; <span class="hljs-variable">@border-radius-small</span>);
-}
+          <span class="hljs-class">.btn-default</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-default-color</span>;
+          <span class="hljs-variable">@btn-default-bg</span>;
+          <span class="hljs-variable">@btn-default-border</span>); }
+          <span class="hljs-class">.btn-primary</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-primary-color</span>;
+          <span class="hljs-variable">@btn-primary-bg</span>;
+          <span class="hljs-variable">@btn-primary-border</span>); }
+          <span class="hljs-comment">// Success appears as green</span>
+          <span class="hljs-class">.btn-success</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-success-color</span>;
+          <span class="hljs-variable">@btn-success-bg</span>;
+          <span class="hljs-variable">@btn-success-border</span>); }
+          <span class="hljs-comment">// Info appears as blue-green</span>
+          <span class="hljs-class">.btn-info</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-info-color</span>;
+          <span class="hljs-variable">@btn-info-bg</span>;
+          <span class="hljs-variable">@btn-info-border</span>); }
+          <span class="hljs-comment">// Warning appears as orange</span>
+          <span class="hljs-class">.btn-warning</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-warning-color</span>;
+          <span class="hljs-variable">@btn-warning-bg</span>;
+          <span class="hljs-variable">@btn-warning-border</span>); }
+          <span class="hljs-comment">// Danger and error appear as red</span>
+          <span class="hljs-class">.btn-danger</span> {
+          <span class="hljs-class">.button-variant</span>(
+          <span class="hljs-variable">@btn-danger-color</span>;
+          <span class="hljs-variable">@btn-danger-bg</span>;
+          <span class="hljs-variable">@btn-danger-border</span>); }
 
 
-<span class="hljs-comment">// Block button</span>
-<span class="hljs-comment">// --------------------------------------------------</span>
+          <span class="hljs-comment">// Link buttons</span>
+          <span class="hljs-comment">// -------------------------</span>
 
-<span class="hljs-class">.btn-block</span> {
-  <span class="hljs-attribute">display</span>: block;
-  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
-}
+          <span class="hljs-comment">// Make a button look and behave like a link</span>
+          <span class="hljs-class">.btn-link</span> {
+          <span class="hljs-attribute">color</span>:
+          <span class="hljs-variable">@link-color</span>;
+          <span class="hljs-attribute">font-weight</span>: normal;
+          <span class="hljs-attribute">border-radius</span>:
+          <span class="hljs-number">0</span>;
 
-<span class="hljs-comment">// Vertically space out multiple block buttons</span>
-<span class="hljs-class">.btn-block</span> + <span class="hljs-class">.btn-block</span> {
-  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">5px</span>;
-}
+          <span class="hljs-keyword">&amp;</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:active</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.active</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-attr_selector">[disabled]</span>,
+          <span class="hljs-tag">fieldset</span>
+          <span class="hljs-attr_selector">[disabled]</span>
+          <span class="hljs-keyword">&amp;</span> {
+          <span class="hljs-attribute">background-color</span>: transparent;
+          <span class="hljs-class">.box-shadow</span>(none); }
+          <span class="hljs-keyword">&amp;</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:hover</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:focus</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:active</span> {
+          <span class="hljs-attribute">border-color</span>: transparent; }
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:hover</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:focus</span> {
+          <span class="hljs-attribute">color</span>:
+          <span class="hljs-variable">@link-hover-color</span>;
+          <span class="hljs-attribute">text-decoration</span>:
+          <span class="hljs-variable">@link-hover-decoration</span>;
+          <span class="hljs-attribute">background-color</span>: transparent; }
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-attr_selector">[disabled]</span>,
+          <span class="hljs-tag">fieldset</span>
+          <span class="hljs-attr_selector">[disabled]</span>
+          <span class="hljs-keyword">&amp;</span> {
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:hover</span>,
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-pseudo">:focus</span> {
+          <span class="hljs-attribute">color</span>:
+          <span class="hljs-variable">@btn-link-disabled-color</span>;
+          <span class="hljs-attribute">text-decoration</span>: none; } } }
 
-<span class="hljs-comment">// Specificity overrides</span>
-<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="submit"]</span>,
-<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="reset"]</span>,
-<span class="hljs-tag">input</span><span class="hljs-attr_selector">[type="button"]</span> {
-  <span class="hljs-keyword">&amp;</span><span class="hljs-class">.btn-block</span> {
-    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
-  }
-}</code></pre>
+
+          <span class="hljs-comment">// Button Sizes</span>
+          <span class="hljs-comment">// --------------------------------------------------</span>
+
+          <span class="hljs-class">.btn-lg</span> {
+          <span class="hljs-comment">// line-height: ensure even-numbered height of button next to large input</span>
+          <span class="hljs-class">.button-size</span>(
+          <span class="hljs-variable">@padding-large-vertical</span>;
+          <span class="hljs-variable">@padding-large-horizontal</span>;
+          <span class="hljs-variable">@font-size-large</span>;
+          <span class="hljs-variable">@line-height-large</span>;
+          <span class="hljs-variable">@border-radius-large</span>); }
+          <span class="hljs-class">.btn-sm</span> {
+          <span class="hljs-comment">// line-height: ensure proper height of button next to small input</span>
+          <span class="hljs-class">.button-size</span>(
+          <span class="hljs-variable">@padding-small-vertical</span>;
+          <span class="hljs-variable">@padding-small-horizontal</span>;
+          <span class="hljs-variable">@font-size-small</span>;
+          <span class="hljs-variable">@line-height-small</span>;
+          <span class="hljs-variable">@border-radius-small</span>); }
+          <span class="hljs-class">.btn-xs</span> {
+          <span class="hljs-class">.button-size</span>(
+          <span class="hljs-variable">@padding-xs-vertical</span>;
+          <span class="hljs-variable">@padding-xs-horizontal</span>;
+          <span class="hljs-variable">@font-size-small</span>;
+          <span class="hljs-variable">@line-height-small</span>;
+          <span class="hljs-variable">@border-radius-small</span>); }
+
+
+          <span class="hljs-comment">// Block button</span>
+          <span class="hljs-comment">// --------------------------------------------------</span>
+
+          <span class="hljs-class">.btn-block</span> {
+          <span class="hljs-attribute">display</span>: block;
+          <span class="hljs-attribute">width</span>:
+          <span class="hljs-number">100%</span>; }
+
+          <span class="hljs-comment">// Vertically space out multiple block buttons</span>
+          <span class="hljs-class">.btn-block</span> +
+          <span class="hljs-class">.btn-block</span> {
+          <span class="hljs-attribute">margin-top</span>:
+          <span class="hljs-number">5px</span>; }
+
+          <span class="hljs-comment">// Specificity overrides</span>
+          <span class="hljs-tag">input</span>
+          <span class="hljs-attr_selector">[type="submit"]</span>,
+          <span class="hljs-tag">input</span>
+          <span class="hljs-attr_selector">[type="reset"]</span>,
+          <span class="hljs-tag">input</span>
+          <span class="hljs-attr_selector">[type="button"]</span> {
+          <span class="hljs-keyword">&amp;</span>
+          <span class="hljs-class">.btn-block</span> {
+          <span class="hljs-attribute">width</span>:
+          <span class="hljs-number">100%</span>; } }
+        </code>
+      </pre>
     </div>
     <div id="python" class="code">
-      <pre><code class="language-python hljs"><span class="hljs-comment"># vim: sts=4 sw=4 ts=4 et</span>
+      <pre>
+        <code class="language-python hljs">
+          <span class="hljs-comment"># vim: sts=4 sw=4 ts=4 et</span>
 
-<span class="hljs-keyword">import</span> fontforge
-<span class="hljs-keyword">from</span> itertools <span class="hljs-keyword">import</span> compress
-<span class="hljs-keyword">from</span> os.path <span class="hljs-keyword">import</span> basename, splitext, join
+          <span class="hljs-keyword">import</span> fontforge
+          <span class="hljs-keyword">from</span> itertools
+          <span class="hljs-keyword">import</span> compress
+          <span class="hljs-keyword">from</span> os.path
+          <span class="hljs-keyword">import</span> basename, splitext, join
 
-<span class="hljs-comment"># Builder</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">style</span><span class="hljs-params">(name, does)</span>:</span>
-    <span class="hljs-keyword">try</span>:
-        does = list(does)
-    <span class="hljs-keyword">except</span> TypeError:
-        does = [does]
-    <span class="hljs-keyword">if</span> type(does) <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> list:
-        does = list(does)
-    option(name, name, [Variation(name)] + does)
+          <span class="hljs-comment"># Builder</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">style</span>
+            <span class="hljs-params">(name, does)</span>:</span>
+          <span class="hljs-keyword">try</span>: does = list(does)
+          <span class="hljs-keyword">except</span> TypeError: does = [does]
+          <span class="hljs-keyword">if</span> type(does)
+          <span class="hljs-keyword">is</span>
+          <span class="hljs-keyword">not</span> list: does = list(does) option(name, name, [Variation(name)] + does)
 
-    <span class="hljs-keyword">return</span> name
+          <span class="hljs-keyword">return</span> name
 
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">option</span><span class="hljs-params">(abrv, name, does)</span>:</span>
-    option.operations[abrv] = does
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">option</span>
+            <span class="hljs-params">(abrv, name, does)</span>:</span>
+          option.operations[abrv] = does option.count +=
+          <span class="hljs-number">1</span>
+          <span class="hljs-keyword">for</span> permutation
+          <span class="hljs-keyword">in</span> option.permutations: permutation.append(abrv)
 
-    option.count += <span class="hljs-number">1</span>
-    <span class="hljs-keyword">for</span> permutation <span class="hljs-keyword">in</span> option.permutations:
-        permutation.append(abrv)
+          <span class="hljs-keyword">return</span> abrv
 
-    <span class="hljs-keyword">return</span> abrv
+          <span class="hljs-comment"># Initialize the operations map, option count, and permutations</span>
+          option.operations = {} option.count =
+          <span class="hljs-number">0</span>
+          option.permutations = [[]]
 
-<span class="hljs-comment"># Initialize the operations map, option count, and permutations</span>
-option.operations = {}
-option.count = <span class="hljs-number">0</span>
-option.permutations = [[]]
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">conflicting</span>
+            <span class="hljs-params">(*args)</span>:</span>
+          permutations = option.permutations
+          <span class="hljs-comment"># Deconflict</span>
+          <span class="hljs-comment"># Assumes last #args options in each permutation are conflicting options</span>
+          <span class="hljs-keyword">for</span> arg
+          <span class="hljs-keyword">in</span> args:
+          <span class="hljs-keyword">for</span> p
+          <span class="hljs-keyword">in</span> permutations: p.pop()
 
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">conflicting</span><span class="hljs-params">(*args)</span>:</span>
-    permutations = option.permutations
-    <span class="hljs-comment"># Deconflict</span>
-    <span class="hljs-comment"># Assumes last #args options in each permutation are conflicting options</span>
-    <span class="hljs-keyword">for</span> arg <span class="hljs-keyword">in</span> args:
-        <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> permutations:
-            p.pop()
+          <span class="hljs-comment"># Only one of the options should be counted</span>
+          option.count -= len(args) -
+          <span class="hljs-number">1</span>
 
-    <span class="hljs-comment"># Only one of the options should be counted</span>
-    option.count -= len(args) - <span class="hljs-number">1</span>
+          <span class="hljs-comment"># Get all permutations for conflicting options</span>
+          option.permutations = [ p + [arg]
+          <span class="hljs-keyword">for</span> p
+          <span class="hljs-keyword">in</span> permutations
+          <span class="hljs-keyword">for</span> arg
+          <span class="hljs-keyword">in</span> args ]
 
-    <span class="hljs-comment"># Get all permutations for conflicting options</span>
-    option.permutations = [ p + [arg] <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> permutations <span class="hljs-keyword">for</span> arg <span class="hljs-keyword">in</span> args ]
+          <span class="hljs-comment"># Walk through all the options</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">walk</span>
+            <span class="hljs-params">(walker)</span>:</span>
+          <span class="hljs-comment"># Each option is a binary choice, so we use an int as a quick bitmap.</span>
+          <span class="hljs-comment"># To iterate over every possible permutation, all we have to do is increment</span>
+          <span class="hljs-comment"># up to the maximum value 2^(#options)</span>
+          bitmap_max =
+          <span class="hljs-number">1</span> &lt;&lt; option.count
 
-<span class="hljs-comment"># Walk through all the options</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">walk</span><span class="hljs-params">(walker)</span>:</span>
-    <span class="hljs-comment"># Each option is a binary choice, so we use an int as a quick bitmap.</span>
-    <span class="hljs-comment"># To iterate over every possible permutation, all we have to do is increment</span>
-    <span class="hljs-comment"># up to the maximum value 2^(#options)</span>
-    bitmap_max = <span class="hljs-number">1</span> &lt;&lt; option.count
+          <span class="hljs-comment"># Iterate over all possible permutations</span>
+          <span class="hljs-keyword">for</span> i
+          <span class="hljs-keyword">in</span> xrange(bitmap_max):
+          <span class="hljs-comment"># Map the iteration's permutations using a bitmap</span>
+          bitmap = map(
+          <span class="hljs-keyword">lambda</span> n: i &gt;&gt; n &amp;
+          <span class="hljs-number">1</span>, xrange(option.count))
+          <span class="hljs-comment"># NOTE: This does not effectively handle de-duplication.</span>
+          <span class="hljs-comment"># TODO: Tuples? Revert to expand_options and modify?</span>
+          last =
+          <span class="hljs-keyword">None</span>
+          <span class="hljs-keyword">for</span> p
+          <span class="hljs-keyword">in</span> option.permutations: current = list(compress(p, bitmap))
+          <span class="hljs-keyword">if</span> current == last:
+          <span class="hljs-keyword">break</span>
+          last = current walker(current)
 
-    <span class="hljs-comment"># Iterate over all possible permutations</span>
-    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(bitmap_max):
-        <span class="hljs-comment"># Map the iteration's permutations using a bitmap</span>
-        bitmap = map(<span class="hljs-keyword">lambda</span> n: i &gt;&gt; n &amp; <span class="hljs-number">1</span>, xrange(option.count))
-        <span class="hljs-comment"># NOTE: This does not effectively handle de-duplication.</span>
-        <span class="hljs-comment"># TODO: Tuples? Revert to expand_options and modify?</span>
-        last = <span class="hljs-keyword">None</span>
-        <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> option.permutations:
-            current = list(compress(p, bitmap))
-            <span class="hljs-keyword">if</span> current == last:
-                <span class="hljs-keyword">break</span>
-            last = current
-            walker(current)
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">build</span>
+            <span class="hljs-params">(outdir, font)</span>:</span>
+          <span class="hljs-comment"># Fork the original font</span>
+          fnt = fontforge.open(join(source, font))
 
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">build</span><span class="hljs-params">(outdir, font)</span>:</span>
-    <span class="hljs-comment"># Fork the original font</span>
-    fnt = fontforge.open(join(source, font))
+          <span class="hljs-comment"># Get the base name for the font</span>
+          name = join(outdir, splitext(basename(font))[
+          <span class="hljs-number">0</span>])
 
-    <span class="hljs-comment"># Get the base name for the font</span>
-    name = join(outdir, splitext(basename(font))[<span class="hljs-number">0</span>])
+          <span class="hljs-keyword">for</span> opt
+          <span class="hljs-keyword">in</span> opts:
+          <span class="hljs-comment"># Append this option to the font name</span>
+          name +=
+          <span class="hljs-string">'-'</span> + str(opt)
 
-    <span class="hljs-keyword">for</span> opt <span class="hljs-keyword">in</span> opts:
-        <span class="hljs-comment"># Append this option to the font name</span>
-        name += <span class="hljs-string">'-'</span> + str(opt)
+          <span class="hljs-comment"># Run all the operations for this option</span>
+          <span class="hljs-comment">#for oper in options[opt]:</span>
+          <span class="hljs-comment">#opers[oper](fnt, *oper[opt])</span>
 
-        <span class="hljs-comment"># Run all the operations for this option</span>
-        <span class="hljs-comment">#for oper in options[opt]:</span>
-            <span class="hljs-comment">#opers[oper](fnt, *oper[opt])</span>
+          <span class="hljs-comment"># Output the file and cleanup</span>
+          fnt.generate(name +
+          <span class="hljs-string">".ttf"</span>) fnt.close()
 
-    <span class="hljs-comment"># Output the file and cleanup</span>
-    fnt.generate(name + <span class="hljs-string">".ttf"</span>)
-    fnt.close()
+          <span class="hljs-comment"># Operations</span>
+          <span class="hljs-comment">## NOTE:</span>
+          <span class="hljs-comment">## All operations return a closure with the 1st argument being a fontforge.font</span>
 
-<span class="hljs-comment"># Operations</span>
-<span class="hljs-comment">## NOTE:</span>
-<span class="hljs-comment">## All operations return a closure with the 1st argument being a fontforge.font</span>
+          <span class="hljs-comment">## Adjusts the left and/or right bearings of all glyphs</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">Bearing</span>
+            <span class="hljs-params">(left=
+              <span class="hljs-number">0</span>, right=
+              <span class="hljs-number">0</span>)</span>:</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">op</span>
+            <span class="hljs-params">(fnt)</span>:</span>
+          fnt.genericGlyphChange( hCounterType=
+          <span class="hljs-string">"nonUniform"</span>, hCounterScale=
+          <span class="hljs-number">1.0</span>, lsbScale=
+          <span class="hljs-number">1.0</span>, rsbScale=
+          <span class="hljs-number">1.0</span>, lsbAdd=left, rsbAdd=right)
+          <span class="hljs-keyword">return</span> op
 
-<span class="hljs-comment">## Adjusts the left and/or right bearings of all glyphs</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Bearing</span><span class="hljs-params">(left=<span class="hljs-number">0</span>, right=<span class="hljs-number">0</span>)</span>:</span>
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
-        fnt.genericGlyphChange(
-                hCounterType=<span class="hljs-string">"nonUniform"</span>,
-                hCounterScale=<span class="hljs-number">1.0</span>,
-                lsbScale=<span class="hljs-number">1.0</span>,
-                rsbScale=<span class="hljs-number">1.0</span>,
-                lsbAdd=left,
-                rsbAdd=right)
-    <span class="hljs-keyword">return</span> op
+          <span class="hljs-comment">## Swaps the places of two glyphs using the DEL char as swap space</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">Swap</span>
+            <span class="hljs-params">(glyph1, glyph2)</span>:</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">op</span>
+            <span class="hljs-params">(fnt)</span>:</span>
+          <span class="hljs-comment"># G1 -&gt; SWP</span>
+          fnt.selection.select(glyph1) fnt.copy() fnt.selection.select(
+          <span class="hljs-number">127</span>)
+          <span class="hljs-comment"># DEL</span>
+          fnt.paste()
 
-<span class="hljs-comment">## Swaps the places of two glyphs using the DEL char as swap space</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Swap</span><span class="hljs-params">(glyph1, glyph2)</span>:</span>
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
-        <span class="hljs-comment"># G1 -&gt; SWP</span>
-        fnt.selection.select(glyph1)
-        fnt.copy()
-        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
-        fnt.paste()
+          <span class="hljs-comment"># G2 -&gt; G1</span>
+          fnt.selection.select(glyph2) fnt.copy() fnt.selection.select(glyph1) fnt.paste()
 
-        <span class="hljs-comment"># G2 -&gt; G1</span>
-        fnt.selection.select(glyph2)
-        fnt.copy()
-        fnt.selection.select(glyph1)
-        fnt.paste()
+          <span class="hljs-comment"># SWP -&gt; G1</span>
+          fnt.selection.select(
+          <span class="hljs-number">127</span>)
+          <span class="hljs-comment"># DEL</span>
+          fnt.copy() fnt.selection.select(glyph2) fnt.paste()
 
-        <span class="hljs-comment"># SWP -&gt; G1</span>
-        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
-        fnt.copy()
-        fnt.selection.select(glyph2)
-        fnt.paste()
+          <span class="hljs-comment"># Clear SWP</span>
+          fnt.selection.select(
+          <span class="hljs-number">127</span>)
+          <span class="hljs-comment"># DEL</span>
+          fnt.clear()
+          <span class="hljs-keyword">return</span> op
 
-        <span class="hljs-comment"># Clear SWP</span>
-        fnt.selection.select(<span class="hljs-number">127</span>) <span class="hljs-comment"># DEL</span>
-        fnt.clear()
-    <span class="hljs-keyword">return</span> op
-
-<span class="hljs-comment">## Changes the subfamily/variation of the font</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Variation</span><span class="hljs-params">(name)</span>:</span>
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">op</span><span class="hljs-params">(fnt)</span>:</span>
-        basename = f.fontname.split(<span class="hljs-string">'-'</span>)[<span class="hljs-number">0</span>]
-        fontname = [basename] + name.split()
-        f.fontname = <span class="hljs-string">'-'</span>.join(fontname)
-        f.fullname = <span class="hljs-string">' '</span>.join(fontname)
-    <span class="hljs-keyword">return</span> op</code></pre>
+          <span class="hljs-comment">## Changes the subfamily/variation of the font</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">Variation</span>
+            <span class="hljs-params">(name)</span>:</span>
+          <span class="hljs-function">
+            <span class="hljs-keyword">def</span>
+            <span class="hljs-title">op</span>
+            <span class="hljs-params">(fnt)</span>:</span>
+          basename = f.fontname.split(
+          <span class="hljs-string">'-'</span>)[
+          <span class="hljs-number">0</span>] fontname = [basename] + name.split() f.fontname =
+          <span class="hljs-string">'-'</span>.join(fontname) f.fullname =
+          <span class="hljs-string">' '</span>.join(fontname)
+          <span class="hljs-keyword">return</span> op</code>
+      </pre>
     </div>
     <div id="html" class="code">
-      <pre><code class="language-html hljs xml"><span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">"en"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"utf-8"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">http-equiv</span>=<span class="hljs-value">"X-UA-Compatible"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"IE=edge"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"viewport"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"width=device-width, initial-scale=1"</span>&gt;</span>
-    <span class="hljs-comment">&lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"description"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">""</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"author"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">""</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"icon"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"../../favicon.ico"</span>&gt;</span>
+      <pre>
+        <code class="language-html hljs xml">
+          <span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">html</span>
+            <span class="hljs-attribute">lang</span>=
+            <span class="hljs-value">"en"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">head</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">meta</span>
+            <span class="hljs-attribute">charset</span>=
+            <span class="hljs-value">"utf-8"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">meta</span>
+            <span class="hljs-attribute">http-equiv</span>=
+            <span class="hljs-value">"X-UA-Compatible"</span>
+            <span class="hljs-attribute">content</span>=
+            <span class="hljs-value">"IE=edge"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">meta</span>
+            <span class="hljs-attribute">name</span>=
+            <span class="hljs-value">"viewport"</span>
+            <span class="hljs-attribute">content</span>=
+            <span class="hljs-value">"width=device-width, initial-scale=1"</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">meta</span>
+            <span class="hljs-attribute">name</span>=
+            <span class="hljs-value">"description"</span>
+            <span class="hljs-attribute">content</span>=
+            <span class="hljs-value">""</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">meta</span>
+            <span class="hljs-attribute">name</span>=
+            <span class="hljs-value">"author"</span>
+            <span class="hljs-attribute">content</span>=
+            <span class="hljs-value">""</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">link</span>
+            <span class="hljs-attribute">rel</span>=
+            <span class="hljs-value">"icon"</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"../../favicon.ico"</span>&gt;</span>
 
-    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Justified Nav Template for Bootstrap<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">title</span>&gt;</span>Justified Nav Template for Bootstrap
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">title</span>&gt;</span>
 
-    <span class="hljs-comment">&lt;!-- Bootstrap core CSS --&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"../../dist/css/bootstrap.min.css"</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Bootstrap core CSS --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">link</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"../../dist/css/bootstrap.min.css"</span>
+            <span class="hljs-attribute">rel</span>=
+            <span class="hljs-value">"stylesheet"</span>&gt;</span>
 
-    <span class="hljs-comment">&lt;!-- Custom styles for this template --&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"justified-nav.css"</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Custom styles for this template --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">link</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"justified-nav.css"</span>
+            <span class="hljs-attribute">rel</span>=
+            <span class="hljs-value">"stylesheet"</span>&gt;</span>
 
-    <span class="hljs-comment">&lt;!-- Just for debugging purposes. Don't actually copy these 2 lines! --&gt;</span>
-    <span class="hljs-comment">&lt;!--[if lt IE 9]&gt;&lt;script src="../../assets/js/ie8-responsive-file-warning.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"../../assets/js/ie-emulation-modes-warning.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Just for debugging purposes. Don't actually copy these 2 lines! --&gt;</span>
+          <span class="hljs-comment">&lt;!--[if lt IE 9]&gt;&lt;script src="../../assets/js/ie8-responsive-file-warning.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">script</span>
+            <span class="hljs-attribute">src</span>=
+            <span class="hljs-value">"../../assets/js/ie-emulation-modes-warning.js"</span>&gt;</span>
+          <span class="undefined"></span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">script</span>&gt;</span>
 
-    <span class="hljs-comment">&lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span>
-    <span class="hljs-comment">&lt;!--[if lt IE 9]&gt;
-      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
-      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span>
+          <span class="hljs-comment">&lt;!--[if lt IE 9]&gt; &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt; &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt; &lt;![endif]--&gt;
+          </span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">head</span>&gt;</span>
 
-  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">body</span>&gt;</span>
 
-    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"container"</span>&gt;</span>
 
-      <span class="hljs-comment">&lt;!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. --&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"masthead"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">h3</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"text-muted"</span>&gt;</span>Project name<span class="hljs-tag">&lt;/<span class="hljs-title">h3</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">nav</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">ul</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"nav nav-justified"</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"active"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Projects<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Services<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Downloads<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>About<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Contact<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
-          <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-title">nav</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- The justified navigation menu is meant for single line per list item. Multiple lines will require custom code not provided by Bootstrap. --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"masthead"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">h3</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"text-muted"</span>&gt;</span>Project name
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">h3</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">nav</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">ul</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"nav nav-justified"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"active"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>Home
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>Projects
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>Services
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>Downloads
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>About
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>&gt;</span>Contact
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">nav</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">div</span>&gt;</span>
 
-      <span class="hljs-comment">&lt;!-- Jumbotron --&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"jumbotron"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Marketing stuff!<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"lead"</span>&gt;</span>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"btn btn-lg btn-success"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">role</span>=<span class="hljs-value">"button"</span>&gt;</span>Get started today<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Jumbotron --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"jumbotron"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">h1</span>&gt;</span>Marketing stuff!
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"lead"</span>&gt;</span>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"btn btn-lg btn-success"</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>
+            <span class="hljs-attribute">role</span>=
+            <span class="hljs-value">"button"</span>&gt;</span>Get started today
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">div</span>&gt;</span>
 
-      <span class="hljs-comment">&lt;!-- Example row of columns --&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"col-lg-4"</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Safari bug warning!<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"text-danger"</span>&gt;</span>As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"btn btn-primary"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">role</span>=<span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"col-lg-4"</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"btn btn-primary"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">role</span>=<span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-       <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"col-lg-4"</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"btn btn-primary"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">role</span>=<span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Example row of columns --&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"row"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"col-lg-4"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">h2</span>&gt;</span>Safari bug warning!
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">h2</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"text-danger"</span>&gt;</span>As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+          odio dui.
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"btn btn-primary"</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>
+            <span class="hljs-attribute">role</span>=
+            <span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"col-lg-4"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">h2</span>&gt;</span>Heading
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">h2</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+          odio dui.
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">a</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"btn btn-primary"</span>
+            <span class="hljs-attribute">href</span>=
+            <span class="hljs-value">"#"</span>
+            <span class="hljs-attribute">role</span>=
+            <span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">div</span>
+            <span class="hljs-attribute">class</span>=
+            <span class="hljs-value">"col-lg-4"</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">h2</span>&gt;</span>Heading
+          <span class="hljs-tag">&lt;/
+            <span class="hljs-title">h2</span>&gt;</span>
+          <span class="hljs-tag">&lt;
+            <span class="hljs-title">p</span>&gt;</span>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+          <span
+          class="hljs-tag">&lt;/
+            <span class="hljs-title">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;
+              <span class="hljs-title">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;
+              <span class="hljs-title">a</span>
+              <span class="hljs-attribute">class</span>=
+              <span class="hljs-value">"btn btn-primary"</span>
+              <span class="hljs-attribute">href</span>=
+              <span class="hljs-value">"#"</span>
+              <span class="hljs-attribute">role</span>=
+              <span class="hljs-value">"button"</span>&gt;</span>View details &amp;raquo;
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">div</span>&gt;</span>
 
-      <span class="hljs-comment">&lt;!-- Site footer --&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-title">footer</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"footer"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>&amp;copy; Company 2014<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-title">footer</span>&gt;</span>
+            <span class="hljs-comment">&lt;!-- Site footer --&gt;</span>
+            <span class="hljs-tag">&lt;
+              <span class="hljs-title">footer</span>
+              <span class="hljs-attribute">class</span>=
+              <span class="hljs-value">"footer"</span>&gt;</span>
+            <span class="hljs-tag">&lt;
+              <span class="hljs-title">p</span>&gt;</span>&amp;copy; Company 2014
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">footer</span>&gt;</span>
 
-    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span> <span class="hljs-comment">&lt;!-- /container --&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-comment">&lt;!-- /container --&gt;</span>
 
 
-    <span class="hljs-comment">&lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"../../assets/js/ie10-viewport-bug-workaround.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span></code></pre>
+            <span class="hljs-comment">&lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;</span>
+            <span class="hljs-tag">&lt;
+              <span class="hljs-title">script</span>
+              <span class="hljs-attribute">src</span>=
+              <span class="hljs-value">"../../assets/js/ie10-viewport-bug-workaround.js"</span>&gt;</span>
+            <span class="undefined"></span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">script</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">body</span>&gt;</span>
+            <span class="hljs-tag">&lt;/
+              <span class="hljs-title">html</span>&gt;</span>
+        </code>
+      </pre>
     </div>
   </div>
 
 
   <div id="jump">
     <h2><a href="#settings">Jump back up</a>
-        </h2>
+    </h2>
   </div>
   <div id="postdownload">
     <div id="close">×</div>
-    <p>if (<a target="_blank" href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+http%3A%2F%2Flarsen.work%2Fmonoid%2F">tweeted</a> || <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://larsenwork.github.io/monoid/">facebooked</a>) {
+    <p>if (<a target="_blank" href="https://twitter.com/intent/tweet?text=Monoid+Open+Source+Coding+Font+http%3A%2F%2Flarsen.work%2Fmonoid%2F">tweeted</a> || <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://larsenwork.github.io/monoid/">facebooked</a>)
+      {
       <br>&nbsp;&nbsp;gratitude += 1;
       <br>}
       <br>if (<a target="_blank" href="https://github.com/larsenwork/monoid">githubStarred</a>) {
@@ -987,14 +1512,14 @@ option.permutations = [[]]
   <!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>-->
   <!--    <script src="js/highlight.pack.js"></script>-->
   <script>
-    $(function () {
+    $(function() {
       //hljs.initHighlightingOnLoad();
 
       function vente() {
         $("body").removeClass("safari")
       }
 
-      $("#dloptions").one("mouseenter touch", function () {
+      $("#dloptions").one("mouseenter touch", function() {
         if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
           $("body").addClass("safari")
           setTimeout(vente, 4000);
@@ -1016,13 +1541,13 @@ option.permutations = [[]]
         sel.addRange(range);
       }
 
-      $("#txt").focusout(function () {
+      $("#txt").focusout(function() {
         var element = $(this);
         if (!element.text().replace(" ", "").length) {
           element.empty();
         }
       });
-      $("#txt").keydown(function (objEvent) {
+      $("#txt").keydown(function(objEvent) {
         if (objEvent.keyCode == 9) { //tab pressed
           objEvent.preventDefault(); // stops its action
           insertTextAtCursor('\t'); // insert tab
@@ -1099,13 +1624,13 @@ option.permutations = [[]]
         FontFeature = FontFeature.substring(0, FontFeature.length - 2);
         $('body').css("font-feature-settings", FontFeature);
       };
-      $('#tight, #halftight, #normal, #halfloose, #loose, #xsmall, #small, #medium, #large, #xlarge, #ss10, #ss11, #ss12, #ss13, #ss14, #ss15').change(function () {
+      $('#tight, #halftight, #normal, #halfloose, #loose, #xsmall, #small, #medium, #large, #xlarge, #ss10, #ss11, #ss12, #ss13, #ss14, #ss15').change(function() {
         refreshFeatures();
       });
 
-      $('#download').on("click touch", function (e) {
+      $('#download').on("click touch", function(e) {
         e.preventDefault();
-        $('body').addClass('downloaded').delay(10).queue(function (next) {
+        $('body').addClass('downloaded').delay(10).queue(function(next) {
           window.location.href = FontName;
           next();
           return false;
@@ -1113,77 +1638,77 @@ option.permutations = [[]]
       });
 
       // THIS IS UGLY AND SHOULD BE FIXED...but it works...
-      $("#122").on("click touch", function () {
+      $("#122").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "12px");
       });
-      $("#132").on("click touch", function () {
+      $("#132").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "13px");
       });
-      $("#142").on("click touch", function () {
+      $("#142").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "14px");
       });
-      $("#152").on("click touch", function () {
+      $("#152").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "15px");
       });
-      $("#162").on("click touch", function () {
+      $("#162").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "16px");
       });
-      $("#172").on("click touch", function () {
+      $("#172").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "17px");
       });
-      $("#182").on("click touch", function () {
+      $("#182").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "18px");
       });
-      $("#192").on("click touch", function () {
+      $("#192").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "19px");
       });
-      $("#202").on("click touch", function () {
+      $("#202").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "20px");
       });
-      $("#212").on("click touch", function () {
+      $("#212").on("click touch", function() {
         $(".clickme2").removeClass('active');
         $(this).addClass('active');
         $('.code').css("font-size", "21px");
       });
-      $("#light").on("click touch", function () {
+      $("#light").on("click touch", function() {
         $("body").removeClass('dark white black');
         $("#themechooser span").removeClass('active');
         $(this).addClass('active');
       });
-      $("#dark").on("click touch", function () {
+      $("#dark").on("click touch", function() {
         $("body").removeClass('dark white black').addClass('dark');
         $("#themechooser span").removeClass('active');
         $(this).addClass('active');
       });
-      $("#white").on("click touch", function () {
+      $("#white").on("click touch", function() {
         $("body").removeClass('dark white black').addClass('white');
         $("#themechooser span").removeClass('active');
         $(this).addClass('active');
       });
-      $("#black").on("click touch", function () {
+      $("#black").on("click touch", function() {
         $("body").removeClass('dark white black').addClass('black');
         $("#themechooser span").removeClass('active');
         $(this).addClass('active');
       });
-      $('.tabs span').click(function () {
+      $('.tabs span').click(function() {
         var tab_id = $(this).attr('data-tab');
 
         $('.tabs span').removeClass('active');
@@ -1192,17 +1717,17 @@ option.permutations = [[]]
         $(this).addClass('active');
         $("#" + tab_id).addClass('current');
       });
-      $('#jump').on("click touch", function (a) {
+      $('#jump').on("click touch", function(a) {
         a.preventDefault();
         $('html, body').animate({}, 500);
       });
 
-      $('#close').on("click touch", function () {
+      $('#close').on("click touch", function() {
         $('body').removeClass('downloaded');
       });
 
     });
-    $(window).bind("load", function () {
+    $(window).bind("load", function() {
       $('body').addClass('loaded');
     });
   </script>
