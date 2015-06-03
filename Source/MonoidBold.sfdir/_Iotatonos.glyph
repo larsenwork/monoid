@@ -1,0 +1,30 @@
+StartChar: Iotatonos
+Encoding: 906 906 571
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1131 307 1288 120<256 512 640 896>
+VStem: -106 281 512 128<120 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1408 m 1xb8
+ 896 1288 l 1
+ 640 1288 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1288 l 1
+ 256 1288 l 1
+ 256 1408 l 1
+ 896 1408 l 1xb8
+EndSplineSet
+Refer: 565 900 S 1 0 0 1 -610 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

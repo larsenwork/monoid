@@ -1,0 +1,313 @@
+SplineFontDB: 3.0
+FontName: Monoid-Normal
+FullName: Monoid Normal
+FamilyName: Monoid
+Weight: Normal
+Copyright: Copyright (c) 2015, @andreaslarsendk
+UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
+Version: 0.30
+ItalicAngle: 0
+UnderlinePosition: -384
+UnderlineWidth: 120
+Ascent: 1408
+Descent: 384
+InvalidEm: 0
+LayerCount: 5
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 0 "Back 2" 1
+Layer: 3 0 "Back 3" 1
+Layer: 4 0 "Back 4" 1
+XUID: [1021 365 -928128380 13773435]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1427918972
+ModificationTime: 1432928823
+PfmFamily: 49
+TTFWeight: 300
+TTFWidth: 4
+LineGap: 0
+VLineGap: 184
+OS2TypoAscent: 1536
+OS2TypoAOffset: 0
+OS2TypoDescent: -512
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1536
+OS2WinAOffset: 0
+OS2WinDescent: 512
+OS2WinDOffset: 0
+HheadAscent: 1536
+HheadAOffset: 0
+HheadDescent: -512
+HheadDOffset: 0
+OS2CapHeight: 0
+OS2XHeight: 0
+OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 8" { "'ss01' Style Set 1 lookup 8-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 lookup 9" { "'ss02' Style Set 2 lookup 9-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Style Set 3 lookup 10" { "'ss03' Style Set 3 lookup 10-1"  } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss15' Style Set 15 lookup 8" { "'ss15' Style Set 15 lookup 8-1"  } ['ss15' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss10' Style Set 10 lookup 2" { "'ss10' Style Set 10 lookup 2-1"  } ['ss10' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss11' Style Set 11 lookup 3" { "'ss11' Style Set 11 lookup 3-1"  } ['ss11' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss12' Style Set 12 lookup 4" { "'ss12' Style Set 12 lookup 4-1"  } ['ss12' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss13' Style Set 13 lookup 5" { "'ss13' Style Set 13 lookup 5-1"  } ['ss13' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss14' Style Set 14 lookup 6" { "'ss14' Style Set 14 lookup 6-1"  } ['ss14' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures" { "'liga' Standard Ligatures 1"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures" { "'dlig' Discretionary Ligatures 2"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "The MIT License (MIT)+AAoACgAA-Copyright (c) 2015, @andreaslarsendk+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of this software and associated documentation files (the +ACIA-Software+ACIA), to deal+AAoA-in the Software without restriction, including without limitation the rights+AAoA-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell+AAoA-copies of the Software, and to permit persons to whom the Software is+AAoA-furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all+AAoA-copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR+AAoA-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE+AAoA-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER+AAoA-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,+AAoA-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE+AAoA-SOFTWARE."
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 14 11
+BeginPrivate: 0
+EndPrivate
+Grid
+57.9166666667 2304 m 0
+ 57.9166666667 -1280 l 1024
+-1920 -384 m 0
+ 4224 -384 l 1024
+  Spiro
+    -1920 -384 {
+    4224 -384 o
+    0 0 z
+  EndSpiro
+-1920 -256 m 0
+ 4224 -256 l 1024
+  Spiro
+    -1920 -256 {
+    4224 -256 o
+    0 0 z
+  EndSpiro
+-1920 -128 m 0
+ 4224 -128 l 1024
+  Spiro
+    -1920 -128 {
+    4224 -128 o
+    0 0 z
+  EndSpiro
+-1920 1364 m 0
+ 4224 1364 l 1024
+  Spiro
+    -1920 1364 {
+    4224 1364 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 128 m 0
+ 4224 128 l 1024
+  Spiro
+    -1920 128 {
+    4224 128 o
+    0 0 z
+  EndSpiro
+-1920 256 m 0
+ 4224 256 l 1024
+  Spiro
+    -1920 256 {
+    4224 256 o
+    0 0 z
+  EndSpiro
+-1920 384 m 0
+ 4224 384 l 1024
+  Spiro
+    -1920 384 {
+    4224 384 o
+    0 0 z
+  EndSpiro
+-1920 1408 m 0
+ 4224 1408 l 1024
+  Spiro
+    -1920 1408 {
+    4224 1408 o
+    0 0 z
+  EndSpiro
+-1920 1280 m 0
+ 4224 1280 l 1024
+  Spiro
+    -1920 1280 {
+    4224 1280 o
+    0 0 z
+  EndSpiro
+-1920 1152 m 0
+ 4224 1152 l 1024
+  Spiro
+    -1920 1152 {
+    4224 1152 o
+    0 0 z
+  EndSpiro
+-1920 896 m 0
+ 4224 896 l 1024
+  Spiro
+    -1920 896 {
+    4224 896 o
+    0 0 z
+  EndSpiro
+-1920 768 m 0
+ 4224 768 l 1024
+  Spiro
+    -1920 768 {
+    4224 768 o
+    0 0 z
+  EndSpiro
+-1920 640 m 0
+ 4224 640 l 1024
+  Spiro
+    -1920 640 {
+    4224 640 o
+    0 0 z
+  EndSpiro
+-1920 512 m 0
+ 4224 512 l 1024
+  Spiro
+    -1920 512 {
+    4224 512 o
+    0 0 z
+  EndSpiro
+  Named: ".5x"
+-1920 -340 m 0
+ 4224 -340 l 1024
+  Spiro
+    -1920 -340 {
+    4224 -340 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 980 m 0
+ 4224 980 l 1024
+  Spiro
+    -1920 980 {
+    4224 980 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 44 m 0
+ 4224 44 l 1024
+  Spiro
+    -1920 44 {
+    4224 44 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 1024 m 0
+ 4224 1024 l 1024
+  Spiro
+    -1920 1024 {
+    4224 1024 o
+    0 0 z
+  EndSpiro
+  Named: "x"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+128 2688 m 0
+ 128 -1408 l 1024
+  Spiro
+    128 2688 {
+    128 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+EndSplineSet
+TeXData: 1 0 0 599186 299593 199728 599186 1048576 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+EndSplineFont

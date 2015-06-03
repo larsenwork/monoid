@@ -14,12 +14,13 @@ SplineSet
  896 768 l 5
  768 768 l 5
  768 1408 l 5
-384 1408 m 5
- 512 1408 l 5
- 512 768 l 5
- 384 768 l 5
- 384 1408 l 5
+384 1408 m 1
+ 512 1408 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 384 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
