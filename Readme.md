@@ -3,13 +3,14 @@
         <td colspan="5"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://larsen.work/monoid/" target="_blank">Website</a></td>
+        <td><a href="http://larsen.work/monoid/" target="_blank">larsen.work/monoid</a></td>
         <td><a href="#font_log">Font Log</a></td>
         <td><a href="#guidelines">Guidelines</a></td>
         <td><a href="#license">License</a></td>
     </tr>
 </table>
 
+Select glyphs before downloading on <a href="http://larsen.work/monoid/" target="_blank">larsen.work/monoid</a>.
 ##Contributors
 <table>
     <tr>
@@ -77,6 +78,7 @@
     </tr>
 , wider apertures
 </table>
+
 
 
 <a name="guidelines"></a>
