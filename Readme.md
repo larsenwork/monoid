@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td colspan="5"><img width="700" height="185" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="5"><img width="700" height="367" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
         <td><a href="http://andreaslarsen.github.io/monoid/" target="_blank">Website</a></td>
@@ -85,9 +85,12 @@ Follow the [GitHub guide for contributing](https://guides.github.com/activities/
 Remember to update the Font Log when you make contributions.
 
 <a name="license"></a>
-##The MIT License (MIT)
+##License
+Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 
-Copyright (c) 2015, Andreas Larsen (@larsenwork)
+####The MIT License (MIT)
+
+Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -106,3 +109,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+####SIL OPEN FONT LICENSE
+Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is available with a FAQ at: http://scripts.sil.org/OFL
