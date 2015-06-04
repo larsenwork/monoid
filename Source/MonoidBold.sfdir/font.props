@@ -1,11 +1,11 @@
 SplineFontDB: 3.0
-FontName: Monoid-Normal
-FullName: Monoid Normal
+FontName: Monoid-Bold
+FullName: Monoid Bold
 FamilyName: Monoid
-Weight: Normal
-Copyright: Copyright (c) 2015, @andreaslarsendk
+Weight: Bold
+Copyright: Copyright (c) 2015, @larsenwork
 UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
-Version: 0.30
+Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -24,9 +24,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1432928823
+ModificationTime: 1433366721
 PfmFamily: 49
-TTFWeight: 300
+TTFWeight: 700
 TTFWidth: 4
 LineGap: 0
 VLineGap: 184

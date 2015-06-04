@@ -2,7 +2,7 @@ StartChar: exclam
 Encoding: 33 33 56
 Width: 1024
 VWidth: 0
-Flags: MW
+Flags: W
 HStem: -16 288<474.535 677.465> 1388 20G<502 650>
 VStem: 512 128<512 1408>
 LayerCount: 5

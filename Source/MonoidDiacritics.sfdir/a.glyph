@@ -2,7 +2,7 @@ StartChar: a
 Encoding: 97 97 2
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -16 120<416.403 660.71> 0 21G<768 896> 512 110<418.102 768> 920 120<324.118 738.851>
 VStem: 224 128<169.682 443.733> 768 128<0 123 195.803 512 622 892.213>
 AnchorPoint: "bottom" 832 0 basechar 0

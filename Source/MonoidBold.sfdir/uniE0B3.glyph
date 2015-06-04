@@ -3,6 +3,7 @@ Encoding: 57523 57523 620
 Width: 1024
 VWidth: 2048
 Flags: W
+DStem2: 313 512 128 512 0.666225 -0.74575<0 1102.18> 128 512 313 512 0.666225 0.74575<123.252 1225.43>
 LayerCount: 5
 Back
 Fore
@@ -15,6 +16,7 @@ SplineSet
  949 1431 l 5
  1045 1336 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

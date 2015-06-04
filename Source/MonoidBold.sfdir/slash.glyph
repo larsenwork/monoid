@@ -2,7 +2,7 @@ StartChar: slash
 Encoding: 47 47 69
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 5
 Back
 Fore

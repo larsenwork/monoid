@@ -2,7 +2,7 @@ StartChar: less
 Encoding: 60 60 82
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 5
 Back
 Fore
