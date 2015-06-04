@@ -355,6 +355,7 @@ label,
 
 .button .icon {
   font-size: 2em;
+  margin-right: 0.5em;
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px)
