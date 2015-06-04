@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td colspan="5"><img width="700" height="367" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="5"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
         <td><a href="http://andreaslarsen.github.io/monoid/" target="_blank">Website</a></td>
