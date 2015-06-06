@@ -1,5 +1,6 @@
 StartChar: i
 Encoding: 105 105 9
+GlifName: i
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,5 +31,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss02' Style Set 2 lookup 9-1" i.alt
+Substitution2: "'ss02' Style Set 2 lookup 51 subtable" i.alt
 EndChar

@@ -1,5 +1,6 @@
 StartChar: t
 Encoding: 116 116 20
+GlifName: t
 Width: 1024
 VWidth: 0
 Flags: W
@@ -33,4 +34,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 49 subtable" larsenwork
 EndChar

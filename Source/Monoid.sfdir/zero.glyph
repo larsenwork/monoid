@@ -1,5 +1,6 @@
 StartChar: zero
 Encoding: 48 48 70
+GlifName: zero
 Width: 1024
 VWidth: 0
 Flags: W
@@ -243,5 +244,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss10' Style Set 10 lookup 2-1" zero.alt
+Substitution2: "'ss10' Style Set 10 lookup 53 subtable" zero.alt
 EndChar

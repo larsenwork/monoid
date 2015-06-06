@@ -1,0 +1,28 @@
+StartChar: NameMe.1114128
+Encoding: 1114129 -1 641
+GlifName: N_ameM_e.1114128
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 644 120<-329 639>
+LayerCount: 5
+Back
+Fore
+SplineSet
+-329 764 m 5
+ 639 764 l 5
+ 639 644 l 5
+ -329 644 l 5
+ -1 335 l 5
+ -1 155 l 5
+ -512 656 l 5
+ -512 752 l 5
+ -1 1253 l 5
+ -1 1073 l 5
+ -329 764 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,145 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
+feature liga {
+  sub a c e b o o k I c o n by facebook;
+  sub t w i t t e r I c o n by twitter;
+  sub o w n l o a d I c o n by download;
+  sub i t h u b I c o n by github;
+} liga;
+
+feature calt {
+
+#
+  sub hyphen' hyphen exclam greater by larsenwork5;
+  sub larsenwork5 hyphen' exclam greater by larsenwork5;
+  sub larsenwork5 larsenwork5 exclam' greater by larsenwork5;
+  sub larsenwork5 larsenwork5 larsenwork5 greater' by commentend;
+
+#
+  sub hyphen' hyphen greater by larsenwork;
+  sub larsenwork hyphen' greater by larsenwork;
+  sub larsenwork larsenwork greater' by ligaarrowrightlong;
+
+#
+  sub less' hyphen hyphen by larsenwork;
+  sub larsenwork hyphen' hyphen by larsenwork;
+  sub larsenwork larsenwork hyphen' by ligaarrowleftlong;
+
+#
+  sub hyphen' greater greater by larsenwork1;
+  sub larsenwork1 greater' greater by larsenwork1;
+  sub larsenwork1 larsenwork1 greater' by ligaarrowrighttwoheads;
+
+#
+  sub less' less hyphen by larsenwork1;
+  sub larsenwork1 less' hyphen by larsenwork1;
+  sub larsenwork1 larsenwork1 hyphen' by ligaarrowlefttwoheads;
+
+#
+  sub hyphen' greater by larsenwork;
+  sub larsenwork greater' by ligaarrowright;
+
+#
+  sub less' hyphen by larsenwork;
+  sub larsenwork hyphen' by ligaarrowleft;
+
+#
+  sub exclam' equal by larsenwork2;
+  sub larsenwork2 equal' by notequalliga;
+
+#
+  sub larsenwork2 notequalliga equal' by equalshift;
+
+#
+  sub less' equal by larsenwork3;
+  sub larsenwork3 equal' by lessequalliga;
+
+#
+  sub greater' equal by larsenwork4;
+  sub larsenwork4 equal' by greaterequalliga;
+
+#
+  sub equal' equal by equalmore;
+  sub equalmore equal' by equalmore;
+
+#
+  sub m' m by mm;
+  sub mm m' by larsenwork;
+
+#
+  sub ampersand' ampersand by ampamp;
+  sub ampamp ampersand' by larsenwork6;
+
+#
+  sub bar' bar by bar1;
+  sub bar1 bar' by bar2;
+
+#
+  sub period' period period by period3l;
+  sub period3l period' period by period3m;
+  sub period3l period3m period' by period3r;
+
+#
+  sub period' period by period2l;
+  sub period2l period' by period2r;
+
+#
+  sub greater' greater by greater1;
+  sub greater1 greater' by greater2;
+
+#
+  sub less' less by less1;
+  sub less1 less' by less2;
+
+#
+  sub d' download by larsenwork;
+  sub g' github by larsenwork;
+  sub f' facebook by larsenwork;
+  sub t' twitter by larsenwork;
+
+} calt;
+
+feature ss01 {
+  sub w by w.alt;
+  sub W by W.alt;
+} ss01;
+
+feature ss02 {
+  sub i by i.alt;
+  sub j by j.alt;
+} ss02;
+
+feature ss03 {
+  sub r by r.alt;
+} ss03;
+
+feature ss10 {
+  sub zero by zero.alt;
+} ss10;
+
+feature ss11 {
+  sub one by one.alt;
+} ss11;
+
+feature ss12 {
+  sub three by three.alt;
+} ss12;
+
+feature ss13 {
+  sub l by l.alt;
+} ss13;
+
+feature ss14 {
+  sub dollar by dollar.alt;
+} ss14;
+
+feature ss15 {
+  sub asterisk by asterisk.alt;
+} ss15;
+
+feature ss16 {
+  sub s by s.alt;
+} ss16;

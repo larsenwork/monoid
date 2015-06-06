@@ -1,5 +1,6 @@
 StartChar: greater
 Encoding: 62 62 84
+GlifName: greater
 Width: 1024
 VWidth: 0
 Flags: W
@@ -21,4 +22,12 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 43 subtable" greater2
+Substitution2: "Single Substitution lookup 42 subtable" greater1
+Substitution2: "Single Substitution lookup 27 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 19 subtable" ligaarrowright
+Substitution2: "Single Substitution lookup 14 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 13 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 8 subtable" ligaarrowrightlong
+Substitution2: "Single Substitution lookup 5 subtable" commentend
 EndChar

@@ -1,5 +1,6 @@
 StartChar: l
 Encoding: 108 108 12
+GlifName: l
 Width: 1024
 VWidth: 0
 Flags: W
@@ -52,5 +53,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss13' Style Set 13 lookup 5-1" l.alt
+Substitution2: "'ss13' Style Set 13 lookup 56 subtable" l.alt
 EndChar

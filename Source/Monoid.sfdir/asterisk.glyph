@@ -1,5 +1,6 @@
 StartChar: asterisk
 Encoding: 42 42 65
+GlifName: asterisk
 Width: 1024
 VWidth: 0
 Flags: W
@@ -94,5 +95,5 @@ SplineSet
  640 601 l 1
  640 551 l 1
 EndSplineSet
-Substitution2: "'ss15' Style Set 15 lookup 8-1" asterisk.alt
+Substitution2: "'ss15' Style Set 15 lookup 58 subtable" asterisk.alt
 EndChar

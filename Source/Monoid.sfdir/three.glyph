@@ -1,5 +1,6 @@
 StartChar: three
 Encoding: 51 51 73
+GlifName: three
 Width: 1024
 VWidth: 0
 Flags: W
@@ -170,5 +171,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss12' Style Set 12 lookup 4-1" three.alt
+Substitution2: "'ss12' Style Set 12 lookup 55 subtable" three.alt
 EndChar

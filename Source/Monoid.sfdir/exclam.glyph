@@ -1,5 +1,6 @@
 StartChar: exclam
 Encoding: 33 33 56
+GlifName: exclam
 Width: 1024
 VWidth: 0
 Flags: W
@@ -24,4 +25,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 22 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 4 subtable" larsenwork5
 EndChar

@@ -1,5 +1,6 @@
 StartChar: mm
-Encoding: 57357 57357 608
+Encoding: 1114134 -1 646
+GlifName: mm
 Width: 1024
 VWidth: 0
 Flags: W
@@ -58,5 +59,4 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Ligature2: "'dlig' Discretionary Ligatures 2" m m
 EndChar

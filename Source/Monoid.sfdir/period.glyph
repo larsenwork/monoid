@@ -1,5 +1,6 @@
 StartChar: period
 Encoding: 46 46 68
+GlifName: period
 Width: 1024
 VWidth: 0
 Flags: W
@@ -19,4 +20,9 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 41 subtable" period2r
+Substitution2: "Single Substitution lookup 40 subtable" period2l
+Substitution2: "Single Substitution lookup 39 subtable" period3r
+Substitution2: "Single Substitution lookup 38 subtable" period3m
+Substitution2: "Single Substitution lookup 37 subtable" period3l
 EndChar

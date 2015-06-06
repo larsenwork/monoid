@@ -1,5 +1,6 @@
 StartChar: g
 Encoding: 103 103 7
+GlifName: g
 Width: 1024
 VWidth: 0
 Flags: W
@@ -106,4 +107,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "Single Substitution lookup 47 subtable" larsenwork
 EndChar

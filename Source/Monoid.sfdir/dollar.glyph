@@ -1,5 +1,6 @@
 StartChar: dollar
 Encoding: 36 36 59
+GlifName: dollar
 Width: 1024
 VWidth: 0
 Flags: W
@@ -60,5 +61,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 6-1" dollar.alt
+Substitution2: "'ss14' Style Set 14 lookup 57 subtable" dollar.alt
 EndChar

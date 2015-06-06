@@ -1,5 +1,6 @@
 StartChar: w
 Encoding: 119 119 22
+GlifName: w
 Width: 1024
 VWidth: 0
 Flags: W
@@ -38,5 +39,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "'ss01' Style Set 1 lookup 8-1" w.alt
+Substitution2: "'ss01' Style Set 1 lookup 50 subtable" w.alt
 EndChar

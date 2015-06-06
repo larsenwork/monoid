@@ -1,0 +1,23 @@
+StartChar: period3r
+Encoding: 1114140 -1 652
+GlifName: period3
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 288<282.535 485.465>
+VStem: 240 288<26.5349 229.465>
+LayerCount: 5
+Back
+Fore
+SplineSet
+384 272 m 4
+ 469 272 528 213 528 128 c 4
+ 528 43 469 -16 384 -16 c 4
+ 299 -16 240 43 240 128 c 4
+ 240 213 299 272 384 272 c 4
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

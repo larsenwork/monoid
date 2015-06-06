@@ -1,5 +1,6 @@
 StartChar: equal
 Encoding: 61 61 83
+GlifName: equal
 Width: 1024
 VWidth: 0
 Flags: W
@@ -8,19 +9,25 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-128 508 m 1
- 1024 508 l 1
- 1024 388 l 1
- 128 388 l 1
- 128 508 l 1
-128 1020 m 1
- 1024 1020 l 1
- 1024 900 l 1
- 128 900 l 1
- 128 1020 l 1
+128 508 m 5
+ 1024 508 l 5
+ 1024 388 l 5
+ 128 388 l 5
+ 128 508 l 5
+128 1020 m 5
+ 1024 1020 l 5
+ 1024 900 l 5
+ 128 900 l 5
+ 128 1020 l 5
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 30 subtable" equalmore
+Substitution2: "Single Substitution lookup 29 subtable" equalmore
+Substitution2: "Single Substitution lookup 28 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 26 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 24 subtable" equalshift
+Substitution2: "Single Substitution lookup 23 subtable" notequalliga
 EndChar
