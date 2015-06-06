@@ -25,7 +25,7 @@
         <td><b>Version</b></td>
         <td><b>Date</b></td>
         <td><b>Change</b></td>
-        <td><b>Contributor</b></td>
+        <td><b>Author</b></td>
     </tr>
     <tr>
         <td>0.10</td>
@@ -42,8 +42,8 @@
     <tr>
         <td>0.24</td>
         <td>2015.04.06</td>
-        <td>cyrillic</td>
-        <td>Andreas, feedback from <a href="https://github.com/K900">k900</a></td>
+        <td>cyrillic, feedback from <a href="https://github.com/K900">k900</a></td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.27</td>
