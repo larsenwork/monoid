@@ -88,7 +88,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>Wishlist</td>
+        <td>Wish List</td>
         <td>2015.xx.xx</td>
         <td>Download stats, store user config, ...</td>
         <td></td>
