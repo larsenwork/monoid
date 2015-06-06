@@ -20,9 +20,9 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 41 subtable" period2r
-Substitution2: "Single Substitution lookup 40 subtable" period2l
-Substitution2: "Single Substitution lookup 39 subtable" period3r
-Substitution2: "Single Substitution lookup 38 subtable" period3m
-Substitution2: "Single Substitution lookup 37 subtable" period3l
+Substitution2: "Single Substitution lookup 43 subtable" period2r
+Substitution2: "Single Substitution lookup 42 subtable" period2l
+Substitution2: "Single Substitution lookup 41 subtable" dotdotdot
+Substitution2: "Single Substitution lookup 40 subtable" larsenwork
+Substitution2: "Single Substitution lookup 39 subtable" larsenwork
 EndChar

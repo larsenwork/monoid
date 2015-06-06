@@ -3,7 +3,7 @@ Encoding: 383 383 495
 GlifName: longs
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21G<384 512> 776 120<128 384> 1304 120<545.73 893.069>
 VStem: 384 128<0 776 896 1268.8>
 LayerCount: 5
@@ -26,6 +26,7 @@ SplineSet
  512 1222 512 1173 512 1129 c 2
  512 0 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

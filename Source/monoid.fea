@@ -12,95 +12,98 @@ feature liga {
 
 feature calt {
 
-#
+# --!>
   sub hyphen' hyphen exclam greater by larsenwork5;
   sub larsenwork5 hyphen' exclam greater by larsenwork5;
   sub larsenwork5 larsenwork5 exclam' greater by larsenwork5;
   sub larsenwork5 larsenwork5 larsenwork5 greater' by commentend;
 
-#
+# -->
   sub hyphen' hyphen greater by larsenwork;
   sub larsenwork hyphen' greater by larsenwork;
   sub larsenwork larsenwork greater' by ligaarrowrightlong;
 
-#
+# <--
   sub less' hyphen hyphen by larsenwork;
   sub larsenwork hyphen' hyphen by larsenwork;
   sub larsenwork larsenwork hyphen' by ligaarrowleftlong;
 
-#
+# ->>
   sub hyphen' greater greater by larsenwork1;
   sub larsenwork1 greater' greater by larsenwork1;
   sub larsenwork1 larsenwork1 greater' by ligaarrowrighttwoheads;
 
-#
+# <<-
   sub less' less hyphen by larsenwork1;
   sub larsenwork1 less' hyphen by larsenwork1;
   sub larsenwork1 larsenwork1 hyphen' by ligaarrowlefttwoheads;
 
-#
+# ->
   sub hyphen' greater by larsenwork;
   sub larsenwork greater' by ligaarrowright;
 
-#
+# <-
   sub less' hyphen by larsenwork;
   sub larsenwork hyphen' by ligaarrowleft;
 
-#
+# !==
+  sub exclam' equal equal by larsenwork1;
+  sub larsenwork1 equal' equal by larsenwork1;
+  sub larsenwork1 larsenwork1 equal' by notequaltypeliga;
+
+# !=
   sub exclam' equal by larsenwork2;
   sub larsenwork2 equal' by notequalliga;
 
-#
-  sub larsenwork2 notequalliga equal' by equalshift;
-
-#
+# <=
   sub less' equal by larsenwork3;
   sub larsenwork3 equal' by lessequalliga;
 
-#
+# >=
   sub greater' equal by larsenwork4;
   sub larsenwork4 equal' by greaterequalliga;
 
-#
+# ==
   sub equal' equal by equalmore;
   sub equalmore equal' by equalmore;
 
-#
+# mm
   sub m' m by mm;
   sub mm m' by larsenwork;
 
-#
+# &&
   sub ampersand' ampersand by ampamp;
   sub ampamp ampersand' by larsenwork6;
 
-#
+# ||
   sub bar' bar by bar1;
   sub bar1 bar' by bar2;
 
-#
-  sub period' period period by period3l;
-  sub period3l period' period by period3m;
-  sub period3l period3m period' by period3r;
+# ...
+  sub period' period period by larsenwork;
+  sub larsenwork period' period by larsenwork;
+  sub larsenwork larsenwork period' by dotdotdot;
 
-#
+# ..
   sub period' period by period2l;
   sub period2l period' by period2r;
 
-#
+# >>
   sub greater' greater by greater1;
   sub greater1 greater' by greater2;
 
-#
+# <<
   sub less' less by less1;
   sub less1 less' by less2;
 
-#
+# social
   sub d' download by larsenwork;
   sub g' github by larsenwork;
   sub f' facebook by larsenwork;
   sub t' twitter by larsenwork;
 
 } calt;
+
 
 feature ss01 {
   sub w by w.alt;
