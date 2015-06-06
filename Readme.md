@@ -10,7 +10,6 @@
     </tr>
 </table>
 
-Select glyphs before downloading on <a href="http://larsen.work/monoid/" target="_blank">larsen.work/monoid</a>.
 ##Contributors
 <table>
     <tr>
@@ -76,7 +75,24 @@ Select glyphs before downloading on <a href="http://larsen.work/monoid/" target=
         <td>Alt s, smoother curves + bigger apertures</td>
         <td>Andreas</td>
     </tr>
-, wider apertures
+    <tr>
+        <td>0.35</td>
+        <td>2015.xx.xx</td>
+        <td>Ligatures</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0.4</td>
+        <td>2015.xx.xx</td>
+        <td>Bold version (basic letters)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Wishlist</td>
+        <td>2015.xx.xx</td>
+        <td>Download stats, store user config, ...</td>
+        <td></td>
+    </tr>
 </table>
 
 
