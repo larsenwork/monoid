@@ -2,7 +2,7 @@ StartChar: B
 Encoding: 66 66 30
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 146<286 743.095> 635 146<286 654.859> 1262 146<286 654.859>
 VStem: 128 158<146 635 781 1262> 754 158<879.321 1162.42> 842 158<244.529 536.975>
 LayerCount: 5
@@ -65,6 +65,7 @@ SplineSet
  647 634 596 635 521 635 c 2
  286 635 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 636 640 m 0

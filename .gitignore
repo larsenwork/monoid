@@ -4,3 +4,5 @@ __pycache__/
 
 # Wercker
 _release/
+
+.DS_Store

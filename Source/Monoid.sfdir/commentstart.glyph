@@ -1,0 +1,36 @@
+StartChar: commentstart
+Encoding: 1114146 -1 658
+GlifName: commentend
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-1537 -1409> 644 120<-2377 -1537 -1409 639> 1388 20G<-1537 -1409>
+VStem: -1537 128<0 644 764 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+-2377 764 m 1
+ -1537 764 l 1
+ -1537 1408 l 1
+ -1409 1408 l 1
+ -1409 764 l 1
+ 639 764 l 1
+ 639 644 l 1
+ -1409 644 l 1
+ -1409 0 l 1
+ -1537 0 l 1
+ -1537 644 l 1
+ -2377 644 l 1
+ -2049 335 l 1
+ -2049 155 l 1
+ -2560 656 l 1
+ -2560 752 l 1
+ -2049 1253 l 1
+ -2049 1073 l 1
+ -2377 764 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

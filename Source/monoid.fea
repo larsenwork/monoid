@@ -12,11 +12,11 @@ feature liga {
 
 feature calt {
 
-# --!>
-  sub hyphen' hyphen exclam greater by larsenwork5;
-  sub larsenwork5 hyphen' exclam greater by larsenwork5;
-  sub larsenwork5 larsenwork5 exclam' greater by larsenwork5;
-  sub larsenwork5 larsenwork5 larsenwork5 greater' by commentend;
+# <!--
+  sub less' exclam hyphen hyphen by larsenwork5;
+  sub larsenwork5 exclam' hyphen hyphen by larsenwork5;
+  sub larsenwork5 larsenwork5 hyphen' hyphen by larsenwork5;
+  sub larsenwork5 larsenwork5 larsenwork5 hyphen' by commentstart;
 
 # -->
   sub hyphen' hyphen greater by larsenwork;

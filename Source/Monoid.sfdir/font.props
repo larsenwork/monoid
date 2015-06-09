@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1433626302
+ModificationTime: 1433796697
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -433,30 +433,30 @@ ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 4" 0 0 0 1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 3" 0 0 0 1
- String: 7 greater
+ String: 6 hyphen
  BString: 35 larsenwork5 larsenwork5 larsenwork5
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 5"
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 2" 0 0 0 1
- String: 6 exclam
+ String: 6 hyphen
  BString: 23 larsenwork5 larsenwork5
- FString: 7 greater
+ FString: 6 hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 4"
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 1" 0 0 0 1
- String: 6 hyphen
+ String: 6 exclam
  BString: 11 larsenwork5
- FString: 14 exclam greater
+ FString: 13 hyphen hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 0" 0 0 0 1
- String: 6 hyphen
+ String: 4 less
  BString: 0 
- FString: 21 hyphen exclam greater
+ FString: 20 exclam hyphen hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 2"
 EndFPST

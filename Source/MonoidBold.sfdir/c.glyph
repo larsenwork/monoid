@@ -2,9 +2,9 @@ StartChar: c
 Encoding: 99 99 3
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: -16 146<485.127 891.345> 894 146<480.986 871.765>
-VStem: 224 158<245.329 781.497>
+Flags: W
+HStem: -16 146<467.729 891.345> 894 146<471.879 871.765>
+VStem: 224 158<223.336 800.004>
 LayerCount: 5
 Back
 Fore
@@ -25,6 +25,7 @@ SplineSet
  418 -16 318 78 267 193 c 4
  226 286 224 391 224 512 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

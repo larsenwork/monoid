@@ -2,20 +2,19 @@ StartChar: greater
 Encoding: 62 62 84
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 355 m 1
- 751 699 l 1
- 751 709 l 1
- 256 1053 l 1
- 256 1203 l 1
- 895 752 l 1
- 895 656 l 1
- 256 205 l 1
- 256 355 l 1
+256 373.815429688 m 5
+ 720.662109375 704 l 5
+ 256 1034.18457031 l 5
+ 256 1218.57910156 l 5
+ 896 759.254882812 l 5
+ 896 648.745117188 l 5
+ 256 189.420898438 l 5
+ 256 373.815429688 l 5
 EndSplineSet
 Layer: 2
 Layer: 3

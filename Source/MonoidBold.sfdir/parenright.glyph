@@ -2,8 +2,8 @@ StartChar: parenright
 Encoding: 41 41 64
 Width: 1024
 VWidth: 0
-Flags: HW
-VStem: 664 128<413.687 993.133>
+Flags: W
+VStem: 634 158<420.552 986.254>
 LayerCount: 5
 Back
 SplineSet
@@ -25,6 +25,7 @@ SplineSet
  792 402 679 103 486 -128 c 5
  298 -128 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
