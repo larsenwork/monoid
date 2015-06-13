@@ -1118,15 +1118,10 @@ option.permutations = [[]]
         FontFeature = FontFeature.substring(0, FontFeature.length - 2);
         $('body').css("font-feature-settings", FontFeature);
       };
-// Need to refresh on load because of Garlic
-      refreshFeatures();
-
-      $('#tight, #halftight, #normal, #halfloose, #loose, #xsmall, #small, #medium, #large, #xlarge, #ss10, #ss11, #ss12, #ss13, #ss14, #ss15, #ss16').change(function() {
-        refreshFeatures();
-      });
 
       $('#download').on("click touch", function(e) {
         e.preventDefault();
+        refreshFeatures();
         $('body').addClass('downloaded').delay(10).queue(function(next) {
           window.location.href = FontName;
           next();
