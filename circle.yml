@@ -11,19 +11,33 @@ checkout:
     # Check if there were any changes in the Source directory since the last release
     - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
 dependencies:
+  cache_directories:
+    - /tmp/woff2
   override:
+    - sudo apt-get install g++
     - docker pull colman/py-fontforge
+    - npm install ttf2woff ttf2eot
 test:
   override:
     - git config --global user.email "chase+circleci@colman.io"
     - git config --global user.name "CircleCI Bot"
     - docker run -v `pwd`:/data colman/py-fontforge ./build.py
+    - cp _release/Monoid.ttf /tmp/monoid-normal.ttf
     - git checkout release
     - git rm -f *.ttf.zip
-    - git remote set-url origin "git@github.com:larsenwork/monoid.git"
+    - git remote set-url origin "git@github.com:chase/monoid.git"
     - git clean -fdx || cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
     - git add .
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
-    - git checkout master
+    - git checkout gh-pages
     - git branch -D release
+    - git rm -rf _release
+    - ./node_modules/.bin/ttf2eot /tmp/monoid-normal.ttf /tmp/monoid-normal.eot
+    - ./node_modules/.bin/ttf2woff monoid-normal.ttf > /tmp/monoid-normal.woff
+    - git clone https://github.com/google/woff2.git /tmp/woff2
+    - cd /tmp/woff2 && git submodule init && git submodule update && make all && /tmp/woff2/woff2_compress monoid-normal.ttf
+    - cp /tmp/monoid-normal.* css/
+    - git add css
+    - git commit -m "Update web fonts for ${CIRCLE_SHA1}"
+    - git push origin gh-pages
