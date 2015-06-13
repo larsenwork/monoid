@@ -3,7 +3,7 @@
         <td colspan="4"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://larsenwork.com/monoid/" target="_blank">larsenwork.com/monoid</a></td>
+        <td><a href="http://larsenwork.com/monoid/">larsenwork.com/monoid</a></td>
         <td><a href="#font_log">Font Log</a></td>
         <td><a href="#guidelines">Guidelines</a></td>
         <td><a href="#license">Licenses</a></td>
