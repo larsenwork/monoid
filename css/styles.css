@@ -291,6 +291,7 @@ CONTENT */
 }
 
 .blabla > section > p,
+.blabla > section > form,
 .blabla > section > h2 {
   padding: 0 5px;
 }
