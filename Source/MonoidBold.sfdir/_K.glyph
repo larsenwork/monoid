@@ -2,9 +2,9 @@ StartChar: K
 Encoding: 75 75 39
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: 0 21G<128 286 857.087 1062> 1388 20G<128 286 778.554 969>
-VStem: 128 158<0 563 789 1408>
+Flags: W
+HStem: 0 21G<128 286 857.127 1062> 1388 20G<128 286 778.554 969>
+VStem: 128 158<0 565 789 1408>
 LayerCount: 5
 Back
 SplineSet
@@ -38,6 +38,7 @@ SplineSet
  286 565 l 5
  286 0 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 502 768 m 5

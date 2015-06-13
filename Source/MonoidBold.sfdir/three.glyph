@@ -2,7 +2,9 @@ StartChar: three
 Encoding: 51 51 73
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -16 146<259.975 681.331> 631 146<384 683.324> 1278 146<259.876 670.015>
+VStem: 750 158<852.709 1195.77> 770 158.012<221.516 542.627>
 CounterMasks: 1 e0
 LayerCount: 5
 Back
@@ -31,6 +33,7 @@ SplineSet
  908 899 862.426573427 779 775 713 c 5
  775 703 l 5xf0
 EndSplineSet
+Validated: 524289
 Layer: 2
 SplineSet
 576 1364 m 0
