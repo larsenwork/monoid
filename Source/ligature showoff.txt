@@ -1,0 +1,25 @@
+<!-- This is a html comment -->
+<--  long left arrow
+->>  double arrow right
+<<-  double arrow left
+->   short arrow right
+<-   short arrow left
+!==  not equal type
+!=   not equal
+<=   less than or equal
+>=   greater than or equal
+==   equal type
+&&   and
+||   or
+...  dot dot dot
+..   dot dot
+>>  
+<<
+downloadIcon   download
+githubIcon   github
+facebookIcon   facebook
+twitterIcon   twitter 
+
+
+
+

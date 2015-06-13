@@ -3,7 +3,7 @@
         <td colspan="4"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://larsen.work/monoid/" target="_blank">larsen.work/monoid</a></td>
+        <td><a href="http://larsenwork.com/monoid/" target="_blank">larsenwork.com/monoid</a></td>
         <td><a href="#font_log">Font Log</a></td>
         <td><a href="#guidelines">Guidelines</a></td>
         <td><a href="#license">Licenses</a></td>
@@ -17,7 +17,7 @@
         <td><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><br>Andreas</td>
     </tr>
 </table>
-    
+
 <a name="font_log"></a>
 ##Font Log
 <table>
@@ -148,7 +148,7 @@ with others.
 
 The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded, 
+fonts, including any derivative works, can be bundled, embedded,
 redistributed and/or sold with any software provided that any reserved
 names are not used by derivative works. The fonts and derivatives,
 however, cannot be released under any other type of license. The
