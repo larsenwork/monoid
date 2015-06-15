@@ -3,7 +3,7 @@ Encoding: 1114141 -1 652
 GlifName: greater2
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 5
 Back
 SplineSet
@@ -29,6 +29,7 @@ SplineSet
  163 99 l 5
  92 200 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
