@@ -3,13 +3,12 @@ Encoding: 8209 8209 600
 GlifName: uni2011
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 644 120<256 896>
 LayerCount: 5
 Back
 Fore
 Refer: 96 173 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

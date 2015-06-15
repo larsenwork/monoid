@@ -1,26 +1,25 @@
 StartChar: equalmore
-Encoding: 1114133 -1 645
+Encoding: 1114133 -1 644
 GlifName: equalmore
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 388 120<256 896> 900 120<256 896>
+HStem: 260 120<256 896> 772 120<256 896>
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 508 m 5
- 896 508 l 1
- 896 388 l 1
- 256 388 l 5
- 256 508 l 5
-256 1020 m 5
- 896 1020 l 1
- 896 900 l 1
- 256 900 l 5
- 256 1020 l 5
+256 380 m 5
+ 896 380 l 1
+ 896 260 l 1
+ 256 260 l 5
+ 256 380 l 5
+256 892 m 5
+ 896 892 l 1
+ 896 772 l 1
+ 256 772 l 5
+ 256 892 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

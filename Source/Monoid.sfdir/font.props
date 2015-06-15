@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1434233764
+ModificationTime: 1434366136
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -109,6 +109,7 @@ Lookup: 1 0 0 "'ss13' Style Set 13 lookup 58" { "'ss13' Style Set 13 lookup 58 s
 Lookup: 1 0 0 "'ss14' Style Set 14 lookup 59" { "'ss14' Style Set 14 lookup 59 subtable"  } ['ss14' ('latn' <'dflt' 'ENG ' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss15' Style Set 15 lookup 60" { "'ss15' Style Set 15 lookup 60 subtable"  } ['ss15' ('latn' <'dflt' 'ENG ' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss16' Style Set 16 lookup 61" { "'ss16' Style Set 16 lookup 61 subtable"  } ['ss16' ('latn' <'dflt' 'ENG ' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: glyph "'calt' Contextual Alternates lookup 1 contextual 49" 0 0 0 1
  String: 1 t
@@ -467,7 +468,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 1113628 38 14
 BeginPrivate: 0
 EndPrivate
 Grid

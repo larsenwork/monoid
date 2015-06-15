@@ -1,5 +1,5 @@
 StartChar: less2
-Encoding: 1114143 -1 655
+Encoding: 1114143 -1 654
 GlifName: less2
 Width: 1024
 VWidth: 0
@@ -8,17 +8,16 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-767 355 m 5
- 767 205 l 5
- 128 656 l 5
- 128 752 l 5
- 767 1203 l 5
- 767 1053 l 5
- 272 709 l 5
- 272 699 l 5
- 767 355 l 5
+804 200 m 5
+ 733 99 l 5
+ 128 528 l 5
+ 128 624 l 5
+ 733 1053 l 5
+ 804 952 l 5
+ 273 581 l 5
+ 273 571 l 5
+ 804 200 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
