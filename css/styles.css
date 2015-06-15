@@ -519,6 +519,7 @@ CODE */
 
 #codewrapper {
   overflow-x: hidden;
+  padding: 0 5px;
 }
 
 .code {

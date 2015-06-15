@@ -1119,6 +1119,10 @@ option.permutations = [[]]
         $('body').css("font-feature-settings", FontFeature);
       };
 
+      $('form').on("click touch", function(e) {
+        refreshFeatures();
+      });      
+
       $('#download').on("click touch", function(e) {
         e.preventDefault();
         refreshFeatures();
