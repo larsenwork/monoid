@@ -11,7 +11,7 @@ source = "Source"
 output = "_release"
 
 ## Fonts to modify
-fonts = ['Monoid.sfdir', 'Monoid-Oblique.sfdir']
+fonts = ['Monoid-Oblique.sfdir', 'Monoid.sfdir']
 
 # Options to generate
 conflicting(
