@@ -1,11 +1,10 @@
-StartChar: r.alt
-Encoding: 57354 57354 508
-GlifName: r.alt
+StartChar: r.base
+Encoding: 1114159 -1 661
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 904 120<256 512> 920 120<770.498 1024>
-VStem: 512 128<120 771.371 876 904>
+HStem: 0 120<256 512 640 896> 904 120<256 512> 920 120<766.351 1024>
+VStem: 512 128<120 776.956 876 904>
 LayerCount: 5
 Back
 Fore
@@ -30,7 +29,6 @@ SplineSet
  896 0 l 1
  256 0 l 1xb0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

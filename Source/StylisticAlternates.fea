@@ -1,0 +1,44 @@
+feature ss01 {
+  sub one by one.alt;
+} ss01;
+
+feature ss02 {
+  sub three by three.alt;
+} ss02;
+
+feature ss03 {
+  sub r by r.alt;
+} ss03;
+
+feature ss10 {
+} ss10;
+
+feature ss11 {
+  sub one by one.alt;
+} ss11;
+
+feature ss12 {
+} ss12;
+
+feature ss13 {
+  sub l by l.alt;
+} ss13;
+
+feature ss14 {
+  sub dollar by dollar.alt;
+} ss14;
+
+feature ss15 {
+  sub asterisk by asterisk.alt;
+} ss15;
+
+feature ss16 {
+  sub s by s.alt;
+} ss16;
+
+
+#   sub w by w.alt;
+#   sub W by W.alt;
+#   sub i by i.alt;
+#   sub j by j.alt;
+#   sub zero by zero.alt;

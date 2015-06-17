@@ -30,12 +30,12 @@ conflicting(
     option('large', '17px', Line(1792, 384))
 )
 
-option('1', 'Alt 1', Swap("one", "one.alt"))
-option('3', 'Alt 3', Swap("three", "three.alt"))
-option('l', 'Alt l', Swap("l", "l.alt"))
-option('s', 'Alt s', Swap("s", "s.alt"))
-option('dollar', 'Alt $', Swap("dollar", "dollar.alt"))
-option('asterisk', 'Alt asterisk', Swap("asterisk", "asterisk.alt"))
+option('1', 'Alt 1', Swap("one", "one.base"))
+option('3', 'Alt 3', Swap("three", "three.russian"))
+option('l', 'Alt l', Swap("l", "l.zstyle"))
+option('s', 'Alt s', Swap("s", "s.retina"))
+option('dollar', 'Alt $', Swap("dollar", "dollar.empty"))
+option('asterisk', 'Alt asterisk', Swap("asterisk", "asterisk.multi"))
 
 for font in fonts:
     build(output, source, font)

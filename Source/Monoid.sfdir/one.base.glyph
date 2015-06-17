@@ -1,6 +1,5 @@
-StartChar: one.alt
-Encoding: 57347 57347 501
-GlifName: one.alt
+StartChar: one.base
+Encoding: 1114152 -1 654
 Width: 1024
 VWidth: 0
 Flags: W
@@ -26,7 +25,6 @@ SplineSet
  256 1203 l 1
  532 1408 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

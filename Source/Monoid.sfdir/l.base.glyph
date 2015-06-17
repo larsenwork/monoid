@@ -1,6 +1,5 @@
-StartChar: uniE00C
-Encoding: 57356 57356 606
-GlifName: uniE_00C_
+StartChar: l.base
+Encoding: 1114161 -1 663
 Width: 1024
 VWidth: 0
 Flags: W
@@ -22,7 +21,6 @@ SplineSet
  896 0 l 5
  256 0 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

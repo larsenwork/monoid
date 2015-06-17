@@ -1,6 +1,5 @@
-StartChar: asterisk.alt
-Encoding: 57344 57344 498
-GlifName: asterisk.alt
+StartChar: asterisk.multi
+Encoding: 1114149 -1 651
 Width: 1024
 VWidth: 0
 Flags: W
@@ -34,7 +33,6 @@ SplineSet
  640 699 l 1
  725 640 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

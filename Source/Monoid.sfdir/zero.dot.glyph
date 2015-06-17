@@ -1,11 +1,10 @@
-StartChar: zero.alt
-Encoding: 57345 57345 499
-GlifName: zero.alt
+StartChar: zero.dot
+Encoding: 1114150 -1 652
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -18 124<477.237 674.763> 640 128<512 640> 1302 124<477.237 674.763>
-VStem: 253 124<284.625 1123.37> 512 128<640 768> 775 124<284.625 1123.37>
+HStem: -18 124<472.845 679.155> 640 128<512 640> 1302 124<472.845 679.155>
+VStem: 253 124<264.612 1143.39> 512 128<640 768> 775 124<264.612 1143.39>
 CounterMasks: 1 fc
 LayerCount: 5
 Back
@@ -35,7 +34,6 @@ SplineSet
  775 893 775 1060 748 1144 c 0
  720 1232 666 1302 576 1302 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
