@@ -142,21 +142,6 @@ input {
   -ms-user-select: none;
   user-select: none;
 }
-.ss01 {
-  -webkit-font-feature-settings: "ss01";
-     -moz-font-feature-settings: "ss01";
-          font-feature-settings: "ss01";
-}
-.ss02 {
-  -webkit-font-feature-settings: "ss02";
-     -moz-font-feature-settings: "ss02";
-          font-feature-settings: "ss02";
-}
-.ss03 {
-  -webkit-font-feature-settings: "ss03";
-     -moz-font-feature-settings: "ss03";
-          font-feature-settings: "ss03";
-}
 /*
 
 TYPOGRAPHY */
