@@ -1,0 +1,31 @@
+StartChar: semicolon
+Encoding: 59 59 81
+GlifName: semicolon
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -272 120<178 280.375> 768 256<407 613>
+VStem: 155 508
+LayerCount: 2
+Back
+Fore
+SplineSet
+407 1024 m 5
+ 663 1024 l 5
+ 613 768 l 5
+ 357 768 l 5
+ 407 1024 l 5
+283 384 m 5
+ 539 384 l 5
+ 468 23 l 6
+ 456 -37 444 -107 378 -177 c 4
+ 325 -234 245 -272 155 -272 c 5
+ 178 -152 l 5
+ 225 -152 261 -135 287 -107 c 4
+ 322 -70 330 -27 340 23 c 6
+ 361 128 l 5
+ 233 128 l 5
+ 283 384 l 5
+EndSplineSet
+Validated: 1
+EndChar

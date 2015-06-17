@@ -12,7 +12,7 @@ Fore
 SplineSet
 716 920 m 0xd0
  624 920 552 894 501 847 c 0
- 384 740 384 589 384 475 c 1
+ 384 740 384 589 384 475 c 2
  384 0 l 1
  256 0 l 1
  256 1024 l 1
@@ -99,5 +99,4 @@ SplineSet
  256 0 l 5
  256 1024 l 5
 EndSplineSet
-Substitution2: "'ss03' Style Set 3 lookup 54 subtable" r.alt
 EndChar

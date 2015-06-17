@@ -11,7 +11,7 @@ source = "Source"
 output = "_release"
 
 ## Fonts to modify
-fonts = ['Monoid.sfdir']
+fonts = ['Monoid.sfdir', 'Monoid-Oblique.sfdir']
 
 # Options to generate
 conflicting(
@@ -19,18 +19,17 @@ conflicting(
     style('halfloose', Bearing(right=64)),
 #   style('normal', Bearing(left=0)),
     style('halftight', Bearing(left=-64)),
-    style('tight', Bearing(left=-128)),
+    style('tight', Bearing(left=-128))
 )
 
 conflicting(
-#   option('xsmall', '14px', Line(ascent=1408, descent=384)),
-    option('small', '15px', Line(1408, 512)),
-#   option('medium', '16px', Line(1536, 512)),
-    option('large', '17px', Line(1536, 640)),
-#   option('xlarge', '18px', Line(1792, 640)),
+    option('small', '13px', Line(1536, 128)),
+    option('small', '14px', Line(1536, 256)),
+#   option('medium', 15px', Line(1664, 256)),
+    option('large', '16px', Line(1664, 384)),
+    option('large', '17px', Line(1792, 384))
 )
 
-option('0', 'Alt 0', Swap("zero", "zero.alt"))
 option('1', 'Alt 1', Swap("one", "one.alt"))
 option('3', 'Alt 3', Swap("three", "three.alt"))
 option('l', 'Alt l', Swap("l", "l.alt"))

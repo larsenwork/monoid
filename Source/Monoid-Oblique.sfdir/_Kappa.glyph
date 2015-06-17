@@ -1,0 +1,27 @@
+StartChar: Kappa
+Encoding: 922 922 478
+GlifName: K_appa
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-12 119.871 754.764 922> 1388 20G<258.108 390 943.448 1103>
+LayerCount: 2
+Back
+Fore
+SplineSet
+116 0 m 1
+ -12 0 l 1
+ 262 1408 l 1
+ 390 1408 l 1
+ 256 719 l 1
+ 964 1408 l 1
+ 1103 1408 l 1
+ 499 813 l 1
+ 922 0 l 1
+ 765 0 l 1
+ 396 721 l 1
+ 224 558 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

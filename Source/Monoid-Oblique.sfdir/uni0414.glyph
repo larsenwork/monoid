@@ -1,0 +1,32 @@
+StartChar: uni0414
+Encoding: 1044 1044 323
+GlifName: uni0414
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<-12 11.547 123 651> 1288 120<486.7 878>
+LayerCount: 2
+Back
+Fore
+SplineSet
+123 120 m 1
+ 651 120 l 1
+ 878 1288 l 1
+ 494 1288 l 1
+ 417 898 313 503 123 120 c 1
+-8 120 m 1
+ 204 538 303 958 390 1408 c 1
+ 1030 1408 l 1
+ 779 120 l 1
+ 907 120 l 1
+ 834 -256 l 1
+ 706 -256 l 1
+ 756 0 l 1
+ -12 0 l 1
+ -62 -256 l 1
+ -190 -256 l 1
+ -117 120 l 1
+ -8 120 l 1
+EndSplineSet
+Validated: 1
+EndChar

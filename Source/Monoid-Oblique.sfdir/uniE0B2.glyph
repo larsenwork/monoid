@@ -1,0 +1,18 @@
+StartChar: uniE0B2
+Encoding: 57522 57522 616
+GlifName: uniE_0B_2
+Width: 1024
+VWidth: 2048
+Flags: W
+HStem: 1388 20G<1134.12 1154.1>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1158 1408 m 5
+ 809 -384 l 5
+ 88 512 l 5
+ 1158 1408 l 5
+EndSplineSet
+Validated: 1
+EndChar

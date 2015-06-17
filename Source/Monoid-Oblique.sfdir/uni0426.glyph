@@ -1,0 +1,27 @@
+StartChar: uni0426
+Encoding: 1062 1062 341
+GlifName: uni0426
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 651> 1388 20G<258.108 390 898.102 1030>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-12 0 m 1
+ 262 1408 l 1
+ 390 1408 l 1
+ 139 120 l 1
+ 651 120 l 1
+ 902 1408 l 1
+ 1030 1408 l 1
+ 779 120 l 1
+ 907 120 l 1
+ 834 -256 l 1
+ 706 -256 l 1
+ 756 0 l 1
+ -12 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

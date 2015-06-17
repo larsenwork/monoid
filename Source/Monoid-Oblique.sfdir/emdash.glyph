@@ -1,0 +1,19 @@
+StartChar: emdash
+Encoding: 8212 8212 603
+GlifName: emdash
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 643 120<162 1035>
+LayerCount: 2
+Back
+Fore
+SplineSet
+162 763 m 1
+ 1059 764 l 5
+ 1035 644 l 5
+ 139 643 l 1
+ 162 763 l 1
+EndSplineSet
+Validated: 1
+EndChar

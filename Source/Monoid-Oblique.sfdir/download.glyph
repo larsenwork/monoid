@@ -1,0 +1,32 @@
+StartChar: download
+Encoding: 1114112 -1 624
+GlifName: download
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 512<-680 -474 472 628> 0 256<-474 422> 1387 20G<65.1252 325>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-680 512 m 5xa0
+ -424 512 l 5xa0
+ -474 256 l 5
+ 422 256 l 5x60
+ 472 512 l 5
+ 728 512 l 5
+ 628 0 l 5xa0
+ -780 0 l 5x60
+ -680 512 l 5xa0
+69 1407 m 5
+ 325 1407 l 5
+ 226 896 l 5
+ 546 896 l 5
+ 11 448 l 5
+ -350 896 l 5
+ -30 896 l 5
+ 69 1407 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 10 -140 -140 -140 -140 -140 -140 -140 -140 -140 -140
+EndChar

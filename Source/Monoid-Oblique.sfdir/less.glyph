@@ -1,0 +1,22 @@
+StartChar: less
+Encoding: 60 60 82
+GlifName: less
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+831 200 m 5
+ 740 99 l 5
+ 219 528 l 5
+ 237 624 l 5
+ 926 1053 l 5
+ 977 952 l 5
+ 374 581 l 5
+ 372 571 l 5
+ 831 200 l 5
+EndSplineSet
+Validated: 1
+EndChar

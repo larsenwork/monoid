@@ -1,0 +1,30 @@
+StartChar: asterisk
+Encoding: 42 42 65
+GlifName: asterisk
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1004 20G<413.478 459.675 883.543 929.761>
+LayerCount: 2
+Back
+Fore
+SplineSet
+513 522 m 5
+ 122 402 l 5
+ 102 515 l 5
+ 500 637 l 5
+ 330 957 l 5
+ 449 1024 l 5
+ 615 713 l 5
+ 902 1024 l 5
+ 995 957 l 5
+ 700 637 l 5
+ 1050 515 l 5
+ 986 402 l 5
+ 641 522 l 5
+ 565 128 l 5
+ 437 128 l 5
+ 513 522 l 5
+EndSplineSet
+Validated: 1
+EndChar

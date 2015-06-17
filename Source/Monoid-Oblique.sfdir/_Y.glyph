@@ -1,0 +1,26 @@
+StartChar: Y
+Encoding: 89 89 52
+GlifName: Y_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<372 503.896> 1388 20G<234 391.5 982.5 1186>
+VStem: 234 136<1227.36 1408>
+LayerCount: 2
+Back
+Fore
+SplineSet
+590 741 m 5
+ 767 944 915 1172 1050 1408 c 5
+ 1186 1408 l 5
+ 1026 1132 849 857 620 616 c 5
+ 500 0 l 5
+ 372 0 l 5
+ 492 616 l 5
+ 357 857 286 1132 234 1408 c 5
+ 370 1408 l 5
+ 413 1172 472 943 570 741 c 5
+ 590 741 l 5
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,32 @@
+StartChar: Emacron
+Encoding: 274 274 183
+GlifName: E_macron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<267 884> 516 120<368 856> 1032 120<445 1085> 1416 120<415 1031>
+LayerCount: 2
+Back
+Fore
+SplineSet
+415 1536 m 1
+ 1055 1536 l 1
+ 1031 1416 l 1
+ 391 1416 l 1
+ 415 1536 l 1
+340 1152 m 1
+ 1108 1152 l 1
+ 1085 1032 l 1
+ 445 1032 l 1
+ 368 636 l 1
+ 880 636 l 1
+ 856 516 l 1
+ 344 516 l 1
+ 267 120 l 1
+ 907 120 l 1
+ 884 0 l 1
+ 116 0 l 1
+ 340 1152 l 1
+EndSplineSet
+Validated: 1
+EndChar

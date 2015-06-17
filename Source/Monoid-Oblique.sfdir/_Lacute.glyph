@@ -1,0 +1,26 @@
+StartChar: Lacute
+Encoding: 313 313 278
+GlifName: L_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<267 884>
+LayerCount: 2
+Back
+Fore
+SplineSet
+341 1280 m 1
+ 557 1536 l 1
+ 695 1536 l 1
+ 479 1280 l 1
+ 341 1280 l 1
+116 0 m 1
+ 340 1152 l 1
+ 468 1152 l 1
+ 267 120 l 1
+ 907 120 l 1
+ 884 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

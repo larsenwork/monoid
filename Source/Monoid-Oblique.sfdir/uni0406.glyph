@@ -1,0 +1,27 @@
+StartChar: uni0406
+Encoding: 1030 1030 387
+GlifName: uni0406
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 1288 120<390 622 750 1006>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1030 1408 m 1
+ 1006 1288 l 1
+ 750 1288 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+ 139 120 l 1
+ 395 120 l 1
+ 622 1288 l 1
+ 366 1288 l 1
+ 390 1408 l 1
+ 1030 1408 l 1
+EndSplineSet
+Validated: 1
+EndChar

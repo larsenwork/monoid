@@ -1,0 +1,24 @@
+StartChar: arrowdown
+Encoding: 8595 8595 589
+GlifName: arrowdown
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+558 298 m 5
+ 938 553 l 5
+ 986 449 l 5
+ 495 128 l 5
+ 427 128 l 5
+ 60 449 l 5
+ 148 553 l 5
+ 430 298 l 5
+ 621 1280 l 5
+ 749 1280 l 5
+ 558 298 l 5
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,56 @@
+StartChar: ligaarrowlefttwoheads
+Encoding: 1114125 -1 637
+GlifName: ligaarrowlefttwoheads
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 644 120<-832 624>
+LayerCount: 2
+Back
+SplineSet
+-1481 644 m 5
+ -1153 335 l 5
+ -1153 155 l 5
+ -1664 656 l 5
+ -1664 752 l 5
+ -1153 1253 l 5
+ -1153 1073 l 5
+ -1481 764 l 5
+ -1481 644 l 5
+-969 764 m 5
+ 767 764 l 5
+ 767 644 l 5
+ -969 644 l 5
+ -641 335 l 5
+ -641 155 l 5
+ -1152 656 l 5
+ -1152 752 l 5
+ -641 1253 l 5
+ -641 1073 l 5
+ -969 764 l 5
+EndSplineSet
+Fore
+SplineSet
+-1383 674 m 5
+ -1100 335 l 5
+ -1135 155 l 5
+ -1548 656 l 5
+ -1530 752 l 5
+ -921 1253 l 5
+ -956 1073 l 5
+ -1369 744 l 5
+ -1383 674 l 5
+-832 764 m 5
+ 648 764 l 5
+ 624 644 l 5
+ -856 644 l 5
+ -588 335 l 5
+ -623 155 l 5
+ -1036 656 l 5
+ -1018 752 l 5
+ -409 1253 l 5
+ -444 1073 l 5
+ -832 764 l 5
+EndSplineSet
+Validated: 1
+EndChar

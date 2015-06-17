@@ -1,0 +1,23 @@
+StartChar: Pi
+Encoding: 928 928 474
+GlifName: P_i
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-12 119.882 756 887.892> 1288 120<366 1006>
+LayerCount: 2
+Back
+Fore
+SplineSet
+262 1408 m 1
+ 1158 1408 l 1
+ 884 0 l 1
+ 756 0 l 1
+ 1006 1288 l 1
+ 366 1288 l 1
+ 116 0 l 1
+ -12 0 l 1
+ 262 1408 l 1
+EndSplineSet
+Validated: 1
+EndChar

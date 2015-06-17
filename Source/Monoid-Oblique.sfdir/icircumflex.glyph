@@ -1,0 +1,33 @@
+StartChar: icircumflex
+Encoding: 238 238 145
+GlifName: icircumflex
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 904 120<315 548> 1388 20G<603.891 808.297>
+LayerCount: 2
+Back
+Fore
+SplineSet
+631 1408 m 1
+ 789 1408 l 1
+ 1036 1152 l 1
+ 878 1152 l 1
+ 692 1316 l 1
+ 442 1152 l 1
+ 284 1152 l 1
+ 631 1408 l 1
+116 0 m 1
+ 139 120 l 1
+ 395 120 l 1
+ 548 904 l 1
+ 292 904 l 1
+ 315 1024 l 1
+ 699 1024 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,25 @@
+StartChar: arrowleft
+Encoding: 8592 8592 586
+GlifName: arrowleft
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 644 120<304 1009>
+LayerCount: 2
+Back
+Fore
+SplineSet
+280 644 m 5
+ 473 309 l 5
+ 356 241 l 5
+ 118 670 l 5
+ 131 738 l 5
+ 536 1167 l 5
+ 627 1099 l 5
+ 304 764 l 5
+ 1033 764 l 5
+ 1009 644 l 5
+ 280 644 l 5
+EndSplineSet
+Validated: 1
+EndChar

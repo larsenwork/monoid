@@ -1,0 +1,25 @@
+StartChar: dotlessi
+Encoding: 305 305 233
+GlifName: dotlessi
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 904 120<315 548>
+LayerCount: 2
+Back
+Fore
+SplineSet
+116 0 m 1
+ 139 120 l 1
+ 395 120 l 1
+ 548 904 l 1
+ 292 904 l 1
+ 315 1024 l 1
+ 699 1024 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

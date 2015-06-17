@@ -1,0 +1,20 @@
+StartChar: acutecomb
+Encoding: 769 769 294
+GlifName: acutecomb
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1280 256
+VStem: 597 354
+LayerCount: 2
+Back
+Fore
+SplineSet
+597 1280 m 1
+ 813 1536 l 1
+ 951 1536 l 1
+ 735 1280 l 1
+ 597 1280 l 1
+EndSplineSet
+Validated: 1
+EndChar

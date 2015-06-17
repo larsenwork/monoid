@@ -1,0 +1,24 @@
+StartChar: guilsinglleft
+Encoding: 8249 8249 593
+GlifName: guilsinglleft
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1019 20G<748.166 793.471>
+VStem: 349 508
+LayerCount: 2
+Back
+Fore
+SplineSet
+482 581 m 5
+ 480 571 l 5
+ 704 181 l 5
+ 587 113 l 5
+ 349 542 l 5
+ 363 610 l 5
+ 767 1039 l 5
+ 857 971 l 5
+ 482 581 l 5
+EndSplineSet
+Validated: 1
+EndChar

@@ -30,31 +30,31 @@
     <tr>
         <td>0.10</td>
         <td>2015.04.03</td>
-        <td>latin basic</td>
+        <td>Latin basic</td>
         <td>Andreas</td>
     </tr>
     <tr>
         <td>0.20</td>
         <td>2015.04.04</td>
-        <td>latin extended</td>
+        <td>Latin extended</td>
         <td>Andreas</td>
     </tr>
     <tr>
         <td>0.24</td>
         <td>2015.04.06</td>
-        <td>cyrillic, feedback from <a href="https://github.com/K900">k900</a></td>
+        <td>Cyrillic, feedback from <a href="https://github.com/K900">k900</a></td>
         <td>Andreas</td>
     </tr>
     <tr>
         <td>0.27</td>
         <td>2015.04.11</td>
-        <td>greek</td>
+        <td>Greek</td>
         <td>Andreas</td>
     </tr>
     <tr>
         <td>0.28</td>
         <td>2015.04.12</td>
-        <td>misc. symbols</td>
+        <td>Misc. symbols</td>
         <td>Andreas</td>
     </tr>
     <tr>
@@ -76,6 +76,24 @@
         <td>Andreas</td>
     </tr>
     <tr>
+        <td>0.32</td>
+        <td>2015.06.15</td>
+        <td>New comma and many small adjustments to make it cleaner+sharper.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.33</td>
+        <td>2015.06.16</td>
+        <td>Perfecting/many of the curved characters˛</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.34</td>
+        <td>2015.06.17</td>
+        <td>Obliques + opdated metrics (note that default font-size is now 15px)</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
         <td>0.35</td>
         <td>2015.xx.xx</td>
         <td>Ligatures</td>
@@ -94,8 +112,6 @@
         <td></td>
     </tr>
 </table>
-
-
 
 <a name="guidelines"></a>
 ##Guidelines

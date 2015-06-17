@@ -1,0 +1,31 @@
+StartChar: chi
+Encoding: 967 967 548
+GlifName: chi
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1004 20G<240 381.811 880.423 1030>
+LayerCount: 2
+Back
+Fore
+SplineSet
+517 442 m 1
+ 527 442 l 1
+ 893 1024 l 1
+ 1030 1024 l 1
+ 576 339 l 1
+ 574 329 l 1
+ 778 -384 l 1
+ 640 -384 l 1
+ 485 226 l 1
+ 475 226 l 1
+ 82 -384 l 1
+ -56 -384 l 1
+ 426 329 l 1
+ 428 339 l 1
+ 240 1024 l 1
+ 377 1024 l 1
+ 517 442 l 1
+EndSplineSet
+Validated: 1
+EndChar

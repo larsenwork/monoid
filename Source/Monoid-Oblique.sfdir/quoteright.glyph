@@ -1,0 +1,24 @@
+StartChar: quoteright
+Encoding: 8217 8217 423
+GlifName: quoteright
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 880 120<438 540.375> 1388 20G<642.052 774>
+VStem: 415 359
+LayerCount: 2
+Back
+Fore
+SplineSet
+728 1175 m 2
+ 716 1115 704 1045 638 975 c 0
+ 585 918 505 880 415 880 c 1
+ 438 1000 l 1
+ 485 1000 521 1017 547 1045 c 0
+ 582 1082 590 1125 600 1175 c 2
+ 646 1408 l 1
+ 774 1408 l 1
+ 728 1175 l 2
+EndSplineSet
+Validated: 1
+EndChar

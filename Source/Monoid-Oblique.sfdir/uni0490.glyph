@@ -1,0 +1,23 @@
+StartChar: uni0490
+Encoding: 1168 1168 402
+GlifName: uni0490
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<116 247.879> 1160 120<469 1005>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1055 1536 m 1
+ 1183 1536 l 1
+ 1159 1411 1133 1285 1109 1160 c 1
+ 469 1160 l 1
+ 244 0 l 1
+ 116 0 l 1
+ 365 1280 l 1
+ 1005 1280 l 1
+ 1055 1536 l 1
+EndSplineSet
+Validated: 1
+EndChar

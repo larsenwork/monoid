@@ -1,0 +1,24 @@
+StartChar: uni02BB
+Encoding: 699 699 532
+GlifName: uni02B_B_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 21G<571 702.863> 1432 120<804.625 906>
+VStem: 571 359
+LayerCount: 2
+Back
+Fore
+SplineSet
+616 1257 m 2
+ 628 1317 641 1387 707 1457 c 0
+ 760 1514 840 1552 930 1552 c 1
+ 906 1432 l 1
+ 859 1432 824 1415 798 1387 c 0
+ 763 1350 754 1307 744 1257 c 2
+ 699 1024 l 1
+ 571 1024 l 1
+ 616 1257 l 2
+EndSplineSet
+Validated: 1
+EndChar

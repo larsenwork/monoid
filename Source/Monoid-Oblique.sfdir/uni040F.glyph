@@ -1,0 +1,27 @@
+StartChar: uni040F
+Encoding: 1039 1039 415
+GlifName: uni040F_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 372 500 779> 1388 20G<258.108 390 1026.1 1158>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-12 0 m 5
+ 262 1408 l 5
+ 390 1408 l 5
+ 139 120 l 5
+ 779 120 l 5
+ 1030 1408 l 5
+ 1158 1408 l 5
+ 884 0 l 5
+ 500 0 l 5
+ 450 -256 l 5
+ 322 -256 l 5
+ 372 0 l 5
+ -12 0 l 5
+EndSplineSet
+Validated: 1
+EndChar

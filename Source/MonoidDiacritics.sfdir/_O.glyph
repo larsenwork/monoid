@@ -2,7 +2,7 @@ StartChar: O
 Encoding: 79 79 42
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -16 120<404.584 747.416> 1048 120<404.584 747.416>
 VStem: 112 128<284.074 867.926> 912 128<284.074 867.926>
 AnchorPoint: "top" 576 1152 basechar 0

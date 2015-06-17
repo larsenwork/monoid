@@ -1,0 +1,19 @@
+StartChar: minus
+Encoding: 8722 8722 585
+GlifName: minus
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 643 120<136 1009>
+LayerCount: 2
+Back
+Fore
+SplineSet
+136 763 m 1
+ 1033 764 l 5
+ 1009 644 l 5
+ 113 643 l 1
+ 136 763 l 1
+EndSplineSet
+Validated: 1
+EndChar

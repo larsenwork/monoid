@@ -1,0 +1,19 @@
+StartChar: backslash
+Encoding: 92 92 26
+GlifName: backslash
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 279 589
+LayerCount: 2
+Back
+Fore
+SplineSet
+744 -155 m 5
+ 279 1510 l 5
+ 402 1563 l 5
+ 868 -102 l 5
+ 744 -155 l 5
+EndSplineSet
+Validated: 1
+EndChar

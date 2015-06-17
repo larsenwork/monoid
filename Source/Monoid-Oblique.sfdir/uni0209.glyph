@@ -1,0 +1,35 @@
+StartChar: uni0209
+Encoding: 521 521 447
+GlifName: uni0209
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 904 120<315 548> 1388 20G<238 385.062 622 769.062>
+LayerCount: 2
+Back
+Fore
+SplineSet
+876 1152 m 1
+ 738 1152 l 1
+ 622 1408 l 1
+ 760 1408 l 1
+ 876 1152 l 1
+492 1152 m 1
+ 354 1152 l 1
+ 238 1408 l 1
+ 376 1408 l 1
+ 492 1152 l 1
+116 0 m 1
+ 139 120 l 1
+ 395 120 l 1
+ 548 904 l 1
+ 292 904 l 1
+ 315 1024 l 1
+ 699 1024 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

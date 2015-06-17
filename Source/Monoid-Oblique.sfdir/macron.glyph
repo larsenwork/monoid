@@ -1,0 +1,19 @@
+StartChar: macron
+Encoding: 175 175 318
+GlifName: macron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1156 120<394 1011>
+LayerCount: 2
+Back
+Fore
+SplineSet
+394 1276 m 5
+ 1034 1276 l 5
+ 1011 1156 l 5
+ 371 1156 l 5
+ 394 1276 l 5
+EndSplineSet
+Validated: 1
+EndChar

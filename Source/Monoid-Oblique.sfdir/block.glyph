@@ -1,0 +1,19 @@
+StartChar: block
+Encoding: 9608 9608 618
+GlifName: block
+Width: 1024
+VWidth: 2048
+Flags: W
+HStem: 1388 20G<130.105 1158>
+LayerCount: 2
+Back
+Fore
+SplineSet
+134 1408 m 5
+ 1158 1408 l 5
+ 809 -384 l 1
+ -215 -384 l 1
+ 134 1408 l 5
+EndSplineSet
+Validated: 1
+EndChar

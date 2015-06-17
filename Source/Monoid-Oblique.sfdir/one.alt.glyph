@@ -1,0 +1,29 @@
+StartChar: one.alt
+Encoding: 57347 57347 501
+GlifName: one.alt
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 1388 20G<635.171 774>
+LayerCount: 2
+Back
+Fore
+SplineSet
+666 1408 m 1
+ 774 1408 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 500 0 l 1
+ 372 0 l 1
+ 116 0 l 1
+ 139 120 l 1
+ 395 120 l 1
+ 614 1246 l 1
+ 604 1246 l 1
+ 323 1065 l 1
+ 350 1203 l 1
+ 666 1408 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,23 @@
+StartChar: seven
+Encoding: 55 55 77
+GlifName: seven
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<223 362.47> 1288 120<360 901>
+LayerCount: 2
+Back
+Fore
+SplineSet
+336 1288 m 1
+ 360 1408 l 1
+ 1060 1408 l 1
+ 1042 1318 l 1
+ 352 0 l 1
+ 223 0 l 1
+ 899 1278 l 1
+ 901 1288 l 1
+ 336 1288 l 1
+EndSplineSet
+Validated: 1
+EndChar

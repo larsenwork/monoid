@@ -1,0 +1,20 @@
+StartChar: quotesingle
+Encoding: 39 39 62
+GlifName: quotesingle
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1388 20G<642.094 773>
+VStem: 521 252
+LayerCount: 2
+Back
+Fore
+SplineSet
+646 1408 m 5
+ 773 1408 l 5
+ 649 768 l 5
+ 521 768 l 5
+ 646 1408 l 5
+EndSplineSet
+Validated: 1
+EndChar

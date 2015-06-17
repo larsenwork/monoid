@@ -1,0 +1,31 @@
+StartChar: uni0429
+Encoding: 1065 1065 344
+GlifName: uni0429
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 779> 1388 20G<258.108 390 642.102 774 1026.1 1158>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-12 0 m 1
+ 262 1408 l 1
+ 390 1408 l 1
+ 139 120 l 1
+ 395 120 l 1
+ 646 1408 l 1
+ 774 1408 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 1030 1408 l 1
+ 1158 1408 l 1
+ 907 119 l 1
+ 1035 119 l 1
+ 962 -256 l 1
+ 834 -256 l 1
+ 884 0 l 1
+ -12 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

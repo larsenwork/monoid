@@ -1,0 +1,32 @@
+StartChar: napostrophe
+Encoding: 329 329 244
+GlifName: napostrophe
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<116 247.896 628 759.896> 920 120<535.045 729.48> 1004 20G<311.113 443>
+VStem: 772 130<554.344 876.766>
+LayerCount: 2
+Back
+Fore
+SplineSet
+772 776 m 0xd0
+ 772 867 710 920 615 920 c 0xd0
+ 551 920 495 895 456 858 c 0
+ 401 806 389 744 372 657 c 2
+ 244 0 l 1
+ 116 0 l 1
+ 315 1024 l 1
+ 443 1024 l 1xb0
+ 421 912 l 1
+ 431 912 l 1
+ 495 989 582 1040 658 1040 c 0
+ 807 1040 902 944 902 801 c 0
+ 902 753 893 705 884 657 c 2
+ 756 0 l 1
+ 628 0 l 1
+ 756 657 l 2
+ 765 703 772 742 772 776 c 0xd0
+EndSplineSet
+Validated: 1
+EndChar

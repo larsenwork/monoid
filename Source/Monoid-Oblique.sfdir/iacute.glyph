@@ -1,0 +1,30 @@
+StartChar: iacute
+Encoding: 237 237 144
+GlifName: iacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 904 120<315 548> 1388 20G<771.125 926>
+LayerCount: 2
+Back
+Fore
+SplineSet
+572 1152 m 1
+ 788 1408 l 1
+ 926 1408 l 1
+ 710 1152 l 1
+ 572 1152 l 1
+116 0 m 1
+ 139 120 l 1
+ 395 120 l 1
+ 548 904 l 1
+ 292 904 l 1
+ 315 1024 l 1
+ 699 1024 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

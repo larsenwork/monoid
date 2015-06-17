@@ -1,0 +1,21 @@
+StartChar: parenright
+Encoding: 41 41 64
+GlifName: parenright
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 683 130<637.464 1158.95>
+LayerCount: 2
+Back
+Fore
+SplineSet
+683 919 m 0
+ 683 1172 578 1347 405 1436 c 1
+ 478 1546 l 1
+ 687 1440 813 1237 813 940 c 0
+ 813 424 507 3 150 -140 c 1
+ 120 -30 l 1
+ 423 92 683 469 683 919 c 0
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,35 @@
+StartChar: Hcircumflex
+Encoding: 292 292 220
+GlifName: H_circumflex
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-12 119.899 756 887.889> 513 120<239 856>
+LayerCount: 2
+Back
+Fore
+SplineSet
+656 1536 m 1
+ 814 1536 l 1
+ 1061 1280 l 1
+ 903 1280 l 1
+ 717 1444 l 1
+ 467 1280 l 1
+ 309 1280 l 1
+ 656 1536 l 1
+212 1152 m 1
+ 340 1152 l 1
+ 239 633 l 1
+ 879 633 l 1
+ 980 1152 l 1
+ 1108 1152 l 1
+ 884 0 l 1
+ 756 0 l 1
+ 856 513 l 1
+ 216 513 l 1
+ 116 0 l 1
+ -12 0 l 1
+ 212 1152 l 1
+EndSplineSet
+Validated: 1
+EndChar

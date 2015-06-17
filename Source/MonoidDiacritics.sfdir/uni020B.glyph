@@ -2,10 +2,10 @@ StartChar: uni020B
 Encoding: 523 523 312
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: 0 120<256 512 640 896> 904 120<256 512> 1304 120<418.7 733.3>
+Flags: W
+HStem: 0 120<256 512 640 896> 904 120<256 512> 1152 21G<236 364 788 916> 1304 120<418.7 733.3>
 VStem: 236 128<1152 1252.45> 512 128<120 904> 788 128<1152 1252.45>
-CounterMasks: 1 1c
+CounterMasks: 1 0e
 LayerCount: 5
 Back
 Fore

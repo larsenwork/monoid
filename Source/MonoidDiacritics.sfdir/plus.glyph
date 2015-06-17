@@ -3,7 +3,7 @@ Encoding: 43 43 66
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 644 120<128 512 640 1024>
+HStem: 644 120<128 512 640 1024> 1132 20G<512 640>
 VStem: 512 128<256 644 764 1152>
 LayerCount: 5
 Back

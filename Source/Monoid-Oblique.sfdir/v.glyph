@@ -1,0 +1,24 @@
+StartChar: v
+Encoding: 118 118 1
+GlifName: v
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<330 605> 1004 20G<263 394 819.5 1007>
+VStem: 263 131<600.029 1024>
+LayerCount: 2
+Back
+Fore
+SplineSet
+474 168 m 1
+ 639 441 763 730 876 1024 c 1
+ 1007 1024 l 1
+ 872 675 716 325 494 0 c 1
+ 378 0 l 1
+ 282 325 263 672 263 1024 c 1
+ 394 1024 l 1
+ 394 727 406 440 464 168 c 1
+ 474 168 l 1
+EndSplineSet
+Validated: 1
+EndChar

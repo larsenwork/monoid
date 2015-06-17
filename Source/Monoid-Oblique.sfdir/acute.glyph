@@ -1,0 +1,20 @@
+StartChar: acute
+Encoding: 180 180 310
+GlifName: acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 384
+VStem: 578 379
+LayerCount: 2
+Back
+Fore
+SplineSet
+578 1024 m 5
+ 819 1408 l 5
+ 957 1408 l 5
+ 716 1024 l 5
+ 578 1024 l 5
+EndSplineSet
+Validated: 1
+EndChar

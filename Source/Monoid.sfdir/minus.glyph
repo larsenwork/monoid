@@ -8,7 +8,13 @@ HStem: 643 120<128 1024>
 LayerCount: 5
 Back
 Fore
-Refer: 604 8213 N 1 0 0 1 0 0 2
+SplineSet
+128 763 m 1
+ 1024 764 l 5
+ 1024 644 l 5
+ 128 643 l 1
+ 128 763 l 1
+EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3

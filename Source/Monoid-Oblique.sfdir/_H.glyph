@@ -1,0 +1,27 @@
+StartChar: H
+Encoding: 72 72 36
+GlifName: H_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-12 119.875 756 887.892> 640 120<264 880> 1388 20G<258.108 390 1026.11 1158>
+LayerCount: 2
+Back
+Fore
+SplineSet
+262 1408 m 1
+ 390 1408 l 1
+ 264 760 l 1
+ 904 760 l 5
+ 1030 1408 l 1
+ 1158 1408 l 1
+ 884 0 l 1
+ 756 0 l 1
+ 880 640 l 1
+ 240 640 l 1
+ 116 0 l 1
+ -12 0 l 1
+ 262 1408 l 1
+EndSplineSet
+Validated: 1
+EndChar

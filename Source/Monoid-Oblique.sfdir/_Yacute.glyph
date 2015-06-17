@@ -1,0 +1,31 @@
+StartChar: Yacute
+Encoding: 221 221 128
+GlifName: Y_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<372 503.906>
+VStem: 197 125<943.809 1152>
+LayerCount: 2
+Back
+Fore
+SplineSet
+597 1280 m 1
+ 813 1536 l 1
+ 951 1536 l 1
+ 735 1280 l 1
+ 597 1280 l 1
+197 1152 m 1
+ 322 1152 l 1
+ 346 939 405 758 540 612 c 1
+ 570 612 l 1
+ 761 758 892 939 998 1152 c 1
+ 1123 1152 l 1
+ 1017 923 867 714 600 512 c 1
+ 500 0 l 1
+ 372 0 l 1
+ 472 512 l 1
+ 283 714 213 923 197 1152 c 1
+EndSplineSet
+Validated: 1
+EndChar

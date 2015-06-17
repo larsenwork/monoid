@@ -1,0 +1,19 @@
+StartChar: uni2011
+Encoding: 8209 8209 600
+GlifName: uni2011
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 516 120<138 1010>
+LayerCount: 2
+Back
+Fore
+SplineSet
+138 636 m 5
+ 1034 636 l 5
+ 1010 516 l 5
+ 114 516 l 5
+ 138 636 l 5
+EndSplineSet
+Validated: 1
+EndChar

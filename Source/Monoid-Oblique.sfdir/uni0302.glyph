@@ -1,0 +1,22 @@
+StartChar: uni0302
+Encoding: 770 770 295
+GlifName: uni0302
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1280 256
+LayerCount: 2
+Back
+Fore
+SplineSet
+656 1536 m 1
+ 814 1536 l 1
+ 1061 1280 l 1
+ 903 1280 l 1
+ 717 1444 l 1
+ 467 1280 l 1
+ 309 1280 l 1
+ 656 1536 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,30 @@
+StartChar: imacron
+Encoding: 299 299 227
+GlifName: imacron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 904 120<315 548> 1288 120<390 1006>
+LayerCount: 2
+Back
+Fore
+SplineSet
+390 1408 m 1
+ 1030 1408 l 1
+ 1006 1288 l 1
+ 366 1288 l 1
+ 390 1408 l 1
+116 0 m 1
+ 139 120 l 1
+ 395 120 l 1
+ 548 904 l 1
+ 292 904 l 1
+ 315 1024 l 1
+ 699 1024 l 1
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

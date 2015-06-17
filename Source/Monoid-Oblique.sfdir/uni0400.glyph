@@ -1,0 +1,33 @@
+StartChar: uni0400
+Encoding: 1024 1024 391
+GlifName: uni0400
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<267 884> 516 120<368 856> 1032 120<445 1085>
+CounterMasks: 1 e0
+LayerCount: 2
+Back
+Fore
+SplineSet
+773 1280 m 1
+ 635 1280 l 1
+ 519 1536 l 1
+ 657 1536 l 1
+ 773 1280 l 1
+340 1152 m 1
+ 1108 1152 l 1
+ 1085 1032 l 1
+ 445 1032 l 1
+ 368 636 l 1
+ 880 636 l 1
+ 856 516 l 1
+ 344 516 l 1
+ 267 120 l 1
+ 907 120 l 1
+ 884 0 l 1
+ 116 0 l 1
+ 340 1152 l 1
+EndSplineSet
+Validated: 1
+EndChar

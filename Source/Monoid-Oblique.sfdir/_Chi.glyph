@@ -1,0 +1,31 @@
+StartChar: Chi
+Encoding: 935 935 483
+GlifName: C_hi
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-51 111.868 767.895 923> 1388 20G<255 408.473 1003.72 1165>
+LayerCount: 2
+Back
+Fore
+SplineSet
+591 824 m 1
+ 601 824 l 1
+ 1018 1408 l 1
+ 1165 1408 l 1
+ 660 721 l 1
+ 658 711 l 1
+ 923 0 l 1
+ 775 0 l 1
+ 559 608 l 1
+ 549 608 l 1
+ 97 0 l 1
+ -51 0 l 1
+ 490 711 l 1
+ 492 721 l 1
+ 255 1408 l 1
+ 402 1408 l 1
+ 591 824 l 1
+EndSplineSet
+Validated: 1
+EndChar

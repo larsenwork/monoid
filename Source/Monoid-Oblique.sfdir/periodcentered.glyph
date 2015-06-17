@@ -1,0 +1,20 @@
+StartChar: periodcentered
+Encoding: 183 183 95
+GlifName: periodcentered
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 560 288<427.418 591.373>
+VStem: 362 295<626.234 781.766>
+LayerCount: 2
+Back
+Fore
+SplineSet
+362 672 m 4
+ 362 759 429 848 537 848 c 4
+ 611 848 657 803 657 736 c 4
+ 657 651 590 560 481 560 c 4
+ 407 560 362 605 362 672 c 4
+EndSplineSet
+Validated: 1
+EndChar

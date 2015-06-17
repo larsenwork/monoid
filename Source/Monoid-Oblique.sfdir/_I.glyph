@@ -1,0 +1,27 @@
+StartChar: I
+Encoding: 73 73 37
+GlifName: I_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 1288 120<390 622 750 1006>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1030 1408 m 5
+ 1006 1288 l 5
+ 750 1288 l 5
+ 523 120 l 5
+ 779 120 l 5
+ 756 0 l 5
+ 116 0 l 5
+ 139 120 l 5
+ 395 120 l 5
+ 622 1288 l 5
+ 366 1288 l 5
+ 390 1408 l 5
+ 1030 1408 l 5
+EndSplineSet
+Validated: 1
+EndChar
