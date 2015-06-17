@@ -52,7 +52,7 @@
   <div class="blabla">
     <section>
       <h2>Concept</h2>
-      <p>Monoid is customizable and optimized for coding with bitmap-like sharpness at 14px even on low res displays. (<a href="http://i.imgur.com/zkQi4Rv.png" target="_blank">Compared</a> to Roboto Mono).
+      <p>Monoid is customizable and optimized for coding with bitmap-like sharpness at this fontsize even on low res displays. <a href="http://i.imgur.com/zkQi4Rv.png" target="_blank">Screenshot</a>.
     </section>
     <section>
       <h2>Features</h2>
@@ -111,8 +111,8 @@
       <form data-persist="garlic">
       <p>
         <span id="dloptions">Alternates&nbsp;&nbsp;
-          <input id="ss10" type="checkbox">
-          <label for="ss10" name="0">&#xE001;</label>
+          <!-- <input id="ss10" type="checkbox">
+          <label for="ss10" name="0">&#xE001;</label> -->
           <input id="ss11" type="checkbox">
           <label for="ss11" name="1">&#xE003;</label>
           <input id="ss12" type="checkbox">
@@ -127,16 +127,16 @@
           <label for="ss15" name="*">&#xE000;</label>
         </span>
         <br>LineHeight&nbsp;&nbsp;
-        <!-- <input id="xsmall" type="radio" name="lh">
-        <label for="xsmall">XS</label> -->
+        <input id="xsmall" type="radio" name="lh">
+        <label for="xsmall">XS</label>
         <input id="small" type="radio" name="lh">
         <label for="small">S</label>
         <input id="medium" type="radio" name="lh" checked>
         <label for="medium">M</label>
         <input id="large" type="radio" name="lh">
         <label for="large">L</label>
-        <!-- <input id="xlarge" type="radio" name="lh">
-        <label for="xlarge">XL</label> -->
+        <input id="xlarge" type="radio" name="lh">
+        <label for="xlarge">XL</label>
         <br>Font&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input id="tight" type="radio" name="fw">
         <label for="tight" class="tight">Tight</label>
@@ -159,7 +159,7 @@
     <section>
       <h2>N.B.</h2>
       <p>
-        14px = 10.5pt. ½Tight and ½Loose aren't sharp on low res. Webkit based editors: *{-webkit-font-smoothing: antialiased}. <span class="ss01">SS01:Ww</span>, <span class="ss02">SS02:ij</span>, <span class="ss03">SS03:r</span>.
+        ½Tight and ½Loose aren't sharp on low res. Webkit based editors: *{-webkit-font-smoothing: antialiased}. Details about more alternates on GitHub.
       </p>
     </section>
   </div>
@@ -1064,25 +1064,25 @@ option.permutations = [[]]
           $('.code').css("letter-spacing", "0.07142857142em");
           FontName += '-loose'
         }
-        // if ($("#xsmall").is(":checked")) {
-        //   $('.code').css("line-height", "1");
-        //   FontName += '-xsmall'
-        // }
+        if ($("#xsmall").is(":checked")) {
+          $('.code').css("line-height", "0.86");
+          FontName += '-xsmall'
+        }
         if ($("#small").is(":checked")) {
-          $('.code').css("line-height", "1.08");
+          $('.code').css("line-height", "0.93");
           FontName += '-small'
         }
         if ($("#medium").is(":checked")) {
-          $('.code').css("line-height", "1.15");
+          $('.code').css("line-height", "1");
         }
         if ($("#large").is(":checked")) {
-          $('.code').css("line-height", "1.22");
+          $('.code').css("line-height", "1.07");
           FontName += '-large'
         }
-        // if ($("#xlarge").is(":checked")) {
-        //   $('.code').css("line-height", "1.30");
-        //   FontName += '-xlarge'
-        // }
+        if ($("#xlarge").is(":checked")) {
+          $('.code').css("line-height", "1.14");
+          FontName += '-xlarge'
+        }
         if ($("#ss10").is(":checked")) {
           FontFeature += '"ss10" ,';
           FontName += '-0'
