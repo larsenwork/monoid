@@ -1,40 +1,18 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
 feature ss01 {
-  sub one by one.alt;
+  sub s by s.retina;
+  sub B by B.retina;
+  sub C by C.retina;
+  sub D by D.retina;
+  sub G by G.retina;
+  sub H by H.retina;
+  sub N by N.retina;
+  sub U by U.retina;
 } ss01;
-
-feature ss02 {
-  sub three by three.alt;
-} ss02;
-
-feature ss03 {
-  sub r by r.alt;
-} ss03;
-
-feature ss10 {
-} ss10;
-
-feature ss11 {
-  sub one by one.alt;
-} ss11;
-
-feature ss12 {
-} ss12;
-
-feature ss13 {
-  sub l by l.alt;
-} ss13;
-
-feature ss14 {
-  sub dollar by dollar.alt;
-} ss14;
-
-feature ss15 {
-  sub asterisk by asterisk.alt;
-} ss15;
-
-feature ss16 {
-  sub s by s.alt;
-} ss16;
 
 
 #   sub w by w.alt;

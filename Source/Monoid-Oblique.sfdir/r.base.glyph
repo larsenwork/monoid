@@ -1,5 +1,5 @@
 StartChar: r.base
-Encoding: 1114160 -1 659
+Encoding: 1114159 -1 659
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,4 +28,5 @@ SplineSet
  756 0 l 5
  116 0 l 5xa0
 EndSplineSet
+Validated: 1
 EndChar

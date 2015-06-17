@@ -1,5 +1,5 @@
 StartChar: one.base
-Encoding: 1114153 -1 652
+Encoding: 1114152 -1 652
 Width: 1024
 VWidth: 0
 Flags: W
@@ -24,4 +24,5 @@ SplineSet
  349.83984375 1203 l 1
  665.6875 1408 l 1
 EndSplineSet
+Validated: 1
 EndChar

@@ -1,5 +1,5 @@
 StartChar: w.straight
-Encoding: 1114156 -1 655
+Encoding: 1114155 -1 655
 Width: 1024
 VWidth: 0
 Flags: W
@@ -35,4 +35,5 @@ SplineSet
  551.31640625 264 l 6
  546.952873377 241.550956282 543.372840139 223.133589075 543.372840139 200.783257541 c 4
 EndSplineSet
+Validated: 1
 EndChar

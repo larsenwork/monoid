@@ -3,7 +3,6 @@ Encoding: 57355 57355 499
 GlifName: dollar.alt
 Width: 1920
 VWidth: 0
-Flags: H
 LayerCount: 5
 Back
 SplineSet
@@ -40,6 +39,7 @@ SplineSet
  512 1297.98601672 l 5
 EndSplineSet
 Fore
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

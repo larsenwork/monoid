@@ -1,0 +1,30 @@
+StartChar: H.retina
+Encoding: 1114167 -1 669
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<192 320 832 960> 640 120<320 832> 1388 20G<192 320 832 960>
+VStem: 192 128<0 640 760 1408> 832 128<0 640 760 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+192 1408 m 1
+ 320 1408 l 1
+ 320 760 l 1
+ 832 760 l 5
+ 832 1408 l 5
+ 960 1408 l 5
+ 960 0 l 5
+ 832 0 l 5
+ 832 640 l 5
+ 320 640 l 1
+ 320 0 l 1
+ 192 0 l 1
+ 192 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
