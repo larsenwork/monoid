@@ -8,7 +8,7 @@ from fontbuilder import *
 source = "Source"
 
 ## Output directory
-output = "release"
+output = "_release"
 
 ## Fonts to modify
 fonts = ['Monoid.sfdir', 'Monoid-Oblique.sfdir']
