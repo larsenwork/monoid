@@ -109,7 +109,7 @@ body {
   font-family: "monoidnormal", monospace;
   color: #535353;
   background-color: white;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 * {
@@ -141,6 +141,9 @@ input {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.alarm {
+  color: hsl(339, 48%, 50%);
 }
 /*
 
