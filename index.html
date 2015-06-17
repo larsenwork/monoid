@@ -1016,9 +1016,6 @@ option.permutations = [[]]
         }
       });
 
-
-
-
       function insertTextAtCursor(text) {
         var sel, range, html;
         sel = window.getSelection();
@@ -1121,7 +1118,9 @@ option.permutations = [[]]
 
       $('form').on("click touch", function(e) {
         refreshFeatures();
-      });      
+      });
+
+      refreshFeatures();
 
       $('#download').on("click touch", function(e) {
         e.preventDefault();
