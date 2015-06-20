@@ -99,4 +99,5 @@ SplineSet
  256 0 l 5
  256 1024 l 5
 EndSplineSet
+Substitution2: "'ss10' Style Set 10 lookup 10 subtable" r.base
 EndChar

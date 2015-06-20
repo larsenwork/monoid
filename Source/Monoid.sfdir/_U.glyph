@@ -58,5 +58,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "'ss01' Style Set 1 lookup 1 subtable" U.retina
 Substitution2: "'ss01' Style Set 1 lookup 0 subtable" U.retina
 EndChar

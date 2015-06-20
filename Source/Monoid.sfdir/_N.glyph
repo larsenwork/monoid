@@ -34,5 +34,6 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "'ss01' Style Set 1 lookup 1 subtable" N.retina
 Substitution2: "'ss01' Style Set 1 lookup 0 subtable" N.retina
 EndChar
