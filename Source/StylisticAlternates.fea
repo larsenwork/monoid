@@ -4,19 +4,48 @@ languagesystem grek dflt;
 languagesystem latn dflt;
 
 feature ss01 {
-  sub s by s.retina;
-  sub B by B.retina;
-  sub C by C.retina;
-  sub D by D.retina;
-  sub G by G.retina;
-  sub H by H.retina;
-  sub N by N.retina;
-  sub U by U.retina;
+  sub [s B C D G H N U] by [s.retina B.retina C.retina D.retina G.retina H.retina N.retina U.retina];
 } ss01;
 
+feature ss02 {
+  sub asterisk by asterisk.multi;
+} ss02;
 
-#   sub w by w.alt;
-#   sub W by W.alt;
-#   sub i by i.alt;
-#   sub j by j.alt;
-#   sub zero by zero.alt;
+feature ss03 {
+  sub zero by zero.dot;
+} ss03;
+
+feature ss04 {
+  sub zero by zero.clear;
+} ss04;
+
+feature ss05 {
+  sub one by one.base;
+} ss05;
+
+feature ss06 {
+  sub l by l.zstyle;
+} ss06;
+
+feature ss07 {
+  sub three by three.russian;
+} ss07;
+
+feature ss08 {
+  sub w by w.straight;
+  sub W by W.straight;
+} ss08;
+
+feature ss09 {
+  sub i by i.flyingdot;
+  sub j by j.flyingdot;
+} ss09;
+
+feature ss10 {
+  sub r by r.base;
+  sub l by l.base;
+} ss10;
+
+feature ss11 {
+  sub dollar by dollar.empty;
+} ss11;
