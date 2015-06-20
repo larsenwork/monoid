@@ -1,0 +1,25 @@
+StartChar: equalshift
+Encoding: 1114138 -1 638
+GlifName: equalshift
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 260 120<0 896> 772 120<0 896>
+LayerCount: 3
+Back
+Fore
+SplineSet
+0 380 m 5
+ 896 380 l 5
+ 896 260 l 5
+ 0 260 l 5
+ 0 380 l 5
+0 892 m 5
+ 896 892 l 5
+ 896 772 l 5
+ 0 772 l 5
+ 0 892 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

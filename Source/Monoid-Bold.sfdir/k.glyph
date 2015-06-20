@@ -1,0 +1,29 @@
+StartChar: k
+Encoding: 107 107 11
+GlifName: k
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<256 384 833.964 1002> 1004 20G<774.569 955> 1388 20G<256 384>
+VStem: 256 128<0 435 602 1408>
+LayerCount: 3
+Back
+Fore
+SplineSet
+384 0 m 5
+ 256 0 l 5
+ 256 1408 l 5
+ 384 1408 l 5
+ 384 602 l 5
+ 794 1024 l 5
+ 955 1024 l 5
+ 592 645 l 5
+ 1002 0 l 5
+ 846 0 l 5
+ 509 560 l 5
+ 384 435 l 5
+ 384 0 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

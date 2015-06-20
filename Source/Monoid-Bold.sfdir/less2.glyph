@@ -1,0 +1,23 @@
+StartChar: less2
+Encoding: 1114142 -1 642
+GlifName: less2
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 3
+Back
+Fore
+SplineSet
+804 200 m 5
+ 733 99 l 5
+ 128 528 l 5
+ 128 624 l 5
+ 733 1053 l 5
+ 804 952 l 5
+ 273 581 l 5
+ 273 571 l 5
+ 804 200 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

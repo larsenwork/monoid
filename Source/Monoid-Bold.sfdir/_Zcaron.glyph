@@ -1,0 +1,36 @@
+StartChar: Zcaron
+Encoding: 381 381 218
+GlifName: Z_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<283 1024> 1032 120<148 849>
+LayerCount: 3
+Back
+Fore
+SplineSet
+497 1280 m 1
+ 200 1536 l 1
+ 358 1536 l 1
+ 576 1372 l 1
+ 794 1536 l 1
+ 952 1536 l 1
+ 655 1280 l 1
+ 497 1280 l 1
+148 1032 m 1
+ 148 1152 l 1
+ 1004 1152 l 1
+ 1004 1062 l 1
+ 283 130 l 1
+ 283 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 128 0 l 1
+ 128 92 l 1
+ 849 1022 l 1
+ 849 1032 l 1
+ 148 1032 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

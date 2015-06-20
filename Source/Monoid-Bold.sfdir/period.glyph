@@ -1,0 +1,21 @@
+StartChar: period
+Encoding: 46 46 68
+GlifName: period
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 256<384 640>
+VStem: 384 256<0 256>
+LayerCount: 3
+Back
+Fore
+SplineSet
+384 256 m 5
+ 640 256 l 5
+ 640 0 l 5
+ 384 0 l 5
+ 384 256 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

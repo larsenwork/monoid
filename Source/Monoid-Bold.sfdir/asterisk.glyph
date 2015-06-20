@@ -1,0 +1,33 @@
+StartChar: asterisk
+Encoding: 42 42 65
+GlifName: asterisk
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1004 20G<318.358 364.534 788.402 834.642>
+VStem: 512 128<128 522>
+LayerCount: 3
+Back
+Fore
+SplineSet
+512 522 m 5
+ 144 402 l 5
+ 102 515 l 5
+ 476 637 l 5
+ 244 957 l 5
+ 350 1024 l 5
+ 576 713 l 5
+ 803 1024 l 5
+ 909 957 l 5
+ 676 637 l 5
+ 1050 515 l 5
+ 1008 402 l 5
+ 640 522 l 5
+ 640 128 l 5
+ 512 128 l 5
+ 512 522 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Substitution2: "'ss02' Style Set 2 lookup 2 subtable" asterisk.multi
+EndChar

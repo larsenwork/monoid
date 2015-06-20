@@ -1,0 +1,30 @@
+StartChar: H
+Encoding: 72 72 36
+GlifName: H_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 384 768 1024> 580 240<384 768> 1388 20G<128 384 768 1024>
+VStem: 128 256<0 580 820 1408> 768 256<0 580 820 1408>
+LayerCount: 3
+Back
+Fore
+SplineSet
+128 1408 m 1
+ 384 1408 l 1
+ 384 820 l 5
+ 768 820 l 5
+ 768 1408 l 1
+ 1024 1408 l 1
+ 1024 0 l 1
+ 768 0 l 1
+ 768 580 l 1
+ 384 580 l 1
+ 384 0 l 1
+ 128 0 l 1
+ 128 1408 l 1
+EndSplineSet
+Layer: 2
+Substitution2: "'ss01' Style Set 1 lookup 1 subtable" H.retina
+Substitution2: "'ss01' Style Set 1 lookup 0 subtable" H.retina
+EndChar

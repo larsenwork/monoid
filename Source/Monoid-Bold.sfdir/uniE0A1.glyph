@@ -1,0 +1,36 @@
+StartChar: uniE0A1
+Encoding: 57505 57505 600
+GlifName: uniE_0A_1
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 640 120<384 896> 1388 20G<256 384>
+VStem: 256 128<-384 164 760 1408> 768 128<-164 384>
+LayerCount: 3
+Back
+Fore
+SplineSet
+256 640 m 1
+ 256 1408 l 1
+ 384 1408 l 1
+ 384 760 l 1
+ 896 760 l 1
+ 896 640 l 1
+ 256 640 l 1
+384 -384 m 1
+ 256 -384 l 1
+ 256 384 l 1
+ 383 384 l 1
+ 758 -164 l 1
+ 768 -164 l 1
+ 768 384 l 1
+ 896 384 l 1
+ 896 -384 l 1
+ 768 -384 l 1
+ 394 164 l 1
+ 384 164 l 1
+ 384 -384 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

@@ -1,0 +1,24 @@
+StartChar: T
+Encoding: 84 84 47
+GlifName: T_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<384 640> 1168 240<0 384 640 1024>
+VStem: 384 256<0 1168>
+LayerCount: 3
+Back
+Fore
+SplineSet
+1024 1408 m 5
+ 1024 1168 l 5
+ 640 1168 l 5
+ 640 0 l 5
+ 384 0 l 5
+ 384 1168 l 5
+ 0 1168 l 5
+ 0 1408 l 5
+ 1024 1408 l 5
+EndSplineSet
+Layer: 2
+EndChar
