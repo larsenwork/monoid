@@ -11,7 +11,8 @@ source = "Source"
 output = "_release"
 
 ## Fonts to modify
-fonts = ['Monoid-Oblique.sfdir', 'Monoid.sfdir']
+## To be added when the script supports it + the fonts are done 'Monoid-Oblique.sfdir', 'Monoid-Bold.sfdir'
+fonts = ['Monoid.sfdir']
 
 # Options to generate
 conflicting(
@@ -23,11 +24,11 @@ conflicting(
 )
 
 conflicting(
-    option('small', '13px', Line(1536, 128)),
+    option('xtrasmall', '13px', Line(1536, 128)),
     option('small', '14px', Line(1536, 256)),
 #   option('medium', 15px', Line(1664, 256)),
     option('large', '16px', Line(1664, 384)),
-    option('large', '17px', Line(1792, 384))
+    option('xtralarge', '17px', Line(1792, 384))
 )
 
 option('1', 'Alt 1', Swap("one", "one.base"))
