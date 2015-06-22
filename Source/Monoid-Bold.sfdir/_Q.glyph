@@ -3,10 +3,10 @@ Encoding: 81 81 44
 GlifName: Q_
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -272 241<800.614 1024> 1184 240<470.309 681.691>
 VStem: 112 256<355.037 1052.18> 784 256<386.28 1052.18>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 383.840820312 244.822265625 m 0
@@ -58,6 +58,7 @@ SplineSet
  465 1184 405 1080 383 962 c 0
  369 885 368 797 368 704 c 0
 EndSplineSet
+Validated: 524289
 Layer: 2
 SplineSet
 112 704 m 4
@@ -86,4 +87,5 @@ SplineSet
  465 1184 405 1080 383 962 c 4
  369 885 368 797 368 704 c 4
 EndSplineSet
+Layer: 3
 EndChar

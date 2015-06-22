@@ -7,7 +7,7 @@ Flags: W
 HStem: 0 21G<512 640> 115 122<403.459 512 640 748.541> 1171 122<403.459 512 640 748.541> 1388 20G<512 640>
 VStem: 112 128<422.784 985.216> 512 128<0 120.073 237 1171 1287.93 1408> 912 128<422.784 985.216>
 CounterMasks: 1 0e
-LayerCount: 3
+LayerCount: 4
 Back
 Fore
 SplineSet
@@ -41,4 +41,5 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 EndChar

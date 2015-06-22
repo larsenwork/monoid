@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: 0 240<384 647.068> 1168 240<384 647.068>
 VStem: 128 256<240 1168> 784 256<401.061 1006.94>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 504 240 m 2
@@ -49,6 +49,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 Substitution2: "'ss01' Style Set 1 lookup 1 subtable" D.retina
 Substitution2: "'ss01' Style Set 1 lookup 0 subtable" D.retina
 EndChar

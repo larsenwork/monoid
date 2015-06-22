@@ -4,22 +4,23 @@ GlifName: bracketright
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -128 120<256 640> 1416 120<256 640>
-VStem: 640 128<-8 1416>
-LayerCount: 3
+HStem: -128 240<256 640> 1296 240<256 640>
+VStem: 256 640<-128 112 1296 1536> 640 256<112 1296>
+LayerCount: 4
 Back
 Fore
 SplineSet
-768 1536 m 1
- 768 982 768 426 768 -128 c 1
- 597 -128 427 -128 256 -128 c 1
- 256 -8 l 1
- 640 -8 l 1
- 640 1416 l 1
- 256 1416 l 1
+896 -128 m 1xe0
+ 256 -128 l 1
+ 256 112 l 1xe0
+ 640 112 l 1
+ 640 1296 l 1xd0
+ 256 1296 l 1
  256 1536 l 1
- 768 1536 l 1
+ 896 1536 l 1
+ 896 -128 l 1xe0
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 EndChar

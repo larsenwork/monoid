@@ -3,7 +3,7 @@ Encoding: 57358 57358 596
 GlifName: s.alt
 Width: 1920
 VWidth: 0
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 134 110 m 0
@@ -48,4 +48,5 @@ EndSplineSet
 Fore
 Validated: 1
 Layer: 2
+Layer: 3
 EndChar

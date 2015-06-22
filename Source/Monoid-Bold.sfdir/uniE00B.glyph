@@ -3,7 +3,7 @@ Encoding: 57355 57355 498
 GlifName: dollar.alt
 Width: 1920
 VWidth: 0
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 640 -128 m 5xde
@@ -41,4 +41,5 @@ EndSplineSet
 Fore
 Validated: 1
 Layer: 2
+Layer: 3
 EndChar

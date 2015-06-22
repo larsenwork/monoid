@@ -4,25 +4,26 @@ GlifName: z
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<401 896> 904 120<276 731>
-LayerCount: 3
+HStem: 0 240<541 896> 784 240<276 591>
+LayerCount: 4
 Back
 Fore
 SplineSet
-276 904 m 1
+276 784 m 1
  276 1024 l 1
  876 1024 l 1
- 876 934 l 1
- 401 130 l 1
- 401 120 l 1
- 896 120 l 1
+ 876 814 l 1
+ 541 250 l 5
+ 541 240 l 5
+ 896 240 l 1
  896 0 l 1
  256 0 l 1
- 256 92 l 1
- 731 894 l 1
- 731 904 l 1
- 276 904 l 1
+ 256 212 l 1
+ 591 774 l 1
+ 591 784 l 1
+ 276 784 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 EndChar

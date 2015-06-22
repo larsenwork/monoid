@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<384 640> 1388 20G<-28 270.224 752.665 1052>
 VStem: 384 256<0 673.091>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 -202.232421875 1847.28710938 m 5
@@ -41,6 +41,7 @@ SplineSet
  297.447058824 1228.61169415 423.188694853 1004.54394531 507 851 c 5
  517 851 l 1
 EndSplineSet
+Validated: 524289
 Layer: 2
 SplineSet
 1024 1408 m 5
@@ -53,4 +54,5 @@ SplineSet
  0 1408 l 5
  1024 1408 l 5
 EndSplineSet
+Layer: 3
 EndChar

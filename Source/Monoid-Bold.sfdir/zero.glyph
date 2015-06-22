@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: -18 124<477.036 674.763> 1302 124<477.237 674.964>
 VStem: 253 124<415.309 1122.82> 775 124<285.178 992.691>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 740 241 m 5
@@ -57,6 +57,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 Substitution2: "'ss04' Style Set 4 lookup 4 subtable" zero.clear
 Substitution2: "'ss03' Style Set 3 lookup 3 subtable" zero.dot
 EndChar

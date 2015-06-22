@@ -3,10 +3,10 @@ Encoding: 117 117 21
 GlifName: u
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -16 240<443.5 595.614> 0 21G<640 896> 1004 20G<256 512 640 896>
 VStem: 256 256<259.317 1024> 640 256<0 62 259.317 1024>
-LayerCount: 3
+LayerCount: 4
 Back
 Fore
 SplineSet
@@ -28,5 +28,7 @@ SplineSet
  633 62 l 5
  596 15.078125 538 -16 481 -16 c 4xb8
 EndSplineSet
+Validated: 524289
 Layer: 2
+Layer: 3
 EndChar

@@ -4,22 +4,22 @@ GlifName: colon
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 256<384 640> 768 256<384 640>
-VStem: 384 256<0 256 768 1024>
+HStem: 0 240<384 640> 784 240<384 640>
+VStem: 384 256<0 240 784 1024>
 LayerCount: 5
 Back
 Fore
 SplineSet
-384 1024 m 5
- 640 1024 l 5
- 640 768 l 5
- 384 768 l 5
- 384 1024 l 5
-384 256 m 1
- 640 256 l 1
+384 240 m 1
+ 640 240 l 1
  640 0 l 1
  384 0 l 1
- 384 256 l 1
+ 384 240 l 1
+384 1024 m 5
+ 640 1024 l 5
+ 640 784 l 5
+ 384 784 l 5
+ 384 1024 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

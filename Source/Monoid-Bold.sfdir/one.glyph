@@ -6,7 +6,7 @@ VWidth: 0
 Flags: MW
 HStem: 0 21G<640 768>
 VStem: 640 128<0 1246>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 660 1408 m 1xa0
@@ -33,5 +33,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 Substitution2: "'ss05' Style Set 5 lookup 5 subtable" one.base
 EndChar

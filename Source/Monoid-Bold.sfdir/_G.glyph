@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: -16 240<506.846 764.766> 528 240<640 768> 1184 240<501.137 988.953>
 VStem: 112 248<391.904 1018.94> 640 384<528 768> 768 256<225.715 528>
-LayerCount: 3
+LayerCount: 4
 Back
 Fore
 SplineSet
@@ -30,7 +30,9 @@ SplineSet
  1024 768 l 5xf8
  1024 21 l 5xf4
 EndSplineSet
+Validated: 524289
 Layer: 2
+Layer: 3
 Substitution2: "'ss01' Style Set 1 lookup 1 subtable" G.retina
 Substitution2: "'ss01' Style Set 1 lookup 0 subtable" G.retina
 EndChar

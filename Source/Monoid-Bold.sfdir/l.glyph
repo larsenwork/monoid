@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: -16 240<668.946 896> 1388 20G<384 640>
 VStem: 384 256<245.847 1408>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 896 -11 m 1
@@ -37,6 +37,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Layer: 3
 Substitution2: "'ss10' Style Set 10 lookup 10 subtable" l.base
 Substitution2: "'ss06' Style Set 6 lookup 6 subtable" l.zstyle
 EndChar

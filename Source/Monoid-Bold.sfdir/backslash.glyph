@@ -4,16 +4,17 @@ GlifName: backslash
 Width: 1024
 VWidth: 0
 Flags: W
-LayerCount: 3
+LayerCount: 4
 Back
 Fore
 SplineSet
-914 -155 m 5
- 125 1510 l 5
- 238 1563 l 5
- 1027 -102 l 5
- 914 -155 l 5
+793.2109375 -196.705078125 m 29
+ 122.27734375 1519.27636719 l 29
+ 358.7890625 1604.70605469 l 29
+ 1029.72265625 -111.275390625 l 29
+ 793.2109375 -196.705078125 l 29
 EndSplineSet
-Validated: 1
+Validated: 524289
 Layer: 2
+Layer: 3
 EndChar

@@ -3,10 +3,10 @@ Encoding: 192 192 97
 GlifName: A_grave
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<105 246 906 1047> 384 120<348 804> 1005 147<549.152 602.848>
 VStem: 105 130<0 215.138> 917 130<0 215.077>
-LayerCount: 3
+LayerCount: 4
 Back
 Refer: 27 96 N 1 0 0 1 136.371 522 2
 Refer: 29 65 N 1 0 0 1 26 0 3
@@ -32,5 +32,7 @@ SplineSet
  498 1536 l 5
  664 1280 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
+Layer: 3
 EndChar
