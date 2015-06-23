@@ -276,7 +276,4 @@ SplineSet
  396.078125 13.0419921875 356.01171875 21.0537109375 316.209960938 29.7822265625 c 4
  278.29296875 38.099609375 240.326171875 47.4267578125 202.383789062 57.990234375 c 5
 EndSplineSet
-Substitution2: "'ss12' Style Set 12 lookup 12 subtable" s.retina
-Substitution2: "'ss01' Style Set 1 lookup 1 subtable" s.retina
-Substitution2: "'ss01' Style Set 1 lookup 0 subtable" s.retina
 EndChar
