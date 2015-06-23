@@ -8,25 +8,6 @@ HStem: -16 120<260.105 715.757> 920 120<420.944 881.877>
 VStem: 234 128<683.955 865.373> 800 128<188.193 426.634>
 LayerCount: 5
 Back
-SplineSet
-575 1040 m 7
- 693 1040 792 1023.18867925 886 1007 c 5
- 886 882 l 5
- 791 900.344827586 692 920 575 920 c 7
- 458 920 362 875 362 760 c 7
- 362 692 404 643 454 620 c 4
- 546 578 657 602 759 555 c 4
- 850 513 928 417 928 291 c 7
- 928 104 774 -16 576 -16 c 7
- 460 -16 358 -3.42857142857 256 6 c 5
- 256 128 l 5
- 356 118.181818182 466 104 576 104 c 7
- 704 104 800 170 800 291 c 7
- 800 367 757 422 703 447 c 4
- 613 489 500 466 398 512 c 4
- 311 551 234 640 234 760 c 7
- 234 946 388 1040 575 1040 c 7
-EndSplineSet
 Fore
 SplineSet
 567 -16 m 4
@@ -103,7 +84,4 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss12' Style Set 12 lookup 12 subtable" s.retina
-Substitution2: "'ss01' Style Set 1 lookup 1 subtable" s.retina
-Substitution2: "'ss01' Style Set 1 lookup 0 subtable" s.retina
 EndChar

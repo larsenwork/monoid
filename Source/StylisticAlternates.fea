@@ -1,7 +1,7 @@
-languagesystem DFLT dflt;
-languagesystem cyrl dflt;
-languagesystem grek dflt;
-languagesystem latn dflt;
+# languagesystem DFLT dflt;
+# languagesystem cyrl dflt;
+# languagesystem grek dflt;
+# languagesystem latn dflt;
 
 feature ss01 {
   sub [s B C D G H N U] by [s.retina B.retina C.retina D.retina G.retina H.retina N.retina U.retina];
@@ -49,3 +49,11 @@ feature ss10 {
 feature ss11 {
   sub dollar by dollar.empty;
 } ss11;
+
+# feature ss12 {
+#   sub s by s.retina;
+# } ss12;
+#
+# feature ss13 {
+#   sub [g y l] by [g.long y.long l.long];
+# } ss13;

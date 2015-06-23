@@ -53,6 +53,4 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss10' Style Set 10 lookup 10 subtable" l.base
-Substitution2: "'ss06' Style Set 6 lookup 6 subtable" l.zstyle
 EndChar

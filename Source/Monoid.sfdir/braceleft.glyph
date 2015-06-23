@@ -3,7 +3,7 @@ Encoding: 123 123 91
 GlifName: braceleft
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -144 120<714.696 896> 643 120<256 439.567> 1430 120<714.611 896>
 VStem: 512 128<50.4233 571.691 834.327 1355.6>
 CounterMasks: 1 e0
@@ -29,6 +29,7 @@ SplineSet
  640 823.343238377 598.156618151 752.277005345 481 708 c 5
  481 698 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 256 703 m 5

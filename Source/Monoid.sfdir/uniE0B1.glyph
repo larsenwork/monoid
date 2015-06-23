@@ -6,15 +6,20 @@ VWidth: 2048
 Flags: W
 LayerCount: 5
 Back
+SplineSet
+305 -84 m 5
+ 929 640 l 5
+ 305 1364 l 1029
+EndSplineSet
 Fore
 SplineSet
-107 1336 m 5
- 203 1431 l 5
- 1024 512 l 5
- 203 -407 l 5
- 107 -312 l 5
- 839 512 l 5
- 107 1336 l 5
+353 -61 m 5
+ 257 21 l 5
+ 846 704 l 5
+ 257 1387 l 5
+ 353 1469 l 5
+ 1012 704 l 5
+ 353 -61 l 5
 EndSplineSet
 Validated: 1
 Layer: 2
