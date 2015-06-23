@@ -64,20 +64,19 @@ def permutations():
         for opts in _expand_options(bitmap):
             yield(int(float(i)/bitmap_max*100), opts)
 
-def build(dstdir, srcdir, font):
+def _build(dstdir, font, permutations):
     # Ensure that the destination directory exists
     try:
         mkdir(dstdir)
     except OSError:
         pass
 
-    for prcnt, opts in permutations():
+    for prcnt, opts in permutations:
         # Open the original font
-        fnt = fontforge.open(join(srcdir, font))
+        fnt = fontforge.open(font)
 
         # Get the base name for the font
-        base = fnt.fontname.split('-')[0]
-        name = join(dstdir, base)
+        name = join(dstdir, fnt.fontname)
 
         for opt in opts:
             # Append this option to the font name
@@ -93,8 +92,15 @@ def build(dstdir, srcdir, font):
         fnt.generate(name)
         fnt.close()
 
-        # Log progress to prevent Wercker from timing out
+        # Log progress to prevent timeoout
         print(str(prcnt) + '%.. ' + name)
+
+def build(dstdir, font):
+    _build(dstdir, font, permutations())
+
+def build_batch(dstdir, font, total_nodes, node_number):
+    # Starting at (i) node_number, build option every (n) total_nodes
+    _build(dstdir, font, list(permutations())[node_number::total_nodes])
 
 # Operations
 ## NOTE:
