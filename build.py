@@ -31,17 +31,17 @@ conflicting(
     option('xtralarge', '17px', Line(1792, 384))
 )
 
-# SS01
+# ss01
 option('dollar', 'Alt $', Swap("dollar", "dollar.empty"))
-# SS02
+# ss02
 option('asterisk', 'Alt asterisk', Swap("asterisk", "asterisk.multi"))
-# SS03
+# ss03
 option('0', 'Alt 0', Swap("zero", "zero.dot"))
-# SS05
+# ss05
 option('1', 'Alt 1', Swap("one", "one.base"))
-# SS06
+# ss06
 option('3', 'Alt 3', Swap("three", "three.russian"))
-# SS08
+# ss08
 option('l', 'Alt l', Swap("l", "l.zstyle"))
 
 for font in fonts:
