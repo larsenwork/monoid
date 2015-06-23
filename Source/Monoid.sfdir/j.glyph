@@ -74,6 +74,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss13' Style Set 13 lookup 13-1" j.lifted
+Substitution2: "'ss13' Style Set 13 lookup 13-1" j.long
 Substitution2: "'ss09' Style Set 9 lookup 9 subtable" j.flyingdot
 EndChar
