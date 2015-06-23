@@ -26,9 +26,9 @@ test:
         parallel: true
     - cp _release/Monoid.ttf /tmp/monoid-normal.ttf
     - git checkout release
-    - git rm -f *.ttf.zip
     - git remote set-url origin "git@github.com:larsenwork/monoid.git"
     - git clean -fdx || cd _release; ./Scripts/prepare_release.sh
     - git add .
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
+    - ./Scripts/gh-pages.sh

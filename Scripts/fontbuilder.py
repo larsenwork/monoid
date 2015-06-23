@@ -123,14 +123,38 @@ def Bearing(left=0, right=0):
                 glyph.right_side_bearing += right
     return bearing_op
 
-DEL = 127
 def Swap(glyph1, glyph2):
-    """Swaps the places of two glyphs using the DEL char as swap space"""
+    """Swaps the places of two glyphs"""
     def swap_op(fnt):
         # Unlike selections, glyph layer data is returned as a copy
         swp = fnt[glyph1].foreground
         fnt[glyph1].foreground = fnt[glyph2].foreground
         fnt[glyph2].foreground = swp
+    return swap_op
+
+def SwapLookup(lookup):
+    """Swaps the places of glyphs based on an OpenType lookup table"""
+    def swaplookup_op(fnt):
+        # Get every subtable for every matching lookup
+        lookups = [i for i in fnt.gsub_lookups if fnt.getLookupInfo(i)[2][0][0] == lookup]
+        subtables = []
+        for lookup in lookups:
+            for subtable in f.getLookupSubtables(lookup):
+                subtables.append(subtable)
+
+        for glyph in fnt.glyphs():
+            subbed = False
+
+            for subtable in subtables:
+                posSub = glyph.getPosSub(subtable)
+                if not subbed and posSub and posSub[0][1] == "Substitution":
+                    subbed = True # Don't double tap if there are duplicates
+
+                    sub = posSub[0][2]
+                    swp = glyph.foreground
+                    glyph.foreground = fnt[sub].foreground
+                    fnt[sub].foreground = swp
+
     return swap_op
 
 def Variation(name):
