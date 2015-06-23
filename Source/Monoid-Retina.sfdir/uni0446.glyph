@@ -1,0 +1,31 @@
+StartChar: uni0446
+Encoding: 1094 1094 372
+GlifName: uni0446
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 768> 1004 20G<256 384 768 896>
+VStem: 256 128<120 1024> 768 128<120 1024> 896 128<-256 0>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1xe8
+ 256 1024 l 1
+ 384 1024 l 1
+ 384 120 l 1
+ 768 120 l 1
+ 768 1024 l 1
+ 896 1024 l 1
+ 896 120 l 1xf0
+ 1024 120 l 1
+ 1024 -256 l 1
+ 896 -256 l 1
+ 896 0 l 1
+ 256 0 l 1xe8
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

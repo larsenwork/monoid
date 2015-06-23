@@ -1,5 +1,5 @@
 StartChar: NameMe.674
-Encoding: 1114174 -1 675
+Encoding: 1114174 -1 674
 Width: 1024
 VWidth: 0
 Flags: W
@@ -24,7 +24,7 @@ SplineSet
  393.631178707 755.074807481 468.874524715 487.867986799 592 243 c 1
  602 243 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Layer: 2
 Layer: 3
 EndChar

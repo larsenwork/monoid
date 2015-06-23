@@ -46,13 +46,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-128 768 m 5
- 128 1536 l 5
- 256 1536 l 5
- 256 888 l 5
- 640 888 l 5
- 640 768 l 5
- 128 768 l 5
+128 768 m 1
+ 128 1536 l 1
+ 256 1536 l 1
+ 256 888 l 1
+ 640 888 l 1
+ 640 768 l 1
+ 128 768 l 1
 640 -128 m 1
  512 -128 l 1
  512 640 l 1
@@ -67,7 +67,6 @@ SplineSet
  640 350 l 1
  640 -128 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

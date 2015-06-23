@@ -30,4 +30,6 @@ SplineSet
  708 1200 673 1235 673 1287 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'ss11' Style Set 11 lookup 10 subtable" j.long
+Substitution2: "'ss07' Style Set 7 lookup 6 subtable" j.flyingdot
 EndChar

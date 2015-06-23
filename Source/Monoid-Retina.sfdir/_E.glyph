@@ -1,0 +1,31 @@
+StartChar: E
+Encoding: 69 69 33
+GlifName: E_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<320 960> 648 120<320 832> 1288 120<320 960>
+VStem: 192 128<120 648 768 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+192 1408 m 1
+ 960 1408 l 1
+ 960 1288 l 1
+ 320 1288 l 1
+ 320 768 l 1
+ 832 768 l 1
+ 832 648 l 1
+ 320 648 l 1
+ 320 120 l 1
+ 960 120 l 1
+ 960 0 l 1
+ 192 0 l 1
+ 192 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

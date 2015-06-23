@@ -1,0 +1,43 @@
+StartChar: Wcircumflex
+Encoding: 372 372 209
+GlifName: W_circumflex
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<257 388.019 763.981 895>
+VStem: 116 131<736.711 1152> 905 131<736.711 1152>
+LayerCount: 5
+Back
+Fore
+SplineSet
+497 1536 m 1
+ 655 1536 l 1
+ 952 1280 l 1
+ 794 1280 l 1
+ 576 1444 l 1
+ 358 1280 l 1
+ 200 1280 l 1
+ 497 1536 l 1
+514 768 m 1
+ 638 768 l 1
+ 812 190 l 1
+ 822 190 l 1
+ 887 480 905 824 905 1152 c 1
+ 1036 1152 l 1
+ 1036 766 988 382 895 2 c 1
+ 770 0 l 1
+ 581 628 l 1
+ 571 628 l 1
+ 382 0 l 1
+ 257 2 l 1
+ 164 382 116 766 116 1152 c 1
+ 247 1152 l 1
+ 247 824 266 480 330 190 c 1
+ 340 190 l 1
+ 514 768 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

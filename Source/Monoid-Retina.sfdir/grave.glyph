@@ -1,0 +1,27 @@
+StartChar: grave
+Encoding: 96 96 27
+GlifName: grave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 384
+VStem: 359 304
+LayerCount: 5
+Back
+Fore
+SplineSet
+663 1024 m 1
+ 525 1024 l 1
+ 359 1408 l 1
+ 497 1408 l 1
+ 663 1024 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+216 1603 m 5
+ 576 768 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

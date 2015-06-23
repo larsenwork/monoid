@@ -1,7 +1,7 @@
+languagesystem latn dflt;
 languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
-languagesystem latn dflt;
 
 feature liga {
   sub a c e b o o k I c o n by facebook;

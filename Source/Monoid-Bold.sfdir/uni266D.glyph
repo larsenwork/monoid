@@ -4,8 +4,8 @@ GlifName: uni266D_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 920 120<461.353 714.293>
-VStem: 256 128<119 850.648 944 1536> 800 128<479.252 830.429>
+HStem: 920 120<456.221 716.352>
+VStem: 256 128<119 850.648 944 1536> 800 128<471.065 832.652>
 LayerCount: 4
 Back
 SplineSet
@@ -54,7 +54,6 @@ SplineSet
  384 119 l 1
  597 190 800 396 800 680 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

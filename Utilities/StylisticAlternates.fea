@@ -4,7 +4,7 @@ languagesystem cyrl dflt;
 languagesystem grek dflt;
 
 feature ss01 {
-  sub [s B C D G H N U] by [s.retina B.retina C.retina D.retina G.retina H.retina N.retina U.retina];
+  sub dollar by dollar.empty;
 } ss01;
 
 feature ss02 {
@@ -24,36 +24,30 @@ feature ss05 {
 } ss05;
 
 feature ss06 {
-  sub l by l.zstyle;
+  sub three by three.russian;
 } ss06;
 
 feature ss07 {
-  sub three by three.russian;
+  sub i by i.flyingdot;
+  sub j by j.flyingdot;
 } ss07;
 
 feature ss08 {
-  sub w by w.straight;
-  sub W by W.straight;
+  sub l by l.zstyle;
 } ss08;
 
 feature ss09 {
-  sub i by i.flyingdot;
-  sub j by j.flyingdot;
+  sub l by l.base;
+  sub r by r.base;
 } ss09;
 
 feature ss10 {
-  sub r by r.base;
-  sub l by l.base;
+  sub w by w.straight;
+  sub W by W.straight;
 } ss10;
 
 feature ss11 {
-  sub dollar by dollar.empty;
+  sub j by j.long;
+  sub g by g.long;
+  sub y by y.long;
 } ss11;
-
-# feature ss12 {
-#   sub s by s.retina;
-# } ss12;
-#
-# feature ss13 {
-#   sub [g y l] by [g.long y.long l.long];
-# } ss13;

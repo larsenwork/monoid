@@ -4,17 +4,15 @@ GlifName: uniE_0B_2
 Width: 1024
 VWidth: 2048
 Flags: W
-HStem: 1388 20G<1004 1024>
 LayerCount: 4
 Back
 Fore
 SplineSet
-1024 1408 m 5
- 1024 -384 l 5
- 128 512 l 5
- 1024 1408 l 5
+1024 1664 m 5
+ 1024 -256 l 5
+ 128 704 l 5
+ 1024 1664 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

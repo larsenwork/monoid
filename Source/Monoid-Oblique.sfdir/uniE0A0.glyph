@@ -1,10 +1,9 @@
 StartChar: uniE0A0
 Encoding: 57504 57504 598
 GlifName: uniE_0A_0
-Width: 1024
+Width: 1920
 VWidth: 2048
-Flags: W
-HStem: 1388 20G<258.1 518>
+Flags: H
 LayerCount: 2
 Back
 SplineSet
@@ -40,30 +39,4 @@ SplineSet
   EndSpiro
 EndSplineSet
 Fore
-SplineSet
-169 -384 m 5
- -87 -384 l 5
- -38 -133 l 6
- -28 -82 -17 -27 7 29 c 4
- 58 150 157 242 261 300 c 4
- 439 398 654 421 740 629 c 4
- 757 670 767 717 777 766 c 6
- 827 1024 l 5
- 669 1024 l 5
- 970 1428 l 5
- 1113 1024 l 5
- 955 1024 l 5
- 905 766 l 6
- 896 720 886 670 866 619 c 4
- 801 447 655 346 526 268 c 4
- 405 195 303 130 251 -7 c 4
- 236 -46 227 -88 218 -133 c 6
- 169 -384 l 5
-347 532 m 5
- 260 491 163 445 59 367 c 5
- 262 1408 l 5
- 518 1408 l 5
- 347 532 l 5
-EndSplineSet
-Validated: 1
 EndChar

@@ -1,5 +1,5 @@
 StartChar: C.retina
-Encoding: 1114164 -1 665
+Encoding: 1114164 -1 664
 Width: 1024
 VWidth: 0
 Flags: W
@@ -25,7 +25,7 @@ SplineSet
  412.493609712 317.52769125 474.787234043 224 613 224 c 4
  724.501385042 224 849.459833795 243.085714286 960 261 c 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 Layer: 2
 Layer: 3
 EndChar

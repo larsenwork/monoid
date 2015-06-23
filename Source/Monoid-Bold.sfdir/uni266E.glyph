@@ -48,20 +48,19 @@ Fore
 SplineSet
 512 854 m 1
  512 460 l 1
- 768 546 l 5
+ 768 546 l 1
  768 940 l 1
  512 854 l 1
-896 1109 m 5
- 896 0 l 5
+896 1109 m 1
+ 896 0 l 1
  768 0 l 1
  768 420 l 1
  384 292 l 1
  384 1408 l 1
  512 1408 l 1
  512 980 l 1
- 896 1109 l 5
+ 896 1109 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar
