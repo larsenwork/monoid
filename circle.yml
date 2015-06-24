@@ -24,11 +24,12 @@ test:
     - git config --global user.name "CircleCI Bot"
     - for file in ./Source/Monoid*.sfdir; do ./Scripts/parallel_build.sh $file; done:
         parallel: true
-    - cp _release/Monoid.ttf /tmp/monoid-normal.ttf
+    - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
     - git checkout release
     - git remote set-url origin "git@github.com:larsenwork/monoid.git"
-    - git clean -fdx || cd _release; ./Scripts/prepare_release.sh
-    - git add .
+    - git rm -f ./*.zip || echo "No releases"
+    - cd _release && ../Scripts/prepare_release.sh && cd .. && sudo rm -rf _release
+    - git add ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push origin release
     - ./Scripts/gh-pages.sh
