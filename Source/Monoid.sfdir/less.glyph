@@ -18,17 +18,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-932 200 m 1
- 861 99 l 1
- 256 528 l 1
- 256 624 l 1
- 861 1053 l 1
- 932 952 l 1
- 401 581 l 1
- 401 571 l 1
- 932 200 l 1
+389 571 m 5
+ 900 95 l 5
+ 814 5 l 5
+ 256 531 l 5
+ 256 621 l 5
+ 814 1147 l 5
+ 900 1057 l 5
+ 389 581 l 5
+ 389 571 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 896 150 m 5
