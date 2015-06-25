@@ -1,0 +1,6 @@
+general:
+    branches:
+        ignore:
+            - gh-pages
+            - release
+            - release-template

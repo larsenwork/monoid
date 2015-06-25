@@ -1,4 +1,5 @@
-# Ignore all but .ttf.zip and this file
+# Ignore all but .zip, circle.yml, and this file
 *
+!circle.yml
 !.gitignore
-!*.ttf.zip
+!*.zip
