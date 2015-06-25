@@ -7,7 +7,7 @@ machine:
     - docker
 checkout:
   post:
-    - git fetch origin release:release
+    - git fetch -f origin release:release
     # Check if there were any changes in the Source directory since the last release
     - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
 dependencies:
