@@ -1039,10 +1039,10 @@ option.permutations = [[]]
           insertTextAtCursor('\t'); // insert tab
         }
       });
-      var FontName = "https://raw.githubusercontent.com/larsenwork/monoid/release/Monoid.ttf.zip?raw=true";
+      var FontName = "https://cdn.rawgit.com/larsenwork/monoid/release/Monoid.ttf.zip";
 
       function refreshFeatures() {
-        FontName = "https://raw.githubusercontent.com/larsenwork/monoid/release/Monoid";
+        FontName = "https://cdn.rawgit.com/larsenwork/monoid/release/Monoid";
         var FontFeature = "";
         if ($("#tight").is(":checked")) {
           $('.code').css("letter-spacing", "-0.06666666667em");
@@ -1106,12 +1106,12 @@ option.permutations = [[]]
           FontFeature += '"ss08" ,';
           FontName += '-l'
         }
-        FontName += '.ttf.zip?raw=true'
+        FontName += '.ttf.zip'
         FontFeature = FontFeature.substring(0, FontFeature.length - 2);
         $('body').css("font-feature-settings", FontFeature);
       };
 
-      $('form').on("click touch", function(e) {
+      $('form').on("click touch", function() {
         refreshFeatures();
       });
 
