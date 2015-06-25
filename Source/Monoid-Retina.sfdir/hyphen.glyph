@@ -4,18 +4,17 @@ GlifName: hyphen
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<128 1024>
+HStem: 516 120<192 960>
 LayerCount: 5
 Back
 Fore
 SplineSet
-128 636 m 1
- 1024 636 l 1
- 1024 516 l 1
- 128 516 l 1
- 128 636 l 1
+192 636 m 5
+ 960 636 l 5
+ 960 516 l 5
+ 192 516 l 5
+ 192 636 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
