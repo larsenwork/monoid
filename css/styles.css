@@ -36,9 +36,6 @@ body {
 * {
   box-sizing: border-box;
 }
-input {
-  display: none;
-}
 .default, section {
   -webkit-font-feature-settings: "liga" 1;
   font-feature-settings: "liga" 1;
@@ -82,7 +79,7 @@ h1 {
 h2 {
   font-size: 2em;
   color: #434343;
-  margin: 43px 0 0px -1px;
+  margin: 22px 0 14px -1px;
 }
 h3 {
   font-size: 6vmin;
@@ -125,28 +122,39 @@ header * {
   background-color: white;
 }
 
-/* 6*26*8/14=89.14vmin */
-
 .loaded #h1load {
   width: 0;
   -webkit-transition: width 360ms steps(6, end) 100ms;
   transition: width 360ms steps(6, end) 100ms;
 }
 
-/* 24*6*8/14=78.86 */
+/* TAG-LINE width
+
+   h3 font-size x ( advance width / UPM ) x number of characters
+
+   6vmin x (1024 / 1920) x 23 = 73.6
+*/
+
+/* TAG-LINE right margin
+
+   ( h1 font-size x ( advance width / UPM ) x number of characters - TAG-LINE width ) / 2
+
+   ( 26vmin x (1024 / 1920) x 6 - 73.6 ) / 2 = 4.8
+
+*/
 
 #h3load {
   position: absolute;
   top: -10%;
-  right: 5.14vmin;
-  width: 82.29vmin;
+  right: 4.8vmin;
+  width: 73.6vmin;
   height: 120%;
   background-color: white;
 }
 .loaded #h3load {
   width: 0;
-  -webkit-transition: width 720ms steps(24, end) 470ms;
-  transition: width 720ms steps(24, end) 470ms;
+  -webkit-transition: width 720ms steps(23, end) 470ms;
+  transition: width 720ms steps(23, end) 470ms;
 }
 
 /*
@@ -191,7 +199,9 @@ CONTENT */
 /*
 
 SETTINGS */
-
+input {
+  display: none;
+}
 .clickme, .clickme2, .tabs span, #themechooser span, #letterspacing span, #teaser, input + label {
   color: rgba(83, 83, 83, 0.5);
 }
@@ -225,7 +235,7 @@ label, .clickme, .clickme2, #themechooser span, #letterspacing span, .tabs span 
   background-color: #446fbd;
   color: white;
   padding: 2px 12px 3px 11px;
-  margin-top: 8px;
+  margin-top: 18px;
   margin-right: 2px;
   line-height: 32px;
   -webkit-transition: 0.2s ease;
@@ -437,8 +447,7 @@ pre {
   transition: max-height 0s .4s;
 }
 code {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 5vw 0;
   overflow-y: hidden !important;
   opacity: 0;
   visibility: hidden;
@@ -537,17 +546,33 @@ RESPONSIVE */
     max-width: 500px;
   }
   pre code {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .blabla {
-    padding: 0 5px;
+    padding: 0 10px;
   }
   .blabla section {
     padding: 0;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 501px) and (max-width: 900px) {
+  .blabla > section {
+    width: auto;
+    max-width: 900px;
+  }
+  pre code {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .blabla {
+    padding: 0 20px;
+  }
+  .blabla section {
+    padding: 0;
+  }
+}
+@media (min-width: 901px) {
   pre code {
     padding-left: 40px;
     padding-right: 40px;
@@ -575,8 +600,8 @@ RESPONSIVE */
   display: none;
 }
 
-/*
-#grid {
+
+/*#grid {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAYCAIAAAC0rgCNAAAABnRSTlMAAAAAAABupgeRAAAADUlEQVR4AWOgKXj9GgADIQHXhV5mogAAAABJRU5ErkJggg==);
     background-repeat: repeat;
     display: block;
@@ -586,5 +611,4 @@ RESPONSIVE */
     left: 0;
     right: 0;
     pointer-events: none;
-}
-*/
+}*/
