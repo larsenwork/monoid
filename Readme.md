@@ -1,12 +1,13 @@
 <table>
     <tr>
-        <td colspan="4"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="5"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
-        <td><a href="http://larsenwork.com/monoid/">larsenwork.com/monoid</a></td>
-        <td><a href="#font_log">Font Log</a></td>
+        <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
+        <td><a href="#font_log">FontLog</a></td>
         <td><a href="#guidelines">Guidelines</a></td>
-        <td><a href="#license">Licenses</a></td>
+        <td><a href="#links">Links</a></td>
+        <td><a href="#license">License</a></td>
     </tr>
 </table>
 
@@ -90,19 +91,25 @@
     <tr>
         <td>0.34</td>
         <td>2015.06.17</td>
-        <td>Obliques + opdated metrics (note that default font-size is now 15px)</td>
+        <td>Updated metrics (note that default font-size is now 15px)</td>
         <td>Andreas</td>
     </tr>
     <tr>
-        <td>0.35</td>
+        <td>0.40</td>
         <td>2015.xx.xx</td>
-        <td>Ligatures</td>
+        <td>Black, Bold, Oblique and retina version (basic letters)</td>
         <td></td>
     </tr>
     <tr>
-        <td>0.4</td>
+        <td>0.50</td>
         <td>2015.xx.xx</td>
-        <td>Bold version (basic letters)</td>
+        <td>Complete other weights</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0.55</td>
+        <td>2015.xx.xx</td>
+        <td>Contextual alternates and ligatures</td>
         <td></td>
     </tr>
     <tr>
@@ -117,6 +124,17 @@
 ##Guidelines
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
+
+<a name="links"></a>
+##Links
+This is where I'll put the video with the talk about Monoid once I've made it. Some of the links mentioned:
+
+* [FontForge](fontforge.github.io) - Free Font Editor
+* [Design With FontForge](designwithfontforge.com) - Ebook to get you started with type designing
+* [Cloudflare](cloudflare.com) - Cache, minification and no 302
+* [RawGit](https://rawgit.com) - Serve download files with proper Content-Type headers
+* [ WWDC Talk](developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
+* [Ligatures & Coding Font](medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
 
 <a name="license"></a>
 ##Licenses
