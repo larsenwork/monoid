@@ -1,5 +1,5 @@
-languagesystem latn dflt;
 languagesystem DFLT dflt;
+languagesystem latn dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
 
