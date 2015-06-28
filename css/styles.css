@@ -321,7 +321,7 @@ label[for=ss08] {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
+  top: 0;
   background-color: hsl(339, 48%, 50%);
   color: white;
   text-align: center;
@@ -329,8 +329,8 @@ label[for=ss08] {
   padding: 0 10px;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: 0.4s ease 3s;
-  transition: 0.4s ease 3s;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 .alert p {
   margin-bottom: 10px;
@@ -347,6 +347,8 @@ noscript a {
   color: white;
 }
 .safari #safari {
+  -webkit-transition: 1s ease 3s;
+  transition: 1s ease 3s;
   opacity: 1;
   visibility: visible;
 }
