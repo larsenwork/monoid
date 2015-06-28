@@ -23,7 +23,7 @@ dependencies:
     - docker pull colman/py-fontforge
 test:
   override:
-    - for file in ./Source/Monoid.sfdir; do . Scripts/parallel_build.sh $file; done:
+    - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
         parallel: true
     - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
     - cp Scripts/*.sh /tmp
