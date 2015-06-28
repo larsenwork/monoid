@@ -129,12 +129,12 @@ Remember to update the Font Log when you make contributions.
 ##Links
 This is where I'll put the video with the talk about Monoid once I've made it. Some of the links mentioned:
 
-* [FontForge](fontforge.github.io) - Free Font Editor
-* [Design With FontForge](designwithfontforge.com) - Ebook to get you started with type designing
-* [Cloudflare](cloudflare.com) - Cache, minification and no 302
+* [FontForge](https://fontforge.github.io) - Free Font Editor
+* [Design With FontForge](https://designwithfontforge.com) - Ebook to get you started with type designing
+* [Cloudflare](https://cloudflare.com) - Cache, minification and no 302
 * [RawGit](https://rawgit.com) - Serve download files with proper Content-Type headers
-* [ WWDC Talk](developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
-* [Ligatures & Coding Font](medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
+* [ WWDC Talk](https://developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
+* [Ligatures & Coding Font](https://medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
 
 <a name="license"></a>
 ##Licenses
