@@ -2,7 +2,13 @@
 *.py[co]
 __pycache__/
 
-# Wercker
+# Build byproducts
 _release/
+node_modules/
+woff2/
 
+# OS X file metadata
 .DS_Store
+
+# Vim swap
+*.swp

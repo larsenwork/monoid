@@ -1,18 +1,21 @@
 #!/usr/bin/env python2.7
 # vim: sts=4 sw=4 ts=4 et
 
+import sys
+if len(sys.argv) < 4:
+    usage = """Build should be run with 3 arguments:
+
+    First: The total possible number of parallel processes (1+)
+    Second: The parallel batch number (0+)
+    Third: The .sfdir for the font
+    """
+    print >> sys.stderr, usage
+    exit(1)
+
 from fontbuilder import *
 
-# Configuration
-## Source directory
-source = "Source"
-
-## Output directory
+# Output directory
 output = "_release"
-
-## Fonts to modify
-## To be added when the script supports it + the fonts are done 'Monoid-Oblique.sfdir', 'Monoid-Bold.sfdir'
-fonts = ['Monoid.sfdir']
 
 # Options to generate
 conflicting(
@@ -44,5 +47,5 @@ option('3', 'Alt 3', Swap("three", "three.russian"))
 # ss08
 option('l', 'Alt l', Swap("l", "l.zstyle"))
 
-for font in fonts:
-    build(output, source, font)
+# Build options in 
+build_batch(output, sys.argv[3], int(sys.argv[1]), int(sys.argv[2]))

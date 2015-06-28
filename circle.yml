@@ -7,35 +7,29 @@ machine:
     - docker
 checkout:
   post:
+    - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
     - git fetch -f origin release:release
     # Check if there were any changes in the Source directory since the last release
     - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
+    - git config --global user.email "chase+circleci@colman.io"
+    - git config --global user.name "CircleCI Bot"
 dependencies:
-  override:
-    - sudo apt-get install g++
+  cache_directories:
+    - woff2
+    - node_modules
+  pre:
+    - "[[ ! -d woff2 ]] && ./Scripts/woff2.sh || echo 'Using cached woff2_compress'"
+    - "[[ ! -d node_modules ]] && npm install ttf2woff ttf2eot || echo 'Using cached ttf2woff'"
     - docker pull colman/py-fontforge
 test:
   override:
-    - git config --global user.email "chase+circleci@colman.io"
-    - git config --global user.name "CircleCI Bot"
-    - docker run -v `pwd`:/data colman/py-fontforge ./build.py
-    - cp _release/Monoid.ttf /tmp/monoid-normal.ttf
+    - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
+        parallel: true
+    - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
+    - cp Scripts/*.sh /tmp
     - git checkout release
-    - git rm -f *.ttf.zip
-    - git remote set-url origin "git@github.com:larsenwork/monoid.git"
-    - git clean -fdx || cd _release; for f in *.ttf; do zip -j "../$f.zip" "$f"; done
-    - git add .
+    - . /tmp/prepare_release.sh
+    - git add ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
-    - git push origin release
-    - git checkout gh-pages
-    - git branch -D release
-    - git rm -rf _release
-    - npm install ttf2woff ttf2eot
-    - ./node_modules/.bin/ttf2eot /tmp/monoid-normal.ttf /tmp/monoid-normal.eot
-    - ./node_modules/.bin/ttf2woff /tmp/monoid-normal.ttf /tmp/monoid-normal.woff
-    - git clone https://github.com/google/woff2.git /tmp/woff2
-    - cd /tmp/woff2 && git submodule init && git submodule update && make all && /tmp/woff2/woff2_compress /tmp/monoid-normal.ttf
-    - cp /tmp/monoid-normal.* css/
-    - git add css
-    - git commit -m "Update web fonts for ${CIRCLE_SHA1}"
-    - git push origin gh-pages
+    - git push -f origin release
+    - . /tmp/gh-pages.sh
