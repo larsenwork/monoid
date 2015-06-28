@@ -2,7 +2,6 @@ StartChar: s.retina
 Encoding: 1114162 -1 656
 Width: 1920
 VWidth: 0
-Flags: H
 LayerCount: 2
 Back
 SplineSet
@@ -29,4 +28,5 @@ SplineSet
  277.883789062 946 450.155273438 1040 637.155273438 1040 c 7
 EndSplineSet
 Fore
+Validated: 1
 EndChar

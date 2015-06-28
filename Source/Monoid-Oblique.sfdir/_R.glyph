@@ -4,8 +4,8 @@ GlifName: R_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<116 247.875 787.355 925> 640 120<392 674> 1288 120<494 898.016>
-VStem: 977 131<929.94 1212.67>
+HStem: 0 21G<116 247.875 787.355 925> 640 120<392 674> 1288 120<494 903.969>
+VStem: 977 131<926.944 1217.11>
 LayerCount: 2
 Back
 Fore
@@ -32,5 +32,4 @@ SplineSet
  392 760 l 5
  585 760 l 6
 EndSplineSet
-Validated: 1
 EndChar

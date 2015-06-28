@@ -3,7 +3,6 @@ Encoding: 57504 57504 598
 GlifName: uniE_0A_0
 Width: 1920
 VWidth: 2048
-Flags: H
 LayerCount: 2
 Back
 SplineSet
@@ -39,4 +38,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Fore
+Validated: 1
 EndChar
