@@ -10,4 +10,4 @@ for f in Monoid-Regular*.ttf; do
     zip -j "../Monoid${options%.ttf}.zip" Monoid-+([^-])$options
 done
 cd ..
-#sudo rm -rf _release
+sudo rm -rf _release

@@ -7,9 +7,12 @@ machine:
     - docker
 checkout:
   post:
+    - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
     - git fetch -f origin release:release
     # Check if there were any changes in the Source directory since the last release
     - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
+    - git config --global user.email "chase+circleci@colman.io"
+    - git config --global user.name "CircleCI Bot"
 dependencies:
   cache_directories:
     - woff2
@@ -20,15 +23,13 @@ dependencies:
     - docker pull colman/py-fontforge
 test:
   override:
-    - git config --global user.email "chase+circleci@colman.io"
-    - git config --global user.name "CircleCI Bot"
     - for file in ./Source/Monoid.sfdir; do . Scripts/parallel_build.sh $file; done:
         parallel: true
     - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
-    - . Scripts/prepare_release.sh
+    - cp Scripts/*.sh /tmp
     - git checkout release
+    - . /tmp/prepare_release.sh
     - git add ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
-    - git remote set-url origin "git@github.com:chase/monoid.git"
     - git push -f origin release
-    - . Scripts/gh-pages.sh
+    - . /tmp/gh-pages.sh
