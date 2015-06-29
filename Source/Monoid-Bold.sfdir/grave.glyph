@@ -4,19 +4,18 @@ GlifName: grave
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1024 384
-VStem: 359 304
+HStem: 1024 384<535 635>
+VStem: 369 422
 LayerCount: 4
 Back
 Fore
 SplineSet
-663 1024 m 1
- 525 1024 l 1
- 359 1408 l 1
- 497 1408 l 1
- 663 1024 l 1
+791 1024 m 5
+ 535 1024 l 1
+ 369 1408 l 1
+ 635 1408 l 1
+ 791 1024 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

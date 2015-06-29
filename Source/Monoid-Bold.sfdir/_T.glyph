@@ -4,23 +4,22 @@ GlifName: T_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<384 640> 1168 240<0 384 640 1024>
-VStem: 384 256<0 1168>
+HStem: 0 21G<448 704> 1168 240<128 448 704 1024>
+VStem: 448 256<0 1168>
 LayerCount: 4
 Back
 Fore
 SplineSet
-1024 1408 m 5
- 1024 1168 l 5
- 640 1168 l 5
- 640 0 l 5
- 384 0 l 5
- 384 1168 l 5
- 0 1168 l 5
- 0 1408 l 5
- 1024 1408 l 5
+1024 1408 m 1
+ 1024 1168 l 1
+ 704 1168 l 1
+ 704 0 l 1
+ 448 0 l 1
+ 448 1168 l 1
+ 128 1168 l 5
+ 128 1408 l 5
+ 1024 1408 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

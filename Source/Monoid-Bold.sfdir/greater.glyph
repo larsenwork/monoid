@@ -4,21 +4,21 @@ GlifName: greater
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: -17 21G<280 321.21>
 LayerCount: 4
 Back
 Fore
 SplineSet
-220 200 m 5
- 751 571 l 5
- 751 581 l 5
- 220 952 l 5
- 291 1053 l 5
- 896 624 l 5
- 896 528 l 5
- 291 99 l 5
- 220 200 l 5
+635 645 m 5
+ 124 1121 l 5
+ 300 1297 l 5
+ 896 735 l 5
+ 896 545 l 5
+ 300 -17 l 5
+ 124 159 l 5
+ 635 635 l 5
+ 635 645 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar
