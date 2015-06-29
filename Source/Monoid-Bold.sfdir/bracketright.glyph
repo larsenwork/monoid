@@ -10,17 +10,16 @@ LayerCount: 4
 Back
 Fore
 SplineSet
-896 -128 m 1xe0
+256 1536 m 5xe0
+ 896 1536 l 1
+ 896 -128 l 1
  256 -128 l 1
  256 112 l 1xe0
  640 112 l 1
  640 1296 l 1xd0
  256 1296 l 1
- 256 1536 l 1
- 896 1536 l 1
- 896 -128 l 1xe0
+ 256 1536 l 5xe0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

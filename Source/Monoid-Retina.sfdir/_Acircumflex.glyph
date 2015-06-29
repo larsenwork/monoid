@@ -3,7 +3,7 @@ Encoding: 194 194 98
 GlifName: A_circumflex
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<105 246 906 1047> 384 120<348 804> 1005 147<549.152 602.848>
 VStem: 105 130<0 215.138> 917 130<0 215.077>
 LayerCount: 5
