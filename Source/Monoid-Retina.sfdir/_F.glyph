@@ -3,7 +3,7 @@ Encoding: 70 70 34
 GlifName: F_
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21G<192 320> 640 120<320 832> 1288 120<320 960>
 VStem: 192 128<0 640 760 1288>
 LayerCount: 5
