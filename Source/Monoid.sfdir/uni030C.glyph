@@ -5,6 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 1280 256
+AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore
@@ -18,7 +19,6 @@ SplineSet
  655 1280 l 1
  497 1280 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

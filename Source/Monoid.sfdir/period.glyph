@@ -4,8 +4,8 @@ GlifName: period
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 256<384 640>
-VStem: 384 256<0 256>
+HStem: 0 240<384 640>
+VStem: 384 256<0 240>
 LayerCount: 5
 Back
 Fore
@@ -16,7 +16,6 @@ SplineSet
  384 0 l 1
  384 240 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

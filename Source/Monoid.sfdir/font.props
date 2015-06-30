@@ -4,7 +4,7 @@ FullName: Monoid Regular
 FamilyName: Monoid
 Weight: Regular
 Copyright: Copyright (c) 2015, @larsenwork
-Version: 0.345
+Version: 0.35
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1435598120
+ModificationTime: 1435657705
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -63,10 +63,10 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Monoid is dual licensed w
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 19 19 6
+WinInfo: 1044 29 5
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate
@@ -263,4 +263,5 @@ Grid
   Named: "1"
 EndSplineSet
 TeXData: 1 0 0 599186 299593 199728 599186 1048576 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "bottom" "" "top" "" 
 EndSplineFont

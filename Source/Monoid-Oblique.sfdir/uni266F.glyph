@@ -4,7 +4,7 @@ GlifName: uni266F_
 Width: 1024
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 192 832 m 5
@@ -54,4 +54,5 @@ SplineSet
  734 546 l 5
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

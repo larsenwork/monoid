@@ -4,8 +4,8 @@ GlifName: cent
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -7 111<462.335 512 640 890.895>
-VStem: 224 128<227.927 793.572> 512 128<-256 -16 1040 1280>
+HStem: -7 111<457.14 512 640 890.895>
+VStem: 224 128<223.82 797.642> 512 128<-256 -16 1040 1280>
 LayerCount: 5
 Back
 SplineSet
@@ -49,7 +49,6 @@ SplineSet
  388 16 309 98 267 193 c 0
  226 286 224 391 224 512 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

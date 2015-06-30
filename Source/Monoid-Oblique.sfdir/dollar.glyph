@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: 1304 120<580.357 753>
 VStem: 281 130<864.758 1140.65> 867 130<283.681 574.4>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -39,5 +39,6 @@ SplineSet
  520 104 l 1
 EndSplineSet
 Validated: 1
+Layer: 2
 Substitution2: "'ss01' Style Set 1 lookup 0 subtable" dollar.empty
 EndChar

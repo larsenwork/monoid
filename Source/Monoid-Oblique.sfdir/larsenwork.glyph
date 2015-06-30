@@ -4,8 +4,9 @@ GlifName: larsenwork
 Width: 1024
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Validated: 1
+Layer: 2
 EndChar

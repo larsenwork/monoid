@@ -4,8 +4,9 @@ GlifName: uni0306
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1264 120<425.835 726.165>
+HStem: 1264 120<420.418 731.582>
 VStem: 236 128<1441.88 1536> 788 128<1441.88 1536>
+AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore
@@ -18,7 +19,6 @@ SplineSet
  364 1450 433 1384 576 1384 c 0
  719 1384 788 1450 788 1536 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

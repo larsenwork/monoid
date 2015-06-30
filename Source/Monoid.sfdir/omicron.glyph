@@ -4,8 +4,9 @@ GlifName: omicron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<453.486 698.514> 920 120<453.486 698.514>
-VStem: 224 128<221.199 802.801> 800 128<221.199 802.801>
+HStem: -16 120<449.014 702.986> 920 120<449.014 702.986>
+VStem: 224 128<213.2 810.8> 800 128<213.2 810.8>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 5
 Back
 Fore
@@ -29,7 +30,6 @@ SplineSet
  800 614 798 714 768 789 c 0
  736 868 672 920 576 920 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -4,8 +4,8 @@ GlifName: L_dot
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<384 1024> 720 224<616.237 791.763> 1388 20G<256 384>
-VStem: 256 128<120 1408> 592 224<744.237 919.763>
+HStem: 0 120<384 1024> 720 224<614.609 793.391> 1388 20G<256 384>
+VStem: 256 128<120 1408> 592 224<742.609 921.391>
 LayerCount: 5
 Back
 Fore
@@ -23,7 +23,6 @@ SplineSet
  1024 0 l 1
  256 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

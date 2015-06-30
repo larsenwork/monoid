@@ -4,7 +4,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 120<139.325 395.325 523.325 756> 904 120<315.046 547.72> 920 120<820.792 1063.95>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -29,4 +29,5 @@ SplineSet
  116 0 l 5xa0
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

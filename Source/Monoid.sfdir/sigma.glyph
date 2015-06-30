@@ -4,8 +4,8 @@ GlifName: sigma
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<453.486 698.514> 904 120<847 1024> 920 120<453.486 845.551>
-VStem: 224 128<221.199 802.801> 800 128<221.199 802.707>
+HStem: -16 120<449.014 702.986> 904 120<847 1024> 920 120<449.014 857.641>
+VStem: 224 128<213.2 810.8> 800 128<213.2 809.008>
 LayerCount: 5
 Back
 Fore
@@ -32,7 +32,6 @@ SplineSet
  1024 904 l 1
  847 904 l 1xd8
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

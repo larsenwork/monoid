@@ -4,29 +4,13 @@ GlifName: imacron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 904 120<256 512> 1288 120<256 896>
-VStem: 512 128<120 904>
+HStem: 0 21G<576 704> 904 120<320 576> 1156 120<320 960>
+VStem: 576 128<0 904>
 LayerCount: 5
 Back
 Fore
-SplineSet
-256 1408 m 1
- 896 1408 l 1
- 896 1288 l 1
- 256 1288 l 1
- 256 1408 l 1
-256 0 m 1
- 256 120 l 1
- 512 120 l 1
- 512 904 l 1
- 256 904 l 1
- 256 1024 l 1
- 640 1024 l 1
- 640 120 l 1
- 896 120 l 1
- 896 0 l 1
- 256 0 l 1
-EndSplineSet
+Refer: 297 772 N 1 0 0 1 64 -128 2
+Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Layer: 2
 Layer: 3

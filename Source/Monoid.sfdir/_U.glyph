@@ -4,8 +4,9 @@ GlifName: U_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<411.882 740.041> 1388 20G<128 256 896 1024>
+HStem: -16 120<409.11 742.813> 1388 20G<128 256 896 1024>
 VStem: 128 128<260.614 1408> 896 128<260.614 1408>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 5
 Back
 Fore
@@ -26,7 +27,6 @@ SplineSet
  128 371 128 426 128 512 c 2
  128 1408 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 576 812 m 4

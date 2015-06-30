@@ -7,7 +7,7 @@ Flags: W
 HStem: -16 120<137.231 584.091> 644 120<393 681.106> 1304 120<389.64 791.446>
 VStem: 741 130<270.926 584.644> 851 129<938.434 1247.01>
 CounterMasks: 1 e0
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -34,5 +34,6 @@ SplineSet
  472 1410 566 1424 673 1424 c 0xe8
 EndSplineSet
 Validated: 1
+Layer: 2
 Substitution2: "'ss06' Style Set 6 lookup 5 subtable" three.russian
 EndChar

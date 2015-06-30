@@ -4,7 +4,7 @@ GlifName: quoteright
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 880 120<384 477.023> 1388 20G<512 640>
+HStem: 880 120<384 480.514> 1388 20G<512 640>
 VStem: 512 128<1046.74 1408>
 LayerCount: 5
 Back
@@ -20,7 +20,6 @@ SplineSet
  640 1408 l 1
  640 1175 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -4,7 +4,7 @@ GlifName: greater2
 Width: 1024
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 507 571 m 5
@@ -30,4 +30,5 @@ SplineSet
  -9 200 l 5
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

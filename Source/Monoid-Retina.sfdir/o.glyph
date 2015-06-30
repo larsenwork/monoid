@@ -4,8 +4,10 @@ GlifName: o
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<453.374 698.626> 920 120<453.374 698.626>
-VStem: 224 128<220.08 803.92> 800 128<220.08 803.92>
+HStem: -16 120<449.655 702.345> 920 120<449.655 702.345>
+VStem: 224 128<213.685 810.315> 800 128<213.685 810.315>
+AnchorPoint: "bottom" 576 0 basechar 0
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 5
 Back
 Fore

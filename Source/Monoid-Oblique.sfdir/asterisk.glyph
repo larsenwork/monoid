@@ -5,7 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 1004 20G<413.478 459.675 883.543 929.761>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -27,5 +27,6 @@ SplineSet
  513 522 l 5
 EndSplineSet
 Validated: 1
+Layer: 2
 Substitution2: "'ss02' Style Set 2 lookup 1 subtable" asterisk.multi
 EndChar

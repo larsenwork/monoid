@@ -3,10 +3,10 @@ Encoding: 165 165 430
 GlifName: yen
 Width: 1024
 VWidth: 0
-Flags: MW
-HStem: 0 21G<512 640> 384 120<256 512 640 896> 648 120<256 396 756 896>
-VStem: 113 125<1275.87 1408> 512 128<0 384 504 630> 914 125<1275.87 1408>
-CounterMasks: 1 1c
+Flags: W
+HStem: 0 21G<512 640> 384 120<256 512 640 896> 648 120<256 396 756 896> 1388 20G<113 270.5 881.5 1039>
+VStem: 113 125<1264.2 1408> 512 128<0 384 504 630> 914 125<1264.2 1408>
+CounterMasks: 1 0e
 LayerCount: 5
 Back
 Fore
@@ -39,7 +39,6 @@ SplineSet
  396 768 l 1
  245 970 163 1185 113 1408 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

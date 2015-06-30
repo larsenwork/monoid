@@ -4,9 +4,9 @@ GlifName: asciicircum
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1299 109<630 738.055>
-VStem: 850 135<896 1095.18>
-LayerCount: 2
+HStem: 1299 109<620.917 741.295>
+VStem: 850 135<896 1103.32>
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -21,4 +21,5 @@ SplineSet
  235 896 l 5
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

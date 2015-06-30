@@ -6,6 +6,8 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<128 256 885.119 1024> 1388 20G<128 265.898 896 1024>
 VStem: 128 128<0 1158> 896 128<250 1408>
+AnchorPoint: "bottom" 576 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 5
 Back
 Fore
@@ -24,7 +26,6 @@ SplineSet
  256 1158 l 1
  256 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 192 0 m 5

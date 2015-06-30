@@ -4,8 +4,8 @@ GlifName: period
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 256<384 640>
-VStem: 384 256<0 256>
+HStem: 0 240<384 640>
+VStem: 384 256<0 240>
 LayerCount: 5
 Back
 Fore

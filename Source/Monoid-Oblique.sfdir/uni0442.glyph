@@ -4,8 +4,7 @@ GlifName: uni0442
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<372 503.894> 904 120<187 548 676 1060>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -20,4 +19,5 @@ SplineSet
  1083 1024 l 5
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

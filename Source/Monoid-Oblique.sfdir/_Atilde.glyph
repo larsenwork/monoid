@@ -3,10 +3,10 @@ Encoding: 195 195 99
 GlifName: A_tilde
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<-175 -20.5 637 768> 384 120<166 622> 1284 120<630.927 757.096> 1412 120<382.729 508.704>
 VStem: 640 130<0 370.327>
-LayerCount: 2
+LayerCount: 3
 Back
 Refer: 94 126 N 1 0 0 1 0 1036 2
 Refer: 29 65 N 1 0 0 1 0 0 3
@@ -38,5 +38,5 @@ SplineSet
  887 1395 803 1284 674 1284 c 0
  528 1284 519 1412 442 1412 c 0
 EndSplineSet
-Validated: 1
+Layer: 2
 EndChar

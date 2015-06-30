@@ -6,7 +6,7 @@ VWidth: 0
 Flags: MW
 HStem: -272 120<131.398 512.192> 112 120<357.076 554.667> 920 120<473.067 706.758>
 VStem: 176.169 130.601<282.369 671.785>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -37,6 +37,7 @@ SplineSet
  667.163085938 252.923828125 l 5
  595.4296875 167.530273438 509.12109375 112 421.770507812 112 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
+Layer: 2
 Substitution2: "'ss11' Style Set 11 lookup 10 subtable" g.long
 EndChar

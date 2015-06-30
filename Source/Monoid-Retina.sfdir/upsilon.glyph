@@ -4,8 +4,9 @@ GlifName: upsilon
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<456.484 695.516> 1004 20G<256 384 768 896>
-VStem: 256 128<177.593 1024> 768 128<177.593 1024>
+HStem: -16 120<450.341 701.659> 1004 20G<256 384 768 896>
+VStem: 256 128<171.731 1024> 768 128<171.731 1024>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 5
 Back
 SplineSet

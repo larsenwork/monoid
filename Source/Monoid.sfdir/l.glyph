@@ -4,8 +4,10 @@ GlifName: l
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<672.999 896> 1388 20G<512 640>
+HStem: -16 120<670.604 896> 1388 20G<512 640>
 VStem: 512 128<149.787 1408>
+AnchorPoint: "bottom" 704 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 5
 Back
 Fore
@@ -22,7 +24,6 @@ SplineSet
  810 104 860 106 896 109 c 1
  896 -11 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 768 428 m 4

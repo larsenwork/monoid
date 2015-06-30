@@ -6,7 +6,7 @@ VWidth: 0
 Flags: W
 HStem: -16 120<370.219 588.781> 920 120<544.564 732.967> 1388 20G<386.105 518>
 VStem: 786 133<472.239 862.397>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -35,4 +35,5 @@ SplineSet
  506 991 591 1040 674 1040 c 4
 EndSplineSet
 Validated: 1
+Layer: 2
 EndChar

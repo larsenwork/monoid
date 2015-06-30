@@ -95,6 +95,12 @@
         <td>Andreas</td>
     </tr>
     <tr>
+        <td>0.35</td>
+        <td>2015.06.30</td>
+        <td>Regular + retina version greatly improved. Oblique 80% done and bold(black) has basic latin.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
         <td>0.40</td>
         <td>2015.xx.xx</td>
         <td>Black, Bold, Oblique and retina version (basic letters)</td>

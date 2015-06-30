@@ -4,8 +4,9 @@ GlifName: uni0306
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1264 120<425.835 726.165>
+HStem: 1264 120<420.418 731.582>
 VStem: 236 128<1441.88 1536> 788 128<1441.88 1536>
+AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back
 Fore

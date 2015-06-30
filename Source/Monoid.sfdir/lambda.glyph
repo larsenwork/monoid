@@ -4,8 +4,8 @@ GlifName: lambda
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<204 365 788 948> 1304 120<256 447.574>
-VStem: 204 131<0 175.693> 817 131<0 185.444>
+HStem: 0 21G<204 365 788 948> 1304 120<256 451.753>
+VStem: 204 131<0 190.286> 817 131<0 201.927>
 LayerCount: 5
 Back
 Fore
@@ -25,7 +25,6 @@ SplineSet
  817 0 l 1
  759 307 696 610 608 909 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
