@@ -1,5 +1,5 @@
 StartChar: Ncaron
-Encoding: 327 327 242
+Encoding: 327 327 240
 GlifName: N_caron
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 192 256<0 798 1367.65 1408> 704 256<0 43.598 610 1408>
 LayerCount: 4
 Back
 Fore
-Refer: 303 780 N 1 0 0 1 0 256 2
+Refer: 301 780 N 1 0 0 1 0 256 2
 Refer: 41 78 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

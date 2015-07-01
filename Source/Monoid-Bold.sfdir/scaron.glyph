@@ -1,5 +1,5 @@
 StartChar: scaron
-Encoding: 353 353 268
+Encoding: 353 353 266
 GlifName: scaron
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 234 256<637.729 788.93> 672 256<240.35 391.308>
 LayerCount: 4
 Back
 Fore
-Refer: 303 780 N 1 0 0 1 0 -128 2
+Refer: 301 780 N 1 0 0 1 0 -128 2
 Refer: 19 115 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

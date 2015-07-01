@@ -1,5 +1,5 @@
 StartChar: uni0419
-Encoding: 1049 1049 328
+Encoding: 1049 1049 326
 GlifName: uni0419
 Width: 1024
 VWidth: 0
@@ -32,8 +32,8 @@ SplineSet
  497 1280 l 5
 EndSplineSet
 Fore
-Refer: 298 774 N 1 0 0 1 0 256 2
-Refer: 327 1048 N 1 0 0 1 0 0 3
+Refer: 296 774 N 1 0 0 1 0 256 2
+Refer: 325 1048 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
 EndChar

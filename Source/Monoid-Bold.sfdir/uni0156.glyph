@@ -1,15 +1,15 @@
 StartChar: uni0156
-Encoding: 342 342 257
+Encoding: 342 342 255
 GlifName: uni0156
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -387 272<526.5 622.335> 0 21G<128 384 785.86 1065> 520 240<384 607> 1168 240<384 708.552>
 VStem: 128 256<0 520 760 1168> 526.5 198<-192.998 -115> 784 256<835.423 1093.64>
 LayerCount: 4
 Back
 Fore
-Refer: 306 806 N 1 0 0 1 84.5 13 2
+Refer: 304 806 N 1 0 0 1 84.5 13 2
 Refer: 45 82 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

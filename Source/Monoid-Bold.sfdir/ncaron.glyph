@@ -1,5 +1,5 @@
 StartChar: ncaron
-Encoding: 328 328 243
+Encoding: 328 328 241
 GlifName: ncaron
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 256 256<0 764.683 962 1024> 640 256<0 764.683>
 LayerCount: 4
 Back
 Fore
-Refer: 303 780 N 1 0 0 1 0 -128 2
+Refer: 301 780 N 1 0 0 1 0 -128 2
 Refer: 14 110 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

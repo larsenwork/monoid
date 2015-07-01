@@ -1,15 +1,15 @@
 StartChar: uni020F
-Encoding: 527 527 453
+Encoding: 527 527 451
 GlifName: uni020F_
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 240.085<513.265 638.735> 799.915 240.085<513.265 638.735> 1244 180<443.617 708.383>
 VStem: 224 255.782<254.48 769.52> 672.218 255.782<254.48 769.52>
 LayerCount: 4
 Back
 Fore
-Refer: 675 785 N 1 0 0 1 0 -128 2
+Refer: 673 785 N 1 0 0 1 0 -128 2
 Refer: 15 111 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

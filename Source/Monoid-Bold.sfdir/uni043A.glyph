@@ -1,11 +1,12 @@
 StartChar: uni043A
-Encoding: 1082 1082 361
+Encoding: 1082 1082 359
 GlifName: uni043A_
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<256 512 716.538 1002> 1004 20G<256 512 668.786 955>
 VStem: 256 256<0 255 697 1024>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back
 SplineSet
@@ -25,19 +26,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-512 0 m 5
- 256 0 l 5
- 256 1024 l 5
- 512 1024 l 5
- 512 697 l 5
- 679 1024 l 5
- 955 1024 l 5
- 728 581 l 5
- 1002 0 l 5
- 726 0 l 5
- 559 353 l 5
- 512 255 l 5
- 512 0 l 5
+512 0 m 1
+ 256 0 l 1
+ 256 1024 l 1
+ 512 1024 l 1
+ 512 697 l 1
+ 679 1024 l 1
+ 955 1024 l 1
+ 728 581 l 1
+ 1002 0 l 1
+ 726 0 l 1
+ 559 353 l 1
+ 512 255 l 1
+ 512 0 l 1
 EndSplineSet
 Layer: 2
 Layer: 3

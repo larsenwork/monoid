@@ -1,5 +1,5 @@
 StartChar: rcaron
-Encoding: 345 345 260
+Encoding: 345 345 258
 GlifName: rcaron
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 256 256<0 704.166 915 1024>
 LayerCount: 4
 Back
 Fore
-Refer: 303 780 N 1 0 0 1 0 -128 2
+Refer: 301 780 N 1 0 0 1 0 -128 2
 Refer: 18 114 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

@@ -1,5 +1,5 @@
 StartChar: etatonos
-Encoding: 942 942 539
+Encoding: 942 942 537
 GlifName: etatonos
 Width: 1024
 VWidth: 0
@@ -9,8 +9,8 @@ VStem: 256 256<0 764.683 962 1024> 530.5 281 640 256<-384 764.691>
 LayerCount: 4
 Back
 Fore
-Refer: 554 900 N 1 0 0 1 26.5 24 2
-Refer: 490 951 N 1 0 0 1 0 0 3
+Refer: 552 900 N 1 0 0 1 26.5 24 2
+Refer: 488 951 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
 EndChar

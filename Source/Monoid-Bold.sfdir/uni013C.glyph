@@ -1,5 +1,5 @@
 StartChar: uni013C
-Encoding: 316 316 281
+Encoding: 316 316 279
 GlifName: uni013C_
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 384 256<245.847 1408> 570 198<-205.998 -128>
 LayerCount: 4
 Back
 Fore
-Refer: 306 806 N 1 0 0 1 128 0 2
+Refer: 304 806 N 1 0 0 1 128 0 2
 Refer: 12 108 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

@@ -1,5 +1,5 @@
 StartChar: uni0216
-Encoding: 534 534 460
+Encoding: 534 534 458
 GlifName: uni0216
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 128 256<303.02 1408> 768 256<303.02 1408>
 LayerCount: 4
 Back
 Fore
-Refer: 675 785 N 1 0 0 1 0 256 2
+Refer: 673 785 N 1 0 0 1 0 256 2
 Refer: 48 85 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

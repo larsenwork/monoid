@@ -1,28 +1,22 @@
 StartChar: Lcaron
-Encoding: 317 317 276
+Encoding: 317 317 274
 GlifName: L_caron
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: 0 120<384 1024> 1024 21G<768 896> 1388 20G<256 384 768 896>
-VStem: 256 128<120 1408> 768 128<1024 1408>
+Flags: W
+HStem: 0 240<448 1024> 1024 384<768 1024> 1388 20G<192 448>
+VStem: 192 256<240 1408> 768 256<1024 1408>
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 0 m 1
- 256 1408 l 1
- 384 1408 l 1
- 384 120 l 1
- 1024 120 l 1
- 1024 0 l 1
- 256 0 l 1
-768 1408 m 1
- 896 1408 l 1
- 896 1024 l 1
- 768 1024 l 1
- 768 1408 l 1
+768 1408 m 5xd8
+ 1024 1408 l 5
+ 1024 1024 l 5
+ 768 1024 l 5
+ 768 1408 l 5xd8
 EndSplineSet
+Refer: 40 76 N 1 0 0 1 0 0 2
 Layer: 2
 Layer: 3
 EndChar

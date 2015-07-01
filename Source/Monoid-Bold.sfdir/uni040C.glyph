@@ -1,5 +1,5 @@
 StartChar: uni040C
-Encoding: 1036 1036 404
+Encoding: 1036 1036 402
 GlifName: uni040C_
 Width: 1024
 VWidth: 0
@@ -9,8 +9,8 @@ VStem: 128 256<0 479 858 1408> 439.5 408
 LayerCount: 4
 Back
 Fore
-Refer: 294 769 N 1 0 0 1 -8.5 259 2
-Refer: 329 1050 N 1 0 0 1 0 0 3
+Refer: 292 769 N 1 0 0 1 -8.5 259 2
+Refer: 327 1050 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
 EndChar

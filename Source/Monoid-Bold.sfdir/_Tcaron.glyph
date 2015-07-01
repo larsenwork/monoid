@@ -1,5 +1,5 @@
 StartChar: Tcaron
-Encoding: 356 356 286
+Encoding: 356 356 284
 GlifName: T_caron
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 448 256<0 1168>
 LayerCount: 4
 Back
 Fore
-Refer: 303 780 N 1 0 0 1 0 259 2
+Refer: 301 780 N 1 0 0 1 0 259 2
 Refer: 47 84 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

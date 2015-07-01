@@ -1,5 +1,5 @@
 StartChar: uni0400
-Encoding: 1024 1024 391
+Encoding: 1024 1024 389
 GlifName: uni0400
 Width: 1024
 VWidth: 0
@@ -9,8 +9,8 @@ VStem: 256 256<240 588 828 1168> 360 408
 LayerCount: 4
 Back
 Fore
-Refer: 293 768 N 1 0 0 1 64 256 2
-Refer: 324 1045 N 1 0 0 1 0 0 3
+Refer: 291 768 N 1 0 0 1 64 256 2
+Refer: 322 1045 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
 EndChar

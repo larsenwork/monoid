@@ -3,13 +3,13 @@ Encoding: 211 211 118
 GlifName: O_acute
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 240<470.193 681.807> 1184 240<470.193 681.807> 1539 256<609 685>
 VStem: 112 256.045<355.825 1052.18> 467 408 783.955 256.045<355.825 1052.18>
 LayerCount: 4
 Back
 Fore
-Refer: 294 769 N 1 0 0 1 19 259 2
+Refer: 292 769 N 1 0 0 1 19 259 2
 Refer: 42 79 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

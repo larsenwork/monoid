@@ -3,9 +3,10 @@ Encoding: 101 101 5
 GlifName: e
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 240<503.465 891.106> 392 220<481 672> 800 240<502.698 649.445>
 VStem: 224 257<246.604 392 612 783.973> 672 256<612 780.735>
+AnchorPoint: "bottom" 576 0 basechar 0
 AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back

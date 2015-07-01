@@ -3,9 +3,10 @@ Encoding: 73 73 37
 GlifName: I_
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 240<192 448 704 960> 1168 240<192 448 704 960>
 VStem: 448 256<240 1168>
+AnchorPoint: "bottom" 576 0 basechar 0
 AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
@@ -17,12 +18,12 @@ SplineSet
  704 240 l 1
  960 240 l 1
  960 0 l 1
- 192 0 l 5
- 192 240 l 5
+ 192 0 l 1
+ 192 240 l 1
  448 240 l 1
  448 1168 l 1
- 192 1168 l 5
- 192 1408 l 5
+ 192 1168 l 1
+ 192 1408 l 1
  960 1408 l 1
 EndSplineSet
 Layer: 2

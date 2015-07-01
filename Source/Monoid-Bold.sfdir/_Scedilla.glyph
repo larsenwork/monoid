@@ -1,5 +1,5 @@
 StartChar: Scedilla
-Encoding: 350 350 265
+Encoding: 350 350 263
 GlifName: S_cedilla
 Width: 1024
 VWidth: 0
@@ -28,7 +28,7 @@ SplineSet
  1010 143 825 -16 576 -16 c 4
 EndSplineSet
 Fore
-Refer: 307 807 N 1 0 0 1 128 -1 2
+Refer: 305 807 N 1 0 0 1 128 -1 2
 Refer: 46 83 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

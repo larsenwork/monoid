@@ -1,5 +1,5 @@
 StartChar: uni0457
-Encoding: 1111 1111 398
+Encoding: 1111 1111 396
 GlifName: uni0457
 Width: 1024
 VWidth: 0
@@ -9,7 +9,7 @@ VStem: 274 284<1192.3 1401.7> 512 256<0 784> 722 284<1192.3 1401.7>
 LayerCount: 4
 Back
 Fore
-Refer: 300 776 N 1 0 0 1 64 -113 2
+Refer: 298 776 N 1 0 0 1 64 -113 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

@@ -1,30 +1,30 @@
 StartChar: uni0438
-Encoding: 1080 1080 359
+Encoding: 1080 1080 357
 GlifName: uni0438
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 393.664 768 896> 1004 20G<256 384 759.31 896>
-VStem: 256 128<250 1024> 768 128<0 774>
+HStem: 0 21G<256 478.27 640 896> 1004 20G<256 512 674.813 896>
+VStem: 256 256<510 1024> 640 256<0 504>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-768 0 m 5
- 768 774 l 5
- 758 774 l 5
- 384 0 l 5
- 256 0 l 5
- 256 1024 l 5
- 384 1024 l 5
- 384 250 l 5
- 394 250 l 5
- 769 1024 l 5
- 896 1024 l 5
- 896 0 l 5
- 768 0 l 5
+640 0 m 1
+ 640 504 l 1
+ 630 504 l 1
+ 472 0 l 1
+ 256 0 l 1
+ 256 1024 l 1
+ 512 1024 l 1
+ 512 510 l 5
+ 522 510 l 5
+ 681 1024 l 1
+ 896 1024 l 1
+ 896 0 l 1
+ 640 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni040D
-Encoding: 1037 1037 403
+Encoding: 1037 1037 401
 GlifName: uni040D_
 Width: 1024
 VWidth: 0
@@ -9,8 +9,8 @@ VStem: 128 256<510 1408> 296 408 768 256<0 898>
 LayerCount: 4
 Back
 Fore
-Refer: 293 768 N 1 0 0 1 0 256 2
-Refer: 327 1048 N 1 0 0 1 0 0 3
+Refer: 291 768 N 1 0 0 1 0 256 2
+Refer: 325 1048 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
 EndChar

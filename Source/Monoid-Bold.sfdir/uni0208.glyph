@@ -1,15 +1,15 @@
 StartChar: uni0208
-Encoding: 520 520 446
+Encoding: 520 520 444
 GlifName: uni0208
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 240<192 448 704 960> 1168 240<192 448 704 960> 1536 256
 VStem: 448 256<240 1168>
 LayerCount: 4
 Back
 Fore
-Refer: 435 783 N 1 0 0 1 0 256 2
+Refer: 433 783 N 1 0 0 1 0 256 2
 Refer: 37 73 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
