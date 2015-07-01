@@ -4,19 +4,19 @@ GlifName: acutecomb
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1280 256
-VStem: 488 304
+HStem: 1280 256<590 666>
+VStem: 448 408
+AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-488 1280 m 1
- 654 1536 l 1
- 792 1536 l 1
- 626 1280 l 1
- 488 1280 l 1
+448 1280 m 5
+ 590 1536 l 5
+ 856 1536 l 5
+ 666 1280 l 5
+ 448 1280 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

@@ -4,7 +4,7 @@ GlifName: uni02B_B_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1024 21G<512 640> 1432 120<674.977 768>
+HStem: 1024 21G<512 640> 1432 120<671.486 768>
 VStem: 512 128<1024 1385.26>
 LayerCount: 4
 Back
@@ -20,7 +20,6 @@ SplineSet
  512 1024 l 1
  512 1257 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

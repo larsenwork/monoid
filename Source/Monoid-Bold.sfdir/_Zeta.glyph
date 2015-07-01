@@ -4,26 +4,26 @@ GlifName: Z_eta
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<293 1024> 1288 120<148 839>
+HStem: 0 240<423 1024> 1168 240<148 709>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-148 1288 m 1
+148 1168 m 1
  148 1408 l 1
  1004 1408 l 1
- 1004 1318 l 1
- 293 130 l 1
- 293 120 l 1
- 1024 120 l 1
+ 1004 1198 l 1
+ 423 250 l 1
+ 423 240 l 1
+ 1024 240 l 1
  1024 0 l 1
  128 0 l 1
- 128 92 l 1
- 839 1278 l 1
- 839 1288 l 1
- 148 1288 l 1
+ 128 212 l 1
+ 709 1158 l 1
+ 709 1168 l 1
+ 148 1168 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

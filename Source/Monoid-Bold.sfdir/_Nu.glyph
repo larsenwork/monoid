@@ -4,27 +4,27 @@ GlifName: N_u
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<128 256 885.119 1024> 1388 20G<128 265.898 896 1024>
-VStem: 128 128<0 1158> 896 128<250 1408>
+HStem: 0 21G<128 384 759.67 1024> 1388 20G<128 391.352 768 1024>
+VStem: 128 256<0 898> 768 256<510 1408>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 0 m 1
+384 0 m 1
  128 0 l 1
  128 1408 l 1
- 255 1408 l 1
- 886 250 l 1
- 896 250 l 1
- 896 1408 l 1
+ 383 1408 l 1
+ 758 510 l 1
+ 768 510 l 1
+ 768 1408 l 1
  1024 1408 l 1
  1024 0 l 1
- 896 0 l 1
- 266 1158 l 1
- 256 1158 l 1
- 256 0 l 1
+ 768 0 l 1
+ 394 898 l 1
+ 384 898 l 1
+ 384 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

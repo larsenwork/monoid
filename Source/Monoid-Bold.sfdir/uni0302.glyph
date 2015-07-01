@@ -4,21 +4,21 @@ GlifName: uni0302
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1280 256
+HStem: 1280 256<427 448 704 725>
+AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-497 1536 m 1
- 655 1536 l 1
- 952 1280 l 1
- 794 1280 l 1
- 576 1444 l 1
- 358 1280 l 1
- 200 1280 l 1
- 497 1536 l 1
+427 1536 m 5
+ 725 1536 l 5
+ 952 1280 l 5
+ 704 1280 l 5
+ 576 1394 l 5
+ 448 1280 l 5
+ 200 1280 l 5
+ 427 1536 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

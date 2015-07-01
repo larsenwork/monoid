@@ -4,24 +4,22 @@ GlifName: brokenbar
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1024 21G<512 640>
-VStem: 512 128<-128 384 1024 1536>
+VStem: 448 256<-256 384 896 1536>
 LayerCount: 4
 Back
 Fore
 SplineSet
-640 384 m 1
- 640 -128 l 1
- 512 -128 l 1
- 512 384 l 1
- 640 384 l 1
-640 1536 m 1
- 640 1024 l 1
- 512 1024 l 1
- 512 1536 l 1
- 640 1536 l 1
+704 384 m 5
+ 704 -256 l 5
+ 448 -256 l 5
+ 448 384 l 5
+ 704 384 l 5
+704 1536 m 5
+ 704 896 l 5
+ 448 896 l 5
+ 448 1536 l 5
+ 704 1536 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

@@ -4,25 +4,24 @@ GlifName: uni03D_C_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 384> 640 120<384 896> 1288 120<384 1024>
-VStem: 256 128<0 640 760 1288>
+HStem: 0 21G<256 512> 580 240<512 896> 1168 240<512 1024>
+VStem: 256 256<0 580 820 1168>
 LayerCount: 4
 Back
 Fore
 SplineSet
 256 1408 m 1
  1024 1408 l 1
- 1024 1288 l 1
- 384 1288 l 1
- 384 760 l 1
- 896 760 l 1
- 896 640 l 1
- 384 640 l 1
- 384 0 l 1
+ 1024 1168 l 1
+ 512 1168 l 1
+ 512 820 l 5
+ 896 820 l 5
+ 896 580 l 1
+ 512 580 l 1
+ 512 0 l 1
  256 0 l 1
  256 1408 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

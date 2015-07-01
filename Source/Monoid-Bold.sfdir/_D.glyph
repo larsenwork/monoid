@@ -6,6 +6,7 @@ VWidth: 0
 Flags: W
 HStem: 0 240<384 647.068> 1168 240<384 647.068>
 VStem: 128 256<240 1168> 784 256<401.061 1006.94>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 SplineSet
@@ -47,7 +48,6 @@ SplineSet
  624 240 688 301 727 368 c 4
  772 444 784 558 784 704 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar
