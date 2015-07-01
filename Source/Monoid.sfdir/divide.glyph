@@ -3,7 +3,7 @@ Encoding: 247 247 154
 GlifName: divide
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 112 224<486.609 665.391> 516 120<128 1024> 816 224<486.609 665.391>
 VStem: 464 224<134.609 313.391 838.609 1017.39>
 CounterMasks: 1 e0
