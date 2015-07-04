@@ -7,19 +7,20 @@ Flags: W
 HStem: 0 21G<448 704> 1168 240<128 448 704 1024>
 VStem: 448 256<0 1168>
 AnchorPoint: "bottom" 576 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-1024 1408 m 1
- 1024 1168 l 1
- 704 1168 l 1
- 704 0 l 1
- 448 0 l 1
- 448 1168 l 1
- 128 1168 l 1
- 128 1408 l 1
- 1024 1408 l 1
+1024 1408 m 5
+ 1024 1168 l 5
+ 704 1168 l 5
+ 704 0 l 5
+ 448 0 l 5
+ 448 1168 l 5
+ 128 1168 l 5
+ 128 1408 l 5
+ 1024 1408 l 5
 EndSplineSet
 Layer: 2
 Layer: 3

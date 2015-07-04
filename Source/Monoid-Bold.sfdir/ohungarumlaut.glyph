@@ -3,7 +3,7 @@ Encoding: 337 337 250
 GlifName: ohungarumlaut
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -16 240.085<513.265 638.735> 799.915 240.085<513.265 638.735> 1152 256<408 474 792 858>
 VStem: 224 255.782<254.48 769.52> 672.218 255.782<254.48 769.52>
 LayerCount: 4

@@ -3,9 +3,8 @@ Encoding: 775 775 297
 GlifName: uni0307
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: MW
 HStem: 1268 284<471.304 680.696>
-VStem: 434 284<1305.3 1514.7>
 AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 4
 Back

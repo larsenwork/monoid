@@ -7,7 +7,6 @@ Flags: W
 HStem: 0 240<384 647.068> 584 240<384 576> 1168 240<384 647.012>
 VStem: 128 256<240 584 824 1168> 784 256<401.109 1006.89>
 CounterMasks: 1 e0
-AnchorPoint: "top" 512 1408 basechar 0
 LayerCount: 4
 Back
 Fore

@@ -3,9 +3,9 @@ Encoding: 304 304 232
 GlifName: I_dotaccent
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 240<192 448 704 960> 1168 240<192 448 704 960> 1524 284<471.304 680.696>
-VStem: 434 284<1561.3 1770.7> 448 256<240 1168>
+VStem: 448 256<240 1168>
 LayerCount: 4
 Back
 Fore

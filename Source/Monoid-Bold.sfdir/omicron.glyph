@@ -6,7 +6,6 @@ VWidth: 0
 Flags: W
 HStem: -16 240.085<513.265 638.735> 799.915 240.085<513.265 638.735>
 VStem: 224 255.782<254.48 769.52> 672.218 255.782<254.48 769.52>
-AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back
 Fore

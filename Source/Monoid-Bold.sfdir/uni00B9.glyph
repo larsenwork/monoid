@@ -4,22 +4,21 @@ GlifName: uni00B_9
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 512 128<768 1378>
+VStem: 512 256<768 1258>
 LayerCount: 4
 Back
 Fore
 SplineSet
 532 1536 m 5
- 640 1536 l 5
- 640 768 l 5
+ 768 1536 l 5
+ 768 768 l 5
  512 768 l 5
- 512 1378 l 5
- 502 1378 l 5
- 256 1246 l 5
+ 512 1258 l 5
+ 502 1258 l 5
+ 256 1126 l 5
  256 1380 l 5
  532 1536 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

@@ -3,9 +3,9 @@ Encoding: 205 205 112
 GlifName: I_acute
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 240<192 448 704 960> 1168 240<192 448 704 960> 1536 256<590 666>
-VStem: 448 256<240 1168> 448 408
+VStem: 448 256<240 1168>
 LayerCount: 4
 Back
 Fore

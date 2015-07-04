@@ -4,25 +4,25 @@ GlifName: F_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 512> 580 240<512 896> 1168 240<512 1024>
-VStem: 256 256<0 580 820 1168>
+HStem: 0 21G<192 448> 580 240<448 832> 1168 240<448 960>
+VStem: 192 256<0 580 820 1168>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 1408 m 1
- 1024 1408 l 1
- 1024 1168 l 1
- 512 1168 l 1
- 512 820 l 5
- 896 820 l 5
- 896 580 l 1
- 512 580 l 1
- 512 0 l 1
- 256 0 l 1
- 256 1408 l 1
+192 1408 m 5
+ 960 1408 l 5
+ 960 1168 l 5
+ 448 1168 l 5
+ 448 820 l 5
+ 832 820 l 5
+ 832 580 l 5
+ 448 580 l 5
+ 448 0 l 5
+ 192 0 l 5
+ 192 1408 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

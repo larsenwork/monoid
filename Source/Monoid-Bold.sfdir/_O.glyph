@@ -3,10 +3,9 @@ Encoding: 79 79 42
 GlifName: O_
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -16 240<470.193 681.807> 1184 240<470.193 681.807>
 VStem: 112 256.045<355.825 1052.18> 783.955 256.045<355.825 1052.18>
-AnchorPoint: "bottom" 576 0 basechar 0
 AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back

@@ -3,9 +3,10 @@ Encoding: 114 114 18
 GlifName: r
 Width: 1024
 VWidth: 0
-Flags: W
-HStem: 0 21G<256 512> 800 240<595.751 896> 1004 20G<256 512>
+Flags: MW
+HStem: 800 240<595.751 896>
 VStem: 256 256<0 704.166 915 1024>
+AnchorPoint: "bottom" 384 0 basechar 0
 AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back
@@ -26,19 +27,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-716 800 m 0xd0
+716 800 m 0
  659 800 615 781 583 747 c 0
  512 669 512 558 512 475 c 2
  512 0 l 1
  256 0 l 1
  256 1024 l 1
- 512 1024 l 1xb0
+ 512 1024 l 1
  512 915 l 1
  522 915 l 1
  569.51552795 987.857142857 627.801242236 1040 726 1040 c 0
  788.333333333 1040 842.166666667 1034 896 1027 c 1
  896 787 l 1
- 839 794 781 800 716 800 c 0xd0
+ 839 794 781 800 716 800 c 0
 EndSplineSet
 Layer: 2
 Layer: 3

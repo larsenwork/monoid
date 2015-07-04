@@ -3,7 +3,7 @@ Encoding: 322 322 283
 GlifName: lslash
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -16 120<670.604 894.027> 1388 20G<512 640>
 VStem: 512 128<149.787 523 765 1408>
 LayerCount: 4

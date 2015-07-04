@@ -11,9 +11,9 @@ Back
 Fore
 SplineSet
 791 1024 m 5
- 535 1024 l 1
- 369 1408 l 1
- 635 1408 l 1
+ 535 1024 l 5
+ 369 1408 l 5
+ 635 1408 l 5
  791 1024 l 5
 EndSplineSet
 Layer: 2

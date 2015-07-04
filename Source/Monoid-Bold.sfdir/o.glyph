@@ -3,10 +3,9 @@ Encoding: 111 111 15
 GlifName: o
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -16 240.085<513.265 638.735> 799.915 240.085<513.265 638.735>
 VStem: 224 255.782<254.48 769.52> 672.218 255.782<254.48 769.52>
-AnchorPoint: "bottom" 576 0 basechar 0
 AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back

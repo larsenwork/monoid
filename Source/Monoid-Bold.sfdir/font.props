@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1435746810
+ModificationTime: 1435978165
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 4
@@ -49,254 +49,367 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Monoid is dual licensed with MIT and OFL licenses. Pick one:)+AAoACgAA-The MIT License (MIT)+AAoACgAA-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.+AAoACgAA-SIL OPEN FONT LICENSE+AAoACgAA-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoACgAA-This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AAoACgAA-SIL OPEN FONT LICENSE+AAoACgAA-Version 1.1 - 26 February 2007+AAoACgAA-PREAMBLE+AAoACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting +IBQA in part or in whole +IBQA any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AAoACgAA-TERMINATION+AAoACgAA-This license becomes null and void if any of the above conditions are not met.+AAoACgAA-DISCLAIMER+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
 Encoding: UnicodeFull
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 304 38 6
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate
 Grid
--1920 -384 m 4
- 4224 -384 l 1028
+-1856 1728 m 0
+ 4288 1728 l 1024
   Spiro
-    -1920 -384 {
-    4224 -384 o
+    -1856 1728 {
+    4288 1728 o
     0 0 z
   EndSpiro
--1920 -256 m 4
- 4224 -256 l 1028
+4288 1600 m 0
+ -1856 1600 l 0
+ 4288 1600 l 0
   Spiro
-    -1920 -256 {
-    4224 -256 o
+    4288 1600 o
+    -1856 1600 o
     0 0 z
   EndSpiro
--1920 -128 m 4
- 4224 -128 l 1028
+4288 1472 m 0
+ -1856 1472 l 0
+ 4288 1472 l 0
   Spiro
-    -1920 -128 {
-    4224 -128 o
+    4288 1472 o
+    -1856 1472 o
     0 0 z
   EndSpiro
--1920 1364 m 4
- 4224 1364 l 1028
+-1920 1792 m 0
+ 4224 1792 l 1024
   Spiro
-    -1920 1364 {
-    4224 1364 o
+    -1920 1792 {
+    4224 1792 o
     0 0 z
   EndSpiro
-  Named: "o"
--1920 128 m 4
- 4224 128 l 1028
+4224 1664 m 0
+ -1920 1664 l 0
+ 4224 1664 l 0
   Spiro
-    -1920 128 {
-    4224 128 o
+    4224 1664 o
+    -1920 1664 o
     0 0 z
   EndSpiro
--1920 256 m 4
- 4224 256 l 1028
+4224 1536 m 0
+ -1920 1536 l 0
+ 4224 1536 l 0
   Spiro
-    -1920 256 {
-    4224 256 o
+    4224 1536 o
+    -1920 1536 o
     0 0 z
   EndSpiro
--1920 384 m 4
- 4224 384 l 1028
+-1856 1088 m 0
+ 4288 1088 l 1024
   Spiro
-    -1920 384 {
-    4224 384 o
+    -1856 1088 {
+    4288 1088 o
     0 0 z
   EndSpiro
--1920 1408 m 4
- 4224 1408 l 1028
-  Spiro
-    -1920 1408 {
-    4224 1408 o
-    0 0 z
-  EndSpiro
--1920 1280 m 4
- 4224 1280 l 1028
-  Spiro
-    -1920 1280 {
-    4224 1280 o
-    0 0 z
-  EndSpiro
--1920 1152 m 4
- 4224 1152 l 1028
-  Spiro
-    -1920 1152 {
-    4224 1152 o
-    0 0 z
-  EndSpiro
--1920 896 m 4
- 4224 896 l 1028
-  Spiro
-    -1920 896 {
-    4224 896 o
-    0 0 z
-  EndSpiro
--1920 768 m 4
- 4224 768 l 1028
-  Spiro
-    -1920 768 {
-    4224 768 o
-    0 0 z
-  EndSpiro
--1920 640 m 4
- 4224 640 l 1028
-  Spiro
-    -1920 640 {
-    4224 640 o
-    0 0 z
-  EndSpiro
--1920 512 m 4
- 4224 512 l 1028
-  Spiro
-    -1920 512 {
-    4224 512 o
-    0 0 z
-  EndSpiro
-  Named: ".5x"
--1920 -340 m 4
- 4224 -340 l 1028
-  Spiro
-    -1920 -340 {
-    4224 -340 o
-    0 0 z
-  EndSpiro
-  Named: "o"
--1920 980 m 4
- 4224 980 l 1028
-  Spiro
-    -1920 980 {
-    4224 980 o
-    0 0 z
-  EndSpiro
-  Named: "o"
--1920 44 m 4
- 4224 44 l 1028
-  Spiro
-    -1920 44 {
-    4224 44 o
-    0 0 z
-  EndSpiro
-  Named: "o"
--1920 1024 m 4
- 4224 1024 l 1028
+-1920 1024 m 0
+ 4224 1024 l 1024
   Spiro
     -1920 1024 {
     4224 1024 o
     0 0 z
   EndSpiro
-  Named: "x"
-896 2688 m 4
- 896 -1408 l 1028
+-1920 -64 m 0
+ 4224 -64 l 1024
   Spiro
-    896 2688 {
-    896 -1408 o
+    -1920 -64 {
+    4224 -64 o
     0 0 z
   EndSpiro
-  Named: "1"
-768 2688 m 4
- 768 -1408 l 1028
+64 -2560 m 0
+ 64 3584 l 1024
   Spiro
-    768 2688 {
-    768 -1408 o
+    64 -2560 {
+    64 3584 o
     0 0 z
   EndSpiro
-  Named: "1"
-640 2688 m 4
- 640 -1408 l 1028
+576 -2624 m 0
+ 576 3520 l 1024
   Spiro
-    640 2688 {
-    640 -1408 o
+    576 -2624 {
+    576 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-512 2688 m 4
- 512 -1408 l 1028
+192 -2624 m 0
+ 192 3520 l 1024
   Spiro
-    512 2688 {
-    512 -1408 o
+    192 -2624 {
+    192 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-384 2688 m 4
- 384 -1408 l 1028
+320 -2624 m 0
+ 320 3520 l 1024
   Spiro
-    384 2688 {
-    384 -1408 o
+    320 -2624 {
+    320 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-256 2688 m 4
- 256 -1408 l 1028
+448 -2624 m 0
+ 448 3520 l 1024
   Spiro
-    256 2688 {
-    256 -1408 o
+    448 -2624 {
+    448 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-896 2688 m 4
- 896 -1408 l 1028
+704 -2624 m 0
+ 704 3520 l 1024
   Spiro
-    896 2688 {
-    896 -1408 o
+    704 -2624 {
+    704 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-768 2688 m 4
- 768 -1408 l 1028
+832 -2624 m 0
+ 832 3520 l 1024
   Spiro
-    768 2688 {
-    768 -1408 o
+    832 -2624 {
+    832 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-640 2688 m 4
- 640 -1408 l 1028
+960 -2624 m 0
+ 960 3520 l 1024
   Spiro
-    640 2688 {
-    640 -1408 o
+    960 -2624 {
+    960 3520 o
     0 0 z
   EndSpiro
-  Named: "1"
-512 2688 m 4
- 512 -1408 l 1028
+-1856 960 m 0
+ 4288 960 l 1024
   Spiro
-    512 2688 {
-    512 -1408 o
+    -1856 960 {
+    4288 960 o
     0 0 z
   EndSpiro
-  Named: "1"
-384 2688 m 4
- 384 -1408 l 1028
+-1856 -320 m 0
+ 4288 -320 l 1024
   Spiro
-    384 2688 {
-    384 -1408 o
+    -1856 -320 {
+    4288 -320 o
     0 0 z
   EndSpiro
-  Named: "1"
-256 2688 m 4
- 256 -1408 l 1028
+-1856 -192 m 0
+ 4288 -192 l 1024
   Spiro
-    256 2688 {
-    256 -1408 o
+    -1856 -192 {
+    4288 -192 o
     0 0 z
   EndSpiro
-  Named: "1"
-128 2688 m 4
- 128 -1408 l 1028
+-1856 64 m 0
+ 4288 64 l 1024
   Spiro
-    128 2688 {
-    128 -1408 o
+    -1856 64 {
+    4288 64 o
     0 0 z
   EndSpiro
-  Named: "1"
+-1856 192 m 0
+ 4288 192 l 1024
+  Spiro
+    -1856 192 {
+    4288 192 o
+    0 0 z
+  EndSpiro
+-1856 320 m 0
+ 4288 320 l 1024
+  Spiro
+    -1856 320 {
+    4288 320 o
+    0 0 z
+  EndSpiro
+-1856 1344 m 0
+ 4288 1344 l 1024
+  Spiro
+    -1856 1344 {
+    4288 1344 o
+    0 0 z
+  EndSpiro
+-1856 1216 m 0
+ 4288 1216 l 1024
+  Spiro
+    -1856 1216 {
+    4288 1216 o
+    0 0 z
+  EndSpiro
+-1856 1088 m 0
+ 4288 1088 l 1024
+  Spiro
+    -1856 1088 {
+    4288 1088 o
+    0 0 z
+  EndSpiro
+-1856 832 m 0
+ 4288 832 l 1024
+  Spiro
+    -1856 832 {
+    4288 832 o
+    0 0 z
+  EndSpiro
+-1856 704 m 0
+ 4288 704 l 1024
+  Spiro
+    -1856 704 {
+    4288 704 o
+    0 0 z
+  EndSpiro
+-1856 576 m 0
+ 4288 576 l 1024
+  Spiro
+    -1856 576 {
+    4288 576 o
+    0 0 z
+  EndSpiro
+-1856 448 m 0
+ 4288 448 l 1024
+512 -2560 m 0
+ 512 3584 l 1024
+  Spiro
+    512 -2560 {
+    512 3584 o
+    0 0 z
+  EndSpiro
+128 -2560 m 0
+ 128 3584 l 1024
+  Spiro
+    128 -2560 {
+    128 3584 o
+    0 0 z
+  EndSpiro
+256 -2560 m 0
+ 256 3584 l 1024
+  Spiro
+    256 -2560 {
+    256 3584 o
+    0 0 z
+  EndSpiro
+384 -2560 m 0
+ 384 3584 l 1024
+  Spiro
+    384 -2560 {
+    384 3584 o
+    0 0 z
+  EndSpiro
+640 -2560 m 0
+ 640 3584 l 1024
+  Spiro
+    640 -2560 {
+    640 3584 o
+    0 0 z
+  EndSpiro
+768 -2560 m 0
+ 768 3584 l 1024
+  Spiro
+    768 -2560 {
+    768 3584 o
+    0 0 z
+  EndSpiro
+896 -2560 m 0
+ 896 3584 l 1024
+  Spiro
+    896 -2560 {
+    896 3584 o
+    0 0 z
+  EndSpiro
+-1920 1024 m 0
+ 4224 1024 l 1024
+  Spiro
+    -1920 1024 {
+    4224 1024 o
+    0 0 z
+  EndSpiro
+-1920 -384 m 0
+ 4224 -384 l 1024
+  Spiro
+    -1920 -384 {
+    4224 -384 o
+    0 0 z
+  EndSpiro
+-1920 -256 m 0
+ 4224 -256 l 1024
+  Spiro
+    -1920 -256 {
+    4224 -256 o
+    0 0 z
+  EndSpiro
+-1920 -128 m 0
+ 4224 -128 l 1024
+  Spiro
+    -1920 -128 {
+    4224 -128 o
+    0 0 z
+  EndSpiro
+-1920 128 m 0
+ 4224 128 l 1024
+  Spiro
+    -1920 128 {
+    4224 128 o
+    0 0 z
+  EndSpiro
+-1920 256 m 0
+ 4224 256 l 1024
+  Spiro
+    -1920 256 {
+    4224 256 o
+    0 0 z
+  EndSpiro
+-1920 384 m 0
+ 4224 384 l 1024
+  Spiro
+    -1920 384 {
+    4224 384 o
+    0 0 z
+  EndSpiro
+-1920 1408 m 0
+ 4224 1408 l 1024
+  Spiro
+    -1920 1408 {
+    4224 1408 o
+    0 0 z
+  EndSpiro
+-1920 1280 m 0
+ 4224 1280 l 1024
+  Spiro
+    -1920 1280 {
+    4224 1280 o
+    0 0 z
+  EndSpiro
+-1920 1152 m 0
+ 4224 1152 l 1024
+  Spiro
+    -1920 1152 {
+    4224 1152 o
+    0 0 z
+  EndSpiro
+-1920 896 m 0
+ 4224 896 l 1024
+  Spiro
+    -1920 896 {
+    4224 896 o
+    0 0 z
+  EndSpiro
+-1920 768 m 0
+ 4224 768 l 1024
+  Spiro
+    -1920 768 {
+    4224 768 o
+    0 0 z
+  EndSpiro
+-1920 640 m 0
+ 4224 640 l 1024
+  Spiro
+    -1920 640 {
+    4224 640 o
+    0 0 z
+  EndSpiro
+-1920 512 m 0
+ 4224 512 l 1024
 EndSplineSet
-TeXData: 1 0 0 599185 299593 199728 599185 1048576 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "" "top" "" 
 EndSplineFont

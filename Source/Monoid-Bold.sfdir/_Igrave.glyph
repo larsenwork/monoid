@@ -3,9 +3,9 @@ Encoding: 204 204 111
 GlifName: I_grave
 Width: 1024
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 240<192 448 704 960> 1168 240<192 448 704 960> 1536 256<486 562>
-VStem: 296 408 448 256<240 1168>
+VStem: 448 256<240 1168>
 LayerCount: 4
 Back
 Fore

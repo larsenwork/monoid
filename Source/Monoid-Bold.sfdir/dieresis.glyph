@@ -3,9 +3,8 @@ Encoding: 168 168 313
 GlifName: dieresis
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: MW
 HStem: 1140 284<247.304 456.696 695.304 904.696>
-VStem: 210 284<1177.3 1386.7> 658 284<1177.3 1386.7>
 LayerCount: 4
 Back
 Fore

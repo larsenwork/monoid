@@ -3,9 +3,8 @@ Encoding: 183 183 95
 GlifName: periodcentered
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: MW
 HStem: 560 288<408.125 615.875>
-VStem: 368 288<600.125 807.875>
 LayerCount: 4
 Back
 Fore

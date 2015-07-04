@@ -4,12 +4,12 @@ GlifName: T_caron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<448 704> 1168 240<128 448 704 1024> 1539 256<427 448 704 725>
+HStem: 0 21G<448 704> 1168 240<128 448 704 1024> 1536 256<427 448 704 725>
 VStem: 448 256<0 1168>
 LayerCount: 4
 Back
 Fore
-Refer: 301 780 N 1 0 0 1 0 259 2
+Refer: 301 780 N 1 0 0 1 0 256 2
 Refer: 47 84 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3

@@ -3,9 +3,9 @@ Encoding: 309 309 235
 GlifName: jcircumflex
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: -400 120<258.703 576.366> 904 120<384 640> 1388 20G<473.797 678.203>
-VStem: 640 128<-215.554 904>
+Flags: W
+HStem: -272 240<174.991 480.058> 784 240<266 512> 1152 256<427 448 704 725>
+VStem: 512 256<-2.32476 784>
 LayerCount: 4
 Back
 Fore

@@ -7,7 +7,7 @@ Flags: W
 HStem: 0 21G<128 384 764.755 1062> 1388 20G<128 384 669.236 969>
 VStem: 128 256<0 479 858 1408>
 AnchorPoint: "bottom" 576 0 basechar 0
-AnchorPoint: "top" 512 1408 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
