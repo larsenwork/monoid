@@ -3,8 +3,8 @@ Encoding: 320 320 281
 GlifName: ldot
 Width: 1024
 VWidth: 0
-Flags: W
-HStem: -16 240<540.901 768> 688 288<727.125 934.875> 1388 20G<256 512>
+Flags: WO
+HStem: -16 240<540.901 768> 658 348<714.442 947.558> 1388 20G<256 512>
 VStem: 256 256<250.178 1408>
 LayerCount: 4
 Back
