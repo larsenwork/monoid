@@ -35,7 +35,8 @@ test:
     - "[ $CIRCLE_NODE_INDEX -eq 0 ] || scp *.zip node0:~/monoid/":
         parallel: true
     # Add, commit, push
-    - git add ./*.zip
+    - ls -lh ./*.zip
+    - git add -v ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push -f origin release
     # Go-go-github pages
