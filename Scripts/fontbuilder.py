@@ -157,6 +157,15 @@ def SwapLookup(lookup):
 
     return swap_op
 
+def DropCAltAndLiga():
+    """Removes Contextual Alternates and Ligatures"""
+    def dropcaltandliga_op(fnt):
+        for lookup in fnt.gsub_lookups:
+            if fnt.getLookupInfo(lookup)[0] in ['gsub_ligature', 'gsub_contextchain']:
+                fnt.removeLookup(lookup)
+
+    return swap_op
+
 def Variation(name):
     """Changes the subfamily/variation of the font"""
     def variation_op(fnt):
