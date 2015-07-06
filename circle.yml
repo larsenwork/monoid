@@ -25,12 +25,17 @@ test:
   override:
     - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
         parallel: true
-    - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
+    # Copy artifacts to keep after branch switch
+    - cp _release/Monoid-[Regular|Oblique|Bold].ttf /tmp/
     - cp Scripts/*.sh /tmp
     - cp Source/Readme+License.pdf /tmp
+    # Switch to release branch
     - git checkout release
+    # Prepare the release
     - . /tmp/prepare_release.sh
+    # Add, commit, push
     - git add ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push -f origin release
+    # Go-go-github pages
     - . /tmp/gh-pages.sh
