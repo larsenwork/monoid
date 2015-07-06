@@ -27,6 +27,7 @@ test:
         parallel: true
     - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
     - cp Scripts/*.sh /tmp
+    - cp Source/Readme+License.pdf /tmp
     - git checkout release
     - . /tmp/prepare_release.sh
     - git add ./*.zip

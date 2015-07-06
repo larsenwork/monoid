@@ -7,7 +7,7 @@ for f in Monoid-Regular*.ttf; do
     options=${f#Monoid-Regular}
     echo "Options: ${options}"
     # Add all the fonts with those options
-    zip -j "../Monoid${options%.ttf}.zip" Monoid-+([^-])$options
+    zip -j "../Monoid${options%.ttf}.zip" Monoid-+([^-])$options /tmp/Readme+License.pdf
 done
 cd ..
 sudo rm -rf _release
