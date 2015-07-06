@@ -26,13 +26,10 @@ test:
     - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
         parallel: true
     # Copy artifacts to keep after branch switch
+    # DANGER! Assumes node0 builds normal iterations :)
     - cp _release/Monoid-{Regular,Oblique,Bold}.ttf /tmp/
-    - cp Scripts/*.sh /tmp
-    - cp Source/Readme+License.pdf /tmp
-    # Switch to release branch
-    - git checkout release
     # Prepare the release
-    - . /tmp/prepare_release.sh:
+    - . Scripts/prepare_release.sh:
         parallel: true
     # Collect all build products into node0
     - "[ $CIRCLE_NODE_INDEX -eq 0 ] || scp *.zip node0:~/monoid/":

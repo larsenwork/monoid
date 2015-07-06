@@ -1,5 +1,14 @@
 #!/bin/bash
 shopt -s extglob
+
+# Copy artifacts to keep after branch switch
+cp Scripts/gh-pages.sh /tmp
+cp Source/Readme+License.pdf /tmp
+
+# Switch to release branch
+git checkout release
+
+# Cleanup old release
 git rm -f ./*.zip || echo "No releases"
 cd _release
 for f in Monoid-Regular*.ttf; do
