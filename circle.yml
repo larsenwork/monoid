@@ -39,7 +39,7 @@ test:
     # Add, commit, push
     - ls -lh ./*.zip
     - git add -v ./*.zip
-    - git commit -m "Release build for ${CIRCLE_SHA1}"
+    - git commit -m "Release build for ${CIRCLE_SHA1} [ci skip]"
     - git push -f origin release
     # Go-go-github pages
     - . /tmp/gh-pages.sh

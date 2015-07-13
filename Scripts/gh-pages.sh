@@ -15,5 +15,5 @@ done
 
 cp /tmp/*.{eot,woff,woff2,ttf} css/
 git add css
-git commit -m "Update web fonts for ${CIRCLE_SHA1}"
+git commit -m "Update web fonts for ${CIRCLE_SHA1} [ci skip]"
 git push origin gh-pages
