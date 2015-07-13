@@ -4,14 +4,13 @@ GlifName: L_dot
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 240<448 1024> 658 348<708.442 941.558> 1388 20G<192 448>
+HStem: 0 240<448 1024> 638 388<698.537 951.463> 1388 20G<192 448>
 VStem: 192 256<240 1408>
 LayerCount: 4
 Back
 Fore
 Refer: 95 183 S 1 0 0 1 313 128 2
 Refer: 40 76 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

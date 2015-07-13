@@ -102,9 +102,9 @@
     </tr>
     <tr>
         <td>0.40</td>
-        <td>2015.xx.xx</td>
-        <td>Black, Bold, Oblique and retina version (basic letters)</td>
-        <td></td>
+        <td>2015.07.14</td>
+        <td>Bold, Oblique and retina version (basic letters)</td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>0.50</td>
