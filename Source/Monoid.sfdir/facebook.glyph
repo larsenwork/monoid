@@ -36,7 +36,9 @@ SplineSet
  -640 1373 -605 1408 -562 1408 c 2
  690 1408 l 2xf4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" a c e b o o k I c o n
 EndChar

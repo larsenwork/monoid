@@ -24,6 +24,7 @@ SplineSet
  810 104 860 106 896 109 c 1
  896 -11 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 768 428 m 4
@@ -54,6 +55,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss09' Style Set 9 lookup 8 subtable" l.base
-Substitution2: "'ss08' Style Set 8 lookup 7 subtable" l.zstyle
+Substitution2: "'ss09' Style Set 9 lookup 60 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 59 subtable" l.zstyle
 EndChar

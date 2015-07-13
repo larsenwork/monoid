@@ -55,6 +55,7 @@ SplineSet
  253 926 253 1105 292 1209 c 0
  332 1315 411 1426 576 1426 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 576 1364 m 0
@@ -266,6 +267,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss04' Style Set 4 lookup 3 subtable" zero.clear
-Substitution2: "'ss03' Style Set 3 lookup 2 subtable" zero.dot
+Substitution2: "'ss04' Style Set 4 lookup 55 subtable" zero.clear
+Substitution2: "'ss03' Style Set 3 lookup 54 subtable" zero.dot
 EndChar

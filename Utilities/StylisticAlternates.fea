@@ -1,7 +1,7 @@
 languagesystem latn dflt;
-languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem DFLT dflt;
 
 feature ss01 {
   sub dollar by dollar.empty;
@@ -51,3 +51,7 @@ feature ss11 {
   sub g by g.long;
   sub y by y.long;
 } ss11;
+
+feature ss12 {
+  sub four by four.triangle;
+} ss12;

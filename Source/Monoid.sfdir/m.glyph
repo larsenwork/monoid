@@ -38,6 +38,7 @@ SplineSet
  266 949 l 1
  306 1008 354 1040 414 1040 c 0xdc
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 384 980 m 4
@@ -76,4 +77,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "Single Substitution lookup 34 subtable" larsenwork
+Substitution2: "Single Substitution lookup 33 subtable" mm
 EndChar

@@ -1,11 +1,11 @@
-languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem DFLT dflt;
 
 feature liga {
   sub a c e b o o k I c o n by facebook;
-  sub t w i t t e r I c o n by twitter;
+  sub w i t t e r I c o n by twitter;
   sub o w n l o a d I c o n by download;
   sub i t h u b I c o n by github;
 } liga;

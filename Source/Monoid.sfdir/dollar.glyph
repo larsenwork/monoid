@@ -57,8 +57,9 @@ SplineSet
  926 579 780 651 640 662 c 1xf4
  640 104 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss01' Style Set 1 lookup 0 subtable" dollar.empty
+Substitution2: "'ss01' Style Set 1 lookup 52 subtable" dollar.empty
 EndChar

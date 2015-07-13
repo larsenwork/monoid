@@ -57,6 +57,7 @@ SplineSet
  256 1396 l 1
  338 1410 429 1424 536 1424 c 0xf0
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 576 1364 m 0
@@ -170,5 +171,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss06' Style Set 6 lookup 5 subtable" three.russian
+Substitution2: "'ss06' Style Set 6 lookup 57 subtable" three.russian
 EndChar

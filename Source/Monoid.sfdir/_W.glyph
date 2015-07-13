@@ -29,8 +29,9 @@ SplineSet
  340 210 l 1
  514 896 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss10' Style Set 10 lookup 9 subtable" W.straight
+Substitution2: "'ss10' Style Set 10 lookup 61 subtable" W.straight
 EndChar

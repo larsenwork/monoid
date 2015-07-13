@@ -26,6 +26,7 @@ SplineSet
  394 754 470 486 595 240 c 1
  605 240 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 821.624023438 1037.43164062 m 1
@@ -68,5 +69,5 @@ SplineSet
 884 1024 m 21
  795.92072476 664.498351403 708.299467118 305.119568821 562 -70 c 1037
 EndSplineSet
-Substitution2: "'ss11' Style Set 11 lookup 10 subtable" y.long
+Substitution2: "'ss11' Style Set 11 lookup 62 subtable" y.long
 EndChar
