@@ -13,7 +13,7 @@ nosuffix=${f%.ttf}
 ./woff2/woff2_compress $f
 done
 
-cp /tmp/*.{eot,woff,woff2} css/
+cp /tmp/*.{eot,woff,woff2,ttf} css/
 git add css
 git commit -m "Update web fonts for ${CIRCLE_SHA1}"
 git push origin gh-pages
