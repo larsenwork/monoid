@@ -164,7 +164,7 @@ def DropCAltAndLiga():
             if fnt.getLookupInfo(lookup)[0] in ['gsub_ligature', 'gsub_contextchain']:
                 fnt.removeLookup(lookup)
 
-    return swap_op
+    return dropcaltandliga_op
 
 def Variation(name):
     """Changes the subfamily/variation of the font"""
