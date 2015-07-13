@@ -9,6 +9,7 @@ checkout:
   post:
     - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
     - git fetch -f origin release:release
+    - git fetch -f origin gh-pages:gh-pages
     # Check if there were any changes in the Source directory since the last release
     - "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
     - git config --global user.email "chase+circleci@colman.io"
@@ -18,6 +19,7 @@ dependencies:
     - woff2
     - node_modules
   pre:
+    - sudo apt-get install g++
     - "[[ ! -d woff2 ]] && ./Scripts/woff2.sh || echo 'Using cached woff2_compress'"
     - "[[ ! -d node_modules ]] && npm install ttf2woff ttf2eot || echo 'Using cached ttf2woff'"
     - docker pull colman/py-fontforge
@@ -25,11 +27,19 @@ test:
   override:
     - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
         parallel: true
-    - cp _release/Monoid-Regular.ttf /tmp/monoid-normal.ttf
-    - cp Scripts/*.sh /tmp
-    - git checkout release
-    - . /tmp/prepare_release.sh
-    - git add ./*.zip
+    # Copy artifacts to keep after branch switch
+    # DANGER! Assumes node0 builds normal iterations :)
+    - cp _release/Monoid-{Regular,Oblique,Bold}.ttf /tmp/
+    # Prepare the release
+    - . Scripts/prepare_release.sh:
+        parallel: true
+    # Collect all build products into node0
+    - "[ $CIRCLE_NODE_INDEX -eq 0 ] || scp *.zip node0:~/monoid/":
+        parallel: true
+    # Add, commit, push
+    - ls -lh ./*.zip
+    - git add -v ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1}"
     - git push -f origin release
+    # Go-go-github pages
     - . /tmp/gh-pages.sh

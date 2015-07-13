@@ -6,11 +6,14 @@ git branch -D release
 [[ -e _release ]] && git rm -rf _release
 
 # Convert to webfonts
-./node_modules/.bin/ttf2eot /tmp/monoid-normal.ttf /tmp/monoid-normal.eot
-./node_modules/.bin/ttf2woff /tmp/monoid-normal.ttf /tmp/monoid-normal.woff
-./woff/woff2_compress /tmp/monoid_normal.ttf
+for f in /tmp/*.ttf; do
+nosuffix=${f%.ttf}
+./node_modules/.bin/ttf2eot $f $nosuffix.eot
+./node_modules/.bin/ttf2woff $f $nosuffix.woff
+./woff2/woff2_compress $f
+done
 
-cp /tmp/monoid-normal.* css/
+cp /tmp/*.{eot,woff,woff2} css/
 git add css
 git commit -m "Update web fonts for ${CIRCLE_SHA1}"
 git push origin gh-pages
