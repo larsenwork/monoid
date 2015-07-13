@@ -39,6 +39,8 @@ test:
     # Add, commit, push
     - ls -lh ./*.zip
     - git add -v ./*.zip
+    # Reset to base
+    - git reset --hard 3706c287808e9916b00f68202a658791e6876e94
     - git commit -m "Release build for ${CIRCLE_SHA1} [ci skip]"
     - git push -f origin release
     # Go-go-github pages
