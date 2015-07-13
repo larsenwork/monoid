@@ -56,6 +56,7 @@ SplineSet
  647 740 647 775 647 809 c 5
  513 368 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Substitution2: "'ss04' Style Set 4 lookup 55 subtable" zero.clear

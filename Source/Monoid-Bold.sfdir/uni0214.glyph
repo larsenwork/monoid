@@ -4,13 +4,14 @@ GlifName: uni0214
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 240<457.921 694.079> 1388 20G<128 384 768 1024> 1536 256
+HStem: -16 240<457.921 694.079> 1388 20G<128 384 768 1024> 1536 256<298 364 682 748>
 VStem: 128 256<303.02 1408> 768 256<303.02 1408>
 LayerCount: 4
 Back
 Fore
 Refer: 433 783 N 1 0 0 1 0 256 2
 Refer: 48 85 N 1 0 0 1 0 0 3
+Validated: 1
 Layer: 2
 Layer: 3
 EndChar
