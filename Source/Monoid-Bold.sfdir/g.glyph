@@ -42,4 +42,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Substitution2: "'ss11' Style Set 11 lookup 62 subtable" g.long
+Substitution2: "Single Substitution lookup 49 subtable" larsenwork
 EndChar

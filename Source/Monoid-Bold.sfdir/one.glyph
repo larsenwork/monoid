@@ -23,8 +23,8 @@ Fore
 SplineSet
 536.326171875 1408 m 5
  768 1408 l 5
- 768 0 l 1
- 512 0 l 1
+ 768 0 l 5
+ 512 0 l 5
  512 1106 l 5
  502 1106 l 5
  383 1019 l 5
@@ -33,4 +33,5 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Substitution2: "'ss05' Style Set 5 lookup 56 subtable" one.base
 EndChar

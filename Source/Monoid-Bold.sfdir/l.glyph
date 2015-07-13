@@ -26,4 +26,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Substitution2: "'ss09' Style Set 9 lookup 60 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 59 subtable" l.zstyle
 EndChar

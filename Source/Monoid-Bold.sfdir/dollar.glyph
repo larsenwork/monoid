@@ -98,4 +98,5 @@ SplineSet
  640 104 l 5
 EndSplineSet
 Layer: 3
+Substitution2: "'ss01' Style Set 1 lookup 52 subtable" dollar.empty
 EndChar
