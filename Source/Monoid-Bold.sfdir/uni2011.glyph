@@ -4,18 +4,17 @@ GlifName: uni2011
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<128 1024>
+HStem: 520 240<128 1024>
 LayerCount: 4
 Back
 Fore
 SplineSet
-128 636 m 5
- 1024 636 l 5
- 1024 516 l 5
- 128 516 l 5
- 128 636 l 5
+128 760 m 5
+ 1024 760 l 5
+ 1024 520 l 5
+ 128 520 l 5
+ 128 760 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

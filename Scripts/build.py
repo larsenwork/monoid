@@ -47,7 +47,7 @@ option('3', 'Alt 3', Swap("three", "three.russian"))
 # ss08
 option('l', 'Alt l', Swap("l", "l.zstyle"))
 # no calt
-# option('nocalt', 'Turn off contextual alternates', DropCAltAndLiga())
+option('nocalt', 'Turn off contextual alternates', DropCAltAndLiga())
 
 # Build options in
 build_batch(output, sys.argv[3], int(sys.argv[1]), int(sys.argv[2]))

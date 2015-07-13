@@ -3,7 +3,7 @@ Encoding: 1038 1038 417
 GlifName: uni040E_
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 114<128 427.703> 1388 20G<137 297 846.5 1015> 1520 120<420.418 731.582>
 VStem: 137 135<1171.09 1408> 236 128<1697.88 1792> 788 128<1697.88 1792> 880 135<1250.34 1408>
 LayerCount: 5
@@ -26,7 +26,6 @@ EndSplineSet
 Fore
 Refer: 298 774 N 1 0 0 1 0 256 2
 Refer: 338 1059 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
