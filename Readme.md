@@ -1,26 +1,58 @@
 <table>
     <tr>
-        <td colspan="5"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="6"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid%20GitHub%20Banner.png" /></td>
     </tr>
     <tr>
         <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
-        <td><a href="#font_log">FontLog</a></td>
-        <td><a href="#guidelines">Guidelines</a></td>
+        <td><a href="#guide">Guide</a></td>
         <td><a href="#links">Links</a></td>
+        <td><a href="#font_log">Log</a></td>
         <td><a href="#license">License</a></td>
     </tr>
 </table>
 
-##Contributors
+<a name="guide"></a>
+##Guide
+####Stylistic Alternates
+The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
+####Atom Editor
+This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but turns them of for you `cursor-line` which makes them easier to edit.
+```
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+}
+
+atom-text-editor::shadow {
+  .cursor-line {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+}
+```
+
+<a name="links"></a>
+##Links
+I did a talk on Monoid at a frontenders meetup and these are some links relevant to that talk.
+
+* [Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june
+* [FontForge](https://fontforge.github.io) - Free Font Editor
+* [Design With FontForge](https://designwithfontforge.com) - Ebook to get you started with type designing
+* [Cloudflare](https://cloudflare.com) - Cache, minification and no 302
+* [RawGit](https://rawgit.com) - Serve download files with proper Content-Type headers
+* [ WWDC Video](https://developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
+* [Ligatures & Coding Font](https://medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
+
+
+<a name="font_log"></a>
+##Font Log
+Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
+Remember to update the Font Log when you make contributions.
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
         <td><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><br>Andreas</td>
     </tr>
 </table>
-
-<a name="font_log"></a>
-##Font Log
 <table>
     <tr>
         <td><b>Version</b></td>
@@ -125,22 +157,6 @@
         <td></td>
     </tr>
 </table>
-
-<a name="guidelines"></a>
-##Guidelines
-Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
-Remember to update the Font Log when you make contributions.
-
-<a name="links"></a>
-##Links
-This is where I'll put the video with the talk about Monoid once I've made it. Some of the links mentioned:
-
-* [FontForge](https://fontforge.github.io) - Free Font Editor
-* [Design With FontForge](https://designwithfontforge.com) - Ebook to get you started with type designing
-* [Cloudflare](https://cloudflare.com) - Cache, minification and no 302
-* [RawGit](https://rawgit.com) - Serve download files with proper Content-Type headers
-* [ WWDC Talk](https://developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
-* [Ligatures & Coding Font](https://medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
 
 <a name="license"></a>
 ##Licenses
