@@ -1,27 +1,27 @@
 StartChar: l.base
-Encoding: 1114157 -1 656
+Encoding: 1114157 -1 649
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 1288 120<256 512>
-VStem: 512 128<120 1288>
+HStem: 0 240<192 448 704 960> 1168 240<192 448>
+VStem: 448 256<240 1168>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 0 m 5
- 256 120 l 5
- 512 120 l 5
- 512 1288 l 5
- 256 1288 l 5
- 256 1408 l 5
- 640 1408 l 5
- 640 120 l 5
- 896 120 l 5
- 896 0 l 5
- 256 0 l 5
+704 1408 m 5
+ 704 240 l 5
+ 960 240 l 1
+ 960 0 l 1
+ 192 0 l 1
+ 192 240 l 1
+ 448 240 l 1
+ 448 1168 l 1
+ 192 1168 l 1
+ 192 1408 l 1
+ 704 1408 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 EndChar

@@ -4,7 +4,7 @@ FullName: Monoid Regular
 FamilyName: Monoid
 Weight: Regular
 Copyright: Copyright (c) 2015, @larsenwork
-Version: 0.35
+Version: 0.40
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1436824520
+ModificationTime: 1436974445
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -469,7 +469,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 140 14 6
+WinInfo: 1114022 14 11
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate

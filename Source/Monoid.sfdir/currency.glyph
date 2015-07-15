@@ -3,7 +3,7 @@ Encoding: 164 164 531
 GlifName: currency
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 244 120<443.947 708.053> 788 120<443.947 708.053>
 VStem: 240 128<439.59 712.41> 784 128<439.59 712.41>
 LayerCount: 5

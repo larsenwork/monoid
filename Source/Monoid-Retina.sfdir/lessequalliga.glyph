@@ -4,27 +4,26 @@ GlifName: lessequalliga
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 132 120<-512 640>
+HStem: 132 120<-640 768>
 LayerCount: 5
 Back
 Fore
 SplineSet
-640 252 m 1
- 640 132 l 1
- -512 132 l 1
- -512 252 l 1
- 640 252 l 1
--366 773 m 1
- -366 763 l 1
- 640 514 l 1
- 640 384 l 1
- -512 688 l 1
- -512 848 l 1
- 640 1152 l 1
- 640 1022 l 1
- -366 773 l 1
+768 252 m 5
+ 768 132 l 5
+ -640 132 l 5
+ -640 252 l 5
+ 768 252 l 5
+-429 773 m 5
+ -429 763 l 5
+ 768 507 l 5
+ 768 384 l 5
+ -640 688 l 5
+ -640 848 l 5
+ 768 1152 l 5
+ 768 1029 l 5
+ -429 773 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

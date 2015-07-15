@@ -5,7 +5,7 @@ FamilyName: Monoid
 Weight: Regular
 Copyright: Copyright (c) 2015, @larsenwork
 UComments: "2015-4-1: Created with FontForge (http://fontforge.org)"
-Version: 0.34
+Version: 0.40
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1435662457
+ModificationTime: 1436974506
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
