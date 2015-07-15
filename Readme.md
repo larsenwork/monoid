@@ -27,6 +27,10 @@ atom-text-editor::shadow {
   .cursor-line {
     -webkit-font-feature-settings: "liga" off, "calt" off;
   }
+  .comment {
+    font-style: oblique;
+  }
+
 }
 ```
 
