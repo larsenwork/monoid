@@ -4,8 +4,8 @@ GlifName: braceleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -144 120<584.893 728> 643 120<264 404.644> 1430 120<859.223 1034>
-VStem: 396 130<31.9772 326.141> 466 130<292.859 588.281>
+HStem: -144 120<584.5 728> 643 120<264 408.399> 1430 120<852.531 1034>
+VStem: 396 130<27.3209 339.453> 466 130<279.547 589.653>
 CounterMasks: 1 e0
 LayerCount: 3
 Back
@@ -37,6 +37,5 @@ SplineSet
  453 416 l 2
  461 456 466 484 466 507 c 0xe8
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

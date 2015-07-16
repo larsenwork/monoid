@@ -4,8 +4,8 @@ GlifName: exclam
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 288<380.47 541.705> 1388 20G<632.339 784>
-VStem: 314 295<50.2344 205.766>
+HStem: -16 288<376.366 546.877> 1388 20G<632.339 784>
+VStem: 314 295<47.6972 210.36>
 LayerCount: 3
 Back
 Fore
@@ -21,6 +21,5 @@ SplineSet
  784 1408 l 1
  600 512 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

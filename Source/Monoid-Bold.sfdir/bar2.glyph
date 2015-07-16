@@ -4,16 +4,16 @@ GlifName: bar2
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 384 128<-128 1536>
+VStem: 256 256<-128 1536>
 LayerCount: 4
 Back
 Fore
 SplineSet
-512 1536 m 5
- 512 -128 l 5
- 384 -128 l 5
- 384 1536 l 5
- 512 1536 l 5
+512 1536 m 1
+ 512 -128 l 1
+ 256 -128 l 5
+ 256 1536 l 5
+ 512 1536 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

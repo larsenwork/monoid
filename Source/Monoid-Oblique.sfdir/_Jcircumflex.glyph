@@ -4,7 +4,7 @@ GlifName: J_circumflex
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<137.416 551.301> 1032 120<340 829>
+HStem: -16 120<112.417 556.232> 1032 120<340 829>
 LayerCount: 3
 Back
 Fore
@@ -31,6 +31,5 @@ SplineSet
  553 1152 767 1152 980 1152 c 1
  856 512 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

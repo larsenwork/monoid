@@ -4,7 +4,7 @@ GlifName: I_tilde
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<139 395 523 756> 1032 120<340 573 701 957> 1284 120<770.927 897.096> 1412 120<522.729 648.704>
+HStem: 0 120<139 395 523 756> 1032 120<340 573 701 957> 1284 120<769.655 897.743> 1412 120<522.093 649.986>
 LayerCount: 3
 Back
 Fore
@@ -32,6 +32,5 @@ SplineSet
  340 1152 l 1
  980 1152 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

@@ -4,7 +4,7 @@ GlifName: one
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<512 768> 1388 20G<508.843 768>
+HStem: 0 21G<512 768> 1388 20G<508.549 768>
 VStem: 512 256<0 1106>
 LayerCount: 4
 Back
@@ -21,15 +21,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-536.326171875 1408 m 5
- 768 1408 l 5
- 768 0 l 5
- 512 0 l 5
- 512 1106 l 5
- 502 1106 l 5
- 383 1019 l 5
- 256 1204 l 5
- 536.326171875 1408 l 5
+536 1408 m 1
+ 768 1408 l 1
+ 768 0 l 1
+ 512 0 l 1
+ 512 1106 l 1
+ 502 1106 l 1
+ 383 1019 l 1
+ 256 1204 l 1
+ 536 1408 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

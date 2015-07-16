@@ -4,7 +4,7 @@ GlifName: approxequal
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 368 120<623.021 820.67> 536 120<250.743 448.295> 752 120<697.054 894.85> 920 120<325.062 522.679>
+HStem: 368 120<623.021 825.506> 536 120<245.898 448.295> 752 120<697.054 899.697> 920 120<320.206 522.679>
 LayerCount: 3
 Back
 SplineSet
@@ -52,6 +52,5 @@ SplineSet
  330 920 263 827 223 748 c 5
  111 788 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

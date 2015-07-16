@@ -4,21 +4,21 @@ GlifName: equalshift
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 260 120<0 896> 772 120<0 896>
+HStem: 260 240<0 896> 772 240<0 896>
 LayerCount: 4
 Back
 Fore
 SplineSet
-0 380 m 5
- 896 380 l 5
+0 500 m 5
+ 896 500 l 5
  896 260 l 5
  0 260 l 5
- 0 380 l 5
-0 892 m 5
- 896 892 l 5
+ 0 500 l 5
+0 1012 m 5
+ 896 1012 l 5
  896 772 l 5
  0 772 l 5
- 0 892 l 5
+ 0 1012 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -4,7 +4,7 @@ GlifName: twitter
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 123 127<-554.783 -98.2715>
+HStem: 123 127<-554.783 -95.2539>
 LayerCount: 3
 Back
 Fore
@@ -32,7 +32,6 @@ SplineSet
  812 1187 754 1130 687 1094 c 5
  747 1101 807 1117 864 1140 c 5
 EndSplineSet
-Validated: 1
 Layer: 2
 LCarets2: 10 -140 -140 -140 -140 -140 -140 -140 -140 -140 -140
 EndChar

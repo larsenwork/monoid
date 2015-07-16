@@ -4,8 +4,8 @@ GlifName: dieresistonos
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1136 224<321.375 467.625 889.375 1035.62>
-VStem: 280 229<1176.13 1319.87> 848 229<1176.13 1319.87>
+HStem: 1136 224<319.046 469.954 887.046 1037.95>
+VStem: 280 229<1174.36 1321.64> 848 229<1174.36 1321.64>
 LayerCount: 3
 Back
 Fore
@@ -26,6 +26,5 @@ SplineSet
  621 1322 l 5
  854 1566 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

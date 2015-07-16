@@ -4,8 +4,8 @@ GlifName: exclamdown
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 880 288<552.559 717.802>
-VStem: 488 295<946.234 1101.77>
+HStem: 880 288<549.31 721.032>
+VStem: 488 295<943.697 1105.5>
 LayerCount: 3
 Back
 Fore
@@ -21,6 +21,5 @@ SplineSet
  496 640 l 5
  624 640 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

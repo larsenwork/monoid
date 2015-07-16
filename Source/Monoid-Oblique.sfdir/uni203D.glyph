@@ -4,8 +4,8 @@ GlifName: uni203D_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 288<379.615 542.792> 1304 120<442.519 807.588>
-VStem: 314 295<50.2344 207.959> 858 130<997.881 1254.02>
+HStem: -16 288<376.366 546.064> 1304 120<429.363 809.057>
+VStem: 314 295<45.2011 210.799> 858 130<989.154 1255.36>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  734 1152 l 5
  663 815 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

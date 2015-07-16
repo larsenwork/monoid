@@ -4,7 +4,7 @@ GlifName: longs
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<244 375.88> 776 120<162 395> 1304 120<651.668 1009.14>
+HStem: 0 21G<244 375.88> 776 120<162 395> 1304 120<649.522 1009.14>
 LayerCount: 3
 Back
 Fore
@@ -25,6 +25,5 @@ SplineSet
  610 1222 600 1173 591 1129 c 2
  372 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

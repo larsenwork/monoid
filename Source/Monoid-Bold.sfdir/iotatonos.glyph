@@ -4,8 +4,8 @@ GlifName: iotatonos
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 247<658 830.563> 1004 20G<448 704> 1144.52 402.044
-VStem: 448 256<231.884 1024>
+HStem: -16 247<658 830.564> 1004 20G<448 704> 1145 402
+VStem: 445 394 448 256<231.884 1024>
 LayerCount: 4
 Back
 Fore

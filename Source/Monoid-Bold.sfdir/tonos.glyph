@@ -3,8 +3,9 @@ Encoding: 900 900 552
 GlifName: tonos
 Width: 1024
 VWidth: 0
-Flags: MW
-HStem: 1083.52 402.044
+Flags: W
+HStem: 1084 402
+VStem: 448 394
 AnchorPoint: "top" 579 963 mark 0
 LayerCount: 4
 Back
@@ -17,11 +18,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-841.647460938 1310.51757812 m 29
- 635.647460938 1083.51757812 l 29
- 448.424804688 1241.56152344 l 29
- 634.424804688 1485.56152344 l 29
- 841.647460938 1310.51757812 l 29
+842 1311 m 29
+ 636 1084 l 29
+ 448 1242 l 29
+ 634 1486 l 29
+ 842 1311 l 29
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -4,8 +4,8 @@ GlifName: D_croat
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<267 573.614> 644 120<137 241 393 625> 1288 120<494 789.875>
-VStem: 938 131<668.81 1134.27>
+HStem: 0 120<267 583.517> 644 120<137 241 393 625> 1288 120<494 792.835>
+VStem: 938 131<656.019 1140.65>
 CounterMasks: 1 e0
 LayerCount: 3
 Back
@@ -37,6 +37,5 @@ SplineSet
  390 1408 l 1
  638 1408 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

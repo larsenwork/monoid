@@ -4,8 +4,8 @@ GlifName: E_ogonek
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<718.922 808> 0 120<267 756> 644 120<393 881> 1288 120<494 1134>
-VStem: 584 131<-276.366 -121.396>
+HStem: -400 120<717.075 808> 0 120<267 756> 644 120<393 881> 1288 120<494 1134>
+VStem: 584 131<-276.835 -118.001>
 LayerCount: 3
 Back
 Fore
@@ -33,6 +33,5 @@ SplineSet
  584 -232 585 -219 588 -205 c 4
  607 -107 687 -43 756 0 c 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

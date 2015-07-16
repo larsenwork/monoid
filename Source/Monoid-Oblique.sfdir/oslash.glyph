@@ -4,8 +4,8 @@ GlifName: oslash
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<339.836 588.991> 920 120<482.087 731.164>
-VStem: 153 130<291 547.893> 788 130<467.535 732>
+HStem: -16 120<338.906 592.275> 920 120<478.812 732.094>
+VStem: 153 130<291 565.973> 788 130<458.027 732>
 LayerCount: 3
 Back
 Fore
@@ -38,6 +38,5 @@ SplineSet
  762 841 l 5
  736 890 688 920 615 920 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

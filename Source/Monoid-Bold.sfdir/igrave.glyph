@@ -5,7 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<512 768> 784 240<256 512> 1152 256<486 562>
-VStem: 512 256<0 784>
+VStem: 296 408 512 256<0 784>
 LayerCount: 4
 Back
 Fore

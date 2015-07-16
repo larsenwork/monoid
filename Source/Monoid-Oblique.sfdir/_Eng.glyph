@@ -4,7 +4,7 @@ GlifName: E_ng
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<323.659 643.201> 0 21G<-12 119.885> 1388 20G<258.108 396.108 1026.11 1158>
+HStem: -400 120<319.998 647.404> 0 21G<-12 119.885> 1388 20G<258.108 396.108 1026.11 1158>
 LayerCount: 3
 Back
 Fore
@@ -29,6 +29,5 @@ SplineSet
  339 1148 l 1
  116 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

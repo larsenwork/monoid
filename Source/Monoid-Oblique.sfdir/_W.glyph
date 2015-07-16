@@ -5,7 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<118 251.022 628.75 845.5> 1388 20G<207 381 998.5 1167>
-VStem: 118 124<210 421.829> 1039 128<1232.48 1408>
+VStem: 118 124<210 443.787> 1039 128<1213.04 1408>
 LayerCount: 3
 Back
 Fore
@@ -28,7 +28,6 @@ SplineSet
  241 210 l 1
  548 896 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 Substitution2: "'ss10' Style Set 10 lookup 9 subtable" W.straight
 EndChar

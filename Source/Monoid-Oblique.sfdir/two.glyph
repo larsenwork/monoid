@@ -4,8 +4,8 @@ GlifName: two
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<301 810> 1304 120<389.269 803.046>
-VStem: 858 130<1006.25 1253.76>
+HStem: 0 120<301 810> 1304 120<389.269 808.609>
+VStem: 858 130<1002.31 1255.13>
 LayerCount: 3
 Back
 Fore
@@ -25,6 +25,5 @@ SplineSet
  558 1304 447 1288 363 1273 c 1
  387 1393 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

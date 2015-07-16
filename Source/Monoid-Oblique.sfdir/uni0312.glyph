@@ -4,7 +4,7 @@ GlifName: uni0312
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1560 120<701.625 803>
+HStem: 1560 120<698.088 803>
 VStem: 493 334
 LayerCount: 3
 Back
@@ -20,6 +20,5 @@ SplineSet
  493 1280 l 1
  513 1385 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

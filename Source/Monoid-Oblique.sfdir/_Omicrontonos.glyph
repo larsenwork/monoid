@@ -4,8 +4,8 @@ GlifName: O_microntonos
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<313.506 613.542> 1304 120<531.958 832.11>
-VStem: 68 131<226.126 693.751> 947 131<714.249 1181.87>
+HStem: -16 120<310.767 616.829> 1304 120<528.671 834.86>
+VStem: 68 131<223.239 709.69> 947 131<698.31 1184.76>
 LayerCount: 3
 Back
 Fore
@@ -34,6 +34,5 @@ SplineSet
  1012 577 987 458 941 355 c 4
  853 155 678 -16 433 -16 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

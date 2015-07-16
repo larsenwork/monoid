@@ -4,6 +4,7 @@ GlifName: f
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: 0 21G<244 375.892> 776 120<162 395 546 907> 1304 120<649.522 1009.14>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +29,5 @@ SplineSet
  523 776 l 5
  372 0 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

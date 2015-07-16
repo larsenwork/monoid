@@ -4,8 +4,8 @@ GlifName: C_caron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<347.9 884.32> 1048 120<510.039 1071.46>
-VStem: 67 129<250.02 663.402>
+HStem: -16 120<338.965 884.32> 1048 120<505.025 1071.46>
+VStem: 67 129<250.02 671.353>
 LayerCount: 3
 Back
 Fore
@@ -32,6 +32,5 @@ SplineSet
  764 1280 l 5
  606 1280 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

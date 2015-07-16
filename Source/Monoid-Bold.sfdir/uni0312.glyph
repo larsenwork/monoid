@@ -3,8 +3,9 @@ Encoding: 786 786 302
 GlifName: uni0312
 Width: 1024
 VWidth: 0
-Flags: MW
+Flags: W
 HStem: 1280 272<550.165 646>
+VStem: 448 198<1280 1358>
 AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 4
 Back
@@ -13,7 +14,7 @@ SplineSet
 500 1467 m 4
  541 1519 614 1552 704 1552 c 5
  704 1362 l 5
- 657.34375 1362 646 1330.05957031 646 1280 c 5
+ 657 1362 646 1330 646 1280 c 5
  448 1280 l 5
  448 1336 448 1401 500 1467 c 4
 EndSplineSet

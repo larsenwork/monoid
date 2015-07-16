@@ -4,8 +4,8 @@ GlifName: braceright
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -144 120<111 286.184> 643 120<740.356 881> 1430 120<417 554.677>
-VStem: 549 130<817.941 1113.14> 619 130<1079.86 1372.78>
+HStem: -144 120<111 292.899> 643 120<736.601 881> 1430 120<417 561.399>
+VStem: 549 130<816.569 1126.45> 619 130<1066.55 1377.39>
 CounterMasks: 1 e0
 LayerCount: 3
 Back
@@ -37,6 +37,5 @@ SplineSet
  692 990 l 2
  684 950 679 922 679 899 c 0xf0
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

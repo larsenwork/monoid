@@ -4,8 +4,8 @@ GlifName: U_macron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<302.541 624.27> 1416 120<415 1031>
-VStem: 62 130<209.484 572>
+HStem: -16 120<295.519 631.936> 1416 120<415 1031>
+VStem: 62 130<203.071 592>
 LayerCount: 3
 Back
 Fore
@@ -31,6 +31,5 @@ SplineSet
  967 426 956 371 927 303 c 0
  847 118 654 -16 433 -16 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

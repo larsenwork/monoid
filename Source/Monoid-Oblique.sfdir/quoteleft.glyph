@@ -4,7 +4,7 @@ GlifName: quoteleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1304 120<779.625 881>
+HStem: 1304 120<776.716 881>
 VStem: 546 359
 LayerCount: 3
 Back
@@ -20,6 +20,5 @@ SplineSet
  546 896 l 1
  591 1129 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

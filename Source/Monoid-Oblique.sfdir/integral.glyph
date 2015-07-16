@@ -4,7 +4,7 @@ GlifName: integral
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<60.8302 292.45> 1304 120<778.762 1010.17>
+HStem: -400 120<60.8302 295.081> 1304 120<776.133 1010.17>
 LayerCount: 3
 Back
 Fore
@@ -27,6 +27,5 @@ SplineSet
  312 -375 248 -400 176 -400 c 0
  126 -400 83 -393 41 -386 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

@@ -4,7 +4,7 @@ GlifName: quotesinglbase
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<190 291.375>
+HStem: -400 120<190 294.284>
 VStem: 166 359
 LayerCount: 3
 Back
@@ -20,6 +20,5 @@ SplineSet
  525 128 l 1
  480 -105 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

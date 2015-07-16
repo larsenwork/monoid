@@ -4,7 +4,7 @@ GlifName: r
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<116 247.874> 920 120<598.349 934.808> 1004 20G<311.113 443>
+HStem: 0 21G<116 247.874> 920 120<593.882 932.099> 1004 20G<311.113 443>
 LayerCount: 3
 Back
 Fore
@@ -23,7 +23,6 @@ SplineSet
  932 907 l 5
  876 914 820 920 755 920 c 4xc0
 EndSplineSet
-Validated: 1
 Layer: 2
 Substitution2: "'ss09' Style Set 9 lookup 8 subtable" r.base
 EndChar

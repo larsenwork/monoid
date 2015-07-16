@@ -4,7 +4,7 @@ GlifName: tildecomb
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1284 120<770.927 897.096> 1412 120<522.729 648.704>
+HStem: 1284 120<769.655 897.743> 1412 120<522.093 649.986>
 LayerCount: 3
 Back
 Fore
@@ -19,6 +19,5 @@ SplineSet
  1027 1395 943 1284 814 1284 c 0
  668 1284 659 1412 582 1412 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

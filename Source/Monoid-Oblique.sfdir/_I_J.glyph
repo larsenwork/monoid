@@ -4,8 +4,8 @@ GlifName: I_J_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -399 120<192.062 606.82> 0 120<11 139 267 372> 1160 120<237 341 469 597>
-VStem: 1005 128<1215.54 1280>
+HStem: -399 120<190.223 608.517> 0 120<11 139 267 372> 1160 120<237 341 469 597>
+VStem: 1005 128<1210.94 1280>
 LayerCount: 3
 Back
 Fore
@@ -35,6 +35,5 @@ SplineSet
  237 1280 l 1
  621 1280 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

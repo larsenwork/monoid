@@ -4,8 +4,8 @@ GlifName: onehalf
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -128 120<503 860> 536 120<495.788 834.725>
-VStem: 853 130<348.463 515.258>
+HStem: -128 120<503 860> 536 120<495.788 838.414>
+VStem: 853 130<343.502 515.957>
 LayerCount: 3
 Back
 Fore
@@ -35,6 +35,5 @@ SplineSet
  256 1380 l 1
  563 1536 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

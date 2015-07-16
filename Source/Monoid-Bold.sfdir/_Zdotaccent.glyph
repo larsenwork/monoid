@@ -4,7 +4,8 @@ GlifName: Z_dotaccent
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 240<423 1024> 1168 240<148 709> 1524 284<471.304 680.696>
+HStem: 0 240<423 1024> 1168 240<148 709> 1524 284<471.187 680.813>
+VStem: 434 284<1561.19 1770.81>
 LayerCount: 4
 Back
 Fore

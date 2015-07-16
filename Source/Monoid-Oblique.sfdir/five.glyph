@@ -4,8 +4,8 @@ GlifName: five
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<138.529 585.196> 792 120<509.365 715.578> 1288 120<494 1006>
-VStem: 764 131<373.694 742.836>
+HStem: -16 120<138.529 592.852> 792 120<503.717 716.973> 1288 120<494 1006>
+VStem: 764 131<358.714 744.339>
 LayerCount: 3
 Back
 Fore
@@ -30,6 +30,5 @@ SplineSet
  305 -16 199 1 119 15 c 5
  143 137 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

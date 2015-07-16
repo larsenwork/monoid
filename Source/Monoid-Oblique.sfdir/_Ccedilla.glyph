@@ -4,8 +4,8 @@ GlifName: C_cedilla
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -403 120<188.401 419.299> -16 120<346.749 497> 1304 120<559.06 1105.93>
-VStem: 72 131<243.692 714.27>
+HStem: -403 120<188.401 422.333> -16 120<336.492 497> 1304 120<549.848 1105.93>
+VStem: 72 131<235.6 729.688>
 LayerCount: 3
 Back
 Fore
@@ -35,6 +35,5 @@ SplineSet
  281 919 258 813 237 704 c 4
  219 610 203 518 203 432 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

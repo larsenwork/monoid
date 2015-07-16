@@ -1,5 +1,5 @@
 StartChar: four.triangle
-Encoding: 1114159 -1 651
+Encoding: 1114158 -1 651
 Width: 1024
 VWidth: 0
 Flags: W
@@ -44,6 +44,7 @@ SplineSet
  640 628 l 1
  640 1008 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 EndChar

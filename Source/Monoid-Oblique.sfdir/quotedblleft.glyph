@@ -4,7 +4,7 @@ GlifName: quotedblleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1304 120<523.625 625 907.625 1009>
+HStem: 1304 120<520.716 625 904.716 1009>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  674 896 l 1
  719 1129 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

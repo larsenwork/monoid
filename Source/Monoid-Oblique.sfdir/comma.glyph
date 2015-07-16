@@ -4,7 +4,7 @@ GlifName: comma
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -272 120<177 279.375>
+HStem: -272 120<177 282.278>
 VStem: 154 384
 LayerCount: 3
 Back
@@ -22,6 +22,5 @@ SplineSet
  232 128 l 5
  282 384 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

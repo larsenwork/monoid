@@ -4,7 +4,7 @@ GlifName: rcaron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<116 247.874> 920 120<598.349 934.808> 1004 20G<311.113 443> 1388 20G<334 514.683 897.512 1086>
+HStem: 0 21G<116 247.874> 920 120<593.882 932.099> 1004 20G<311.113 443> 1388 20G<334 514.683 897.512 1086>
 LayerCount: 3
 Back
 Fore
@@ -31,6 +31,5 @@ SplineSet
  739 1152 l 1
  581 1152 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

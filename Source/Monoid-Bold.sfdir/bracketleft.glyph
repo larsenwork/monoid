@@ -3,22 +3,22 @@ Encoding: 91 91 87
 GlifName: bracketleft
 Width: 1024
 VWidth: 0
-Flags: MW
+Flags: W
 HStem: -128 240<512 896> 1296 240<512 896>
-VStem: 256 256<112 1296>
+VStem: 256 640<-128 112 1296 1536> 256 256<112 1296>
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 1536 m 1
+256 1536 m 1xe0
  896 1536 l 1
- 896 1296 l 1
+ 896 1296 l 1xe0
  512 1296 l 1
- 512 112 l 1
+ 512 112 l 1xd0
  896 112 l 1
  896 -128 l 1
  256 -128 l 1
- 256 1536 l 1
+ 256 1536 l 1xe0
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -4,8 +4,8 @@ GlifName: upsilon
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<342.76 583.151> 1004 20G<311.128 443 823.128 955>
-VStem: 167 131<146.163 455.078>
+HStem: -16 120<338.164 589.808> 1004 20G<311.128 443 823.128 955>
+VStem: 167 131<144.952 476.547>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  304 305 298 276 298 250 c 4,1,-1
 310 337 m 1030,31,-1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

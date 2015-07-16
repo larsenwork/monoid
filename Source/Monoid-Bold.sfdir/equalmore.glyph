@@ -4,21 +4,22 @@ GlifName: equalmore
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 260 120<256 896> 772 120<256 896>
+HStem: 260 240<256 896> 772 240<256 896>
+VStem: 256 640<260 500 772 1012>
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 380 m 5
- 896 380 l 1
- 896 260 l 1
+256 500 m 5
+ 896 500 l 5
+ 896 260 l 5
  256 260 l 5
- 256 380 l 5
-256 892 m 5
- 896 892 l 1
- 896 772 l 1
+ 256 500 l 5
+256 1012 m 5
+ 896 1012 l 5
+ 896 772 l 5
  256 772 l 5
- 256 892 l 5
+ 256 1012 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

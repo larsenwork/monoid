@@ -4,8 +4,8 @@ GlifName: I_dotaccent
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<139 395 523 756> 1032 120<340 573 701 957> 1328 224<642.875 788.625>
-VStem: 601 229<1368.13 1509.63>
+HStem: 0 120<139 395 523 756> 1032 120<340 573 701 957> 1328 224<640.522 790.954>
+VStem: 601 229<1366.36 1513.64>
 LayerCount: 3
 Back
 Fore
@@ -29,6 +29,5 @@ SplineSet
  340 1152 l 5
  980 1152 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

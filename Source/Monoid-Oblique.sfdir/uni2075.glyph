@@ -4,8 +4,8 @@ GlifName: uni2075
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 752 120<286.668 663.828> 1152 120<491 699.754> 1416 120<519 903>
-VStem: 732 130<936.815 1121.35>
+HStem: 752 120<286.668 669.294> 1152 120<491 704.453> 1416 120<519 903>
+VStem: 732 130<935.222 1122.7>
 LayerCount: 3
 Back
 SplineSet
@@ -58,6 +58,5 @@ SplineSet
  797 1239 862 1164 862 1063 c 4
  862 865 685 752 513 752 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

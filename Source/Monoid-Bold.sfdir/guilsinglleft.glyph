@@ -4,21 +4,20 @@ GlifName: guilsinglleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1019 20G<690.035 735.588>
-VStem: 384 425
+HStem: -17 21G<702.79 744>
 LayerCount: 4
 Back
 Fore
 SplineSet
-509 581 m 5
- 509 571 l 5
- 809 181 l 5
- 705 113 l 5
- 384 542 l 5
- 384 610 l 5
- 705 1039 l 5
- 809 971 l 5
- 509 581 l 5
+389 635 m 5
+ 900 159 l 5
+ 724 -17 l 5
+ 128 545 l 5
+ 128 735 l 5
+ 724 1297 l 5
+ 900 1121 l 5
+ 389 645 l 5
+ 389 635 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

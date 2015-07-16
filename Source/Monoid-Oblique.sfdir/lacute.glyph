@@ -4,8 +4,8 @@ GlifName: lacute
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<559.125 754>
-VStem: 414 130<119.831 339.17>
+HStem: -16 120<557.916 754>
+VStem: 414 130<118.449 343.468>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  735 1280 l 1
  597 1280 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

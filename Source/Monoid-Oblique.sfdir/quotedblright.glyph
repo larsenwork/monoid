@@ -4,7 +4,7 @@ GlifName: quotedblright
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 880 120<310 412.375 694 796.375> 1388 20G<514.052 646 898.052 1030>
+HStem: 880 120<310 415.278 694 799.278> 1388 20G<514.052 646 898.052 1030>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  646 1408 l 1
  600 1175 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

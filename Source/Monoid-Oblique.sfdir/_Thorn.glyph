@@ -4,8 +4,8 @@ GlifName: T_horn
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<116 247.906> 384 120<342 757.348> 1032 120<468 852.479> 1388 20G<386.108 518>
-VStem: 928 130<677.964 956.672>
+HStem: 0 21G<116 247.906> 384 120<342 765.723> 1032 120<468 853.969> 1388 20G<386.108 518>
+VStem: 928 130<670.258 961.106>
 LayerCount: 3
 Back
 Fore
@@ -31,6 +31,5 @@ SplineSet
  319 384 l 1
  244 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

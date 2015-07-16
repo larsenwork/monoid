@@ -4,8 +4,8 @@ GlifName: uni0214
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<299.422 624.27>
-VStem: 62 130<212.551 572>
+HStem: -16 120<296.949 631.936>
+VStem: 62 130<204.864 592>
 LayerCount: 3
 Back
 Fore
@@ -38,6 +38,5 @@ SplineSet
  62 383 73 435 88 512 c 2
  212 1152 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

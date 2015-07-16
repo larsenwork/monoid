@@ -4,8 +4,8 @@ GlifName: tcaron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<468.863 755.844> 770 126<162 394 546 906>
-VStem: 296 131<146.98 466.328>
+HStem: -16 120<464.458 757.163> 770 126<162 394 546 906>
+VStem: 296 131<141.686 482.109>
 LayerCount: 3
 Back
 Fore
@@ -35,6 +35,5 @@ SplineSet
  852 1152 l 5
  927 1536 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

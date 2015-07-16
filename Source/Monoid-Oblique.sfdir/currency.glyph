@@ -4,8 +4,8 @@ GlifName: currency
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 244 120<386.346 642.591> 788 120<453.569 709.392>
-VStem: 205 130<413.854 666.849> 761 130<485.312 738.146>
+HStem: 244 120<382.062 646.779> 788 120<449.39 713.688>
+VStem: 205 130<410.695 668.867> 761 130<480.66 741.305>
 LayerCount: 3
 Back
 Fore
@@ -37,6 +37,5 @@ SplineSet
  232 384 l 1
  214 420 205 460 205 505 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

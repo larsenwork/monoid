@@ -4,7 +4,7 @@ GlifName: semicolon
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -272 120<178 280.375> 768 256<407 613>
+HStem: -272 120<178 283.278> 768 256<407 613>
 VStem: 155 508
 LayerCount: 3
 Back
@@ -27,6 +27,5 @@ SplineSet
  233 128 l 5
  283 384 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

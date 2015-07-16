@@ -4,6 +4,7 @@ GlifName: pi
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: 0 21G<116 247.894 628 759.894> 904 120<187 292 420 804 932 1060>
 LayerCount: 3
 Back
 Fore
@@ -22,6 +23,5 @@ SplineSet
  1060 904 l 1
  932 904 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

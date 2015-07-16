@@ -4,7 +4,7 @@ GlifName: itilde
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<139 395 523 756> 904 120<315 548> 1156 120<745.943 872.096> 1284 120<497.967 624.057>
+HStem: 0 120<139 395 523 756> 904 120<315 548> 1156 120<744.672 872.743> 1284 120<497.32 625.328>
 LayerCount: 3
 Back
 Fore
@@ -30,6 +30,5 @@ SplineSet
  756 0 l 1
  116 0 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

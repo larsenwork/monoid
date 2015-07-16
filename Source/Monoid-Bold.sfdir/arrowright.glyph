@@ -4,22 +4,22 @@ GlifName: arrowright
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 644 120<128 857>
+HStem: 520 240<128 710>
 LayerCount: 4
 Back
 Fore
 SplineSet
-857 764 m 5
- 599 1099 l 5
- 703 1167 l 5
- 1024 738 l 5
- 1024 670 l 5
- 703 241 l 5
- 599 309 l 5
- 857 644 l 5
- 128 644 l 5
- 128 764 l 5
- 857 764 l 5
+128 760 m 5
+ 710 760 l 5
+ 505 1033 l 5
+ 696 1174 l 5
+ 1024 735 l 5
+ 1024 545 l 5
+ 696 106 l 5
+ 505 247 l 5
+ 710 520 l 5
+ 128 520 l 5
+ 128 760 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

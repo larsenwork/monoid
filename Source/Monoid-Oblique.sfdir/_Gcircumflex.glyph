@@ -4,8 +4,8 @@ GlifName: G_circumflex
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<342.138 778.749> 520 120<624 857> 1048 120<510.039 1071.46>
-VStem: 66 130<248.258 657.079>
+HStem: -16 120<333.417 778.749> 520 120<624 857> 1048 120<505.025 1071.46>
+VStem: 66 130<239.99 671.353>
 LayerCount: 3
 Back
 Fore
@@ -36,6 +36,5 @@ SplineSet
  309 1280 l 5
  656 1536 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

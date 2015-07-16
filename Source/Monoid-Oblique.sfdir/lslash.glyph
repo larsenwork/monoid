@@ -4,8 +4,8 @@ GlifName: lslash
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<559.125 756.606> 1388 20G<642.104 774>
-VStem: 414 130<119.831 330.012>
+HStem: -16 120<557.916 757.664> 1388 20G<642.104 774>
+VStem: 414 130<118.449 333.656>
 LayerCount: 3
 Back
 Fore
@@ -31,6 +31,5 @@ SplineSet
  554 279 l 6
  549 253 544 227 544 203 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

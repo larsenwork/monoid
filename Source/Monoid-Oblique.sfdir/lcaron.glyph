@@ -4,8 +4,8 @@ GlifName: lcaron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<303.125 498> 1024 21G<827 958.906> 1388 20G<386.103 518 898.094 1030>
-VStem: 158 130<119.831 340.044>
+HStem: -16 120<301.916 498> 1024 21G<827 958.906> 1388 20G<386.103 518 898.094 1030>
+VStem: 158 130<118.449 344.404>
 LayerCount: 3
 Back
 Fore
@@ -28,6 +28,5 @@ SplineSet
  827 1024 l 1
  902 1408 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

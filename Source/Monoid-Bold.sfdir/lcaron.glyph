@@ -3,18 +3,18 @@ Encoding: 318 318 275
 GlifName: lcaron
 Width: 1024
 VWidth: 0
-Flags: MW
-HStem: -16 240<540.901 768>
+Flags: W
+HStem: -16 240<540.9 768> 1024 384<768 1024> 1388 20G<256 512>
 VStem: 256 256<250.178 1408> 768 256<1024 1408>
 LayerCount: 4
 Back
 Fore
 SplineSet
-768 1408 m 5
+768 1408 m 5xd8
  1024 1408 l 5
  1024 1024 l 5
  768 1024 l 5
- 768 1408 l 5
+ 768 1408 l 5xd8
 EndSplineSet
 Refer: 12 108 N 1 0 0 1 -128 0 2
 Validated: 1

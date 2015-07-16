@@ -4,7 +4,7 @@ GlifName: sterling
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<11 139 267 756> 648 120<137 242 393 754> 1304 120<594.473 980.081>
+HStem: 0 120<11 139 267 756> 648 120<137 242 393 754> 1304 120<589.553 980.081>
 LayerCount: 3
 Back
 Fore
@@ -33,6 +33,5 @@ SplineSet
  11 120 l 5
  139 120 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

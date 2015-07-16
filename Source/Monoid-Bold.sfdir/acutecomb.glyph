@@ -3,8 +3,9 @@ Encoding: 769 769 292
 GlifName: acutecomb
 Width: 1024
 VWidth: 0
-Flags: MW
+Flags: W
 HStem: 1280 256<590 666>
+VStem: 448 408
 AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 4
 Back

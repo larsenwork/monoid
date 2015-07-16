@@ -4,19 +4,20 @@ GlifName: less1
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: -17 21G<830.79 872>
 LayerCount: 4
 Back
 Fore
 SplineSet
-1060 200 m 5
- 989 99 l 5
- 384 528 l 5
- 384 624 l 5
- 989 1053 l 5
- 1060 952 l 5
- 529 581 l 5
- 529 571 l 5
- 1060 200 l 5
+517 635 m 5
+ 1028 159 l 5
+ 852 -17 l 5
+ 256 545 l 5
+ 256 735 l 5
+ 852 1297 l 5
+ 1028 1121 l 5
+ 517 645 l 5
+ 517 635 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

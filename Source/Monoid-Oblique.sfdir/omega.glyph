@@ -4,8 +4,8 @@ GlifName: omega
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<176.95 367.917 560.452 752.536> 1004 20G<183.105 315 951.105 1083>
-VStem: 29 130<123.601 324.338>
+HStem: -16 120<176.299 370.488 558.257 753.523> 1004 20G<183.105 315 951.105 1083>
+VStem: 29 130<123.601 328.648>
 LayerCount: 3
 Back
 Fore
@@ -36,6 +36,5 @@ SplineSet
  551 264 l 6
  547 242 543 223 543 201 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar

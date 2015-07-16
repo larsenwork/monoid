@@ -157,7 +157,7 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>Wish List</td>
         <td>2015.xx.xx</td>
-        <td>Download stats, store user config, ...</td>
+        <td>Download stats, generate versions live on site, ...</td>
         <td></td>
     </tr>
 </table>

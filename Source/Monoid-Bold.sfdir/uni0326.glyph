@@ -3,8 +3,9 @@ Encoding: 806 806 304
 GlifName: uni0326
 Width: 1024
 VWidth: 0
-Flags: MW
+Flags: W
 HStem: -400 272<506 601.835>
+VStem: 506 198<-205.998 -128>
 AnchorPoint: "bottom" 576 0 mark 0
 LayerCount: 4
 Back
@@ -22,7 +23,7 @@ SplineSet
 652 -315 m 4
  611 -367 538 -400 448 -400 c 5
  448 -210 l 5
- 494.65604131 -210 506 -178.0590862 506 -128 c 5
+ 495 -210 506 -178 506 -128 c 5
  704 -128 l 5
  704 -184 704 -249 652 -315 c 4
 EndSplineSet

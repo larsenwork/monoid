@@ -4,7 +4,7 @@ GlifName: zero
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -18 124<363.386 564.358> 1302 124<581.427 779.927>
+HStem: -18 124<362.349 568.971> 1302 124<576.802 784.559>
 LayerCount: 3
 Back
 Fore
@@ -31,7 +31,6 @@ SplineSet
  293 926 328 1105 387 1209 c 0
  448 1315 548 1426 713 1426 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 Substitution2: "'ss04' Style Set 4 lookup 3 subtable" zero.clear
 Substitution2: "'ss03' Style Set 3 lookup 2 subtable" zero.dot
