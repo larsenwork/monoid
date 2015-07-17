@@ -3,7 +3,7 @@ Encoding: 109 109 13
 GlifName: m
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: 0 21G<128 256 512 640 896 1024> 920 120<308.068 480.961 669.549 865.287> 1004 20G<128 256>
 VStem: 128 128<0 890.704 949 1024> 512 128<0 890.704> 896 128<0 887.948>
 CounterMasks: 1 1c
@@ -34,11 +34,10 @@ SplineSet
  128 0 l 1
  128 1024 l 1
  256 1024 l 1xbc
- 256 949 l 1
+ 256 949 l 5
  266 949 l 1
  306 1008 354 1040 414 1040 c 0xdc
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 384 980 m 4
