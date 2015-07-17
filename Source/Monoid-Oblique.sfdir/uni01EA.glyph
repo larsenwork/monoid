@@ -3,7 +3,7 @@ Encoding: 490 490 436
 GlifName: uni01E_A_
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -400 120<333.075 424> 1176 120<495.402 824.54>
 VStem: 62 130<212.418 678.826> 200 131<-276.835 -114.784> 929 130<606.028 1067.03>
 LayerCount: 3

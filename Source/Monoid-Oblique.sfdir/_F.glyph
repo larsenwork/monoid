@@ -5,21 +5,22 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<52 183.875> 640 120<328 816> 1288 120<430 1070>
+AnchorPoint: "top" 704 1408 basechar 0
 LayerCount: 3
 Back
 Fore
 SplineSet
-326 1408 m 5
- 1094 1408 l 5
- 1070 1288 l 5
- 430 1288 l 5
- 328 760 l 5
- 840 760 l 5
- 816 640 l 5
- 304 640 l 5
- 180 0 l 5
- 52 0 l 5
- 326 1408 l 5
+326 1408 m 1
+ 1094 1408 l 1
+ 1070 1288 l 1
+ 430 1288 l 1
+ 328 760 l 1
+ 840 760 l 1
+ 816 640 l 1
+ 304 640 l 1
+ 180 0 l 1
+ 52 0 l 1
+ 326 1408 l 1
 EndSplineSet
 Layer: 2
 EndChar

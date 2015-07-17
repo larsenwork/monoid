@@ -6,6 +6,7 @@ VWidth: 0
 Flags: W
 HStem: 1280 256
 VStem: 597 354
+AnchorPoint: "top" 665 1152 mark 0
 LayerCount: 3
 Back
 Fore

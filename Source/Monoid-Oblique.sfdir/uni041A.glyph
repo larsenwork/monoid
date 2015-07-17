@@ -5,6 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<-12 119.871 754.764 922> 1388 20G<258.108 390 943.448 1103>
+AnchorPoint: "top" 704 1408 basechar 0
 LayerCount: 3
 Back
 Fore
