@@ -169,8 +169,6 @@ def DropCAltAndLiga():
 def Variation(name):
     """Changes the subfamily/variation of the font"""
     def variation_op(fnt):
-        base = fnt.fontname.split('-')[0]
-        fontname = [base] + name.split()
-        fnt.fontname = '-'.join(fontname)
-        fnt.fullname = ' '.join(fontname)
+        fnt.fontname = '-'.join(fnt.fontname.split('-') + name.split())
+        fnt.fullname = ' '.join(fnt.fullname.split() + name.split())
     return variation_op
