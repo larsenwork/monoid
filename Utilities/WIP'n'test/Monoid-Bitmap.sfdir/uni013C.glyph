@@ -1,0 +1,17 @@
+StartChar: uni013C
+Encoding: 316 316 281
+GlifName: uni013C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -400 120<512 611.098> -16 120<670.604 896> 1388 20G<512 640>
+VStem: 512 128<149.787 1408> 640 128<-243.403 -128>
+LayerCount: 5
+Back
+Fore
+Refer: 306 806 N 1 0 0 1 128 0 2
+Refer: 12 108 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,17 @@
+StartChar: yacute
+Encoding: 253 253 160
+GlifName: yacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -272 120<256 450.847> 1004 20G<204 364.5 786 949> 1152 256
+VStem: 204 131<859.884 1024> 488 304
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 -128 2
+Refer: 24 121 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

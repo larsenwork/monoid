@@ -1,0 +1,34 @@
+StartChar: uni041C
+Encoding: 1052 1052 331
+GlifName: uni041C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 896 1024> 1388 20G<128 266.032 886 1024>
+VStem: 128 128<0 1150> 896 128<0 1150>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 571 780 l 1
+ 582 780 l 1
+ 896 1408 l 1
+ 1024 1408 l 1
+ 1024 0 l 1
+ 896 0 l 1
+ 896 1150 l 1
+ 886 1150 l 1
+ 631 640 l 1
+ 521 640 l 1
+ 266 1150 l 1
+ 256 1150 l 1
+ 256 0 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

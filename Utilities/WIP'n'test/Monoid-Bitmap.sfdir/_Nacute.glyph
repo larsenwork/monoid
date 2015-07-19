@@ -1,0 +1,17 @@
+StartChar: Nacute
+Encoding: 323 323 238
+GlifName: N_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 885.119 1024> 1388 20G<128 265.898 896 1024> 1536 256
+VStem: 128 128<0 1158> 488 304 896 128<250 1408>
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 256 2
+Refer: 41 78 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

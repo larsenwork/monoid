@@ -1,0 +1,36 @@
+StartChar: slash
+Encoding: 47 47 69
+GlifName: slash
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+SplineSet
+238.034488438 -154.535563034 m 1
+ 125.965511562 -101.464436966 l 1
+ 913.965511562 1562.53556303 l 1
+ 1026.03448844 1509.46443697 l 1
+ 238.034488438 -154.535563034 l 1
+EndSplineSet
+Fore
+SplineSet
+238 -155 m 1
+ 125 -102 l 1
+ 914 1563 l 1
+ 1027 1510 l 1
+ 238 -155 l 1
+EndSplineSet
+Layer: 2
+SplineSet
+182 -128 m 5
+ 970 1536 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 64 subtable" ligadoubleslash
+Substitution2: "Single Substitution lookup 63 subtable" larsenwork
+Substitution2: "Single Substitution lookup 62 subtable" ligatrippleslash
+Substitution2: "Single Substitution lookup 61 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 60 subtable" larsenwork1
+EndChar

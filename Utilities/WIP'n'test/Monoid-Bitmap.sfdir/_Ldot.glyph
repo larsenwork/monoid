@@ -1,0 +1,29 @@
+StartChar: Ldot
+Encoding: 319 319 282
+GlifName: L_dot
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 720 224<614.609 793.391> 1388 20G<256 384>
+VStem: 256 128<120 1408> 592 224<742.609 921.391>
+LayerCount: 5
+Back
+Fore
+SplineSet
+704 944 m 0
+ 770 944 816 898 816 832 c 0
+ 816 766 770 720 704 720 c 0
+ 638 720 592 766 592 832 c 0
+ 592 898 638 944 704 944 c 0
+256 0 m 1
+ 256 1408 l 1
+ 384 1408 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

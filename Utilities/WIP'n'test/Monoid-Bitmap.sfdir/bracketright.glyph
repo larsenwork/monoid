@@ -1,0 +1,26 @@
+StartChar: bracketright
+Encoding: 93 93 88
+GlifName: bracketright
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -128 120<256 640> 1416 120<256 640>
+VStem: 640 128<-8 1416>
+LayerCount: 5
+Back
+Fore
+SplineSet
+768 1536 m 1
+ 768 982 768 426 768 -128 c 1
+ 597 -128 427 -128 256 -128 c 1
+ 256 -8 l 1
+ 640 -8 l 1
+ 640 1416 l 1
+ 256 1416 l 1
+ 256 1536 l 1
+ 768 1536 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

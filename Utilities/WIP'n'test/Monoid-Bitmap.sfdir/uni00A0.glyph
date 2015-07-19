@@ -1,0 +1,13 @@
+StartChar: uni00A0
+Encoding: 160 160 431
+GlifName: uni00A_0
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

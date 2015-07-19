@@ -1,0 +1,33 @@
+StartChar: uni0445
+Encoding: 1093 1093 385
+GlifName: uni0445
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<159 337.427 814.573 993> 1004 20G<181 359.737 792.263 971>
+LayerCount: 5
+Back
+Fore
+SplineSet
+571 644 m 1
+ 581 644 l 1
+ 804 1024 l 1
+ 971 1024 l 1
+ 650 561 l 1
+ 650 551 l 1
+ 993 0 l 1
+ 825 0 l 1
+ 581 468 l 1
+ 571 468 l 1
+ 327 0 l 1
+ 159 0 l 1
+ 502 551 l 1
+ 502 561 l 1
+ 181 1024 l 1
+ 348 1024 l 1
+ 571 644 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,48 @@
+StartChar: one.base
+Encoding: 1114152 -1 654
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1388 20G<499.644 640>
+VStem: 512 128<120 1246>
+LayerCount: 5
+Back
+SplineSet
+532 1408 m 5
+ 640 1408 l 5
+ 640 120 l 5
+ 896 120 l 5
+ 896 0 l 5
+ 640 0 l 5
+ 512 0 l 5
+ 256 0 l 5
+ 256 120 l 5
+ 512 120 l 5
+ 512 1246 l 5
+ 502 1246 l 5
+ 191 1022 l 5
+ 128 1114 l 5
+ 532 1408 l 5
+EndSplineSet
+Fore
+SplineSet
+532 1408 m 1
+ 640 1408 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 640 0 l 1
+ 512 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1246 l 1
+ 502 1246 l 1
+ 288 1115 l 5
+ 223 1217 l 1
+ 532 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

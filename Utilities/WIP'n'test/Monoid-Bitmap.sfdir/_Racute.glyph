@@ -1,0 +1,17 @@
+StartChar: Racute
+Encoding: 340 340 255
+GlifName: R_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<256 384 920.073 1065> 520 120<384 689.19> 1288 120<384 755.459> 1536 256
+VStem: 256 128<0 520 640 1288> 488 304 912 128<795.125 1132.88>
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 256 2
+Refer: 45 82 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

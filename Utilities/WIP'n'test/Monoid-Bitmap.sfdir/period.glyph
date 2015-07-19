@@ -1,0 +1,27 @@
+StartChar: period
+Encoding: 46 46 68
+GlifName: period
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<384 640>
+VStem: 384 256<0 240>
+LayerCount: 5
+Back
+Fore
+SplineSet
+384 240 m 1
+ 640 240 l 1
+ 640 0 l 1
+ 384 0 l 1
+ 384 240 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 55 subtable" period2r
+Substitution2: "Single Substitution lookup 54 subtable" period2l
+Substitution2: "Single Substitution lookup 53 subtable" dotdotdot
+Substitution2: "Single Substitution lookup 52 subtable" larsenwork
+Substitution2: "Single Substitution lookup 51 subtable" larsenwork
+EndChar

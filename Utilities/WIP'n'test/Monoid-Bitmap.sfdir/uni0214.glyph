@@ -1,0 +1,17 @@
+StartChar: uni0214
+Encoding: 532 532 458
+GlifName: uni0214
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<409.11 742.813> 1388 20G<128 256 896 1024> 1536 256
+VStem: 128 128<260.614 1408> 896 128<260.614 1408>
+LayerCount: 5
+Back
+Fore
+Refer: 435 783 N 1 0 0 1 0 256 2
+Refer: 48 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

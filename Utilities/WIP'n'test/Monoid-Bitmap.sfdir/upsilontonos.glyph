@@ -1,0 +1,17 @@
+StartChar: upsilontonos
+Encoding: 973 973 545
+GlifName: upsilontonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<450.341 701.659> 1004 20G<256 384 768 896> 1131 307
+VStem: 256 128<171.731 1024> 504 281 768 128<171.731 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 555 900 N 1 0 0 1 0 0 2
+Refer: 537 965 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,37 @@
+StartChar: download
+Encoding: 1114112 -1 613
+GlifName: download
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 512<-640 -384 512 768> 0 256<-384 512> 1387 20G<-64 192>
+VStem: -640 256<256 512> -64 256<896 1407> 512 256<256 512>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+SplineSet
+-640 512 m 1xbc
+ -384 512 l 1xbc
+ -384 256 l 1
+ 512 256 l 1x7c
+ 512 512 l 1
+ 768 512 l 1
+ 768 0 l 1
+ -640 0 l 1
+ -640 512 l 1xbc
+-64 1407 m 1
+ 192 1407 l 1
+ 192 896 l 1
+ 512 896 l 1
+ 64 448 l 1
+ -384 896 l 1
+ -64 896 l 1
+ -64 1407 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Ligature2: "'liga' Standard Ligatures lookup 12 subtable" o w n l o a d I c o n
+LCarets2: 10 0 0 0 0 0 0 0 0 0 0
+EndChar

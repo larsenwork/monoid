@@ -1,0 +1,31 @@
+StartChar: uni0237
+Encoding: 567 567 292
+GlifName: uni0237
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -272 120<174.991 544.103> 904 120<384 640>
+VStem: 640 128<-50.2326 904>
+AnchorPoint: "top" 704 1024 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 160 m 2
+ 640 904 l 1
+ 384 904 l 1
+ 384 1024 l 1
+ 768 1024 l 1
+ 768 160 l 2
+ 768 100 768 -11 707 -113 c 0
+ 652 -205 556 -272 408 -272 c 0
+ 318 -272 236 -265 172 -257 c 1
+ 172 -137 l 1
+ 235 -144 319 -152 408 -152 c 0
+ 504 -152 559 -113 596 -54 c 0
+ 640 17 640 113 640 160 c 2
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,26 @@
+StartChar: tilde
+Encoding: 126 126 94
+GlifName: tilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 380 120<691.74 863.798> 652 120<288.202 460.26>
+VStem: 128 128<384 618.172> 896 128<533.828 768>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 384 m 1
+ 128 384 l 1
+ 128 603 165 772 375 772 c 0
+ 602 772 636 500 777 500 c 0
+ 890 500 896 596 896 768 c 1
+ 1024 768 l 1
+ 1024 549 987 380 777 380 c 0
+ 550 380 516 652 375 652 c 0
+ 262 652 256 556 256 384 c 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

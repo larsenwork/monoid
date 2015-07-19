@@ -1,0 +1,31 @@
+StartChar: H
+Encoding: 72 72 36
+GlifName: H_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 896 1024> 640 120<256 896> 1388 20G<128 256 896 1024>
+VStem: 128 128<0 640 760 1408> 896 128<0 640 760 1408>
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 1408 m 1
+ 256 1408 l 1
+ 256 760 l 1
+ 896 760 l 1
+ 896 1408 l 1
+ 1024 1408 l 1
+ 1024 0 l 1
+ 896 0 l 1
+ 896 640 l 1
+ 256 640 l 1
+ 256 0 l 1
+ 128 0 l 1
+ 128 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

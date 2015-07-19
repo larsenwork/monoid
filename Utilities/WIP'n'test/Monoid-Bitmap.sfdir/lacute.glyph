@@ -1,0 +1,17 @@
+StartChar: lacute
+Encoding: 314 314 279
+GlifName: lacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<670.604 896> 1388 20G<512 640> 1536 256
+VStem: 488 304 512 128<149.787 1408>
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 256 2
+Refer: 12 108 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

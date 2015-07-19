@@ -1,0 +1,40 @@
+StartChar: multiply
+Encoding: 215 215 122
+GlifName: multiply
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+725 512 m 5
+ 1000 240 l 5
+ 906 158 l 5
+ 640 427 l 5
+ 581 512 l 5
+ 571 512 l 5
+ 512 427 l 5
+ 246 158 l 5
+ 152 240 l 5
+ 427 512 l 5
+ 512 571 l 5
+ 512 581 l 5
+ 427 640 l 5
+ 152 912 l 5
+ 246 994 l 5
+ 512 725 l 5
+ 571 640 l 5
+ 581 640 l 5
+ 640 725 l 5
+ 906 994 l 5
+ 1000 912 l 5
+ 725 640 l 5
+ 640 581 l 5
+ 640 571 l 5
+ 725 512 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

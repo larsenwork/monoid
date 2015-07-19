@@ -1,0 +1,16 @@
+StartChar: Zcaron
+Encoding: 381 381 218
+GlifName: Z_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<293 1024> 1288 120<148 839> 1539 256
+LayerCount: 5
+Back
+Fore
+Refer: 303 780 N 1 0 0 1 0 259 2
+Refer: 53 90 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

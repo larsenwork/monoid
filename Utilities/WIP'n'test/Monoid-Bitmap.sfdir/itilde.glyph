@@ -1,0 +1,18 @@
+StartChar: itilde
+Encoding: 297 297 225
+GlifName: itilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 904 120<256 512> 1156 120<627.68 755.914> 1284 120<396.111 524.32>
+VStem: 253 128<1177 1277.1> 512 128<0 904> 771 128<1283.78 1383>
+CounterMasks: 1 0e
+LayerCount: 5
+Back
+Fore
+Refer: 296 771 N 1 0 0 1 0 -128 2
+Refer: 233 305 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

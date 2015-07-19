@@ -1,0 +1,23 @@
+StartChar: dcaron
+Encoding: 271 271 180
+GlifName: dcaron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<450.208 671.898> 0 21G<768 896> 920 120<450.208 671.898> 1024 21G<1024 1152> 1388 20G<768 896 1024 1152>
+VStem: 224 128<220.345 803.655> 768 128<0 125 219.664 804.336 899 1408> 1024 128<1024 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1024 1408 m 1x1f
+ 1152 1408 l 1
+ 1152 1024 l 1
+ 1024 1024 l 1
+ 1024 1408 l 1x1f
+EndSplineSet
+Refer: 4 100 N 1 0 0 1 0 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

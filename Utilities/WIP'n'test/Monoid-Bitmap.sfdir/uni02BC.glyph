@@ -1,0 +1,26 @@
+StartChar: uni02BC
+Encoding: 700 700 521
+GlifName: uni02B_C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1008 120<384 480.514>
+VStem: 512 128<1174.74 1536>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 1303 m 2
+ 640 1243 640 1173 588 1103 c 0
+ 546 1046 474 1008 384 1008 c 1
+ 384 1128 l 1
+ 431 1128 463 1145 484 1173 c 0
+ 512 1210 512 1253 512 1303 c 2
+ 512 1536 l 1
+ 640 1536 l 1
+ 640 1303 l 2
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

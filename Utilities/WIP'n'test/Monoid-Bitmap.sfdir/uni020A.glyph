@@ -1,0 +1,18 @@
+StartChar: uni020A
+Encoding: 522 522 448
+GlifName: uni020A_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1688 120<420.418 731.582>
+VStem: 236 128<1536 1630.12> 512 128<120 1288> 788 128<1536 1630.12>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+Refer: 669 785 N 1 0 0 1 0 256 2
+Refer: 37 73 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

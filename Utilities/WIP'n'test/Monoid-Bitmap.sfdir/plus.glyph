@@ -1,0 +1,30 @@
+StartChar: plus
+Encoding: 43 43 66
+GlifName: plus
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 516 120<128 512 640 1024> 1004 20G<512 640>
+VStem: 512 128<128 516 636 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 636 m 5
+ 1024 636 l 5
+ 1024 516 l 5
+ 640 516 l 5
+ 640 128 l 5
+ 512 128 l 5
+ 512 516 l 5
+ 128 516 l 5
+ 128 636 l 5
+ 512 636 l 5
+ 512 1024 l 5
+ 640 1024 l 5
+ 640 636 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

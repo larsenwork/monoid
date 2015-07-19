@@ -1,0 +1,17 @@
+StartChar: odieresis
+Encoding: 246 246 153
+GlifName: odieresis
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<449.655 702.345> 920 120<449.655 702.345> 1200 224<262.609 441.391 710.609 889.391>
+VStem: 224 128<213.685 810.315> 240 224<1222.61 1401.39> 688 224<1222.61 1401.39> 800 128<213.685 810.315>
+LayerCount: 5
+Back
+Fore
+Refer: 300 776 N 1 0 0 1 0 -128 2
+Refer: 15 111 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

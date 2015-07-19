@@ -1,0 +1,17 @@
+StartChar: Gbreve
+Encoding: 286 286 193
+GlifName: G_breve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<452.542 892.627> 648 120<640 896> 1304 120<463.136 969.539> 1520 120<484.418 795.582>
+VStem: 112 128<353.191 1054.93> 300 128<1697.88 1792> 852 128<1697.88 1792> 896 128<121.42 648>
+LayerCount: 5
+Back
+Fore
+Refer: 298 774 N 1 0 0 1 64 256 2
+Refer: 35 71 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

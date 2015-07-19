@@ -1,0 +1,17 @@
+StartChar: imacron
+Encoding: 299 299 227
+GlifName: imacron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 904 120<256 512> 1156 120<256 896>
+VStem: 512 128<0 904>
+LayerCount: 5
+Back
+Fore
+Refer: 297 772 N 1 0 0 1 0 -128 2
+Refer: 233 305 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

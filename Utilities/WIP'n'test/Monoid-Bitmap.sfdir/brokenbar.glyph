@@ -1,0 +1,27 @@
+StartChar: brokenbar
+Encoding: 166 166 314
+GlifName: brokenbar
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 21G<512 640>
+VStem: 512 128<-128 384 1024 1536>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 384 m 1
+ 640 -128 l 1
+ 512 -128 l 1
+ 512 384 l 1
+ 640 384 l 1
+640 1536 m 1
+ 640 1024 l 1
+ 512 1024 l 1
+ 512 1536 l 1
+ 640 1536 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

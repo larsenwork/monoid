@@ -1,0 +1,17 @@
+StartChar: Tcaron
+Encoding: 356 356 286
+GlifName: T_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 1288 120<128 512 640 1024> 1536 256
+VStem: 512 128<0 1288>
+LayerCount: 5
+Back
+Fore
+Refer: 303 780 N 1 0 0 1 0 256 2
+Refer: 47 84 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

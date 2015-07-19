@@ -1,0 +1,17 @@
+StartChar: gdotaccent
+Encoding: 289 289 196
+GlifName: gdotaccent
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -272 120<302.991 672.103> 112 120<442.733 665.245> 920 120<442.733 665.245> 1004 20G<768 896> 1200 224<486.609 665.391>
+VStem: 224 128<337.189 814.811> 464 224<1222.61 1401.39> 768 128<-50.2326 253 335.449 816.551 899 1024>
+LayerCount: 5
+Back
+Fore
+Refer: 299 775 N 1 0 0 1 0 -128 2
+Refer: 7 103 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

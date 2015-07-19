@@ -1,0 +1,31 @@
+StartChar: uni041A
+Encoding: 1050 1050 329
+GlifName: uni041A_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 890.881 1062> 1388 20G<128 256 813.338 969>
+VStem: 128 128<0 558 719 1408>
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 719 l 1
+ 830 1408 l 1
+ 969 1408 l 1
+ 481 813 l 1
+ 1062 0 l 1
+ 905 0 l 1
+ 396 721 l 1
+ 256 558 l 1
+ 256 0 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

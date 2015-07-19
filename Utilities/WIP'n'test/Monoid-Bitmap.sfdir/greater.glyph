@@ -1,0 +1,31 @@
+StartChar: greater
+Encoding: 62 62 84
+GlifName: greater
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+763 571 m 5
+ 763 581 l 5
+ 252 1057 l 5
+ 338 1147 l 5
+ 896 621 l 5
+ 896 531 l 5
+ 338 5 l 5
+ 252 95 l 5
+ 763 571 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 57 subtable" greater2
+Substitution2: "Single Substitution lookup 56 subtable" greater1
+Substitution2: "Single Substitution lookup 41 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 33 subtable" ligaarrowright
+Substitution2: "Single Substitution lookup 29 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 28 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 23 subtable" ligaarrowrightlong
+EndChar

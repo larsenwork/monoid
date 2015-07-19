@@ -1,0 +1,27 @@
+StartChar: tildecomb
+Encoding: 771 771 296
+GlifName: tildecomb
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1284 120<627.68 755.914> 1412 120<396.111 524.32>
+VStem: 253 128<1305 1405.1> 771 128<1411.78 1511>
+AnchorPoint: "top" 576 1152 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+448 1412 m 0
+ 397 1412 384 1353 381 1299 c 1
+ 253 1305 l 1
+ 257 1423 319 1532 448 1532 c 0
+ 594 1532 627 1404 704 1404 c 0
+ 755 1404 768 1463 771 1517 c 1
+ 899 1511 l 1
+ 896 1395 833 1284 704 1284 c 0
+ 558 1284 525 1412 448 1412 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

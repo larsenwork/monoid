@@ -1,0 +1,22 @@
+StartChar: uni2219
+Encoding: 8729 8729 573
+GlifName: uni2219
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 560 288<408.125 615.875>
+VStem: 368 288<600.125 807.875>
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 848 m 0
+ 597 848 656 789 656 704 c 0
+ 656 619 597 560 512 560 c 0
+ 427 560 368 619 368 704 c 0
+ 368 789 427 848 512 848 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,34 @@
+StartChar: uni0429
+Encoding: 1065 1065 344
+GlifName: uni0429
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1388 20G<128 256 512 640 896 1024>
+VStem: 128 128<120 1408> 512 128<120 1408> 896 128<120 1408> 1024 128<-256 0>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 0 m 1xf4
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1408 l 1
+ 640 1408 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 1408 l 1
+ 1024 1408 l 1xf8
+ 1024 119 l 1
+ 1152 119 l 1
+ 1152 -256 l 1
+ 1024 -256 l 1
+ 1024 0 l 1
+ 128 0 l 1xf4
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

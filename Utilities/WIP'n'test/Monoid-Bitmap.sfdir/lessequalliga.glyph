@@ -1,0 +1,30 @@
+StartChar: lessequalliga
+Encoding: 1114130 -1 631
+GlifName: lessequalliga
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 132 120<-640 768>
+LayerCount: 5
+Back
+Fore
+SplineSet
+768 252 m 5
+ 768 132 l 5
+ -640 132 l 5
+ -640 252 l 5
+ 768 252 l 5
+-429 773 m 5
+ -429 763 l 5
+ 768 507 l 5
+ 768 384 l 5
+ -640 688 l 5
+ -640 848 l 5
+ 768 1152 l 5
+ 768 1029 l 5
+ -429 773 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
