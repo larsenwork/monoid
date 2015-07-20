@@ -16,12 +16,13 @@ SplineSet
  384 0 l 1
  384 240 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 43 subtable" period2r
-Substitution2: "Single Substitution lookup 42 subtable" period2l
-Substitution2: "Single Substitution lookup 41 subtable" dotdotdot
-Substitution2: "Single Substitution lookup 40 subtable" larsenwork
-Substitution2: "Single Substitution lookup 39 subtable" larsenwork
+Substitution2: "Single Substitution lookup 57 subtable" period2r
+Substitution2: "Single Substitution lookup 56 subtable" period2l
+Substitution2: "Single Substitution lookup 55 subtable" dotdotdot
+Substitution2: "Single Substitution lookup 54 subtable" larsenwork
+Substitution2: "Single Substitution lookup 53 subtable" larsenwork
 EndChar

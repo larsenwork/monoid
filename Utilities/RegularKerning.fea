@@ -1,0 +1,13 @@
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem DFLT dflt;
+
+@wide = [A B C D E G H M N O P Q R S U V W X Z m w];
+@narrow = [i j l period comma colon semicolon exclam];
+@medium = [a b c d e f g h k n o p q r s t u v x y z];
+
+feature calt {
+  pos @wide @narrow' <128 0 0 0> @medium;
+  pos @wide @narrow' <128 0 0 0> @narrow;
+} calt;

@@ -30,6 +30,7 @@ SplineSet
  512 776 l 1
  512 0 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 448 1024 m 1
@@ -54,5 +55,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 50 subtable" larsenwork
+Substitution2: "Single Substitution lookup 69 subtable" larsenwork
 EndChar

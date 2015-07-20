@@ -20,14 +20,16 @@ SplineSet
  128 772 l 5
  128 892 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 32 subtable" equalmore
-Substitution2: "Single Substitution lookup 31 subtable" equalmore
-Substitution2: "Single Substitution lookup 30 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 28 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 26 subtable" notequalliga
-Substitution2: "Single Substitution lookup 24 subtable" notequaltypeliga
-Substitution2: "Single Substitution lookup 23 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 45 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 44 subtable" equalmore
+Substitution2: "Single Substitution lookup 43 subtable" equalmore
+Substitution2: "Single Substitution lookup 42 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 40 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 38 subtable" notequalliga
+Substitution2: "Single Substitution lookup 36 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 35 subtable" larsenwork1
 EndChar

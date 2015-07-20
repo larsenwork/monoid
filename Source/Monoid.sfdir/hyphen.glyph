@@ -15,17 +15,18 @@ SplineSet
  128 516 l 5
  128 636 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 21 subtable" ligaarrowleft
-Substitution2: "Single Substitution lookup 18 subtable" larsenwork
-Substitution2: "Single Substitution lookup 17 subtable" ligaarrowlefttwoheads
-Substitution2: "Single Substitution lookup 12 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 11 subtable" ligaarrowleftlong
-Substitution2: "Single Substitution lookup 10 subtable" larsenwork
-Substitution2: "Single Substitution lookup 7 subtable" larsenwork
-Substitution2: "Single Substitution lookup 6 subtable" larsenwork
-Substitution2: "Single Substitution lookup 5 subtable" commentstart
-Substitution2: "Single Substitution lookup 4 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 32 subtable" larsenwork
+Substitution2: "Single Substitution lookup 31 subtable" ligaarrowleft
+Substitution2: "Single Substitution lookup 27 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 26 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 22 subtable" larsenwork
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork
+Substitution2: "Single Substitution lookup 20 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 19 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 17 subtable" commentstart
+Substitution2: "Single Substitution lookup 16 subtable" larsenwork5
 EndChar

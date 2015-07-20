@@ -28,6 +28,7 @@ SplineSet
  389 581 l 5
  389 571 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 896 150 m 5
@@ -36,12 +37,12 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 47 subtable" less2
-Substitution2: "Single Substitution lookup 46 subtable" less1
-Substitution2: "Single Substitution lookup 27 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 20 subtable" larsenwork
-Substitution2: "Single Substitution lookup 16 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 15 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 9 subtable" larsenwork
-Substitution2: "Single Substitution lookup 2 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 61 subtable" less2
+Substitution2: "Single Substitution lookup 60 subtable" less1
+Substitution2: "Single Substitution lookup 39 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 30 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 25 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 24 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 18 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 14 subtable" larsenwork5
 EndChar

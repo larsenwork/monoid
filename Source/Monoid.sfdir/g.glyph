@@ -41,6 +41,7 @@ SplineSet
  768 17 768 113 768 160 c 2
  768 253 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 SplineSet
@@ -76,6 +77,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "Single Substitution lookup 68 subtable" larsenwork
 Substitution2: "'ss11' Style Set 11 lookup 62 subtable" g.long
-Substitution2: "Single Substitution lookup 49 subtable" larsenwork
 EndChar

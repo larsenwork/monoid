@@ -29,9 +29,10 @@ SplineSet
  -64 896 l 1
  -64 1407 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" o w n l o a d I c o n
+Ligature2: "'liga' Standard Ligatures lookup 12 subtable" o w n l o a d I c o n
 LCarets2: 10 0 0 0 0 0 0 0 0 0 0
 EndChar

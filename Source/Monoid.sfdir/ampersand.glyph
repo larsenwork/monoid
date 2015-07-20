@@ -144,6 +144,7 @@ SplineSet
  913 924 798 774 580 716 c 1
  884 299 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 SplineSet
 576 1368 m 0
@@ -235,6 +236,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "Single Substitution lookup 36 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 35 subtable" ampamp
+Substitution2: "Single Substitution lookup 50 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 49 subtable" ampamp
 EndChar
