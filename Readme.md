@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td colspan="6"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid%20GitHub%20Banner.png" /></td>
+        <td colspan="6"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid1.png" /></td>
     </tr>
     <tr>
         <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
@@ -150,8 +150,8 @@ Remember to update the Font Log when you make contributions.
     </tr>
     <tr>
         <td>0.50</td>
-        <td>2015.xx.xx</td>
-        <td>Complete other weights</td>
+        <td>2015.07.21</td>
+        <td>Completed Bold, Oblique and Retina with all glyphs and ligatures.</td>
         <td></td>
     </tr>
     <tr>
