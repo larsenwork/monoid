@@ -11,8 +11,8 @@ Fore
 SplineSet
 512 1536 m 1
  512 -128 l 1
- 256 -128 l 5
- 256 1536 l 5
+ 256 -128 l 1
+ 256 1536 l 1
  512 1536 l 1
 EndSplineSet
 Validated: 1

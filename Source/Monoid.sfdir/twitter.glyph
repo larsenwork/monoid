@@ -18,7 +18,7 @@ SplineSet
  -335 377 -442 461 -479 577 c 1
  -461 573 -443 571 -424 571 c 0
  -398 571 -372 575 -348 582 c 1
- -483 608 -581 727 -581 871 c 5
+ -483 608 -581 727 -581 871 c 1
  -542 849 -497 836 -449 834 c 1
  -527 887 -579 976 -579 1077 c 0
  -579 1130 -565 1180 -539 1223 c 1
@@ -34,6 +34,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Ligature2: "'liga' Standard Ligatures lookup 12 subtable" w i t t e r I c o n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" w i t t e r I c o n
 LCarets2: 9 0 0 0 0 0 0 0 0 0
 EndChar

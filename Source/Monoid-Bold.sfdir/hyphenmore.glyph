@@ -1,0 +1,20 @@
+StartChar: hyphenmore
+Encoding: 1114169 -1 662
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 520 240<256 896>
+LayerCount: 4
+Back
+Fore
+SplineSet
+256 760 m 1
+ 896 760 l 1
+ 896 520 l 1
+ 256 520 l 1
+ 256 760 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

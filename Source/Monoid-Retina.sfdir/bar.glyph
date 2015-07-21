@@ -9,16 +9,16 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-640 1536 m 5
- 640 -256 l 5
- 512 -256 l 5
- 512 1536 l 5
- 640 1536 l 5
+640 1536 m 1
+ 640 -256 l 1
+ 512 -256 l 1
+ 512 1536 l 1
+ 640 1536 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 38 subtable" bar2
-Substitution2: "Single Substitution lookup 37 subtable" bar1
+Substitution2: "Single Substitution lookup 42 subtable" bar2
+Substitution2: "Single Substitution lookup 41 subtable" bar1
 EndChar

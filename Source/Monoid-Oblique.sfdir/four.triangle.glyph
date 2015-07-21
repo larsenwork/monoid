@@ -1,0 +1,29 @@
+StartChar: four.triangle
+Encoding: 1114163 -1 661
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<768 899.866> 388 120<398 843 995 1099> 1388 20G<1036.31 1170>
+LayerCount: 3
+Back
+Fore
+SplineSet
+896 0 m 1
+ 768 0 l 1
+ 843 388 l 1
+ 198 384 l 1
+ 212 456 l 1
+ 1054 1408 l 1
+ 1170 1408 l 1
+ 995 508 l 1
+ 1123 508 l 1
+ 1099 388 l 1
+ 971 388 l 1
+ 896 0 l 1
+999 1187 m 1
+ 398 508 l 1
+ 867 508 l 1
+ 999 1187 l 1
+EndSplineSet
+Layer: 2
+EndChar

@@ -2,9 +2,10 @@ StartChar: g.long
 Encoding: 1114160 -1 653
 Width: 1024
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -400 240<272.991 599.076> -16 240<415 596.907> 800 240<415 596.907> 1004 20G<640 896>
 VStem: 224 256<246.236 777.995> 640 256<-116.254 65 246.167 777.833 959 1024>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 4
 Back
 Fore

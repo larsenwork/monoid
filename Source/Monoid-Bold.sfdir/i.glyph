@@ -17,14 +17,14 @@ SplineSet
  768 896 l 1
  768 0 l 1
  512 0 l 1xe8
-576 1401 m 4
- 680 1401 753 1328 753 1224 c 4
- 753 1120 680 1047 576 1047 c 4
- 472 1047 399 1120 399 1224 c 4xf0
- 399 1328 472 1401 576 1401 c 4
+576 1401 m 0
+ 680 1401 753 1328 753 1224 c 0
+ 753 1120 680 1047 576 1047 c 0
+ 472 1047 399 1120 399 1224 c 0xf0
+ 399 1328 472 1401 576 1401 c 0
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "'ss07' Style Set 7 lookup 58 subtable" i.flyingdot
+Substitution2: "'ss07' Style Set 7 lookup 67 subtable" i.flyingdot
 EndChar

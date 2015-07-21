@@ -1,0 +1,27 @@
+StartChar: ligatrippleslash
+Encoding: 1114165 -1 663
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 3
+Back
+Fore
+SplineSet
+-1584 -155 m 1
+ -1687 -102 l 1
+ -574 1563 l 1
+ -471 1510 l 1
+ -1584 -155 l 1
+-816 -155 m 1
+ -919 -102 l 1
+ 194 1563 l 1
+ 297 1510 l 1
+ -816 -155 l 1
+-48 -155 m 1
+ -151 -102 l 1
+ 962 1563 l 1
+ 1065 1510 l 1
+ -48 -155 l 1
+EndSplineSet
+Layer: 2
+EndChar

@@ -10,19 +10,19 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-660 1408 m 5
- 768 1408 l 5
- 768 0 l 5
- 640 0 l 5
- 640 1246 l 5
- 630 1246 l 5
- 319 1022 l 5
- 256 1114 l 5
- 660 1408 l 5
+660 1408 m 1
+ 768 1408 l 1
+ 768 0 l 1
+ 640 0 l 1
+ 640 1246 l 1
+ 630 1246 l 1
+ 319 1022 l 1
+ 256 1114 l 1
+ 660 1408 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss05' Style Set 5 lookup 56 subtable" one.base
+Substitution2: "'ss05' Style Set 5 lookup 65 subtable" one.base
 EndChar

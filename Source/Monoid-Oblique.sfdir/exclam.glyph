@@ -22,4 +22,7 @@ SplineSet
  600 512 l 1
 EndSplineSet
 Layer: 2
+Substitution2: "Single Substitution lookup 37 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 34 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 15 subtable" larsenwork5
 EndChar

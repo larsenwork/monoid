@@ -31,27 +31,27 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-704 0 m 5
- 448 0 l 5
- 448 656 l 5
- 192 656 l 5
- 192 896 l 5
- 448 896 l 5
- 448 1129 l 6
- 448 1181 449 1258 513 1329 c 4
- 566 1388 663 1424 783 1424 c 4
- 843 1424 914 1421 960 1418 c 5
- 960 1178 l 5
- 919 1180 854 1183 802 1183 c 4
- 752 1183 704 1178 704 1089 c 6
- 704 896 l 5
- 960 896 l 5
- 960 656 l 5
- 704 656 l 5
- 704 0 l 5
+704 0 m 1
+ 448 0 l 1
+ 448 656 l 1
+ 192 656 l 1
+ 192 896 l 1
+ 448 896 l 1
+ 448 1129 l 2
+ 448 1181 449 1258 513 1329 c 0
+ 566 1388 663 1424 783 1424 c 0
+ 843 1424 914 1421 960 1418 c 1
+ 960 1178 l 1
+ 919 1180 854 1183 802 1183 c 0
+ 752 1183 704 1178 704 1089 c 2
+ 704 896 l 1
+ 960 896 l 1
+ 960 656 l 1
+ 704 656 l 1
+ 704 0 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 50 subtable" larsenwork
+Substitution2: "Single Substitution lookup 59 subtable" larsenwork
 EndChar

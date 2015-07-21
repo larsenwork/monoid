@@ -4,24 +4,22 @@ GlifName: ligaarrowleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 644 120<-303 625>
+HStem: 516 120<-464 728>
 LayerCount: 3
 Back
 Fore
 SplineSet
--506 752 m 5
- 52 1211 l 5
- 121 1115 l 5
- -302 774 l 5
- -303 764 l 5
- 649 764 l 5
- 625 644 l 5
- -327 644 l 5
- -329 634 l 5
- -39 293 l 5
- -145 197 l 5
- -524 656 l 5
- -506 752 l 5
+-488 516 m 1
+ -118 95 l 1
+ -221 5 l 1
+ -677 531 l 1
+ -659 621 l 1
+ 1 1147 l 1
+ 69 1057 l 1
+ -464 636 l 1
+ 752 636 l 1
+ 728 516 l 1
+ -488 516 l 1
 EndSplineSet
 Layer: 2
 EndChar

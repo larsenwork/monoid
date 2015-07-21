@@ -13,13 +13,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-729 704 m 5
- 1 1664 l 5
- 159 1664 l 5
- 896 704 l 5
- 159 -256 l 5
- 1 -256 l 5
- 729 704 l 5
+729 704 m 1
+ 1 1664 l 1
+ 159 1664 l 1
+ 896 704 l 1
+ 159 -256 l 1
+ 1 -256 l 1
+ 729 704 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -16,8 +16,8 @@ SplineSet
  704 0 l 1
  448 0 l 1
  448 1168 l 1
- 128 1168 l 5
- 128 1408 l 5
+ 128 1168 l 1
+ 128 1408 l 1
  1024 1408 l 1
 EndSplineSet
 Validated: 1

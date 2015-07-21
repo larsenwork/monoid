@@ -1,0 +1,32 @@
+StartChar: ligaequalarrow
+Encoding: 1114168 -1 661
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -17 21G<152 193.21> 260 240<-640 104> 772 240<-640 113>
+LayerCount: 4
+Back
+Fore
+SplineSet
+-4 1121 m 1
+ 172 1297 l 1
+ 768 735 l 1
+ 768 545 l 1
+ 172 -17 l 1
+ -4 159 l 1
+ 104 260 l 1
+ -640 260 l 1
+ -640 500 l 1
+ 362 500 l 1
+ 507 635 l 1
+ 507 645 l 1
+ 371 772 l 1
+ -640 772 l 1
+ -640 1012 l 1
+ 113 1012 l 1
+ -4 1121 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

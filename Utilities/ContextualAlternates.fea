@@ -71,6 +71,10 @@ feature calt {
   sub equal' greater by larsenwork2;
   sub larsenwork2 greater' by ligaequalarrow;
 
+# --
+  sub hyphen' hyphen by hyphenmore;
+  sub hyphenmore hyphen' by hyphenmore;
+
 # mm
   sub m' m by mm;
   sub mm m' by larsenwork;

@@ -52,14 +52,14 @@ SplineSet
  387 1304 354 1133 354 1045 c 0
  354 841 524 791 640 782 c 1
  640 1304 l 1
-640 662 m 5xf4
+640 662 m 1xf4
  640 104 l 1xec
  808 112 926 216 926 385 c 0
- 926 579 780 651 640 662 c 5xf4
+ 926 579 780 651 640 662 c 1xf4
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss01' Style Set 1 lookup 52 subtable" dollar.empty
+Substitution2: "'ss01' Style Set 1 lookup 61 subtable" dollar.empty
 EndChar

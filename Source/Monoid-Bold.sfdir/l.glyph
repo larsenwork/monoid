@@ -12,21 +12,21 @@ LayerCount: 4
 Back
 Fore
 SplineSet
-896 -11 m 5
- 845 -13 785 -16 712 -16 c 4
- 616 -16 536 10 481 58 c 4
- 384 142 384 241 384 308 c 6
- 384 1408 l 5
- 640 1408 l 5
- 640 328 l 6
- 640 308 640 274 668 249 c 4
- 687 232 719 224 768 224 c 4
- 810 224 860 226 896 229 c 5
- 896 -11 l 5
+896 -11 m 1
+ 845 -13 785 -16 712 -16 c 0
+ 616 -16 536 10 481 58 c 0
+ 384 142 384 241 384 308 c 2
+ 384 1408 l 1
+ 640 1408 l 1
+ 640 328 l 2
+ 640 308 640 274 668 249 c 0
+ 687 232 719 224 768 224 c 0
+ 810 224 860 226 896 229 c 1
+ 896 -11 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "'ss09' Style Set 9 lookup 60 subtable" l.base
-Substitution2: "'ss08' Style Set 8 lookup 59 subtable" l.zstyle
+Substitution2: "'ss09' Style Set 9 lookup 69 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 68 subtable" l.zstyle
 EndChar

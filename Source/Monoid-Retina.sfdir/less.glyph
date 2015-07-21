@@ -8,15 +8,15 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-389 571 m 5
- 900 95 l 5
- 814 5 l 5
- 256 531 l 5
- 256 621 l 5
- 814 1147 l 5
- 900 1057 l 5
- 389 581 l 5
- 389 571 l 5
+389 571 m 1
+ 900 95 l 1
+ 814 5 l 1
+ 256 531 l 1
+ 256 621 l 1
+ 814 1147 l 1
+ 900 1057 l 1
+ 389 581 l 1
+ 389 571 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -27,12 +27,12 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 47 subtable" less2
-Substitution2: "Single Substitution lookup 46 subtable" less1
+Substitution2: "Single Substitution lookup 51 subtable" less2
+Substitution2: "Single Substitution lookup 50 subtable" less1
 Substitution2: "Single Substitution lookup 27 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 20 subtable" larsenwork
-Substitution2: "Single Substitution lookup 16 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 15 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 9 subtable" larsenwork
+Substitution2: "Single Substitution lookup 18 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 13 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 12 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 6 subtable" larsenwork3
 Substitution2: "Single Substitution lookup 2 subtable" larsenwork5
 EndChar

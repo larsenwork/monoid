@@ -3,17 +3,17 @@ Encoding: 1114146 -1 640
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 288<440.366 610.064>
-VStem: 378 295<45.2011 210.799>
+HStem: 0 240<419 628>
+VStem: 372 303
 LayerCount: 3
 Back
 Fore
 SplineSet
-378 96 m 4
- 378 201 461 272 553 272 c 4
- 627 272 673 227 673 160 c 4
- 673 55 589 -16 497 -16 c 4
- 423 -16 378 29 378 96 c 4
+419 240 m 1
+ 675 240 l 1
+ 628 0 l 1
+ 372 0 l 1
+ 419 240 l 1
 EndSplineSet
 Layer: 2
 EndChar

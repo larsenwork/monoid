@@ -9,11 +9,23 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-140 636 m 5
- 1036 636 l 5
- 1012 516 l 5
- 116 516 l 5
- 140 636 l 5
+140 636 m 1
+ 1036 636 l 1
+ 1012 516 l 1
+ 116 516 l 1
+ 140 636 l 1
 EndSplineSet
 Layer: 2
+Substitution2: "Single Substitution lookup 48 subtable" hyphenmore
+Substitution2: "Single Substitution lookup 47 subtable" hyphenmore
+Substitution2: "Single Substitution lookup 32 subtable" larsenwork
+Substitution2: "Single Substitution lookup 31 subtable" ligaarrowleft
+Substitution2: "Single Substitution lookup 27 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 26 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 22 subtable" larsenwork
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork
+Substitution2: "Single Substitution lookup 20 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 19 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 17 subtable" commentstart
+Substitution2: "Single Substitution lookup 16 subtable" larsenwork5
 EndChar

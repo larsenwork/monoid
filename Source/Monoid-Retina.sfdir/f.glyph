@@ -10,25 +10,25 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-512 0 m 5
- 384 0 l 5
- 384 776 l 5
- 128 776 l 5
- 128 896 l 5
- 384 896 l 5
- 384 1129 l 6
- 384 1181 384 1259 436 1329 c 4
- 480 1388 561 1424 660 1424 c 4
- 740 1424 834 1415 896 1408 c 5
- 896 1288 l 5
- 834 1295 737 1304 660 1304 c 4
- 604 1304 563 1289 540 1259 c 4
- 512 1222 512 1173 512 1129 c 6
- 512 896 l 5
- 896 896 l 5
- 896 776 l 5
- 512 776 l 5
- 512 0 l 5
+512 0 m 1
+ 384 0 l 1
+ 384 776 l 1
+ 128 776 l 1
+ 128 896 l 1
+ 384 896 l 1
+ 384 1129 l 2
+ 384 1181 384 1259 436 1329 c 0
+ 480 1388 561 1424 660 1424 c 0
+ 740 1424 834 1415 896 1408 c 1
+ 896 1288 l 1
+ 834 1295 737 1304 660 1304 c 0
+ 604 1304 563 1289 540 1259 c 0
+ 512 1222 512 1173 512 1129 c 2
+ 512 896 l 1
+ 896 896 l 1
+ 896 776 l 1
+ 512 776 l 1
+ 512 0 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -55,5 +55,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 50 subtable" larsenwork
+Substitution2: "Single Substitution lookup 59 subtable" larsenwork
 EndChar

@@ -12,8 +12,8 @@ Fore
 SplineSet
 347 -128 m 1
  475 -128 l 1
- 425 -384 l 5
- 297 -384 l 5
+ 425 -384 l 1
+ 297 -384 l 1
  347 -128 l 1
 EndSplineSet
 Layer: 2

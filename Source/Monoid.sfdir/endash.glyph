@@ -10,8 +10,8 @@ Back
 Fore
 SplineSet
 256 635 m 1
- 896 636 l 5
- 896 516 l 5
+ 896 636 l 1
+ 896 516 l 1
  256 515 l 1
  256 635 l 1
 EndSplineSet

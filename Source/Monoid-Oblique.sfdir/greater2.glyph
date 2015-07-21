@@ -19,15 +19,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--9 200 m 5
- 594 571 l 5
- 596 581 l 5
- 137 952 l 5
- 228 1053 l 5
- 749 624 l 5
- 731 528 l 5
- 42 99 l 5
- -9 200 l 5
+606 571 m 1
+ 608 581 l 1
+ 189 1057 l 1
+ 293 1147 l 1
+ 749 621 l 1
+ 731 531 l 1
+ 71 5 l 1
+ 2 95 l 1
+ 606 571 l 1
 EndSplineSet
 Layer: 2
 EndChar

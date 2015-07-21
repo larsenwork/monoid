@@ -9,11 +9,13 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-798 1536 m 5
- 475 -128 l 5
- 347 -128 l 5
- 671 1536 l 5
- 798 1536 l 5
+798 1536 m 1
+ 475 -128 l 1
+ 347 -128 l 1
+ 671 1536 l 1
+ 798 1536 l 1
 EndSplineSet
 Layer: 2
+Substitution2: "Single Substitution lookup 54 subtable" bar2
+Substitution2: "Single Substitution lookup 53 subtable" bar1
 EndChar

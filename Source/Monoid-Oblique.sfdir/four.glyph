@@ -15,7 +15,7 @@ SplineSet
  191 388 l 1
  205 460 l 1
  526 1408 l 1
- 652 1408 l 5
+ 652 1408 l 1
  346 508 l 1
  727 508 l 1
  902 1408 l 1
@@ -27,4 +27,5 @@ SplineSet
  756 0 l 1
 EndSplineSet
 Layer: 2
+Substitution2: "'ss12' Style Set 12 lookup 11 subtable" four.triangle
 EndChar

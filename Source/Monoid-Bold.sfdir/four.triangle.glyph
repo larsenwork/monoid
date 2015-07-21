@@ -39,10 +39,10 @@ SplineSet
  1024 388 l 1
  896 388 l 1
  896 0 l 1
-640 1008 m 5
+640 1008 m 1
  399 628 l 1
  640 628 l 1
- 640 1008 l 5
+ 640 1008 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

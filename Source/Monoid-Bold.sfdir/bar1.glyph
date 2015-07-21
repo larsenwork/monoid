@@ -9,11 +9,11 @@ LayerCount: 4
 Back
 Fore
 SplineSet
-896 1536 m 5
- 896 -128 l 5
+896 1536 m 1
+ 896 -128 l 1
  640 -128 l 1
  640 1536 l 1
- 896 1536 l 5
+ 896 1536 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
