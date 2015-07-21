@@ -7,8 +7,6 @@ cp Source/Readme+License.html /tmp
 
 # Switch to release branch
 git checkout release
-# Reset to base
-git reset --hard 3706c287808e9916b00f68202a658791e6876e94
 
 cd _release
 for f in Monoid-Regular*.ttf; do
