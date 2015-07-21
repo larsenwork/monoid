@@ -3,8 +3,8 @@ Encoding: 940 940 543
 GlifName: alphatonos
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: -16 120<450.208 671.958 924.946 1024> 920 120<450.208 665.175> 1004 20G<768 896> 1131 307
+Flags: W
+HStem: -16 120<450.208 671.889 924.946 1024> 920 120<450.208 665.175> 1004 20G<768 896> 1131 307
 VStem: 224 128<220.345 803.655> 504 281 768 128<219.664 804.336 899 1024>
 LayerCount: 5
 Back
@@ -18,7 +18,6 @@ EndSplineSet
 Fore
 Refer: 555 900 N 1 0 0 1 0 0 2
 Refer: 518 945 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
