@@ -143,6 +143,12 @@ Remember to update the Font Log when you make contributions.
         <td>Andreas</td>
     </tr>
     <tr>
+        <td>0.41</td>
+        <td>2015.07.21</td>
+        <td>Super fast parallel builds, improved push checks, zipped font packages, automatic Github Pages font update</td>
+        <td>Chase</td>
+    </tr>
+    <tr>
         <td>0.50</td>
         <td>2015.xx.xx</td>
         <td>Complete other weights</td>
