@@ -25,9 +25,6 @@ dependencies:
     - "[[ ! -d woff2 ]] && ./Scripts/woff2.sh || echo 'Using cached woff2_compress'"
     - "[[ ! -d node_modules ]] && npm install ttf2woff ttf2eot || echo 'Using cached ttf2woff'"
     - docker pull colman/py-fontforge
-  post:
-    - git branch --unset-upstream release
-    - git gc prune=now
 test:
   override:
     - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
