@@ -1,17 +1,19 @@
 general:
   branches:
-    only:
-      - master
+    ignore:
+      - release
+      - gh-pages
+      - release-template
 machine:
   services:
     - docker
 checkout:
   post:
     - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
-    - git fetch -f origin release:release
+    - git fetch -f origin release-template:release
     - git fetch -f origin gh-pages:gh-pages
-    # Check if there were any changes in the Source directory since the last release
-    #- "! git diff `git log -1 --pretty='%B' release | cut -d ' ' -f 4` --name-only --exit-code Source"
+    # Check for a source update, otherwise fail the build
+    - . Scripts/check-for-source-update.sh
     - git config --global user.email "chase+circleci@colman.io"
     - git config --global user.name "CircleCI Bot"
 dependencies:
