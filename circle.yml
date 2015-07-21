@@ -12,8 +12,8 @@ checkout:
     - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
     - git fetch -f origin release-template:release
     - git fetch -f origin gh-pages:gh-pages
-    # Check for a source update, otherwise fail the build
-    - . Scripts/check-for-source-update.sh
+    # Check for any changes,  otherwise fail the build
+    - . Scripts/check-for-changes.sh
     - git config --global user.email "chase+circleci@colman.io"
     - git config --global user.name "CircleCI Bot"
 dependencies:
