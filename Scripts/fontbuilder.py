@@ -195,5 +195,6 @@ def Variation(name):
         fnt.appendSFNTName('English (US)', 'Family', fnt.familyname)
         fnt.appendSFNTName('English (US)', 'Fullname', fnt.fullname)
         fnt.appendSFNTName('English (US)', 'PostScriptName', fnt.fontname)
+        fnt.appendSFNTName('English (US)', 'SubFamily', sfnt_dict['SubFamily'])
         fnt.appendSFNTName('English (US)', 'UniqueID', sfnt_dict['UniqueID'] + ' : ' + name)
     return variation_op
