@@ -152,7 +152,13 @@ Remember to update the Font Log when you make contributions.
         <td>0.50</td>
         <td>2015.07.21</td>
         <td>Completed Bold, Oblique and Retina with all glyphs and ligatures.</td>
-        <td></td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.51</td>
+        <td>2015.07.22</td>
+        <td>Fixed font naming issues and improved build times.</td>
+        <td>Chase</td>
     </tr>
     <tr>
         <td>0.55</td>
