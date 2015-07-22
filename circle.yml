@@ -11,7 +11,6 @@ checkout:
   post:
     - git remote set-url origin "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
     - git fetch -f -p origin release-template:release
-    - git fetch -f -p origin gh-pages:gh-pages
     # Check for any changes,  otherwise fail the build
     - . Scripts/check-for-changes.sh
     - git config --global user.email "chase+circleci@colman.io"
@@ -26,7 +25,7 @@ dependencies:
     - "[[ ! -d node_modules ]] && npm install ttf2woff ttf2eot || echo 'Using cached ttf2woff'"
     - docker pull colman/py-fontforge
   post:
-    - git gc prune=now
+    - . Scripts/cleanup-git.sh
 test:
   override:
     - for file in ./Source/Monoid*.sfdir; do . Scripts/parallel_build.sh $file; done:
@@ -45,5 +44,6 @@ test:
     - git add -v ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1} [ci skip]"
     - git push -f origin release
+    - git fetch -f -p origin gh-pages:gh-pages
     # Go-go-github pages
     - . /tmp/gh-pages.sh
