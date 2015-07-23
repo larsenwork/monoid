@@ -169,6 +169,32 @@ def DropCAltAndLiga():
 def Variation(name):
     """Changes the subfamily/variation of the font"""
     def variation_op(fnt):
-        fnt.fontname = '-'.join(fnt.fontname.split('-') + name.split())
-        fnt.fullname = ' '.join(fnt.fullname.split() + name.split())
+        # Get the SFNT information as dictionary {property: value}
+        # where English (US) is the language... Here be dragons.
+        #
+        #                                      o
+        #                                     /\
+        #                                    /::\
+        #                                   /::::\
+        #                     ,a_a         /\::::/\
+        #                    {/ ''\_      /\ \::/\ \
+        #                    {\ ,_oo)    /\ \ \/\ \ \
+        #                    {/  (_^____/  \ \ \ \ \ \
+        #          .=.      {/ \___)))*)    \ \ \ \ \/
+        #         (.=.`\   {/   /=;  ~/      \ \ \ \/
+        #             \ `\{/(   \/\  /        \ \ \/
+        #              \  `. `\  ) )           \ \/
+        #               \    // /_/_            \/
+        #                '==''---))))
+        sfnt_dict = {sfnt[1]: sfnt[2] for sfnt in fnt.sfnt_names if sfnt[0] == 'English (US)'}
+
+        fnt.familyname = sfnt_dict['Family'] + ' ' + name
+        fnt.fullname = fnt.familyname + ' ' + sfnt_dict['SubFamily']
+        fnt.fontname = fnt.fullname.replace(' ', '-')
+
+        fnt.appendSFNTName('English (US)', 'Family', fnt.familyname)
+        fnt.appendSFNTName('English (US)', 'Fullname', fnt.fullname)
+        fnt.appendSFNTName('English (US)', 'PostScriptName', fnt.fontname)
+        fnt.appendSFNTName('English (US)', 'SubFamily', sfnt_dict['SubFamily'])
+        fnt.appendSFNTName('English (US)', 'UniqueID', sfnt_dict['UniqueID'] + ' : ' + name)
     return variation_op
