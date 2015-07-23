@@ -4,10 +4,24 @@ languagesystem grek dflt;
 languagesystem DFLT dflt;
 
 @wide = [A B C D E G H M N O P Q R S U V W X Z m w];
-@narrow = [i j l period comma colon semicolon exclam];
-@medium = [a b c d e f g h k n o p q r s t u v x y z];
+@narrow = [i l period comma colon semicolon exclam];
+@narrowi = [i period comma colon semicolon exclam];
+@narrowl = [l];
+@medium = [a b c d e f g h j k n o p q r s t u v x y z];
 
 feature calt {
-  pos @wide @narrow' <128 0 0 0> @medium;
+  pos @wide @narrowi' <128 0 0 0> @medium;
   pos @wide @narrow' <128 0 0 0> @narrow;
+  pos @wide @medium' <128 0 0 0> @narrow;
+  pos @wide @medium @narrow' <128 0 0 0> @narrow;
+  pos @wide @medium @narrow @narrowi' <128 0 0 0> @medium;
+  pos @wide @medium @narrowi' <128 0 0 0> @medium;
+  pos @wide @medium' <128 0 0 0> @medium @narrow;
+  pos @wide @medium @medium' <128 0 0 0> @narrow;
+  pos @narrow @medium' <-128 0 0 0> @wide;
+  pos @narrowl' <-128 0 0 0> @medium @wide;
+  pos @medium @narrowi' <128 0 0 0> @narrowl;
+  pos @wide @narrowi @medium' <0 0 0 0> @medium;
+  pos @narrowi @medium' <-128 0 0 0> @medium;
+  pos @narrowi @wide' <-128 0 0 0> @medium;
 } calt;

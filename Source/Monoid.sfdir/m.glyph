@@ -77,6 +77,7 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "Single Substitution lookup 38 subtable" larsenwork
-Substitution2: "Single Substitution lookup 37 subtable" mm
+Position2: "Single Positioning lookup 14 subtable" dx=-128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 50 subtable" larsenwork
+Substitution2: "Single Substitution lookup 49 subtable" mm
 EndChar
