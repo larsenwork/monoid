@@ -55,3 +55,8 @@ feature ss11 {
 feature ss12 {
   sub four by four.triangle;
 } ss12;
+
+feature ss13 {
+  sub six by six.straighter;
+  sub nine by nine.straighter;
+} ss13;

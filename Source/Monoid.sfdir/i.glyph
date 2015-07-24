@@ -28,11 +28,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
-Substitution2: "'ss07' Style Set 7 lookup 67 subtable" i.flyingdot
+Substitution2: "'ss07' Style Set 7 lookup 6 subtable" i.flyingdot
 EndChar

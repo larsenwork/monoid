@@ -1,5 +1,6 @@
 StartChar: j.long
 Encoding: 1114162 -1 664
+GlifName: j.long
 Width: 1024
 VWidth: 0
 Flags: W

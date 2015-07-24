@@ -267,6 +267,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss04' Style Set 4 lookup 64 subtable" zero.clear
-Substitution2: "'ss03' Style Set 3 lookup 63 subtable" zero.dot
+Substitution2: "'ss04' Style Set 4 lookup 3 subtable" zero.clear
+Substitution2: "'ss03' Style Set 3 lookup 2 subtable" zero.dot
 EndChar

@@ -50,6 +50,6 @@ SplineSet
  708 1200 672 1235 672 1287 c 0
 EndSplineSet
 Layer: 2
-Substitution2: "'ss11' Style Set 11 lookup 10 subtable" j.long
-Substitution2: "'ss07' Style Set 7 lookup 6 subtable" j.flyingdot
+Substitution2: "'ss11' Style Set 11 lookup 71 subtable" j.long
+Substitution2: "'ss07' Style Set 7 lookup 67 subtable" j.flyingdot
 EndChar

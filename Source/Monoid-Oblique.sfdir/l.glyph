@@ -23,6 +23,6 @@ SplineSet
  549 253 544 227 544 203 c 0
 EndSplineSet
 Layer: 2
-Substitution2: "'ss09' Style Set 9 lookup 8 subtable" l.base
-Substitution2: "'ss08' Style Set 8 lookup 7 subtable" l.zstyle
+Substitution2: "'ss09' Style Set 9 lookup 69 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 68 subtable" l.zstyle
 EndChar

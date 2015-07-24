@@ -55,9 +55,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Position2: "Single Positioning lookup 10 subtable" dx=-128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
-Substitution2: "'ss09' Style Set 9 lookup 69 subtable" l.base
-Substitution2: "'ss08' Style Set 8 lookup 68 subtable" l.zstyle
+Substitution2: "'ss09' Style Set 9 lookup 8 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 7 subtable" l.zstyle
 EndChar

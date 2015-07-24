@@ -1,5 +1,6 @@
 StartChar: g.long
 Encoding: 1114163 -1 665
+GlifName: g.long
 Width: 1024
 VWidth: 0
 Flags: W
