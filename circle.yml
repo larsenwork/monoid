@@ -44,6 +44,5 @@ test:
     - git add -v ./*.zip
     - git commit -m "Release build for ${CIRCLE_SHA1} [ci skip]"
     - git push -f origin release
-    - git fetch -f -p origin gh-pages:gh-pages
     # Go-go-github pages
     - . /tmp/gh-pages.sh
