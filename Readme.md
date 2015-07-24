@@ -17,7 +17,7 @@
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 ####Atom Editor
 This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but disables them on your `cursor-line` so you don't sacrifice "editability".
-```
+```css
 * {
   -webkit-font-smoothing: antialiased;
   -webkit-font-feature-settings: "liga" on, "calt" on;
