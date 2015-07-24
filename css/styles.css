@@ -619,6 +619,7 @@ RESPONSIVE */
   }
   .blabla section {
     padding: 0 30px;
+    max-width: 463px;
   }
 }
 #grid {
