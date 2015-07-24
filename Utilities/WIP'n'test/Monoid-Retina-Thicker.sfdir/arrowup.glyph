@@ -1,0 +1,41 @@
+StartChar: arrowup
+Encoding: 8593 8593 577
+GlifName: arrowup
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 507 138<128 1096>
+LayerCount: 5
+Back
+SplineSet
+516 984.692382812 m 5
+ 181 727 l 5
+ 113 831 l 5
+ 542 1152 l 5
+ 610 1152 l 5
+ 1039 831 l 5
+ 971 727 l 5
+ 636 984.692382812 l 5
+ 636 256 l 5
+ 516 256 l 5
+ 516 984.692382812 l 5
+EndSplineSet
+Fore
+SplineSet
+507 1096 m 1
+ 180 848 l 1
+ 106 960 l 1
+ 540 1280 l 1
+ 612 1280 l 1
+ 1046 960 l 1
+ 972 848 l 1
+ 645 1096 l 1
+ 645 128 l 1
+ 507 128 l 1
+ 507 1096 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

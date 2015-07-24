@@ -1,0 +1,18 @@
+StartChar: uni0213
+Encoding: 531 531 457
+GlifName: uni0213
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389> 910 130<543.574 900.76> 1004 20G<251 389> 1294 130<417.645 734.355>
+VStem: 231 138<1152 1243.28> 251 138<0 737.02 865 1024> 783 138<1152 1243.28>
+LayerCount: 5
+Back
+Fore
+Refer: 669 785 N 1 0 0 1 0 -128 2
+Refer: 18 114 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

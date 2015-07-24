@@ -1,0 +1,31 @@
+StartChar: uni043D
+Encoding: 1085 1085 364
+GlifName: uni043D_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389 763 901> 507 130<389 763> 1004 20G<251 389 763 901>
+VStem: 251 138<0 507 637 1024> 763 138<0 507 637 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+251 0 m 1
+ 251 1024 l 1
+ 389 1024 l 1
+ 389 637 l 1
+ 763 637 l 1
+ 763 1024 l 1
+ 901 1024 l 1
+ 901 0 l 1
+ 763 0 l 1
+ 763 507 l 1
+ 389 507 l 1
+ 389 0 l 1
+ 251 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

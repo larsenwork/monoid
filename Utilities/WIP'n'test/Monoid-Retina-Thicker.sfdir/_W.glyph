@@ -1,0 +1,43 @@
+StartChar: W
+Encoding: 87 87 50
+GlifName: W_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<253 391.136 760.864 899> 1388 20G<114 252 900 1038>
+VStem: 114 138<963.516 1408> 900 138<963.516 1408>
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+336 210 m 1
+ 510 896 l 1
+ 642 896 l 1
+ 816 210 l 1
+ 818 210 l 1
+ 882 578 900 988 900 1403 c 0
+ 900 1408 l 1
+ 1038 1408 l 1
+ 1038 1403 l 0
+ 1038 933 991 467 899 4 c 0
+ 898 0 l 1
+ 766 0 l 1
+ 577 736 l 1
+ 575 736 l 1
+ 386 -0 l 1
+ 254 0 l 1
+ 253 4 l 0
+ 161 467 114 933 114 1403 c 0
+ 114 1408 l 1
+ 252 1408 l 1
+ 252 1403 l 0
+ 252 988 271 577 334 210 c 1
+ 336 210 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" W.straight
+EndChar

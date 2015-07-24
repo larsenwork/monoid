@@ -1,0 +1,30 @@
+StartChar: Lcaron
+Encoding: 317 317 276
+GlifName: L_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<389 1029> 1388 20G<251 389 763 901>
+VStem: 251 138<120 1408> 763 138<1014 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1029 0 m 1
+ 251 0 l 1
+ 251 1408 l 1
+ 389 1408 l 1
+ 389 120 l 1
+ 1029 120 l 1
+ 1029 0 l 1
+763 1014 m 1
+ 763 1408 l 1
+ 901 1408 l 1
+ 901 1014 l 1
+ 763 1014 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

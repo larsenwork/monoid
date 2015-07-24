@@ -1,0 +1,34 @@
+StartChar: dotdotdot
+Encoding: 1114137 -1 638
+GlifName: period2
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -10 250<-1413 -1147 -645 -379 123 389>
+VStem: -1413 266<-10 240> -645 266<-10 240> 123 266<-10 240>
+CounterMasks: 1 70
+LayerCount: 5
+Back
+Fore
+SplineSet
+-1413 -10 m 1
+ -1413 240 l 1
+ -1147 240 l 1
+ -1147 -10 l 1
+ -1413 -10 l 1
+-645 -10 m 1
+ -645 240 l 1
+ -379 240 l 1
+ -379 -10 l 1
+ -645 -10 l 1
+123 -10 m 1
+ 123 240 l 1
+ 389 240 l 1
+ 389 -10 l 1
+ 123 -10 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,18 @@
+StartChar: uni0136
+Encoding: 310 310 273
+GlifName: uni0136
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -400 130<379 479.146> 0 21G<123 261 887.905 1072> 1388 20G<123 261 811.324 980>
+VStem: 123 138<0 561 728 1408> 507 138<-235.496 -118>
+LayerCount: 5
+Back
+Fore
+Refer: 306 806 N 1 0 0 1 0 0 2
+Refer: 39 75 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

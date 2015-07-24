@@ -1,0 +1,33 @@
+StartChar: Xi
+Encoding: 926 926 497
+GlifName: X_i
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<123 1029> 639 130<251 901> 1288 120<123 1029>
+CounterMasks: 1 e0
+LayerCount: 5
+Back
+Fore
+SplineSet
+123 1288 m 1
+ 123 1408 l 1
+ 1029 1408 l 1
+ 1029 1288 l 1
+ 123 1288 l 1
+123 0 m 1
+ 123 120 l 1
+ 1029 120 l 1
+ 1029 0 l 1
+ 123 0 l 1
+251 639 m 1
+ 251 769 l 1
+ 901 769 l 1
+ 901 639 l 1
+ 251 639 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

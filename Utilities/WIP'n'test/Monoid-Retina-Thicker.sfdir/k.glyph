@@ -1,0 +1,43 @@
+StartChar: k
+Encoding: 107 107 11
+GlifName: k
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389 830.971 1011> 1004 20G<772.578 967> 1388 20G<251 389>
+VStem: 251 138<0 438 609 1408>
+AnchorPoint: "bottom" 640 0 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+389 438 m 1
+ 389 0 l 1
+ 251 0 l 1
+ 251 1408 l 1
+ 389 1408 l 1
+ 389 609 l 1
+ 792 1024 l 1
+ 967 1024 l 1
+ 598 643 l 1
+ 1011 0 l 1
+ 843 0 l 1
+ 508 557 l 1
+ 389 438 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+330 346.928932188 m 1
+ 322.928932188 354 l 1
+ 1107 1134.53553391 l 1
+ 1114.07106781 1127.46446609 l 1
+ 516.071067812 533 l 1
+ 1467.07106781 -414.464466094 l 1
+ 1460 -421.535533906 l 1
+ 509 525.928932188 l 1
+ 330 346.928932188 l 1
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

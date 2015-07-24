@@ -1,0 +1,26 @@
+StartChar: Gamma
+Encoding: 915 915 468
+GlifName: G_amma
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389> 1288 120<389 1029>
+VStem: 251 138<0 1288>
+AnchorPoint: "top" 640 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+251 0 m 1
+ 251 1408 l 1
+ 1029 1408 l 1
+ 1029 1288 l 1
+ 389 1288 l 1
+ 389 0 l 1
+ 251 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

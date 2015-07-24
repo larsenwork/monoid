@@ -1,0 +1,41 @@
+StartChar: t
+Encoding: 116 116 20
+GlifName: t
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<579.761 900.938> 888 136<123 379 517 901>
+VStem: 379 138<174.212 888 1024 1280>
+AnchorPoint: "bottom" 704 0 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+901 -0 m 1
+ 897 -1 l 2
+ 840 -9 775 -16 704 -16 c 0
+ 593 -16 502 28 448 93 c 0
+ 379 176 379 273 379 361 c 0
+ 379 888 l 1
+ 123 888 l 1
+ 123 1024 l 1
+ 379 1024 l 1
+ 379 1280 l 1
+ 517 1280 l 1
+ 517 1024 l 1
+ 901 1024 l 1
+ 901 888 l 1
+ 517 888 l 1
+ 517 372 l 0
+ 517 287 517 223 559 173 c 1
+ 591 136 644 114 714 114 c 0
+ 778 114 843 117 895 120 c 0
+ 901 120 l 1
+ 901 -0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 73 subtable" larsenwork
+EndChar

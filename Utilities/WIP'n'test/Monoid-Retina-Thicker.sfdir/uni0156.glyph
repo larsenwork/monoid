@@ -1,0 +1,18 @@
+StartChar: uni0156
+Encoding: 342 342 257
+GlifName: uni0156
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -400 130<379 479.146> 0 21G<187 325 852.971 1009> 515 130<325 622.192> 1288 120<325 692.69>
+VStem: 187 138<0 515 645 1288> 507 138<-235.496 -118> 843 138<798.323 1135.61>
+LayerCount: 5
+Back
+Fore
+Refer: 306 806 N 1 0 0 1 0 0 2
+Refer: 45 82 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

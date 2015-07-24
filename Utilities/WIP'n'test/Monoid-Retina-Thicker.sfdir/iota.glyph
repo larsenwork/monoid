@@ -1,0 +1,32 @@
+StartChar: iota
+Encoding: 953 953 512
+GlifName: iota
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<672.898 900.938> 1004 20G<507 645>
+VStem: 507 138<157.693 1024>
+AnchorPoint: "top" 576 1024 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+901 -1 m 1
+ 897 -2 l 2
+ 859 -9 813 -16 758 -16 c 0
+ 685 -16 624 9 581 53 c 1
+ 506 130 507 221 507 281 c 0
+ 507 1024 l 1
+ 645 1024 l 1
+ 645 282 l 0
+ 645 235 645 192 672 156 c 0
+ 691 131 720 114 768 114 c 0
+ 809 114 859 117 895 120 c 0
+ 901 120 l 1
+ 901 -1 l 1
+EndSplineSet
+Validated: 33
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

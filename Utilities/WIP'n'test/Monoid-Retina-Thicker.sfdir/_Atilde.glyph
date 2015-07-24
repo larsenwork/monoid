@@ -1,0 +1,20 @@
+StartChar: Atilde
+Encoding: 195 195 99
+GlifName: A_tilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<97 243 909 1055> 388 120<320 832> 1269 139<553.097 598.903> 1530 130<631.108 752.525> 1658 130<396.081 520.892>
+VStem: 248 138<1561 1653.66> 766 138<1666.27 1767>
+LayerCount: 5
+Back
+Refer: 94 126 N 1 0 0 1 0 1036 2
+Refer: 29 65 N 1 0 0 1 0 0 3
+Fore
+Refer: 296 771 N 1 0 0 1 0 256 2
+Refer: 29 65 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

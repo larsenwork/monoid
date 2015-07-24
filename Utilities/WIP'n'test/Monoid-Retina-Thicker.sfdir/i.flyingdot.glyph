@@ -1,0 +1,29 @@
+StartChar: i.flyingdot
+Encoding: 1114157 -1 659
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -5 21G<571 709> 771 130<315 571> 1190 234<516.302 699.698>
+VStem: 491 234<1215.3 1398.7> 571 138<-5 771>
+LayerCount: 5
+Back
+Fore
+SplineSet
+491 1307 m 0xf0
+ 491 1376 539 1424 608 1424 c 0
+ 677 1424 725 1376 725 1307 c 0
+ 725 1238 677 1190 608 1190 c 0
+ 539 1190 491 1238 491 1307 c 0xf0
+709 -5 m 1xe8
+ 571 -5 l 1
+ 571 771 l 1
+ 315 771 l 1
+ 315 901 l 1
+ 709 901 l 1
+ 709 -5 l 1xe8
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

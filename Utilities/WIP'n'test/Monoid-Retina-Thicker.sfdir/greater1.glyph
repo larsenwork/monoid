@@ -1,0 +1,25 @@
+StartChar: greater1
+Encoding: 1114139 -1 640
+GlifName: greater1
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+886 573 m 1
+ 886 579 l 1
+ 373 1053 l 1
+ 466 1150 l 1
+ 1029 623 l 1
+ 1029 529 l 1
+ 466 2 l 1
+ 373 99 l 1
+ 886 573 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

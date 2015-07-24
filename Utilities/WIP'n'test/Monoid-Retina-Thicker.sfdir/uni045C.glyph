@@ -1,0 +1,18 @@
+StartChar: uni045C
+Encoding: 1116 1116 405
+GlifName: uni045C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389 830.971 1011> 1004 20G<251 389 762.829 967> 1142 266
+VStem: 251 138<0 438 614 1024> 479 322
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 -128 2
+Refer: 361 1082 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

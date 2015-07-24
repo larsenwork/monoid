@@ -1,0 +1,18 @@
+StartChar: uni040C
+Encoding: 1036 1036 404
+GlifName: uni040C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<123 261 887.905 1072> 1388 20G<123 261 811.324 980> 1529 266
+VStem: 123 138<0 561 728 1408> 471 322
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 -8 259 2
+Refer: 329 1050 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

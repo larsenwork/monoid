@@ -1,0 +1,19 @@
+StartChar: Itilde
+Encoding: 296 296 224
+GlifName: I_tilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<251 507 645 901> 1288 120<251 507 645 901> 1530 130<631.108 752.525> 1658 130<396.081 520.892>
+VStem: 248 138<1561 1653.66> 507 138<120 1288> 766 138<1666.27 1767>
+CounterMasks: 1 0e
+LayerCount: 5
+Back
+Fore
+Refer: 296 771 N 1 0 0 1 0 256 2
+Refer: 37 73 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

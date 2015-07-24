@@ -1,0 +1,36 @@
+StartChar: Etatonos
+Encoding: 905 905 560
+GlifName: E_tatonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<187 325 827 965> 635 130<325 827> 1388 20G<187 325 827 965>
+VStem: 187 138<0 635 765 1408> 827 138<0 635 765 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+187 0 m 1
+ 187 1408 l 1
+ 325 1408 l 1
+ 325 765 l 1
+ 827 765 l 1
+ 827 1408 l 1
+ 965 1408 l 1
+ 965 0 l 1
+ 827 0 l 1
+ 827 635 l 1
+ 325 635 l 1
+ 325 0 l 1
+ 187 0 l 1
+-243 1252 m 1
+ -51 1504 l 1
+ 52 1417 l 1
+ -161 1183 l 1
+ -243 1252 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

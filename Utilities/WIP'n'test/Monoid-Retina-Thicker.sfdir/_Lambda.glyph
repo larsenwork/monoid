@@ -1,0 +1,32 @@
+StartChar: Lambda
+Encoding: 923 923 492
+GlifName: L_ambda
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<97 243 909 1055> 1388 20G<507 645>
+LayerCount: 5
+Back
+Fore
+SplineSet
+909 5 m 0
+ 870 479 749 940 578 1279 c 1
+ 574 1279 l 1
+ 402 938 282 478 243 5 c 0
+ 243 0 l 1
+ 97 0 l 1
+ 98 5 l 0
+ 151 498 263 970 507 1405 c 0
+ 508 1408 l 1
+ 644 1408 l 1
+ 645 1405 l 0
+ 889 970 1001 498 1054 5 c 0
+ 1055 -0 l 1
+ 909 0 l 1
+ 909 5 l 0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

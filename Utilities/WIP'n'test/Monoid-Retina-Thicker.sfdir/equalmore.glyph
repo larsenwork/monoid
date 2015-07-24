@@ -1,0 +1,27 @@
+StartChar: equalmore
+Encoding: 1114132 -1 633
+GlifName: equalmore
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 255 130<251 901> 767 130<251 901>
+LayerCount: 5
+Back
+Fore
+SplineSet
+251 255 m 1
+ 251 385 l 1
+ 901 385 l 1
+ 901 255 l 1
+ 251 255 l 1
+251 767 m 1
+ 251 897 l 1
+ 901 897 l 1
+ 901 767 l 1
+ 251 767 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

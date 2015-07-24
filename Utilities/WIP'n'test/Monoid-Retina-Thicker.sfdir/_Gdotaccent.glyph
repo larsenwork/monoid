@@ -1,0 +1,18 @@
+StartChar: Gdotaccent
+Encoding: 288 288 195
+GlifName: G_dotaccent
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<423.273 823.71> 643 130<571 827> 1294 130<439.709 914.922> 1574 234<484.302 667.698>
+VStem: 107 138<352.477 1055.57> 459 234<1599.3 1782.7> 827 138<130.819 643>
+LayerCount: 5
+Back
+Fore
+Refer: 299 775 N 1 0 0 1 0 256 2
+Refer: 35 71 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

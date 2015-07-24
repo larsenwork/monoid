@@ -1,0 +1,18 @@
+StartChar: agrave
+Encoding: 224 224 131
+GlifName: agrave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<419.504 657.961> 0 21G<763 901> 507 120<425.334 763> 910 130<315.078 735.803> 1142 266
+VStem: 219 138<176.225 438.558> 351 322 763 138<0 123 224.017 507 627 882.6>
+LayerCount: 5
+Back
+Fore
+Refer: 293 768 N 1 0 0 1 0 -128 2
+Refer: 2 97 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

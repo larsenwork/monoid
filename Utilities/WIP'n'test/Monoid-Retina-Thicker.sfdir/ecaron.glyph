@@ -1,0 +1,18 @@
+StartChar: ecaron
+Encoding: 283 283 190
+GlifName: ecaron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<455.257 900.922> 507 125<359 793> 910 130<442.677 709.323> 1142 266
+VStem: 219 138<221.679 507 632 816.11>
+LayerCount: 5
+Back
+Fore
+Refer: 303 780 N 1 0 0 1 0 -128 2
+Refer: 5 101 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,27 @@
+StartChar: uni0422
+Encoding: 1058 1058 337
+GlifName: uni0422
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<507 645> 1288 120<123 507 645 1029>
+VStem: 507 138<0 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+123 1408 m 1
+ 1029 1408 l 1
+ 1029 1288 l 1
+ 645 1288 l 1
+ 645 0 l 1
+ 507 0 l 1
+ 507 1288 l 1
+ 123 1288 l 1
+ 123 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

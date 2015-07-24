@@ -1,0 +1,18 @@
+StartChar: Eacute
+Encoding: 201 201 108
+GlifName: E_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<325 965> 643 130<325 837> 1288 120<325 965> 1526 266
+VStem: 187 138<120 643 773 1288> 479 322
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 256 2
+Refer: 33 69 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

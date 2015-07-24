@@ -1,0 +1,18 @@
+StartChar: uni040D
+Encoding: 1037 1037 403
+GlifName: uni040D_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<187 331.901 827 965> 1388 20G<187 325 821.082 965> 1526 266
+VStem: 187 138<280 1408> 351 322 827 138<0 1128>
+LayerCount: 5
+Back
+Fore
+Refer: 293 768 N 1 0 0 1 0 256 2
+Refer: 327 1048 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

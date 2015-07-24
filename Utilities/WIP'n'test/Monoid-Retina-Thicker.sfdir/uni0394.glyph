@@ -1,0 +1,31 @@
+StartChar: uni0394
+Encoding: 916 916 496
+GlifName: uni0394
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<257 895> 1388 20G<507 645>
+LayerCount: 5
+Back
+Fore
+SplineSet
+97 0 m 1
+ 98 5 l 2
+ 151 498 263 970 507 1405 c 0
+ 508 1408 l 1
+ 644 1408 l 1
+ 645 1405 l 0
+ 889 970 1001 498 1054 5 c 0
+ 1055 -0 l 1
+ 97 0 l 1
+257 120 m 1
+ 895 120 l 1
+ 848 555 730 951 578 1279 c 1
+ 574 1279 l 1
+ 421 950 301 553 257 120 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

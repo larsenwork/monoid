@@ -1,0 +1,39 @@
+StartChar: one
+Encoding: 49 49 71
+GlifName: one
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -10 21G<635 773> 1388 20G<630.55 773>
+VStem: 635 138<-10 1236>
+LayerCount: 5
+Back
+SplineSet
+660 1408 m 1xa0
+ 768 1408 l 1
+ 768 0 l 1
+ 640 0 l 1
+ 640 1246 l 1
+ 630 1246 l 1
+ 319 1022 l 1
+ 256 1114 l 1
+ 660 1408 l 1xa0
+EndSplineSet
+Fore
+SplineSet
+249 1110 m 1
+ 658 1408 l 1
+ 773 1408 l 1
+ 773 -10 l 1
+ 635 -10 l 1
+ 635 1236 l 1
+ 632 1236 l 1
+ 318 1010 l 1
+ 249 1110 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss05' Style Set 5 lookup 4 subtable" one.base
+EndChar

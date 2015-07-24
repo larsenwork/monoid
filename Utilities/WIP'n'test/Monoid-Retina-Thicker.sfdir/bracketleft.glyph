@@ -1,0 +1,27 @@
+StartChar: bracketleft
+Encoding: 91 91 87
+GlifName: bracketleft
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -128 130<517 901> 1406 130<517 901>
+VStem: 379 138<2 1406>
+LayerCount: 5
+Back
+Fore
+SplineSet
+379 -128 m 1
+ 379 1536 l 1
+ 901 1536 l 1
+ 901 1406 l 1
+ 517 1406 l 1
+ 517 2 l 1
+ 901 2 l 1
+ 901 -128 l 1
+ 379 -128 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

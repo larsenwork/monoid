@@ -1,0 +1,30 @@
+StartChar: paragraph
+Encoding: 182 182 311
+GlifName: paragraph
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<507 645 763 901> 1288 120<646.389 763>
+VStem: 235 410<844.135 1206.16> 507 138<0 667.582> 763 138<0 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+763 1288 m 1xe8
+ 645 1288 l 1
+ 645 0 l 1
+ 507 0 l 1
+ 507 656 l 1xd8
+ 350 698 235 836 235 1029 c 0
+ 235 1222 357 1358 518 1396 c 0
+ 574 1408 626 1408 703 1408 c 0
+ 901 1408 l 1
+ 901 0 l 1
+ 763 0 l 1
+ 763 1288 l 1xe8
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

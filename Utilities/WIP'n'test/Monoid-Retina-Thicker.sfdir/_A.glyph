@@ -1,0 +1,39 @@
+StartChar: A
+Encoding: 65 65 29
+GlifName: A_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<97 243 909 1055> 388 120<320 832> 1269 139<553.097 598.903>
+AnchorPoint: "bottom" 970 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+97 0 m 1
+ 98 5 l 2
+ 151 498 263 970 507 1405 c 0
+ 508 1408 l 1
+ 644 1408 l 1
+ 645 1405 l 0
+ 889 970 1001 498 1054 5 c 0
+ 1055 -0 l 1
+ 909 0 l 1
+ 909 5 l 0
+ 898 139 878 267 855 388 c 1
+ 297 388 l 1
+ 278 265 254 139 243 5 c 0
+ 243 -0 l 1
+ 97 0 l 1
+320 508 m 1
+ 832 508 l 1
+ 765 793 692 1047 578 1269 c 1
+ 574 1269 l 1
+ 460 1046 387 791 320 508 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

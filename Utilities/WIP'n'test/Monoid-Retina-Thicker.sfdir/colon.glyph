@@ -1,0 +1,28 @@
+StartChar: colon
+Encoding: 58 58 80
+GlifName: colon
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -5 250<379 645> 774 250<379 645>
+VStem: 379 266<-5 245 774 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+379 -5 m 1
+ 379 245 l 1
+ 645 245 l 1
+ 645 -5 l 1
+ 379 -5 l 1
+379 774 m 1
+ 379 1024 l 1
+ 645 1024 l 1
+ 645 774 l 1
+ 379 774 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

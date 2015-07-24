@@ -1,0 +1,35 @@
+StartChar: uni0449
+Encoding: 1097 1097 375
+GlifName: uni0449
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<261 507 645 891> 1004 20G<123 261 507 645 891 1029>
+VStem: 123 138<120 1024> 507 138<120 1024> 891 138<129 1024> 955 138<-256 0>
+LayerCount: 5
+Back
+Fore
+SplineSet
+955 0 m 1xf4
+ 123 0 l 1
+ 123 1024 l 1
+ 261 1024 l 1
+ 261 120 l 1
+ 507 120 l 1
+ 507 1024 l 1
+ 645 1024 l 1
+ 645 120 l 1
+ 891 120 l 1
+ 891 1024 l 1
+ 1029 1024 l 1
+ 1029 129 l 1xf8
+ 1093 129 l 1
+ 1093 -256 l 1
+ 955 -256 l 1
+ 955 0 l 1xf4
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

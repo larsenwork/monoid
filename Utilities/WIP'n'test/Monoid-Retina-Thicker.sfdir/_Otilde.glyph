@@ -1,0 +1,18 @@
+StartChar: Otilde
+Encoding: 213 213 120
+GlifName: O_tilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<425.117 726.883> 1294 130<425.117 726.883> 1530 130<631.108 752.525> 1658 130<396.081 520.892>
+VStem: 107 138<335.009 1072.99> 248 138<1561 1653.66> 766 138<1666.27 1767> 907 138<335.009 1072.99>
+LayerCount: 5
+Back
+Fore
+Refer: 296 771 N 1 0 0 1 0 256 2
+Refer: 42 79 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,46 @@
+StartChar: less
+Encoding: 60 60 82
+GlifName: less
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+394 573 m 1
+ 907 99 l 1
+ 814 2 l 1
+ 251 529 l 1
+ 251 623 l 1
+ 814 1150 l 1
+ 907 1053 l 1
+ 394 579 l 1
+ 394 573 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+863.067988791 53.8469680688 m 1
+ 856.208649116 46.5703301624 l 1
+ 852.570330162 50 l 1
+ 853.297993953 45.6757470793 852.570330162 45.3616810468 852.570330162 50 c 1
+ 290.710668611 576 l 1
+ 856.208649116 1105.42966984 l 1
+ 863.067988791 1098.15303193 l 1
+ 305.289331389 576 l 1
+ 859.429669838 57.2766379064 l 1
+ 859.429669838 54.6383189532 860.157333628 52.9523849857 859.429669838 57.2766379064 c 1
+ 863.067988791 53.8469680688 l 1
+EndSplineSet
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 64 subtable" less2
+Substitution2: "Single Substitution lookup 63 subtable" less1
+Substitution2: "Single Substitution lookup 40 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 31 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 26 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 25 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 19 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 15 subtable" larsenwork5
+EndChar

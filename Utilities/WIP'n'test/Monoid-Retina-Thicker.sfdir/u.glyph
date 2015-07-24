@@ -1,0 +1,37 @@
+StartChar: u
+Encoding: 117 117 21
+GlifName: u
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<453.3 678.636> 0 21G<763 901> 1004 20G<251 389 763 901>
+VStem: 251 138<180.124 1024> 763 138<0 112 176.35 1024>
+AnchorPoint: "bottom" 832 0 basechar 0
+AnchorPoint: "top" 576 1024 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+761 112 m 1x78
+ 711 35 633 -16 556 -16 c 0
+ 454 -16 372 29 321 92 c 0
+ 251 179 251 275 251 368 c 0
+ 251 1024 l 1
+ 389 1024 l 1
+ 389 369 l 0
+ 389 283 389 224 433 174 c 0
+ 464 139 513 114 576 114 c 0xb8
+ 639 114 688 139 719 174 c 0
+ 763 224 763 283 763 369 c 0
+ 763 1024 l 1
+ 901 1024 l 1
+ 901 0 l 1
+ 763 0 l 1
+ 763 112 l 1
+ 761 112 l 1x78
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

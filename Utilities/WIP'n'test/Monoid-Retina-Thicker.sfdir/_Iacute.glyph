@@ -1,0 +1,18 @@
+StartChar: Iacute
+Encoding: 205 205 112
+GlifName: I_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<251 507 645 901> 1288 120<251 507 645 901> 1526 266
+VStem: 479 322 507 138<120 1288>
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 256 2
+Refer: 37 73 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

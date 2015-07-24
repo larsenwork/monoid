@@ -1,0 +1,751 @@
+SplineFontDB: 3.0
+FontName: MonoidTest-Retina
+FullName: MonoidTest Retina
+FamilyName: MonoidTest
+Weight: Regular
+Copyright: Copyright (c) 2015, @larsenwork
+Version: 0.52
+ItalicAngle: 0
+UnderlinePosition: -384
+UnderlineWidth: 120
+Ascent: 1664
+Descent: 256
+InvalidEm: 0
+LayerCount: 5
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 0 "Back 2" 1
+Layer: 3 0 "Back 3" 1
+Layer: 4 0 "Back 4" 1
+PreferredKerning: 4
+XUID: [1021 365 -928128380 13773435]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1427918972
+ModificationTime: 1437773705
+PfmFamily: 49
+TTFWeight: 400
+TTFWidth: 4
+LineGap: 0
+VLineGap: 184
+OS2TypoAscent: 1664
+OS2TypoAOffset: 0
+OS2TypoDescent: -256
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1664
+OS2WinAOffset: 0
+OS2WinDescent: 256
+OS2WinDOffset: 0
+HheadAscent: 1664
+HheadAOffset: 0
+HheadDescent: -256
+HheadDOffset: 0
+OS2CapHeight: 0
+OS2XHeight: 0
+OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 0" { "'ss01' Style Set 1 lookup 0 subtable"  } ['ss01' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 lookup 1" { "'ss02' Style Set 2 lookup 1 subtable"  } ['ss02' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Style Set 3 lookup 2" { "'ss03' Style Set 3 lookup 2 subtable"  } ['ss03' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss04' Style Set 4 lookup 3" { "'ss04' Style Set 4 lookup 3 subtable"  } ['ss04' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss05' Style Set 5 lookup 4" { "'ss05' Style Set 5 lookup 4 subtable"  } ['ss05' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss06' Style Set 6 lookup 5" { "'ss06' Style Set 6 lookup 5 subtable"  } ['ss06' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss07' Style Set 7 lookup 6" { "'ss07' Style Set 7 lookup 6 subtable"  } ['ss07' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss08' Style Set 8 lookup 7" { "'ss08' Style Set 8 lookup 7 subtable"  } ['ss08' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss09' Style Set 9 lookup 8" { "'ss09' Style Set 9 lookup 8 subtable"  } ['ss09' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss10' Style Set 10 lookup 9" { "'ss10' Style Set 10 lookup 9 subtable"  } ['ss10' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss11' Style Set 11 lookup 10" { "'ss11' Style Set 11 lookup 10 subtable"  } ['ss11' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss12' Style Set 12 lookup 11" { "'ss12' Style Set 12 lookup 11 subtable"  } ['ss12' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss13' Style Set 13 lookup 12" { "'ss13' Style Set 13 lookup 12 subtable"  } ['ss13' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 13" { "'liga' Standard Ligatures lookup 13 subtable"  } ['liga' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates lookup 14" { "'calt' Contextual Alternates lookup 14 contextual 0"  "'calt' Contextual Alternates lookup 14 contextual 1"  "'calt' Contextual Alternates lookup 14 contextual 2"  "'calt' Contextual Alternates lookup 14 contextual 3"  "'calt' Contextual Alternates lookup 14 contextual 4"  "'calt' Contextual Alternates lookup 14 contextual 5"  "'calt' Contextual Alternates lookup 14 contextual 6"  "'calt' Contextual Alternates lookup 14 contextual 7"  "'calt' Contextual Alternates lookup 14 contextual 8"  "'calt' Contextual Alternates lookup 14 contextual 9"  "'calt' Contextual Alternates lookup 14 contextual 10"  "'calt' Contextual Alternates lookup 14 contextual 11"  "'calt' Contextual Alternates lookup 14 contextual 12"  "'calt' Contextual Alternates lookup 14 contextual 13"  "'calt' Contextual Alternates lookup 14 contextual 14"  "'calt' Contextual Alternates lookup 14 contextual 15"  "'calt' Contextual Alternates lookup 14 contextual 16"  "'calt' Contextual Alternates lookup 14 contextual 17"  "'calt' Contextual Alternates lookup 14 contextual 18"  "'calt' Contextual Alternates lookup 14 contextual 19"  "'calt' Contextual Alternates lookup 14 contextual 20"  "'calt' Contextual Alternates lookup 14 contextual 21"  "'calt' Contextual Alternates lookup 14 contextual 22"  "'calt' Contextual Alternates lookup 14 contextual 23"  "'calt' Contextual Alternates lookup 14 contextual 24"  "'calt' Contextual Alternates lookup 14 contextual 25"  "'calt' Contextual Alternates lookup 14 contextual 26"  "'calt' Contextual Alternates lookup 14 contextual 27"  "'calt' Contextual Alternates lookup 14 contextual 28"  "'calt' Contextual Alternates lookup 14 contextual 29"  "'calt' Contextual Alternates lookup 14 contextual 30"  "'calt' Contextual Alternates lookup 14 contextual 31"  "'calt' Contextual Alternates lookup 14 contextual 32"  "'calt' Contextual Alternates lookup 14 contextual 33"  "'calt' Contextual Alternates lookup 14 contextual 34"  "'calt' Contextual Alternates lookup 14 contextual 35"  "'calt' Contextual Alternates lookup 14 contextual 36"  "'calt' Contextual Alternates lookup 14 contextual 37"  "'calt' Contextual Alternates lookup 14 contextual 38"  "'calt' Contextual Alternates lookup 14 contextual 39"  "'calt' Contextual Alternates lookup 14 contextual 40"  "'calt' Contextual Alternates lookup 14 contextual 41"  "'calt' Contextual Alternates lookup 14 contextual 42"  "'calt' Contextual Alternates lookup 14 contextual 43"  "'calt' Contextual Alternates lookup 14 contextual 44"  "'calt' Contextual Alternates lookup 14 contextual 45"  "'calt' Contextual Alternates lookup 14 contextual 46"  "'calt' Contextual Alternates lookup 14 contextual 47"  "'calt' Contextual Alternates lookup 14 contextual 48"  "'calt' Contextual Alternates lookup 14 contextual 49"  "'calt' Contextual Alternates lookup 14 contextual 50"  "'calt' Contextual Alternates lookup 14 contextual 51"  "'calt' Contextual Alternates lookup 14 contextual 52"  "'calt' Contextual Alternates lookup 14 contextual 53"  "'calt' Contextual Alternates lookup 14 contextual 54"  "'calt' Contextual Alternates lookup 14 contextual 55"  "'calt' Contextual Alternates lookup 14 contextual 56"  "'calt' Contextual Alternates lookup 14 contextual 57"  "'calt' Contextual Alternates lookup 14 contextual 58"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 20" { "Single Substitution lookup 20 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 23" { "Single Substitution lookup 23 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 25" { "Single Substitution lookup 25 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 28" { "Single Substitution lookup 28 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 31" { "Single Substitution lookup 31 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 32" { "Single Substitution lookup 32 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 33" { "Single Substitution lookup 33 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 34" { "Single Substitution lookup 34 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 35" { "Single Substitution lookup 35 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 36" { "Single Substitution lookup 36 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 37" { "Single Substitution lookup 37 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 38" { "Single Substitution lookup 38 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 39" { "Single Substitution lookup 39 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 40" { "Single Substitution lookup 40 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 41" { "Single Substitution lookup 41 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 42" { "Single Substitution lookup 42 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 43" { "Single Substitution lookup 43 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 44" { "Single Substitution lookup 44 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 45" { "Single Substitution lookup 45 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 46" { "Single Substitution lookup 46 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 47" { "Single Substitution lookup 47 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 48" { "Single Substitution lookup 48 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 49" { "Single Substitution lookup 49 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 50" { "Single Substitution lookup 50 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 51" { "Single Substitution lookup 51 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 52" { "Single Substitution lookup 52 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 53" { "Single Substitution lookup 53 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 54" { "Single Substitution lookup 54 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 55" { "Single Substitution lookup 55 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 56" { "Single Substitution lookup 56 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 57" { "Single Substitution lookup 57 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 58" { "Single Substitution lookup 58 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 59" { "Single Substitution lookup 59 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 60" { "Single Substitution lookup 60 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 61" { "Single Substitution lookup 61 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 62" { "Single Substitution lookup 62 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 63" { "Single Substitution lookup 63 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 64" { "Single Substitution lookup 64 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 65" { "Single Substitution lookup 65 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 66" { "Single Substitution lookup 66 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 67" { "Single Substitution lookup 67 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 68" { "Single Substitution lookup 68 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 69" { "Single Substitution lookup 69 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 70" { "Single Substitution lookup 70 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 71" { "Single Substitution lookup 71 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
+MarkAttachClasses: 1
+DEI: 91125
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 58" 0 0 0 1
+ String: 1 t
+ BString: 0 
+ FString: 7 twitter
+ 1
+  SeqLookup: 0 "Single Substitution lookup 73"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 57" 0 0 0 1
+ String: 1 f
+ BString: 0 
+ FString: 8 facebook
+ 1
+  SeqLookup: 0 "Single Substitution lookup 72"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 56" 0 0 0 1
+ String: 1 g
+ BString: 0 
+ FString: 6 github
+ 1
+  SeqLookup: 0 "Single Substitution lookup 71"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 55" 0 0 0 1
+ String: 1 d
+ BString: 0 
+ FString: 8 download
+ 1
+  SeqLookup: 0 "Single Substitution lookup 70"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 54" 0 0 0 1
+ String: 5 slash
+ BString: 10 larsenwork
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 69"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 53" 0 0 0 1
+ String: 5 slash
+ BString: 0 
+ FString: 5 slash
+ 1
+  SeqLookup: 0 "Single Substitution lookup 68"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 52" 0 0 0 1
+ String: 5 slash
+ BString: 23 larsenwork1 larsenwork1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 67"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 51" 0 0 0 1
+ String: 5 slash
+ BString: 11 larsenwork1
+ FString: 5 slash
+ 1
+  SeqLookup: 0 "Single Substitution lookup 66"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 50" 0 0 0 1
+ String: 5 slash
+ BString: 0 
+ FString: 11 slash slash
+ 1
+  SeqLookup: 0 "Single Substitution lookup 65"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 49" 0 0 0 1
+ String: 4 less
+ BString: 5 less1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 64"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 48" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 4 less
+ 1
+  SeqLookup: 0 "Single Substitution lookup 63"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 47" 0 0 0 1
+ String: 7 greater
+ BString: 8 greater1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 62"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 46" 0 0 0 1
+ String: 7 greater
+ BString: 0 
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 61"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 45" 0 0 0 1
+ String: 6 period
+ BString: 8 period2l
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 60"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 44" 0 0 0 1
+ String: 6 period
+ BString: 0 
+ FString: 6 period
+ 1
+  SeqLookup: 0 "Single Substitution lookup 59"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 43" 0 0 0 1
+ String: 6 period
+ BString: 21 larsenwork larsenwork
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 58"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 42" 0 0 0 1
+ String: 6 period
+ BString: 10 larsenwork
+ FString: 6 period
+ 1
+  SeqLookup: 0 "Single Substitution lookup 57"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 41" 0 0 0 1
+ String: 6 period
+ BString: 0 
+ FString: 13 period period
+ 1
+  SeqLookup: 0 "Single Substitution lookup 56"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 40" 0 0 0 1
+ String: 3 bar
+ BString: 4 bar1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 55"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 39" 0 0 0 1
+ String: 3 bar
+ BString: 0 
+ FString: 3 bar
+ 1
+  SeqLookup: 0 "Single Substitution lookup 54"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 38" 0 0 0 1
+ String: 9 ampersand
+ BString: 6 ampamp
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 53"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 37" 0 0 0 1
+ String: 9 ampersand
+ BString: 0 
+ FString: 9 ampersand
+ 1
+  SeqLookup: 0 "Single Substitution lookup 52"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 36" 0 0 0 1
+ String: 1 m
+ BString: 2 mm
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 51"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 35" 0 0 0 1
+ String: 1 m
+ BString: 0 
+ FString: 1 m
+ 1
+  SeqLookup: 0 "Single Substitution lookup 50"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 34" 0 0 0 1
+ String: 6 hyphen
+ BString: 10 hyphenmore
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 49"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 33" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 6 hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 48"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 32" 0 0 0 1
+ String: 7 greater
+ BString: 11 larsenwork2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 47"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 31" 0 0 0 1
+ String: 5 equal
+ BString: 0 
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 46"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 30" 0 0 0 1
+ String: 5 equal
+ BString: 9 equalmore
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 45"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 29" 0 0 0 1
+ String: 5 equal
+ BString: 0 
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 44"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 28" 0 0 0 1
+ String: 5 equal
+ BString: 11 larsenwork4
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 43"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 27" 0 0 0 1
+ String: 7 greater
+ BString: 0 
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 42"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 26" 0 0 0 1
+ String: 5 equal
+ BString: 11 larsenwork3
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 25" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 24" 0 0 0 1
+ String: 5 equal
+ BString: 11 larsenwork2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 39"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 23" 0 0 0 1
+ String: 6 exclam
+ BString: 0 
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 38"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 22" 0 0 0 1
+ String: 5 equal
+ BString: 23 larsenwork1 larsenwork1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 37"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 21" 0 0 0 1
+ String: 5 equal
+ BString: 11 larsenwork1
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 36"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 20" 0 0 0 1
+ String: 6 exclam
+ BString: 0 
+ FString: 11 equal equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 35"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 19" 0 0 0 1
+ String: 7 greater
+ BString: 10 larsenwork
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 34"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 18" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 33"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 17" 0 0 0 1
+ String: 6 hyphen
+ BString: 11 larsenwork2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 32"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 16" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 6 hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 31"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 15" 0 0 0 1
+ String: 7 greater
+ BString: 23 larsenwork1 larsenwork1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 30"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 14" 0 0 0 1
+ String: 7 greater
+ BString: 11 larsenwork1
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 29"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 13" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 15 greater greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 28"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 12" 0 0 0 1
+ String: 6 hyphen
+ BString: 23 larsenwork1 larsenwork1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 11" 0 0 0 1
+ String: 4 less
+ BString: 11 larsenwork1
+ FString: 6 hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 26"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 10" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 11 less hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 25"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 9" 0 0 0 1
+ String: 7 greater
+ BString: 21 larsenwork larsenwork
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 24"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 8" 0 0 0 1
+ String: 6 hyphen
+ BString: 10 larsenwork
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 23"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 7" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 14 hyphen greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 6" 0 0 0 1
+ String: 6 hyphen
+ BString: 23 larsenwork3 larsenwork3
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 21"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 5" 0 0 0 1
+ String: 6 hyphen
+ BString: 11 larsenwork3
+ FString: 6 hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 20"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 4" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 13 hyphen hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 19"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 3" 0 0 0 1
+ String: 6 hyphen
+ BString: 35 larsenwork5 larsenwork5 larsenwork5
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 18"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 2" 0 0 0 1
+ String: 6 hyphen
+ BString: 23 larsenwork5 larsenwork5
+ FString: 6 hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 17"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 1" 0 0 0 1
+ String: 6 exclam
+ BString: 11 larsenwork5
+ FString: 13 hyphen hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 0" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 20 exclam hyphen hyphen
+ 1
+  SeqLookup: 0 "Single Substitution lookup 15"
+EndFPST
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Monoid is dual licensed with MIT and OFL licenses. Pick one:)+AAoACgAA-The MIT License (MIT)+AAoACgAA-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.+AAoACgAA-SIL OPEN FONT LICENSE+AAoACgAA-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoACgAA-This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AAoACgAA-SIL OPEN FONT LICENSE+AAoACgAA-Version 1.1 - 26 February 2007+AAoACgAA-PREAMBLE+AAoACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting +IBQA in part or in whole +IBQA any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AAoACgAA-TERMINATION+AAoACgAA-This license becomes null and void if any of the above conditions are not met.+AAoACgAA-DISCLAIMER+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -36
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 38 14
+BeginPrivate: 1
+BlueValues 27 [-16 0 1024 1040 1408 1424]
+EndPrivate
+Grid
+-1920 -128 m 4
+ 4224 -128 l 1028
+  Spiro
+    -1920 -128 {
+    4224 -128 o
+    0 0 z
+  EndSpiro
+-1920 1364 m 0
+ 4224 1364 l 1024
+  Spiro
+    -1920 1364 {
+    4224 1364 o
+    0 0 z
+  EndSpiro
+  Named: "o"
+-1920 128 m 0
+ 4224 128 l 1024
+  Spiro
+    -1920 128 {
+    4224 128 o
+    0 0 z
+  EndSpiro
+-1920 256 m 0
+ 4224 256 l 1024
+  Spiro
+    -1920 256 {
+    4224 256 o
+    0 0 z
+  EndSpiro
+-1920 384 m 0
+ 4224 384 l 1024
+  Spiro
+    -1920 384 {
+    4224 384 o
+    0 0 z
+  EndSpiro
+-1920 1408 m 0
+ 4224 1408 l 1024
+  Spiro
+    -1920 1408 {
+    4224 1408 o
+    0 0 z
+  EndSpiro
+-1920 1280 m 0
+ 4224 1280 l 1024
+  Spiro
+    -1920 1280 {
+    4224 1280 o
+    0 0 z
+  EndSpiro
+-1920 1152 m 0
+ 4224 1152 l 1024
+  Spiro
+    -1920 1152 {
+    4224 1152 o
+    0 0 z
+  EndSpiro
+-1920 896 m 0
+ 4224 896 l 1024
+  Spiro
+    -1920 896 {
+    4224 896 o
+    0 0 z
+  EndSpiro
+-1920 768 m 0
+ 4224 768 l 1024
+  Spiro
+    -1920 768 {
+    4224 768 o
+    0 0 z
+  EndSpiro
+-1920 640 m 0
+ 4224 640 l 1024
+  Spiro
+    -1920 640 {
+    4224 640 o
+    0 0 z
+  EndSpiro
+-1920 512 m 0
+ 4224 512 l 1024
+  Spiro
+    -1920 512 {
+    4224 512 o
+    0 0 z
+  EndSpiro
+  Named: ".5x"
+-1920 1024 m 0
+ 4224 1024 l 1024
+  Spiro
+    -1920 1024 {
+    4224 1024 o
+    0 0 z
+  EndSpiro
+  Named: "x"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+128 2688 m 0
+ 128 -1408 l 1024
+  Spiro
+    128 2688 {
+    128 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+EndSplineSet
+TeXData: 1 0 0 599186 299593 199728 599186 1048576 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "bottom" "" "top" "" 
+EndSplineFont

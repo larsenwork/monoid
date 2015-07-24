@@ -1,0 +1,33 @@
+StartChar: Upsilon
+Encoding: 933 933 481
+GlifName: U_psilon
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<507 645> 1388 20G<107 243 909 1045>
+VStem: 507 138<0 674.079>
+LayerCount: 5
+Back
+Fore
+SplineSet
+108 1402 m 0
+ 107 1408 l 1
+ 242 1408 l 1
+ 243 1404 l 0
+ 308 1142 402 920 563 740 c 1
+ 589 740 l 1
+ 751 921 844 1142 909 1404 c 0
+ 910 1408 l 1
+ 1045 1408 l 1
+ 1044 1402 l 0
+ 983 1130 872 868 645 629 c 1
+ 645 0 l 1
+ 507 0 l 1
+ 507 629 l 1
+ 279 869 169 1130 108 1402 c 0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

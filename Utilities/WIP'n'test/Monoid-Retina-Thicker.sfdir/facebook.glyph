@@ -1,0 +1,45 @@
+StartChar: facebook
+Encoding: 1114143 -1 644
+GlifName: facebook
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 545<-71 112 332 515> 758 239<343.001 542> 1195 213<227.43 549>
+VStem: -640 752<9.42993 545 758 1077.32> 332 436<9.42993 545 758 985.367> 549 219<673.802 758 997 1191.5>
+LayerCount: 5
+Back
+Fore
+SplineSet
+690 1408 m 2xf4
+ 733 1408 768 1373 768 1330 c 2xf4
+ 768 78 l 2
+ 768 35 733 0 690 0 c 2
+ 332 0 l 1
+ 332 545 l 1
+ 515 545 l 1
+ 542 758 l 1
+ 332 758 l 1
+ 332 893 l 2xf8
+ 332 955 349 997 437 997 c 2
+ 549 997 l 1
+ 549 1187 l 2
+ 549 1190 463 1195 385 1195 c 0
+ 223 1195 112 1096 112 914 c 2
+ 112 758 l 1
+ -71 758 l 1
+ -71 545 l 1
+ 112 545 l 1
+ 112 0 l 1
+ -562 0 l 2
+ -605 0 -640 35 -640 78 c 2
+ -640 1330 l 2
+ -640 1373 -605 1408 -562 1408 c 2
+ 690 1408 l 2xf4
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+LCarets2: 10 0 0 0 0 0 0 0 0 0 0
+Ligature2: "'liga' Standard Ligatures lookup 13 subtable" a c e b o o k I c o n
+EndChar

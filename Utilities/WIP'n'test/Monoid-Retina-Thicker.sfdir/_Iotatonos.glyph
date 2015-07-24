@@ -1,0 +1,36 @@
+StartChar: Iotatonos
+Encoding: 906 906 561
+GlifName: I_otatonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<251 507 645 901> 1288 120<251 507 645 901>
+VStem: 507 138<120 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+-113 1188 m 1
+ 79 1440 l 1
+ 182 1353 l 1
+ -31 1119 l 1
+ -113 1188 l 1
+251 1408 m 1
+ 901 1408 l 1
+ 901 1288 l 1
+ 645 1288 l 1
+ 645 120 l 1
+ 901 120 l 1
+ 901 0 l 1
+ 251 0 l 1
+ 251 120 l 1
+ 507 120 l 1
+ 507 1288 l 1
+ 251 1288 l 1
+ 251 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

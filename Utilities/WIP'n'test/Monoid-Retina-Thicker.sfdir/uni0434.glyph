@@ -1,0 +1,37 @@
+StartChar: uni0434
+Encoding: 1076 1076 355
+GlifName: uni0434
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -256 376<123 233.833 901 1029> 0 120<356 763> 904 120<517 763>
+VStem: 123 138<-256 0> 379 138<574.841 904> 763 138<120 904> 891 138<-256 0>
+LayerCount: 5
+Back
+Fore
+SplineSet
+517 904 m 1x7c
+ 516 700 485 377 356 120 c 1
+ 763 120 l 1
+ 763 904 l 1
+ 517 904 l 1x7c
+123 120 m 1xba
+ 214 120 l 1
+ 361 412 379 704 379 1019 c 0
+ 379 1024 l 1
+ 901 1024 l 1
+ 901 120 l 1xbc
+ 1029 120 l 1
+ 1029 -256 l 1
+ 891 -256 l 1xba
+ 891 0 l 1
+ 261 0 l 1x7a
+ 261 -256 l 1
+ 123 -256 l 1
+ 123 120 l 1xba
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

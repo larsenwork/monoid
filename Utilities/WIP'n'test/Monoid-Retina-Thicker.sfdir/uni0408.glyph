@@ -1,0 +1,33 @@
+StartChar: uni0408
+Encoding: 1032 1032 389
+GlifName: uni0408
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<235.881 664.414> 1288 120<251 763>
+VStem: 763 138<223.644 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+901 1408 m 1
+ 901 513 l 2
+ 901 393 899 289 861 195 c 0
+ 813 79 705 -16 534 -16 c 0
+ 450 -16 350 -1 223 25 c 0
+ 219 26 l 1
+ 219 159 l 1
+ 225 158 l 0
+ 353 131 459 114 534 114 c 0
+ 633 114 696 161 731 242 c 0
+ 762 314 763 415 763 517 c 0
+ 763 1288 l 1
+ 251 1288 l 1
+ 251 1408 l 1
+ 901 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

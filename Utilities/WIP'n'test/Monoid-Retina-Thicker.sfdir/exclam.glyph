@@ -1,0 +1,31 @@
+StartChar: exclam
+Encoding: 33 33 56
+GlifName: exclam
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 298<468.5 683.5> 1388 20G<497 655>
+VStem: 427 298<25.5 240.5> 507 138<502 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+427 133 m 0xe0
+ 427 221 488 282 576 282 c 0
+ 664 282 725 221 725 133 c 0
+ 725 45 664 -16 576 -16 c 0
+ 488 -16 427 45 427 133 c 0xe0
+655 1408 m 1
+ 645 502 l 1
+ 507 502 l 1xd0
+ 497 1408 l 1
+ 655 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 38 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 35 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 16 subtable" larsenwork5
+EndChar

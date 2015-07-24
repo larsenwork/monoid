@@ -1,0 +1,34 @@
+StartChar: dieresistonos
+Encoding: 901 901 556
+GlifName: dieresistonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1131 234<200.302 383.698 768.302 951.698>
+VStem: 175 234<1156.3 1339.7> 743 234<1156.3 1339.7>
+AnchorPoint: "top" 576 1024 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+743 1248 m 0
+ 743 1317 791 1365 860 1365 c 0
+ 929 1365 977 1317 977 1248 c 0
+ 977 1179 929 1131 860 1131 c 0
+ 791 1131 743 1179 743 1248 c 0
+175 1248 m 0
+ 175 1317 223 1365 292 1365 c 0
+ 361 1365 409 1317 409 1248 c 0
+ 409 1179 361 1131 292 1131 c 0
+ 223 1131 175 1179 175 1248 c 0
+497 1316 m 1
+ 689 1568 l 1
+ 793 1481 l 1
+ 579 1247 l 1
+ 497 1316 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,18 @@
+StartChar: uni0451
+Encoding: 1105 1105 383
+GlifName: uni0451
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<455.257 900.922> 507 125<359 793> 910 130<442.677 709.323> 1190 234<260.302 443.698 708.302 891.698>
+VStem: 219 138<221.679 507 632 816.11> 235 234<1215.3 1398.7> 683 234<1215.3 1398.7>
+LayerCount: 5
+Back
+Fore
+Refer: 300 776 N 1 0 0 1 0 -128 2
+Refer: 356 1077 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

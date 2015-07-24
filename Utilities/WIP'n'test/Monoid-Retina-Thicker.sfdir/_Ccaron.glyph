@@ -1,0 +1,18 @@
+StartChar: Ccaron
+Encoding: 268 268 177
+GlifName: C_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<430.802 964.922> 1294 130<424.916 934.922> 1526 266
+VStem: 107 138<352.454 1055.66>
+LayerCount: 5
+Back
+Fore
+Refer: 303 780 N 1 0 0 1 0 256 2
+Refer: 31 67 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

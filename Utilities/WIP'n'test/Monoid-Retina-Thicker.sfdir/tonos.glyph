@@ -1,0 +1,24 @@
+StartChar: tonos
+Encoding: 900 900 555
+GlifName: tonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1119 321
+VStem: 497 295
+AnchorPoint: "top" 576 1024 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+497 1188 m 1
+ 689 1440 l 1
+ 792 1353 l 1
+ 579 1119 l 1
+ 497 1188 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

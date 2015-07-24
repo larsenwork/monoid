@@ -1,0 +1,29 @@
+StartChar: uni03DC
+Encoding: 988 988 612
+GlifName: uni03D_C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<251 389> 635 130<389 901> 1288 120<389 1029>
+VStem: 251 138<0 635 765 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+251 0 m 1
+ 251 1408 l 1
+ 1029 1408 l 1
+ 1029 1288 l 1
+ 389 1288 l 1
+ 389 765 l 1
+ 901 765 l 1
+ 901 635 l 1
+ 389 635 l 1
+ 389 0 l 1
+ 251 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,34 @@
+StartChar: hyphen
+Encoding: 45 45 55
+GlifName: hyphen
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 516 130<187 965>
+LayerCount: 5
+Back
+Fore
+SplineSet
+187 516 m 1
+ 187 646 l 1
+ 965 646 l 1
+ 965 516 l 1
+ 187 516 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 49 subtable" hyphenmore
+Substitution2: "Single Substitution lookup 48 subtable" hyphenmore
+Substitution2: "Single Substitution lookup 33 subtable" larsenwork
+Substitution2: "Single Substitution lookup 32 subtable" ligaarrowleft
+Substitution2: "Single Substitution lookup 28 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 27 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 23 subtable" larsenwork
+Substitution2: "Single Substitution lookup 22 subtable" larsenwork
+Substitution2: "Single Substitution lookup 21 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 20 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 18 subtable" commentstart
+Substitution2: "Single Substitution lookup 17 subtable" larsenwork5
+EndChar

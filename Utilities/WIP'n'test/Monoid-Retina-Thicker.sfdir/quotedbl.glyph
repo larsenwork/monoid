@@ -1,0 +1,28 @@
+StartChar: quotedbl
+Encoding: 34 34 57
+GlifName: quotedbl
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1388 20G<315 453 699 837>
+VStem: 315 138<768 1408> 699 138<768 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+699 768 m 1
+ 699 1408 l 1
+ 837 1408 l 1
+ 837 768 l 1
+ 699 768 l 1
+315 768 m 1
+ 315 1408 l 1
+ 453 1408 l 1
+ 453 768 l 1
+ 315 768 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

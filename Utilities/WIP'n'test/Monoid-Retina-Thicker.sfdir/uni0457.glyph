@@ -1,0 +1,19 @@
+StartChar: uni0457
+Encoding: 1111 1111 398
+GlifName: uni0457
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<571 709> 904 120<315 571> 1190 234<324.302 507.698 772.302 955.698>
+VStem: 299 234<1215.3 1398.7> 571 138<0 904> 747 234<1215.3 1398.7>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+Refer: 300 776 N 1 0 0 1 64 -128 2
+Refer: 233 305 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

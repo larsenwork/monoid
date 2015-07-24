@@ -1,0 +1,18 @@
+StartChar: cacute
+Encoding: 263 263 172
+GlifName: cacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 130<457.996 900.922> 910 130<457.996 880.922> 1142 266
+VStem: 219 138<229.642 794.358> 479 322
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 0 -128 2
+Refer: 3 99 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

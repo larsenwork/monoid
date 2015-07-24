@@ -1,0 +1,31 @@
+StartChar: dagger
+Encoding: 8224 8224 586
+GlifName: dagger
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -5 21G<507 645> 1023 130<251 507 645 901> 1388 20G<507 645>
+VStem: 507 138<-5 1023 1153 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+507 1153 m 1
+ 507 1408 l 1
+ 645 1408 l 1
+ 645 1153 l 1
+ 901 1153 l 1
+ 901 1023 l 1
+ 645 1023 l 1
+ 645 -5 l 1
+ 507 -5 l 1
+ 507 1023 l 1
+ 251 1023 l 1
+ 251 1153 l 1
+ 507 1153 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

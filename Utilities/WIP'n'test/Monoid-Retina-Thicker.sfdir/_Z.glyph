@@ -1,0 +1,31 @@
+StartChar: Z
+Encoding: 90 90 53
+GlifName: Z_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<347 965> 1288 120<207 785>
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+785 1288 m 1
+ 207 1288 l 1
+ 207 1408 l 1
+ 945 1408 l 1
+ 945 1312 l 1
+ 347 124 l 1
+ 347 120 l 1
+ 965 120 l 1
+ 965 0 l 1
+ 187 0 l 1
+ 187 98 l 1
+ 785 1284 l 1
+ 785 1288 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

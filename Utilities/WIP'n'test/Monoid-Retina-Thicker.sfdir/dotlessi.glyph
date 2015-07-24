@@ -1,0 +1,26 @@
+StartChar: dotlessi
+Encoding: 305 305 233
+GlifName: dotlessi
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<571 709> 904 120<315 571>
+VStem: 571 138<0 904>
+AnchorPoint: "top" 640 1024 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+709 0 m 1
+ 571 0 l 1
+ 571 904 l 1
+ 315 904 l 1
+ 315 1024 l 1
+ 709 1024 l 1
+ 709 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

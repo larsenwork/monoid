@@ -1,0 +1,41 @@
+StartChar: multiply
+Encoding: 215 215 122
+GlifName: multiply
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+728 516 m 1
+ 1007 244 l 1
+ 906 155 l 1
+ 636 424 l 1
+ 578 507 l 1
+ 574 507 l 1
+ 516 424 l 1
+ 246 155 l 1
+ 145 244 l 1
+ 424 516 l 1
+ 507 574 l 1
+ 507 578 l 1
+ 424 636 l 1
+ 145 908 l 1
+ 246 997 l 1
+ 516 728 l 1
+ 574 645 l 1
+ 578 645 l 1
+ 636 728 l 1
+ 906 997 l 1
+ 1007 908 l 1
+ 728 636 l 1
+ 645 578 l 1
+ 645 574 l 1
+ 728 516 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

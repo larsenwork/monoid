@@ -1,0 +1,24 @@
+StartChar: gravecomb
+Encoding: 768 768 293
+GlifName: gravecomb
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1270 266
+VStem: 351 322
+AnchorPoint: "top" 576 1152 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+501 1536 m 1
+ 673 1270 l 1
+ 523 1270 l 1
+ 351 1536 l 1
+ 501 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

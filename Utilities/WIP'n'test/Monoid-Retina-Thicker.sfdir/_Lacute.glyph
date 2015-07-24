@@ -1,0 +1,18 @@
+StartChar: Lacute
+Encoding: 313 313 278
+GlifName: L_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<389 1029> 1388 20G<251 389> 1526 266
+VStem: 223 322 251 138<120 1408>
+LayerCount: 5
+Back
+Fore
+Refer: 294 769 N 1 0 0 1 -256 256 2
+Refer: 40 76 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

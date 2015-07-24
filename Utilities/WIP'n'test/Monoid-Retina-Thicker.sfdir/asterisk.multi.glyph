@@ -1,0 +1,40 @@
+StartChar: asterisk.multi
+Encoding: 1114149 -1 651
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+728 644 m 1
+ 1007 368 l 1
+ 906 279 l 1
+ 636 552 l 1
+ 578 635 l 1
+ 574 635 l 1
+ 516 552 l 1
+ 246 279 l 1
+ 145 368 l 1
+ 424 644 l 1
+ 507 702 l 1
+ 507 706 l 1
+ 424 760 l 1
+ 145 1036 l 1
+ 246 1125 l 1
+ 516 853 l 1
+ 574 768 l 1
+ 578 768 l 1
+ 636 853 l 1
+ 906 1125 l 1
+ 1007 1036 l 1
+ 728 760 l 1
+ 645 706 l 1
+ 645 702 l 1
+ 728 644 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

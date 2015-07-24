@@ -1,0 +1,34 @@
+StartChar: Sigma
+Encoding: 931 931 532
+GlifName: S_igma
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<362 965> 1288 120<362 965>
+LayerCount: 5
+Back
+Fore
+SplineSet
+554 700 m 1
+ 554 708 l 1
+ 187 1310 l 1
+ 187 1408 l 1
+ 965 1408 l 1
+ 965 1288 l 1
+ 362 1288 l 1
+ 362 1284 l 1
+ 675 754 l 1
+ 675 654 l 1
+ 362 124 l 1
+ 362 120 l 1
+ 965 120 l 1
+ 965 0 l 1
+ 187 0 l 1
+ 187 98 l 1
+ 554 700 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
