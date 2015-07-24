@@ -1005,6 +1005,7 @@ option.permutations = [[]]
   <script>
     window.jQuery || document.write('<script src="js/2.1.4.jquery.min.js"><\/script>')
   </script>
+  <script src="js/release.js"></script>
   <!-- <script src="js/garlic.min.js"></script> -->
   <!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>-->
   <!--    <script src="js/highlight.pack.js"></script>-->
@@ -1044,10 +1045,10 @@ option.permutations = [[]]
           insertTextAtCursor('\t'); // insert tab
         }
       });
-      var FontName = "https://cdn.rawgit.com/larsenwork/monoid/release/Monoid.zip";
+      var FontName = window.MONOID_URL + "Monoid.zip";
 
       function refreshFeatures() {
-        FontName = "https://cdn.rawgit.com/larsenwork/monoid/release/Monoid";
+        FontName = window.MONOID_URL + "Monoid";
         var FontFeature = "";
         if ($("#tight").is(":checked")) {
           $('.code').css("letter-spacing", "-0.06666666667em");
