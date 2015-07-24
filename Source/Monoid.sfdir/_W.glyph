@@ -33,5 +33,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Position2: "Single Positioning lookup 14 subtable" dx=-128 dy=0 dh=0 dv=0
 Substitution2: "'ss10' Style Set 10 lookup 9 subtable" W.straight
 EndChar

@@ -1,7 +1,7 @@
+languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
-languagesystem DFLT dflt;
 
 feature ss01 {
   sub dollar by dollar.empty;
