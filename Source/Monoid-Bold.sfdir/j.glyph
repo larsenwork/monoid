@@ -31,6 +31,6 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "'ss11' Style Set 11 lookup 71 subtable" j.long
-Substitution2: "'ss07' Style Set 7 lookup 67 subtable" j.flyingdot
+Substitution2: "'ss11' Style Set 11 lookup 10 subtable" j.long
+Substitution2: "'ss07' Style Set 7 lookup 6 subtable" j.flyingdot
 EndChar

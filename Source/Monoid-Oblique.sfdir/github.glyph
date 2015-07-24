@@ -57,6 +57,6 @@ SplineSet
  -317 0 -702 7 -702 414 c 0
 EndSplineSet
 Layer: 2
-Ligature2: "'liga' Standard Ligatures lookup 12 subtable" i t h u b I c o n
+Ligature2: "'liga' Standard Ligatures lookup 13 subtable" i t h u b I c o n
 LCarets2: 8 -140 -140 -140 -140 -140 -140 -140 -140
 EndChar

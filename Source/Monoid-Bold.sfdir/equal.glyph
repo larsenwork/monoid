@@ -23,12 +23,12 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 33 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 32 subtable" equalmore
-Substitution2: "Single Substitution lookup 31 subtable" equalmore
-Substitution2: "Single Substitution lookup 30 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 28 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 26 subtable" notequalliga
-Substitution2: "Single Substitution lookup 24 subtable" notequaltypeliga
-Substitution2: "Single Substitution lookup 23 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 46 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 45 subtable" equalmore
+Substitution2: "Single Substitution lookup 44 subtable" equalmore
+Substitution2: "Single Substitution lookup 43 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 41 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 39 subtable" notequalliga
+Substitution2: "Single Substitution lookup 37 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 36 subtable" larsenwork1
 EndChar

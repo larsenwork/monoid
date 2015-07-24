@@ -3,7 +3,7 @@ Encoding: 53 53 75
 GlifName: five
 Width: 1024
 VWidth: 0
-Flags: HWO
+Flags: W
 HStem: -16 120<259.799 704.237> 792 120<462.464 709.999> 1288 120<384 896>
 VStem: 256 128<816 1288> 800 128<210.398 688.554>
 LayerCount: 5

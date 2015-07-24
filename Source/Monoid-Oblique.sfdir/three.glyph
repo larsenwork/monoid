@@ -34,5 +34,5 @@ SplineSet
  472 1410 566 1424 673 1424 c 4xe8
 EndSplineSet
 Layer: 2
-Substitution2: "'ss06' Style Set 6 lookup 66 subtable" three.russian
+Substitution2: "'ss06' Style Set 6 lookup 5 subtable" three.russian
 EndChar

@@ -161,10 +161,10 @@ Remember to update the Font Log when you make contributions.
         <td>Chase</td>
     </tr>
     <tr>
-        <td>0.55</td>
-        <td>2015.xx.xx</td>
-        <td>Contextual alternates and ligatures</td>
-        <td></td>
+        <td>0.52</td>
+        <td>2015.07.24</td>
+        <td>Class based contextual positioning - regular only</td>
+        <td>Andreas</td>
     </tr>
     <tr>
         <td>Wish List</td>

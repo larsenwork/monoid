@@ -24,5 +24,5 @@ SplineSet
  876 914 820 920 755 920 c 0xc0
 EndSplineSet
 Layer: 2
-Substitution2: "'ss09' Style Set 9 lookup 69 subtable" r.base
+Substitution2: "'ss09' Style Set 9 lookup 8 subtable" r.base
 EndChar

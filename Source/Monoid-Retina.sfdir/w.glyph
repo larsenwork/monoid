@@ -40,5 +40,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "'ss10' Style Set 10 lookup 70 subtable" w.straight
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" w.straight
 EndChar

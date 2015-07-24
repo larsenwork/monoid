@@ -38,6 +38,6 @@ SplineSet
  595 168 509 112 422 112 c 0
 EndSplineSet
 Layer: 2
-Substitution2: "'ss11' Style Set 11 lookup 71 subtable" g.long
-Substitution2: "Single Substitution lookup 70 subtable" larsenwork
+Substitution2: "Single Substitution lookup 71 subtable" larsenwork
+Substitution2: "'ss11' Style Set 11 lookup 10 subtable" g.long
 EndChar

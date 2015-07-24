@@ -27,5 +27,5 @@ SplineSet
  522 240 l 1
 EndSplineSet
 Layer: 2
-Substitution2: "'ss11' Style Set 11 lookup 71 subtable" y.long
+Substitution2: "'ss11' Style Set 11 lookup 10 subtable" y.long
 EndChar

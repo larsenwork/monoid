@@ -31,5 +31,5 @@ SplineSet
  523 767 l 1
 EndSplineSet
 Layer: 2
-Substitution2: "'ss10' Style Set 10 lookup 70 subtable" w.straight
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" w.straight
 EndChar
