@@ -33,6 +33,7 @@ SplineSet
  387 1396 l 5
  472 1410 566 1424 673 1424 c 4xe8
 EndSplineSet
+Validated: 1
 Layer: 2
 Substitution2: "'ss06' Style Set 6 lookup 5 subtable" three.russian
 EndChar

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1437810632
+ModificationTime: 1437837395
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -119,8 +119,251 @@ Lookup: 1 0 0 "Single Substitution lookup 70" { "Single Substitution lookup 70 s
 Lookup: 1 0 0 "Single Substitution lookup 71" { "Single Substitution lookup 71 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
+Lookup: 264 0 0 "'calt' Contextual Alternates lookup 0" { "'calt' Contextual Alternates lookup 0 contextual 0"  "'calt' Contextual Alternates lookup 0 contextual 1"  "'calt' Contextual Alternates lookup 0 contextual 2"  "'calt' Contextual Alternates lookup 0 contextual 3"  "'calt' Contextual Alternates lookup 0 contextual 4"  "'calt' Contextual Alternates lookup 0 contextual 5"  "'calt' Contextual Alternates lookup 0 contextual 6"  "'calt' Contextual Alternates lookup 0 contextual 7"  "'calt' Contextual Alternates lookup 0 contextual 8"  "'calt' Contextual Alternates lookup 0 contextual 9"  "'calt' Contextual Alternates lookup 0 contextual 10"  "'calt' Contextual Alternates lookup 0 contextual 11"  "'calt' Contextual Alternates lookup 0 contextual 12"  "'calt' Contextual Alternates lookup 0 contextual 13"  "'calt' Contextual Alternates lookup 0 contextual 14"  "'calt' Contextual Alternates lookup 0 contextual 15"  "'calt' Contextual Alternates lookup 0 contextual 16"  "'calt' Contextual Alternates lookup 0 contextual 17"  "'calt' Contextual Alternates lookup 0 contextual 18"  "'calt' Contextual Alternates lookup 0 contextual 19"  "'calt' Contextual Alternates lookup 0 contextual 20"  "'calt' Contextual Alternates lookup 0 contextual 21"  "'calt' Contextual Alternates lookup 0 contextual 22"  "'calt' Contextual Alternates lookup 0 contextual 23"  "'calt' Contextual Alternates lookup 0 contextual 24"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 257 0 0 "Single Positioning lookup 1" { "Single Positioning lookup 1 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 3" { "Single Positioning lookup 3 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 4" { "Single Positioning lookup 4 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 5" { "Single Positioning lookup 5 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 6" { "Single Positioning lookup 6 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 7" { "Single Positioning lookup 7 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 8" { "Single Positioning lookup 8 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 9" { "Single Positioning lookup 9 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 10" { "Single Positioning lookup 10 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 11" { "Single Positioning lookup 11 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 12" { "Single Positioning lookup 12 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 13" { "Single Positioning lookup 13 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 14" { "Single Positioning lookup 14 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 15" { "Single Positioning lookup 15 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 16" { "Single Positioning lookup 16 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 17" { "Single Positioning lookup 17 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 18" { "Single Positioning lookup 18 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 19" { "Single Positioning lookup 19 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 20" { "Single Positioning lookup 20 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 21" { "Single Positioning lookup 21 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 22" { "Single Positioning lookup 22 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 23" { "Single Positioning lookup 23 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 24" { "Single Positioning lookup 24 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 25" { "Single Positioning lookup 25 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 24" 0 0 0 1
+ 1 1 1
+  Coverage: 5 slash
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 a c d e g i j m n o p q r s u v w x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 25"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 23" 0 0 0 1
+ 1 1 1
+  Coverage: 39 i l period comma colon semicolon exclam
+  BCoverage: 39 i l period comma colon semicolon exclam
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 24"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 22" 0 0 0 1
+ 1 1 1
+  Coverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  BCoverage: 37 i period comma colon semicolon exclam
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 23"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 21" 0 0 0 1
+ 1 1 2
+  Coverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  BCoverage: 37 i period comma colon semicolon exclam
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 22"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 20" 0 0 0 1
+ 1 2 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 37 i period comma colon semicolon exclam
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 21"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 19" 0 0 0 1
+ 1 1 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 37 i period comma colon semicolon exclam
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 18" 0 0 0 1
+ 1 0 2
+  Coverage: 37 i period comma colon semicolon exclam
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 17" 0 0 0 1
+ 1 2 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 37 i period comma colon semicolon exclam
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 18"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 16" 0 0 0 1
+ 1 1 2
+  Coverage: 37 i period comma colon semicolon exclam
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 17"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 15" 0 0 0 1
+ 1 1 1
+  Coverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 1 l
+ 1
+  SeqLookup: 0 "Single Positioning lookup 16"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 14" 0 0 0 1
+ 1 2 1
+  Coverage: 1 l
+  BCoverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 15"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 13" 0 0 0 1
+ 1 1 2
+  Coverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 1 l
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 14"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 12" 0 0 0 1
+ 1 2 1
+  Coverage: 1 l
+  BCoverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 13"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 11" 0 0 0 1
+ 1 1 2
+  Coverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 1 l
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 12"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 10" 0 0 0 1
+ 1 1 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 39 i l period comma colon semicolon exclam
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 11"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 9" 0 0 0 1
+ 1 0 2
+  Coverage: 1 l
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 10"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 8" 0 0 0 1
+ 1 3 1
+  Coverage: 39 i l period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 9"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 7" 0 0 0 1
+ 1 3 1
+  Coverage: 39 i l period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 8"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 6" 0 0 0 1
+ 1 2 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 7"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 5" 0 0 0 1
+ 1 1 2
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 6"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 4" 0 0 0 1
+ 1 3 0
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+ 1
+  SeqLookup: 0 "Single Positioning lookup 5"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 3" 0 0 0 1
+ 1 2 1
+  Coverage: 37 i period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 4"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 2" 0 0 0 1
+ 1 2 1
+  Coverage: 39 i l period comma colon semicolon exclam
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 3"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 1" 0 0 0 1
+ 1 1 1
+  Coverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 2"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 0" 0 0 0 1
+ 1 1 1
+  Coverage: 39 i l period comma colon semicolon exclam
+  BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  FCoverage: 39 i l period comma colon semicolon exclam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 1"
+EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 59" 0 0 0 1
  String: 1 t
  BString: 0 
@@ -547,7 +790,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 38 38 6
+WinInfo: 1113970 38 6
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate

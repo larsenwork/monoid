@@ -21,7 +21,19 @@ SplineSet
  784 1408 l 1
  600 512 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
+Position2: "Single Positioning lookup 24 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 14 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 8 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 3 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 1 subtable" dx=64 dy=0 dh=0 dv=0
 Substitution2: "Single Substitution lookup 38 subtable" larsenwork2
 Substitution2: "Single Substitution lookup 35 subtable" larsenwork1
 Substitution2: "Single Substitution lookup 16 subtable" larsenwork5

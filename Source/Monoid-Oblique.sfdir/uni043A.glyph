@@ -4,6 +4,8 @@ GlifName: uni043A_
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: 0 21G<116 247.908 697.857 862> 1004 20G<311.113 443 819.93 1014>
+DStem2: 116 0 244 0 0.190767 0.981635<24.4182 467.645 642.781 1043.16> 362 607 478 560 0.75824 0.651976<0 57.313 187.797 636.587>
 LayerCount: 3
 Back
 Fore
@@ -22,5 +24,6 @@ SplineSet
  329 435 l 1
  244 0 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 EndChar

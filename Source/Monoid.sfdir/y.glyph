@@ -69,6 +69,7 @@ SplineSet
 884 1024 m 21
  795.92072476 664.498351403 708.299467118 305.119568821 562 -70 c 1037
 EndSplineSet
+Position2: "Single Positioning lookup 17 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 16 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 15 subtable" dx=0 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 13 subtable" dx=-128 dy=0 dh=0 dv=0

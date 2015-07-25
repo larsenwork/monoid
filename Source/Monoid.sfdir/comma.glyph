@@ -35,6 +35,7 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Position2: "Single Positioning lookup 20 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 14 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0

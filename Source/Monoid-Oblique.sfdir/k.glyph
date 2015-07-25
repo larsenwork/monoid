@@ -4,6 +4,8 @@ GlifName: k
 Width: 1024
 VWidth: 0
 Flags: W
+HStem: 0 21G<116 247.908 697.857 862> 1004 20G<829.682 1014> 1388 20G<386.108 518>
+DStem2: 116 0 244 0 0.191019 0.981586<24.4504 467.677 637.715 1434.41> 361 602 478 560 0.75824 0.651976<0 61.3311 191.815 648.188>
 LayerCount: 3
 Back
 Fore
@@ -22,5 +24,14 @@ SplineSet
  329 435 l 1
  244 0 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 20 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 7 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=64 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
 EndChar
