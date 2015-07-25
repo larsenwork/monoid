@@ -15,28 +15,16 @@
 ------
 #Guide
 
-####Stylistic Alternates
+###Stylistic Alternates
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
-####Editor Support (ligatures)
+###Editor Support (ligatures)
 
-######Confirmed working
-| Editor | Operating System |
-|--------|------------------|
-| Atom   | Mac,             |
-| xCode  | Mac,             |
+#####Confirmed working
+* Atom - Mac, Win
+* xCode - Mac
 
-######Partly working
-| Editor | Operating System |
-|--------|------------------|
-|        |                  |
-
-######Not working
-| Editor | Operating System |
-|--------|------------------|
-|        |                  |
-
-######Atom Editor
+#####Atom Editor
 This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but disables them on your `cursor-line` so you don't sacrifice "editability".
 ```css
 * {
@@ -198,7 +186,7 @@ Remember to update the Font Log when you make contributions.
 #Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 
-####The MIT License (MIT)
+###The MIT License (MIT)
 
 Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
 
@@ -220,18 +208,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-####SIL OPEN FONT LICENSE
+###SIL OPEN FONT LICENSE
 Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-######SIL OPEN FONT LICENSE
+#####SIL OPEN FONT LICENSE
 
 Version 1.1 - 26 February 2007
 
-######PREAMBLE
+#####PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
 development of collaborative font projects, to support the font creation
 efforts of academic and linguistic communities, and to provide a free and
@@ -247,7 +235,7 @@ however, cannot be released under any other type of license. The
 requirement for fonts to remain under this license does not apply
 to any document created using the fonts or their derivatives.
 
-######DEFINITIONS
+#####DEFINITIONS
 "Font Software" refers to the set of files released by the Copyright
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
@@ -266,7 +254,7 @@ new environment.
 "Author" refers to any designer, engineer, programmer, technical
 writer or other person who contributed to the Font Software.
 
-######PERMISSION & CONDITIONS
+#####PERMISSION & CONDITIONS
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of the Font Software, to use, study, copy, merge, embed, modify,
 redistribute, and sell modified and unmodified copies of the Font
@@ -299,11 +287,11 @@ distributed under any other license. The requirement for fonts to
 remain under this license does not apply to any document created
 using the Font Software.
 
-######TERMINATION
+#####TERMINATION
 This license becomes null and void if any of the above conditions are
 not met.
 
-######DISCLAIMER
+#####DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
