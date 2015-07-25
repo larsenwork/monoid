@@ -12,10 +12,31 @@
 </table>
 
 <a name="guide"></a>
-##Guide
+------
+#Guide
+
 ####Stylistic Alternates
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
-####Atom Editor
+
+####Editor Support (ligatures)
+
+######Confirmed working
+| Editor | Operating System |
+|--------|------------------|
+| Atom   | Mac,             |
+| xCode  | Mac,             |
+
+######Partly working
+| Editor | Operating System |
+|--------|------------------|
+|        |                  |
+
+######Not working
+| Editor | Operating System |
+|--------|------------------|
+|        |                  |
+
+######Atom Editor
 This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but disables them on your `cursor-line` so you don't sacrifice "editability".
 ```css
 * {
@@ -27,15 +48,12 @@ atom-text-editor::shadow {
   .cursor-line {
     -webkit-font-feature-settings: "liga" off, "calt" off;
   }
-  .comment {
-    font-style: oblique;
-  }
-
 }
 ```
 
 <a name="links"></a>
-##Links
+------
+#Links
 I did a talk on Monoid at a frontenders meetup and these are some links relevant to that talk.
 
 * [Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june
@@ -48,7 +66,8 @@ I did a talk on Monoid at a frontenders meetup and these are some links relevant
 
 
 <a name="font_log"></a>
-##Font Log
+------
+#Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
 <table>
@@ -175,7 +194,8 @@ Remember to update the Font Log when you make contributions.
 </table>
 
 <a name="license"></a>
-##Licenses
+------
+#Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 
 ####The MIT License (MIT)
