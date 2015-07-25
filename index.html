@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@larsenwork">
   <meta name="twitter:title" content="Monoid Open Source Coding Font">
-  <meta name="twitter:description" content="Monoid is a customizable, minimal + legible font optimized for coding. It's drawn over a 14px grid for bitmap-like sharpness.">
+  <meta name="twitter:description" content="Monoid is a customizable, minimal + legible font optimized for coding. It's customisable with ligatures, alternates and class based positioning.">
   <meta name="twitter:image:src" content="http://larsenwork.com/monoid/monoid.png">
   <meta name="twitter:url" content="http://larsenwork.com/monoid/">
   <meta name="twitter:image:width" content="3000">
@@ -33,7 +33,7 @@
   <meta property="og:image:width" content="3000">
   <meta property="og:image:height" content="1575">
   <meta property="og:image:type" content="image/png">
-  <meta property="og:description" content="Monoid is a customizable, minimal + legible font optimized for coding. It's drawn over a 14px grid for bitmap-like sharpness.">
+  <meta property="og:description" content="Monoid is a customizable, minimal + legible font optimized for coding. It's customisable with ligatures, alternates and class based positioning.">
   <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 
@@ -174,12 +174,12 @@
       <pre><code><div id="txt" class="hljs" contenteditable="true" spellcheck="false" placeholder="Type or paste your own code here. You can use the tab key as you'd normally would in an editor. These are the characters with alternates: $ * 0 1 3 l"></div></code></pre>
     </div>
     <div id="swift" class="code">
-      <pre><code class="language-swift hljs"><span class="hljs-comment">//  Async.swift</span>
-<span class="hljs-comment">//  Created by Tobias DM on 15/07/14.</span>
-<span class="hljs-comment">//	OS X 10.10+ and iOS 8.0+</span>
-<span class="hljs-comment">//	Only use with ARC</span>
-<span class="hljs-comment">//	The MIT License (MIT)</span>
-<span class="hljs-comment">//	Copyright (c) 2014 Tobias Due Munk</span>
+      <pre><code class="language-swift hljs"><span class="hljs-comment">// Async.swift</span>
+<span class="hljs-comment">// Created by Tobias DM on 15/07/14.</span>
+<span class="hljs-comment">// OS X 10.10+ and iOS 8.0+</span>
+<span class="hljs-comment">// Only use with ARC</span>
+<span class="hljs-comment">// The MIT License (MIT)</span>
+<span class="hljs-comment">// Copyright (c) 2014 Tobias Due Munk</span>
 
 
 <span class="hljs-keyword">import</span> <span class="hljs-type">Foundation</span>
@@ -996,7 +996,7 @@ option.permutations = [[]]
   </div>
   <div id="loadoverlay"></div>
   <div id="safari" class="alert">
-    <p>Preview of the alternates doesn't work with Safari and/or iOS devices.
+    <p>Preview of the alternates and turning ligatures off doesn't work with Safari and/or iOS devices.
       <span id="ok">OK</span>
     </p>
   </div>
@@ -1113,7 +1113,7 @@ option.permutations = [[]]
           FontName += '-l'
         }
         if ($("#nocalt").is(":checked")) {
-          FontFeature += '"liga" off, "calt" off, ';
+          FontFeature += '"liga" 0, "calt" 0, ';
           FontName += '-NoCalt'
         }
         FontName += '.zip'

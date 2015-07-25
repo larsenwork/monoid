@@ -60,13 +60,11 @@ body {
   color: #535353;
   background-color: white;
   font-size: 15px;
+  -webkit-font-feature-settings: "liga" 1, "calt" 1;
+  font-feature-settings: "liga" 1, "calt" 1;
 }
 * {
   box-sizing: border-box;
-}
-.default, section {
-  -webkit-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga" 1;
 }
 ::-moz-selection {
   color: white;
