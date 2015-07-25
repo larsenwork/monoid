@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1437764065
+ModificationTime: 1437810599
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 4
@@ -59,7 +59,7 @@ Lookup: 1 0 0 "'ss11' Style Set 11 lookup 10" { "'ss11' Style Set 11 lookup 10 s
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 11" { "'ss12' Style Set 12 lookup 11 subtable"  } ['ss12' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss13' Style Set 13 lookup 12" { "'ss13' Style Set 13 lookup 12 subtable"  } ['ss13' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 13" { "'liga' Standard Ligatures lookup 13 subtable"  } ['liga' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates lookup 14" { "'calt' Contextual Alternates lookup 14 contextual 0"  "'calt' Contextual Alternates lookup 14 contextual 1"  "'calt' Contextual Alternates lookup 14 contextual 2"  "'calt' Contextual Alternates lookup 14 contextual 3"  "'calt' Contextual Alternates lookup 14 contextual 4"  "'calt' Contextual Alternates lookup 14 contextual 5"  "'calt' Contextual Alternates lookup 14 contextual 6"  "'calt' Contextual Alternates lookup 14 contextual 7"  "'calt' Contextual Alternates lookup 14 contextual 8"  "'calt' Contextual Alternates lookup 14 contextual 9"  "'calt' Contextual Alternates lookup 14 contextual 10"  "'calt' Contextual Alternates lookup 14 contextual 11"  "'calt' Contextual Alternates lookup 14 contextual 12"  "'calt' Contextual Alternates lookup 14 contextual 13"  "'calt' Contextual Alternates lookup 14 contextual 14"  "'calt' Contextual Alternates lookup 14 contextual 15"  "'calt' Contextual Alternates lookup 14 contextual 16"  "'calt' Contextual Alternates lookup 14 contextual 17"  "'calt' Contextual Alternates lookup 14 contextual 18"  "'calt' Contextual Alternates lookup 14 contextual 19"  "'calt' Contextual Alternates lookup 14 contextual 20"  "'calt' Contextual Alternates lookup 14 contextual 21"  "'calt' Contextual Alternates lookup 14 contextual 22"  "'calt' Contextual Alternates lookup 14 contextual 23"  "'calt' Contextual Alternates lookup 14 contextual 24"  "'calt' Contextual Alternates lookup 14 contextual 25"  "'calt' Contextual Alternates lookup 14 contextual 26"  "'calt' Contextual Alternates lookup 14 contextual 27"  "'calt' Contextual Alternates lookup 14 contextual 28"  "'calt' Contextual Alternates lookup 14 contextual 29"  "'calt' Contextual Alternates lookup 14 contextual 30"  "'calt' Contextual Alternates lookup 14 contextual 31"  "'calt' Contextual Alternates lookup 14 contextual 32"  "'calt' Contextual Alternates lookup 14 contextual 33"  "'calt' Contextual Alternates lookup 14 contextual 34"  "'calt' Contextual Alternates lookup 14 contextual 35"  "'calt' Contextual Alternates lookup 14 contextual 36"  "'calt' Contextual Alternates lookup 14 contextual 37"  "'calt' Contextual Alternates lookup 14 contextual 38"  "'calt' Contextual Alternates lookup 14 contextual 39"  "'calt' Contextual Alternates lookup 14 contextual 40"  "'calt' Contextual Alternates lookup 14 contextual 41"  "'calt' Contextual Alternates lookup 14 contextual 42"  "'calt' Contextual Alternates lookup 14 contextual 43"  "'calt' Contextual Alternates lookup 14 contextual 44"  "'calt' Contextual Alternates lookup 14 contextual 45"  "'calt' Contextual Alternates lookup 14 contextual 46"  "'calt' Contextual Alternates lookup 14 contextual 47"  "'calt' Contextual Alternates lookup 14 contextual 48"  "'calt' Contextual Alternates lookup 14 contextual 49"  "'calt' Contextual Alternates lookup 14 contextual 50"  "'calt' Contextual Alternates lookup 14 contextual 51"  "'calt' Contextual Alternates lookup 14 contextual 52"  "'calt' Contextual Alternates lookup 14 contextual 53"  "'calt' Contextual Alternates lookup 14 contextual 54"  "'calt' Contextual Alternates lookup 14 contextual 55"  "'calt' Contextual Alternates lookup 14 contextual 56"  "'calt' Contextual Alternates lookup 14 contextual 57"  "'calt' Contextual Alternates lookup 14 contextual 58"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates lookup 14" { "'calt' Contextual Alternates lookup 14 contextual 0"  "'calt' Contextual Alternates lookup 14 contextual 1"  "'calt' Contextual Alternates lookup 14 contextual 2"  "'calt' Contextual Alternates lookup 14 contextual 3"  "'calt' Contextual Alternates lookup 14 contextual 4"  "'calt' Contextual Alternates lookup 14 contextual 5"  "'calt' Contextual Alternates lookup 14 contextual 6"  "'calt' Contextual Alternates lookup 14 contextual 7"  "'calt' Contextual Alternates lookup 14 contextual 8"  "'calt' Contextual Alternates lookup 14 contextual 9"  "'calt' Contextual Alternates lookup 14 contextual 10"  "'calt' Contextual Alternates lookup 14 contextual 11"  "'calt' Contextual Alternates lookup 14 contextual 12"  "'calt' Contextual Alternates lookup 14 contextual 13"  "'calt' Contextual Alternates lookup 14 contextual 14"  "'calt' Contextual Alternates lookup 14 contextual 15"  "'calt' Contextual Alternates lookup 14 contextual 16"  "'calt' Contextual Alternates lookup 14 contextual 17"  "'calt' Contextual Alternates lookup 14 contextual 18"  "'calt' Contextual Alternates lookup 14 contextual 19"  "'calt' Contextual Alternates lookup 14 contextual 20"  "'calt' Contextual Alternates lookup 14 contextual 21"  "'calt' Contextual Alternates lookup 14 contextual 22"  "'calt' Contextual Alternates lookup 14 contextual 23"  "'calt' Contextual Alternates lookup 14 contextual 24"  "'calt' Contextual Alternates lookup 14 contextual 25"  "'calt' Contextual Alternates lookup 14 contextual 26"  "'calt' Contextual Alternates lookup 14 contextual 27"  "'calt' Contextual Alternates lookup 14 contextual 28"  "'calt' Contextual Alternates lookup 14 contextual 29"  "'calt' Contextual Alternates lookup 14 contextual 30"  "'calt' Contextual Alternates lookup 14 contextual 31"  "'calt' Contextual Alternates lookup 14 contextual 32"  "'calt' Contextual Alternates lookup 14 contextual 33"  "'calt' Contextual Alternates lookup 14 contextual 34"  "'calt' Contextual Alternates lookup 14 contextual 35"  "'calt' Contextual Alternates lookup 14 contextual 36"  "'calt' Contextual Alternates lookup 14 contextual 37"  "'calt' Contextual Alternates lookup 14 contextual 38"  "'calt' Contextual Alternates lookup 14 contextual 39"  "'calt' Contextual Alternates lookup 14 contextual 40"  "'calt' Contextual Alternates lookup 14 contextual 41"  "'calt' Contextual Alternates lookup 14 contextual 42"  "'calt' Contextual Alternates lookup 14 contextual 43"  "'calt' Contextual Alternates lookup 14 contextual 44"  "'calt' Contextual Alternates lookup 14 contextual 45"  "'calt' Contextual Alternates lookup 14 contextual 46"  "'calt' Contextual Alternates lookup 14 contextual 47"  "'calt' Contextual Alternates lookup 14 contextual 48"  "'calt' Contextual Alternates lookup 14 contextual 49"  "'calt' Contextual Alternates lookup 14 contextual 50"  "'calt' Contextual Alternates lookup 14 contextual 51"  "'calt' Contextual Alternates lookup 14 contextual 52"  "'calt' Contextual Alternates lookup 14 contextual 53"  "'calt' Contextual Alternates lookup 14 contextual 54"  "'calt' Contextual Alternates lookup 14 contextual 55"  "'calt' Contextual Alternates lookup 14 contextual 56"  "'calt' Contextual Alternates lookup 14 contextual 57"  "'calt' Contextual Alternates lookup 14 contextual 58"  "'calt' Contextual Alternates lookup 14 contextual 59"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
@@ -121,47 +121,53 @@ Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 s
 Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 58" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 59" 0 0 0 1
  String: 1 t
  BString: 0 
  FString: 7 twitter
  1
   SeqLookup: 0 "Single Substitution lookup 73"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 57" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 58" 0 0 0 1
  String: 1 f
  BString: 0 
  FString: 8 facebook
  1
   SeqLookup: 0 "Single Substitution lookup 72"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 56" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 57" 0 0 0 1
  String: 1 g
  BString: 0 
  FString: 6 github
  1
   SeqLookup: 0 "Single Substitution lookup 71"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 55" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 56" 0 0 0 1
  String: 1 d
  BString: 0 
  FString: 8 download
  1
   SeqLookup: 0 "Single Substitution lookup 70"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 54" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 55" 0 0 0 1
  String: 5 slash
  BString: 10 larsenwork
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 69"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 53" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 54" 0 0 0 1
  String: 5 slash
  BString: 0 
  FString: 5 slash
  1
   SeqLookup: 0 "Single Substitution lookup 68"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 53" 0 0 0 1
+ String: 5 slash
+ BString: 5 colon
+ FString: 5 slash
+ 0
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 52" 0 0 0 1
  String: 5 slash
@@ -541,7 +547,7 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 56 8
+WinInfo: 56 56 8
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate
