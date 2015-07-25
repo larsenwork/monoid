@@ -24,6 +24,12 @@ The font contains more alternates than available on the webpage - see [Stylistic
 * Atom - Mac, Win
 * xCode - Mac
 
+#####Partly working
+* ?
+
+#####Not working
+* ?
+
 #####Atom Editor
 This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but disables them on your `cursor-line` so you don't sacrifice "editability".
 ```css
