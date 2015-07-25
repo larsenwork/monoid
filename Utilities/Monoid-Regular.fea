@@ -31,6 +31,6 @@ feature calt {
   pos @narrowi @wide' <0 0 0 0> @medium @narrow;
   pos @narrowi @wide' <-128 0 0 0> @medium;
   pos @narrow @narrow' <-128 0 0 0> @wide;
+  pos @medium @wide' <128 0 0 0> @narrow;
   pos @wide slash' <128 0 0 0> @lowfront;
-
 } calt;

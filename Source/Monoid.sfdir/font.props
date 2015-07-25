@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1437837335
+ModificationTime: 1437839013
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -120,7 +120,7 @@ Lookup: 1 0 0 "Single Substitution lookup 70" { "Single Substitution lookup 70 s
 Lookup: 1 0 0 "Single Substitution lookup 71" { "Single Substitution lookup 71 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
-Lookup: 264 0 0 "'calt' Contextual Alternates lookup 0" { "'calt' Contextual Alternates lookup 0 contextual 0"  "'calt' Contextual Alternates lookup 0 contextual 1"  "'calt' Contextual Alternates lookup 0 contextual 2"  "'calt' Contextual Alternates lookup 0 contextual 3"  "'calt' Contextual Alternates lookup 0 contextual 4"  "'calt' Contextual Alternates lookup 0 contextual 5"  "'calt' Contextual Alternates lookup 0 contextual 6"  "'calt' Contextual Alternates lookup 0 contextual 7"  "'calt' Contextual Alternates lookup 0 contextual 8"  "'calt' Contextual Alternates lookup 0 contextual 9"  "'calt' Contextual Alternates lookup 0 contextual 10"  "'calt' Contextual Alternates lookup 0 contextual 11"  "'calt' Contextual Alternates lookup 0 contextual 12"  "'calt' Contextual Alternates lookup 0 contextual 13"  "'calt' Contextual Alternates lookup 0 contextual 14"  "'calt' Contextual Alternates lookup 0 contextual 15"  "'calt' Contextual Alternates lookup 0 contextual 16"  "'calt' Contextual Alternates lookup 0 contextual 17"  "'calt' Contextual Alternates lookup 0 contextual 18"  "'calt' Contextual Alternates lookup 0 contextual 19"  "'calt' Contextual Alternates lookup 0 contextual 20"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "'calt' Contextual Alternates lookup 0" { "'calt' Contextual Alternates lookup 0 contextual 0"  "'calt' Contextual Alternates lookup 0 contextual 1"  "'calt' Contextual Alternates lookup 0 contextual 2"  "'calt' Contextual Alternates lookup 0 contextual 3"  "'calt' Contextual Alternates lookup 0 contextual 4"  "'calt' Contextual Alternates lookup 0 contextual 5"  "'calt' Contextual Alternates lookup 0 contextual 6"  "'calt' Contextual Alternates lookup 0 contextual 7"  "'calt' Contextual Alternates lookup 0 contextual 8"  "'calt' Contextual Alternates lookup 0 contextual 9"  "'calt' Contextual Alternates lookup 0 contextual 10"  "'calt' Contextual Alternates lookup 0 contextual 11"  "'calt' Contextual Alternates lookup 0 contextual 12"  "'calt' Contextual Alternates lookup 0 contextual 13"  "'calt' Contextual Alternates lookup 0 contextual 14"  "'calt' Contextual Alternates lookup 0 contextual 15"  "'calt' Contextual Alternates lookup 0 contextual 16"  "'calt' Contextual Alternates lookup 0 contextual 17"  "'calt' Contextual Alternates lookup 0 contextual 18"  "'calt' Contextual Alternates lookup 0 contextual 19"  "'calt' Contextual Alternates lookup 0 contextual 20"  "'calt' Contextual Alternates lookup 0 contextual 21"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 1" { "Single Positioning lookup 1 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 3" { "Single Positioning lookup 3 subtable"  } []
@@ -142,13 +142,22 @@ Lookup: 257 0 0 "Single Positioning lookup 18" { "Single Positioning lookup 18 s
 Lookup: 257 0 0 "Single Positioning lookup 19" { "Single Positioning lookup 19 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 20" { "Single Positioning lookup 20 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 21" { "Single Positioning lookup 21 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 22" { "Single Positioning lookup 22 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 20" 0 0 0 1
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 21" 0 0 0 1
  1 1 1
   Coverage: 5 slash
   BCoverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
   FCoverage: 39 a c d e g i j m n o p q r s u v w x y z
+ 1
+  SeqLookup: 0 "Single Positioning lookup 22"
+EndFPST
+ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 20" 0 0 0 1
+ 1 1 1
+  Coverage: 41 A B C D E G H M N O P Q R S U V W X Z m w
+  BCoverage: 43 a b c d e f g h j k n o p q r s t u v x y z
+  FCoverage: 39 i l period comma colon semicolon exclam
  1
   SeqLookup: 0 "Single Positioning lookup 21"
 EndFPST
