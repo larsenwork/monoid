@@ -19,16 +19,16 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 50 subtable" hyphenmore
 Substitution2: "Single Substitution lookup 49 subtable" hyphenmore
-Substitution2: "Single Substitution lookup 48 subtable" hyphenmore
-Substitution2: "Single Substitution lookup 33 subtable" larsenwork
-Substitution2: "Single Substitution lookup 32 subtable" ligaarrowleft
-Substitution2: "Single Substitution lookup 28 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 27 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 34 subtable" larsenwork
+Substitution2: "Single Substitution lookup 33 subtable" ligaarrowleft
+Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 28 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 24 subtable" larsenwork
 Substitution2: "Single Substitution lookup 23 subtable" larsenwork
-Substitution2: "Single Substitution lookup 22 subtable" larsenwork
-Substitution2: "Single Substitution lookup 21 subtable" ligaarrowleftlong
-Substitution2: "Single Substitution lookup 20 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 18 subtable" commentstart
-Substitution2: "Single Substitution lookup 17 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 22 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 19 subtable" commentstart
+Substitution2: "Single Substitution lookup 18 subtable" larsenwork5
 EndChar

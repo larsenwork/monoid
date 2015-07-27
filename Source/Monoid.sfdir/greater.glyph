@@ -22,12 +22,12 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 62 subtable" greater2
-Substitution2: "Single Substitution lookup 61 subtable" greater1
-Substitution2: "Single Substitution lookup 47 subtable" ligaequalarrow
-Substitution2: "Single Substitution lookup 42 subtable" larsenwork4
-Substitution2: "Single Substitution lookup 34 subtable" ligaarrowright
-Substitution2: "Single Substitution lookup 30 subtable" ligaarrowrighttwoheads
-Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 24 subtable" ligaarrowrightlong
+Substitution2: "Single Substitution lookup 63 subtable" greater2
+Substitution2: "Single Substitution lookup 62 subtable" greater1
+Substitution2: "Single Substitution lookup 48 subtable" ligaequalarrow
+Substitution2: "Single Substitution lookup 43 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 35 subtable" ligaarrowright
+Substitution2: "Single Substitution lookup 31 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 25 subtable" ligaarrowrightlong
 EndChar
