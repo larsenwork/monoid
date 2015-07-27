@@ -21,11 +21,15 @@ The font contains more alternates than available on the webpage - see [Stylistic
 ###Editor Support (ligatures)
 I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 #####Confirmed working
-* Atom - Mac, Win
+* Atom - Mac, Win, Linux
+* Eclipse - all platforms
+* gEdit - Linux
+* LibreOffice Writer (yes, no editor, but support for ligatures) - Linux
 * xCode - Mac
 
 #####Not working
-* ?
+* Gnome Terminal - Linux
+* gVim - Linux
 
 #####Tips
 * Atom Editor [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
