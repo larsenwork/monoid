@@ -36,7 +36,7 @@ Quit your editor/program. Unzip and open the folder.
 * [Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
 
 ###Stylistic Alternates
-The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
+The font contains more alternates than available on the webpage - see [Monoid-*.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/Monoid-*.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
 ###Tips
 * Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
