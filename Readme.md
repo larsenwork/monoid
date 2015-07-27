@@ -19,7 +19,7 @@
 ###Install
 Most programs load fonts "onload" so quit any editors/programs. Then unzip and open the folder.
 
-#####Mac + Linux (with installed font-viewer)
+#####Mac + Linux (with font-viewer)
 1. Select the .ttf files and double click on them
 2. Follow on-screen guide
 
@@ -47,6 +47,9 @@ The font contains more alternates than available on the webpage - see [Stylistic
 
 ###Code Editors
 I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
+
+> Please add your findings to this readme if it isn't already there.
+
 #####Confirmed working
 * Atom - All platforms
 * Eclipse - All platforms
@@ -211,6 +214,12 @@ Remember to update the Font Log when you make contributions.
         <td>0.53</td>
         <td>2015.07.27</td>
         <td>Class based contextual positioning - regular, retina + italic. Oblique is now italic.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.55</td>
+        <td>WIP</td>
+        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
         <td>Andreas</td>
     </tr>
     <tr>
