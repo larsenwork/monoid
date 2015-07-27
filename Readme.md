@@ -45,7 +45,7 @@ The font contains more alternates than available on the webpage - see [Stylistic
 ------
 #Ligature Support
 
-###Code Editors ()
+###Code Editors
 I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 #####Confirmed working
 * Atom - All platforms
@@ -69,7 +69,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 #####Not working
 * IE <10
 
-###Other Programs (ligature support)
+###Other Programs
 
 #####Confirmed working
 * Adobe CS/CC - Win, Mac
