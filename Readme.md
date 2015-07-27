@@ -17,22 +17,18 @@
 #Guide
 
 ###Install
-Most programs load fonts "onload" so you need to quit any editors/programs before installing the font.
+Most programs load fonts "onload" so quit any editors/programs. Then unzip and open the folder.
 
-#####Linux
-1. Unzip
-2. Copy the .ttf files in your fonts-directory, either
-  - `~/.local/share/fonts/truetype` (for current user) or
-  - `/usr/local/share/fonts/truetype` (for all users)
-          
-    *Note: These directories may differ depending on your specific distro*
-3. Run `sudo fc-cache`
-
-*Note: currently only tested with Ubuntu/Linux, please inform if it's not working for you.*
 #####Mac + Linux (with installed font-viewer)
-1. (Unzip - if Finder didn't already do it for you)
-2. Select the .ttf files and double click on them
-3. Follow on-screen guide
+1. Select the .ttf files and double click on them
+2. Follow on-screen guide
+
+#####Linux 
+1. Copy the .ttf files in your fonts-directory
+2. Run `sudo fc-cache`
+
+#####Linux (detailed instructions)
+* [Ubuntu](https://wiki.ubuntu.com/Fonts#Manually)
 
 #####Windows
 
