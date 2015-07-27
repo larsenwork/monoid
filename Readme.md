@@ -17,7 +17,7 @@
 #Guide
 
 ###Install
-Most programs load fonts "onload" so quit any editors/programs. Then unzip and open the folder.
+Quit your editor/program. Unzip and open the folder.
 
 #####Mac + Linux (with font-viewer)
 1. Select the .ttf files and double click on them
