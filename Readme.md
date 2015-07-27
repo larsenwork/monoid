@@ -23,14 +23,17 @@ Most programs load fonts "onload" so quit any editors/programs. Then unzip and o
 1. Select the .ttf files and double click on them
 2. Follow on-screen guide
 
+#####Windows
+1. Right click the .ttf files
+2. Install
+
 #####Linux 
-1. Copy the .ttf files in your fonts-directory
+1. Copy the .ttf files to your fonts-directory
 2. Run `sudo fc-cache`
 
-#####Linux (detailed instructions)
-* [Ubuntu](https://wiki.ubuntu.com/Fonts#Manually)
-
-#####Windows
+#####Detailed Instructions
+* [How to Install, Remove, and Manage Fonts on Windows, Mac, and Linux](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/)
+* [Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
 
 ###Stylistic Alternates
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
