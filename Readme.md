@@ -61,7 +61,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 * IE 10+
 
 #####Partly working
-* Safari - enable by default, you can't turn them off (use nocalt-version for this)
+* Safari - enabled by default, you can't turn them off (use nocalt-version for this)
 
 #####Not working
 * IE <10
@@ -202,6 +202,12 @@ Remember to update the Font Log when you make contributions.
         <td>0.52</td>
         <td>2015.07.24</td>
         <td>Class based contextual positioning - regular only</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.53</td>
+        <td>2015.07.27</td>
+        <td>Class based contextual positioning - regular, retina + italic. Oblique is now italic.</td>
         <td>Andreas</td>
     </tr>
     <tr>
