@@ -4,21 +4,21 @@ GlifName: equal
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 260 120<192 960> 772 120<192 960>
+HStem: 260 120<256 896> 772 120<256 896>
 LayerCount: 5
 Back
 Fore
 SplineSet
-192 380 m 1
- 960 380 l 1
- 960 260 l 1
- 192 260 l 1
- 192 380 l 1
-192 892 m 1
- 960 892 l 1
- 960 772 l 1
- 192 772 l 1
- 192 892 l 1
+256 380 m 1
+ 896 380 l 5
+ 896 260 l 5
+ 256 260 l 1
+ 256 380 l 1
+256 892 m 1
+ 896 892 l 5
+ 896 772 l 5
+ 256 772 l 1
+ 256 892 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

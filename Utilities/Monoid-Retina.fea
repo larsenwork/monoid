@@ -18,11 +18,13 @@ feature calt {
   pos @wide @medium @narrowi @medium' <0 0 0 0>;
   pos @wide @medium' <64 0 0 0> @medium @narrow;
   pos @wide @medium @medium' <128 0 0 0> @narrow;
+  pos @wide @medium @medium @narrow' <-64 0 0 0> @medium @wide;
+  pos @wide @medium @medium @narrow @medium' <-128 0 0 0> @wide;
   pos @wide @medium @medium @narrow' <64 0 0 0> @medium;
   pos @wide @medium @medium @narrow @medium' <0 0 0 0>;
   pos @wide @medium @medium @narrow' <128 0 0 0> @narrow;
   pos @narrowl' <-128 0 0 0> @medium @wide;
-  pos @narrow @medium' <-128 0 0 0> @wide;
+  pos @narrow @medium' <-64 0 0 0> @wide;
   pos @medium @narrowi' <0 0 0 0> @narrowl @wide;
   pos @medium @narrowi @narrowl' <-128 0 0 0> @wide;
   pos @medium @narrowi' <0 0 0 0> @narrowl @medium;

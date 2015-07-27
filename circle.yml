@@ -32,7 +32,7 @@ test:
         parallel: true
     # Copy artifacts to keep after branch switch
     # DANGER! Assumes node0 builds normal iterations :)
-    - cp _release/Monoid-{Regular,Oblique,Bold}.ttf /tmp/
+    - cp _release/Monoid-{Regular,Italic,Bold}.ttf /tmp/
     # Prepare the release
     - . Scripts/prepare_release.sh:
         parallel: true

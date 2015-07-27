@@ -1,0 +1,39 @@
+StartChar: ligaspaceship
+Encoding: 1114172 -1 676
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 132 120<-1664 768>
+LayerCount: 5
+Back
+Fore
+SplineSet
+557 773 m 5
+ -256 1029 l 5
+ -256 1152 l 5
+ 768 848 l 5
+ 768 688 l 5
+ -256 384 l 5
+ -256 507 l 5
+ 557 763 l 5
+ 557 773 l 5
+-1453 773 m 5
+ -1453 763 l 5
+ -640 507 l 5
+ -640 384 l 5
+ -1664 688 l 5
+ -1664 848 l 5
+ -640 1152 l 5
+ -640 1029 l 5
+ -1453 773 l 5
+768 132 m 5
+ -1664 132 l 5
+ -1664 252 l 5
+ 768 252 l 5
+ 768 132 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

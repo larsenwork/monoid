@@ -122,8 +122,8 @@ feature calt {
     sub larsenwork4 equal' by greaterequalliga;
 
   # ==
-    sub equal' equal by equalmore;
-    sub equalmore equal' by equalmore;
+    # sub equal' equal by equalmore;
+    # sub equalmore equal' by equalmore;
 
   # =>
     sub equal' greater by larsenwork2;

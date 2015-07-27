@@ -4,7 +4,7 @@ FullName: Monoid Bold
 FamilyName: Monoid
 Weight: Bold
 Copyright: Copyright (c) 2015, @larsenwork
-Version: 0.52
+Version: 0.53
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1437830292
+ModificationTime: 1438007243
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 4
