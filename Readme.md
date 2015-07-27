@@ -72,13 +72,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 I did a talk on Monoid at a frontenders meetup and these are some links relevant to that talk.
 
 * [Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june
-* [FontForge](https://fontforge.github.io) - Free Font Editor
-* [Design With FontForge](https://designwithfontforge.com) - Ebook to get you started with type designing
-* [Cloudflare](https://cloudflare.com) - Cache, minification and no 302
-* [RawGit](https://rawgit.com) - Serve download files with proper Content-Type headers
-* [ WWDC Video](https://developer.apple.com/videos/wwdc/2015/?id=804) - San Francisco typefaces + general intro to type design
-* [Ligatures & Coding Font](https://medium.com/@larsenwork/ligatures-coding-fonts-5375ab47ef8e) - short article I wrote pushing the envelope for coding fonts
-
+* [Medium Articles](https://medium.com/@larsenwork) - Short articles explaining various aspects
 
 <a name="font_log"></a>
 ------
