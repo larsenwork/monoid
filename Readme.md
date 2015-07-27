@@ -19,31 +19,17 @@
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
 ###Editor Support (ligatures)
-
+I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 #####Confirmed working
 * Atom - Mac, Win
 * xCode - Mac
 
-#####Partly working
-* ?
-
 #####Not working
 * ?
 
-#####Atom Editor
-This is my primary code editor (apart from xCode). The code below enables contextual alternates and ligatures but disables them on your `cursor-line` so you don't sacrifice "editability".
-```css
-* {
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-}
+#####Tips
+* Atom Editor [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
 
-atom-text-editor::shadow {
-  .cursor-line {
-    -webkit-font-feature-settings: "liga" off, "calt" off;
-  }
-}
-```
 
 <a name="links"></a>
 ------
