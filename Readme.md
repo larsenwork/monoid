@@ -19,7 +19,7 @@
 ###Install
 Most programs load fonts "onload" so you need to quit any editors/programs before installing the font.
 
-###Linux
+#####Linux
 1. Unzip
 2. Copy the .ttf files in your fonts-directory, either to
   - `~/.local/share/fonts/truetype` (local for one user) or
