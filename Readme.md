@@ -69,10 +69,11 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 <a name="links"></a>
 ------
 #Links
-I did a talk on Monoid at a frontenders meetup and these are some links relevant to that talk.
 
-* [Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june
 * [Medium Articles](https://medium.com/@larsenwork) - Short articles explaining various aspects
+* [Video of Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june explaining some of the crazyness.
+* FastCompany - [Do You Code? You shold Try This Font](http://www.fastcodesign.com/3048939/do-you-code-you-should-try-this-font)
+* Lifehacker - [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)
 
 <a name="font_log"></a>
 ------
