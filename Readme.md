@@ -18,10 +18,26 @@
 
 ###Install
 Most programs load fonts "onload" so you need to quit any editors/programs before installing the font.
+
+###Linux
+1. Unzip
+2. Copy the .ttf files in your fonts-directory, either to
+  - `~/.local/share/fonts/truetype` (local for one user) or
+  - `/usr/local/share/fonts/truetype` (global for all users, need to be root)
+          
+    *Note: These directories may differ depending on your specific distro*
+3. Run `sudo fc-cache` to make new fonts available without re-login
+
+######Alternative method
+If you've installed some font-viewer (e.g. `gnome-font-viewer` for gnome, or the built-in tool in kde), you may try to simply double-click the .ttf file and hit `install`.
+
+*Note: currently only tested with Ubuntu/Linux, please inform if it's not working for you.*
 #####Mac
 1. (Unzip - if Finder didn't already do it for you)
 2. Select the .ttf files and double click on them
 3. Follow on-screen guide
+
+#####Windows
 
 ###Stylistic Alternates
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
