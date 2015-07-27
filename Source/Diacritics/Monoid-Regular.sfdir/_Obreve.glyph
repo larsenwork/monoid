@@ -1,0 +1,17 @@
+StartChar: Obreve
+Encoding: 334 334 141
+GlifName: O_breve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<420.424 731.576> 1176 120<420.424 731.576> 1392 120<420.418 731.582>
+VStem: 112 128<318.337 961.663> 236 128<1569.88 1664> 788 128<1569.88 1664> 912 128<318.337 961.663>
+LayerCount: 5
+Back
+Fore
+Refer: 160 774 N 1 0 0 1 0 128 2
+Refer: 32 79 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,17 @@
+StartChar: Adieresis
+Encoding: 196 196 82
+GlifName: A_dieresis
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<105 246.5 905.5 1047> 384 120<342 810> 1139 141<552.916 599.249> 1424 224<262.609 441.391 710.609 889.391>
+VStem: 240 224<1446.61 1625.39> 688 224<1446.61 1625.39>
+LayerCount: 5
+Back
+Fore
+Refer: 162 776 N 1 0 0 1 0 128 2
+Refer: 19 65 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

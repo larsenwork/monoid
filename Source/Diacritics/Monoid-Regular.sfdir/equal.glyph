@@ -1,0 +1,35 @@
+StartChar: equal
+Encoding: 61 61 73
+GlifName: equal
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 260 120<128 1024> 772 120<128 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 380 m 1
+ 1024 380 l 1
+ 1024 260 l 1
+ 128 260 l 1
+ 128 380 l 1
+128 892 m 1
+ 1024 892 l 1
+ 1024 772 l 1
+ 128 772 l 1
+ 128 892 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 47 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 46 subtable" equalmore
+Substitution2: "Single Substitution lookup 45 subtable" equalmore
+Substitution2: "Single Substitution lookup 44 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 42 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 40 subtable" notequalliga
+Substitution2: "Single Substitution lookup 38 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 37 subtable" larsenwork1
+EndChar

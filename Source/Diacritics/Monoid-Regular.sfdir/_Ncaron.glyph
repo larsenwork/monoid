@@ -1,0 +1,17 @@
+StartChar: Ncaron
+Encoding: 327 327 139
+GlifName: N_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 883.885 1024> 1408 256
+VStem: 128 128<0 1040> 896 128<240 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 165 780 N 1 0 0 1 0 128 2
+Refer: 31 78 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
