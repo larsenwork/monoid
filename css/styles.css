@@ -23,13 +23,13 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Monoid Oblique';
-  src: url('Monoid-Oblique.eot');
+  font-family: 'Monoid Italic';
+  src: url('Monoid-Italic.eot');
   /* IE9 Compat Modes */
-  src: url('Monoid-Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('Monoid-Oblique.woff2') format('woff2'), /* Super Modern Browsers */
-  url('Monoid-Oblique.woff') format('woff'), /* Pretty Modern Browsers */
-  url('Monoid-Oblique.ttf') format('truetype');
+  src: url('Monoid-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('Monoid-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('Monoid-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+  url('Monoid-Italic.ttf') format('truetype');
   /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
@@ -116,14 +116,14 @@ h2 {
 }
 h3 {
   font-weight: normal;
-  font-family: "Monoid Oblique", monospace;
+  font-family: "Monoid Italic", monospace;
   font-size: 6vmin;
   -webkit-font-feature-settings: "ss11";
   font-feature-settings: "ss11";
 }
 .hljs-comment {
   font-weight: normal;
-  font-family: "Monoid Oblique", monospace;
+  font-family: "Monoid Italic", monospace;
 }
 a, #close {
   color: #446fbd;
@@ -344,6 +344,7 @@ label[for=ss08] {
   right: 0;
   top: 0;
   background-color: hsl(339, 48%, 50%);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   color: white;
   text-align: center;
   z-index: 101;
@@ -376,6 +377,7 @@ noscript a {
 #safari #ok {
   float: right;
   cursor: pointer;
+  font-family: "Monoid Bold", monospace;
 }
 
 /*
