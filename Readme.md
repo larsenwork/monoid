@@ -5,6 +5,7 @@
     <tr>
         <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
         <td><a href="#guide">Guide</a></td>
+        <td><a href="#liga">Ligature Support</a></td>
         <td><a href="#links">Links</a></td>
         <td><a href="#font_log">Log</a></td>
         <td><a href="#license">License</a></td>
@@ -15,24 +16,54 @@
 ------
 #Guide
 
+###Install
+Most programs load fonts "onload" so you need to quit any editors/programs before installing the font.
+#####Mac
+1. (Unzip - if Finder didn't already do it for you)
+2. Select the .ttf files and double click on them
+3. Follow on-screen guide
+
 ###Stylistic Alternates
 The font contains more alternates than available on the webpage - see [StylisticAlternates.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/StylisticAlternates.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
-###Editor Support (ligatures)
+###Tips
+* Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+
+<a name="liga"></a>
+------
+#Ligature Support
+
+###Code Editors ()
 I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 #####Confirmed working
-* Atom - Mac, Win, Linux
-* Eclipse - all platforms
+* Atom - All platforms
+* Eclipse - All platforms
 * gEdit - Linux
-* LibreOffice Writer (yes, no editor, but support for ligatures) - Linux
 * xCode - Mac
 
 #####Not working
 * Gnome Terminal - Linux
 * gVim - Linux
 
-#####Tips
-* Atom Editor [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+###Browsers
+#####Confirmed working
+* Chrome
+* Firefox
+* IE 10+
+
+#####Partly working
+* Safari - enable by default, you can't turn them off (use nocalt-version for this)
+
+#####Not working
+* IE <10
+
+###Other Programs (ligature support)
+
+#####Confirmed working
+* Adobe CS/CC - Win, Mac
+* Affinity Designer
+* LibreOffice Writer - Linux
+* Text Edit - Mac
 
 
 <a name="links"></a>
