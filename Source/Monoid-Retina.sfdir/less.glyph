@@ -27,12 +27,4 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 64 subtable" less2
-Substitution2: "Single Substitution lookup 63 subtable" less1
-Substitution2: "Single Substitution lookup 40 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 31 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 26 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 25 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 19 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 15 subtable" larsenwork5
 EndChar
