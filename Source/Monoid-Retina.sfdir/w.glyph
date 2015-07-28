@@ -40,7 +40,7 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" w.straight
 Position2: "Single Positioning lookup 25 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 24 subtable" dx=0 dy=0 dh=0 dv=0
-Substitution2: "'ss10' Style Set 10 lookup 9 subtable" w.straight
 EndChar

@@ -19,9 +19,9 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 60 subtable" period2r
-Substitution2: "Single Substitution lookup 59 subtable" period2l
-Substitution2: "Single Substitution lookup 58 subtable" dotdotdot
-Substitution2: "Single Substitution lookup 57 subtable" larsenwork
-Substitution2: "Single Substitution lookup 56 subtable" larsenwork
+Substitution2: "Single Substitution lookup 58 subtable" period2r
+Substitution2: "Single Substitution lookup 57 subtable" period2l
+Substitution2: "Single Substitution lookup 56 subtable" dotdotdot
+Substitution2: "Single Substitution lookup 55 subtable" larsenwork
+Substitution2: "Single Substitution lookup 54 subtable" larsenwork
 EndChar
