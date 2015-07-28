@@ -2,7 +2,7 @@
 <p align="center"><a href="#guide">Guide</a>       <a href="#liga">Supported Programs</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
 <p align="center">
-<p><a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.55-brightgreen.svg"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg"></a> 
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.55-brightgreen.svg"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg"></a> 
 </p>
 <a name="guide"></a>
 <p>&nbsp;</p>
