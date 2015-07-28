@@ -1,0 +1,24 @@
+StartChar: uni0315
+Encoding: 789 789 132
+GlifName: uni0315
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 21G<512 640>
+VStem: 512 128<1024 1664>
+AnchorPoint: "top" 576 1152 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 1664 m 1
+ 640 1664 l 1
+ 640 1024 l 1
+ 512 1024 l 1
+ 512 1664 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

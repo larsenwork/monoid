@@ -57,7 +57,7 @@ EndSplineSet
 Layer: 4
 Substitution2: "'ss09' Style Set 9 lookup 8 subtable" l.base
 Substitution2: "'ss08' Style Set 8 lookup 7 subtable" l.zstyle
-Position2: "Single Positioning lookup 20 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 10 subtable" dx=-128 dy=0 dh=0 dv=0

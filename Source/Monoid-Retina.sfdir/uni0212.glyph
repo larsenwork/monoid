@@ -9,10 +9,11 @@ VStem: 192 128<0 520 640 1288> 236 128<1536 1630.12> 788 128<1536 1630.12> 848 1
 LayerCount: 5
 Back
 Fore
-Refer: 668 785 N 1 0 0 1 0 256 2
+Refer: 667 785 N 1 0 0 1 0 256 2
 Refer: 45 82 N 1 0 0 1 0 0 3
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 13 subtable" uni0212.sq
 EndChar

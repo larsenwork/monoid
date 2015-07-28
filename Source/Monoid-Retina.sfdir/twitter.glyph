@@ -1,5 +1,5 @@
 StartChar: twitter
-Encoding: 1114144 -1 644
+Encoding: 1114144 -1 643
 GlifName: twitter
 Width: 1024
 VWidth: 0
@@ -34,6 +34,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Ligature2: "'liga' Standard Ligatures lookup 13 subtable" w i t t e r I c o n
+Ligature2: "'liga' Standard Ligatures lookup 14 subtable" w i t t e r I c o n
 LCarets2: 9 0 0 0 0 0 0 0 0 0
 EndChar

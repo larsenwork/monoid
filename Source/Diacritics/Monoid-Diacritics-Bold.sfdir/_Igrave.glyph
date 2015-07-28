@@ -1,0 +1,35 @@
+StartChar: Igrave
+Encoding: 204 204 54
+GlifName: I_grave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960> 1408 21G<471.156 704>
+VStem: 448 256<240 1040>
+LayerCount: 5
+Back
+Fore
+SplineSet
+960 1280 m 5
+ 960 1040 l 5
+ 704 1040 l 5
+ 704 240 l 5
+ 960 240 l 5
+ 960 0 l 5
+ 192 0 l 5
+ 192 240 l 5
+ 448 240 l 5
+ 448 1040 l 5
+ 192 1040 l 5
+ 192 1280 l 5
+ 960 1280 l 5
+704 1408 m 1
+ 486 1408 l 1
+ 296 1664 l 1
+ 562 1664 l 1
+ 704 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

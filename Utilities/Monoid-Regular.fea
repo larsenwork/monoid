@@ -24,6 +24,7 @@ feature calt {
   pos @wide @medium @medium @narrow' <128 0 0 0> @medium;
   pos @wide @medium @medium @narrow' <128 0 0 0> @narrow;
   pos @narrow @medium' <-128 0 0 0> @wide;
+  pos @narrow @medium @wide' <0 0 0 0>;
   pos @medium @narrowi' <128 0 0 0> @narrowl;
   pos @wide @narrowi @medium' <0 0 0 0> @medium;
   pos @narrowi @medium' <-128 0 0 0> @medium;

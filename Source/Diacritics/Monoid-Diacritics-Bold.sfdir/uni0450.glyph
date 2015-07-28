@@ -1,0 +1,17 @@
+StartChar: uni0450
+Encoding: 1104 1104 200
+GlifName: uni0450
+Width: 1024
+VWidth: 0
+Flags: HW
+HStem: -16 120<456.094 891.106> 512 120<354 798> 920 120<440.321 711.679> 1152 256
+VStem: 224 128<215.995 512 632 825.732> 360 304 798 130<632 825.944>
+LayerCount: 5
+Back
+Fore
+Refer: 120 768 N 1 0 0 1 0 -128 2
+Refer: 174 1077 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,34 @@
+StartChar: Tcaron
+Encoding: 356 356 119
+GlifName: T_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<448 704> 1040 240<128 448 704 1024> 1408 21G<409.266 742.734>
+VStem: 448 256<0 1040>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1024 1280 m 5
+ 1024 1040 l 5
+ 704 1040 l 5
+ 704 0 l 1
+ 448 0 l 1
+ 448 1040 l 5
+ 128 1040 l 5
+ 128 1280 l 5
+ 1024 1280 l 5
+725 1408 m 1
+ 427 1408 l 1
+ 200 1664 l 1
+ 448 1664 l 1
+ 576 1550 l 1
+ 704 1664 l 1
+ 952 1664 l 1
+ 725 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

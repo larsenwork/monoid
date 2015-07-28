@@ -1,0 +1,34 @@
+StartChar: lslash
+Encoding: 322 322 138
+GlifName: lslash
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+896 -11 m 5
+ 858 -13 813 -16 758 -16 c 4
+ 686 -16 627 9 585 52 c 4
+ 512 128 512 218 512 279 c 6
+ 512 522.8 l 5
+ 256 340 l 5
+ 256 491 l 5
+ 512 673.8 l 5
+ 512 1408 l 5
+ 640 1408 l 5
+ 640 765.2 l 5
+ 896 948 l 5
+ 896 797 l 5
+ 640 614.2 l 5
+ 640 279 l 6
+ 640 232 640 186 668 148 c 4
+ 688 121 719 104 768 104 c 4
+ 810 104 860 106 896 109 c 5
+ 896 -11 l 5
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

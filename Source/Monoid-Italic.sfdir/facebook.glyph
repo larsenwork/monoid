@@ -1,5 +1,5 @@
 StartChar: facebook
-Encoding: 1114143 -1 636
+Encoding: 1114142 -1 634
 GlifName: facebook
 Width: 1024
 VWidth: 0
@@ -39,5 +39,5 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Ligature2: "'liga' Standard Ligatures lookup 13 subtable" a c e b o o k I c o n
+Ligature2: "'liga' Standard Ligatures lookup 14 subtable" a c e b o o k I c o n
 EndChar

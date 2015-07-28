@@ -1,0 +1,27 @@
+StartChar: k
+Encoding: 107 107 7
+GlifName: k
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+515 527 m 29
+ 1460 -418 l 1053
+330 354 m 29
+ 1107 1131 l 1053
+EndSplineSet
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 17 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 8 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 7 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 3 subtable" dx=128 dy=0 dh=0 dv=0
+EndChar

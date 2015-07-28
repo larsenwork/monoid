@@ -24,7 +24,7 @@ feature ss05 {
 } ss05;
 
 feature ss06 {
-  sub three by three.russian;
+  sub three by three.boob;
 } ss06;
 
 feature ss07 {
@@ -57,9 +57,13 @@ feature ss12 {
 } ss12;
 
 feature ss13 {
-  sub six by six.straighter;
-  sub nine by nine.straighter;
+  sub six by six.round;
+  sub nine by nine.round;
 } ss13;
+
+feature ss14 {
+  sub [Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent uni0200 uni0202 uni0204 uni0206 uni0208 uni020A uni020C uni020E uni0210 uni0212 uni0214 uni0216] by [Aacute.sq Abreve.sq Acircumflex.sq Adieresis.sq Agrave.sq Amacron.sq Aring.sq Atilde.sq Cacute.sq Ccaron.sq Ccircumflex.sq Cdotaccent.sq Dcaron.sq Eacute.sq Ebreve.sq Ecaron.sq Ecircumflex.sq Edieresis.sq Edotaccent.sq Egrave.sq Emacron.sq Gbreve.sq Gcircumflex.sq Gdotaccent.sq Hcircumflex.sq Iacute.sq Ibreve.sq Icircumflex.sq Idieresis.sq Idotaccent.sq Igrave.sq Imacron.sq Itilde.sq Jcircumflex.sq Lacute.sq Nacute.sq Ncaron.sq Ntilde.sq Oacute.sq Obreve.sq Ocircumflex.sq Odieresis.sq Ograve.sq Ohungarumlaut.sq Omacron.sq Otilde.sq Racute.sq Rcaron.sq Sacute.sq Scaron.sq Scircumflex.sq Tcaron.sq Uacute.sq Ubreve.sq Ucircumflex.sq Udieresis.sq Ugrave.sq Uhungarumlaut.sq Umacron.sq Uring.sq Utilde.sq Wcircumflex.sq Yacute.sq Ycircumflex.sq Ydieresis.sq Zacute.sq Zcaron.sq Zdotaccent.sq uni0200.sq uni0202.sq uni0204.sq uni0206.sq uni0208.sq uni020A.sq uni020C.sq uni020E.sq uni0210.sq uni0212.sq uni0214.sq uni0216.sq];
+} ss14;
 
 feature liga {
   sub a c e b o o k I c o n by facebook;
@@ -113,7 +117,7 @@ feature calt {
     sub exclam' equal by larsenwork2;
     sub larsenwork2 equal' by notequalliga;
 
-  # <=
+  # <= incl <=> fix
     ignore sub less' equal greater;
     ignore sub less equal' greater;
     sub less' equal by larsenwork3;
@@ -126,6 +130,9 @@ feature calt {
   # =>
     sub equal' greater by larsenwork2;
     sub larsenwork2 greater' by ligaequalarrow;
+
+  # -=
+    sub hyphen' equal by hyphen.operator;
 
   # --
     sub hyphen' hyphen by hyphenmore;
@@ -143,6 +150,12 @@ feature calt {
     sub ampersand' ampersand by ampamp;
     sub ampamp ampersand' by larsenwork6;
 
+  # .&
+    sub period ampersand' by ampersand.method;
+
+  # *.
+    sub asterisk' period by asterisk.period;
+
   # ||
     ignore sub bar' bar bar;
     ignore sub bar bar' bar;
@@ -156,6 +169,11 @@ feature calt {
     sub period' period period by larsenwork;
     sub larsenwork period' period by larsenwork;
     sub larsenwork larsenwork period' by dotdotdot;
+
+  # ..<
+    sub period' period less by larsenwork;
+    sub larsenwork period' less by larsenwork;
+    sub larsenwork larsenwork less' by rangeless;
 
   # ..
     sub period' period by period2l;
@@ -179,6 +197,15 @@ feature calt {
     ignore sub colon slash' slash;
     sub slash' slash by larsenwork;
     sub larsenwork slash' by ligadoubleslash;
+
+  # /*
+    sub slash asterisk' by asterisk.commentstart;
+
+  # /**
+    sub asterisk.commentstart asterisk' by asterisk.commentstart;
+
+  # */
+    sub asterisk' slash by asterisk.commentend;
 
   # social
     sub d' download by larsenwork;

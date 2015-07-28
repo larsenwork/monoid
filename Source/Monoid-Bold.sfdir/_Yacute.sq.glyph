@@ -1,0 +1,33 @@
+StartChar: Yacute.sq
+Encoding: 1114194 -1 687
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<448 704> 1408 21G<448 680.844>
+VStem: 448 256<0 615.205>
+LayerCount: 5
+Back
+Fore
+SplineSet
+581 787 m 5
+ 648 923 738 1122 781 1280 c 1
+ 1052 1280 l 1
+ 962 1026 858 774 704 552 c 1
+ 704 0 l 1
+ 448 0 l 1
+ 448 552 l 1
+ 294 774 190 1026 100 1280 c 1
+ 371 1280 l 1
+ 412 1122 508 923 571 787 c 5
+ 581 787 l 5
+448 1408 m 1
+ 590 1664 l 1
+ 856 1664 l 1
+ 666 1408 l 1
+ 448 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

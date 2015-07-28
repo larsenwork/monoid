@@ -1,0 +1,36 @@
+StartChar: less
+Encoding: 60 60 59
+GlifName: less
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+931.853419358 200.5819367 m 1
+ 860.146580642 99.4180632999 l 1
+ 259.146580642 525.4180633 l 1
+ 259.146580642 626.5819367 l 1
+ 860.146580642 1052.5819367 l 1
+ 931.853419358 951.4180633 l 1
+ 402.214320665 576 l 1
+ 931.853419358 200.5819367 l 1
+EndSplineSet
+Fore
+Layer: 2
+SplineSet
+896 150 m 5
+ 295 576 l 5
+ 896 1002 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 65 subtable" less2
+Substitution2: "Single Substitution lookup 64 subtable" less1
+Substitution2: "Single Substitution lookup 41 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 32 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 27 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 26 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 20 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 16 subtable" larsenwork5
+EndChar

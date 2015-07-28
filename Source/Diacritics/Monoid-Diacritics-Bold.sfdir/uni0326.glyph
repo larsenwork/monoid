@@ -1,0 +1,24 @@
+StartChar: uni0326
+Encoding: 806 806 133
+GlifName: uni0326
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -400 272<506 601.835>
+VStem: 506 198<-205.998 -128>
+AnchorPoint: "bottom" 576 0 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+652 -315 m 0
+ 611 -367 538 -400 448 -400 c 1
+ 448 -210 l 1
+ 495 -210 506 -178 506 -128 c 1
+ 704 -128 l 1
+ 704 -184 704 -249 652 -315 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,79 @@
+StartChar: asterisk
+Encoding: 42 42 47
+GlifName: asterisk
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+Layer: 3
+SplineSet
+169 553 m 29
+ 983 1367 l 1053
+169 1367 m 29
+ 983 553 l 1053
+EndSplineSet
+Layer: 4
+SplineSet
+512 601 m 5
+ 427 640 l 5
+ 158 906 l 1
+ 240 1000 l 1
+ 571 664 l 1
+ 581 664 l 1
+ 912 1000 l 1
+ 994 906 l 1
+ 664 581 l 1
+ 664 571 l 1
+ 994 246 l 1
+ 912 152 l 1
+ 581 488 l 1
+ 571 488 l 1
+ 240 152 l 1
+ 158 246 l 1
+ 427 512 l 5
+ 512 551 l 5
+ 512 601 l 5
+601 640 m 1
+ 640 725 l 1
+ 906 994 l 1
+ 1000 912 l 1
+ 664 581 l 1
+ 664 571 l 1
+ 1000 240 l 1
+ 906 158 l 1
+ 581 488 l 1
+ 571 488 l 1
+ 246 158 l 1
+ 152 240 l 1
+ 488 571 l 1
+ 488 581 l 1
+ 152 912 l 1
+ 246 994 l 1
+ 512 725 l 1
+ 551 640 l 1
+ 601 640 l 1
+640 551 m 1
+ 725 512 l 1
+ 994 246 l 1
+ 912 152 l 1
+ 581 488 l 1
+ 571 488 l 1
+ 240 152 l 1
+ 158 246 l 1
+ 488 571 l 1
+ 488 581 l 1
+ 158 906 l 1
+ 240 1000 l 1
+ 571 664 l 1
+ 581 664 l 1
+ 912 1000 l 1
+ 994 906 l 1
+ 725 640 l 1
+ 640 601 l 1
+ 640 551 l 1
+EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 1 subtable" asterisk.multi
+EndChar

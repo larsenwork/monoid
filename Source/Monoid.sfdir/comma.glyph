@@ -10,17 +10,17 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-384 368 m 1xe0
- 640 368 l 1xe0
- 640 23 l 2xd0
- 640 -37 640 -107 588 -177 c 0
- 546 -234 474 -272 384 -272 c 1
- 384 -152 l 1xe0
- 431 -152 463 -135 484 -107 c 0
- 512 -70 512 -27 512 23 c 2
- 512 128 l 1xd0
- 384 128 l 1
- 384 368 l 1xe0
+384 368 m 5xe0
+ 640 368 l 5xe0
+ 640 23 l 6xd0
+ 640 -37 640 -107 588 -177 c 4
+ 546 -234 474 -272 384 -272 c 5
+ 384 -152 l 5xe0
+ 431 -152 463 -135 484 -107 c 4
+ 512 -70 512 -27 512 23 c 6
+ 512 128 l 5xd0
+ 384 128 l 5
+ 384 368 l 5xe0
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -35,8 +35,8 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Position2: "Single Positioning lookup 20 subtable" dx=-128 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 14 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0

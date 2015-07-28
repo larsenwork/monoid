@@ -1,0 +1,32 @@
+StartChar: I
+Encoding: 73 73 26
+GlifName: I_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960>
+VStem: 448 256<240 1040>
+AnchorPoint: "bottom" 576 0 basechar 0
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+960 1280 m 5
+ 960 1040 l 5
+ 704 1040 l 5
+ 704 240 l 5
+ 960 240 l 5
+ 960 0 l 5
+ 192 0 l 5
+ 192 240 l 5
+ 448 240 l 5
+ 448 1040 l 5
+ 192 1040 l 5
+ 192 1280 l 5
+ 960 1280 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,34 @@
+StartChar: Igrave.sq
+Encoding: 1114181 -1 675
+Width: 884
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 1160 120<365 597 725 981> 1408 21G<650.859 798>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1005 1280 m 5
+ 981 1160 l 5
+ 725 1160 l 5
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+ 139 120 l 1
+ 395 120 l 1
+ 597 1160 l 5
+ 341 1160 l 5
+ 365 1280 l 5
+ 1005 1280 l 5
+798 1408 m 1
+ 660 1408 l 1
+ 543 1664 l 1
+ 681 1664 l 1
+ 798 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

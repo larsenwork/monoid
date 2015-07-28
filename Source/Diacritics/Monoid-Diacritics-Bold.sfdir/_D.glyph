@@ -1,0 +1,37 @@
+StartChar: D
+Encoding: 68 68 22
+GlifName: D_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<384 656.02> 1040 240<384 656.02>
+VStem: 128 256<240 1040> 784 256<371.107 908.893>
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+474 1280 m 6
+ 717 1280 859 1188 943 1067 c 4
+ 1026 948 1040 798 1040 640 c 4
+ 1040 482 1026 332 943 213 c 4
+ 859 92 717 0 474 0 c 6
+ 128 0 l 5
+ 128 1280 l 5
+ 474 1280 l 6
+784 640 m 4
+ 784 769 774 870 727 936 c 4
+ 688 990 624 1040 495 1040 c 6
+ 384 1040 l 5
+ 384 240 l 5
+ 495 240 l 6
+ 624 240 688 290 727 344 c 4
+ 774 410 784 511 784 640 c 4
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

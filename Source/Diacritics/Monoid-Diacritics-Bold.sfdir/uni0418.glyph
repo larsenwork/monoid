@@ -1,0 +1,32 @@
+StartChar: uni0418
+Encoding: 1048 1048 145
+GlifName: uni0418
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 266.881 896 1024> 1388 20G<128 256 886.102 1024>
+VStem: 128 128<250 1408> 896 128<0 1158>
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 0 m 1
+ 896 1158 l 1
+ 886 1158 l 1
+ 256 0 l 1
+ 128 0 l 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 250 l 1
+ 266 250 l 1
+ 897 1408 l 1
+ 1024 1408 l 1
+ 1024 0 l 1
+ 896 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,37 @@
+StartChar: arrowboth
+Encoding: 8596 8596 345
+GlifName: arrowboth
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+285.307617188 644 m 5
+ 483 309 l 5
+ 379 241 l 5
+ 128 670 l 5
+ 128 738 l 5
+ 379 1167 l 5
+ 483 1099 l 5
+ 285.307617188 764 l 5
+ 954 764 l 5
+ 954 644 l 5
+ 285.307617188 644 l 5
+866.692382812 764 m 5
+ 669 1099 l 5
+ 773 1167 l 5
+ 1024 738 l 5
+ 1024 670 l 5
+ 773 241 l 5
+ 669 309 l 5
+ 866.692382812 644 l 5
+ 198 644 l 5
+ 198 764 l 5
+ 866.692382812 764 l 5
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

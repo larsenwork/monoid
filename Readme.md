@@ -1,20 +1,15 @@
-<table>
-    <tr>
-        <td colspan="6"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid1.png" /></td>
-    </tr>
-    <tr>
-        <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
-        <td><a href="#guide">Guide</a></td>
-        <td><a href="#liga">Ligature Support</a></td>
-        <td><a href="#links">Links</a></td>
-        <td><a href="#font_log">Log</a></td>
-        <td><a href="#license">License</a></td>
-    </tr>
-</table>
-
+![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png)
+<p align="center">
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.55-brightgreen.svg"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg"></a>
+</p>
+<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Supported Programs</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
+</p>
 <a name="guide"></a>
-------
+<p>&nbsp;</p>
 #Guide
+
+###Download
+[larsenwork.com/monoid](http://larsenwork.com/monoid)
 
 ###Install
 Quit your editor/program. Unzip and open the folder.
@@ -27,7 +22,7 @@ Quit your editor/program. Unzip and open the folder.
 1. Right click the .ttf files
 2. Install
 
-#####Linux 
+#####Linux
 1. Copy the .ttf files to your fonts-directory
 2. Run `sudo fc-cache`
 
@@ -42,11 +37,13 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 * Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
 
 <a name="liga"></a>
-------
+<p>&nbsp;</p>
 #Ligature Support
 
 ###Code Editors
-I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
+I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all editors.
+
+You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 
 > Please add your findings to this readme if it isn't already there.
 
@@ -82,7 +79,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 
 
 <a name="links"></a>
-------
+<p>&nbsp;</p>
 #Links
 
 * [Medium Articles](https://medium.com/@larsenwork) - Short articles explaining various aspects
@@ -91,7 +88,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 * Lifehacker - [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)
 
 <a name="font_log"></a>
-------
+<p>&nbsp;</p>
 #Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
@@ -218,8 +215,14 @@ Remember to update the Font Log when you make contributions.
     </tr>
     <tr>
         <td>0.55</td>
-        <td>WIP</td>
-        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
+        <td></td>
+        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>RoadMap</td>
+        <td></td>
+        <td>Retina book (current regular) + regular.</td>
         <td>Andreas</td>
     </tr>
     <tr>
@@ -231,7 +234,7 @@ Remember to update the Font Log when you make contributions.
 </table>
 
 <a name="license"></a>
-------
+<p>&nbsp;</p>
 #Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 

@@ -4,28 +4,28 @@ GlifName: asterisk
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1004 20G<318.358 364.534 788.402 834.642>
-VStem: 512 128<128 522>
+HStem: 1004 20G<512 640>
+VStem: 512 128<630 1024>
 LayerCount: 5
 Back
 Fore
 SplineSet
-512 522 m 1
- 144 402 l 1
- 102 515 l 1
- 476 637 l 1
- 244 957 l 1
- 350 1024 l 1
- 576 713 l 1
- 803 1024 l 1
- 909 957 l 1
- 676 637 l 1
- 1050 515 l 1
- 1008 402 l 1
- 640 522 l 1
- 640 128 l 1
- 512 128 l 1
- 512 522 l 1
+512 630 m 1
+ 512 1024 l 1
+ 640 1024 l 1
+ 640 630 l 1
+ 1008 750 l 1
+ 1050 637 l 1
+ 676 515 l 1
+ 909 195 l 1
+ 803 128 l 1
+ 576 439 l 1
+ 350 128 l 1
+ 244 195 l 1
+ 476 515 l 1
+ 102 637 l 1
+ 144 750 l 1
+ 512 630 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -96,5 +96,9 @@ SplineSet
  640 601 l 1
  640 551 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 74 subtable" asterisk.commentend
+Substitution2: "Single Substitution lookup 73 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 72 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 55 subtable" asterisk.period
 Substitution2: "'ss02' Style Set 2 lookup 1 subtable" asterisk.multi
 EndChar

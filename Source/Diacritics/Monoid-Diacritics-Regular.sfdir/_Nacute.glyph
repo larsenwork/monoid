@@ -1,0 +1,35 @@
+StartChar: Nacute
+Encoding: 323 323 123
+GlifName: N_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 883.885 1024> 1408 21G<488 638.969>
+VStem: 128 128<0 1040> 896 128<240 1280>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1280 l 1
+ 255 1280 l 1
+ 886 240 l 1
+ 896 240 l 1
+ 896 1280 l 1
+ 1024 1280 l 1
+ 1024 0 l 1
+ 896 0 l 1
+ 266 1040 l 5
+ 256 1040 l 5
+ 256 0 l 1
+488 1408 m 1
+ 654 1664 l 1
+ 792 1664 l 1
+ 626 1408 l 1
+ 488 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

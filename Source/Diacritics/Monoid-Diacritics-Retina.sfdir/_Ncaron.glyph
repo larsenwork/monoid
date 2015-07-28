@@ -1,0 +1,38 @@
+StartChar: Ncaron
+Encoding: 327 327 104
+GlifName: N_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<192 320 822.157 960> 1408 21G<473.797 678.203>
+VStem: 192 128<0 1020> 832 128<260 1280>
+LayerCount: 5
+Back
+Fore
+SplineSet
+320 0 m 1
+ 192 0 l 1
+ 192 1280 l 1
+ 319 1280 l 1
+ 822 260 l 1
+ 832 260 l 1
+ 832 1280 l 1
+ 960 1280 l 1
+ 960 0 l 1
+ 832 0 l 1
+ 330 1020 l 5
+ 320 1020 l 5
+ 320 0 l 1
+497 1408 m 1
+ 200 1664 l 1
+ 358 1664 l 1
+ 576 1500 l 1
+ 794 1664 l 1
+ 952 1664 l 1
+ 655 1408 l 1
+ 497 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

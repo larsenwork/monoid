@@ -1,0 +1,25 @@
+StartChar: eth
+Encoding: 240 240 90
+GlifName: eth
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+864 202 m 5
+ 864 512 l 6
+ 864 705.208007812 855.663085938 903.294921875 780.227539062 1081.16796875 c 4
+ 704.791015625 1259.04101562 564.948242188 1410.00878906 390 1492 c 1028
+  Spiro
+    864 202 {
+    864 512 ]
+    390 1492 o
+    0 0 z
+  EndSpiro
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

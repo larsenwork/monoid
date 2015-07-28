@@ -1,0 +1,23 @@
+StartChar: M
+Encoding: 77 77 18
+GlifName: M_
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+192 0 m 29
+ 192 1521 l 29
+ 576 900 l 29
+ 960 1521 l 29
+ 960 0 l 1053
+EndSplineSet
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

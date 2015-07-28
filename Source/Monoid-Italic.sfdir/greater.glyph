@@ -20,12 +20,12 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Substitution2: "Single Substitution lookup 60 subtable" greater2
-Substitution2: "Single Substitution lookup 59 subtable" greater1
-Substitution2: "Single Substitution lookup 45 subtable" ligaequalarrow
-Substitution2: "Single Substitution lookup 42 subtable" larsenwork4
-Substitution2: "Single Substitution lookup 34 subtable" ligaarrowright
-Substitution2: "Single Substitution lookup 30 subtable" ligaarrowrighttwoheads
-Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 24 subtable" ligaarrowrightlong
+Substitution2: "Single Substitution lookup 67 subtable" greater2
+Substitution2: "Single Substitution lookup 66 subtable" greater1
+Substitution2: "Single Substitution lookup 46 subtable" ligaequalarrow
+Substitution2: "Single Substitution lookup 43 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 35 subtable" ligaarrowright
+Substitution2: "Single Substitution lookup 31 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 25 subtable" ligaarrowrightlong
 EndChar

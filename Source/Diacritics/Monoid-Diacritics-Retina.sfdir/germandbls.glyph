@@ -1,0 +1,21 @@
+StartChar: germandbls
+Encoding: 223 223 69
+GlifName: germandbls
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+320 0 m 5
+ 320 1196 l 5
+ 320 1288.5482934 332 1356 389 1414 c 4
+ 436 1462 504.720168777 1492 592 1492 c 4
+ 742.79971591 1492 848 1387.04971591 848 1236 c 4
+ 848 1084.95028409 742.79971591 980 592 980 c 1028
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

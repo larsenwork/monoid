@@ -1,0 +1,18 @@
+StartChar: rangeless
+Encoding: 1114257 -1 759
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<-1536 -1280 -640 -384>
+VStem: -1536 256<0 240> -640 256<0 240>
+LayerCount: 5
+Back
+Fore
+Refer: 82 60 S 1 0 0 1 -128 0 2
+Refer: 68 46 N 1 0 0 1 -1920 0 2
+Refer: 68 46 N 1 0 0 1 -1024 0 2
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

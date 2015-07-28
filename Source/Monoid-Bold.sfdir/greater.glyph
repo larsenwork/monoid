@@ -4,30 +4,30 @@ GlifName: greater
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -17 21G<280 321.21>
+HStem: -17 21G<344 385.21>
 LayerCount: 4
 Back
 Fore
 SplineSet
-124 1121 m 1
- 300 1297 l 1
- 896 735 l 1
- 896 545 l 1
- 300 -17 l 1
- 124 159 l 1
- 635 635 l 1
- 635 645 l 1
- 124 1121 l 1
+188 1121 m 5
+ 364 1297 l 5
+ 960 735 l 5
+ 960 545 l 5
+ 364 -17 l 5
+ 188 159 l 5
+ 699 635 l 5
+ 699 645 l 5
+ 188 1121 l 5
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 60 subtable" greater2
-Substitution2: "Single Substitution lookup 59 subtable" greater1
-Substitution2: "Single Substitution lookup 45 subtable" ligaequalarrow
-Substitution2: "Single Substitution lookup 42 subtable" larsenwork4
-Substitution2: "Single Substitution lookup 34 subtable" ligaarrowright
-Substitution2: "Single Substitution lookup 30 subtable" ligaarrowrighttwoheads
-Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 24 subtable" ligaarrowrightlong
+Substitution2: "Single Substitution lookup 67 subtable" greater2
+Substitution2: "Single Substitution lookup 66 subtable" greater1
+Substitution2: "Single Substitution lookup 46 subtable" ligaequalarrow
+Substitution2: "Single Substitution lookup 43 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 35 subtable" ligaarrowright
+Substitution2: "Single Substitution lookup 31 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 25 subtable" ligaarrowrightlong
 EndChar

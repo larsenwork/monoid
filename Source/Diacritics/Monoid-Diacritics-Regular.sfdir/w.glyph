@@ -1,0 +1,24 @@
+StartChar: w
+Encoding: 119 119 14
+GlifName: w
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+1074 1124 m 5
+ 832 14 l 5
+ 576 1009 l 5
+ 320 14 l 5
+ 78 1124 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" w.straight
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

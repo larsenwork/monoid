@@ -1,0 +1,28 @@
+StartChar: uni0327
+Encoding: 807 807 154
+GlifName: uni0327
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -272 120<258.225 480.744>
+VStem: 512 128<-105.261 23>
+AnchorPoint: "bottom" 576 1 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 23 m 1
+ 640 -37 640 -107 588 -177 c 0
+ 546 -234 474 -272 384 -272 c 0
+ 349 -272 303 -265 256 -255 c 1
+ 256 -132 l 1
+ 304 -143 350 -152 384 -152 c 0
+ 431 -152 463 -135 484 -107 c 0
+ 512 -70 512 -27 512 23 c 1
+ 640 23 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

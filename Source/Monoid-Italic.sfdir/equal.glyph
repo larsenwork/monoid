@@ -4,28 +4,28 @@ GlifName: equal
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 260 120<62 935> 772 120<161 1034>
+HStem: 260 120<190 807> 772 120<289 906>
 LayerCount: 3
 Back
 Fore
 SplineSet
-62 380 m 1
- 958 380 l 1
- 935 260 l 1
- 39 260 l 1
- 62 380 l 1
-161 892 m 1
- 1057 892 l 1
- 1034 772 l 1
- 138 772 l 1
- 161 892 l 1
+190 380 m 5
+ 830 380 l 5
+ 807 260 l 5
+ 167 260 l 5
+ 190 380 l 5
+289 892 m 5
+ 929 892 l 5
+ 906 772 l 5
+ 266 772 l 5
+ 289 892 l 5
 EndSplineSet
 Validated: 1
 Layer: 2
-Substitution2: "Single Substitution lookup 44 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 43 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 41 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 39 subtable" notequalliga
-Substitution2: "Single Substitution lookup 37 subtable" notequaltypeliga
-Substitution2: "Single Substitution lookup 36 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 45 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 44 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 42 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 40 subtable" notequalliga
+Substitution2: "Single Substitution lookup 38 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 37 subtable" larsenwork1
 EndChar

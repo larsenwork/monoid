@@ -1,0 +1,27 @@
+StartChar: nu
+Encoding: 957 957 302
+GlifName: nu
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 119<554.548 597.452> 1004 20G<201 356 796 951>
+VStem: 201 135<751.021 1024> 816 135<751.021 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+201 1024 m 1
+ 336 1024 l 1
+ 376 667 452 364 571 119 c 1
+ 581 119 l 1
+ 700 364 776 667 816 1024 c 1
+ 951 1024 l 1
+ 912 663 830 318 656 0 c 1
+ 496 0 l 1
+ 322 318 240 663 201 1024 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

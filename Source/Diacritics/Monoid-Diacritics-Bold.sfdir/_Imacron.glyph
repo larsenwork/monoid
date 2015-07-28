@@ -1,0 +1,35 @@
+StartChar: Imacron
+Encoding: 298 298 99
+GlifName: I_macron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960> 1412 200<256 896>
+VStem: 448 256<240 1040>
+LayerCount: 5
+Back
+Fore
+SplineSet
+960 1280 m 5
+ 960 1040 l 5
+ 704 1040 l 5
+ 704 240 l 5
+ 960 240 l 5
+ 960 0 l 5
+ 192 0 l 5
+ 192 240 l 5
+ 448 240 l 5
+ 448 1040 l 5
+ 192 1040 l 5
+ 192 1280 l 5
+ 960 1280 l 5
+256 1612 m 1
+ 896 1612 l 1
+ 896 1412 l 1
+ 256 1412 l 1
+ 256 1612 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

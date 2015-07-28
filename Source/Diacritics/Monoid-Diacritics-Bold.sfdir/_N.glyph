@@ -1,0 +1,41 @@
+StartChar: N
+Encoding: 78 78 30
+GlifName: N_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<192 448 697.333 960>
+VStem: 192 256<0 738> 704 256<542 1280>
+AnchorPoint: "bottom" 576 0 basechar 0
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+448 0 m 1
+ 192 0 l 1
+ 192 1280 l 1
+ 447 1280 l 1
+ 694 542 l 1
+ 704 542 l 1
+ 704 1280 l 1
+ 960 1280 l 1
+ 960 0 l 1
+ 704 0 l 1
+ 458 738 l 5
+ 448 738 l 5
+ 448 0 l 1
+EndSplineSet
+Layer: 2
+SplineSet
+192 0 m 5
+ 192 1521 l 5
+ 960 15 l 5
+ 960 1536 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

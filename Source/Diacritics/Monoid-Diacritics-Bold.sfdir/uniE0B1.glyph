@@ -1,0 +1,18 @@
+StartChar: uniE0B1
+Encoding: 57521 57521 351
+GlifName: uniE_0B_1
+Width: 1920
+VWidth: 2048
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+305 -84 m 5
+ 929 640 l 5
+ 305 1364 l 1029
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

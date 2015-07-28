@@ -1,0 +1,49 @@
+StartChar: H
+Encoding: 72 72 25
+GlifName: H_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<192 448 704 960> 516 240<448 704>
+VStem: 192 256<0 516 756 1280> 704 256<0 516 756 1280>
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+SplineSet
+192 1408 m 5
+ 320 1408 l 5
+ 320 760 l 5
+ 832 760 l 5
+ 832 1408 l 5
+ 960 1408 l 5
+ 960 0 l 5
+ 832 0 l 5
+ 832 640 l 5
+ 320 640 l 5
+ 320 0 l 5
+ 192 0 l 5
+ 192 1408 l 5
+EndSplineSet
+Fore
+SplineSet
+192 1280 m 5
+ 448 1280 l 5
+ 448 756 l 1
+ 704 756 l 1
+ 704 1280 l 5
+ 960 1280 l 5
+ 960 0 l 1
+ 704 0 l 1
+ 704 516 l 1
+ 448 516 l 1
+ 448 0 l 1
+ 192 0 l 1
+ 192 1280 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

@@ -1,0 +1,18 @@
+StartChar: uni0400
+Encoding: 1024 1024 229
+GlifName: uni0400
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 648 120<384 896> 1288 120<384 1024> 1536 256
+VStem: 256 128<120 648 768 1288> 360 304
+LayerCount: 5
+Back
+Fore
+Refer: 140 768 N 1 0 0 1 0 256 2
+Refer: 162 1045 N 1 0 0 1 0 0 3
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

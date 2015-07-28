@@ -1,0 +1,35 @@
+StartChar: A
+Encoding: 65 65 19
+GlifName: A_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<105 369.672 782.323 1047> 272 240<439.896 711.992>
+AnchorPoint: "top" 576 1280 basechar 0
+AnchorPoint: "bottom" 960 0 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+581 1073 m 5
+ 571 1073 l 5
+ 516.575641496 893.215308307 474.393349922 704.70987997 439.895897922 512 c 5
+ 711.991588006 512 l 5
+ 677.514938945 704.22264534 635.365204149 892.450347512 581 1073 c 5
+400.853869403 272 m 5
+ 387.478678485 181.685386295 375.344033865 90.8700885274 364 0 c 5
+ 105 0 l 5
+ 161 437.272727273 236 875.454545455 378 1280 c 5
+ 774 1280 l 5
+ 916 875.454545455 991 437.272727273 1047 0 c 5
+ 788 0 l 5
+ 776.64558048 90.9532816266 764.499101908 181.741889864 751.109391838 272 c 5
+ 400.853869403 272 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

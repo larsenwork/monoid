@@ -1,0 +1,27 @@
+StartChar: uniE0A2
+Encoding: 57506 57506 370
+GlifName: uniE_0A_2
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+448 576 m 4
+ 448 647 505 704 576 704 c 4
+ 647 704 704 647 704 576 c 4
+ 704 505 647 448 576 448 c 4
+ 505 448 448 505 448 576 c 4
+EndSplineSet
+Fore
+Layer: 2
+SplineSet
+384 768 m 5
+ 896 768 l 5
+ 896 128 l 5
+ 384 128 l 5
+ 384 768 l 5
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar
