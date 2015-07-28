@@ -1,9 +1,12 @@
-![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid1.png)
+![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png)
 <p align="center">[Webpage](http://larsenwork.com/monoid/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Guide](#guide)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ligature Support](#liga)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Links](#links)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Log](#font_log)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](#license)
 </p>
 <a name="guide"></a>
-------
+<p>&nbsp;</p>
 #Guide
+
+###Download
+Visit [larsenwork.com/monoid](http://larsenwork.com/monoid)
 
 ###Install
 Quit your editor/program. Unzip and open the folder.
@@ -31,7 +34,7 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 * Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
 
 <a name="liga"></a>
-------
+<p>&nbsp;</p>
 #Ligature Support
 
 ###Code Editors
@@ -71,7 +74,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 
 
 <a name="links"></a>
-------
+<p>&nbsp;</p>
 #Links
 
 * [Medium Articles](https://medium.com/@larsenwork) - Short articles explaining various aspects
@@ -80,7 +83,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 * Lifehacker - [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)
 
 <a name="font_log"></a>
-------
+<p>&nbsp;</p>
 #Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
@@ -226,7 +229,7 @@ Remember to update the Font Log when you make contributions.
 </table>
 
 <a name="license"></a>
-------
+<p>&nbsp;</p>
 #Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)
 

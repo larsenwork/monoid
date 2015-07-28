@@ -4,13 +4,25 @@ GlifName: L_acute
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 240<448 1024> 1408 256<334 410>
-VStem: 192 256<240 1280> 192 408
+HStem: 0 240<448 1024> 1408 21G<192 424.844>
+VStem: 192 256<240 1280>
 LayerCount: 5
 Back
 Fore
-Refer: 121 769 N 1 0 0 1 -256 128 2
-Refer: 29 76 N 1 0 0 1 0 0 3
+SplineSet
+192 0 m 1
+ 192 1280 l 5
+ 448 1280 l 5
+ 448 240 l 1
+ 1024 240 l 1
+ 1024 0 l 1
+ 192 0 l 1
+192 1408 m 1
+ 334 1664 l 1
+ 600 1664 l 1
+ 410 1408 l 1
+ 192 1408 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 Layer: 4

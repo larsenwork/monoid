@@ -3,7 +3,7 @@ Encoding: 82 82 34
 GlifName: R_
 Width: 1024
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21G<192 448 785.873 1065> 448 240<448 633> 1040 240<448 729.777>
 VStem: 192 256<0 448 688 1040> 784 256<740.871 986.414>
 AnchorPoint: "bottom" 704 0 basechar 0
