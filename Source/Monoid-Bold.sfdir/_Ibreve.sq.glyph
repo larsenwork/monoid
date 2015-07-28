@@ -1,5 +1,5 @@
 StartChar: Ibreve.sq
-Encoding: 1114215 -1 707
+Encoding: 1114212 -1 705
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,6 +30,7 @@ SplineSet
  424 1612 473 1572 576 1572 c 0
  679 1572 728 1612 728 1664 c 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

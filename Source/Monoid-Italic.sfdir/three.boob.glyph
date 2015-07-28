@@ -1,5 +1,5 @@
 StartChar: three.boob
-Encoding: 1114154 -1 647
+Encoding: 1114153 -1 646
 Width: 1024
 VWidth: 0
 Flags: W
@@ -32,5 +32,6 @@ SplineSet
  387 1396 l 5
  472 1410 566 1424 673 1424 c 4xe8
 EndSplineSet
+Validated: 1
 Layer: 2
 EndChar

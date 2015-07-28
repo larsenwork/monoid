@@ -1,5 +1,5 @@
 StartChar: twitter
-Encoding: 1114165 -1 658
+Encoding: 1114164 -1 657
 Width: 1024
 VWidth: 0
 Flags: W
@@ -32,5 +32,5 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Ligature2: "'liga' Standard Ligatures lookup 13 subtable" w i t t e r I c o n
+Ligature2: "'liga' Standard Ligatures lookup 14 subtable" w i t t e r I c o n
 EndChar

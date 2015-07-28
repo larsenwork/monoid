@@ -1,5 +1,5 @@
 StartChar: Ebreve.sq
-Encoding: 1114206 -1 698
+Encoding: 1114203 -1 696
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,6 +30,7 @@ SplineSet
  360 1612 409 1572 512 1572 c 0
  615 1572 664 1612 664 1664 c 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: Zacute.sq
-Encoding: 1114238 -1 730
+Encoding: 1114235 -1 728
 Width: 1024
 VWidth: 0
 Flags: W
@@ -27,6 +27,7 @@ SplineSet
  666 1408 l 1
  448 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

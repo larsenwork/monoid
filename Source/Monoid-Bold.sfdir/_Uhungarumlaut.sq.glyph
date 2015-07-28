@@ -1,5 +1,5 @@
 StartChar: Uhungarumlaut.sq
-Encoding: 1114234 -1 726
+Encoding: 1114231 -1 724
 Width: 1024
 VWidth: 0
 Flags: W
@@ -35,6 +35,7 @@ SplineSet
  474 1408 l 1
  256 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

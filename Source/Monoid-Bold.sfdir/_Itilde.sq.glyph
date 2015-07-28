@@ -1,5 +1,5 @@
 StartChar: Itilde.sq
-Encoding: 1114213 -1 705
+Encoding: 1114210 -1 703
 Width: 1024
 VWidth: 0
 Flags: W
@@ -32,6 +32,7 @@ SplineSet
  896 1533 833 1412 704 1412 c 0xe8
  587 1412 560 1470 498 1470 c 0xd8
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

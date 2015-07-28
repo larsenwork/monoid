@@ -1,5 +1,5 @@
 StartChar: Umacron.sq
-Encoding: 1114231 -1 723
+Encoding: 1114228 -1 721
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,6 +30,7 @@ SplineSet
  256 1412 l 1
  256 1612 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

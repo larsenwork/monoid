@@ -1,0 +1,21 @@
+StartChar: hyphen.operator
+Encoding: 1114135 -1 626
+GlifName: equalshift
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 520 240<256 1024>
+LayerCount: 4
+Back
+Fore
+SplineSet
+256 760 m 5
+ 1024 760 l 5
+ 1024 520 l 5
+ 256 520 l 5
+ 256 760 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

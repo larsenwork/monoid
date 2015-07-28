@@ -1,5 +1,5 @@
 StartChar: Idotaccent.sq
-Encoding: 1114216 -1 708
+Encoding: 1114213 -1 706
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  492 1396 434 1454 434 1538 c 0xf0
  434 1622 492 1680 576 1680 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

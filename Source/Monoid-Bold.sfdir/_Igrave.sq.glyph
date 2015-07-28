@@ -1,5 +1,5 @@
 StartChar: Igrave.sq
-Encoding: 1114183 -1 675
+Encoding: 1114180 -1 673
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  562 1664 l 1
  704 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

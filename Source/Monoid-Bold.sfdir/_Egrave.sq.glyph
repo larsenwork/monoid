@@ -1,5 +1,5 @@
 StartChar: Egrave.sq
-Encoding: 1114179 -1 671
+Encoding: 1114176 -1 669
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  498 1664 l 1
  640 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: Racute.sq
-Encoding: 1114224 -1 716
+Encoding: 1114221 -1 714
 Width: 1024
 VWidth: 0
 Flags: W
@@ -36,6 +36,7 @@ SplineSet
  666 1408 l 1
  448 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

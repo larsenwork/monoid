@@ -1,5 +1,5 @@
 StartChar: Lacute.sq
-Encoding: 1114218 -1 710
+Encoding: 1114215 -1 708
 Width: 1024
 VWidth: 0
 Flags: W
@@ -22,6 +22,7 @@ SplineSet
  410 1408 l 1
  192 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

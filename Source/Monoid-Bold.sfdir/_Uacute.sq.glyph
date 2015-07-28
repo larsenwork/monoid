@@ -1,5 +1,5 @@
 StartChar: Uacute.sq
-Encoding: 1114194 -1 686
+Encoding: 1114191 -1 684
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,6 +30,7 @@ SplineSet
  666 1408 l 1
  448 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

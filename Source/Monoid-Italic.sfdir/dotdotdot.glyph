@@ -1,5 +1,5 @@
 StartChar: dotdotdot
-Encoding: 1114137 -1 629
+Encoding: 1114136 -1 629
 GlifName: period2
 Width: 1024
 VWidth: 0
@@ -25,5 +25,6 @@ SplineSet
  116 0 l 5
  163 240 l 5
 EndSplineSet
+Validated: 1
 Layer: 2
 EndChar

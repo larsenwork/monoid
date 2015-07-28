@@ -1,5 +1,5 @@
 StartChar: Icircumflex.sq
-Encoding: 1114185 -1 677
+Encoding: 1114182 -1 675
 Width: 1024
 VWidth: 0
 Flags: W
@@ -31,6 +31,7 @@ SplineSet
  200 1408 l 1
  427 1664 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

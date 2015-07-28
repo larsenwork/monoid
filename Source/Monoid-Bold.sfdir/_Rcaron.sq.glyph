@@ -1,5 +1,5 @@
 StartChar: Rcaron.sq
-Encoding: 1114225 -1 717
+Encoding: 1114222 -1 715
 Width: 1024
 VWidth: 0
 Flags: W
@@ -39,6 +39,7 @@ SplineSet
  952 1664 l 1
  725 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

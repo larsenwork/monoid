@@ -1,5 +1,5 @@
 StartChar: six.round
-Encoding: 1114172 -1 664
+Encoding: 1114169 -1 663
 Width: 1024
 VWidth: 0
 Flags: W
@@ -35,5 +35,6 @@ SplineSet
  314 1017 336 1122 392 1215 c 4
  462 1331 596 1424 775 1424 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 EndChar

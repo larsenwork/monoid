@@ -1,5 +1,5 @@
 StartChar: Udieresis.sq
-Encoding: 1114196 -1 688
+Encoding: 1114193 -1 686
 Width: 1024
 VWidth: 0
 Flags: W
@@ -35,6 +35,7 @@ SplineSet
  268 1394 210 1452 210 1536 c 0xd0
  210 1620 268 1678 352 1678 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

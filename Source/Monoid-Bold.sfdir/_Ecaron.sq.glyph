@@ -1,5 +1,5 @@
 StartChar: Ecaron.sq
-Encoding: 1114208 -1 700
+Encoding: 1114205 -1 698
 Width: 1024
 VWidth: 0
 Flags: W
@@ -31,6 +31,7 @@ SplineSet
  888 1664 l 1
  661 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

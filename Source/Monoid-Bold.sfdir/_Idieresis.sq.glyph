@@ -1,5 +1,5 @@
 StartChar: Idieresis.sq
-Encoding: 1114186 -1 678
+Encoding: 1114183 -1 676
 Width: 1024
 VWidth: 0
 Flags: W
@@ -33,6 +33,7 @@ SplineSet
  268 1394 210 1452 210 1536 c 0xf0
  210 1620 268 1678 352 1678 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: nine.round
-Encoding: 1114173 -1 665
+Encoding: 1114170 -1 664
 Width: 1024
 VWidth: 0
 Flags: W
@@ -35,5 +35,6 @@ SplineSet
  287 1042 305 1137 354 1224 c 4
  420 1341 539 1424 697 1424 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 EndChar

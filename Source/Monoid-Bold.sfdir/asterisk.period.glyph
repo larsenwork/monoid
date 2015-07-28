@@ -1,0 +1,14 @@
+StartChar: asterisk.period
+Encoding: 1114253 -1 746
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 576 256<128 438>
+LayerCount: 4
+Back
+Fore
+Refer: 65 42 S 1 0 0 1 128 0 2
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

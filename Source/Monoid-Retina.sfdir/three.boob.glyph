@@ -3,8 +3,9 @@ Encoding: 1114154 -1 654
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<259.799 704.237> 742 99<557 715.986> 1288 120<256 740>
-VStem: 800 128<207.429 648.611>
+HStem: -16 120<259.975 700.457> 644 120<384 697.023> 1304 120<259.876 689.056>
+VStem: 780 128<853.089 1214.62> 800 128<204.218 542.728>
+CounterMasks: 1 e0
 LayerCount: 5
 Back
 Fore
@@ -32,6 +33,7 @@ SplineSet
  256 1396 l 5
  338 1410 429 1424 536 1424 c 4xf0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

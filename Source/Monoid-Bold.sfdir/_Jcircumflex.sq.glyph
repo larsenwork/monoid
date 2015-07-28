@@ -1,5 +1,5 @@
 StartChar: Jcircumflex.sq
-Encoding: 1114217 -1 709
+Encoding: 1114214 -1 707
 Width: 1024
 VWidth: 0
 Flags: W
@@ -31,6 +31,7 @@ SplineSet
  200 1408 l 1
  427 1664 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: Cdotaccent.sq
-Encoding: 1114202 -1 694
+Encoding: 1114199 -1 692
 Width: 1024
 VWidth: 0
 Flags: W
@@ -30,6 +30,7 @@ SplineSet
  556 1396 498 1454 498 1538 c 0
  498 1622 556 1680 640 1680 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

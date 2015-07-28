@@ -1,5 +1,5 @@
 StartChar: facebook
-Encoding: 1114164 -1 657
+Encoding: 1114163 -1 656
 Width: 1024
 VWidth: 0
 Flags: W
@@ -38,5 +38,5 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Ligature2: "'liga' Standard Ligatures lookup 13 subtable" a c e b o o k I c o n
+Ligature2: "'liga' Standard Ligatures lookup 14 subtable" a c e b o o k I c o n
 EndChar

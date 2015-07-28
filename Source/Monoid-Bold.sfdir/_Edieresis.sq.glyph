@@ -1,5 +1,5 @@
 StartChar: Edieresis.sq
-Encoding: 1114182 -1 674
+Encoding: 1114179 -1 672
 Width: 1024
 VWidth: 0
 Flags: W
@@ -33,6 +33,7 @@ SplineSet
  204 1394 146 1452 146 1536 c 0xfa
  146 1620 204 1678 288 1678 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

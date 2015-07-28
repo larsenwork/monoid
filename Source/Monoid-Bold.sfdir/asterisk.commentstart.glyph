@@ -1,0 +1,14 @@
+StartChar: asterisk.commentstart
+Encoding: 1114250 -1 743
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 192 256<128 438>
+LayerCount: 4
+Back
+Fore
+Refer: 65 42 S 1 0 0 1 -256 0 2
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

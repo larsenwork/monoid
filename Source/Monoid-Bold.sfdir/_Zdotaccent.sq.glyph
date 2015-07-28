@@ -1,5 +1,5 @@
 StartChar: Zdotaccent.sq
-Encoding: 1114239 -1 731
+Encoding: 1114236 -1 729
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  492 1396 434 1454 434 1538 c 0
  434 1622 492 1680 576 1680 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

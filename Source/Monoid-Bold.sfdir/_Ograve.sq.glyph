@@ -1,5 +1,5 @@
 StartChar: Ograve.sq
-Encoding: 1114188 -1 680
+Encoding: 1114185 -1 678
 Width: 1024
 VWidth: 0
 Flags: W
@@ -33,6 +33,7 @@ SplineSet
  562 1664 l 1
  704 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

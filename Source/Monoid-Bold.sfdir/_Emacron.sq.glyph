@@ -1,5 +1,5 @@
 StartChar: Emacron.sq
-Encoding: 1114205 -1 697
+Encoding: 1114202 -1 695
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  192 1412 l 1
  192 1612 l 1xf8
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

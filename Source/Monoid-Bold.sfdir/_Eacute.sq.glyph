@@ -1,5 +1,5 @@
 StartChar: Eacute.sq
-Encoding: 1114180 -1 672
+Encoding: 1114177 -1 670
 Width: 1024
 VWidth: 0
 Flags: W
@@ -28,6 +28,7 @@ SplineSet
  602 1408 l 1
  384 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

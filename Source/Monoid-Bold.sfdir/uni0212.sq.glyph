@@ -1,5 +1,5 @@
 StartChar: uni0212.sq
-Encoding: 1114250 -1 742
+Encoding: 1114247 -1 740
 Width: 1024
 VWidth: 0
 Flags: W
@@ -38,6 +38,7 @@ SplineSet
  728 1460 679 1500 576 1500 c 0
  473 1500 424 1460 424 1408 c 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,9 +1,9 @@
 StartChar: Iacute.sq
-Encoding: 1114184 -1 677
-Width: 1024
+Encoding: 1114182 -1 676
+Width: 884
 VWidth: 0
 Flags: W
-HStem: 0 120<139 395 523 756> 1160 120<365 597 725 981> 1408 21G<650.859 798>
+HStem: 0 120<139 395 523 756> 1160 120<365 597 725 981> 1408 21G<622 776.797>
 LayerCount: 5
 Back
 Fore
@@ -21,12 +21,13 @@ SplineSet
  341 1160 l 5
  365 1280 l 5
  1005 1280 l 5
-798 1408 m 1
- 660 1408 l 1
- 543 1664 l 1
- 681 1664 l 1
- 798 1408 l 1
+622 1408 m 1
+ 837 1664 l 1
+ 975 1664 l 1
+ 760 1408 l 1
+ 622 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
