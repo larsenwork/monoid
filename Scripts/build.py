@@ -36,16 +36,14 @@ conflicting(
 
 # ss01
 option('Dollar', 'Alt $', Swap("dollar", "dollar.empty"))
-# ss02
-option('Asterisk', 'Alt asterisk', Swap("asterisk", "asterisk.multi"))
 # ss03
 option('0', 'Alt 0', Swap("zero", "zero.dot"))
 # ss05
 option('1', 'Alt 1', Swap("one", "one.base"))
-# ss06
-option('3', 'Alt 3', Swap("three", "three.russian"))
 # ss08
 option('l', 'Alt l', Swap("l", "l.zstyle"))
+# ss14
+option('Squeeze', 'Squeezed capitals with diacritics', Swap("l", "l.zstyle"))
 # no calt
 option('NoCalt', 'Turn off contextual alternates', DropCAltAndLiga())
 

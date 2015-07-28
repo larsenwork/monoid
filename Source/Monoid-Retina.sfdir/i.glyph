@@ -28,6 +28,7 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss07' Style Set 7 lookup 6 subtable" i.flyingdot
 Position2: "Single Positioning lookup 26 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 20 subtable" dx=64 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 19 subtable" dx=64 dy=0 dh=0 dv=0
