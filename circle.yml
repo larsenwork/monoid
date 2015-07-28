@@ -1,9 +1,7 @@
 general:
   branches:
-    ignore:
-      - release
-      - gh-pages
-      - release-template
+    only:
+      - master
 machine:
   services:
     - docker
