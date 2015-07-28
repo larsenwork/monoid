@@ -1,6 +1,7 @@
 ![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png)
-<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
+<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Supported Programs</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
+<p align="center">[![version](https://img.shields.io/badge/version-0.55-brightgreen.svg)](#font_log) [![license](https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg)](#license)</p>
 <a name="guide"></a>
 <p>&nbsp;</p>
 #Guide
@@ -38,7 +39,9 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 #Ligature Support
 
 ###Code Editors
-I'm using opentype features `calt` + `liga` to create the ligatures. These are unfortunately not supported by all editors. You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
+I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all editors.
+
+You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
 
 > Please add your findings to this readme if it isn't already there.
 
