@@ -1,0 +1,17 @@
+StartChar: Ugrave
+Encoding: 217 217 64
+GlifName: U_grave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1408 256<486 562>
+VStem: 128 256<303.02 1280> 296 408 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 120 768 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

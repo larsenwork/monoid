@@ -1,0 +1,36 @@
+StartChar: uni0200.sq
+Encoding: 1114241 -1 734
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<186 884> 1160 120<257 914> 1411 21G<611.703 816.109>
+LayerCount: 5
+Back
+Fore
+SplineSet
+233 1160 m 1
+ 257 1280 l 1
+ 1113 1280 l 1
+ 1095 1190 l 1
+ 188 130 l 5
+ 186 120 l 5
+ 907 120 l 1
+ 884 0 l 1
+ -12 0 l 1
+ 6 92 l 1
+ 913 1150 l 1
+ 914 1160 l 1
+ 233 1160 l 1
+631 1411 m 1
+ 384 1667 l 1
+ 542 1667 l 1
+ 728 1503 l 1
+ 978 1667 l 1
+ 1136 1667 l 1
+ 789 1411 l 1
+ 631 1411 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,33 @@
+StartChar: Z
+Encoding: 90 90 41
+GlifName: Z_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<433 1024> 1040 240<148 699>
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+148 1040 m 1
+ 148 1280 l 1
+ 1004 1280 l 1
+ 1004 1070 l 1
+ 433 250 l 1
+ 433 240 l 1
+ 1024 240 l 1
+ 1024 0 l 1
+ 128 0 l 1
+ 128 212 l 1
+ 699 1030 l 1
+ 699 1040 l 1
+ 148 1040 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

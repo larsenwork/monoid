@@ -1,0 +1,17 @@
+StartChar: Edieresis
+Encoding: 203 203 53
+GlifName: E_dieresis
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<448 960> 524 240<448 832> 1040 240<448 960> 1394 284<183.187 392.813 631.187 840.813>
+VStem: 146 284<1431.19 1640.81> 192 256<240 524 764 1040> 594 284<1431.19 1640.81>
+LayerCount: 5
+Back
+Fore
+Refer: 127 776 N 1 0 0 1 -64 128 2
+Refer: 23 69 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

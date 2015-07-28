@@ -1,0 +1,35 @@
+StartChar: Eacute
+Encoding: 201 201 51
+GlifName: E_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<320 960> 648 120<320 832> 1160 120<320 960> 1408 21G<424 574.969>
+VStem: 192 128<120 648 768 1160>
+LayerCount: 5
+Back
+Fore
+SplineSet
+192 1280 m 5
+ 960 1280 l 5
+ 960 1160 l 5
+ 320 1160 l 5
+ 320 768 l 5
+ 832 768 l 5
+ 832 648 l 5
+ 320 648 l 5
+ 320 120 l 5
+ 960 120 l 5
+ 960 0 l 5
+ 192 0 l 5
+ 192 1280 l 5
+424 1408 m 1
+ 590 1664 l 1
+ 728 1664 l 1
+ 562 1408 l 1
+ 424 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

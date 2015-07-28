@@ -1,0 +1,17 @@
+StartChar: Uhungarumlaut
+Encoding: 368 368 90
+GlifName: U_hungarumlaut
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1408 256<408 474 792 858>
+VStem: 128 256<303.02 1280> 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 129 779 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

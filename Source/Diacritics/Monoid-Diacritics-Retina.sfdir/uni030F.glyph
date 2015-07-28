@@ -1,0 +1,28 @@
+StartChar: uni030F
+Encoding: 783 783 241
+GlifName: uni030F_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1280 256
+AnchorPoint: "top" 576 1152 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+472 1280 m 1
+ 334 1280 l 1
+ 168 1536 l 1
+ 306 1536 l 1
+ 472 1280 l 1
+856 1280 m 1
+ 718 1280 l 1
+ 552 1536 l 1
+ 690 1536 l 1
+ 856 1280 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

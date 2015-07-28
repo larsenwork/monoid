@@ -1,0 +1,28 @@
+StartChar: K
+Encoding: 75 75 28
+GlifName: K_
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+502 768 m 5
+ 1052 -138 l 1029
+320 520 m 5
+ 1152 1806 l 1029
+384 1408 m 5
+ 384 0 l 5
+ 256 0 l 5
+ 256 1408 l 5
+ 384 1408 l 5
+512 752 m 5
+ 1052 -138 l 1029
+320 520 m 5
+ 1152 1806 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

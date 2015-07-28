@@ -1,0 +1,16 @@
+StartChar: grave
+Encoding: 96 96 17
+GlifName: grave
+Width: 1920
+VWidth: 0
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+216 1603 m 5
+ 576 768 l 1029
+EndSplineSet
+Layer: 3
+Layer: 4
+EndChar

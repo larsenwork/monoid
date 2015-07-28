@@ -1,0 +1,37 @@
+StartChar: Epsilontonos
+Encoding: 904 904 334
+GlifName: E_psilontonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 644 120<384 896> 1288 120<384 1024>
+VStem: 256 128<120 644 764 1288>
+CounterMasks: 1 e0
+LayerCount: 5
+Back
+Fore
+SplineSet
+60 1438 m 1
+ 155 1358 l 1
+ -51 1131 l 1
+ -126 1194 l 1
+ 60 1438 l 1
+256 1408 m 1
+ 1024 1408 l 1
+ 1024 1288 l 1
+ 384 1288 l 1
+ 384 764 l 1
+ 896 764 l 1
+ 896 644 l 1
+ 384 644 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+ 256 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

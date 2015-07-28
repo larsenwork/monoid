@@ -1,0 +1,18 @@
+StartChar: Udieresis
+Encoding: 220 220 67
+GlifName: U_dieresis
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1394 284<247.187 456.813 695.187 904.813>
+VStem: 128 256<303.02 1280> 210 284<1431.19 1640.81> 658 284<1431.19 1640.81> 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 127 776 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Udieresis.sqeeze
+EndChar

@@ -1,0 +1,17 @@
+StartChar: Uacute
+Encoding: 218 218 65
+GlifName: U_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1408 256<590 666>
+VStem: 128 256<303.02 1280> 448 408 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 121 769 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,17 +1,6 @@
-<table>
-    <tr>
-        <td colspan="6"><img width="100%" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid1.png" /></td>
-    </tr>
-    <tr>
-        <td><a href="http://larsenwork.com/monoid/">WebPage</a></td>
-        <td><a href="#guide">Guide</a></td>
-        <td><a href="#liga">Ligature Support</a></td>
-        <td><a href="#links">Links</a></td>
-        <td><a href="#font_log">Log</a></td>
-        <td><a href="#license">License</a></td>
-    </tr>
-</table>
-
+![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/Monoid1.png)
+<p align="center">[Webpage](http://larsenwork.com/monoid/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Guide](#guide)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ligature Support](#liga)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Links](#links)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Log](#font_log)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](#license)
+</p>
 <a name="guide"></a>
 ------
 #Guide
@@ -218,8 +207,14 @@ Remember to update the Font Log when you make contributions.
     </tr>
     <tr>
         <td>0.55</td>
-        <td>WIP</td>
+        <td></td>
         <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>RoadMap</td>
+        <td></td>
+        <td>Retina book (current regular) + regular.</td>
         <td>Andreas</td>
     </tr>
     <tr>

@@ -1,0 +1,33 @@
+StartChar: Ebreve.sq
+Encoding: 1114206 -1 699
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<203 820> 648 120<329 818> 1160 120<405 1045> 1412 120<350 966>
+LayerCount: 5
+Back
+Fore
+SplineSet
+301 1280 m 5
+ 1069 1280 l 5
+ 1045 1160 l 5
+ 405 1160 l 5
+ 329 768 l 5
+ 841 768 l 5
+ 818 648 l 5
+ 306 648 l 5
+ 203 120 l 5
+ 843 120 l 5
+ 820 0 l 5
+ 52 0 l 5
+ 301 1280 l 5
+350 1532 m 1
+ 990 1532 l 1
+ 966 1412 l 1
+ 326 1412 l 1
+ 350 1532 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

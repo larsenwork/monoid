@@ -1,0 +1,36 @@
+StartChar: percent
+Encoding: 37 37 44
+GlifName: percent
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+128 256 m 5
+ 1024 1152 l 1029
+EndSplineSet
+Fore
+Layer: 2
+SplineSet
+128 1408 m 5
+ 1024 1408 l 5
+ 1024 0 l 5
+ 128 0 l 5
+ 128 1408 l 5
+EndSplineSet
+Layer: 3
+SplineSet
+768 468 m 4
+ 890.525 468 976 381.08828125 976 256 c 4
+ 976 130.91171875 890.525 44 768 44 c 4
+ 645.475 44 560 130.91171875 560 256 c 4
+ 560 381.08828125 645.475 468 768 468 c 4
+128 434 m 1
+ 1024 1130 l 1
+ 1024 974 l 1
+ 128 278 l 1
+ 128 434 l 1
+EndSplineSet
+Layer: 4
+EndChar

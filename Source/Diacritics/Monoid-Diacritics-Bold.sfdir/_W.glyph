@@ -1,0 +1,39 @@
+StartChar: W
+Encoding: 87 87 39
+GlifName: W_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<172 486.588 665.412 980>
+VStem: 119 254<720.129 1280> 779 254<720.129 1280>
+AnchorPoint: "top" 576 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+484 640 m 1
+ 668 640 l 1
+ 735 311 l 1
+ 745 311 l 1
+ 771 609.561531449 779 942.572470374 779 1280 c 5
+ 1033 1280 l 5
+ 1033 850 1006 423.636363636 954 0 c 1
+ 670 0 l 1
+ 581 388 l 1
+ 571 388 l 1
+ 482 0 l 1
+ 198 0 l 1
+ 146 423.636363636 119 850 119 1280 c 5
+ 373 1280 l 5
+ 373 942.572470374 381 609.561531449 407 311 c 1
+ 417 311 l 1
+ 484 640 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss10' Style Set 10 lookup 9 subtable" W.straight
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

@@ -1,0 +1,17 @@
+StartChar: uni045D
+Encoding: 1117 1117 226
+GlifName: uni045D_
+Width: 1024
+VWidth: 0
+Flags: HW
+HStem: 0 21G<256 393.664 768 896> 1004 20G<256 384 759.31 896> 1152 256
+VStem: 256 128<250 1024> 360 304 768 128<0 774>
+LayerCount: 5
+Back
+Fore
+Refer: 120 768 N 1 0 0 1 0 -128 2
+Refer: 177 1080 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

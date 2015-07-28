@@ -1,0 +1,23 @@
+StartChar: uni0307
+Encoding: 775 775 126
+GlifName: uni0307
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1268 284<471.187 680.813>
+VStem: 434 284<1305.19 1514.81>
+AnchorPoint: "top" 576 1152 mark 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+576 1552 m 0
+ 660 1552 718 1494 718 1410 c 0
+ 718 1326 660 1268 576 1268 c 0
+ 492 1268 434 1326 434 1410 c 0
+ 434 1494 492 1552 576 1552 c 0
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

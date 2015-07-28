@@ -1,0 +1,18 @@
+StartChar: Atilde
+Encoding: 195 195 45
+GlifName: A_tilde
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<105 369.672 782.323 1047> 272 240<439.896 711.992> 1412 190<556.009 765.591> 1470 190<386.409 595.991>
+LayerCount: 5
+Back
+Refer: 19 65 N 1 0 0 1 0 0 3
+Fore
+Refer: 123 771 N 1 0 0 1 0 128 2
+Refer: 19 65 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Atilde.sqeeze
+EndChar

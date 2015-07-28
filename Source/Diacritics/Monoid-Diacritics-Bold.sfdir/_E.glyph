@@ -1,0 +1,34 @@
+StartChar: E
+Encoding: 69 69 23
+GlifName: E_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<448 960> 524 240<448 832> 1040 240<448 960>
+VStem: 192 256<240 524 764 1040>
+AnchorPoint: "top" 512 1280 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+192 1280 m 5
+ 960 1280 l 5
+ 960 1040 l 5
+ 448 1040 l 5
+ 448 764 l 5
+ 832 764 l 5
+ 832 524 l 5
+ 448 524 l 5
+ 448 240 l 5
+ 960 240 l 5
+ 960 0 l 5
+ 192 0 l 5
+ 192 1280 l 5
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 18 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

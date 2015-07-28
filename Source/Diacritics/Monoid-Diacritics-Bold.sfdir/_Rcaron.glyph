@@ -1,0 +1,17 @@
+StartChar: Rcaron
+Encoding: 344 344 111
+GlifName: R_caron
+Width: 1024
+VWidth: 0
+Flags: HW
+HStem: 0 21G<256 384 920.073 1065> 512 120<384 697.189> 1160 120<384 800.83> 1408 21G<473.797 678.203>
+VStem: 256 128<0 512 632 1160> 912 128<745.363 1047.29>
+LayerCount: 5
+Back
+Fore
+Refer: 130 780 N 1 0 0 1 0 128 2
+Refer: 34 82 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

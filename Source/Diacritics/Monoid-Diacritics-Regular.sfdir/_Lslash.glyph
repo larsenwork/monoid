@@ -1,0 +1,30 @@
+StartChar: Lslash
+Encoding: 321 321 137
+GlifName: L_slash
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+128 491 m 5
+ 384 674 l 5
+ 384 1408 l 5
+ 512 1408 l 5
+ 512 765 l 5
+ 768 948 l 5
+ 768 797 l 5
+ 512 614 l 5
+ 512 120 l 5
+ 1024 120 l 5
+ 1024 0 l 5
+ 384 0 l 5
+ 384 523 l 5
+ 128 340 l 5
+ 128 491 l 5
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

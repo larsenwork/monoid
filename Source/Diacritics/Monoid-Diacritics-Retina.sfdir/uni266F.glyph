@@ -1,0 +1,23 @@
+StartChar: uni266F
+Encoding: 9839 9839 354
+GlifName: uni266F_
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+192 832 m 5
+ 960 1088 l 1029
+192 312 m 5
+ 960 568 l 1029
+768 1472 m 5
+ 768 64 l 1029
+384 1344 m 5
+ 384 -64 l 1029
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

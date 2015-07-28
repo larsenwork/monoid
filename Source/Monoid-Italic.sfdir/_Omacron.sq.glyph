@@ -1,0 +1,36 @@
+StartChar: Omacron.sq
+Encoding: 1114221 -1 714
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<52 183.882 686.039 823.891> 1408 21G<611.625 816.031>
+LayerCount: 5
+Back
+Fore
+SplineSet
+180 0 m 1
+ 52 0 l 1
+ 301 1280 l 1
+ 428 1280 l 1
+ 733 260 l 1
+ 743 260 l 1
+ 941 1280 l 1
+ 1069 1280 l 1
+ 820 0 l 1
+ 692 0 l 1
+ 388 1020 l 5
+ 378 1020 l 5
+ 180 0 l 1
+631 1408 m 1
+ 383 1664 l 1
+ 541 1664 l 1
+ 728 1500 l 1
+ 977 1664 l 1
+ 1135 1664 l 1
+ 789 1408 l 1
+ 631 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

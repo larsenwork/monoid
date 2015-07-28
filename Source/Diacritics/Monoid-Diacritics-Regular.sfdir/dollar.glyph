@@ -1,0 +1,33 @@
+StartChar: dollar
+Encoding: 36 36 43
+GlifName: dollar
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+SplineSet
+620 -16 m 4
+ 486 -16 366 -2 250 16 c 5
+ 250 139 l 5
+ 364 121 492 104 620 104 c 4
+ 799 104 926 209 926 385 c 4
+ 926 508 857 597 768 632 c 4
+ 654 678 544 650 411 721 c 4
+ 304 778 226 895 226 1045 c 4
+ 226 1266 385 1424 620 1424 c 4
+ 756 1424 877 1410.85714286 990 1399 c 5
+ 990 1278 l 5
+ 878 1290.37037037 745 1304 620 1304 c 4
+ 455 1304 354 1198 354 1045 c 4
+ 354 942 405 863 477 825 c 4
+ 575 773 700 788 816 742 c 4
+ 945 691 1054 566 1054 385 c 4
+ 1054 143 869 -16 620 -16 c 4
+EndSplineSet
+Fore
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss01' Style Set 1 lookup 0 subtable" dollar.empty
+EndChar

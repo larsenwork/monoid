@@ -1,0 +1,17 @@
+StartChar: Uring
+Encoding: 366 366 89
+GlifName: U_ring
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1120 160<500.631 651.369> 1476 160<500.631 651.369>
+VStem: 128 256<303.02 1280> 318 168<1293.83 1462.17> 666 168<1293.83 1462.17> 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 128 778 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,21 @@
+StartChar: four
+Encoding: 52 52 53
+GlifName: four
+Width: 1920
+VWidth: 0
+Flags: H
+LayerCount: 5
+Back
+Fore
+Layer: 2
+SplineSet
+1024 448 m 29
+ 174 448 l 29
+ 384 1408 l 1053
+832 0 m 29
+ 832 1408 l 1053
+EndSplineSet
+Layer: 3
+Layer: 4
+Substitution2: "'ss12' Style Set 12 lookup 11 subtable" four.triangle
+EndChar

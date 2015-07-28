@@ -1,0 +1,27 @@
+StartChar: Nacute.sq
+Encoding: 1114219 -1 712
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<267 884> 1408 21G<366 520.797>
+LayerCount: 5
+Back
+Fore
+SplineSet
+116 0 m 1
+ 365 1280 l 5
+ 493 1280 l 5
+ 267 120 l 1
+ 907 120 l 1
+ 884 0 l 1
+ 116 0 l 1
+366 1408 m 1
+ 581 1664 l 1
+ 719 1664 l 1
+ 504 1408 l 1
+ 366 1408 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

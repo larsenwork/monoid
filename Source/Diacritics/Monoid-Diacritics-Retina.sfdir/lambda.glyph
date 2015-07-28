@@ -1,0 +1,32 @@
+StartChar: lambda
+Encoding: 955 955 323
+GlifName: lambda
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<204 365 788 948> 1304 120<256 451.753>
+VStem: 204 131<0 190.286> 817 131<0 201.927>
+LayerCount: 5
+Back
+Fore
+SplineSet
+608 909 m 1
+ 598 909 l 1
+ 472 624 395 313 335 0 c 1
+ 204 0 l 1
+ 273 348 360 698 517 1024 c 1
+ 568 1024 l 1
+ 520 1164 500 1227 453 1263 c 0
+ 418 1290 338 1304 256 1304 c 1
+ 256 1424 l 1
+ 411 1424 492 1391 547 1345 c 0
+ 608 1294 644 1201 677 1097 c 0
+ 812 673 878 369 948 0 c 1
+ 817 0 l 1
+ 759 307 696 610 608 909 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

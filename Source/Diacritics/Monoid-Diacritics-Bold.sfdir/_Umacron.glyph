@@ -1,0 +1,17 @@
+StartChar: Umacron
+Encoding: 362 362 87
+GlifName: U_macron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<457.921 694.079> 1412 200<256 896>
+VStem: 128 256<303.02 1280> 768 256<303.02 1280>
+LayerCount: 5
+Back
+Fore
+Refer: 124 772 N 1 0 0 1 0 128 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

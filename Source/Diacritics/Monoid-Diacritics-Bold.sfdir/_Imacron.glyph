@@ -1,0 +1,17 @@
+StartChar: Imacron
+Encoding: 298 298 99
+GlifName: I_macron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960> 1412 200<256 896>
+VStem: 448 256<240 1040>
+LayerCount: 5
+Back
+Fore
+Refer: 124 772 N 1 0 0 1 0 128 2
+Refer: 26 73 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,17 @@
+StartChar: Scaron
+Encoding: 352 352 115
+GlifName: S_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 240<191.397 692.274> 1030 21G<870 926> 1056 240<451.162 920.716> 1408 256<427 448 704 725>
+VStem: 162 256<818.823 1021.41> 734 256<267.399 478.189>
+LayerCount: 5
+Back
+Fore
+Refer: 130 780 N 1 0 0 1 0 128 2
+Refer: 35 83 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

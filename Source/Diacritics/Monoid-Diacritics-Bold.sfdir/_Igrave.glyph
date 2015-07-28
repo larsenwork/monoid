@@ -1,0 +1,17 @@
+StartChar: Igrave
+Encoding: 204 204 54
+GlifName: I_grave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960> 1408 256<486 562>
+VStem: 296 408 448 256<240 1040>
+LayerCount: 5
+Back
+Fore
+Refer: 120 768 N 1 0 0 1 0 128 2
+Refer: 26 73 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

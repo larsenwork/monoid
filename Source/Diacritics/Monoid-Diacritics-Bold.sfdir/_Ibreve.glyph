@@ -1,0 +1,17 @@
+StartChar: Ibreve
+Encoding: 300 300 100
+GlifName: I_breve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<192 448 704 960> 1040 240<192 448 704 960> 1392 180<443.571 708.429>
+VStem: 448 256<240 1040>
+LayerCount: 5
+Back
+Fore
+Refer: 125 774 N 1 0 0 1 0 128 2
+Refer: 26 73 N 1 0 0 1 0 0 3
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

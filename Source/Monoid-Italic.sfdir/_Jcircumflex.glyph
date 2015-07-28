@@ -4,12 +4,11 @@ GlifName: J_circumflex
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<136.723 555.302> 1388 20G<898.116 1030> 1536 256
+HStem: -12 120<253.695 589.288> 1288 120<454 942> 1536 256
 LayerCount: 3
 Back
 Fore
-Refer: 295 770 N 1 0 0 1 301 256 2
+Refer: 295 770 N 1 0 0 1 39 256 2
 Refer: 38 74 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 EndChar

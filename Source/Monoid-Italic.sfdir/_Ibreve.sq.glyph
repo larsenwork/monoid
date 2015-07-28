@@ -1,0 +1,33 @@
+StartChar: Ibreve.sq
+Encoding: 1114215 -1 708
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<139 395 523 756> 1160 120<365 597 725 981> 1412 120<414 1030>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1005 1280 m 5
+ 981 1160 l 5
+ 725 1160 l 5
+ 523 120 l 1
+ 779 120 l 1
+ 756 0 l 1
+ 116 0 l 1
+ 139 120 l 1
+ 395 120 l 1
+ 597 1160 l 5
+ 341 1160 l 5
+ 365 1280 l 5
+ 1005 1280 l 5
+414 1532 m 1
+ 1054 1532 l 1
+ 1030 1412 l 1
+ 390 1412 l 1
+ 414 1532 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
