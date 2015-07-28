@@ -27,7 +27,7 @@ Quit your editor/program. Unzip and open the folder.
 1. Right click the .ttf files
 2. Install
 
-#####Linux 
+#####Linux
 1. Copy the .ttf files to your fonts-directory
 2. Run `sudo fc-cache`
 
@@ -219,7 +219,7 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>0.55</td>
         <td>WIP</td>
-        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
+        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
         <td>Andreas</td>
     </tr>
     <tr>

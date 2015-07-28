@@ -1,6 +1,5 @@
-StartChar: equalmore
-Encoding: 1114132 -1 633
-GlifName: equalmore
+StartChar: equal.unchanged
+Encoding: 1114171 -1 676
 Width: 1024
 VWidth: 0
 Flags: W
@@ -10,13 +9,13 @@ Back
 Fore
 SplineSet
 256 380 m 1
- 896 380 l 1
- 896 260 l 1
+ 896 380 l 5
+ 896 260 l 5
  256 260 l 1
  256 380 l 1
 256 892 m 1
- 896 892 l 1
- 896 772 l 1
+ 896 892 l 5
+ 896 772 l 5
  256 772 l 1
  256 892 l 1
 EndSplineSet

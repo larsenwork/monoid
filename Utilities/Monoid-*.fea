@@ -24,7 +24,7 @@ feature ss05 {
 } ss05;
 
 feature ss06 {
-  sub three by three.russian;
+  sub three by three.boob;
 } ss06;
 
 feature ss07 {
@@ -57,8 +57,8 @@ feature ss12 {
 } ss12;
 
 feature ss13 {
-  sub six by six.straighter;
-  sub nine by nine.straighter;
+  sub six by six.round;
+  sub nine by nine.round;
 } ss13;
 
 feature liga {
@@ -114,6 +114,8 @@ feature calt {
     sub larsenwork2 equal' by notequalliga;
 
   # <=
+    ignore sub less' equal greater;
+    ignore sub less equal' greater;
     sub less' equal by larsenwork3;
     sub larsenwork3 equal' by lessequalliga;
 
@@ -121,56 +123,85 @@ feature calt {
     sub greater' equal by larsenwork4;
     sub larsenwork4 equal' by greaterequalliga;
 
-  # ==
-    # sub equal' equal by equalmore;
-    # sub equalmore equal' by equalmore;
-
   # =>
     sub equal' greater by larsenwork2;
     sub larsenwork2 greater' by ligaequalarrow;
+
+  # -=
+    sub hyphen' equal by hyphen.operator;
 
   # --
     sub hyphen' hyphen by hyphenmore;
     sub hyphenmore hyphen' by hyphenmore;
 
   # mm
+    ignore sub m' m m;
+    ignore sub m m' m;
     sub m' m by mm;
     sub mm m' by larsenwork;
 
   # &&
+    ignore sub ampersand' ampersand ampersand;
+    ignore sub ampersand ampersand' ampersand;
     sub ampersand' ampersand by ampamp;
     sub ampamp ampersand' by larsenwork6;
 
+  # .&
+    sub period ampersand' by ampersand.method;
+
+  # *.
+    sub asterisk' period by asterisk.period;
+
   # ||
+    ignore sub bar' bar bar;
+    ignore sub bar bar' bar;
     sub bar' bar by bar1;
     sub bar1 bar' by bar2;
 
   # ...
+    ignore sub period' period period period;
+    ignore sub period period' period period;
+    ignore sub period period period' period;
     sub period' period period by larsenwork;
     sub larsenwork period' period by larsenwork;
     sub larsenwork larsenwork period' by dotdotdot;
+
+  # ..<
+    sub period' period less by larsenwork;
+    sub larsenwork period' less by larsenwork;
+    sub larsenwork larsenwork less' by rangeless;
 
   # ..
     sub period' period by period2l;
     sub period2l period' by period2r;
 
   # >>
+    ignore sub greater' greater greater;
+    ignore sub greater greater' greater;
     sub greater' greater by greater1;
     sub greater1 greater' by greater2;
 
   # <<
+    ignore sub less' less less;
+    ignore sub less less' less;
     sub less' less by less1;
     sub less1 less' by less2;
 
-  # ///
-    sub slash' slash slash by larsenwork1;
-    sub larsenwork1 slash' slash by larsenwork1;
-    sub larsenwork1 larsenwork1 slash' by ligatrippleslash;
-
   # //
+    ignore sub slash' slash slash;
+    ignore sub slash slash' slash;
     ignore sub colon slash' slash;
     sub slash' slash by larsenwork;
     sub larsenwork slash' by ligadoubleslash;
+
+  # /*
+    sub slash asterisk' by asterisk.commentstart;
+
+  # /**
+    sub asterisk.commentstart asterisk' by asterisk.commentstart;
+
+  # */
+    sub asterisk' slash by asterisk.commentend;
 
   # social
     sub d' download by larsenwork;

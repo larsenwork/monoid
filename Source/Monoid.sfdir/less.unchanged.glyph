@@ -1,0 +1,24 @@
+StartChar: less.unchanged
+Encoding: 1114172 -1 677
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+389 571 m 1
+ 900 95 l 1
+ 814 5 l 1
+ 256 531 l 1
+ 256 621 l 1
+ 814 1147 l 1
+ 900 1057 l 1
+ 389 581 l 1
+ 389 571 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
