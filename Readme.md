@@ -54,7 +54,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures. These are u
 * Atom - All platforms
 * Eclipse - All platforms
 * gEdit - Linux
-* xCode - Mac
+* Xcode - Mac
 
 #####Not working
 * Gnome Terminal - Linux
