@@ -1,12 +1,12 @@
 ![Monoid](https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png)
-<p align="center">[Webpage](http://larsenwork.com/monoid/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Guide](#guide)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ligature Support](#liga)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Links](#links)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Log](#font_log)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](#license)
+<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
 <a name="guide"></a>
 <p>&nbsp;</p>
 #Guide
 
 ###Download
-Visit [larsenwork.com/monoid](http://larsenwork.com/monoid)
+[larsenwork.com/monoid](http://larsenwork.com/monoid)
 
 ###Install
 Quit your editor/program. Unzip and open the folder.
