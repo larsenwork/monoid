@@ -37,10 +37,13 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 69 subtable" less2
-Substitution2: "Single Substitution lookup 68 subtable" less1
-Substitution2: "Single Substitution lookup 63 subtable" rangeless
-Substitution2: "Single Substitution lookup 41 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 85 subtable" less2
+Substitution2: "Single Substitution lookup 84 subtable" less1
+Substitution2: "Single Substitution lookup 79 subtable" rangeless
+Substitution2: "Single Substitution lookup 58 subtable" equallessless
+Substitution2: "Single Substitution lookup 57 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 51 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 44 subtable" larsenwork6
 Substitution2: "Single Substitution lookup 32 subtable" larsenwork2
 Substitution2: "Single Substitution lookup 27 subtable" larsenwork1
 Substitution2: "Single Substitution lookup 26 subtable" larsenwork1

@@ -43,7 +43,7 @@ option('1', 'Alt 1', Swap("one", "one.base"))
 # ss08
 option('l', 'Alt l', Swap("l", "l.zstyle"))
 # ss14
-option('Squeeze', 'Squeezed capitals with diacritics', SwapLookup("ss14"))
+# option('Squeeze', 'Squeezed capitals with diacritics', SwapLookup("ss14"))
 # no calt
 option('NoCalt', 'Turn off contextual alternates', DropCAltAndLiga())
 

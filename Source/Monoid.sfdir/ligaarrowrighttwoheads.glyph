@@ -4,7 +4,7 @@ GlifName: ligaarrowrighttwoheads
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<-1664 64>
+HStem: 516 120<-1664 -64>
 LayerCount: 5
 Back
 Fore
@@ -18,17 +18,17 @@ SplineSet
  210 5 l 1
  124 95 l 1
  635 571 l 1
-64 516 m 1
- -1664 516 l 5
+-64 516 m 1
+ -1664 516 l 1
  -1664 636 l 5
- 64 636 l 1
- -388 1057 l 1
- -302 1147 l 1
- 256 621 l 1
- 256 531 l 1
- -302 5 l 1
- -388 95 l 1
- 64 516 l 1
+ -64 636 l 1
+ -516 1057 l 1
+ -430 1147 l 1
+ 128 621 l 1
+ 128 531 l 1
+ -430 5 l 1
+ -516 95 l 1
+ -64 516 l 1
 EndSplineSet
 Validated: 1
 Layer: 2
