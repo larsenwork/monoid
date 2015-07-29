@@ -59,7 +59,7 @@ body {
   font-family: "Monoid Regular", monospace;
   color: #535353;
   background-color: white;
-  font-size: 15px;
+  font-size: 12px;
   -webkit-font-feature-settings: "liga" 1, "calt" 1;
   font-feature-settings: "liga" 1, "calt" 1;
 }
@@ -100,7 +100,7 @@ h1, h2, h3 {
 h1 {
   font-weight: bold;
   font-family: "Monoid Bold", monospace;
-  font-size: 26vmin;
+  font-size: 22vmin;
   letter-spacing: calc(-26vmin / 30);
   margin-top: 8vh;
 }
@@ -117,7 +117,7 @@ h2 {
 h3 {
   font-weight: normal;
   font-family: "Monoid Italic", monospace;
-  font-size: 6vmin;
+  font-size: 5vmin;
   -webkit-font-feature-settings: "ss11";
   font-feature-settings: "ss11";
 }
