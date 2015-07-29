@@ -22,10 +22,20 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Substitution2: "Single Substitution lookup 45 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 44 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 42 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 40 subtable" notequalliga
-Substitution2: "Single Substitution lookup 38 subtable" notequaltypeliga
-Substitution2: "Single Substitution lookup 37 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 68 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 67 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 63 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 62 subtable" greatergreaterequal
+Substitution2: "Single Substitution lookup 59 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 57 subtable" equal.after
+Substitution2: "Single Substitution lookup 56 subtable" equalcolonequal
+Substitution2: "Single Substitution lookup 54 subtable" larsenwork7
+Substitution2: "Single Substitution lookup 53 subtable" leftarrowequallong
+Substitution2: "Single Substitution lookup 52 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 49 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 48 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 46 subtable" equal.wide
+Substitution2: "Single Substitution lookup 44 subtable" notequalliga
+Substitution2: "Single Substitution lookup 42 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 41 subtable" larsenwork1
 EndChar

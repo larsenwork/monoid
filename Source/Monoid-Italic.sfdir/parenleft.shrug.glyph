@@ -1,0 +1,21 @@
+StartChar: parenleft.shrug
+Encoding: 1114265 -1 759
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 204 130<263.717 751.345>
+LayerCount: 3
+Back
+Fore
+SplineSet
+334 486 m 4
+ 334 235 437 63 615 -35 c 5
+ 540 -140 l 5
+ 329 -27 204 173 204 465 c 4
+ 204 1045 568 1428 868 1546 c 5
+ 902 1441 l 5
+ 652 1341 334 1000 334 486 c 4
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

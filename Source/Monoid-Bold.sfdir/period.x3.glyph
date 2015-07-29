@@ -1,0 +1,33 @@
+StartChar: period.x3
+Encoding: 1114134 -1 625
+GlifName: period2
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 360<-1536 -1152 -640 -256 256 640>
+VStem: -1536 384<0 360> -640 384<0 360> 256 384<0 360>
+CounterMasks: 1 70
+LayerCount: 4
+Back
+Fore
+SplineSet
+-1536 360 m 1
+ -1152 360 l 1
+ -1152 0 l 1
+ -1536 0 l 1
+ -1536 360 l 1
+-640 360 m 1
+ -256 360 l 1
+ -256 0 l 1
+ -640 0 l 1
+ -640 360 l 1
+256 360 m 5
+ 640 360 l 5
+ 640 0 l 5
+ 256 0 l 5
+ 256 360 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

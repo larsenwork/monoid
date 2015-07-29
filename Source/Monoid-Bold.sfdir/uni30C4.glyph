@@ -1,0 +1,32 @@
+StartChar: uni30C4
+Encoding: 12484 12484 762
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 967 250<1001.12 1139.2>
+LayerCount: 4
+Back
+Fore
+SplineSet
+739 913 m 5
+ 489 879 l 5
+ 437 1263 l 5
+ 687 1297 l 5
+ 739 913 l 5
+340 821 m 5
+ 112 715 l 5
+ -68 1099 l 5
+ 160 1205 l 5
+ 340 821 l 5
+336 63 m 5
+ 260 303 l 5
+ 445 361 613 475 737 624 c 4
+ 864 776 945 968 967 1166 c 5
+ 1217 1138 l 5
+ 1190 891 1090 654 931 462 c 4
+ 776 276 567 136 336 63 c 5
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

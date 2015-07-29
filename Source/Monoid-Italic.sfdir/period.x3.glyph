@@ -1,0 +1,30 @@
+StartChar: period.x3
+Encoding: 1114136 -1 629
+GlifName: period2
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<-1629 -1420 -733 -524 163 372>
+LayerCount: 3
+Back
+Fore
+SplineSet
+-1629 240 m 1
+ -1373 240 l 1
+ -1420 0 l 1
+ -1676 0 l 1
+ -1629 240 l 1
+-733 240 m 1
+ -477 240 l 1
+ -524 0 l 1
+ -780 0 l 1
+ -733 240 l 1
+163 240 m 5
+ 419 240 l 5
+ 372 0 l 5
+ 116 0 l 5
+ 163 240 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

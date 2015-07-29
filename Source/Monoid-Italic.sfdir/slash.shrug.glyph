@@ -1,0 +1,18 @@
+StartChar: slash.shrug
+Encoding: 1114264 -1 758
+Width: 884
+VWidth: 0
+Flags: W
+LayerCount: 3
+Back
+Fore
+SplineSet
+64 -160 m 5
+ -30 -96 l 5
+ 1185 1440 l 5
+ 1278 1376 l 5
+ 64 -160 l 5
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

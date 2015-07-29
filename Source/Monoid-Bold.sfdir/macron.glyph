@@ -4,16 +4,16 @@ GlifName: macron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1152 240<256 896>
+HStem: 1168 240<256 896>
 LayerCount: 4
 Back
 Fore
 SplineSet
-256 1392 m 1
- 896 1392 l 1
- 896 1152 l 1
- 256 1152 l 1
- 256 1392 l 1
+256 1408 m 5
+ 896 1408 l 5
+ 896 1168 l 5
+ 256 1168 l 5
+ 256 1408 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

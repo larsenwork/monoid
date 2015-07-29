@@ -29,7 +29,8 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 90 subtable" ligadoubleslash
-Substitution2: "Single Substitution lookup 89 subtable" larsenwork
+Substitution2: "Single Substitution lookup 99 subtable" ligadoubleslash
+Substitution2: "Single Substitution lookup 98 subtable" larsenwork
+Substitution2: "Single Substitution lookup 19 subtable" slash.shrug
 Position2: "Single Positioning lookup 23 subtable" dx=128 dy=0 dh=0 dv=0
 EndChar

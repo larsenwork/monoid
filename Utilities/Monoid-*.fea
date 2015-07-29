@@ -2,6 +2,7 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem kana dflt;
 
 feature ss01 {
   sub dollar by dollar.empty;
@@ -74,6 +75,12 @@ feature liga {
 
 feature calt {
 
+  # ¯\_(ツ)_/¯
+    sub macron backslash' underscore by backslash.shrug;
+    sub parenleft' uni30C4 by parenleft.shrug;
+    sub uni30C4 parenright' by parenright.shrug;
+    sub underscore slash' macron by slash.shrug;
+
   # <!--
     sub less' exclam hyphen hyphen by larsenwork5;
     sub larsenwork5 exclam' hyphen hyphen by larsenwork5;
@@ -106,11 +113,11 @@ feature calt {
 
   # <-
     sub less' hyphen by larsenwork2;
-    sub larsenwork2 hyphen' by ligaarrowleft;
+    sub larsenwork2 hyphen' by arrowleft.liga;
 
   # ->
     sub hyphen' greater by larsenwork;
-    sub larsenwork greater' by ligaarrowright;
+    sub larsenwork greater' by arrowright.liga;
 
   # !==
     ignore sub exclam' equal equal equal;
@@ -123,7 +130,7 @@ feature calt {
     sub larsenwork2 equal' by notequalliga;
 
   # <=>
-    sub less' equal' greater by less1;
+    sub less' equal greater by less1;
     sub less1 equal' greater by equal.wide;
     sub less1 equal.wide greater' by greater2;
 
@@ -175,16 +182,29 @@ feature calt {
     sub hyphen' equal by hyphen.operator;
 
   # --
-    sub hyphen' hyphen by hyphenmore;
-    sub hyphenmore hyphen' by hyphenmore;
+    sub hyphen' hyphen by hyphen.more;
+    sub hyphen.more hyphen' by hyphen.more;
+
+  # ___
+    sub underscore' underscore underscore by underscore.more;
+    sub underscore.more underscore' underscore by underscore.more;
+    sub underscore.more underscore.more underscore' by underscore.more;
+
+  # __
+    sub underscore' underscore by underscore.2l;
+    sub underscore.2l underscore' by underscore.2r;
 
   # mm
-    ignore sub m' m' m';
+    ignore sub m' m m;
+    ignore sub m m' m;
+    ignore sub m m m';
     sub m' m by mm;
     sub mm m' by larsenwork;
 
   # &&
-    ignore sub ampersand' ampersand' ampersand;
+    ignore sub ampersand' ampersand ampersand;
+    ignore sub ampersand ampersand' ampersand;
+    ignore sub ampersand ampersand ampersand';
     sub ampersand' ampersand by ampamp;
     sub ampamp ampersand' by larsenwork6;
 
@@ -195,15 +215,20 @@ feature calt {
     sub asterisk' period by asterisk.period;
 
   # ||
-    ignore sub bar' bar' bar;
+    ignore sub bar' bar bar;
+    ignore sub bar bar' bar;
+    ignore sub bar bar bar';
     sub bar' bar by bar1;
     sub bar1 bar' by bar2;
 
   # ...
-    ignore sub period' period' period' period;
+    ignore sub period' period period period;
+    ignore sub period period' period period;
+    ignore sub period period period' period;
+    ignore sub period period period period';
     sub period' period period by larsenwork;
     sub larsenwork period' period by larsenwork;
-    sub larsenwork larsenwork period' by dotdotdot;
+    sub larsenwork larsenwork period' by period.x3;
 
   # ..<
     sub period' period less by larsenwork;
@@ -211,21 +236,27 @@ feature calt {
     sub larsenwork larsenwork less' by rangeless;
 
   # ..
-    sub period' period by period2l;
-    sub period2l period' by period2r;
+    sub period' period by period.2l;
+    sub period.2l period' by period.2r;
 
   # >>
-    ignore sub greater' greater' greater;
+    ignore sub greater' greater greater;
+    ignore sub greater greater' greater;
+    ignore sub greater greater greater';
     sub greater' greater by greater1;
     sub greater1 greater' by greater2;
 
   # <<
-    ignore sub less' less' less;
+    ignore sub less' less less;
+    ignore sub less less' less;
+    ignore sub less less less';
     sub less' less by less1;
     sub less1 less' by less2;
 
   # //
-    ignore sub slash' slash' slash;
+    ignore sub slash' slash slash;
+    ignore sub slash slash' slash;
+    ignore sub slash slash slash';
     ignore sub colon slash' slash;
     sub slash' slash by larsenwork;
     sub larsenwork slash' by ligadoubleslash;

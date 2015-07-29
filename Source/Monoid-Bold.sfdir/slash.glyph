@@ -9,14 +9,15 @@ Back
 Fore
 SplineSet
 359 -197 m 25
- 122 -111 l 25
- 793 1605 l 25
+ 122 -111 l 29
+ 793 1605 l 29
  1030 1519 l 25
  359 -197 l 25
 EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 71 subtable" ligadoubleslash
-Substitution2: "Single Substitution lookup 70 subtable" larsenwork
+Substitution2: "Single Substitution lookup 99 subtable" ligadoubleslash
+Substitution2: "Single Substitution lookup 98 subtable" larsenwork
+Substitution2: "Single Substitution lookup 19 subtable" slash.shrug
 EndChar

@@ -1,0 +1,22 @@
+StartChar: parenright.shrug
+Encoding: 1114265 -1 758
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 768 256<463.523 942.477>
+LayerCount: 4
+Back
+Fore
+SplineSet
+505 1539 m 21
+ 825 1396 1024 1115 1024 703 c 4
+ 1024 291 825 10 505 -133 c 13
+ 400 78 l 21
+ 626 181 768 379 768 703 c 4
+ 768 1027 626 1225 400 1328 c 13
+ 505 1539 l 21
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

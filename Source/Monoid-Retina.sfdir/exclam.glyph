@@ -25,9 +25,9 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 39 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 36 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 17 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 43 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 40 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork5
 Position2: "Single Positioning lookup 26 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 20 subtable" dx=64 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 19 subtable" dx=64 dy=0 dh=0 dv=0

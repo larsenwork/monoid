@@ -1,0 +1,31 @@
+StartChar: rightarrowequallong
+Encoding: 1114261 -1 755
+Width: 884
+VWidth: 0
+Flags: W
+HStem: 260 120<-1730 212> 772 120<-1631 334>
+LayerCount: 3
+Back
+Fore
+SplineSet
+606 571 m 1
+ 608 581 l 1
+ 440 772 l 1
+ -1654 772 l 5
+ -1631 892 l 5
+ 334 892 l 1
+ 189 1057 l 1
+ 293 1147 l 1
+ 749 621 l 1
+ 731 531 l 1
+ 71 5 l 1
+ 2 95 l 1
+ 212 260 l 1
+ -1753 260 l 5
+ -1730 380 l 5
+ 364 380 l 1
+ 606 571 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+EndChar

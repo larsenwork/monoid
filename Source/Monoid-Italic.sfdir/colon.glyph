@@ -23,6 +23,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
+Substitution2: "Single Substitution lookup 55 subtable" larsenwork7
 Position2: "Single Positioning lookup 24 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 18 subtable" dx=64 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 17 subtable" dx=64 dy=0 dh=0 dv=0

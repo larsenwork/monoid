@@ -17,17 +17,17 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Substitution2: "Single Substitution lookup 49 subtable" hyphenmore
-Substitution2: "Single Substitution lookup 48 subtable" hyphenmore
-Substitution2: "Single Substitution lookup 47 subtable" hyphen.operator
-Substitution2: "Single Substitution lookup 34 subtable" larsenwork
-Substitution2: "Single Substitution lookup 33 subtable" ligaarrowleft
-Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 28 subtable" ligaarrowlefttwoheads
-Substitution2: "Single Substitution lookup 24 subtable" larsenwork
-Substitution2: "Single Substitution lookup 23 subtable" larsenwork
-Substitution2: "Single Substitution lookup 22 subtable" ligaarrowleftlong
-Substitution2: "Single Substitution lookup 21 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 19 subtable" commentstart
-Substitution2: "Single Substitution lookup 18 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 72 subtable" hyphen.more
+Substitution2: "Single Substitution lookup 71 subtable" hyphen.more
+Substitution2: "Single Substitution lookup 70 subtable" hyphen.operator
+Substitution2: "Single Substitution lookup 38 subtable" larsenwork
+Substitution2: "Single Substitution lookup 37 subtable" arrowleft.liga
+Substitution2: "Single Substitution lookup 33 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 32 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 28 subtable" larsenwork
+Substitution2: "Single Substitution lookup 27 subtable" larsenwork
+Substitution2: "Single Substitution lookup 26 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 25 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 23 subtable" commentstart
+Substitution2: "Single Substitution lookup 22 subtable" larsenwork5
 EndChar
