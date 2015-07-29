@@ -1,6 +1,6 @@
 <img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" height="382px" />
 <p align="center">
-<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.55-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.56-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
 </p>
 <p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
@@ -217,6 +217,12 @@ Remember to update the Font Log when you make contributions.
         <td>0.55</td>
         <td>2015.07.28</td>
         <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate, more ligatures and stuff.</td>
+        <td>Andreas</td>
+    </tr>
+    <tr>
+        <td>0.56</td>
+        <td>2015.07.29</td>
+        <td>Added more ligatures e.g. __ ___ ¯\_(ツ)_/¯ and fixed some ligature bugs.</td>
         <td>Andreas</td>
     </tr>
     <tr> 
