@@ -155,7 +155,7 @@ def SwapLookup(lookup):
                     glyph.foreground = fnt[sub].foreground
                     fnt[sub].foreground = swp
 
-    return swap_op
+    return swaplookup_op
 
 def DropCAltAndLiga():
     """Removes Contextual Alternates and Ligatures"""
