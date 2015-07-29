@@ -49,12 +49,12 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 ###Code Editors
 
-| Working | Not Working |
-|---|---|
-| Atom - All platforms | libvte based terminals - Linux |
-| Eclipse - All platforms | gVim - Linux |
-| gEdit - Linux | Xterm, Urxvt -Linux |
-| Xcode - Mac ||
+| Working | Partly Working | Not Working |
+|---|---|---|
+| Atom - All platforms | Visual Studio (ligatures with hyphens doesn't work) | libvte based terminals - Linux |
+| Eclipse - All platforms | | gVim - Linux |
+| gEdit - Linux | | Xterm, Urxvt -Linux |
+| Xcode - Mac | | |
 
 ###Browsers
 | Working | Partly Working | Not Working |
