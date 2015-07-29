@@ -43,10 +43,11 @@ Please fork and edit away. Use the also libre [FontForge](http://fontforge.githu
 <p>&nbsp;</p>
 #Ligature Support
 
-###Code Editors
-I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all editors.
+I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all programs.
 
-> Please add your findings to this readme if it isn't already there.
+> Please add your findings to this readme if it isn't here already.
+
+###Code Editors
 
 **:white_check_mark: Working**  
 Atom - All platforms  
