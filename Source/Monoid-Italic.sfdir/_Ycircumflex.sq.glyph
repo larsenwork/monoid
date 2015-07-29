@@ -1,10 +1,10 @@
 StartChar: Ycircumflex.sq
-Encoding: 1114234 -1 728
-Width: 884
+Encoding: 1114233 -1 728
+Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<372 503.903> 1408 21G<334 522.488 905.317 1086>
-VStem: 209 136<1099.86 1280>
+VStem: 209 136<1135.57 1280>
 LayerCount: 5
 Back
 Fore

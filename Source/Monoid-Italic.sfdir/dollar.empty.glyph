@@ -1,10 +1,10 @@
 StartChar: dollar.empty
-Encoding: 1114159 -1 652
+Encoding: 1114158 -1 652
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 114 118<183.007 394 523 626.686>
-VStem: 276 130<814.527 1059.33> 750 130<348.079 592.849>
+HStem: 117 115<225.219 394 523 612.778>
+VStem: 276 130<823.138 1043.74> 750 130<363.64 584.639>
 LayerCount: 3
 Back
 SplineSet

@@ -4,7 +4,8 @@ GlifName: tildecomb
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1284 120<769.655 897.743> 1412 120<522.093 649.986>
+HStem: 1284 120<776.279 892.541> 1412 120<527.242 643.335>
+VStem: 367 127<1305 1379.7> 926 127<1436.7 1511>
 AnchorPoint: "top" 665 1152 mark 0
 LayerCount: 3
 Back

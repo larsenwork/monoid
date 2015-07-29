@@ -4,8 +4,8 @@ GlifName: R_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<52 183.885 719.953 861> 520 120<304 588.098> 1288 120<430 796.883>
-VStem: 902 130<861.549 1186.12>
+HStem: 0 21G<52 183.885 719.953 861> 520 120<304 588.098> 1288 120<430 779.852>
+VStem: 902 130<878.829 1172.93>
 AnchorPoint: "top" 640 1408 basechar 0
 AnchorPoint: "bottom" 436 0 basechar 0
 LayerCount: 3

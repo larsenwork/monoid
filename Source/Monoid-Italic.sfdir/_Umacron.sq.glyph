@@ -1,10 +1,10 @@
 StartChar: Umacron.sq
-Encoding: 1114229 -1 723
-Width: 884
+Encoding: 1114228 -1 723
+Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<319.584 608.897> 1412 120<414 1030>
-VStem: 121 129<172.428 569.281>
+HStem: -16 120<329.247 597.719> 1412 120<414 1030>
+VStem: 121 129<181.485 519.406>
 LayerCount: 5
 Back
 Fore

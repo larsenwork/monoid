@@ -1,10 +1,10 @@
 StartChar: Zdotaccent.sq
-Encoding: 1114237 -1 731
-Width: 884
+Encoding: 1114236 -1 731
+Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<186 884> 1160 120<257 914> 1411 224<656.522 807.478>
-VStem: 617 230<1449.36 1596.64>
+HStem: 0 120<186 884> 1160 120<257 914> 1411 224<665.179 798.821>
+VStem: 617 230<1458.56 1587.44>
 LayerCount: 5
 Back
 Fore

@@ -4,8 +4,8 @@ GlifName: D_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<190 534.402> 1288 120<417 742.612>
-VStem: 885 120<658.636 1147.06>
+HStem: 0 120<190 513.596> 1288 120<417 728.147>
+VStem: 885 120<695.652 1130.53>
 AnchorPoint: "top" 704 1408 basechar 0
 LayerCount: 3
 Back

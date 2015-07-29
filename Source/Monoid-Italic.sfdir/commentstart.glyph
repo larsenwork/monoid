@@ -1,11 +1,11 @@
 StartChar: commentstart
-Encoding: 1114144 -1 636
+Encoding: 1114143 -1 636
 GlifName: commentend
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 288<-1671.23 -1502.77> 516 120<-2512 -1553 -1423 728> 1388 20G<-1415.65 -1264>
-VStem: -1734 294<46.8714 209.129>
+HStem: -16 288<-1661.28 -1512.72> 516 120<-2512 -1553 -1423 728> 1388 20G<-1415.65 -1264>
+VStem: -1734 294<58.4141 197.586>
 LayerCount: 3
 Back
 Fore

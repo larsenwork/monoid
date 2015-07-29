@@ -1,10 +1,10 @@
 StartChar: Uacute.sq
-Encoding: 1114192 -1 686
-Width: 884
+Encoding: 1114191 -1 686
+Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<319.584 608.897> 1408 21G<622 776.797>
-VStem: 121 129<172.428 569.281>
+HStem: -16 120<329.247 597.719> 1408 21G<622 776.797>
+VStem: 121 129<181.485 519.406>
 LayerCount: 5
 Back
 Fore

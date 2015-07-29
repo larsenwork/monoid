@@ -1,10 +1,10 @@
 StartChar: Uhungarumlaut.sq
-Encoding: 1114232 -1 726
-Width: 884
+Encoding: 1114231 -1 726
+Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<319.584 608.897> 1408 21G<430 584.797 814 968.797>
-VStem: 121 129<172.428 569.281>
+HStem: -16 120<329.247 597.719> 1408 21G<430 584.797 814 968.797>
+VStem: 121 129<181.485 519.406>
 LayerCount: 5
 Back
 Fore

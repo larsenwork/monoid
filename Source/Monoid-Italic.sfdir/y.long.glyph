@@ -1,10 +1,10 @@
 StartChar: y.long
-Encoding: 1114164 -1 657
+Encoding: 1114163 -1 657
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<202 406.988> 1004 20G<403 534 957 1147>
-VStem: 403 131<584.447 1024>
+HStem: -400 120<202 392.234> 1004 20G<403 534 957 1147>
+VStem: 403 131<649.244 1024>
 LayerCount: 3
 Back
 Fore

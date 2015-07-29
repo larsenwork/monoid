@@ -4,8 +4,8 @@ GlifName: U_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<320.2 608.997> 1388 20G<322.112 454 962.112 1094>
-VStem: 121 129<172.108 568.812>
+HStem: -16 120<329.872 597.812> 1388 20G<322.112 454 962.112 1094>
+VStem: 121 129<183.055 525.406>
 AnchorPoint: "top" 704 1408 basechar 0
 AnchorPoint: "bottom" 448 0 basechar 0
 LayerCount: 3
