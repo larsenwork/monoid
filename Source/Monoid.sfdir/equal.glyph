@@ -24,18 +24,19 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 61 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 60 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 56 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 55 subtable" greatergreaterequal
-Substitution2: "Single Substitution lookup 52 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 50 subtable" equal.wide
-Substitution2: "Single Substitution lookup 49 subtable" equalcolonequal
-Substitution2: "Single Substitution lookup 47 subtable" larsenwork7
-Substitution2: "Single Substitution lookup 46 subtable" leftarrowequallong
-Substitution2: "Single Substitution lookup 45 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 42 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 41 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 64 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 63 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 59 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 58 subtable" greatergreaterequal
+Substitution2: "Single Substitution lookup 55 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 53 subtable" equal.after
+Substitution2: "Single Substitution lookup 52 subtable" equalcolonequal
+Substitution2: "Single Substitution lookup 50 subtable" larsenwork7
+Substitution2: "Single Substitution lookup 49 subtable" leftarrowequallong
+Substitution2: "Single Substitution lookup 48 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 45 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 44 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 42 subtable" equal.wide
 Substitution2: "Single Substitution lookup 40 subtable" notequalliga
 Substitution2: "Single Substitution lookup 38 subtable" notequaltypeliga
 Substitution2: "Single Substitution lookup 37 subtable" larsenwork1

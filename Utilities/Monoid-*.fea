@@ -144,6 +144,9 @@ feature calt {
     sub larsenwork7 colon' equal by larsenwork7;
     sub larsenwork7 larsenwork7 equal' by equalcolonequal;
 
+  # :=
+    sub colon equal' by equal.after;
+
   # <=
     sub less' equal by larsenwork3;
     sub larsenwork3 equal' by lessequalliga;
