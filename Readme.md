@@ -53,9 +53,9 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 |---|---|---|
 | Atom | Visual Studio (liga with hyphens doesn't work) | libvte based terminals |
 | Brackets |  | gVim |
-| Eclipse |  | Sublime Text |
-| gEdit |  | Xterm, Urxvt |
-| UtralEdit |  |  |
+| Eclipse |  | NotePad++ |
+| gEdit |  | Sublime Text |
+| UtralEdit |  | Xterm, Urxvt |
 | Xcode |  |  |
 
 
