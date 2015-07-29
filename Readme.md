@@ -8,7 +8,7 @@
 <p>&nbsp;</p>
 #Guide
 
-###Download
+###Live Preview + Download
 [larsenwork.com/monoid](http://larsenwork.com/monoid)
 
 ###Install
