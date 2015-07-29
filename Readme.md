@@ -51,9 +51,9 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 | Working | Not Working |
 |---|---|
-| Atom - All platforms | Gnome Terminal - Linux |
+| Atom - All platforms | libvte based terminals - Linux |
 | Eclipse - All platforms | gVim - Linux |
-| gEdit - Linux ||
+| gEdit - Linux | Xterm, Urxvt -Linux |
 | Xcode - Mac ||
 
 ###Browsers
