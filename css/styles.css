@@ -343,7 +343,7 @@ label[for=ss08] {
   left: 0;
   right: 0;
   top: 0;
-  background-color: hsl(339, 48%, 50%);
+  background-color: hsla(341, 67%, 43%, 0.9); 
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   color: white;
   text-align: center;
