@@ -1,8 +1,8 @@
 <img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" height="382px" />
 <p align="center">
-<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.53-brightgreen.svg"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg"
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.53-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
 </p>
-<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Supported Programs</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
+<p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
 <a name="guide"></a>
 <p>&nbsp;</p>
@@ -48,29 +48,29 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 > Please add your findings to this readme if it isn't already there.
 
-**Confirmed working**  
+**:white_check_mark: Working**  
 Atom - All platforms  
 Eclipse - All platforms  
 gEdit - Linux  
 Xcode - Mac  
 
-**Not working** (use "Ligatures: Off" version)  
+**:x: Not Working** (use "Ligatures: Off" version)  
 Gnome Terminal - Linux  
 gVim - Linux  
 
 ###Browsers
-**Confirmed working**  
+**:white_check_mark: Working**  
 Chrome, Firefox and IE 10+
 
-**Partly working**  
+**:heavy_exclamation_mark: Partly Working**  
 Safari (enabled by default, you can't turn them off)
 
-**Not working**  
+**:x: Not Working**  
 IE <10
 
-###Other Programs
+###Other Apps
 
-**Confirmed working**  
+**:white_check_mark: Working**  
 Adobe CS/CC - Win, Mac  
 Affinity Designer  
 LibreOffice Writer - Linux  
