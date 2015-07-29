@@ -1,6 +1,6 @@
 <img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" height="382px" />
 <p align="center">
-<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.53-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.55-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
 </p>
 <p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
