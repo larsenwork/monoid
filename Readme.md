@@ -52,9 +52,12 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 | Working | Partly Working | Not Working |
 |---|---|---|
 | Atom | Visual Studio (liga with hyphens doesn't work) | libvte based terminals |
-| Eclipse | | gVim |
-| gEdit | | Xterm, Urxvt |
-| Xcode | | |
+| Brackets |  | gVim |
+| Eclipse |  | Sublime Text |
+| gEdit |  | Xterm, Urxvt |
+| UtralEdit |  |  |
+| Xcode |  |  |
+
 
 ###Browsers
 | Working | Partly Working | Not Working |
