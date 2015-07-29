@@ -49,33 +49,29 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 ###Code Editors
 
-**:white_check_mark: Working**  
-Atom - All platforms  
-Eclipse - All platforms  
-gEdit - Linux  
-Xcode - Mac  
-
-**:x: Not Working** (use "Ligatures: Off" version)  
-Gnome Terminal - Linux  
-gVim - Linux  
+| Working | Not Working |
+|---|---|
+| Atom - All platforms | Gnome Terminal - Linux |
+| Eclipse - All platforms | gVim - Linux |
+| gEdit - Linux ||
+| Xcode - Mac ||
 
 ###Browsers
-**:white_check_mark: Working**  
-Chrome, Firefox and IE 10+
+| Working | Partly Working | Not Working |
+|---|---|---|
+| Chrome | Safari (enabled by default, you can't turn them off) | IE <10 |
+| FireFox | | |
+| IE 10+ | | |
 
-**:heavy_exclamation_mark: Partly Working**  
-Safari (enabled by default, you can't turn them off)
-
-**:x: Not Working**  
-IE <10
 
 ###Other Apps
 
-**:white_check_mark: Working**  
-Adobe CS/CC - Win, Mac  
-Affinity Designer  
-LibreOffice Writer - Linux  
-Text Edit - Mac  
+| Working |
+|---|
+| Adobe CS/CC - Win, Mac |
+| Affinity Designer |
+| LibreOffice Writer - Linux |
+| Text Edit - Mac |
 
 
 <a name="links"></a>
@@ -219,10 +215,15 @@ Remember to update the Font Log when you make contributions.
     </tr>
     <tr>
         <td>0.55</td>
-        <td></td>
-        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate squeezed capitals with diacritics, more ligatures and stuff.</td>
+        <td>2015.07.28</td>
+        <td>Updated characters (J, asterisks, quotation marks, 3, 6, 9, =), fixed long arrow length, alternate, more ligatures and stuff.</td>
         <td>Andreas</td>
     </tr>
+    <tr> 
+        <td>0.60</td>
+        <td></td>
+        <td>Squeezed capitals with diacritics</td>
+        <td>Andreas + Chase</td>
     <tr>
         <td>RoadMap</td>
         <td></td>
