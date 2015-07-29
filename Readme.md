@@ -51,10 +51,10 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 | Working | Partly Working | Not Working |
 |---|---|---|
-| Atom - All platforms | Visual Studio (ligatures with hyphens doesn't work) | libvte based terminals - Linux |
-| Eclipse - All platforms | | gVim - Linux |
-| gEdit - Linux | | Xterm, Urxvt -Linux |
-| Xcode - Mac | | |
+| Atom | Visual Studio (liga with hyphens doesn't work) | libvte based terminals |
+| Eclipse | | gVim |
+| gEdit | | Xterm, Urxvt |
+| Xcode | | |
 
 ###Browsers
 | Working | Partly Working | Not Working |
@@ -68,10 +68,10 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 | Working |
 |---|
-| Adobe CS/CC - Win, Mac |
+| Adobe CS/CC |
 | Affinity Designer |
-| LibreOffice Writer - Linux |
-| Text Edit - Mac |
+| LibreOffice Writer |
+| Text Edit |
 
 
 <a name="links"></a>
