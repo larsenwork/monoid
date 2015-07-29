@@ -27,11 +27,11 @@ conflicting(
 )
 
 conflicting(
-    option('XtraSmall', '13px', Line(1536, 128)),
-    option('Small', '14px', Line(1536, 256)),
-#   option('medium', 15px', Line(1664, 256)),
-    option('Large', '16px', Line(1664, 384)),
-    option('XtraLarge', '17px', Line(1792, 384))
+    option('XtraSmall', '13px', Line(1536, 256)),
+    option('Small', '14px', Line(1536, 384)),
+#   option('medium', 15px', Line(1664, 384)),
+    option('Large', '16px', Line(1664, 512)),
+    option('XtraLarge', '17px', Line(1792, 512))
 )
 
 # ss01

@@ -9,8 +9,8 @@ Version: 0.55
 ItalicAngle: -11
 UnderlinePosition: -384
 UnderlineWidth: 120
-Ascent: 1664
-Descent: 256
+Ascent: 1408
+Descent: 128
 InvalidEm: 0
 LayerCount: 3
 Layer: 0 0 "Back" 1
@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1438108496
+ModificationTime: 1438168123
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -32,16 +32,16 @@ VLineGap: 184
 Panose: 2 11 5 9 4 0 0 2 0 4
 OS2TypoAscent: 1664
 OS2TypoAOffset: 0
-OS2TypoDescent: -256
+OS2TypoDescent: -384
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1664
 OS2WinAOffset: 0
-OS2WinDescent: 256
+OS2WinDescent: 384
 OS2WinDOffset: 0
 HheadAscent: 1664
 HheadAOffset: 0
-HheadDescent: -256
+HheadDescent: -384
 HheadDOffset: 0
 OS2CapHeight: 0
 OS2XHeight: 0
@@ -928,7 +928,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113742 38 14
+WinInfo: 1113723 19 14
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate
