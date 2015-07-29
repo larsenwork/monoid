@@ -14,27 +14,30 @@
 ###Install
 Quit your editor/program. Unzip and open the folder.
 
-#####Mac + Linux (with font-viewer)
-1. Select the .ttf files and double click on them
+**Mac + Linux (with font-viewer)**  
+1. Select the .ttf files and double click on them  
 2. Follow on-screen guide
 
-#####Windows
-1. Right click the .ttf files
+**Windows**  
+1. Right click the .ttf files  
 2. Install
 
-#####Linux
-1. Copy the .ttf files to your fonts-directory
-2. Run `sudo fc-cache`
+**Linux (manually)**  
+1. Copy the .ttf files to your fonts-directory  
+2. Run `sudo fc-cache`  
 
-#####Detailed Instructions
-* [How to Install, Remove, and Manage Fonts on Windows, Mac, and Linux](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/)
-* [Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
+**Detailed Instructions**  
+[How to Install, Remove, and Manage Fonts on Windows, Mac, and Linux](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/)  
+[Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
 
 ###Stylistic Alternates
 The font contains more alternates than available on the webpage - see [Monoid-*.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/Monoid-*.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
 ###Tips
-* Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+
+###Edit
+Please fork and edit away. Use the also libre [FontForge](http://fontforge.github.io/en-US/) and read [Design With FontForge](http://designwithfontforge.com/) to get started.
 
 <a name="liga"></a>
 <p>&nbsp;</p>
@@ -43,49 +46,49 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 ###Code Editors
 I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all editors.
 
-You need to use the "Ligatures: Off" version if you're experiencing problems related to the ligatures.
-
 > Please add your findings to this readme if it isn't already there.
 
-#####Confirmed working
-* Atom - All platforms
-* Eclipse - All platforms
-* gEdit - Linux
-* Xcode - Mac
+**Confirmed working**  
+Atom - All platforms  
+Eclipse - All platforms  
+gEdit - Linux  
+Xcode - Mac  
 
-#####Not working
-* Gnome Terminal - Linux
-* gVim - Linux
+**Not working** (use "Ligatures: Off" version)  
+Gnome Terminal - Linux  
+gVim - Linux  
 
 ###Browsers
-#####Confirmed working
-* Chrome
-* Firefox
-* IE 10+
+**Confirmed working**  
+Chrome, Firefox and IE 10+
 
-#####Partly working
-* Safari - enabled by default, you can't turn them off (use nocalt-version for this)
+**Partly working**  
+Safari (enabled by default, you can't turn them off)
 
-#####Not working
-* IE <10
+**Not working**  
+IE <10
 
 ###Other Programs
 
-#####Confirmed working
-* Adobe CS/CC - Win, Mac
-* Affinity Designer
-* LibreOffice Writer - Linux
-* Text Edit - Mac
+**Confirmed working**  
+Adobe CS/CC - Win, Mac  
+Affinity Designer  
+LibreOffice Writer - Linux  
+Text Edit - Mac  
 
 
 <a name="links"></a>
 <p>&nbsp;</p>
 #Links
 
-* [Medium Articles](https://medium.com/@larsenwork) - Short articles explaining various aspects
-* [Video of Monoid Talk Slideshow](https://www.youtube.com/watch?v=hdld21mlzbY) - From Cph Frontenders meetup in june explaining some of the crazyness.
-* FastCompany - [Do You Code? You shold Try This Font](http://www.fastcodesign.com/3048939/do-you-code-you-should-try-this-font)
-* Lifehacker - [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)
+I wrote some [Medium articles](https://medium.com/@larsenwork) explaining various aspects.  
+A [video](https://www.youtube.com/watch?v=hdld21mlzbY) of me talking about Monoid at Cph Frontenders meetup.  
+FastCompany article: [Do You Code? You shold Try This Font](http://www.fastcodesign.com/3048939/do-you-code-you-should-try-this-font)  
+Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)  
+
+**Open source coding fonts**  
+[Fira Code](https://github.com/tonsky/FiraCode) - Fira Mono Regular with ligatures  
+[Hasklig](https://github.com/i-tu/Hasklig) - Source Code Pro Regular with ligatures  
 
 <a name="font_log"></a>
 <p>&nbsp;</p>
