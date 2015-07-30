@@ -24,7 +24,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1438264367
+ModificationTime: 1438287167
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -1209,12 +1209,13 @@ ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 0" 0 0 0 1
 EndFPST
 LangName: 1033 "" "" "" "0.56;Monoid-Regular" "" "" "" "" "" "Andreas Larsen (@larsenwork)" "" "https://larsenwork.com/monoid" "https://larsenwork.com" "Monoid is dual licensed with MIT and OFL licenses. Pick one:)" "https://github.com/larsenwork/monoid#license"
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114134 14 11
+WinInfo: 588 14 11
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate
