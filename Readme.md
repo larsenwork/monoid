@@ -16,7 +16,7 @@ Quit your editor/program. Unzip and open the folder.
 
 **Mac + Linux (with font-viewer)**  
 1. Select the .ttf files and double click on them  
-2. Follow on-screen guide
+2. Follow the on-screen guide
 
 **Windows**  
 1. Right click the .ttf files  
@@ -43,9 +43,9 @@ Please fork and edit away. Use the also libre [FontForge](http://fontforge.githu
 <p>&nbsp;</p>
 #Ligature Support
 
-I'm using opentype features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all programs.
+I'm using OpenType features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all programs.
 
-> Please add your findings to this readme if it isn't here already.
+> Please add your findings to this readme if they aren't here already.
 
 ###Code Editors
 
@@ -53,9 +53,9 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 |---|---|---|
 | Atom | Visual Studio (liga with hyphens doesn't work) | libvte based terminals |
 | Brackets |  | gVim |
-| Eclipse |  | NotePad++ |
+| Eclipse |  | Notepad++ |
 | gEdit |  | Sublime Text |
-| UtralEdit |  | Xterm, Urxvt |
+| UltraEdit |  | Xterm, Urxvt |
 | Xcode |  |  |
 
 
@@ -63,7 +63,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 | Working | Partly Working | Not Working |
 |---|---|---|
 | Chrome | Safari (enabled by default, you can't turn them off) | IE <10 |
-| FireFox | | |
+| Firefox | | |
 | IE 10+ | | |
 
 
@@ -83,7 +83,7 @@ I'm using opentype features `calt` + `liga` to create the ligatures and add cont
 
 I wrote some [Medium articles](https://medium.com/@larsenwork) explaining various aspects.  
 A [video](https://www.youtube.com/watch?v=hdld21mlzbY) of me talking about Monoid at Cph Frontenders meetup.  
-FastCompany article: [Do You Code? You shold Try This Font](http://www.fastcodesign.com/3048939/do-you-code-you-should-try-this-font)  
+FastCompany article: [Do You Code? You should Try This Font](http://www.fastcodesign.com/3048939/do-you-code-you-should-try-this-font)  
 Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](http://lifehacker.com/monoid-is-an-open-source-font-thats-perfect-for-coders-1719835292)  
 
 **Open source coding fonts**  
@@ -165,7 +165,7 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>0.33</td>
         <td>2015.06.16</td>
-        <td>Perfecting/many of the curved characters˛</td>
+        <td>Perfecting/many of the curved characters.</td>
         <td>Andreas</td>
     </tr>
     <tr>
@@ -177,7 +177,7 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>0.35</td>
         <td>2015.06.30</td>
-        <td>Regular + retina version greatly improved. Oblique 80% done and bold(black) has basic latin.</td>
+        <td>Regular + retina version greatly improved. Oblique 80% done and bold(black) has basic Latin.</td>
         <td>Andreas</td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>0.41</td>
         <td>2015.07.21</td>
-        <td>Super fast parallel builds, improved push checks, zipped font packages, automatic Github Pages font update</td>
+        <td>Super fast parallel builds, improved push checks, zipped font packages, automatic GitHub Pages font update</td>
         <td>Chase</td>
     </tr>
     <tr>
