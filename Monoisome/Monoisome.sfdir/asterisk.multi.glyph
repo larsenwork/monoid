@@ -1,0 +1,41 @@
+StartChar: asterisk.multi
+Encoding: 1114147 -1 646
+GlifName: asterisk.multi
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+725 640 m 1
+ 1000 368 l 1
+ 906 286 l 1
+ 640 555 l 1
+ 581 640 l 1
+ 571 640 l 1
+ 512 555 l 1
+ 246 286 l 1
+ 152 368 l 1
+ 427 640 l 1
+ 512 699 l 1
+ 512 709 l 1
+ 427 768 l 1
+ 152 1040 l 1
+ 246 1122 l 1
+ 512 853 l 1
+ 571 768 l 1
+ 581 768 l 1
+ 640 853 l 1
+ 906 1122 l 1
+ 1000 1040 l 1
+ 725 768 l 1
+ 640 709 l 1
+ 640 699 l 1
+ 725 640 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

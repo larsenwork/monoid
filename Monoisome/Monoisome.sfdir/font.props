@@ -1,0 +1,259 @@
+SplineFontDB: 3.0
+FontName: Monoisome-Regular
+FullName: Monoisome Regular
+FamilyName: Monoisome
+Weight: Regular
+Copyright: Font-Awesome is Copyright (c) 2015, Dave Gandy\nMonoid is Copyright (c) 2015, Andreas Larsen
+Version: 0.1
+ItalicAngle: 0
+UnderlinePosition: -384
+UnderlineWidth: 120
+Ascent: 1408
+Descent: 128
+InvalidEm: 0
+LayerCount: 5
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 0 "Back 2" 1
+Layer: 3 0 "Back 3" 1
+Layer: 4 0 "Back 4" 1
+PreferredKerning: 4
+XUID: [1021 365 -928128380 11180822]
+FSType: 0
+OS2Version: 4
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1427918972
+ModificationTime: 1438285463
+PfmFamily: 49
+TTFWeight: 400
+TTFWidth: 4
+LineGap: 0
+VLineGap: 184
+Panose: 2 11 5 9 4 0 0 2 0 4
+OS2TypoAscent: 1664
+OS2TypoAOffset: 0
+OS2TypoDescent: -384
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1664
+OS2WinAOffset: 0
+OS2WinDescent: 384
+OS2WinDOffset: 0
+HheadAscent: 1664
+HheadAOffset: 0
+HheadDescent: -384
+HheadDOffset: 0
+OS2CapHeight: 0
+OS2XHeight: 0
+OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0 subtable"  } ['liga' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "Monoisome-Regular;0.1" "" "" "" "" "" "Dave Gandy & Andreas Larsen" "" "" "" "OFL" "http://scripts.sil.org/cms/scripts/page.php?item_id+AD0A-OFL_web"
+Encoding: UnicodeFull
+Compacted: 1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 638 29 11
+BeginPrivate: 1
+BlueValues 27 [-16 0 1024 1040 1408 1424]
+EndPrivate
+Grid
+-1920 -128 m 0
+ 4224 -128 l 1024
+  Spiro
+    -1920 -128 {
+    4224 -128 o
+    0 0 z
+  EndSpiro
+-1920 128 m 0
+ 4224 128 l 1024
+  Spiro
+    -1920 128 {
+    4224 128 o
+    0 0 z
+  EndSpiro
+-1920 256 m 0
+ 4224 256 l 1024
+  Spiro
+    -1920 256 {
+    4224 256 o
+    0 0 z
+  EndSpiro
+-1920 384 m 0
+ 4224 384 l 1024
+  Spiro
+    -1920 384 {
+    4224 384 o
+    0 0 z
+  EndSpiro
+-1920 1408 m 0
+ 4224 1408 l 1024
+  Spiro
+    -1920 1408 {
+    4224 1408 o
+    0 0 z
+  EndSpiro
+-1920 1280 m 0
+ 4224 1280 l 1024
+  Spiro
+    -1920 1280 {
+    4224 1280 o
+    0 0 z
+  EndSpiro
+-1920 1152 m 0
+ 4224 1152 l 1024
+  Spiro
+    -1920 1152 {
+    4224 1152 o
+    0 0 z
+  EndSpiro
+-1920 896 m 0
+ 4224 896 l 1024
+  Spiro
+    -1920 896 {
+    4224 896 o
+    0 0 z
+  EndSpiro
+-1920 768 m 0
+ 4224 768 l 1024
+  Spiro
+    -1920 768 {
+    4224 768 o
+    0 0 z
+  EndSpiro
+-1920 640 m 0
+ 4224 640 l 1024
+  Spiro
+    -1920 640 {
+    4224 640 o
+    0 0 z
+  EndSpiro
+-1920 512 m 0
+ 4224 512 l 1024
+  Spiro
+    -1920 512 {
+    4224 512 o
+    0 0 z
+  EndSpiro
+  Named: ".5x"
+-1920 1024 m 0
+ 4224 1024 l 1024
+  Spiro
+    -1920 1024 {
+    4224 1024 o
+    0 0 z
+  EndSpiro
+  Named: "x"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+896 2688 m 0
+ 896 -1408 l 1024
+  Spiro
+    896 2688 {
+    896 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+768 2688 m 0
+ 768 -1408 l 1024
+  Spiro
+    768 2688 {
+    768 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+640 2688 m 0
+ 640 -1408 l 1024
+  Spiro
+    640 2688 {
+    640 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+512 2688 m 0
+ 512 -1408 l 1024
+  Spiro
+    512 2688 {
+    512 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+384 2688 m 0
+ 384 -1408 l 1024
+  Spiro
+    384 2688 {
+    384 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+256 2688 m 0
+ 256 -1408 l 1024
+  Spiro
+    256 2688 {
+    256 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+128 2688 m 0
+ 128 -1408 l 1024
+  Spiro
+    128 2688 {
+    128 -1408 o
+    0 0 z
+  EndSpiro
+  Named: "1"
+EndSplineSet
+TeXData: 1 0 0 599186 299593 199728 599186 1048576 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "bottom" "" "top" "" 
+EndSplineFont

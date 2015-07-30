@@ -1,0 +1,6 @@
+sed 's/.#{$fa-css-prefix}/fa/g'
+sed 's/\:before.*//'
+sed 's/./& /g'
+sed 's/\-/hyphen/g'
+sed 's/^/  sub /g'
+sed 's/$/ by ;/'

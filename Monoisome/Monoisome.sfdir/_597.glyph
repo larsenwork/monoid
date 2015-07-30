@@ -1,0 +1,28 @@
+StartChar: _597
+Encoding: 62076 62076 582
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+640 345 m 1
+ 1152 640 l 1
+ 1152 49 l 1
+ 640 -247 l 1
+ 640 345 l 1
+128 640 m 1
+ 128 49 l 1
+ 640 345 l 1
+ 128 640 l 1
+640 1527 m 1
+ 640 936 l 1
+ 128 640 l 1
+ 128 1231 l 1
+ 640 1527 l 1
+640 936 m 1
+ 1152 1231 l 1
+ 1152 640 l 1
+ 640 936 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,25 @@
+StartChar: logicalnot
+Encoding: 172 172 317
+GlifName: logicalnot
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 644 120<128 896>
+VStem: 896 128<384 644>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1024 764 m 1
+ 1024 384 l 1
+ 896 384 l 1
+ 896 644 l 1
+ 128 644 l 1
+ 128 764 l 1
+ 1024 764 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

@@ -1,0 +1,28 @@
+StartChar: exclamdown
+Encoding: 161 161 100
+GlifName: exclamdown
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 880 288<479.538 672.462>
+VStem: 432 288<927.538 1120.46> 502 148<-256 640>
+LayerCount: 5
+Back
+Fore
+SplineSet
+576 1168 m 0xc0
+ 661 1168 720 1109 720 1024 c 0
+ 720 939 661 880 576 880 c 0
+ 491 880 432 939 432 1024 c 0
+ 432 1109 491 1168 576 1168 c 0xc0
+640 640 m 1
+ 650 -256 l 1
+ 502 -256 l 1xa0
+ 512 640 l 1
+ 640 640 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
