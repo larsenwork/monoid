@@ -139,7 +139,7 @@ a, #close {
   color: #446fbd;
   text-decoration: none;
 }
-.monoisome {
+.monoisome, #test {
   font-family: "monoisomeregular", monospace;
 }
 
