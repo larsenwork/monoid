@@ -34,6 +34,16 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'monoisomeregular';
+    src: url('monoisome-regular.eot');
+    src: url('monoisome-regular.eot?#iefix') format('embedded-opentype'),
+         url('monoisome-regular.woff2') format('woff2'),
+         url('monoisome-regular.woff') format('woff'),
+         url('monoisome-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -53,7 +63,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 GENERAL STYLE */
 
-body {
+body, .regular {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Monoid Regular", monospace;
@@ -128,6 +138,9 @@ h3 {
 a, #close {
   color: #446fbd;
   text-decoration: none;
+}
+.monoisome {
+  font-family: "monoisomeregular", monospace;
 }
 
 /*
@@ -343,7 +356,7 @@ label[for=ss08] {
   left: 0;
   right: 0;
   top: 0;
-  background-color: hsla(341, 67%, 43%, 0.9); 
+  background-color: hsla(341, 67%, 43%, 0.9);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   color: white;
   text-align: center;
