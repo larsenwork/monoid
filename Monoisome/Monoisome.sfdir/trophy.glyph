@@ -1,5 +1,5 @@
 StartChar: trophy
-Encoding: 61585 61585 1092
+Encoding: 61585 61585 1090
 Width: 2048
 Flags: W
 HStem: -128 256<589.708 798.055 1121.94 1330.29> 1024 128<256 512 1408 1664> 1388 20G<628 1292>
@@ -47,4 +47,6 @@ SplineSet
  1696 1152 l 2
  1749 1152 1792 1109 1792 1056 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t r o p h y
 EndChar

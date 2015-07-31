@@ -1,5 +1,5 @@
 StartChar: dcaron
-Encoding: 271 271 180
+Encoding: 271 271 179
 GlifName: dcaron
 Width: 1024
 VWidth: 0
@@ -39,6 +39,7 @@ SplineSet
  1024 1024 l 1x1f
  1024 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

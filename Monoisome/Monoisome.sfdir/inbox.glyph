@@ -1,5 +1,5 @@
 StartChar: inbox
-Encoding: 61468 61468 904
+Encoding: 61468 61468 903
 Width: 2048
 Flags: W
 HStem: 0 576<325 641 1151 1467> 0 384<736 1056> 1088 192<542 1250>
@@ -32,5 +32,6 @@ SplineSet
  1639 669 l 2
  1653 635 1664 582 1664 546 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen i n b o x
 EndChar

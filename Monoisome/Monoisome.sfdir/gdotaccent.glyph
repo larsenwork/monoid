@@ -1,5 +1,5 @@
 StartChar: gdotaccent
-Encoding: 289 289 877
+Encoding: 289 289 876
 GlifName: gdotaccent
 Width: 1024
 VWidth: 0
@@ -45,6 +45,7 @@ SplineSet
  510 1200 464 1246 464 1312 c 0
  464 1378 510 1424 576 1424 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: calendar_empty
-Encoding: 61747 61747 275
+Encoding: 61747 61747 274
 Width: 2048
 Flags: W
 HStem: -256 128<256 1664> 896 384<256 384 768 1152 1536 1664> 896 160<512 640 1280 1408> 1408 128<515.772 636.228 1283.77 1404.23>
@@ -53,4 +53,6 @@ SplineSet
  1664 1280 l 2xdfc0
  1734 1280 1792 1222 1792 1152 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c a l e n d a r hyphen o
 EndChar

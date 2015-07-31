@@ -1,5 +1,5 @@
 StartChar: question_sign
-Encoding: 61529 61529 1003
+Encoding: 61529 61529 1001
 Width: 2048
 Flags: W
 HStem: -128 256<779.077 1012.92> 384 64<768 1024> 728 191<879.797 990.67> 1152 256<742.36 1055.94>
@@ -41,5 +41,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen q u e s t i o n hyphen c i r c l e
 EndChar

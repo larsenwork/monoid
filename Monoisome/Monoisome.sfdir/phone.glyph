@@ -1,5 +1,5 @@
 StartChar: phone
-Encoding: 61589 61589 985
+Encoding: 61589 61589 984
 Width: 2048
 Flags: W
 HStem: 0 331<979.5 1230.5> 1388 20G<406 427.5>
@@ -34,4 +34,6 @@ SplineSet
  1477 360 1526 338 1533 317 c 0
  1536 310 1536 303 1536 296 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p h o n e
 EndChar

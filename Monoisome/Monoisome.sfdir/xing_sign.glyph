@@ -1,5 +1,5 @@
 StartChar: xing_sign
-Encoding: 61801 61801 1341
+Encoding: 61801 61801 1339
 Width: 2048
 Flags: W
 HStem: -128 128<1028.86 1288.76> 1027 381<425.237 686.528> 1280 128<1177.94 1434.03>
@@ -32,7 +32,7 @@ SplineSet
  1275 0 1284 4 1289 12 c 0
  1294 20 1294 30 1288 40 c 2
  1028 516 l 1
- 1028 516 1028 517 1028 517 c 1
+ 1028 517 l 1
  1437 1240 l 2
  1442 1250 1442 1260 1437 1268 c 0
 1664 1120 m 2
@@ -45,4 +45,6 @@ SplineSet
  1376 1408 l 2
  1535 1408 1664 1279 1664 1120 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen x i n g hyphen s q u a r e
 EndChar

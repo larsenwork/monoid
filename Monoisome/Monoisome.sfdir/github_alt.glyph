@@ -1,5 +1,5 @@
 StartChar: github_alt
-Encoding: 61715 61715 248
+Encoding: 61715 61715 247
 Width: 2048
 Flags: W
 HStem: -128 95<633.23 1317.02> 128 384<567.708 712.292 1207.71 1352.29> 576 576<676.477 1251.73>
@@ -44,4 +44,6 @@ SplineSet
  1683 1005 1674 948 1656 894 c 1
  1752 781 1792 642 1792 496 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g i t h u b hyphen a l t
 EndChar

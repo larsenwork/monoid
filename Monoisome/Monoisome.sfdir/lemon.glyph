@@ -1,5 +1,5 @@
 StartChar: lemon
-Encoding: 61588 61588 925
+Encoding: 61588 61588 924
 Width: 2048
 Flags: W
 HStem: -128 138<263.038 448.704 456.319 1078.34> -99 131<307.319 784.658> 1232 128<1130.98 1479.81> 1280 128<826.02 1217.78>
@@ -44,4 +44,6 @@ SplineSet
  1608 1013 1617 999 1629 967 c 0
  1652 909 1663 776 1663 712 c 0x21
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l e m o n hyphen o
 EndChar

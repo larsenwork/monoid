@@ -1,5 +1,5 @@
 StartChar: yacute
-Encoding: 253 253 1343
+Encoding: 253 253 1341
 GlifName: yacute
 Width: 1024
 VWidth: 0
@@ -30,6 +30,7 @@ SplineSet
  626 1152 l 1
  488 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

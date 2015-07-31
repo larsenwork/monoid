@@ -1,5 +1,5 @@
 StartChar: text_width
-Encoding: 61493 61493 1077
+Encoding: 61493 61493 1075
 Width: 2048
 Flags: W
 HStem: -128 128<384 1408> 1254 126<303.981 760.104 1030.69 1476.6> 1387 20G<128 249 1592 1638.5>
@@ -63,5 +63,6 @@ SplineSet
  1408 0 l 1
  1408 18 1392 125 1438 125 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t e x t hyphen w i d t h
 EndChar

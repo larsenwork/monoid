@@ -1,5 +1,5 @@
 StartChar: ocircumflex
-Encoding: 244 244 151
+Encoding: 244 244 150
 GlifName: ocircumflex
 Width: 1024
 VWidth: 0
@@ -37,6 +37,7 @@ SplineSet
  200 1152 l 1
  497 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

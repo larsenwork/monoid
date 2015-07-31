@@ -1,5 +1,5 @@
 StartChar: Iotadieresis
-Encoding: 938 938 724
+Encoding: 938 938 723
 GlifName: I_otadieresis
 Width: 1024
 VWidth: 0
@@ -35,6 +35,7 @@ SplineSet
  286 1552 240 1598 240 1664 c 4
  240 1730 286 1776 352 1776 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

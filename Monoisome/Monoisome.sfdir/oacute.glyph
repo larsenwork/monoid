@@ -1,5 +1,5 @@
 StartChar: oacute
-Encoding: 243 243 956
+Encoding: 243 243 955
 GlifName: oacute
 Width: 1024
 VWidth: 0
@@ -34,6 +34,7 @@ SplineSet
  626 1152 l 1
  488 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

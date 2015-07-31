@@ -1,5 +1,5 @@
 StartChar: edit_sign
-Encoding: 61771 61771 298
+Encoding: 61771 61771 297
 Width: 2048
 Flags: W
 HStem: -128 256<386.563 672> 1388 20G<336.5 1455.5>
@@ -46,4 +46,6 @@ SplineSet
  1376 1408 l 2
  1535 1408 1664 1279 1664 1120 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p e n c i l hyphen s q u a r e
 EndChar

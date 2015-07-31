@@ -1,5 +1,5 @@
 StartChar: money
-Encoding: 61654 61654 946
+Encoding: 61654 61654 945
 Width: 2048
 Flags: W
 HStem: 0 128<512 1664> 224 160<964.648 1211.35> 928 128<1038 1144.42> 1152 128<512 1664>
@@ -45,4 +45,6 @@ SplineSet
  1984 1280 l 2
  2019 1280 2048 1251 2048 1216 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m o n e y
 EndChar

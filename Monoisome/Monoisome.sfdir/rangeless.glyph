@@ -1,5 +1,5 @@
 StartChar: rangeless
-Encoding: 1114257 -1 1012
+Encoding: 1114257 -1 1010
 Width: 1024
 VWidth: 0
 Flags: W
@@ -29,6 +29,7 @@ SplineSet
  261 581 l 1
  261 571 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: mobile_phone
-Encoding: 61707 61707 241
+Encoding: 61707 61707 240
 Width: 2048
 Flags: W
 HStem: 0 48<455.5 568.5> 208 48<455.5 568.5> 1024 96<416.005 607.995> 1152 128<416.005 607.995>
@@ -39,4 +39,7 @@ SplineSet
  768 1280 l 2
  838 1280 896 1222 896 1152 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m o b i l e hyphen p h o n e
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m o b i l e
 EndChar

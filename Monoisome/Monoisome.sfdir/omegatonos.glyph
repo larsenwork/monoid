@@ -1,5 +1,5 @@
 StartChar: omegatonos
-Encoding: 974 974 966
+Encoding: 974 974 965
 GlifName: omegatonos
 Width: 1024
 VWidth: 0
@@ -42,6 +42,7 @@ SplineSet
  504 1194 l 1
  690 1438 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

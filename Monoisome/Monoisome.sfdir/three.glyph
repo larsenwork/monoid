@@ -1,5 +1,5 @@
 StartChar: three
-Encoding: 51 51 1083
+Encoding: 51 51 1081
 GlifName: three
 Width: 1024
 VWidth: 0
@@ -143,4 +143,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "'ss06' Style Set 6 lookup 6 subtable" three.boob
 EndChar

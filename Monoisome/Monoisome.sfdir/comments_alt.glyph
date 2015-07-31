@@ -1,5 +1,5 @@
 StartChar: comments_alt
-Encoding: 61670 61670 206
+Encoding: 61670 61670 205
 Width: 2048
 Flags: W
 HStem: 0 128<953.034 1186> 256 128<642.728 1055.75> 1152 128<608.254 1055.75>
@@ -46,4 +46,6 @@ SplineSet
  1810 827 1920 679 1920 512 c 0
  1920 349 1816 205 1654 111 c 1
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o m m e n t s hyphen o
 EndChar

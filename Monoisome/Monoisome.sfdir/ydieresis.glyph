@@ -1,5 +1,5 @@
 StartChar: ydieresis
-Encoding: 255 255 1345
+Encoding: 255 255 1343
 GlifName: ydieresis
 Width: 1024
 VWidth: 0
@@ -35,6 +35,7 @@ SplineSet
  286 1168 240 1214 240 1280 c 4xec
  240 1346 286 1392 352 1392 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

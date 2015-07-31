@@ -1,7 +1,8 @@
 StartChar: uniF1D0
-Encoding: 61904 61904 1302
+Encoding: 61904 61904 1300
 Width: 2048
 Flags: W
+VStem: 939 163<1131 1269.94>
 LayerCount: 2
 Back
 Fore
@@ -30,4 +31,7 @@ SplineSet
  1909 119 1541 -256 1026 -256 c 0
  523 -256 132 164 147 662 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r a
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e b e l
 EndChar

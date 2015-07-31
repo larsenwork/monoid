@@ -1,5 +1,5 @@
 StartChar: camera
-Encoding: 61488 61488 798
+Encoding: 61488 61488 797
 Width: 2048
 Flags: W
 HStem: -128 256<923.904 1252.1> 288 576<956.913 1219.09> 1024 512<923.904 1252.1>
@@ -35,5 +35,6 @@ SplineSet
  841 1024 640 823 640 576 c 0
  640 329 841 128 1088 128 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c a m e r a
 EndChar

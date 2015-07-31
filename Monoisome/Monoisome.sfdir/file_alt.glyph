@@ -1,5 +1,5 @@
 StartChar: file_alt
-Encoding: 61462 61462 860
+Encoding: 61462 61462 859
 Width: 2048
 Flags: W
 HStem: -256 128<256 1536> 896 128<1152 1528> 1408 128<256 1024>
@@ -34,5 +34,6 @@ SplineSet
  256 -128 l 1
  1536 -128 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e hyphen o
 EndChar

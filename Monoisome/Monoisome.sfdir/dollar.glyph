@@ -1,5 +1,5 @@
 StartChar: dollar
-Encoding: 36 36 829
+Encoding: 36 36 828
 GlifName: dollar
 Width: 1024
 VWidth: 0
@@ -61,4 +61,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss01' Style Set 1 lookup 1 subtable" dollar.empty
 EndChar

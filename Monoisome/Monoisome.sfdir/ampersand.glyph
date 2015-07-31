@@ -236,4 +236,7 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Substitution2: "Single Substitution lookup 83 subtable" ampersand.method
+Substitution2: "Single Substitution lookup 82 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 81 subtable" ampamp
 EndChar

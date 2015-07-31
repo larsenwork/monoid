@@ -1,5 +1,5 @@
 StartChar: th_list
-Encoding: 61451 61451 1080
+Encoding: 61451 61451 1078
 Width: 2048
 Flags: W
 HStem: 0 384<151.416 616.584 791.416 1896.58> 512 384<151.416 616.584 791.416 1896.58> 1024 384<151.416 616.584 791.416 1896.58>
@@ -64,5 +64,6 @@ SplineSet
  1824 1408 l 2
  1877 1408 1920 1365 1920 1312 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t h hyphen l i s t
 EndChar

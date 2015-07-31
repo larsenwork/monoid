@@ -1,5 +1,5 @@
 StartChar: slash
-Encoding: 47 47 1049
+Encoding: 47 47 1047
 GlifName: slash
 Width: 1024
 VWidth: 0
@@ -29,4 +29,8 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Position2: "Single Positioning lookup 23 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 100 subtable" ligadoubleslash
+Substitution2: "Single Substitution lookup 99 subtable" larsenwork
+Substitution2: "Single Substitution lookup 20 subtable" slash.shrug
 EndChar

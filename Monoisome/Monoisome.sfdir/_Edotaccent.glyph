@@ -1,5 +1,5 @@
 StartChar: Edotaccent
-Encoding: 278 278 187
+Encoding: 278 278 186
 GlifName: E_dotaccent
 Width: 1024
 VWidth: 0
@@ -33,4 +33,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Edotaccent.sq
 EndChar

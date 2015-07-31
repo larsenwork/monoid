@@ -1,5 +1,5 @@
 StartChar: crop
-Encoding: 61733 61733 821
+Encoding: 61733 61733 820
 Width: 2048
 Flags: W
 HStem: 0 256<685 1280 1536 1792> 896 256<128 384 640 1235> 1388 20G<407 617>
@@ -47,4 +47,6 @@ SplineSet
  1760 256 l 2
  1778 256 1792 242 1792 224 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c r o p
 EndChar

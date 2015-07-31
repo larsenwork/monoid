@@ -1,5 +1,5 @@
 StartChar: remove
-Encoding: 61453 61453 1015
+Encoding: 61453 61453 1013
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -36,7 +36,8 @@ SplineSet
  1398 282 l 2
  1416 264 1426 239 1426 214 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e m o v e
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t i m e s
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c l o s e
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e m o v e
 EndChar

@@ -1,5 +1,5 @@
 StartChar: zacute
-Encoding: 378 378 1351
+Encoding: 378 378 1349
 GlifName: zacute
 Width: 1024
 VWidth: 0
@@ -28,6 +28,7 @@ SplineSet
  645 1155 l 1
  507 1155 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

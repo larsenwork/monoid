@@ -1,5 +1,5 @@
 StartChar: google_plus
-Encoding: 61653 61653 882
+Encoding: 61653 61653 881
 Width: 2048
 Flags: W
 HStem: -128 91<528.813 842.591> 731 108<1212 1424 1529 1742> 775 61<520.494 725.461> 1448 88<582.906 758.314 950 1081>
@@ -54,4 +54,6 @@ SplineSet
  1529 1056 l 1
  1529 839 l 1xd240
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g o o g l e hyphen p l u s
 EndChar

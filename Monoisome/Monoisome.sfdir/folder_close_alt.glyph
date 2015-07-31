@@ -1,5 +1,5 @@
 StartChar: folder_close_alt
-Encoding: 61716 61716 868
+Encoding: 61716 61716 867
 Width: 2048
 Flags: W
 HStem: 0 128<280.432 1639.57> 1024 128<896 1639.57> 1280 128<280.432 743.568>
@@ -34,4 +34,6 @@ SplineSet
  1568 1152 l 2
  1691 1152 1792 1051 1792 928 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f o l d e r hyphen o
 EndChar

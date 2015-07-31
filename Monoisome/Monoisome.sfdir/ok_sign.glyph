@@ -1,5 +1,5 @@
 StartChar: ok_sign
-Encoding: 61528 61528 962
+Encoding: 61528 61528 961
 Width: 2048
 Flags: W
 HStem: -128 323<754.39 1108> 776 632<494.5 982.697> 957 451<684 1297.5>
@@ -31,5 +31,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0xd8
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c h e c k hyphen c i r c l e
 EndChar

@@ -1,5 +1,5 @@
 StartChar: food
-Encoding: 61685 61685 871
+Encoding: 61685 61685 870
 Width: 2048
 Flags: W
 VStem: 128 128<999.794 1528.21> 256 384<-213.789 666.88> 384 128<999.794 1528.21> 640 128<999.794 1528.21> 896 640<384 1354.41> 1152 384<-213.789 384>
@@ -44,4 +44,6 @@ SplineSet
  1472 1536 l 2
  1507 1536 1536 1507 1536 1472 c 2x04
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c u t l e r y
 EndChar

@@ -1,5 +1,5 @@
 StartChar: greater
-Encoding: 62 62 884
+Encoding: 62 62 883
 GlifName: greater
 Width: 1024
 VWidth: 0
@@ -22,4 +22,16 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 96 subtable" greater2
+Substitution2: "Single Substitution lookup 95 subtable" greater1
+Substitution2: "Single Substitution lookup 70 subtable" ligaequalarrow
+Substitution2: "Single Substitution lookup 67 subtable" larsenwork4
+Substitution2: "Single Substitution lookup 62 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 61 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 51 subtable" rightarrowequallong
+Substitution2: "Single Substitution lookup 48 subtable" greater2
+Substitution2: "Single Substitution lookup 40 subtable" arrowright.liga
+Substitution2: "Single Substitution lookup 36 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 35 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 30 subtable" ligaarrowrightlong
 EndChar

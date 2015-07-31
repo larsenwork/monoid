@@ -1,5 +1,5 @@
 StartChar: star_half
-Encoding: 61577 61577 1060
+Encoding: 61577 61577 1058
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -20,4 +20,6 @@ SplineSet
  911 1463 l 2
  920 1482 937 1504 960 1504 c 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t a r hyphen h a l f
 EndChar

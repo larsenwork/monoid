@@ -1,5 +1,5 @@
 StartChar: imacron
-Encoding: 299 299 903
+Encoding: 299 299 902
 GlifName: imacron
 Width: 1024
 VWidth: 0
@@ -23,6 +23,7 @@ SplineSet
  256 1156 l 1
  256 1276 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

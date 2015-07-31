@@ -1,5 +1,5 @@
 StartChar: th_large
-Encoding: 61449 61449 1079
+Encoding: 61449 61449 1077
 Width: 2048
 Flags: W
 HStem: 0 640<170.211 853.789 1066.21 1749.79> 768 640<170.211 853.789 1066.21 1749.79>
@@ -45,5 +45,6 @@ SplineSet
  1664 1408 l 2
  1734 1408 1792 1350 1792 1280 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t h hyphen l a r g e
 EndChar

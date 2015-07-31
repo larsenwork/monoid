@@ -1,5 +1,5 @@
 StartChar: twitter
-Encoding: 61593 61593 1094
+Encoding: 61593 61593 1092
 Width: 2048
 Flags: W
 HStem: 0 21G<576.5 965>
@@ -30,4 +30,7 @@ SplineSet
  1680 1181 1629 1118 1562 1078 c 1
  1627 1085 1690 1103 1748 1128 c 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 15 subtable" w i t t e r I c o n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t w i t t e r
 EndChar

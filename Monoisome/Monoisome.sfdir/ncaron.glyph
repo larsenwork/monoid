@@ -1,5 +1,5 @@
 StartChar: ncaron
-Encoding: 328 328 243
+Encoding: 328 328 242
 GlifName: ncaron
 Width: 1024
 VWidth: 0
@@ -36,6 +36,7 @@ SplineSet
  655 1152 l 1
  497 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

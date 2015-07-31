@@ -1,5 +1,5 @@
 StartChar: gift
-Encoding: 61547 61547 878
+Encoding: 61547 61547 877
 Width: 2048
 Flags: W
 HStem: 0 128<739.397 1052.6> 512 384<128 256 1536 1664> 896 128<528.045 600 736 795 998 1056 1192 1263.95> 1216 128<527.731 670.215 1121.79 1264.27>
@@ -56,4 +56,6 @@ SplineSet
  1632 896 l 2xd280
  1650 896 1664 882 1664 864 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g i f t
 EndChar

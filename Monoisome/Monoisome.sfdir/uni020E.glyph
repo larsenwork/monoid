@@ -1,5 +1,5 @@
 StartChar: uni020E
-Encoding: 526 526 452
+Encoding: 526 526 451
 GlifName: uni020E_
 Width: 1024
 VWidth: 0
@@ -40,4 +40,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" uni020E.sq
 EndChar

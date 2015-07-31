@@ -1,5 +1,5 @@
 StartChar: credit_card
-Encoding: 61597 61597 150
+Encoding: 61597 61597 149
 Width: 2048
 Flags: W
 HStem: -128 128<259.772 1916.23> 128 128<384 640 768 1152> 640 384<256 1920> 1280 128<259.772 1916.23>
@@ -42,4 +42,6 @@ SplineSet
  1152 128 l 1
  768 128 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c r e d i t hyphen c a r d
 EndChar

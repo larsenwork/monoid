@@ -1,5 +1,5 @@
 StartChar: cloud_download
-Encoding: 61677 61677 811
+Encoding: 61677 61677 810
 Width: 2048
 Flags: W
 HStem: 0 224<979 1068.94> 1024 384<896 1073.42>
@@ -37,4 +37,6 @@ SplineSet
  1792 847 1778 799 1751 758 c 1
  1925 717 2048 562 2048 384 c 0xc4
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c l o u d hyphen d o w n l o a d
 EndChar

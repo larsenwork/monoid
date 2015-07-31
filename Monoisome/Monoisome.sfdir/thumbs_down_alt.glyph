@@ -1,5 +1,5 @@
 StartChar: thumbs_down_alt
-Encoding: 61576 61576 1085
+Encoding: 61576 61576 1083
 Width: 2048
 Flags: W
 HStem: -256 128<970.123 1104.83> 256 128<1232 1488.8> 384 128<512 565.961> 1152 128<263.794 376.206 512 662.923> 1280 128<871.438 1335.52>
@@ -60,4 +60,6 @@ SplineSet
  1624 720 1621 696 1615 674 c 1
  1647 626 1664 569 1664 511 c 0x8f10
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t h u m b s hyphen o hyphen d o w n
 EndChar

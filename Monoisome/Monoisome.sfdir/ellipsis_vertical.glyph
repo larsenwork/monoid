@@ -1,5 +1,5 @@
 StartChar: ellipsis_vertical
-Encoding: 61762 61762 289
+Encoding: 61762 61762 288
 Width: 2048
 Flags: W
 HStem: 0 384<151.416 488.584> 512 384<151.416 488.584> 1024 384<151.416 488.584>
@@ -37,4 +37,6 @@ SplineSet
  416 1408 l 2
  469 1408 512 1365 512 1312 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e l l i p s i s hyphen v
 EndChar

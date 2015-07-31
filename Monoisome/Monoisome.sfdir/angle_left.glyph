@@ -1,5 +1,5 @@
 StartChar: angle_left
-Encoding: 61700 61700 772
+Encoding: 61700 61700 771
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -24,4 +24,6 @@ SplineSet
  745 1015 l 2
  751 1009 755 1001 755 992 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a n g l e hyphen l e f t
 EndChar

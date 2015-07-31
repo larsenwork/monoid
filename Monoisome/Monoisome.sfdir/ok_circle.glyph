@@ -1,5 +1,5 @@
 StartChar: ok_circle
-Encoding: 61533 61533 961
+Encoding: 61533 61533 960
 Width: 2048
 Flags: W
 HStem: -128 224<715.869 1076.13> 1184 224<715.869 1076.13>
@@ -31,5 +31,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c h e c k hyphen c i r c l e hyphen o
 EndChar

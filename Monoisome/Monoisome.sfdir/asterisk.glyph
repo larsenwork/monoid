@@ -96,4 +96,9 @@ SplineSet
  640 601 l 1
  640 551 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 103 subtable" asterisk.commentend
+Substitution2: "Single Substitution lookup 102 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 101 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 84 subtable" asterisk.period
+Substitution2: "'ss02' Style Set 2 lookup 2 subtable" asterisk.multi
 EndChar

@@ -1,5 +1,5 @@
 StartChar: resize_horizontal
-Encoding: 61566 61566 1023
+Encoding: 61566 61566 1021
 Width: 2048
 Flags: W
 HStem: 512 256<512 1536>
@@ -31,4 +31,6 @@ SplineSet
  1901 685 l 2
  1913 673 1920 657 1920 640 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a r r o w s hyphen h
 EndChar

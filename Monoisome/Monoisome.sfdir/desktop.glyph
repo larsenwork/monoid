@@ -1,5 +1,5 @@
 StartChar: desktop
-Encoding: 61704 61704 827
+Encoding: 61704 61704 826
 Width: 2048
 Flags: W
 HStem: -128 640<797 1379> 128 384<259.772 832 1344 1916.23> 1408 128<259.772 1916.23>
@@ -33,4 +33,6 @@ SplineSet
  1888 1536 l 2
  1976 1536 2048 1464 2048 1376 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen d e s k t o p
 EndChar

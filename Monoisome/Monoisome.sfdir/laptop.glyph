@@ -1,5 +1,5 @@
 StartChar: laptop
-Encoding: 61705 61705 239
+Encoding: 61705 61705 238
 Width: 2048
 Flags: W
 HStem: 0 96<992.005 1183.99> 128 64<992.005 1183.99> 256 128<515.772 1660.23> 1152 128<515.772 1660.23>
@@ -43,4 +43,6 @@ SplineSet
  992 103 999 96 1008 96 c 2
  1168 96 l 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l a p t o p
 EndChar

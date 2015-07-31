@@ -1,5 +1,5 @@
 StartChar: bitbucket_sign
-Encoding: 61810 61810 334
+Encoding: 61810 61810 333
 Width: 2048
 Flags: W
 HStem: 1015 113<599.577 756.845 1025.16 1195.07> 1388 20G<336.5 1455.5>
@@ -55,4 +55,6 @@ SplineSet
  1376 1408 l 2
  1535 1408 1664 1279 1664 1120 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b i t b u c k e t hyphen s q u a r e
 EndChar

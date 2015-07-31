@@ -1,5 +1,5 @@
 StartChar: bell_alt
-Encoding: 61683 61683 789
+Encoding: 61683 61683 788
 Width: 2048
 Flags: W
 HStem: -256 80<923.36 1038.57>
@@ -31,4 +31,6 @@ SplineSet
  1377 1362 1536 1152 1536 960 c 0
  1536 477 1708 253 1856 128 c 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b e l l hyphen o
 EndChar

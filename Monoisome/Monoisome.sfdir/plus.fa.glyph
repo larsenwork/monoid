@@ -1,5 +1,5 @@
 StartChar: plus.fa
-Encoding: 61543 61543 993
+Encoding: 61543 61543 992
 Width: 2048
 Flags: W
 HStem: 0 21G<709.5 954.5> 512 384<151.416 640 1024 1512.58> 1388 20G<709.5 954.5>
@@ -30,5 +30,6 @@ SplineSet
  1440 896 l 2
  1493 896 1536 853 1536 800 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p l u s
 EndChar

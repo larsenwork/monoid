@@ -20,4 +20,20 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 94 subtable" period.2r
+Substitution2: "Single Substitution lookup 93 subtable" period.2l
+Substitution2: "Single Substitution lookup 91 subtable" larsenwork
+Substitution2: "Single Substitution lookup 90 subtable" larsenwork
+Substitution2: "Single Substitution lookup 89 subtable" period.x3
+Substitution2: "Single Substitution lookup 88 subtable" larsenwork
+Substitution2: "Single Substitution lookup 87 subtable" larsenwork
 EndChar

@@ -1,5 +1,5 @@
 StartChar: upsilontonos
-Encoding: 973 973 1320
+Encoding: 973 973 1318
 GlifName: upsilontonos
 Width: 1024
 VWidth: 0
@@ -33,6 +33,7 @@ SplineSet
  504 1194 l 1,35,-1
  690 1438 l 1,32,-1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: github
-Encoding: 1114113 -1 613
+Encoding: 1114113 -1 612
 GlifName: github
 Width: 1536
 VWidth: 0
@@ -19,8 +19,11 @@ SplineSet
  -640 1408 l 5
 EndSplineSet
 Fore
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Ligature2: "'liga' Standard Ligatures lookup 15 subtable" i t h u b I c o n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g i t h u b
 LCarets2: 8 0 0 0 0 0 0 0 0
 EndChar

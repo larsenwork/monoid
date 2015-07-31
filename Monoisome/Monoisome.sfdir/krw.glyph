@@ -1,5 +1,5 @@
 StartChar: krw
-Encoding: 61785 61785 311
+Encoding: 61785 61785 310
 Width: 2048
 Flags: W
 HStem: 0 21G<551 724.5 1314 1487> 640 128<128 335 564 723 950 1089 1315 1477 1709 1920> 896 128<128 269 501 793 1246 1543 1777 1920> 1388 20G<206 355.5 949 1089.5 1692.5 1842>
@@ -88,4 +88,7 @@ SplineSet
  1888 768 l 2
  1906 768 1920 754 1920 736 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen k r w
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen w o n
 EndChar

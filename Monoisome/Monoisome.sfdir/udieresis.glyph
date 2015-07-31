@@ -1,5 +1,5 @@
 StartChar: udieresis
-Encoding: 252 252 1100
+Encoding: 252 252 1098
 GlifName: udieresis
 Width: 1024
 VWidth: 0
@@ -38,6 +38,7 @@ SplineSet
  286 1168 240 1214 240 1280 c 4x38
  240 1346 286 1392 352 1392 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

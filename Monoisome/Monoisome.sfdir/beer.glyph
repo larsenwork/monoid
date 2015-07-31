@@ -1,5 +1,5 @@
 StartChar: beer
-Encoding: 61692 61692 227
+Encoding: 61692 61692 226
 Width: 2048
 Flags: W
 HStem: 0 21G<640 1792> 384 256<553.814 768> 1024 256<512 704> 1388 20G<731 1699.33>
@@ -32,4 +32,6 @@ SplineSet
  1664 384 l 1
  1792 192 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b e e r
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni040D
-Encoding: 1037 1037 1203
+Encoding: 1037 1037 1201
 GlifName: uni040D_
 Width: 1024
 VWidth: 0
@@ -29,6 +29,7 @@ SplineSet
  498 1792 l 1
  664 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: trello
-Encoding: 61825 61825 348
+Encoding: 61825 61825 347
 Width: 2048
 Flags: W
 HStem: -128 672<960 1504> -128 288<288 832> 1248 160<288 832 960 1504>
@@ -37,4 +37,6 @@ SplineSet
  1600 1408 l 2
  1635 1408 1664 1379 1664 1344 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t r e l l o
 EndChar

@@ -1,5 +1,5 @@
 StartChar: plane
-Encoding: 61554 61554 991
+Encoding: 61554 61554 990
 Width: 2048
 Flags: W
 HStem: 0 21G<601 612>
@@ -42,4 +42,6 @@ SplineSet
  1184 1280 l 2
  1280 1376 1440 1440 1504 1376 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p l a n e
 EndChar

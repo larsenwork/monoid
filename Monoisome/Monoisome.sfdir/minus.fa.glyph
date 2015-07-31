@@ -1,5 +1,5 @@
 StartChar: minus.fa
-Encoding: 61544 61544 942
+Encoding: 61544 61544 941
 Width: 2048
 Flags: W
 HStem: 512 384<151.416 1512.58>
@@ -17,5 +17,6 @@ SplineSet
  1440 896 l 2
  1493 896 1536 853 1536 800 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m i n u s
 EndChar

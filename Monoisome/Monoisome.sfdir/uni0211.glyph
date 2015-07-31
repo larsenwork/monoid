@@ -1,5 +1,5 @@
 StartChar: uni0211
-Encoding: 529 529 1155
+Encoding: 529 529 1153
 GlifName: uni0211
 Width: 1024
 VWidth: 0
@@ -34,6 +34,7 @@ SplineSet
  690 1408 l 1
  856 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

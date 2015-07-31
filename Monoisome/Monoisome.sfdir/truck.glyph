@@ -1,5 +1,5 @@
 StartChar: truck
-Encoding: 61649 61649 1093
+Encoding: 61649 61649 1091
 Width: 2048
 Flags: W
 HStem: -128 128<556.126 723.874 1452.13 1619.87> 128 128<200.766 256> 256 384<554.211 725.789> 896 128<564.283 768>
@@ -47,4 +47,6 @@ SplineSet
  1856 1280 l 2
  1891 1280 1920 1251 1920 1216 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t r u c k
 EndChar

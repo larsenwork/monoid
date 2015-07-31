@@ -1,5 +1,5 @@
 StartChar: retweet
-Encoding: 61561 61561 1026
+Encoding: 61561 61561 1024
 Width: 2048
 Flags: W
 HStem: 0 256<640 1258.5> 896 256<917.5 1536>
@@ -51,4 +51,6 @@ SplineSet
  1984 512 l 2
  2019 512 2048 483 2048 448 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e t w e e t
 EndChar

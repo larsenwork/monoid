@@ -1,5 +1,5 @@
 StartChar: uni020A
-Encoding: 522 522 1145
+Encoding: 522 522 1143
 GlifName: uni020A_
 Width: 1024
 VWidth: 0
@@ -32,7 +32,9 @@ SplineSet
  764 1808 916 1704 916 1536 c 1
  788 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" uni020A.sq
 EndChar

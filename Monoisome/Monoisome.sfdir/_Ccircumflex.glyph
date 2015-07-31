@@ -1,5 +1,5 @@
 StartChar: Ccircumflex
-Encoding: 264 264 173
+Encoding: 264 264 172
 GlifName: C_circumflex
 Width: 1024
 VWidth: 0
@@ -34,7 +34,9 @@ SplineSet
  264 1536 l 1
  561 1792 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ccircumflex.sq
 EndChar

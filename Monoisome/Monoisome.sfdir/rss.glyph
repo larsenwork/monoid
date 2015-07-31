@@ -1,5 +1,5 @@
 StartChar: rss
-Encoding: 61598 61598 1031
+Encoding: 61598 61598 1029
 Width: 2048
 Flags: W
 HStem: 0 384<212.668 427.332> 634 262<135.798 334.661> 1138 270<135.762 399.734>
@@ -40,4 +40,7 @@ SplineSet
  545 1390 874 1243 1122 994 c 0
  1371 746 1518 417 1536 67 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f e e d
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r s s
 EndChar

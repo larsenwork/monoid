@@ -1,5 +1,5 @@
 StartChar: fire
-Encoding: 61549 61549 863
+Encoding: 61549 61549 862
 Width: 2048
 Flags: W
 HStem: -256 128<128 1536> 0 21G<758 895>
@@ -29,4 +29,6 @@ SplineSet
  768 1536 l 1
  1044 1409 1280 1234 1280 896 c 0xd0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i r e
 EndChar

@@ -1,5 +1,5 @@
 StartChar: subscript
-Encoding: 61740 61740 269
+Encoding: 61740 61740 268
 Width: 2048
 Flags: W
 HStem: -256 206<1538 1664> -256 126<1306 1538> 0 167<133 261 916 1025> 345 146<1304.01 1471.5> 730 168<136 273 896 1021>
@@ -57,4 +57,6 @@ SplineSet
  1538 -50 l 1
  1664 -50 l 1xba
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s u b s c r i p t
 EndChar

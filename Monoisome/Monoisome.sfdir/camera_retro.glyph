@@ -1,5 +1,5 @@
 StartChar: camera_retro
-Encoding: 61571 61571 799
+Encoding: 61571 61571 798
 Width: 2048
 Flags: W
 HStem: -128 128<256 1792> 128 62<874.562 1173.44> 318 226<887 1094.5> 736 94<929.358 1053.05> 958 66<874.562 1173.44> 1152 64<384 768> 1280 128<964 1792> 1344 64<384 768>
@@ -53,4 +53,6 @@ SplineSet
  1792 1408 l 2
  1863 1408 1920 1351 1920 1280 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c a m e r a hyphen r e t r o
 EndChar

@@ -1,5 +1,5 @@
-StartChar: uniF1A0
-Encoding: 61856 61856 1298
+StartChar: google
+Encoding: 61856 61856 1296
 Width: 2048
 Flags: W
 HStem: -128 91<607.59 921.562> 775 61<598.5 820.5> 1448 88<661.52 837.175 1028 1160>
@@ -41,4 +41,6 @@ SplineSet
  345 1226 396 1334 480 1406 c 0
  587 1499 741 1536 880 1536 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g o o g l e
 EndChar

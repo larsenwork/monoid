@@ -1,5 +1,5 @@
 StartChar: zdotaccent
-Encoding: 380 380 1353
+Encoding: 380 380 1351
 GlifName: zdotaccent
 Width: 1024
 VWidth: 0
@@ -29,6 +29,7 @@ SplineSet
  510 1155 464 1201 464 1267 c 0
  464 1333 510 1379 576 1379 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: resize_full
-Encoding: 61541 61541 1022
+Encoding: 61541 61541 1020
 Width: 2048
 Flags: W
 HStem: 1388 20G<1134.5 1617.5>
@@ -42,6 +42,7 @@ SplineSet
  1600 1408 l 2
  1635 1408 1664 1379 1664 1344 c 2
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e x p a n d
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s h a r e
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e x p a n d
 EndChar

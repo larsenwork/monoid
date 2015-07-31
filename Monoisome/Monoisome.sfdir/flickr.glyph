@@ -1,5 +1,5 @@
 StartChar: flickr
-Encoding: 61806 61806 331
+Encoding: 61806 61806 330
 Width: 2048
 Flags: W
 HStem: -128 556<499.771 728.229 1063.77 1292.23> 852 556<499.771 728.229 1063.77 1292.23>
@@ -29,4 +29,6 @@ SplineSet
  966 523 1061 428 1178 428 c 0
  1295 428 1390 523 1390 640 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f l i c k r
 EndChar

@@ -1,5 +1,5 @@
 StartChar: unlock_alt
-Encoding: 61758 61758 1313
+Encoding: 61758 61758 1311
 Width: 2048
 Flags: W
 HStem: 0 768<151.416 256 448 1256.58> 1024 21G<1006.5 1105.5> 1344 192<581.825 826.175>
@@ -28,4 +28,6 @@ SplineSet
  448 768 l 1
  1184 768 l 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen u n l o c k hyphen a l t
 EndChar

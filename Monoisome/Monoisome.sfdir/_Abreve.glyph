@@ -1,5 +1,5 @@
 StartChar: Abreve
-Encoding: 258 258 169
+Encoding: 258 258 168
 GlifName: A_breve
 Width: 1024
 VWidth: 0
@@ -32,7 +32,9 @@ SplineSet
  364 1706 433 1640 576 1640 c 0
  719 1640 788 1706 788 1792 c 1xf6
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Abreve.sq
 EndChar

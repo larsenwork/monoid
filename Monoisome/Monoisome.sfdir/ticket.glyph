@@ -1,5 +1,5 @@
 StartChar: ticket
-Encoding: 61765 61765 292
+Encoding: 61765 61765 291
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -37,4 +37,6 @@ SplineSet
  1830 923 l 2
  1879 873 1879 791 1830 742 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t i c k e t
 EndChar

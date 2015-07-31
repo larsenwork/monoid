@@ -1,5 +1,5 @@
 StartChar: gbreve
-Encoding: 287 287 875
+Encoding: 287 287 874
 GlifName: gbreve
 Width: 1024
 VWidth: 0
@@ -47,6 +47,7 @@ SplineSet
  364 1322 433 1256 576 1256 c 0
  719 1256 788 1322 788 1408 c 1xcd40
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

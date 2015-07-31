@@ -1,5 +1,5 @@
 StartChar: epsilontonos
-Encoding: 941 941 838
+Encoding: 941 941 837
 GlifName: epsilontonos
 Width: 1024
 VWidth: 0
@@ -37,6 +37,7 @@ SplineSet
  504 1194 l 1
  690 1438 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

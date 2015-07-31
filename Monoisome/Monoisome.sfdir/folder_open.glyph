@@ -1,5 +1,5 @@
 StartChar: folder_open
-Encoding: 61564 61564 869
+Encoding: 61564 61564 868
 Width: 2048
 Flags: W
 HStem: 0 640<693.237 1514.76> 768 384<896 1555.84> 1388 20G<290.5 733.5>
@@ -33,4 +33,6 @@ SplineSet
  1440 1152 l 2
  1563 1152 1664 1051 1664 928 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f o l d e r hyphen o p e n
 EndChar

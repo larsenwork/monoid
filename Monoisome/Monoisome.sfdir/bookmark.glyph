@@ -1,5 +1,5 @@
 StartChar: bookmark
-Encoding: 61486 61486 794
+Encoding: 61486 61486 793
 Width: 2048
 Flags: W
 HStem: 1388 20G<236.5 1299.5>
@@ -25,5 +25,6 @@ SplineSet
  214 1405 229 1408 244 1408 c 0
  275 1408 1261 1408 1292 1408 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b o o k m a r k
 EndChar

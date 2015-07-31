@@ -30,5 +30,6 @@ SplineSet
  768 1478 826 1536 896 1536 c 0
  966 1536 1024 1478 1024 1408 c 2
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p o w e r hyphen o f f
 EndChar

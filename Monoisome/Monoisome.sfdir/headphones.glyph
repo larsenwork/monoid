@@ -1,5 +1,5 @@
 StartChar: headphones
-Encoding: 61477 61477 895
+Encoding: 61477 61477 894
 Width: 2048
 Flags: W
 HStem: 0 21G<663 745 1175 1257> 1216 192<757.231 1162.77>
@@ -46,5 +46,6 @@ SplineSet
  128 1061 509 1408 960 1408 c 0
  1411 1408 1792 1061 1792 650 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen h e a d p h o n e s
 EndChar

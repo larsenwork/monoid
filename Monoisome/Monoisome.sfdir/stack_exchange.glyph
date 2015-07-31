@@ -1,5 +1,5 @@
 StartChar: stack_exchange
-Encoding: 61837 61837 360
+Encoding: 61837 61837 359
 Width: 2048
 Flags: W
 HStem: 13 270<239.468 874 1134 1296.53> 354 255<149 1387> 682 255<149 1387> 1010 270<239.468 1296.53>
@@ -35,4 +35,6 @@ SplineSet
  1191 1280 l 2
  1299 1280 1387 1189 1387 1077 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t a c k hyphen e x c h a n g e
 EndChar

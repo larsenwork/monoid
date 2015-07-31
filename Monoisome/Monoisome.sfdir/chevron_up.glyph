@@ -1,5 +1,5 @@
 StartChar: chevron_up
-Encoding: 61559 61559 806
+Encoding: 61559 61559 805
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -19,4 +19,6 @@ SplineSet
  1811 296 l 2
  1836 271 1836 230 1811 205 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c h e v r o n hyphen u p
 EndChar

@@ -1,5 +1,5 @@
 StartChar: compass
-Encoding: 61774 61774 301
+Encoding: 61774 61774 300
 Width: 2048
 Flags: W
 HStem: -128 224<715.869 1076.13> 1019 20G<1112 1152> 1184 224<715.869 1076.13>
@@ -28,4 +28,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o m p a s s
 EndChar

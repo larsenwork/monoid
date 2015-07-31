@@ -1,5 +1,5 @@
 StartChar: magnet
-Encoding: 61558 61558 938
+Encoding: 61558 61558 937
 Width: 2048
 Flags: W
 HStem: -128 512<747.792 1044.21> 896 512<135.794 632.206 1159.79 1656.21>
@@ -42,4 +42,6 @@ SplineSet
  1600 1408 l 2
  1635 1408 1664 1379 1664 1344 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a g n e t
 EndChar

@@ -1,5 +1,5 @@
 StartChar: venus
-Encoding: 61985 61985 1326
+Encoding: 61985 61985 1324
 Width: 2048
 Flags: W
 HStem: 0 128<384 640 768 1024> 388 124<543.37 640 768 868.096>
@@ -36,4 +36,6 @@ SplineSet
  1152 1207 951 1408 704 1408 c 0
  457 1408 256 1207 256 960 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen v e n u s
 EndChar

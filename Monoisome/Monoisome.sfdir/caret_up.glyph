@@ -1,5 +1,5 @@
 StartChar: caret_up
-Encoding: 61656 61656 801
+Encoding: 61656 61656 800
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -17,4 +17,6 @@ SplineSet
  1133 365 l 2
  1145 353 1152 337 1152 320 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c a r e t hyphen u p
 EndChar

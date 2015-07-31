@@ -1,5 +1,5 @@
 StartChar: frown
-Encoding: 61721 61721 252
+Encoding: 61721 61721 251
 Width: 2048
 Flags: W
 HStem: -128 128<697.514 1094.49> 448 128<772.018 1019.98> 768 256<553.814 726.186 1065.81 1238.19> 1280 128<697.514 1094.49>
@@ -38,4 +38,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f r o w n hyphen o
 EndChar

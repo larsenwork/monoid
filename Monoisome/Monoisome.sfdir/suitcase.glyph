@@ -1,5 +1,5 @@
 StartChar: suitcase
-Encoding: 61682 61682 217
+Encoding: 61682 61682 216
 Width: 2048
 Flags: W
 HStem: -128 1280<236.164 416 512 640 768 1280 1408 1536 1632 1811.84> 1280 128<768 1280>
@@ -39,4 +39,6 @@ SplineSet
  1696 1152 l 2
  1819 1152 1920 1051 1920 928 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s u i t c a s e
 EndChar

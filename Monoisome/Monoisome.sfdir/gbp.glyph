@@ -1,5 +1,5 @@
 StartChar: gbp
-Encoding: 61780 61780 306
+Encoding: 61780 61780 305
 Width: 2048
 Flags: W
 HStem: 0 214<128 257 508 922> 597 195<130 257 508 845> 1177 231<579.084 824.254>
@@ -44,4 +44,6 @@ SplineSet
  1116 431 l 2
  1134 431 1148 417 1148 399 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g b p
 EndChar

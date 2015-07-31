@@ -1,5 +1,5 @@
 StartChar: minus_sign_alt
-Encoding: 61766 61766 945
+Encoding: 61766 61766 944
 Width: 2048
 Flags: W
 HStem: -128 640<393.849 1398.15> 768 640<393.849 1398.15>
@@ -27,4 +27,6 @@ SplineSet
  1376 1408 l 2
  1535 1408 1664 1279 1664 1120 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m i n u s hyphen s q u a r e
 EndChar

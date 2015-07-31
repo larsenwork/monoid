@@ -1,5 +1,5 @@
 StartChar: quotedblright
-Encoding: 8221 8221 427
+Encoding: 8221 8221 426
 GlifName: quotedblright
 Width: 1024
 VWidth: 0
@@ -33,6 +33,7 @@ SplineSet
  640 1168 l 1
  640 1408 l 1xc8
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

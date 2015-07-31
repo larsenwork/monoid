@@ -1,5 +1,5 @@
 StartChar: light_bulb
-Encoding: 61675 61675 928
+Encoding: 61675 61675 927
 Width: 2048
 Flags: W
 HStem: -128 544<543.239 736.761> 1056 64<608.011 756.306> 1280 128<477.374 802.626>
@@ -47,4 +47,6 @@ SplineSet
  128 1232 387 1408 640 1408 c 0
  893 1408 1152 1232 1152 960 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l i g h t b u l b hyphen o
 EndChar

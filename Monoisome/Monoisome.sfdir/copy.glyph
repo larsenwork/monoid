@@ -1,5 +1,5 @@
 StartChar: copy
-Encoding: 61637 61637 819
+Encoding: 61637 61637 818
 Width: 2048
 Flags: W
 HStem: -256 128<896 1792> 128 128<256 768> 512 128<981 1280> 896 128<341 640> 1024 128<1408 1792> 1408 128<768 1152>
@@ -54,4 +54,7 @@ SplineSet
  896 -128 l 1
  1792 -128 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e s hyphen o
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o p y
 EndChar

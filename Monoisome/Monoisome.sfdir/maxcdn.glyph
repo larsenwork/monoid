@@ -1,5 +1,5 @@
 StartChar: maxcdn
-Encoding: 61750 61750 939
+Encoding: 61750 61750 938
 Width: 2048
 Flags: W
 HStem: 0 21G<128 466.281 748 1086.28 1375 1713.3> 953 327<666 952 1286 1535.51>
@@ -26,4 +26,6 @@ SplineSet
  1590 1280 1713 1224 1792 1126 c 0
  1872 1028 1901 895 1873 763 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a x c d n
 EndChar

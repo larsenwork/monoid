@@ -1,5 +1,5 @@
 StartChar: terminal
-Encoding: 61728 61728 258
+Encoding: 61728 61728 257
 Width: 2048
 Flags: W
 HStem: 0 128<768 1792>
@@ -29,4 +29,6 @@ SplineSet
  1760 128 l 2
  1778 128 1792 114 1792 96 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t e r m i n a l
 EndChar

@@ -1,5 +1,5 @@
 StartChar: code_fork
-Encoding: 61734 61734 264
+Encoding: 61734 61734 263
 Width: 2048
 Flags: W
 HStem: -128 96<248.515 391.485> 1184 96<888.515 1031.48> 1312 96<248.515 391.485>
@@ -44,4 +44,6 @@ SplineSet
  768 1194 854 1280 960 1280 c 0
  1066 1280 1152 1194 1152 1088 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o d e hyphen f o r k
 EndChar

@@ -1,5 +1,5 @@
 StartChar: quote_left
-Encoding: 61709 61709 1004
+Encoding: 61709 61709 1002
 Width: 2048
 Flags: W
 HStem: 0 768<407.416 811.332 1303.42 1707.33> 1152 256<524.611 760.206 1420.61 1656.21>
@@ -43,4 +43,6 @@ SplineSet
  1600 768 l 2
  1706 768 1792 682 1792 576 c 2xc8
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen q u o t e hyphen l e f t
 EndChar

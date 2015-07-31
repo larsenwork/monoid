@@ -1,5 +1,5 @@
 StartChar: scircumflex
-Encoding: 349 349 1036
+Encoding: 349 349 1034
 GlifName: scircumflex
 Width: 1024
 VWidth: 0
@@ -36,6 +36,7 @@ SplineSet
  200 1152 l 1
  497 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

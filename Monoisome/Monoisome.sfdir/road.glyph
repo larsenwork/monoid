@@ -1,5 +1,5 @@
 StartChar: road
-Encoding: 61464 61464 1029
+Encoding: 61464 61464 1027
 Width: 2048
 Flags: W
 HStem: 0 21G<205 928 1248 1971> 320 192<937.49 1238.51> 896 128<975.069 1200.93>
@@ -46,5 +46,6 @@ SplineSet
  1972 189 l 2
  1987 153 1998 113 1998 73 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r o a d
 EndChar

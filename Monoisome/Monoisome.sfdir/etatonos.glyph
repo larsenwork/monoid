@@ -1,5 +1,5 @@
 StartChar: etatonos
-Encoding: 942 942 846
+Encoding: 942 942 845
 GlifName: etatonos
 Width: 1024
 VWidth: 0
@@ -33,6 +33,7 @@ SplineSet
  456 1218 l 1
  642 1462 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

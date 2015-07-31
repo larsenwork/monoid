@@ -1,5 +1,5 @@
 StartChar: stethoscope
-Encoding: 61681 61681 1064
+Encoding: 61681 61681 1062
 Width: 2048
 Flags: W
 HStem: -128 128<806.963 1113.04> 388 124<423.793 512 640 728.207> 896 128<1289.62 1398.38> 1152 256<256.893 406.186 745.814 895.107>
@@ -47,4 +47,6 @@ SplineSet
  1152 938 1238 1024 1344 1024 c 0
  1450 1024 1536 938 1536 832 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t e t h o s c o p e
 EndChar

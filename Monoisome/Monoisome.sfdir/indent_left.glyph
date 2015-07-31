@@ -1,5 +1,5 @@
 StartChar: indent_left
-Encoding: 61499 61499 905
+Encoding: 61499 61499 904
 Width: 2048
 Flags: W
 HStem: 0 256<128 1920> 384 256<768 1920> 768 256<768 1920> 1152 256<128 1920>
@@ -54,6 +54,7 @@ SplineSet
  1888 1408 l 2
  1905 1408 1920 1393 1920 1376 c 2
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen o u t d e n t
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen d e d e n t
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen o u t d e n t
 EndChar

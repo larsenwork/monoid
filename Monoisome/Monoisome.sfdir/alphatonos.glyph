@@ -1,5 +1,5 @@
 StartChar: alphatonos
-Encoding: 940 940 769
+Encoding: 940 940 768
 GlifName: alphatonos
 Width: 1024
 VWidth: 0
@@ -49,6 +49,7 @@ SplineSet
  504 1194 l 1
  690 1438 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

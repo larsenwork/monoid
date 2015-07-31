@@ -1,5 +1,5 @@
 StartChar: ambulance
-Encoding: 61689 61689 770
+Encoding: 61689 61689 769
 Width: 2048
 Flags: W
 HStem: -128 128<555.734 724.266 1451.93 1620.27> 128 128<199.794 256> 256 384<553.814 726.186> 896 128<564.723 768> 1024 384<1024 1280 1536 1792> 1280 128<1280 1536>
@@ -69,4 +69,6 @@ SplineSet
  1984 1408 l 2xd440
  2019 1408 2048 1379 2048 1344 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a m b u l a n c e
 EndChar

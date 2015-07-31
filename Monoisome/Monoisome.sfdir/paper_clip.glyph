@@ -1,5 +1,5 @@
 StartChar: paper_clip
-Encoding: 61638 61638 976
+Encoding: 61638 61638 975
 Width: 2048
 Flags: W
 HStem: -124 127<1149.09 1352.85> 901 129<642.863 769.233> 1280 124<389.518 633.619>
@@ -42,4 +42,6 @@ SplineSet
  1432 386 l 2
  1495 324 1532 239 1532 151 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p a p e r c l i p
 EndChar

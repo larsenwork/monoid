@@ -1,5 +1,5 @@
 StartChar: magic
-Encoding: 61648 61648 937
+Encoding: 61648 61648 936
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -61,4 +61,6 @@ SplineSet
  1024 1536 l 1
  1054 1438 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a g i c
 EndChar

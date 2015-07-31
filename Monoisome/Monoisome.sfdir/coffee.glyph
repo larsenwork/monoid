@@ -1,5 +1,5 @@
 StartChar: coffee
-Encoding: 61684 61684 219
+Encoding: 61684 61684 218
 Width: 2048
 Flags: W
 HStem: -128 256<314.053 1733.95> 256 1024<492.164 1427.84> 512 192<1536 1705.1> 1088 192<1536 1705.1>
@@ -31,4 +31,6 @@ SplineSet
  1600 1280 l 2
  1812 1280 1984 1108 1984 896 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o f f e e
 EndChar

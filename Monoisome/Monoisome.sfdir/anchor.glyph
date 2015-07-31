@@ -1,5 +1,5 @@
 StartChar: anchor
-Encoding: 61757 61757 285
+Encoding: 61757 61757 284
 Width: 2048
 Flags: W
 HStem: -240 233<758.5 896 1152 1289.5> 640 256<647.794 896 1152 1400.21> 1344 192<970.156 1077.84>
@@ -57,4 +57,6 @@ SplineSet
  1888 384 l 2
  1906 384 1920 370 1920 352 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a n c h o r
 EndChar

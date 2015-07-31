@@ -1,5 +1,5 @@
 StartChar: Lacute
-Encoding: 313 313 278
+Encoding: 313 313 277
 GlifName: L_acute
 Width: 1024
 VWidth: 0
@@ -23,7 +23,9 @@ SplineSet
  370 1536 l 1
  232 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Lacute.sq
 EndChar

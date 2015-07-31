@@ -1,5 +1,5 @@
 StartChar: ibreve
-Encoding: 301 301 900
+Encoding: 301 301 899
 GlifName: ibreve
 Width: 1024
 VWidth: 0
@@ -26,6 +26,7 @@ SplineSet
  364 1322 433 1256 576 1256 c 0
  719 1256 788 1322 788 1408 c 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

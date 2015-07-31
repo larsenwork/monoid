@@ -1,5 +1,5 @@
 StartChar: volume_up
-Encoding: 61480 61480 1331
+Encoding: 61480 61480 1329
 Width: 2048
 Flags: W
 HStem: -71 144<1258.11 1366> 1207 144<1258.11 1366>
@@ -59,5 +59,6 @@ SplineSet
  1310 1351 1319 1349 1327 1346 c 0
  1609 1225 1792 947 1792 640 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen v o l u m e hyphen u p
 EndChar

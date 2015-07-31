@@ -1,5 +1,5 @@
 StartChar: spinner
-Encoding: 61712 61712 1057
+Encoding: 61712 61712 1055
 Width: 2048
 Flags: W
 HStem: -192 256<937.814 1110.19> 14 256<440.211 612.186 1435.81 1607.79> 512 256<233.814 406.186 1641.81 1814.19> 914 448<1405.72 1637.84> 978 320<430.427 621.573> 1152 384<916.668 1131.33>
@@ -49,4 +49,6 @@ SplineSet
  1298 1261 1398 1362 1522 1362 c 0
  1645 1362 1746 1261 1746 1138 c 0x3010
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s p i n n e r
 EndChar

@@ -1,5 +1,5 @@
 StartChar: tasks
-Encoding: 61614 61614 1072
+Encoding: 61614 61614 1070
 Width: 2048
 Flags: W
 HStem: 0 128<1152 1792> 256 128<1152 1792> 512 128<768 1792> 768 128<768 1792> 1024 128<1408 1792> 1280 128<1408 1792>
@@ -51,4 +51,6 @@ SplineSet
  1856 1408 l 2
  1891 1408 1920 1379 1920 1344 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t a s k s
 EndChar

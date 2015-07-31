@@ -1,5 +1,5 @@
 StartChar: location_arrow
-Encoding: 61732 61732 262
+Encoding: 61732 61732 261
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -20,4 +20,6 @@ SplineSet
  1489 1280 1505 1274 1517 1261 c 0
  1537 1242 1542 1212 1529 1187 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l o c a t i o n hyphen a r r o w
 EndChar

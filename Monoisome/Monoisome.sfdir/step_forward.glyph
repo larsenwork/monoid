@@ -1,5 +1,5 @@
 StartChar: step_forward
-Encoding: 61521 61521 1062
+Encoding: 61521 61521 1060
 Width: 2048
 Flags: W
 HStem: 1388 20G<942.5 1105.5>
@@ -26,5 +26,6 @@ SplineSet
  893 607 889 601 883 595 c 2
  173 -115 l 2
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t e p hyphen f o r w a r d
 EndChar

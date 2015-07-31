@@ -1,5 +1,5 @@
 StartChar: umbrella
-Encoding: 61673 61673 1105
+Encoding: 61673 61673 1103
 Width: 2048
 Flags: W
 HStem: -128 128<686.275 849.725> 751 529<847.98 1080.45> 1310 162<903.794 1016.21>
@@ -50,4 +50,6 @@ SplineSet
  896 1443 925 1472 960 1472 c 0
  995 1472 1024 1443 1024 1408 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen u m b r e l l a
 EndChar

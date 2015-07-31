@@ -1,5 +1,5 @@
 StartChar: sort_by_alphabet
-Encoding: 61789 61789 1053
+Encoding: 61789 61789 1051
 Width: 2048
 Flags: W
 HStem: -256 233<1579 1700> -256 114<1287.22 1579> 283 229<1121 1241> 398 114<1241 1517> 768 106<1027 1097 1239 1314 1501 1576 1719 1789> 1018 110<1319 1496>
@@ -76,4 +76,6 @@ SplineSet
  1719 874 l 1
  1789 874 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s o r t hyphen a l p h a hyphen a s c
 EndChar

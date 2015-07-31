@@ -1,5 +1,5 @@
 StartChar: Jcircumflex
-Encoding: 308 308 236
+Encoding: 308 308 235
 GlifName: J_circumflex
 Width: 1024
 VWidth: 0
@@ -32,7 +32,9 @@ SplineSet
  200 1536 l 1
  497 1792 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Jcircumflex.sq
 EndChar

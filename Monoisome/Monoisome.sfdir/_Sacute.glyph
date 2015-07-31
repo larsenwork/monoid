@@ -1,5 +1,5 @@
 StartChar: Sacute
-Encoding: 346 346 261
+Encoding: 346 346 260
 GlifName: S_acute
 Width: 1024
 VWidth: 0
@@ -33,7 +33,9 @@ SplineSet
  626 1536 l 1
  488 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Sacute.sq
 EndChar

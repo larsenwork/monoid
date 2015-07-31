@@ -1,5 +1,5 @@
 StartChar: Ycircumflex
-Encoding: 374 374 211
+Encoding: 374 374 210
 GlifName: Y_circumflex
 Width: 1024
 VWidth: 0
@@ -30,7 +30,9 @@ SplineSet
  200 1536 l 1
  497 1792 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ycircumflex.sq
 EndChar

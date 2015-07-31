@@ -1,5 +1,5 @@
 StartChar: Uring
-Encoding: 366 366 203
+Encoding: 366 366 202
 GlifName: U_ring
 Width: 1024
 VWidth: 0
@@ -36,7 +36,9 @@ SplineSet
  646 1408 696 1453 696 1536 c 0
  696 1619 646 1664 576 1664 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Uring.sq
 EndChar

@@ -1,5 +1,5 @@
 StartChar: signin
-Encoding: 61584 61584 1046
+Encoding: 61584 61584 1044
 Width: 2048
 Flags: W
 HStem: 0 128<1024.3 1468.35> 384 512<135.794 640> 1152 128<1024.3 1468.35>
@@ -41,4 +41,6 @@ SplineSet
  1376 1280 l 2
  1535 1280 1664 1151 1664 992 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s i g n hyphen i n
 EndChar

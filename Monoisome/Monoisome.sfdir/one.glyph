@@ -1,5 +1,5 @@
 StartChar: one
-Encoding: 49 49 969
+Encoding: 49 49 968
 GlifName: one
 Width: 1024
 VWidth: 0
@@ -24,4 +24,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss05' Style Set 5 lookup 5 subtable" one.base
 EndChar

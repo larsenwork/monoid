@@ -1,5 +1,5 @@
 StartChar: play_sign
-Encoding: 61764 61764 291
+Encoding: 61764 61764 290
 Width: 2048
 Flags: W
 HStem: -128 384<679.137 1108> 1388 20G<684 1108>
@@ -25,4 +25,6 @@ SplineSet
  715 256 726 259 736 265 c 2
  1280 585 l 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p l a y hyphen c i r c l e
 EndChar

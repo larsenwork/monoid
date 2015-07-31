@@ -1,5 +1,5 @@
 StartChar: iacute
-Encoding: 237 237 899
+Encoding: 237 237 898
 GlifName: iacute
 Width: 1024
 VWidth: 0
@@ -23,6 +23,7 @@ SplineSet
  626 1152 l 1
  488 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

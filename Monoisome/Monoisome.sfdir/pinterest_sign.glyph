@@ -1,9 +1,9 @@
 StartChar: pinterest_sign
-Encoding: 61651 61651 990
+Encoding: 61651 61651 989
 Width: 2048
 Flags: W
 HStem: -128 324<875.315 1146.01> 857 165<747.37 1008> 1152 256<729.197 1113.41>
-VStem: 128 256<509.39 832.073> 532 148<661 780.415> 928 294<592.91 829.577> 1408 256<498.18 870.221>
+VStem: 128 256<509.39 832.073> 532 148<542.313 780.415> 928 294<592.91 829.577> 1408 256<498.18 870.221>
 LayerCount: 2
 Back
 Fore
@@ -40,4 +40,6 @@ SplineSet
  128 1279 257 1408 416 1408 c 2
  1376 1408 l 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p i n t e r e s t hyphen s q u a r e
 EndChar

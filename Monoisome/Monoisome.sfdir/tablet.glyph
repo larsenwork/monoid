@@ -1,5 +1,5 @@
 StartChar: tablet
-Encoding: 61706 61706 240
+Encoding: 61706 61706 239
 Width: 2048
 Flags: W
 HStem: 0 64<649.346 758.654> 192 64<649.346 758.654> 1280 128<259.772 1148.23>
@@ -32,4 +32,6 @@ SplineSet
  1120 1408 l 2
  1208 1408 1280 1336 1280 1248 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t a b l e t
 EndChar

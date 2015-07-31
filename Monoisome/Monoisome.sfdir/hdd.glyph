@@ -1,5 +1,5 @@
 StartChar: hdd
-Encoding: 61600 61600 152
+Encoding: 61600 61600 151
 Width: 2048
 Flags: W
 HStem: 0 128<259.772 1532.23> 240 160<1022.81 1153.19 1278.81 1409.19> 512 128<306 1486> 1152 128<464.357 1327.64>
@@ -48,4 +48,6 @@ SplineSet
  1648 555 l 2
  1656 530 1664 507 1664 480 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen h d d hyphen o
 EndChar

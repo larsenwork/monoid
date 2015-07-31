@@ -1,5 +1,5 @@
 StartChar: Zcaron
-Encoding: 381 381 218
+Encoding: 381 381 217
 GlifName: Z_caron
 Width: 1024
 VWidth: 0
@@ -31,7 +31,9 @@ SplineSet
  655 1539 l 1
  497 1539 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Zcaron.sq
 EndChar

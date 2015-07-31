@@ -1,5 +1,5 @@
 StartChar: sort_by_attributes_alt
-Encoding: 61793 61793 1055
+Encoding: 61793 61793 1053
 Width: 2048
 Flags: W
 HStem: -256 256<1024 1344> 256 256<1024 1536> 768 256<1024 1728> 1280 256<1024 1920>
@@ -61,4 +61,6 @@ SplineSet
  1888 1536 l 2
  1906 1536 1920 1522 1920 1504 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s o r t hyphen a m o u n t hyphen d e s c
 EndChar

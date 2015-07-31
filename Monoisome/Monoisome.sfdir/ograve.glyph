@@ -1,5 +1,5 @@
 StartChar: ograve
-Encoding: 242 242 149
+Encoding: 242 242 148
 GlifName: ograve
 Width: 1024
 VWidth: 0
@@ -34,6 +34,7 @@ SplineSet
  498 1408 l 1
  664 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: youtube
-Encoding: 61799 61799 1347
+Encoding: 61799 61799 1345
 Width: 2048
 Flags: W
 HStem: -256 196<600.072 1169.01> -26 20G<741 759> 14 156<1351.43 1432.51> 111 59<1435 1526> 245 114<1350.97 1433.03> 603 173<926 1008.83> 859 82<836.849 913.578 1147.55 1224.68> 1290 81<836.849 913.578>
@@ -135,4 +135,6 @@ SplineSet
  1253 1365 l 1
  1344 1365 l 1xcf00b8
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen y o u t u b e
 EndChar

@@ -1,5 +1,5 @@
 StartChar: envelope_alt
-Encoding: 61664 61664 200
+Encoding: 61664 61664 199
 Width: 2048
 Flags: W
 HStem: -128 384<893.638 1154.36>
@@ -34,4 +34,6 @@ SplineSet
  1760 1280 l 2
  1847 1280 1920 1208 1920 1120 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e n v e l o p e
 EndChar

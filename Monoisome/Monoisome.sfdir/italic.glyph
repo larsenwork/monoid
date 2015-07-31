@@ -1,5 +1,5 @@
 StartChar: italic
-Encoding: 61491 61491 912
+Encoding: 61491 61491 911
 Width: 2048
 Flags: W
 HStem: -126 85<145 271.968> -125 99<772.031 838.196> 1305 103<444 602.008> 1319 89<1014.37 1135.59>
@@ -30,5 +30,6 @@ SplineSet
  529 -107 460 -106 392 -106 c 0
  303 -106 216 -121 128 -126 c 1x80
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen i t a l i c
 EndChar

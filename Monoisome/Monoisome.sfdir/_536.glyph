@@ -1,5 +1,5 @@
 StartChar: _536
-Encoding: 62011 62011 521
+Encoding: 62011 62011 520
 Width: 2048
 Flags: W
 HStem: 1031 377<573 693 1091 1203>
@@ -25,4 +25,7 @@ SplineSet
  128 1408 l 1
  1664 1408 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen y hyphen c o m b i n a t o r
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen y c
 EndChar

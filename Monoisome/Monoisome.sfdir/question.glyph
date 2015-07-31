@@ -1,5 +1,5 @@
 StartChar: question
-Encoding: 63 63 1002
+Encoding: 63 63 1000
 GlifName: question
 Width: 1024
 VWidth: 0
@@ -171,4 +171,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen q u e s t i o n
 EndChar

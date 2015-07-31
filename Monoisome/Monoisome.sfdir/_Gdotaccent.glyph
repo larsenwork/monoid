@@ -1,5 +1,5 @@
 StartChar: Gdotaccent
-Encoding: 288 288 195
+Encoding: 288 288 194
 GlifName: G_dotaccent
 Width: 1024
 VWidth: 0
@@ -35,7 +35,9 @@ SplineSet
  574 1584 528 1630 528 1696 c 0
  528 1762 574 1808 640 1808 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Gdotaccent.sq
 EndChar

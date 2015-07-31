@@ -1,5 +1,5 @@
 StartChar: vk
-Encoding: 61833 61833 1328
+Encoding: 61833 61833 1326
 Width: 2048
 Flags: W
 VStem: 883 366<570.516 973.97>
@@ -43,4 +43,6 @@ SplineSet
  1944 1045 l 1
  2031 1056 2045 1016 2045 1016 c 1
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen v k
 EndChar

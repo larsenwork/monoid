@@ -1,5 +1,5 @@
 StartChar: sitemap
-Encoding: 61672 61672 208
+Encoding: 61672 61672 207
 Width: 2048
 Flags: W
 HStem: -128 512<151.416 320 448 616.584 791.416 960 1088 1256.58 1431.42 1600 1728 1896.58> 576 128<448 960 1088 1600> 1388 20G<837.5 1210.5>
@@ -60,4 +60,6 @@ SplineSet
  1824 384 l 2
  1877 384 1920 341 1920 288 c 2xe1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s i t e m a p
 EndChar

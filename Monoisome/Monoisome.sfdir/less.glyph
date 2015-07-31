@@ -1,5 +1,5 @@
 StartChar: less
-Encoding: 60 60 926
+Encoding: 60 60 925
 GlifName: less
 Width: 1024
 VWidth: 0
@@ -37,4 +37,17 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "Single Substitution lookup 98 subtable" less2
+Substitution2: "Single Substitution lookup 97 subtable" less1
+Substitution2: "Single Substitution lookup 92 subtable" rangeless
+Substitution2: "Single Substitution lookup 66 subtable" equallessless
+Substitution2: "Single Substitution lookup 65 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 59 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 52 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 46 subtable" less1
+Substitution2: "Single Substitution lookup 37 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 32 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 31 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 25 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork5
 EndChar

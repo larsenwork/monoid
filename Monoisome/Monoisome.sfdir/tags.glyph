@@ -1,5 +1,5 @@
 StartChar: tags
-Encoding: 61484 61484 1071
+Encoding: 61484 61484 1069
 Width: 2048
 Flags: W
 HStem: 1216 192<361.814 534.186>
@@ -41,5 +41,6 @@ SplineSet
  1990 603 l 2
  2013 579 2027 546 2027 512 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t a g s
 EndChar

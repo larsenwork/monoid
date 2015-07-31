@@ -108,5 +108,6 @@ SplineSet
  1888 1408 l 2
  1976 1408 2048 1336 2048 1248 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l m
 EndChar

@@ -1,5 +1,5 @@
 StartChar: gamepad
-Encoding: 61723 61723 254
+Encoding: 61723 61723 253
 Width: 2048
 Flags: W
 HStem: 0 256<1356.27 1677.5> 0 192<549.308 735> 512 512<1321.81 1494.19> 768 256<1577.81 1712.13> 832 192<549.308 736>
@@ -49,4 +49,6 @@ SplineSet
  1536 1024 l 2x0e
  1819 1024 2048 795 2048 512 c 0x26
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g a m e p a d
 EndChar

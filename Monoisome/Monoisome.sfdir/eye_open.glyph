@@ -1,5 +1,5 @@
 StartChar: eye_open
-Encoding: 61550 61550 852
+Encoding: 61550 61550 851
 Width: 2048
 Flags: W
 HStem: 0 128<793.827 1254.17> 256 400<755 1147.5> 1008 144<888.99 1063.33>
@@ -34,4 +34,6 @@ SplineSet
  1379 1152 1716 947 1900 645 c 0
  1912 624 1920 601 1920 576 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e y e
 EndChar

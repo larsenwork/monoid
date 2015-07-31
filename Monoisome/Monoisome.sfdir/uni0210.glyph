@@ -1,5 +1,5 @@
 StartChar: uni0210
-Encoding: 528 528 1153
+Encoding: 528 528 1151
 GlifName: uni0210
 Width: 1024
 VWidth: 0
@@ -43,7 +43,9 @@ SplineSet
  690 1792 l 1
  856 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" uni0210.sq
 EndChar

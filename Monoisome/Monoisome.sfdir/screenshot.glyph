@@ -1,5 +1,5 @@
 StartChar: screenshot
-Encoding: 61531 61531 1037
+Encoding: 61531 61531 1035
 Width: 2048
 Flags: W
 HStem: 79 132<690.434 768 1024 1101.57> 512 256<135.794 342.674 467 632.206 1159.79 1325 1449.33 1656.21> 1069 132<690.434 768 1024 1101.57> 1388 20G<814.5 977.5>
@@ -60,5 +60,6 @@ SplineSet
  1600 768 l 2
  1635 768 1664 739 1664 704 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c r o s s h a i r s
 EndChar

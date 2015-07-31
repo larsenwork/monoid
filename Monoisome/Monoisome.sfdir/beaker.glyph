@@ -1,5 +1,5 @@
 StartChar: beaker
-Encoding: 61635 61635 788
+Encoding: 61635 61635 787
 Width: 2048
 Flags: W
 HStem: -128 512<604 1316> 1280 128<647.794 768 896 1024 1152 1272.21>
@@ -35,4 +35,6 @@ SplineSet
  896 844 l 1
  876 813 l 1
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f l a s k
 EndChar

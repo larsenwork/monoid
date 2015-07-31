@@ -1,5 +1,5 @@
 StartChar: share_alt
-Encoding: 61540 61540 1041
+Encoding: 61540 61540 1039
 Width: 2048
 Flags: W
 HStem: 640 512<714.805 1280>
@@ -31,5 +31,6 @@ SplineSet
  1901 941 l 2
  1913 929 1920 913 1920 896 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a i l hyphen f o r w a r d
 EndChar

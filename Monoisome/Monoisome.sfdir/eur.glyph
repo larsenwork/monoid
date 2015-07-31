@@ -1,5 +1,5 @@
 StartChar: eur
-Encoding: 61779 61779 305
+Encoding: 61779 61779 304
 Width: 2048
 Flags: W
 HStem: 0 228<743.583 1099.73> 482 177<128 226 526 945.5> 764 178<128 227 522 999.45> 1165 220<906.862 1078.69> 1182 226<734.341 1082.83>
@@ -49,4 +49,7 @@ SplineSet
  1071 255 1081 254 1089 250 c 0
  1097 245 1102 237 1104 229 c 2xe8
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e u r
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e u r o
 EndChar

@@ -1,5 +1,5 @@
 StartChar: apple
-Encoding: 61817 61817 341
+Encoding: 61817 61817 340
 Width: 2048
 Flags: W
 HStem: -61 1153<708.401 979.919>
@@ -39,4 +39,6 @@ SplineSet
  1141 1527 1143 1520 1144 1514 c 0
  1144 1507 1145 1501 1145 1494 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a p p l e
 EndChar

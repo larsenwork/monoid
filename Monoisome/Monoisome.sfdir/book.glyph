@@ -1,5 +1,5 @@
 StartChar: book
-Encoding: 61485 61485 793
+Encoding: 61485 61485 792
 Width: 2048
 Flags: W
 HStem: -128 128<270.129 1386.42> 128 640<620.328 1279.91> 896 128<703.328 1312.67> 1152 256<723.672 1395.67>
@@ -62,5 +62,6 @@ SplineSet
  666 896 647 882 641 864 c 2
  620 800 l 2
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b o o k
 EndChar

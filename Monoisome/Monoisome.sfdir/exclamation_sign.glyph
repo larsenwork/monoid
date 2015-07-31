@@ -1,5 +1,5 @@
 StartChar: exclamation_sign
-Encoding: 61546 61546 849
+Encoding: 61546 61546 848
 Width: 2048
 Flags: W
 HStem: -128 256<779.077 1012.92> 384 96<769 1021.94> 1152 256<760.092 1031.91>
@@ -34,4 +34,6 @@ SplineSet
  988 480 l 2
  1006 480 1021 491 1022 505 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e x c l a m a t i o n hyphen c i r c l e
 EndChar

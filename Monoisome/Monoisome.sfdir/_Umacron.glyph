@@ -1,5 +1,5 @@
 StartChar: Umacron
-Encoding: 362 362 199
+Encoding: 362 362 198
 GlifName: U_macron
 Width: 1024
 VWidth: 0
@@ -31,7 +31,9 @@ SplineSet
  256 1540 l 1
  256 1660 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Umacron.sq
 EndChar

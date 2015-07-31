@@ -1,5 +1,5 @@
 StartChar: glass
-Encoding: 61440 61440 880
+Encoding: 61440 61440 879
 Width: 2048
 Flags: W
 HStem: -256 128<519.794 896 1152 1528.21> 1388 20G<301.5 1746.5>
@@ -26,5 +26,7 @@ SplineSet
  1728 1408 l 2
  1765 1408 1827 1399 1827 1350 c 0
 EndSplineSet
+Validated: 1
+LCarets2: 7 0 0 0 0 0 0 0
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g l a s s
 EndChar

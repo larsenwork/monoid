@@ -1,5 +1,5 @@
 StartChar: wrench
-Encoding: 61613 61613 1337
+Encoding: 61613 61613 1335
 Width: 2048
 Flags: W
 HStem: -235 235<367 469.72> 512 442<1344 1758> 1388 20G<1220.5 1380.5>
@@ -36,4 +36,6 @@ SplineSet
  1506 808 1738 954 1758 954 c 0
  1778 954 1790 939 1790 919 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen w r e n c h
 EndChar

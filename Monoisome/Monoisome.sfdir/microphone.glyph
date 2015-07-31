@@ -1,5 +1,5 @@
 StartChar: microphone
-Encoding: 61744 61744 272
+Encoding: 61744 61744 271
 Width: 2048
 Flags: W
 HStem: -128 128<327.794 640 768 1080.21> 132 124<539.904 640 768 868.096> 384 1152<565.585 842.415>
@@ -38,4 +38,6 @@ SplineSet
  384 1392 528 1536 704 1536 c 0
  880 1536 1024 1392 1024 1216 c 2xfa
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m i c r o p h o n e
 EndChar

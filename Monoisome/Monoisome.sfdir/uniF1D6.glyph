@@ -1,5 +1,5 @@
 StartChar: uniF1D6
-Encoding: 61910 61910 1306
+Encoding: 61910 61910 1304
 Width: 2048
 Flags: W
 VStem: 146 167<214.141 282.598>
@@ -46,4 +46,6 @@ SplineSet
  155 197 146 227 146 264 c 0
  146 464 242 612 398 730 c 1
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen q q
 EndChar

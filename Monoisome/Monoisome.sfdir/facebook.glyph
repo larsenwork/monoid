@@ -1,5 +1,5 @@
 StartChar: facebook
-Encoding: 61594 61594 856
+Encoding: 61594 61594 855
 Width: 2048
 Flags: W
 HStem: 631 296<223 478 784 1038> 1260 276<817.478 1085.69> 1260 264<864.051 1087>
@@ -26,4 +26,8 @@ SplineSet
  478 1398 633 1536 859 1536 c 0xd0
  967 1536 1060 1528 1087 1524 c 1xb0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 15 subtable" a c e b o o k I c o n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f a c e b o o k
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f a c e b o o k hyphen f
 EndChar

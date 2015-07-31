@@ -1,5 +1,5 @@
 StartChar: uhungarumlaut
-Encoding: 369 369 1102
+Encoding: 369 369 1100
 GlifName: uhungarumlaut
 Width: 1024
 VWidth: 0
@@ -38,6 +38,7 @@ SplineSet
  434 1152 l 1
  296 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

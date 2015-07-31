@@ -1,5 +1,5 @@
 StartChar: strikethrough
-Encoding: 61644 61644 1066
+Encoding: 61644 61644 1064
 Width: 2048
 Flags: W
 HStem: -128 106<867.5 1183.78> 512 128<128 1920> 1296 112<846.843 1125.32>
@@ -66,4 +66,6 @@ SplineSet
  1336 276 1309 328 1255 377 c 0
  1233 396 1187 420 1118 448 c 1
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t r i k e t h r o u g h
 EndChar

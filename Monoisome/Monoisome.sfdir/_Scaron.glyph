@@ -1,5 +1,5 @@
 StartChar: Scaron
-Encoding: 352 352 267
+Encoding: 352 352 266
 GlifName: S_caron
 Width: 1024
 VWidth: 0
@@ -36,7 +36,9 @@ SplineSet
  655 1536 l 1
  497 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Scaron.sq
 EndChar

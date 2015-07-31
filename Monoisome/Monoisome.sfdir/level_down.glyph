@@ -1,5 +1,5 @@
 StartChar: level_down
-Encoding: 61769 61769 296
+Encoding: 61769 61769 295
 Width: 2048
 Flags: W
 HStem: 1024 256<277.5 640>
@@ -28,4 +28,6 @@ SplineSet
  127 1236 126 1250 131 1261 c 0
  136 1272 148 1280 160 1280 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l e v e l hyphen d o w n
 EndChar

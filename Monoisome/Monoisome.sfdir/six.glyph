@@ -1,5 +1,5 @@
 StartChar: six
-Encoding: 54 54 1048
+Encoding: 54 54 1046
 GlifName: six
 Width: 1024
 VWidth: 0
@@ -63,4 +63,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "'ss13' Style Set 13 lookup 13 subtable" six.round
 EndChar

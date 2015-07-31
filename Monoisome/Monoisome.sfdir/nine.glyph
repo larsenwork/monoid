@@ -1,5 +1,5 @@
 StartChar: nine
-Encoding: 57 57 951
+Encoding: 57 57 950
 GlifName: nine
 Width: 1024
 VWidth: 0
@@ -33,4 +33,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss13' Style Set 13 lookup 13 subtable" nine.round
 EndChar

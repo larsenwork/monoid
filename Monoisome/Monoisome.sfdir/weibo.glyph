@@ -1,5 +1,5 @@
 StartChar: weibo
-Encoding: 61834 61834 1335
+Encoding: 61834 61834 1333
 Width: 2048
 Flags: W
 HStem: 1002 115<1356 1525.52> 1221 134<1300.89 1602.41>
@@ -58,4 +58,6 @@ SplineSet
  1285 1311 1309 1347 1346 1355 c 1
  1507 1389 1680 1340 1798 1209 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen w e i b o
 EndChar

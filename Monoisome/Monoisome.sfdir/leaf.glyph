@@ -1,5 +1,5 @@
 StartChar: leaf
-Encoding: 61548 61548 922
+Encoding: 61548 61548 921
 Width: 2048
 Flags: W
 HStem: 0 21G<221.5 296.5> 896 512<1167 1826.5>
@@ -34,4 +34,6 @@ SplineSet
  1659 1361 1686 1408 1770 1408 c 0
  1883 1408 1920 1115 1920 1030 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l e a f
 EndChar

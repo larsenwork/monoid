@@ -1,5 +1,5 @@
 StartChar: Emacron
-Encoding: 274 274 183
+Encoding: 274 274 182
 GlifName: E_macron
 Width: 1024
 VWidth: 0
@@ -29,7 +29,9 @@ SplineSet
  256 1540 l 1
  256 1660 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Emacron.sq
 EndChar

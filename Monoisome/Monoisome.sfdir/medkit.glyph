@@ -1,5 +1,5 @@
 StartChar: medkit
-Encoding: 61690 61690 940
+Encoding: 61690 61690 939
 Width: 2048
 Flags: W
 HStem: -128 512<640 896 1152 1408> -128 256<896 1152> 896 256<896 1152> 1280 128<768 1280>
@@ -60,4 +60,6 @@ SplineSet
  1696 1152 l 2
  1819 1152 1920 1051 1920 928 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m e d k i t
 EndChar

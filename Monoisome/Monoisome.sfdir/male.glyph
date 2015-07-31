@@ -1,5 +1,5 @@
 StartChar: male
-Encoding: 61827 61827 350
+Encoding: 61827 61827 349
 Width: 2048
 Flags: W
 HStem: 768 256<320 384 896 960> 1056 448<523.72 756.28>
@@ -37,4 +37,6 @@ SplineSet
  416 1404 516 1504 640 1504 c 0
  764 1504 864 1404 864 1280 c 0xea
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a l e
 EndChar

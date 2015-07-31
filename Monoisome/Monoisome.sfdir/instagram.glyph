@@ -1,5 +1,5 @@
 StartChar: instagram
-Encoding: 61805 61805 330
+Encoding: 61805 61805 329
 Width: 2048
 Flags: W
 HStem: -128 177<309.945 1482.06> 164 180<756.073 1038.48> 758 176<1355 1479.99> 942 466<756.828 1037.82> 1237 171<1188.01 1477.07>
@@ -44,4 +44,6 @@ SplineSet
  1467 1408 l 2
  1575 1408 1664 1319 1664 1211 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen i n s t a g r a m
 EndChar

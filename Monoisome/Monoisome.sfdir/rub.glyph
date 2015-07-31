@@ -1,5 +1,5 @@
 StartChar: rub
-Encoding: 61784 61784 1032
+Encoding: 61784 61784 1030
 Width: 2048
 Flags: W
 HStem: 0 21G<407 592> 224 192<128 384 615 1152> 534 213<128 384 615 1062.54> 1195 213<615 1062.54>
@@ -44,4 +44,8 @@ SplineSet
  955 1408 l 1
  1222 1408 1408 1228 1408 971 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r o u b l e
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r u b
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r u b l e
 EndChar

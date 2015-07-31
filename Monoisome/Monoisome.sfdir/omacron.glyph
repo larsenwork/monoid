@@ -1,5 +1,5 @@
 StartChar: omacron
-Encoding: 333 333 964
+Encoding: 333 333 963
 GlifName: omacron
 Width: 1024
 VWidth: 0
@@ -34,6 +34,7 @@ SplineSet
  256 1156 l 1
  256 1276 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: file_text
-Encoding: 61788 61788 861
+Encoding: 61788 61788 860
 Width: 2048
 Flags: W
 HStem: -256 384<512 1280> 256 128<512 1280> 512 128<512 1280> 768 128<1047.42 1280> 1024 21G<1152 1624>
@@ -53,4 +53,6 @@ SplineSet
  1248 640 l 2
  1266 640 1280 654 1280 672 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e hyphen t e x t
 EndChar

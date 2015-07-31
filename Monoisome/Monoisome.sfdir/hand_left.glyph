@@ -1,5 +1,5 @@
 StartChar: hand_left
-Encoding: 61605 61605 157
+Encoding: 61605 61605 156
 Width: 2048
 Flags: W
 HStem: -128 128<836.238 1148.94> 0 128<1356.77 1536 1671.79 1784.21> 512 128<302.429 557.47> 768 128<1439.55 1536> 896 128<303.203 758> 1280 128<906.123 1055.65>
@@ -57,4 +57,6 @@ SplineSet
  1792 896 l 2x2f70
  1863 896 1920 839 1920 768 c 2
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen h a n d hyphen o hyphen l e f t
 EndChar

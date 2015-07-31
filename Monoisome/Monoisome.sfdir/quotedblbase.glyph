@@ -1,5 +1,5 @@
 StartChar: quotedblbase
-Encoding: 8222 8222 428
+Encoding: 8222 8222 427
 GlifName: quotedblbase
 Width: 1024
 VWidth: 0
@@ -33,6 +33,7 @@ SplineSet
  640 128 l 1
  640 368 l 1xc8
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

@@ -1,5 +1,5 @@
 StartChar: pushpin
-Encoding: 61581 61581 998
+Encoding: 61581 61581 997
 Width: 2048
 Flags: W
 HStem: 256 384<277.104 384 544 596 1024 1130.9> 1152 256<298.211 384 544 608 1024 1109.79>
@@ -20,7 +20,7 @@ SplineSet
  787 256 l 1
  736 -227 l 2
  734 -243 721 -256 705 -256 c 2
- 705 -256 704 -256 704 -256 c 2
+ 704 -256 l 2
  688 -256 675 -245 672 -229 c 2xc2
  596 256 l 1
  192 256 l 2
@@ -35,4 +35,6 @@ SplineSet
  1024 640 l 1xc4
  1156 640 1280 484 1280 320 c 0xe0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t h u m b hyphen t a c k
 EndChar

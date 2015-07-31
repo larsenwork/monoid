@@ -1,5 +1,5 @@
 StartChar: uni0200
-Encoding: 512 512 1130
+Encoding: 512 512 1128
 GlifName: uni0200
 Width: 1024
 VWidth: 0
@@ -35,7 +35,9 @@ SplineSet
  690 1792 l 1
  856 1536 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" uni0200.sq
 EndChar

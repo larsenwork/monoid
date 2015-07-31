@@ -1,5 +1,5 @@
 StartChar: Utilde
-Encoding: 360 360 197
+Encoding: 360 360 196
 GlifName: U_tilde
 Width: 1024
 VWidth: 0
@@ -35,7 +35,9 @@ SplineSet
  896 1651 833 1540 704 1540 c 0
  558 1540 525 1668 448 1668 c 0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Utilde.sq
 EndChar

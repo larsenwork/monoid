@@ -1,5 +1,5 @@
 StartChar: linux
-Encoding: 61820 61820 344
+Encoding: 61820 61820 343
 Width: 2048
 Flags: W
 HStem: -163 21<1104.97 1110.99> 945 23<773.328 865.824> 1117 104<696.028 709.474 927.874 975.365> 1434 102<863 1004>
@@ -156,4 +156,6 @@ SplineSet
  1489 83 1486 204 1512 227 c 1
  1518 97 1586 78 1614 60 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l i n u x
 EndChar

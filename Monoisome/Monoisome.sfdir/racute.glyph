@@ -1,5 +1,5 @@
 StartChar: racute
-Encoding: 341 341 1010
+Encoding: 341 341 1008
 GlifName: racute
 Width: 1024
 VWidth: 0
@@ -29,6 +29,7 @@ SplineSet
  626 1152 l 1
  488 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

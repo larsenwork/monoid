@@ -1,5 +1,5 @@
 StartChar: skype
-Encoding: 61822 61822 346
+Encoding: 61822 61822 345
 Width: 2048
 Flags: W
 HStem: -64 240<703.711 1070.59> 350 186<864.395 1014.83> 763 166<785.261 932.592> 1113 231<719.758 1088.85>
@@ -39,4 +39,6 @@ SplineSet
  1600 589 1594 538 1584 490 c 1
  1634 425 1664 344 1664 256 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s k y p e
 EndChar

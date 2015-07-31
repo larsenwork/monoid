@@ -1,5 +1,5 @@
 StartChar: remove_sign
-Encoding: 61527 61527 1017
+Encoding: 61527 61527 1015
 Width: 2048
 Flags: W
 HStem: -128 387<562.5 1229.5> 1021 387<562.5 1229.5>
@@ -43,5 +43,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t i m e s hyphen c i r c l e
 EndChar

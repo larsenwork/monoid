@@ -1,5 +1,5 @@
 StartChar: nacute
-Encoding: 324 324 950
+Encoding: 324 324 949
 GlifName: nacute
 Width: 1024
 VWidth: 0
@@ -33,6 +33,7 @@ SplineSet
  626 1152 l 1
  488 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

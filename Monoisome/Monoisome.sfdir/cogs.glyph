@@ -1,5 +1,5 @@
 StartChar: cogs
-Encoding: 61573 61573 814
+Encoding: 61573 61573 813
 Width: 2048
 Flags: W
 HStem: -128 128<1621.64 1706.58> 0 384<646.146 889.854> 256 240<1533.5 1699> 256 128<1621.64 1706.36> 516 245<128 203.315 1341.39 1408> 896 384<646.146 889.854> 896 128<1621.64 1706.58> 1280 240<1533.5 1699> 1280 128<1621.64 1706.36>
@@ -141,4 +141,7 @@ SplineSet
  1881 1289 1891 1271 1899 1253 c 1
  1919 1251 2048 1237 2048 1222 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c o g s
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g e a r s
 EndChar

@@ -1,5 +1,5 @@
 StartChar: jcircumflex
-Encoding: 309 309 913
+Encoding: 309 309 912
 GlifName: jcircumflex
 Width: 1024
 VWidth: 0
@@ -32,6 +32,7 @@ SplineSet
  328 1152 l 1
  625 1408 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

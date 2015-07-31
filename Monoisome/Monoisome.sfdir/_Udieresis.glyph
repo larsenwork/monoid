@@ -36,7 +36,9 @@ SplineSet
  286 1552 240 1598 240 1664 c 4xe8
  240 1730 286 1776 352 1776 c 4
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Udieresis.sq
 EndChar

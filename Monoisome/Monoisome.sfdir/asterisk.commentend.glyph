@@ -1,5 +1,5 @@
 StartChar: asterisk.commentend
-Encoding: 1114254 -1 783
+Encoding: 1114254 -1 782
 Width: 1024
 VWidth: 0
 Flags: W
@@ -25,6 +25,7 @@ SplineSet
  400 1006 l 1
  768 886 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

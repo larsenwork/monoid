@@ -1,5 +1,5 @@
 StartChar: qrcode
-Encoding: 61481 61481 1000
+Encoding: 61481 61481 999
 Width: 2048
 Flags: W
 HStem: 0 129<256 640 1152 1280 1408 1536> 256 256<1280 1408> 256 128<384 512> 384 256<1024 1152> 512 128<256 640> 768 128<256 640 1024 1408> 1024 128<384 512 1152 1280> 1280 128<256 640 1024 1408>
@@ -77,5 +77,6 @@ SplineSet
  896 1408 l 1
  1536 1408 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen q r c o d e
 EndChar

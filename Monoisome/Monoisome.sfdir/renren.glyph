@@ -1,5 +1,5 @@
 StartChar: renren
-Encoding: 61835 61835 358
+Encoding: 61835 61835 357
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -22,4 +22,6 @@ SplineSet
  1026 1394 l 1
  1388 1333 1664 1018 1664 638 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e n r e n
 EndChar

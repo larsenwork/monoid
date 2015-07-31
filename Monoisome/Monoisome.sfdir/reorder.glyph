@@ -1,5 +1,5 @@
 StartChar: reorder
-Encoding: 61641 61641 1018
+Encoding: 61641 61641 1016
 Width: 2048
 Flags: W
 HStem: 0 256<135.794 1656.21> 512 256<135.794 1656.21> 1024 256<135.794 1656.21>
@@ -36,4 +36,8 @@ SplineSet
  1600 1280 l 2
  1635 1280 1664 1251 1664 1216 c 2
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen n a v i c o n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b a r s
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e o r d e r
 EndChar

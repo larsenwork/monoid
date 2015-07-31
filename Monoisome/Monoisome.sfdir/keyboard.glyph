@@ -1,5 +1,5 @@
 StartChar: keyboard
-Encoding: 61724 61724 917
+Encoding: 61724 61724 916
 Width: 2048
 Flags: W
 HStem: 0 128<256 1920> 256 128<384 512 640 1536 1664 1792> 512 128<384 640 768 896 1024 1152 1280 1408 1536 1664> 768 128<384 512 640 768 896 1024 1152 1280 1408 1536> 1024 128<256 1920>
@@ -143,4 +143,7 @@ SplineSet
  1920 1152 l 2
  1991 1152 2048 1095 2048 1024 c 2
 EndSplineSet
+Validated: 1
+LCarets2: 12 0 0 0 0 0 0 0 0 0 0 0 0
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen k e y b o a r d hyphen o
 EndChar

@@ -1,5 +1,5 @@
 StartChar: facebook_sign
-Encoding: 61570 61570 857
+Encoding: 61570 61570 856
 Width: 2048
 Flags: W
 HStem: 699 260<1207.6 1417> 1176 232<1099.22 1419.85>
@@ -34,4 +34,6 @@ SplineSet
  128 1279 257 1408 416 1408 c 2
  1376 1408 l 2xe8
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f a c e b o o k hyphen s q u a r e
 EndChar

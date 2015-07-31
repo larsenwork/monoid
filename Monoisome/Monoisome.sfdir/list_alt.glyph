@@ -1,5 +1,5 @@
 StartChar: list_alt
-Encoding: 61474 61474 932
+Encoding: 61474 61474 931
 Width: 2048
 Flags: W
 HStem: 0 128<259.772 1788.23> 256 128<384 512 640 1664> 512 128<384 512 640 1664> 768 128<384 512 640 1664> 1024 384<259.772 1788.23>
@@ -81,5 +81,6 @@ SplineSet
  1760 1408 l 2
  1848 1408 1920 1336 1920 1248 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l i s t hyphen a l t
 EndChar

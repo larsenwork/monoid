@@ -1,5 +1,5 @@
 StartChar: rcaron
-Encoding: 345 345 260
+Encoding: 345 345 259
 GlifName: rcaron
 Width: 1024
 VWidth: 0
@@ -32,6 +32,7 @@ SplineSet
  655 1152 l 1
  497 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

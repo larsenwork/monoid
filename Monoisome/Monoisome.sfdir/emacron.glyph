@@ -1,5 +1,5 @@
 StartChar: emacron
-Encoding: 275 275 184
+Encoding: 275 275 183
 GlifName: emacron
 Width: 1024
 VWidth: 0
@@ -35,6 +35,7 @@ SplineSet
  256 1156 l 1
  256 1276 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

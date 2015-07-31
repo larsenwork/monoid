@@ -1,5 +1,5 @@
 StartChar: puzzle_piece
-Encoding: 61742 61742 271
+Encoding: 61742 61742 270
 Width: 2048
 Flags: W
 HStem: 249 391<1519.54 1718.32> 360 183<1292.75 1447.58> 1004 20G<128 130 1223 1280>
@@ -46,4 +46,6 @@ SplineSet
  1437 543 1492 640 1619 640 c 0
  1734 640 1792 543 1792 438 c 0xb0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p u z z l e hyphen p i e c e
 EndChar

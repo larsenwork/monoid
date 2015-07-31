@@ -1,5 +1,5 @@
 StartChar: zoom_out
-Encoding: 61456 61456 1357
+Encoding: 61456 61456 1355
 Width: 2048
 Flags: W
 HStem: 0 256<670.428 999.38> 640 128<512 1152> 1152 256<670.428 993.572>
@@ -35,5 +35,6 @@ SplineSet
  1755 -38 l 2
  1778 -61 1792 -94 1792 -128 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s e a r c h hyphen m i n u s
 EndChar

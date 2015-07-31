@@ -1,5 +1,5 @@
 StartChar: Zacute
-Encoding: 377 377 214
+Encoding: 377 377 213
 GlifName: Z_acute
 Width: 1024
 VWidth: 0
@@ -28,7 +28,9 @@ SplineSet
  645 1539 l 1
  507 1539 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Zacute.sq
 EndChar

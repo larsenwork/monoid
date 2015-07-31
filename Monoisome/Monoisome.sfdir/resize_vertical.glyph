@@ -1,5 +1,5 @@
 StartChar: resize_vertical
-Encoding: 61565 61565 1025
+Encoding: 61565 61565 1023
 Width: 2048
 Flags: W
 VStem: 384 256<128 1152>
@@ -31,4 +31,6 @@ SplineSet
  813 1261 l 2
  825 1249 832 1233 832 1216 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen a r r o w s hyphen v
 EndChar

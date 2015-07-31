@@ -1,5 +1,5 @@
 StartChar: btc
-Encoding: 61786 61786 312
+Encoding: 61786 61786 311
 Width: 2048
 Flags: W
 HStem: 0 183<215 379.292 650 761.062> 520 154<650 921.55> 981 175<650 764.442> 992 164<184 369.814> 1388 20G<493 647 769 923>
@@ -50,4 +50,7 @@ SplineSet
  650 674 l 1
  737 674 1009 654 1009 827 c 0
 EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b t c
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b i t c o i n
 EndChar

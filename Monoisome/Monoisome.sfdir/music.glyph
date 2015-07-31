@@ -1,5 +1,5 @@
 StartChar: music
-Encoding: 61441 61441 949
+Encoding: 61441 61441 948
 Width: 2048
 Flags: W
 HStem: -256 384<272.578 623.422> 0 384<1168.58 1519.42> 1388 20G<1563 1594.5>
@@ -27,5 +27,6 @@ SplineSet
  1549 1407 1558 1408 1568 1408 c 0
  1621 1408 1664 1365 1664 1312 c 2xaa
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m u s i c
 EndChar

@@ -1,5 +1,5 @@
 StartChar: bullseye
-Encoding: 61760 61760 287
+Encoding: 61760 61760 286
 Width: 2048
 Flags: W
 HStem: -128 128<697.514 1094.49> 128 128<745.112 1046.89> 384 512<774.146 1017.85> 1024 128<745.112 1046.89> 1280 128<697.514 1094.49>
@@ -34,4 +34,6 @@ SplineSet
  128 1064 472 1408 896 1408 c 0
  1320 1408 1664 1064 1664 640 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b u l l s e y e
 EndChar

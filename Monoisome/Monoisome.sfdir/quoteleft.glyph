@@ -1,5 +1,5 @@
 StartChar: quoteleft
-Encoding: 8216 8216 1008
+Encoding: 8216 8216 1006
 GlifName: quoteleft
 Width: 1024
 VWidth: 0
@@ -22,6 +22,7 @@ SplineSet
  768 1024 l 1
  768 784 l 1xe0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

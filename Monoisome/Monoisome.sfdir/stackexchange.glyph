@@ -1,5 +1,5 @@
 StartChar: stackexchange
-Encoding: 61804 61804 329
+Encoding: 61804 61804 328
 Width: 2048
 Flags: W
 HStem: -256 119<249 1177> -17 151<349 1056>
@@ -52,4 +52,6 @@ SplineSet
  1264 1510 l 1
  1413 1536 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t a c k hyphen o v e r f l o w
 EndChar

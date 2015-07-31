@@ -1,5 +1,5 @@
 StartChar: four
-Encoding: 52 52 872
+Encoding: 52 52 871
 GlifName: four
 Width: 1024
 VWidth: 0
@@ -38,4 +38,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
+Substitution2: "'ss12' Style Set 12 lookup 12 subtable" four.triangle
 EndChar

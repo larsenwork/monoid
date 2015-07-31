@@ -1,5 +1,5 @@
 StartChar: exchange
-Encoding: 61676 61676 212
+Encoding: 61676 61676 211
 Width: 2048
 Flags: W
 HStem: 128 256<512 1920> 768 256<128 1536>
@@ -40,4 +40,6 @@ SplineSet
  1911 919 l 2
  1917 913 1920 904 1920 896 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e x c h a n g e
 EndChar

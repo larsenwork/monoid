@@ -1,5 +1,5 @@
 StartChar: odieresis
-Encoding: 246 246 958
+Encoding: 246 246 957
 GlifName: odieresis
 Width: 1024
 VWidth: 0
@@ -39,6 +39,7 @@ SplineSet
  286 1168 240 1214 240 1280 c 4xe8
  240 1346 286 1392 352 1392 c 4xf0
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

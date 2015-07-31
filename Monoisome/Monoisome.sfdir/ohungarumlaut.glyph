@@ -1,5 +1,5 @@
 StartChar: ohungarumlaut
-Encoding: 337 337 960
+Encoding: 337 337 959
 GlifName: ohungarumlaut
 Width: 1024
 VWidth: 0
@@ -39,6 +39,7 @@ SplineSet
  434 1152 l 1
  296 1152 l 1
 EndSplineSet
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
