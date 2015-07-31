@@ -38,17 +38,17 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 97 subtable" less2
-Substitution2: "Single Substitution lookup 96 subtable" less1
-Substitution2: "Single Substitution lookup 91 subtable" rangeless
-Substitution2: "Single Substitution lookup 65 subtable" equallessless
-Substitution2: "Single Substitution lookup 64 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 58 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 51 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 45 subtable" less1
-Substitution2: "Single Substitution lookup 36 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 31 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 96 subtable" less2
+Substitution2: "Single Substitution lookup 95 subtable" less1
+Substitution2: "Single Substitution lookup 90 subtable" rangeless
+Substitution2: "Single Substitution lookup 64 subtable" equallessless
+Substitution2: "Single Substitution lookup 63 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 57 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 50 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 44 subtable" less1
+Substitution2: "Single Substitution lookup 35 subtable" larsenwork2
 Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 24 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 20 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 23 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 19 subtable" larsenwork5
 EndChar

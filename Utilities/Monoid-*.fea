@@ -66,13 +66,6 @@ feature ss14 {
   sub [Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent uni0200 uni0202 uni0204 uni0206 uni0208 uni020A uni020C uni020E uni0210 uni0212 uni0214 uni0216] by [Aacute.sq Abreve.sq Acircumflex.sq Adieresis.sq Agrave.sq Amacron.sq Aring.sq Atilde.sq Cacute.sq Ccaron.sq Ccircumflex.sq Cdotaccent.sq Dcaron.sq Eacute.sq Ebreve.sq Ecaron.sq Ecircumflex.sq Edieresis.sq Edotaccent.sq Egrave.sq Emacron.sq Gbreve.sq Gcircumflex.sq Gdotaccent.sq Hcircumflex.sq Iacute.sq Ibreve.sq Icircumflex.sq Idieresis.sq Idotaccent.sq Igrave.sq Imacron.sq Itilde.sq Jcircumflex.sq Lacute.sq Nacute.sq Ncaron.sq Ntilde.sq Oacute.sq Obreve.sq Ocircumflex.sq Odieresis.sq Ograve.sq Ohungarumlaut.sq Omacron.sq Otilde.sq Racute.sq Rcaron.sq Sacute.sq Scaron.sq Scircumflex.sq Tcaron.sq Uacute.sq Ubreve.sq Ucircumflex.sq Udieresis.sq Ugrave.sq Uhungarumlaut.sq Umacron.sq Uring.sq Utilde.sq Wcircumflex.sq Yacute.sq Ycircumflex.sq Ydieresis.sq Zacute.sq Zcaron.sq Zdotaccent.sq uni0200.sq uni0202.sq uni0204.sq uni0206.sq uni0208.sq uni020A.sq uni020C.sq uni020E.sq uni0210.sq uni0212.sq uni0214.sq uni0216.sq];
 } ss14;
 
-feature liga {
-  sub a c e b o o k I c o n by facebook;
-  sub w i t t e r I c o n by twitter;
-  sub o w n l o a d I c o n by download;
-  sub i t h u b I c o n by github;
-} liga;
-
 feature calt {
 
   # ¯\_(ツ)_/¯
@@ -269,11 +262,5 @@ feature calt {
 
   # */
     sub asterisk' slash by asterisk.commentend;
-
-  # social
-    sub d' download by larsenwork;
-    sub g' github by larsenwork;
-    sub f' facebook by larsenwork;
-    sub t' twitter by larsenwork;
 
 } calt;

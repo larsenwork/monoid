@@ -19,6 +19,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 85 subtable" bar2
-Substitution2: "Single Substitution lookup 84 subtable" bar1
+Substitution2: "Single Substitution lookup 84 subtable" bar2
+Substitution2: "Single Substitution lookup 83 subtable" bar1
 EndChar

@@ -1,6 +1,6 @@
 <img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" height="382px" />
 <p align="center">
-<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.56-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
+<a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.60-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
 </p>
 <p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
@@ -51,12 +51,13 @@ I'm using OpenType features `calt` + `liga` to create the ligatures and add cont
 
 | Working | Partly Working | Not Working |
 |---|---|---|
-| Atom | Visual Studio (liga with hyphens doesn't work) | libvte based terminals |
-| Brackets |  | gVim |
+| Atom | Visual Studio (liga with hyphens doesn't work) | gVim |
+| Brackets |  | libvte based terminals |
 | Eclipse |  | Notepad++ |
 | gEdit |  | Sublime Text |
-| UltraEdit |  | Xterm, Urxvt |
-| Xcode |  |  |
+| Smultron |  | Xterm, Urxvt |
+| UltraEdit |  |  |
+| Xcode |   |   |
 
 
 ###Browsers
@@ -95,12 +96,20 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 #Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
+###Made by
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
         <td><a href="https://twitter.com/andreaslarsendk"><img src="https://avatars2.githubusercontent.com/u/3859425?v=3&s=460" height="80" /><br>Andreas</td>
     </tr>
 </table>
+
+**Helped, contributed etc.**  
+[Mike Bronner](https://github.com/mikebronner): Finished the lookup table for Monoisome  
+[plgruener](https://github.com/plgruener): Active in the issues  
+[K900](https://github.com/K900): Feedback on Cyrillics  
+[Dave Gandy](https://github.com/davegandy): Creator of Font-Awesome
+
 <table>
     <tr>
         <td><b>Version</b></td>
@@ -123,8 +132,8 @@ Remember to update the Font Log when you make contributions.
     <tr>
         <td>0.24</td>
         <td>2015.04.06</td>
-        <td>Cyrillic, feedback from <a href="https://github.com/K900">k900</a></td>
-        <td>Andreas</td>
+        <td>Cyrillic</td>
+        <td>Andreas + k900</td>
     </tr>
     <tr>
         <td>0.27</td>
@@ -228,16 +237,16 @@ Remember to update the Font Log when you make contributions.
         <td>Added more ligatures e.g. __ ___ ¯\_(ツ)_/¯ and fixed some ligature bugs.</td>
         <td>Andreas</td>
     </tr>
-    <tr> 
-        <td>0.60</td>
-        <td></td>
-        <td>Squeezed capitals with diacritics</td>
-        <td>Andreas + Chase</td>
+    <tr>
+        <td>0.60+0.10</td>
+        <td>2015.07.31</td>
+        <td>Removed icons from Monoid. Initial release of Monoisome.</td>
+        <td>Andreas + Mike</td>
     <tr>
         <td>RoadMap</td>
         <td></td>
-        <td>Retina book (current regular) + regular.</td>
-        <td>Andreas</td>
+        <td>Squeezed capitals with diacritics, Retina book (current regular) + regular.</td>
+        <td></td>
     </tr>
     <tr>
         <td>Wish List</td>
@@ -250,11 +259,12 @@ Remember to update the Font Log when you make contributions.
 <a name="license"></a>
 <p>&nbsp;</p>
 #Licenses
-Monoid is dual licensed with MIT and OFL licenses. Pick one:)
+Monoid is dual licensed with MIT and OFL licenses. Pick one:)  
+Monoisome is OFL license.
 
 ###The MIT License (MIT)
 
-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
+Copyright (c) 2015, Andreas Larsen and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -274,8 +284,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-###SIL OPEN FONT LICENSE
-Copyright (c) 2015, Andreas Larsen (@larsenwork) and contributors.
+###SIL OPEN FONT LICENSE  
+Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
