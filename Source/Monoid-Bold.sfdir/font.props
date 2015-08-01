@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1438336102
+ModificationTime: 1438415594
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 4
@@ -432,7 +432,7 @@ ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 76" 0 0 0 1
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 75" 0 0 0 1
  String: 1 m
- BString: 2 mm
+ BString: 10 larsenwork
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 78"
@@ -957,7 +957,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57 19 14
+WinInfo: 1114008 19 14
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate

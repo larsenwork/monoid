@@ -191,8 +191,8 @@ feature calt {
     ignore sub m' m m;
     ignore sub m m' m;
     ignore sub m m m';
-    sub m' m by mm;
-    sub mm m' by larsenwork;
+    sub m' m by larsenwork;
+    sub larsenwork m' by mm;
 
   # &&
     ignore sub ampersand' ampersand ampersand;

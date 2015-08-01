@@ -24,7 +24,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1438336138
+ModificationTime: 1438414490
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 4
@@ -458,7 +458,7 @@ ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 76" 0 0 0 1
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 75" 0 0 0 1
  String: 1 m
- BString: 2 mm
+ BString: 10 larsenwork
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 78"
