@@ -35,6 +35,7 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 
 ###Tips
 Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+[Change Monoid metrics](https://github.com/larsenwork/monoid/issues/109) if you use it together with e.g. Chinese
 
 ###Edit
 Please fork and edit away. Use the also libre [FontForge](http://fontforge.github.io/en-US/) and read [Design With FontForge](http://designwithfontforge.com/) to get started.
