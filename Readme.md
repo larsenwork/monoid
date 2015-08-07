@@ -1,4 +1,4 @@
-<img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" height="382px" />
+<img alt="Monoid Banner" src="https://github.com/andreaslarsen/monoid/raw/master/Utilities/Images/MonoidReadme.png" />
 <p align="center">
 <a href="#font_log"><img alt="version" src="https://img.shields.io/badge/version-0.60-brightgreen.svg" height="20px"></a>  <a href="#license"><img alt="license" src="https://img.shields.io/badge/license-MIT%20%2B%20OFL-blue.svg" height="20px"></a>  <a href="http://twitter.com/larsenwork"><img alt="twitter" src="https://img.shields.io/badge/updates-%40larsenwork-blue.svg" height="20px"/></a>
 </p>
@@ -48,36 +48,21 @@ I'm using OpenType features `calt` + `liga` to create the ligatures and add cont
 
 > Please add your findings to this readme if they aren't here already.
 
-###Code Editors
-
+###Editors + Terminals
 | Working | Partly Working | Not Working |
-|---|---|---|
-| Atom | Visual Studio (liga with hyphens doesn't work) | gVim |
-| Brackets |  | libvte based terminals |
-| Eclipse |  | Notepad++ |
-| gEdit |  | Sublime Text |
-| Smultron |  | Xterm, Urxvt |
-| UltraEdit |  |  |
-| Xcode |   |   |
-
+|:---|:---|:---|
+| Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, XCode | Visual Studio (liga with hyphens doesn't work) | gVim, IntelliJ-based (PHPStorm, WebStorm etc.), libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
 
 ###Browsers
 | Working | Partly Working | Not Working |
-|---|---|---|
-| Chrome | Safari (enabled by default, you can't turn them off) | IE <10 |
-| Firefox | | |
-| IE 10+ | | |
-
+|:---|:---|:---|
+| Chrome, Firefox, IE 10+ | Safari (enabled by default) | IE <10 |
 
 ###Other Apps
 
 | Working |
-|---|
-| Adobe CS/CC |
-| Affinity Designer |
-| LibreOffice Writer |
-| Text Edit |
-
+|:---|
+| Adobe CS/CC, Affinity Designer, LibreOffice Writer, Text Edit |
 
 <a name="links"></a>
 <p>&nbsp;</p>
@@ -286,17 +271,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ###SIL OPEN FONT LICENSE  
-Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
+Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.  
+This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-#####SIL OPEN FONT LICENSE
-
+**SIL OPEN FONT LICENSE**  
 Version 1.1 - 26 February 2007
 
-#####PREAMBLE
+**PREAMBLE**  
 The goals of the Open Font License (OFL) are to stimulate worldwide
 development of collaborative font projects, to support the font creation
 efforts of academic and linguistic communities, and to provide a free and
@@ -312,7 +294,7 @@ however, cannot be released under any other type of license. The
 requirement for fonts to remain under this license does not apply
 to any document created using the fonts or their derivatives.
 
-#####DEFINITIONS
+**DEFINITIONS**  
 "Font Software" refers to the set of files released by the Copyright
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
@@ -331,7 +313,7 @@ new environment.
 "Author" refers to any designer, engineer, programmer, technical
 writer or other person who contributed to the Font Software.
 
-#####PERMISSION & CONDITIONS
+**PERMISSION & CONDITIONS**  
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of the Font Software, to use, study, copy, merge, embed, modify,
 redistribute, and sell modified and unmodified copies of the Font
@@ -364,11 +346,11 @@ distributed under any other license. The requirement for fonts to
 remain under this license does not apply to any document created
 using the Font Software.
 
-#####TERMINATION
+**TERMINATION**  
 This license becomes null and void if any of the above conditions are
 not met.
 
-#####DISCLAIMER
+**DISCLAIMER**  
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
