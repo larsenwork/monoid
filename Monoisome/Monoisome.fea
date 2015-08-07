@@ -494,7 +494,7 @@ feature liga {
   sub f a hyphen r a by uniF1D0;
   sub f a hyphen r e b e l by uniF1D0;
   sub f a hyphen g e by uniF1D1;
-  sub f a hyphen e m p i r e by uniF1d1;
+  sub f a hyphen e m p i r e by uniF1D1;
   sub f a hyphen g i t hyphen s q u a r e by uniF1D2;
   sub f a hyphen g i t by _438;
   sub f a hyphen y hyphen c o m b i n a t o r hyphen s q u a r e by _439;
