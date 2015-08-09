@@ -1,0 +1,37 @@
+StartChar: Idotaccent
+Encoding: 304 304 231
+GlifName: I_dotaccent
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1584 224<493.423 658.577>
+VStem: 464 224<1613.42 1778.58> 512 128<120 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1408 m 1xe8
+ 896 1288 l 1
+ 640 1288 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1288 l 1
+ 256 1288 l 1
+ 256 1408 l 1
+ 896 1408 l 1xe8
+576 1808 m 0
+ 642 1808 688 1762 688 1696 c 0
+ 688 1630 642 1584 576 1584 c 0
+ 510 1584 464 1630 464 1696 c 0xf0
+ 464 1762 510 1808 576 1808 c 0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Idotaccent.sq
+EndChar

@@ -1,0 +1,35 @@
+StartChar: bolt
+Encoding: 61671 61671 791
+Width: 2048
+Flags: W
+HStem: 1388 20G<363.5 714.5>
+VStem: 394 86<-253.662 -231>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1013 970 m 0
+ 1024 958 1027 941 1020 926 c 2
+ 480 -231 l 2
+ 472 -246 456 -256 438 -256 c 0
+ 434 -256 429 -255 424 -254 c 0
+ 402 -247 389 -226 394 -205 c 2
+ 591 603 l 1
+ 185 502 l 2
+ 181 501 177 501 173 501 c 0
+ 162 501 150 505 142 512 c 0
+ 130 522 126 537 129 551 c 2
+ 330 1376 l 2
+ 335 1395 353 1408 374 1408 c 2
+ 702 1408 l 1
+ 727 1408 747 1389 747 1366 c 0
+ 747 1360 745 1354 742 1348 c 2
+ 571 885 l 1
+ 967 983 l 2
+ 971 984 975 985 979 985 c 0
+ 992 985 1004 979 1013 970 c 0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b o l t
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f l a s h
+EndChar

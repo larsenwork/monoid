@@ -1,0 +1,40 @@
+StartChar: exclam
+Encoding: 33 33 846
+GlifName: exclam
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 288<479.538 672.462> 1388 20G<502 650>
+VStem: 432 288<31.5385 224.462> 512 128<512 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+576 272 m 0xe0
+ 661 272 720 213 720 128 c 0
+ 720 43 661 -16 576 -16 c 0
+ 491 -16 432 43 432 128 c 0
+ 432 213 491 272 576 272 c 0xe0
+640 512 m 1xd0
+ 512 512 l 1
+ 502 1408 l 1
+ 650 1408 l 1
+ 640 512 l 1xd0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 43 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 40 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 21 subtable" larsenwork5
+EndChar

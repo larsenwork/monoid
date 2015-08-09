@@ -1,0 +1,42 @@
+StartChar: bar_chart
+Encoding: 61568 61568 122
+Width: 2048
+Flags: W
+HStem: -128 128<256 1920> 1388 20G<128 256>
+VStem: 128 128<0 1408> 384 256<128 640> 768 256<128 1152> 1152 256<128 896> 1536 256<128 1280>
+LayerCount: 2
+Back
+Fore
+SplineSet
+640 640 m 1
+ 640 128 l 1
+ 384 128 l 1
+ 384 640 l 1
+ 640 640 l 1
+1024 1152 m 1
+ 1024 128 l 1
+ 768 128 l 1
+ 768 1152 l 1
+ 1024 1152 l 1
+1920 0 m 5
+ 1920 -128 l 5
+ 128 -128 l 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 0 l 1
+ 1920 0 l 5
+1408 896 m 1
+ 1408 128 l 1
+ 1152 128 l 1
+ 1152 896 l 1
+ 1408 896 l 1
+1792 1280 m 1
+ 1792 128 l 1
+ 1536 128 l 1
+ 1536 1280 l 1
+ 1792 1280 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b a r hyphen c h a r t
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b a r hyphen c h a r t hyphen o
+EndChar

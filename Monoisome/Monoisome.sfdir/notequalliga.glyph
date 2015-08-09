@@ -1,0 +1,38 @@
+StartChar: notequalliga
+Encoding: 1114129 -1 628
+GlifName: notequalliga
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<-288 -144.154> 260 120<-640 -159 34 768> 772 120<-640 94 287 768>
+LayerCount: 5
+Back
+Fore
+SplineSet
+34 380 m 1
+ 768 380 l 1
+ 768 260 l 1
+ -26 260 l 1
+ -154 0 l 1
+ -288 0 l 1
+ -159 260 l 1
+ -640 260 l 1
+ -640 380 l 1
+ -100 380 l 1
+ 94 772 l 1
+ -640 772 l 1
+ -640 892 l 1
+ 154 892 l 1
+ 282 1152 l 1
+ 416 1152 l 1
+ 287 892 l 1
+ 768 892 l 1
+ 768 772 l 1
+ 228 772 l 1
+ 34 380 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

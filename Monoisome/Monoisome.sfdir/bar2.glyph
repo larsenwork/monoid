@@ -1,0 +1,22 @@
+StartChar: bar2
+Encoding: 1114135 -1 634
+GlifName: bar2
+Width: 1024
+VWidth: 0
+Flags: W
+VStem: 384 128<-128 1536>
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 1536 m 1
+ 512 -128 l 1
+ 384 -128 l 1
+ 384 1536 l 1
+ 512 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

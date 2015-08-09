@@ -1,0 +1,31 @@
+StartChar: tumblr
+Encoding: 61811 61811 334
+Width: 2048
+Flags: W
+HStem: -128 306<830.628 1042.5> 860 252<779 1112>
+VStem: 364 414<233.872 860> 523 256<1380.59 1536>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1072 207 m 1xe0
+ 1152 -30 l 1
+ 1122 -75 986 -126 864 -128 c 0
+ 501 -134 364 130 364 316 c 2
+ 364 860 l 1xe0
+ 196 860 l 1
+ 196 1075 l 1
+ 448 1166 509 1394 523 1524 c 0
+ 524 1532 531 1536 535 1536 c 2
+ 535 1536 539 1536 779 1536 c 1
+ 779 1112 l 1xd0
+ 1112 1112 l 1
+ 1112 860 l 1
+ 778 860 l 1
+ 778 342 l 2
+ 778 272 804 175 938 178 c 0
+ 982 179 1041 192 1072 207 c 1xe0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen t u m b l r
+EndChar

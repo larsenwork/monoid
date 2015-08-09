@@ -1,0 +1,25 @@
+StartChar: star_half
+Encoding: 61577 61577 1058
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+960 1504 m 1
+ 960 165 l 1
+ 511 -71 l 2
+ 498 -78 485 -83 471 -83 c 0
+ 442 -83 429 -59 429 -33 c 0
+ 429 -26 430 -20 431 -13 c 2
+ 517 487 l 1
+ 153 841 l 2
+ 141 854 128 871 128 889 c 0
+ 128 919 159 931 184 935 c 2
+ 686 1008 l 1
+ 911 1463 l 2
+ 920 1482 937 1504 960 1504 c 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t a r hyphen h a l f
+EndChar

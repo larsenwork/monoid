@@ -1,0 +1,22 @@
+StartChar: caret_up
+Encoding: 61656 61656 800
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+1152 320 m 0
+ 1152 285 1123 256 1088 256 c 2
+ 192 256 l 2
+ 157 256 128 285 128 320 c 0
+ 128 337 135 353 147 365 c 2
+ 595 813 l 2
+ 607 825 623 832 640 832 c 0
+ 657 832 673 825 685 813 c 2
+ 1133 365 l 2
+ 1145 353 1152 337 1152 320 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c a r e t hyphen u p
+EndChar

@@ -1,0 +1,39 @@
+StartChar: Ebreve
+Encoding: 276 276 184
+GlifName: E_breve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 648 120<384 896> 1288 120<384 1024> 1520 120<435.067 716.933>
+VStem: 236 128<1704.51 1792> 256 128<120 648 768 1288> 788 128<1704.51 1792>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 1408 m 1xf6
+ 1024 1408 l 1
+ 1024 1288 l 1
+ 384 1288 l 1
+ 384 768 l 1
+ 896 768 l 1
+ 896 648 l 1
+ 384 648 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+ 256 1408 l 1xf6
+788 1792 m 1
+ 916 1792 l 1
+ 916 1624 764 1520 576 1520 c 0
+ 388 1520 236 1624 236 1792 c 1
+ 364 1792 l 1xfa
+ 364 1706 433 1640 576 1640 c 0
+ 719 1640 788 1706 788 1792 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ebreve.sq
+EndChar

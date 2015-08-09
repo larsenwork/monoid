@@ -1,0 +1,29 @@
+StartChar: eject
+Encoding: 61522 61522 82
+Width: 2048
+Flags: W
+HStem: 0 384<136.794 1657.21>
+LayerCount: 2
+Back
+Fore
+SplineSet
+142 557 m 2
+ 852 1267 l 2
+ 877 1292 917 1292 942 1267 c 2
+ 1652 557 l 2
+ 1677 532 1668 512 1633 512 c 2
+ 161 512 l 2
+ 126 512 117 532 142 557 c 2
+1601 0 m 2
+ 193 0 l 2
+ 158 0 129 29 129 64 c 2
+ 129 320 l 2
+ 129 355 158 384 193 384 c 2
+ 1601 384 l 2
+ 1636 384 1665 355 1665 320 c 2
+ 1665 64 l 2
+ 1665 29 1636 0 1601 0 c 2
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e j e c t
+EndChar

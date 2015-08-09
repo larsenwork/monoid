@@ -1,0 +1,39 @@
+StartChar: period
+Encoding: 46 46 68
+GlifName: period
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<384 640>
+VStem: 384 256<0 240>
+LayerCount: 5
+Back
+Fore
+SplineSet
+384 240 m 1
+ 640 240 l 1
+ 640 0 l 1
+ 384 0 l 1
+ 384 240 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 93 subtable" period.2r
+Substitution2: "Single Substitution lookup 92 subtable" period.2l
+Substitution2: "Single Substitution lookup 90 subtable" larsenwork
+Substitution2: "Single Substitution lookup 89 subtable" larsenwork
+Substitution2: "Single Substitution lookup 88 subtable" period.x3
+Substitution2: "Single Substitution lookup 87 subtable" larsenwork
+Substitution2: "Single Substitution lookup 86 subtable" larsenwork
+EndChar

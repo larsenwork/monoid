@@ -1,0 +1,36 @@
+StartChar: Ycircumflex.sq
+Encoding: 1114236 -1 761
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 1408 21G<200 384.585 767.415 952>
+VStem: 512 128<0 571.26>
+LayerCount: 5
+Back
+Fore
+SplineSet
+586 658 m 1
+ 730 847 830 1060 916 1280 c 1
+ 1052 1280 l 1
+ 954 1021 832 774 640 538 c 1
+ 640 0 l 1
+ 512 0 l 1
+ 512 538 l 1
+ 320 774 198 1021 100 1280 c 1
+ 236 1280 l 1
+ 322 1059 423 846 566 658 c 1
+ 586 658 l 1
+497 1664 m 1
+ 655 1664 l 1
+ 952 1408 l 1
+ 794 1408 l 1
+ 576 1572 l 1
+ 358 1408 l 1
+ 200 1408 l 1
+ 497 1664 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

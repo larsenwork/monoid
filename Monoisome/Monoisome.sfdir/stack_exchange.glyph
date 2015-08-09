@@ -1,0 +1,40 @@
+StartChar: stack_exchange
+Encoding: 61837 61837 359
+Width: 2048
+Flags: W
+HStem: 13 270<239.468 874 1134 1296.53> 354 255<149 1387> 682 255<149 1387> 1010 270<239.468 1296.53>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1387 283 m 1
+ 1387 217 l 2
+ 1387 104 1299 13 1191 13 c 2
+ 1134 13 l 1
+ 874 -256 l 1
+ 874 13 l 1
+ 345 13 l 2
+ 237 13 149 104 149 217 c 2
+ 149 283 l 1
+ 1387 283 l 1
+1387 609 m 1
+ 1387 354 l 1
+ 149 354 l 1
+ 149 609 l 1
+ 1387 609 l 1
+1387 937 m 1
+ 1387 682 l 1
+ 149 682 l 1
+ 149 937 l 1
+ 1387 937 l 1
+1387 1077 m 2
+ 1387 1010 l 1
+ 149 1010 l 1
+ 149 1077 l 2
+ 149 1189 237 1280 345 1280 c 2
+ 1191 1280 l 2
+ 1299 1280 1387 1189 1387 1077 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen s t a c k hyphen e x c h a n g e
+EndChar

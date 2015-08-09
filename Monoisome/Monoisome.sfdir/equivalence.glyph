@@ -1,0 +1,33 @@
+StartChar: equivalence
+Encoding: 8801 8801 843
+GlifName: equivalence
+Width: 1024
+VWidth: -128
+Flags: W
+HStem: 132 120<128 1024> 516 120<128 1024> 900 120<128 1024>
+CounterMasks: 1 e0
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 1020 m 1
+ 1024 1020 l 1
+ 1024 900 l 1
+ 128 900 l 1
+ 128 1020 l 1
+128 252 m 1
+ 1024 252 l 1
+ 1024 132 l 1
+ 128 132 l 1
+ 128 252 l 1
+128 636 m 1
+ 1024 636 l 1
+ 1024 516 l 1
+ 128 516 l 1
+ 128 636 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

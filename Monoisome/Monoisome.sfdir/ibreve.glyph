@@ -1,0 +1,33 @@
+StartChar: ibreve
+Encoding: 301 301 899
+GlifName: ibreve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 904 120<256 512> 1136 120<435.067 716.933> 1388 20G<236 364 788 916>
+VStem: 236 128<1320.51 1408> 512 128<0 904> 788 128<1320.51 1408>
+CounterMasks: 1 0e
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 0 m 1
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 0 l 1
+ 512 0 l 1
+788 1408 m 1
+ 916 1408 l 1
+ 916 1240 764 1136 576 1136 c 0
+ 388 1136 236 1240 236 1408 c 1
+ 364 1408 l 1
+ 364 1322 433 1256 576 1256 c 0
+ 719 1256 788 1322 788 1408 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

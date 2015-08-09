@@ -1,0 +1,19 @@
+StartChar: play
+Encoding: 61515 61515 76
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+1512 609 m 2
+ 184 -129 l 2
+ 153 -146 128 -131 128 -96 c 2
+ 128 1376 l 2
+ 128 1411 153 1426 184 1409 c 2
+ 1512 671 l 2
+ 1543 654 1543 626 1512 609 c 2
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p l a y
+EndChar

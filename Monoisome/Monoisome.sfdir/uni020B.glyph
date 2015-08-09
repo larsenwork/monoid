@@ -1,0 +1,33 @@
+StartChar: uni020B
+Encoding: 523 523 1145
+GlifName: uni020B_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 904 120<256 512> 1304 120<435.067 716.933>
+VStem: 236 128<1152 1239.49> 512 128<0 904> 788 128<1152 1239.49>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 0 m 1
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 0 l 1
+ 512 0 l 1
+788 1152 m 1
+ 788 1238 719 1304 576 1304 c 0
+ 433 1304 364 1238 364 1152 c 1
+ 236 1152 l 1
+ 236 1320 388 1424 576 1424 c 0
+ 764 1424 916 1320 916 1152 c 1
+ 788 1152 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

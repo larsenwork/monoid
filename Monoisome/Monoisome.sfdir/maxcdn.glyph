@@ -1,0 +1,31 @@
+StartChar: maxcdn
+Encoding: 61750 61750 938
+Width: 2048
+Flags: W
+HStem: 0 21G<128 466.281 748 1086.28 1375 1713.3> 953 327<666 952 1286 1535.51>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1873 763 m 2
+ 1709 0 l 1
+ 1375 0 l 1
+ 1553 832 l 2
+ 1561 867 1556 899 1538 920 c 0
+ 1521 941 1491 953 1455 953 c 2
+ 1286 953 l 1
+ 1082 0 l 1
+ 748 0 l 1
+ 952 953 l 1
+ 666 953 l 1
+ 462 0 l 1
+ 128 0 l 1
+ 332 953 l 1
+ 179 1280 l 1
+ 1455 1280 l 2
+ 1590 1280 1713 1224 1792 1126 c 0
+ 1872 1028 1901 895 1873 763 c 2
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a x c d n
+EndChar

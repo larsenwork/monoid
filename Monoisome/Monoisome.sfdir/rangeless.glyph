@@ -1,0 +1,36 @@
+StartChar: rangeless
+Encoding: 1114257 -1 1010
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 240<-1536 -1280 -640 -384>
+VStem: -1536 256<0 240> -640 256<0 240>
+LayerCount: 5
+Back
+Fore
+SplineSet
+-640 240 m 1
+ -384 240 l 1
+ -384 0 l 1
+ -640 0 l 1
+ -640 240 l 1
+-1536 240 m 1
+ -1280 240 l 1
+ -1280 0 l 1
+ -1536 0 l 1
+ -1536 240 l 1
+261 571 m 1
+ 772 95 l 1
+ 686 5 l 1
+ 128 531 l 1
+ 128 621 l 1
+ 686 1147 l 1
+ 772 1057 l 1
+ 261 581 l 1
+ 261 571 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

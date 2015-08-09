@@ -1,0 +1,29 @@
+StartChar: cedilla
+Encoding: 184 184 308
+GlifName: cedilla
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -400 120<258.225 473.418> -20 20G<512 640>
+VStem: 512 128<-239.68 0>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 -105 m 2
+ 640 -165 640 -235 588 -305 c 0
+ 546 -362 474 -400 384 -400 c 0
+ 349 -400 303 -393 256 -383 c 1
+ 256 -260 l 1
+ 304 -271 350 -280 384 -280 c 0
+ 431 -280 463 -263 484 -235 c 0
+ 512 -198 512 -155 512 -105 c 2
+ 512 0 l 1
+ 640 0 l 1
+ 640 -105 l 2
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

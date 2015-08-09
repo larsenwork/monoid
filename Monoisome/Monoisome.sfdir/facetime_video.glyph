@@ -1,0 +1,32 @@
+StartChar: facetime_video
+Encoding: 61501 61501 63
+Width: 2048
+Flags: W
+HStem: 0 21G<336.5 1199.5>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1920 1184 m 2
+ 1920 96 l 2
+ 1920 70 1904 47 1881 37 c 0
+ 1873 34 1864 32 1856 32 c 0
+ 1839 32 1823 38 1811 51 c 2
+ 1408 454 l 1
+ 1408 288 l 2
+ 1408 129 1279 0 1120 0 c 2
+ 416 0 l 2
+ 257 0 128 129 128 288 c 2
+ 128 992 l 2
+ 128 1151 257 1280 416 1280 c 2
+ 1120 1280 l 2
+ 1279 1280 1408 1151 1408 992 c 2
+ 1408 827 l 1
+ 1811 1229 l 2
+ 1823 1242 1839 1248 1856 1248 c 0
+ 1864 1248 1873 1246 1881 1243 c 0
+ 1904 1233 1920 1210 1920 1184 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen v i d e o hyphen c a m e r a
+EndChar

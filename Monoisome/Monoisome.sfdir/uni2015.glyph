@@ -1,0 +1,22 @@
+StartChar: uni2015
+Encoding: 8213 8213 593
+GlifName: uni2015
+Width: 1024
+VWidth: -128
+Flags: W
+HStem: 515 120<128 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 635 m 1
+ 1024 636 l 1
+ 1024 516 l 1
+ 128 515 l 1
+ 128 635 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

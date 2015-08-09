@@ -1,0 +1,29 @@
+StartChar: long_arrow_right
+Encoding: 61816 61816 339
+Width: 2048
+Flags: W
+HStem: 512 256<128 1408>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1856 643 m 1
+ 1856 634 1852 625 1846 619 c 2
+ 1462 265 l 2
+ 1452 256 1439 254 1427 259 c 0
+ 1416 264 1408 275 1408 288 c 2
+ 1408 512 l 1
+ 160 512 l 2
+ 142 512 128 526 128 544 c 2
+ 128 736 l 2
+ 128 754 142 768 160 768 c 2
+ 1408 768 l 1
+ 1408 992 l 2
+ 1408 1005 1415 1016 1427 1021 c 0
+ 1439 1026 1452 1024 1462 1016 c 2
+ 1846 666 l 2
+ 1852 660 1856 652 1856 643 c 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l o n g hyphen a r r o w hyphen r i g h t
+EndChar

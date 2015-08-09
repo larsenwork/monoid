@@ -1,0 +1,25 @@
+StartChar: heart
+Encoding: 61444 61444 9
+Width: 2048
+Flags: W
+HStem: 1388 20G<456.5 693.5 1354.5 1591.5>
+VStem: 128 1792<779.673 1136.73>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1024 -128 m 0
+ 1008 -128 992 -122 980 -110 c 2
+ 356 492 l 2
+ 348 499 128 700 128 940 c 0
+ 128 1233 307 1408 606 1408 c 0
+ 781 1408 945 1270 1024 1192 c 1
+ 1103 1270 1267 1408 1442 1408 c 0
+ 1741 1408 1920 1233 1920 940 c 0
+ 1920 700 1700 499 1691 490 c 2
+ 1068 -110 l 2
+ 1056 -122 1040 -128 1024 -128 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen h e a r t
+EndChar

@@ -1,0 +1,31 @@
+StartChar: chevron_sign_right
+Encoding: 61752 61752 279
+Width: 2048
+Flags: W
+HStem: 1388 20G<684 1108>
+VStem: 128 1536<216 1064>
+LayerCount: 2
+Back
+Fore
+SplineSet
+845 141 m 2
+ 1299 595 l 2
+ 1324 620 1324 660 1299 685 c 2
+ 845 1139 l 2
+ 820 1164 780 1164 755 1139 c 2
+ 653 1037 l 2
+ 628 1012 628 972 653 947 c 2
+ 960 640 l 1
+ 653 333 l 2
+ 628 308 628 268 653 243 c 2
+ 755 141 l 2
+ 780 116 820 116 845 141 c 2
+1664 640 m 0
+ 1664 216 1320 -128 896 -128 c 0
+ 472 -128 128 216 128 640 c 0
+ 128 1064 472 1408 896 1408 c 0
+ 1320 1408 1664 1064 1664 640 c 0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c h e v r o n hyphen c i r c l e hyphen r i g h t
+EndChar

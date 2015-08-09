@@ -1,0 +1,29 @@
+StartChar: gittip
+Encoding: 61828 61828 350
+Width: 2048
+Flags: W
+HStem: 853 555<817.502 974.498>
+VStem: 128 1536<216 1064>
+LayerCount: 2
+Back
+Fore
+SplineSet
+901 234 m 1
+ 1251 707 l 2
+ 1278 744 1310 863 1208 930 c 0
+ 1122 986 1040 943 997 893 c 0
+ 981 875 953 853 901 853 c 0
+ 849 853 822 875 806 893 c 0
+ 763 943 681 986 594 930 c 0
+ 493 863 525 744 552 707 c 2
+ 901 234 l 1
+1664 640 m 0
+ 1664 216 1320 -128 896 -128 c 0
+ 472 -128 128 216 128 640 c 0
+ 128 1064 472 1408 896 1408 c 0
+ 1320 1408 1664 1064 1664 640 c 0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g r a t i p a y
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen g i t t i p
+EndChar

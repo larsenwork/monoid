@@ -1,0 +1,32 @@
+StartChar: exclamation
+Encoding: 61738 61738 847
+Width: 2048
+Flags: W
+HStem: 0 352<263.794 632.206> 1388 20G<270.5 625.5>
+VStem: 226 444<1049.09 1400.93> 256 384<7.79419 344.206 519.794 851.251>
+LayerCount: 2
+Back
+Fore
+SplineSet
+640 288 m 2xd0
+ 640 64 l 2
+ 640 29 611 0 576 0 c 2
+ 320 0 l 2
+ 285 0 256 29 256 64 c 2
+ 256 288 l 2
+ 256 323 285 352 320 352 c 2
+ 576 352 l 2
+ 611 352 640 323 640 288 c 2xd0
+670 1344 m 2xe0
+ 642 576 l 2
+ 641 541 611 512 576 512 c 2
+ 320 512 l 2
+ 285 512 255 541 254 576 c 2
+ 226 1344 l 2
+ 225 1379 253 1408 288 1408 c 2
+ 608 1408 l 2
+ 643 1408 671 1379 670 1344 c 2xe0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen e x c l a m a t i o n
+EndChar

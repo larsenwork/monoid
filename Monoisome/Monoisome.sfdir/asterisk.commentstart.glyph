@@ -1,0 +1,33 @@
+StartChar: asterisk.commentstart
+Encoding: 1114253 -1 783
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1004 20G<256 384>
+VStem: 256 128<630 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 630 m 1
+ 256 1024 l 1
+ 384 1024 l 1
+ 384 630 l 1
+ 752 750 l 1
+ 794 637 l 1
+ 420 515 l 1
+ 653 195 l 1
+ 547 128 l 1
+ 320 439 l 1
+ 94 128 l 1
+ -12 195 l 1
+ 220 515 l 1
+ -154 637 l 1
+ -112 750 l 1
+ 256 630 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

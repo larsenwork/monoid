@@ -1,0 +1,22 @@
+StartChar: hyphen.more
+Encoding: 1114167 -1 667
+GlifName: hyphenmore
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 516 120<256 896>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 636 m 1
+ 896 636 l 1
+ 896 516 l 1
+ 256 516 l 1
+ 256 636 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

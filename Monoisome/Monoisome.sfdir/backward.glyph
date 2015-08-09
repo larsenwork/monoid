@@ -1,0 +1,27 @@
+StartChar: backward
+Encoding: 61514 61514 75
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+1747 1395 m 2
+ 1772 1420 1792 1411 1792 1376 c 2
+ 1792 -96 l 2
+ 1792 -131 1772 -140 1747 -115 c 2
+ 1037 595 l 2
+ 1031 601 1027 607 1024 614 c 2
+ 1024 -96 l 2
+ 1024 -131 1004 -140 979 -115 c 2
+ 269 595 l 2
+ 244 620 244 660 269 685 c 2
+ 979 1395 l 2
+ 1004 1420 1024 1411 1024 1376 c 2
+ 1024 666 l 2
+ 1027 673 1031 679 1037 685 c 2
+ 1747 1395 l 2
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b a c k w a r d
+EndChar

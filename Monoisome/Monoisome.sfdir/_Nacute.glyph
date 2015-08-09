@@ -1,0 +1,37 @@
+StartChar: Nacute
+Encoding: 323 323 237
+GlifName: N_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 885.119 1024> 1388 20G<128 265.898 896 1024>
+VStem: 128 128<0 1158> 896 128<250 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1408 l 1
+ 255 1408 l 1
+ 886 250 l 1
+ 896 250 l 1
+ 896 1408 l 1
+ 1024 1408 l 1
+ 1024 0 l 1
+ 896 0 l 1
+ 266 1158 l 1
+ 256 1158 l 1
+ 256 0 l 1
+488 1536 m 1
+ 654 1792 l 1
+ 792 1792 l 1
+ 626 1536 l 1
+ 488 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Nacute.sq
+EndChar

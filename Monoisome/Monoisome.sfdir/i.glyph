@@ -1,0 +1,41 @@
+StartChar: i
+Encoding: 105 105 897
+GlifName: i
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 904 120<256 512> 1200 224<461.423 626.577>
+VStem: 432 224<1229.42 1394.58> 512 128<0 904>
+AnchorPoint: "bottom" 576 0 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+544 1424 m 0xf0
+ 610 1424 656 1378 656 1312 c 0
+ 656 1246 610 1200 544 1200 c 0
+ 478 1200 432 1246 432 1312 c 0
+ 432 1378 478 1424 544 1424 c 0xf0
+512 0 m 1xe8
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 0 l 1
+ 512 0 l 1xe8
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 15 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "'ss07' Style Set 7 lookup 7 subtable" i.flyingdot
+EndChar

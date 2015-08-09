@@ -1,0 +1,28 @@
+StartChar: minus_sign
+Encoding: 61526 61526 943
+Width: 2048
+Flags: W
+HStem: -128 640<685.805 1106.19> 768 640<685.805 1106.19>
+VStem: 128 320<523.077 756.923> 1344 320<523.077 756.923>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1344 576 m 2
+ 1344 704 l 2
+ 1344 739 1315 768 1280 768 c 2
+ 512 768 l 2
+ 477 768 448 739 448 704 c 2
+ 448 576 l 2
+ 448 541 477 512 512 512 c 2
+ 1280 512 l 2
+ 1315 512 1344 541 1344 576 c 2
+1664 640 m 0
+ 1664 216 1320 -128 896 -128 c 0
+ 472 -128 128 216 128 640 c 0
+ 128 1064 472 1408 896 1408 c 0
+ 1320 1408 1664 1064 1664 640 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m i n u s hyphen c i r c l e
+EndChar

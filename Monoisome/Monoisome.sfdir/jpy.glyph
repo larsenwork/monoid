@@ -1,0 +1,59 @@
+StartChar: jpy
+Encoding: 61783 61783 913
+Width: 2048
+Flags: W
+HStem: 0 21G<550 739.5> 362 167<207 527 763 1085> 614 168<207 453 838 1085> 1388 20G<154.5 360 926 1128.5>
+VStem: 527 236<4.1999e-07 362 529 614>
+LayerCount: 2
+Back
+Fore
+SplineSet
+731 0 m 2
+ 559 0 l 2
+ 541 0 527 14 527 32 c 2
+ 527 362 l 1
+ 239 362 l 2
+ 221 362 207 376 207 394 c 2
+ 207 497 l 2
+ 207 515 221 529 239 529 c 2
+ 527 529 l 1
+ 527 614 l 1
+ 239 614 l 2
+ 221 614 207 628 207 646 c 2
+ 207 750 l 2
+ 207 767 221 782 239 782 c 2
+ 453 782 l 1
+ 132 1360 l 2
+ 127 1370 127 1382 132 1392 c 0
+ 138 1402 149 1408 160 1408 c 2
+ 354 1408 l 2
+ 366 1408 377 1401 383 1390 c 2
+ 598 965 l 2
+ 622 918 638 878 654 840 c 1
+ 671 883 693 925 712 969 c 2
+ 903 1389 l 2
+ 908 1401 920 1408 932 1408 c 2
+ 1123 1408 l 2
+ 1134 1408 1144 1402 1150 1392 c 0
+ 1156 1383 1156 1371 1151 1361 c 2
+ 838 782 l 1
+ 1053 782 l 2
+ 1071 782 1085 767 1085 750 c 2
+ 1085 646 l 2
+ 1085 628 1071 614 1053 614 c 2
+ 763 614 l 1
+ 763 529 l 1
+ 1053 529 l 2
+ 1071 529 1085 515 1085 497 c 2
+ 1085 394 l 2
+ 1085 376 1071 362 1053 362 c 2
+ 763 362 l 1
+ 763 32 l 2
+ 763 14 748 0 731 0 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen j p y
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen y e n
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r m b
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c n y
+EndChar

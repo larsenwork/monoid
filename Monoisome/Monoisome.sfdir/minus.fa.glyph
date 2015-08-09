@@ -1,0 +1,22 @@
+StartChar: minus.fa
+Encoding: 61544 61544 941
+Width: 2048
+Flags: W
+HStem: 512 384<151.416 1512.58>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1536 800 m 2
+ 1536 608 l 2
+ 1536 555 1493 512 1440 512 c 2
+ 224 512 l 2
+ 171 512 128 555 128 608 c 2
+ 128 800 l 2
+ 128 853 171 896 224 896 c 2
+ 1440 896 l 2
+ 1493 896 1536 853 1536 800 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m i n u s
+EndChar

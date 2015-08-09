@@ -1,0 +1,40 @@
+StartChar: Jcircumflex
+Encoding: 308 308 235
+GlifName: J_circumflex
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -12 120<393.278 724.704> 1288 120<256 896>
+VStem: 896 128<282.009 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1288 m 1
+ 256 1288 l 1
+ 256 1408 l 1
+ 1024 1408 l 1
+ 1024 501 l 2
+ 1024 401 1024 269 926 144 c 0
+ 853 50 723 -12 565 -12 c 0
+ 387 -12 244 65 151 146 c 1
+ 225 241 l 1
+ 303 174 421 108 565 108 c 0
+ 680 108 772 151 824 217 c 0
+ 896 308 896 406 896 501 c 2
+ 896 1288 l 1
+497 1792 m 1
+ 655 1792 l 1
+ 952 1536 l 1
+ 794 1536 l 1
+ 576 1700 l 1
+ 358 1536 l 1
+ 200 1536 l 1
+ 497 1792 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Jcircumflex.sq
+EndChar

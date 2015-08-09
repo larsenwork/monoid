@@ -1,0 +1,66 @@
+StartChar: f
+Encoding: 102 102 6
+GlifName: f
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<384 512> 776 120<128 384 512 896> 1304 120<552.06 893.069>
+VStem: 384 128<0 776 896 1265.43>
+LayerCount: 5
+Back
+Fore
+SplineSet
+512 0 m 1
+ 384 0 l 1
+ 384 776 l 1
+ 128 776 l 1
+ 128 896 l 1
+ 384 896 l 1
+ 384 1129 l 2
+ 384 1181 384 1259 436 1329 c 0
+ 480 1388 561 1424 660 1424 c 0
+ 740 1424 834 1415 896 1408 c 1
+ 896 1288 l 1
+ 834 1295 737 1304 660 1304 c 0
+ 604 1304 563 1289 540 1259 c 0
+ 512 1222 512 1173 512 1129 c 2
+ 512 896 l 1
+ 896 896 l 1
+ 896 776 l 1
+ 512 776 l 1
+ 512 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+448 1024 m 1
+ 448 1257 l 2
+ 448 1286.38886035 448.299759739 1315.9955079 454.22466316 1344.78093185 c 0
+ 460.14956658 1373.5663558 471.816654617 1401.38993622 489.964610879 1424.50609499 c 0
+ 508.112567141 1447.62225375 532.522641224 1465.6670254 559.734380011 1476.76776343 c 0
+ 586.755060357 1487.79056121 616.194753898 1492.00063055 645.380928178 1492.00063055 c 0
+ 646 1492 l 0
+ 665.389547959 1491.96052839 684.737173065 1490.21351001 704 1488 c 0
+ 745.075464346 1483.2799788 785.991669577 1477.27154695 827 1472 c 0
+ 882.689656985 1464.84119499 938.380696207 1457.68631445 994 1450 c 1024
+  Spiro
+    448 1024 {
+    448 1257 ]
+    646 1492 o
+    704 1488 o
+    827 1472 o
+    994 1450 o
+    0 0 z
+  EndSpiro
+EndSplineSet
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 18 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 8 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 7 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 3 subtable" dx=128 dy=0 dh=0 dv=0
+EndChar

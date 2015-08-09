@@ -1,0 +1,66 @@
+StartChar: l
+Encoding: 108 108 12
+GlifName: l
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<677.032 896> 1388 20G<512 640>
+VStem: 512 128<141.858 1408>
+AnchorPoint: "bottom" 704 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 -11 m 1
+ 858 -13 813 -16 758 -16 c 0
+ 686 -16 627 9 585 52 c 0
+ 512 128 512 218 512 279 c 2
+ 512 1408 l 1
+ 640 1408 l 1
+ 640 279 l 2
+ 640 232 640 186 668 148 c 0
+ 688 121 719 104 768 104 c 0
+ 810 104 860 106 896 109 c 1
+ 896 -11 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+768 428 m 4
+ 881.1 428 960 349.2875 960 236 c 4
+ 960 122.7125 881.1 44 768 44 c 4
+ 654.9 44 576 122.7125 576 236 c 4
+ 576 349.2875 654.9 428 768 428 c 4
+EndSplineSet
+Layer: 3
+SplineSet
+576 512 m 5
+ 576 279 l 6
+ 576 250.02413576 576.250650297 220.853241002 581.789087314 192.411609125 c 4
+ 587.327524331 163.969977248 598.283075623 136.355475608 615.640005835 113.153370488 c 4
+ 632.996936048 89.951265367 656.590856162 71.5221891235 683.18843629 60.0256922758 c 4
+ 709.71792297 48.5586280343 738.874455326 43.9999099414 767.777448423 43.9999099414 c 4
+ 788.632381203 43.9999099414 809.364733367 46.1707165575 830 49 c 4
+ 852.099251962 52.0300091964 874.096652468 55.7808460698 896 60 c 4
+ 917.445865932 64.1310310856 938.789835328 68.7923615755 960 74 c 1028
+  Spiro
+    576 512 {
+    576 279 ]
+    768 44 o
+    830 49 o
+    896 60 o
+    960 74 o
+    0 0 z
+  EndSpiro
+EndSplineSet
+Layer: 4
+Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "'ss09' Style Set 9 lookup 9 subtable" l.base
+Substitution2: "'ss08' Style Set 8 lookup 8 subtable" l.zstyle
+EndChar

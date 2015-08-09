@@ -1,0 +1,54 @@
+StartChar: _425
+Encoding: 61893 61893 411
+Width: 2048
+Flags: W
+HStem: -256 128<256 1536> 0 21G<384 1408> 512 384<468.668 683.332> 896 128<1152 1528> 1408 128<256 1024>
+VStem: 128 128<-128 1408> 384 384<596.668 811.332> 1024 128<1024 1400> 1536 128<-128 896>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1596 1156 m 2xcf80
+ 1633 1119 1664 1045 1664 992 c 2
+ 1664 -160 l 2
+ 1664 -213 1621 -256 1568 -256 c 2
+ 224 -256 l 2
+ 171 -256 128 -213 128 -160 c 2
+ 128 1440 l 2
+ 128 1493 171 1536 224 1536 c 2
+ 1120 1536 l 2
+ 1173 1536 1247 1505 1284 1468 c 2
+ 1596 1156 l 2xcf80
+1152 1400 m 1
+ 1152 1024 l 1
+ 1528 1024 l 1xdf80
+ 1522 1041 1513 1058 1506 1065 c 2
+ 1193 1378 l 2
+ 1186 1385 1169 1394 1152 1400 c 1
+1536 -128 m 1
+ 1536 896 l 1
+ 1120 896 l 2
+ 1067 896 1024 939 1024 992 c 2
+ 1024 1408 l 1
+ 256 1408 l 1
+ 256 -128 l 1
+ 1536 -128 l 1
+1408 320 m 1
+ 1408 0 l 1
+ 384 0 l 1
+ 384 192 l 1
+ 576 384 l 1
+ 704 256 l 1
+ 1088 640 l 1
+ 1408 320 l 1
+576 512 m 0xef80
+ 470 512 384 598 384 704 c 0
+ 384 810 470 896 576 896 c 0
+ 682 896 768 810 768 704 c 0
+ 768 598 682 512 576 512 c 0xef80
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e hyphen i m a g e hyphen o
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e hyphen p i c t u r e hyphen o
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f i l e hyphen p h o t o hyphen o
+EndChar

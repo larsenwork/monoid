@@ -1,0 +1,52 @@
+StartChar: dropbox
+Encoding: 61803 61803 327
+Width: 2048
+Flags: W
+HStem: 1398 20G<651.279 705.93 1342.93 1397.66>
+VStem: 1024 2<-128 -127 462 464>
+LayerCount: 2
+Back
+Fore
+SplineSet
+530 828 m 1
+ 1023 524 l 1
+ 682 239 l 1
+ 192 558 l 1
+ 530 828 l 1
+1516 274 m 1
+ 1516 166 l 1
+ 1026 -127 l 1
+ 1026 -128 l 1
+ 1025 -127 l 1
+ 1024 -128 l 1
+ 1024 -127 l 1
+ 535 166 l 1
+ 535 274 l 1
+ 682 178 l 1
+ 1024 462 l 1
+ 1024 464 l 1
+ 1025 463 l 1
+ 1026 464 l 1
+ 1026 462 l 1
+ 1369 178 l 1
+ 1516 274 l 1
+682 1418 m 1
+ 1023 1133 l 5
+ 530 829 l 1
+ 192 1099 l 1
+ 682 1418 l 1
+1518 828 m 1
+ 1856 558 l 1
+ 1367 239 l 1
+ 1024 524 l 1
+ 1518 828 l 1
+1367 1418 m 1
+ 1856 1099 l 1
+ 1518 829 l 1
+ 1024 1133 l 1
+ 1367 1418 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen d r o p b o x
+LCarets2: 9 0 0 0 0 0 0 0 0 0
+EndChar

@@ -1,0 +1,30 @@
+StartChar: uni2074
+Encoding: 8308 8308 597
+GlifName: uni2074
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1024 120<392 640>
+VStem: 640 128<768 1024 1144 1536>
+LayerCount: 5
+Back
+Fore
+SplineSet
+768 768 m 1
+ 640 768 l 1
+ 640 1024 l 1
+ 256 1024 l 1
+ 256 1096 l 1
+ 404 1536 l 1
+ 525 1536 l 1
+ 392 1144 l 1
+ 640 1144 l 1
+ 640 1536 l 1
+ 768 1536 l 1
+ 768 768 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

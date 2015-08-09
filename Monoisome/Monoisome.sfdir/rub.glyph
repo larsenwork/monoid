@@ -1,0 +1,51 @@
+StartChar: rub
+Encoding: 61784 61784 1030
+Width: 2048
+Flags: W
+HStem: 0 21G<407 592> 224 192<128 384 615 1152> 534 213<128 384 615 1062.54> 1195 213<615 1062.54>
+VStem: 384 231<4.1999e-07 224 416 534 747 1195> 1171 237<853.421 1088.58>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1171 971 m 0
+ 1171 1105 1076 1195 935 1195 c 2
+ 615 1195 l 1
+ 615 747 l 1
+ 935 747 l 2
+ 1076 747 1171 837 1171 971 c 0
+1408 971 m 0
+ 1408 714 1222 534 955 534 c 2
+ 615 534 l 1
+ 615 416 l 1
+ 1120 416 l 2
+ 1138 416 1152 402 1152 384 c 2
+ 1152 256 l 2
+ 1152 238 1138 224 1120 224 c 2
+ 615 224 l 1
+ 615 32 l 2
+ 615 14 601 0 583 0 c 2
+ 416 0 l 2
+ 398 0 384 14 384 32 c 2
+ 384 224 l 1
+ 160 224 l 2
+ 142 224 128 238 128 256 c 2
+ 128 384 l 2
+ 128 402 142 416 160 416 c 2
+ 384 416 l 1
+ 384 534 l 1
+ 160 534 l 2
+ 142 534 128 548 128 566 c 2
+ 128 715 l 2
+ 128 733 142 747 160 747 c 2
+ 384 747 l 1
+ 384 1376 l 2
+ 384 1394 398 1408 416 1408 c 2
+ 955 1408 l 1
+ 1222 1408 1408 1228 1408 971 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r u b
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r o u b l e
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r u b l e
+EndChar

@@ -1,0 +1,36 @@
+StartChar: uni040C
+Encoding: 1036 1036 1200
+GlifName: uni040C_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 890.881 1062> 1388 20G<128 256 813.338 969>
+VStem: 128 128<0 558 719 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1408 l 1
+ 256 1408 l 1
+ 256 719 l 1
+ 830 1408 l 1
+ 969 1408 l 1
+ 481 813 l 1
+ 1062 0 l 1
+ 905 0 l 1
+ 396 721 l 1
+ 256 558 l 1
+ 256 0 l 1
+488 1536 m 1
+ 654 1792 l 1
+ 792 1792 l 1
+ 626 1536 l 1
+ 488 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

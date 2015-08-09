@@ -1,0 +1,28 @@
+StartChar: map_marker
+Encoding: 61505 61505 66
+Width: 2048
+Flags: W
+HStem: -128 768<555.64 724.512> 1152 256<521.223 758.777>
+VStem: 128 256<772.373 1014.78> 896 256<772.373 1014.78>
+LayerCount: 2
+Back
+Fore
+SplineSet
+896 896 m 0
+ 896 1037 781 1152 640 1152 c 0
+ 499 1152 384 1037 384 896 c 0
+ 384 755 499 640 640 640 c 0
+ 781 640 896 755 896 896 c 0
+1152 896 m 0
+ 1152 835 1145 772 1119 717 c 2
+ 755 -57 l 2
+ 734 -101 688 -128 640 -128 c 0
+ 592 -128 546 -101 526 -57 c 2
+ 161 717 l 2
+ 135 772 128 835 128 896 c 0
+ 128 1179 357 1408 640 1408 c 0
+ 923 1408 1152 1179 1152 896 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen m a p hyphen m a r k e r
+EndChar

@@ -1,0 +1,36 @@
+StartChar: Zacute
+Encoding: 377 377 213
+GlifName: Z_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<293 1024> 1288 120<148 839>
+LayerCount: 5
+Back
+Fore
+SplineSet
+148 1288 m 1
+ 148 1408 l 1
+ 1004 1408 l 1
+ 1004 1318 l 1
+ 293 130 l 1
+ 293 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 128 0 l 1
+ 128 92 l 1
+ 839 1278 l 1
+ 839 1288 l 1
+ 148 1288 l 1
+507 1539 m 1
+ 673 1795 l 1
+ 811 1795 l 1
+ 645 1539 l 1
+ 507 1539 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Zacute.sq
+EndChar

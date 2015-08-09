@@ -1,0 +1,43 @@
+StartChar: Dcaron
+Encoding: 270 270 178
+GlifName: D_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 664.842> 1288 120<256 664.842>
+VStem: 128 128<120 1288> 912 128<396.93 1011.07>
+LayerCount: 5
+Back
+Fore
+SplineSet
+474 1408 m 2
+ 717 1408 859 1306 943 1171 c 0
+ 1025 1040 1040 877 1040 704 c 0
+ 1040 531 1025 368 943 237 c 0
+ 859 102 717 0 474 0 c 2
+ 128 0 l 1
+ 128 1408 l 1
+ 474 1408 l 2
+912 704 m 0
+ 912 888 893 1030 825 1126 c 0
+ 766 1210 670 1288 474 1288 c 2
+ 256 1288 l 1
+ 256 120 l 1
+ 474 120 l 2
+ 670 120 766 198 825 282 c 0
+ 893 378 912 520 912 704 c 0
+497 1536 m 1
+ 200 1792 l 1
+ 358 1792 l 1
+ 576 1628 l 1
+ 794 1792 l 1
+ 952 1792 l 1
+ 655 1536 l 1
+ 497 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Dcaron.sq
+EndChar

@@ -1,0 +1,37 @@
+StartChar: beer
+Encoding: 61692 61692 226
+Width: 2048
+Flags: W
+HStem: 0 21G<640 1792> 384 256<553.814 768> 1024 256<512 704> 1388 20G<731 1699.33>
+VStem: 256 256<681.814 1024>
+LayerCount: 2
+Back
+Fore
+SplineSet
+768 640 m 1
+ 768 1024 l 1
+ 512 1024 l 1
+ 512 896 512 768 512 768 c 2
+ 512 697 569 640 640 640 c 0
+ 717 640 753 640 768 640 c 1
+1792 192 m 1
+ 1792 0 l 1
+ 640 0 l 1
+ 640 192 l 1
+ 768 384 l 1
+ 757 384 651 384 640 384 c 0
+ 428 384 256 556 256 768 c 2
+ 256 1088 l 1
+ 192 1152 l 1
+ 224 1280 l 1
+ 704 1280 l 1
+ 736 1408 l 1
+ 1696 1408 l 1
+ 1728 1216 l 1
+ 1664 1184 l 1
+ 1664 384 l 1
+ 1792 192 l 1
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b e e r
+EndChar

@@ -1,0 +1,22 @@
+StartChar: backslash
+Encoding: 92 92 26
+GlifName: backslash
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+914 -155 m 1
+ 125 1510 l 1
+ 238 1563 l 1
+ 1027 -102 l 1
+ 914 -155 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 16 subtable" backslash.shrug
+EndChar

@@ -1,0 +1,40 @@
+StartChar: Ecaron
+Encoding: 282 282 188
+GlifName: E_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 648 120<384 896> 1288 120<384 1024>
+VStem: 256 128<120 648 768 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 1408 m 1
+ 1024 1408 l 1
+ 1024 1288 l 1
+ 384 1288 l 1
+ 384 768 l 1
+ 896 768 l 1
+ 896 648 l 1
+ 384 648 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+ 256 1408 l 1
+497 1536 m 1
+ 200 1792 l 1
+ 358 1792 l 1
+ 576 1628 l 1
+ 794 1792 l 1
+ 952 1792 l 1
+ 655 1536 l 1
+ 497 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ecaron.sq
+EndChar

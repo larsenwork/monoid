@@ -1,0 +1,37 @@
+StartChar: Edotaccent
+Encoding: 278 278 186
+GlifName: E_dotaccent
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 516 120<384 896> 1032 120<384 1024> 1328 224<493.423 658.577>
+VStem: 256 128<120 516 636 1032> 464 224<1357.42 1522.58>
+LayerCount: 5
+Back
+Fore
+SplineSet
+576 1552 m 0
+ 642 1552 688 1506 688 1440 c 0
+ 688 1374 642 1328 576 1328 c 0
+ 510 1328 464 1374 464 1440 c 0
+ 464 1506 510 1552 576 1552 c 0
+256 1152 m 1
+ 1024 1152 l 1
+ 1024 1032 l 1
+ 384 1032 l 1
+ 384 636 l 1
+ 896 636 l 1
+ 896 516 l 1
+ 384 516 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+ 256 1152 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Edotaccent.sq
+EndChar

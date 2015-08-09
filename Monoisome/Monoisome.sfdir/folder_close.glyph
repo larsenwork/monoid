@@ -1,0 +1,25 @@
+StartChar: folder_close
+Encoding: 61563 61563 866
+Width: 2048
+Flags: W
+HStem: 0 21G<290.5 1629.5> 1388 20G<290.5 733.5>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1792 928 m 2
+ 1792 224 l 2
+ 1792 101 1691 0 1568 0 c 2
+ 352 0 l 2
+ 229 0 128 101 128 224 c 2
+ 128 1184 l 2
+ 128 1307 229 1408 352 1408 c 2
+ 672 1408 l 2
+ 795 1408 896 1307 896 1184 c 2
+ 896 1152 l 1
+ 1568 1152 l 2
+ 1691 1152 1792 1051 1792 928 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f o l d e r
+EndChar

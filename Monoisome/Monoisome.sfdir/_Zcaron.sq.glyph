@@ -1,0 +1,37 @@
+StartChar: Zcaron.sq
+Encoding: 1114240 -1 764
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<303 1024> 1160 120<148 829> 1411 21G<473.797 678.203>
+LayerCount: 5
+Back
+Fore
+SplineSet
+148 1160 m 1
+ 148 1280 l 1
+ 1004 1280 l 1
+ 1004 1190 l 1
+ 303 130 l 5
+ 303 120 l 5
+ 1024 120 l 1
+ 1024 0 l 1
+ 128 0 l 1
+ 128 92 l 1
+ 829 1150 l 1
+ 829 1160 l 1
+ 148 1160 l 1
+497 1411 m 1
+ 200 1667 l 1
+ 358 1667 l 1
+ 576 1503 l 1
+ 794 1667 l 1
+ 952 1667 l 1
+ 655 1411 l 1
+ 497 1411 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

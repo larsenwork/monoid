@@ -1,0 +1,35 @@
+StartChar: zacute
+Encoding: 378 378 1349
+GlifName: zacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<401 896> 904 120<276 731> 1391 20G<660.031 811>
+LayerCount: 5
+Back
+Fore
+SplineSet
+276 904 m 1
+ 276 1024 l 1
+ 876 1024 l 1
+ 876 934 l 1
+ 401 130 l 1
+ 401 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 92 l 1
+ 731 894 l 1
+ 731 904 l 1
+ 276 904 l 1
+507 1155 m 1
+ 673 1411 l 1
+ 811 1411 l 1
+ 645 1155 l 1
+ 507 1155 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

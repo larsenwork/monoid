@@ -1,0 +1,32 @@
+StartChar: facebook
+Encoding: 61594 61594 855
+Width: 2048
+Flags: W
+HStem: 631 296<223 478 784 1038> 1260 276<817.478 1085.69> 1260 264<864.051 1087>
+VStem: 478 306<-128 631 927 1223.86>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1087 1524 m 1xb0
+ 1087 1260 l 1xb0
+ 930 1260 l 2
+ 807 1260 784 1201 784 1116 c 2
+ 784 927 l 1
+ 1077 927 l 1
+ 1038 631 l 1
+ 784 631 l 1
+ 784 -128 l 1
+ 478 -128 l 1
+ 478 631 l 1
+ 223 631 l 1
+ 223 927 l 1
+ 478 927 l 1
+ 478 1145 l 2
+ 478 1398 633 1536 859 1536 c 0xd0
+ 967 1536 1060 1528 1087 1524 c 1xb0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f a c e b o o k
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen f a c e b o o k hyphen f
+EndChar

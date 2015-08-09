@@ -1,0 +1,69 @@
+StartChar: R
+Encoding: 82 82 45
+GlifName: R_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<256 384 920.073 1065> 520 120<384 689.19> 1288 120<384 742.904>
+VStem: 256 128<0 520 640 1288> 912 128<811.269 1116.73>
+AnchorPoint: "bottom" 704 0 basechar 0
+AnchorPoint: "top" 576 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+912 964 m 0
+ 912 1072 868 1161 805 1215 c 0
+ 721 1288 615 1288 533 1288 c 2
+ 384 1288 l 1
+ 384 640 l 1
+ 533 640 l 2
+ 615 640 721 641 805 713 c 0
+ 868 767 912 856 912 964 c 0
+533 1408 m 2
+ 624 1408 772 1408 891 1303 c 0
+ 977 1227 1040 1111 1040 964 c 0
+ 1040 817 977 701 891 625 c 0
+ 866 603 840 586 813 572 c 1
+ 1065 0 l 1
+ 929 0 l 1
+ 692 531 l 1
+ 632 520 576 520 533 520 c 2
+ 384 520 l 1
+ 384 0 l 1
+ 256 0 l 1
+ 256 1408 l 1
+ 533 1408 l 2
+EndSplineSet
+Validated: 1
+Layer: 2
+SplineSet
+439 760 m 6
+ 524 760 575 761 620 772 c 4
+ 755 805 848 925 848 1088 c 4
+ 848 1251 755 1371 620 1404 c 4
+ 575 1415 524 1416 439 1416 c 6
+ 256 1416 l 5
+ 256 760 l 5
+ 439 760 l 6
+534.4140625 641.071289062 m 5
+ 505.526367188 640 474.323242188 640 439 640 c 6
+ 256 640 l 5
+ 256 0 l 5
+ 128 0 l 5
+ 128 1536 l 5
+ 439 1536 l 6
+ 526 1536 588 1536 652 1520 c 4
+ 838 1475 976 1312 976 1088 c 4
+ 976 868.202148438 843.12890625 707.13671875 662.416992188 658.657226562 c 5
+ 912.923828125 0 l 5
+ 769.30078125 0 l 5
+ 534.4140625 641.071289062 l 5
+EndSplineSet
+Layer: 3
+Layer: 4
+Position2: "Single Positioning lookup 22 subtable" dx=128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 20 subtable" dx=-128 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 14 subtable" dx=0 dy=0 dh=0 dv=0
+EndChar

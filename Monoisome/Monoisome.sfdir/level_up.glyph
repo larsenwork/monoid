@@ -1,0 +1,33 @@
+StartChar: level_up
+Encoding: 61768 61768 294
+Width: 2048
+Flags: W
+HStem: 0 256<277.5 640>
+VStem: 640 256<256 896>
+LayerCount: 2
+Back
+Fore
+SplineSet
+1146 933 m 0
+ 1135 910 1113 896 1088 896 c 2
+ 896 896 l 1
+ 896 32 l 2
+ 896 14 882 0 864 0 c 2
+ 160 0 l 2
+ 148 0 136 7 131 18 c 0
+ 126 30 127 43 135 53 c 2
+ 295 245 l 2
+ 301 252 311 256 320 256 c 2
+ 640 256 l 1
+ 640 896 l 1
+ 448 896 l 2
+ 423 896 401 910 390 933 c 0
+ 380 955 383 982 399 1001 c 2
+ 719 1385 l 2
+ 743 1414 793 1414 817 1385 c 2
+ 1137 1001 l 2
+ 1153 982 1157 955 1146 933 c 0
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen l e v e l hyphen u p
+EndChar

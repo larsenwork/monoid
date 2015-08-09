@@ -1,0 +1,34 @@
+StartChar: lacute
+Encoding: 314 314 918
+GlifName: lacute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 120<677.032 896> 1388 20G<512 640>
+VStem: 512 128<141.858 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 -11 m 1
+ 858 -13 813 -16 758 -16 c 0
+ 686 -16 627 9 585 52 c 0
+ 512 128 512 218 512 279 c 2
+ 512 1408 l 1
+ 640 1408 l 1
+ 640 279 l 2
+ 640 232 640 186 668 148 c 0
+ 688 121 719 104 768 104 c 0
+ 810 104 860 106 896 109 c 1
+ 896 -11 l 1
+488 1536 m 1
+ 654 1792 l 1
+ 792 1792 l 1
+ 626 1536 l 1
+ 488 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

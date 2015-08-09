@@ -1,0 +1,40 @@
+StartChar: Ibreve
+Encoding: 300 300 227
+GlifName: I_breve
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1520 120<435.067 716.933>
+VStem: 236 128<1704.51 1792> 512 128<120 1288> 788 128<1704.51 1792>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1408 m 1
+ 896 1288 l 1
+ 640 1288 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1288 l 1
+ 256 1288 l 1
+ 256 1408 l 1
+ 896 1408 l 1
+788 1792 m 1
+ 916 1792 l 1
+ 916 1624 764 1520 576 1520 c 0
+ 388 1520 236 1624 236 1792 c 1
+ 364 1792 l 1
+ 364 1706 433 1640 576 1640 c 0
+ 719 1640 788 1706 788 1792 c 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ibreve.sq
+EndChar

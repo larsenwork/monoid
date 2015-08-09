@@ -1,0 +1,36 @@
+StartChar: zdotaccent
+Encoding: 380 380 1351
+GlifName: zdotaccent
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<401 896> 904 120<276 731> 1155 224<493.423 658.577>
+VStem: 464 224<1184.42 1349.58>
+LayerCount: 5
+Back
+Fore
+SplineSet
+276 904 m 1
+ 276 1024 l 1
+ 876 1024 l 1
+ 876 934 l 1
+ 401 130 l 1
+ 401 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 92 l 1
+ 731 894 l 1
+ 731 904 l 1
+ 276 904 l 1
+576 1379 m 0
+ 642 1379 688 1333 688 1267 c 0
+ 688 1201 642 1155 576 1155 c 0
+ 510 1155 464 1201 464 1267 c 0
+ 464 1333 510 1379 576 1379 c 0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

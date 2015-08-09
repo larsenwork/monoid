@@ -1,0 +1,36 @@
+StartChar: Tcaron
+Encoding: 356 356 285
+GlifName: T_caron
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 1288 120<128 512 640 1024>
+VStem: 512 128<0 1288>
+LayerCount: 5
+Back
+Fore
+SplineSet
+1024 1408 m 1
+ 1024 1288 l 1
+ 640 1288 l 1
+ 640 0 l 1
+ 512 0 l 1
+ 512 1288 l 1
+ 128 1288 l 1
+ 128 1408 l 1
+ 1024 1408 l 1
+497 1536 m 1
+ 200 1792 l 1
+ 358 1792 l 1
+ 576 1628 l 1
+ 794 1792 l 1
+ 952 1792 l 1
+ 655 1536 l 1
+ 497 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Tcaron.sq
+EndChar

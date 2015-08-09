@@ -1,0 +1,29 @@
+StartChar: quotesinglbase
+Encoding: 8218 8218 423
+GlifName: quotesinglbase
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -256 120<384 473.335> 144 240<384 512>
+VStem: 384 256<144 384> 512 128<-95.6802 144>
+LayerCount: 5
+Back
+Fore
+SplineSet
+384 384 m 1xe0
+ 640 384 l 1xe0
+ 640 39 l 6xd0
+ 640 -21 640 -91 588 -161 c 4
+ 546 -218 474 -256 384 -256 c 5
+ 384 -136 l 5xe0
+ 431 -136 463 -119 484 -91 c 4
+ 512 -54 512 -11 512 39 c 6
+ 512 144 l 1xd0
+ 384 144 l 1
+ 384 384 l 1xe0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

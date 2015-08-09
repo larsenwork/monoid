@@ -1,0 +1,38 @@
+StartChar: Ycircumflex
+Encoding: 374 374 210
+GlifName: Y_circumflex
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<512 640> 1388 20G<100 280.5 871.5 1052>
+VStem: 512 128<0 661.578>
+LayerCount: 5
+Back
+Fore
+SplineSet
+586 741 m 1
+ 724 944 827 1172 916 1408 c 1
+ 1052 1408 l 1
+ 946 1132 822 857 640 616 c 1
+ 640 0 l 1
+ 512 0 l 1
+ 512 616 l 1
+ 330 857 206 1132 100 1408 c 1
+ 236 1408 l 1
+ 325 1172 429 943 566 741 c 1
+ 586 741 l 1
+497 1792 m 1
+ 655 1792 l 1
+ 952 1536 l 1
+ 794 1536 l 1
+ 576 1700 l 1
+ 358 1536 l 1
+ 200 1536 l 1
+ 497 1792 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Ycircumflex.sq
+EndChar

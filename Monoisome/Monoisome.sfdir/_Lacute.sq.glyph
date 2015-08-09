@@ -1,0 +1,29 @@
+StartChar: Lacute.sq
+Encoding: 1114218 -1 728
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 1408 21G<232 382.969>
+VStem: 256 128<120 1280>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 256 1280 l 5
+ 384 1280 l 5
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+232 1408 m 1
+ 398 1664 l 1
+ 536 1664 l 1
+ 370 1408 l 1
+ 232 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

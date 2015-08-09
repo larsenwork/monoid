@@ -1,0 +1,40 @@
+StartChar: uni020A
+Encoding: 522 522 1143
+GlifName: uni020A_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1688 120<435.067 716.933>
+VStem: 236 128<1536 1623.49> 512 128<120 1288> 788 128<1536 1623.49>
+CounterMasks: 1 1c
+LayerCount: 5
+Back
+Fore
+SplineSet
+896 1408 m 1
+ 896 1288 l 1
+ 640 1288 l 1
+ 640 120 l 1
+ 896 120 l 1
+ 896 0 l 1
+ 256 0 l 1
+ 256 120 l 1
+ 512 120 l 1
+ 512 1288 l 1
+ 256 1288 l 1
+ 256 1408 l 1
+ 896 1408 l 1
+788 1536 m 1
+ 788 1622 719 1688 576 1688 c 0
+ 433 1688 364 1622 364 1536 c 1
+ 236 1536 l 1
+ 236 1704 388 1808 576 1808 c 0
+ 764 1808 916 1704 916 1536 c 1
+ 788 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" uni020A.sq
+EndChar

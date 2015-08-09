@@ -1,0 +1,26 @@
+StartChar: ligadoubleslash
+Encoding: 1114164 -1 665
+GlifName: ligadoubleslash
+Width: 1024
+VWidth: 0
+Flags: W
+LayerCount: 5
+Back
+Fore
+SplineSet
+-786 -155 m 1
+ -899 -102 l 1
+ -110 1563 l 1
+ 3 1510 l 1
+ -786 -155 l 1
+-18 -155 m 1
+ -131 -102 l 1
+ 658 1563 l 1
+ 771 1510 l 1
+ -18 -155 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

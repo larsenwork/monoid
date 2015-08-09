@@ -1,0 +1,25 @@
+StartChar: cloud
+Encoding: 61634 61634 809
+Width: 2048
+Flags: W
+HStem: 0 1152<1410.27 1657.85> 1388 20G<754.5 1003>
+LayerCount: 2
+Back
+Fore
+SplineSet
+2048 384 m 0
+ 2048 172 1876 0 1664 0 c 2
+ 576 0 l 2
+ 329 0 128 201 128 448 c 0
+ 128 627 234 782 386 853 c 1
+ 385 867 384 882 384 896 c 0
+ 384 1179 613 1408 896 1408 c 0
+ 1110 1408 1293 1277 1370 1090 c 1
+ 1414 1129 1472 1152 1536 1152 c 0
+ 1677 1152 1792 1037 1792 896 c 0
+ 1792 845 1777 798 1751 758 c 1
+ 1921 718 2048 566 2048 384 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen c l o u d
+EndChar

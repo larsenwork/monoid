@@ -1,0 +1,29 @@
+StartChar: quoteleft
+Encoding: 8216 8216 1006
+GlifName: quoteleft
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 784 240<640 768> 1304 120<678.665 768>
+VStem: 512 256<784 1024> 512 128<1024 1263.68>
+LayerCount: 5
+Back
+Fore
+SplineSet
+768 784 m 1xe0
+ 512 784 l 1xe0
+ 512 1129 l 6xd0
+ 512 1189 512 1259 564 1329 c 4
+ 606 1386 678 1424 768 1424 c 5
+ 768 1304 l 5xe0
+ 721 1304 689 1287 668 1259 c 4
+ 640 1222 640 1179 640 1129 c 6
+ 640 1024 l 1xd0
+ 768 1024 l 1
+ 768 784 l 1xe0
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

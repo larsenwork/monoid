@@ -1,0 +1,38 @@
+StartChar: Hcircumflex.sq
+Encoding: 1114212 -1 718
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 896 1024> 640 120<256 896> 1408 21G<200 384.585 767.415 952>
+VStem: 128 128<0 640 760 1280> 896 128<0 640 760 1280>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 1280 m 5
+ 256 1280 l 5
+ 256 760 l 1
+ 896 760 l 1
+ 896 1280 l 5
+ 1024 1280 l 5
+ 1024 0 l 1
+ 896 0 l 1
+ 896 640 l 1
+ 256 640 l 1
+ 256 0 l 1
+ 128 0 l 1
+ 128 1280 l 5
+497 1664 m 1
+ 655 1664 l 1
+ 952 1408 l 1
+ 794 1408 l 1
+ 576 1572 l 1
+ 358 1408 l 1
+ 200 1408 l 1
+ 497 1664 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

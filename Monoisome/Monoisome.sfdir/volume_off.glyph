@@ -1,0 +1,26 @@
+StartChar: volume_off
+Encoding: 61478 61478 1328
+Width: 2048
+Flags: W
+VStem: 128 768<391.794 888.206>
+LayerCount: 2
+Back
+Fore
+SplineSet
+896 1184 m 2
+ 896 96 l 2
+ 896 61 867 32 832 32 c 0
+ 815 32 799 39 787 51 c 2
+ 454 384 l 1
+ 192 384 l 2
+ 157 384 128 413 128 448 c 2
+ 128 832 l 2
+ 128 867 157 896 192 896 c 2
+ 454 896 l 1
+ 787 1229 l 2
+ 799 1241 815 1248 832 1248 c 0
+ 867 1248 896 1219 896 1184 c 2
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen v o l u m e hyphen o f f
+EndChar

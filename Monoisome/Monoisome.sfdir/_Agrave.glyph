@@ -1,0 +1,40 @@
+StartChar: Agrave
+Encoding: 192 192 97
+GlifName: A_grave
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1388 20G<389 763>
+VStem: 103 135<0 253.02> 914 135<0 253.803>
+LayerCount: 5
+Back
+Refer: 27 96 N 1 0 0 1 136.371 522 2
+Refer: 29 65 N 1 0 0 1 26 0 3
+Fore
+SplineSet
+103 0 m 1
+ 156 496 267 971 511 1408 c 1
+ 641 1408 l 1
+ 885 971 996 496 1049 0 c 1
+ 914 0 l 1
+ 903 136 883 265 859 388 c 1
+ 293 388 l 1
+ 274 265 249 136 238 0 c 1
+ 103 0 l 1
+838 508 m 1
+ 770 796 697 1054 581 1279 c 1
+ 571 1279 l 1
+ 455 1054 382 796 314 508 c 1
+ 838 508 l 1
+664 1536 m 1
+ 526 1536 l 1
+ 360 1792 l 1
+ 498 1792 l 1
+ 664 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Agrave.sq
+EndChar

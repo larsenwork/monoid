@@ -1,0 +1,38 @@
+StartChar: Ncaron.sq
+Encoding: 1114220 -1 732
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 256 883.885 1024> 1408 21G<473.797 678.203>
+VStem: 128 128<0 1040> 896 128<240 1280>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 128 0 l 1
+ 128 1280 l 1
+ 255 1280 l 1
+ 886 240 l 1
+ 896 240 l 1
+ 896 1280 l 1
+ 1024 1280 l 1
+ 1024 0 l 1
+ 896 0 l 1
+ 266 1040 l 5
+ 256 1040 l 5
+ 256 0 l 1
+497 1408 m 1
+ 200 1664 l 1
+ 358 1664 l 1
+ 576 1500 l 1
+ 794 1664 l 1
+ 952 1664 l 1
+ 655 1408 l 1
+ 497 1408 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

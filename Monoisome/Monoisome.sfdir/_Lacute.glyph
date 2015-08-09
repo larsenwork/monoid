@@ -1,0 +1,31 @@
+StartChar: Lacute
+Encoding: 313 313 277
+GlifName: L_acute
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 1388 20G<256 384>
+VStem: 256 128<120 1408>
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 256 1408 l 1
+ 384 1408 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+232 1536 m 1
+ 398 1792 l 1
+ 536 1792 l 1
+ 370 1536 l 1
+ 232 1536 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "'ss14' Style Set 14 lookup 14 subtable" Lacute.sq
+EndChar

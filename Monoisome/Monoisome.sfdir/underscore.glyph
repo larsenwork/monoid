@@ -1,0 +1,27 @@
+StartChar: underscore
+Encoding: 95 95 1107
+GlifName: underscore
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -120 120<128 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+128 0 m 1
+ 1024 0 l 1
+ 1024 -120 l 1
+ 128 -120 l 1
+ 128 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+Substitution2: "Single Substitution lookup 77 subtable" underscore.2r
+Substitution2: "Single Substitution lookup 76 subtable" underscore.2l
+Substitution2: "Single Substitution lookup 75 subtable" underscore.more
+Substitution2: "Single Substitution lookup 74 subtable" underscore.more
+Substitution2: "Single Substitution lookup 73 subtable" underscore.more
+EndChar

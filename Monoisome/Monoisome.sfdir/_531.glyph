@@ -1,0 +1,42 @@
+StartChar: _531
+Encoding: 62006 62006 515
+Width: 2048
+Flags: W
+HStem: 0 21G<0 256 1792 2048> 256 256<256 1792> 576 512<454.146 697.854> 576 448<903.794 1813.44>
+VStem: 0 256<0 256 512 1272.21> 320 512<710.146 953.854> 1792 256<0 256>
+LayerCount: 2
+Back
+Fore
+SplineSet
+256 512 m 1xce
+ 1984 512 l 2
+ 2019 512 2048 483 2048 448 c 2
+ 2048 0 l 1
+ 1792 0 l 1
+ 1792 256 l 1
+ 256 256 l 1
+ 256 0 l 1
+ 0 0 l 1
+ 0 1216 l 2
+ 0 1251 29 1280 64 1280 c 2
+ 192 1280 l 2
+ 227 1280 256 1251 256 1216 c 2
+ 256 512 l 1xce
+832 832 m 0
+ 832 691 717 576 576 576 c 0
+ 435 576 320 691 320 832 c 0
+ 320 973 435 1088 576 1088 c 0xee
+ 717 1088 832 973 832 832 c 0
+2048 576 m 1xde
+ 896 576 l 1
+ 896 960 l 2
+ 896 995 925 1024 960 1024 c 2
+ 1664 1024 l 2
+ 1876 1024 2048 852 2048 640 c 2
+ 2048 576 l 1xde
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen b e d
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen h o t e l
+LCarets2: 7 0 0 0 0 0 0 0
+EndChar

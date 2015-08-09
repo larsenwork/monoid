@@ -1,0 +1,27 @@
+StartChar: L
+Encoding: 76 76 40
+GlifName: L_
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 120<384 1024> 1388 20G<256 384>
+VStem: 256 128<120 1408>
+AnchorPoint: "bottom" 704 0 basechar 0
+AnchorPoint: "top" 320 1408 basechar 0
+LayerCount: 5
+Back
+Fore
+SplineSet
+256 0 m 1
+ 256 1408 l 1
+ 384 1408 l 1
+ 384 120 l 1
+ 1024 120 l 1
+ 1024 0 l 1
+ 256 0 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

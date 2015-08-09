@@ -1,0 +1,30 @@
+StartChar: play_sign
+Encoding: 61764 61764 290
+Width: 2048
+Flags: W
+HStem: -128 384<679.137 1108> 1388 20G<684 1108>
+VStem: 128 512<429.805 850.195>
+LayerCount: 2
+Back
+Fore
+SplineSet
+896 1408 m 0
+ 1320 1408 1664 1064 1664 640 c 0
+ 1664 216 1320 -128 896 -128 c 0
+ 472 -128 128 216 128 640 c 0
+ 128 1064 472 1408 896 1408 c 0
+1280 585 m 2
+ 1300 596 1312 617 1312 640 c 0
+ 1312 663 1300 684 1280 695 c 2
+ 736 1015 l 2
+ 717 1027 692 1027 672 1016 c 0
+ 652 1004 640 983 640 960 c 2
+ 640 320 l 2
+ 640 297 652 276 672 264 c 0
+ 682 259 693 256 704 256 c 0
+ 715 256 726 259 736 265 c 2
+ 1280 585 l 2
+EndSplineSet
+Validated: 33
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen p l a y hyphen c i r c l e
+EndChar

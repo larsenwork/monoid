@@ -1,0 +1,33 @@
+StartChar: asterisk.period
+Encoding: 1114256 -1 784
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 1004 20G<640 768>
+VStem: 640 128<630 1024>
+LayerCount: 5
+Back
+Fore
+SplineSet
+640 630 m 1
+ 640 1024 l 1
+ 768 1024 l 1
+ 768 630 l 1
+ 1136 750 l 1
+ 1178 637 l 1
+ 804 515 l 1
+ 1037 195 l 1
+ 931 128 l 1
+ 704 439 l 1
+ 478 128 l 1
+ 372 195 l 1
+ 604 515 l 1
+ 230 637 l 1
+ 272 750 l 1
+ 640 630 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

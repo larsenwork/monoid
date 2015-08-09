@@ -1,0 +1,27 @@
+StartChar: renren
+Encoding: 61835 61835 357
+Width: 2048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+1261 -34 m 1
+ 1152 -94 1027 -128 893 -128 c 0
+ 760 -128 635 -94 526 -34 c 1
+ 703 78 846 247 893 445 c 1
+ 941 247 1084 78 1261 -34 c 1
+766 1394 m 1
+ 766 909 l 2
+ 766 567 577 273 309 143 c 1
+ 196 277 128 449 128 638 c 0
+ 128 1018 404 1333 766 1394 c 1
+1664 638 m 0
+ 1664 449 1596 277 1483 143 c 1
+ 1215 273 1026 567 1026 909 c 2
+ 1026 1394 l 1
+ 1388 1333 1664 1018 1664 638 c 0
+EndSplineSet
+Validated: 1
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f a hyphen r e n r e n
+EndChar

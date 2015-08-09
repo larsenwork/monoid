@@ -1,0 +1,37 @@
+StartChar: Alphatonos
+Encoding: 902 902 557
+GlifName: A_lphatonos
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 21G<103 243.5 908.5 1049> 388 120<316 836> 1289 119<555.101 596.899>
+VStem: 103 135<0 253.02> 914 135<0 253.02>
+LayerCount: 5
+Back
+Fore
+SplineSet
+188 1438 m 1
+ 283 1358 l 1
+ 77 1131 l 1
+ 2 1194 l 1
+ 188 1438 l 1
+103 0 m 1
+ 156 496 267 971 511 1408 c 1
+ 641 1408 l 1
+ 885 971 996 496 1049 0 c 1
+ 914 0 l 1
+ 903 136 878 265 859 388 c 1
+ 293 388 l 1
+ 274 265 249 136 238 0 c 1
+ 103 0 l 1
+836 508 m 1
+ 769 800 696 1061 581 1289 c 1
+ 571 1289 l 1
+ 456 1061 383 800 316 508 c 1
+ 836 508 l 1
+EndSplineSet
+Validated: 1
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar
