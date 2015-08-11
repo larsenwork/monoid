@@ -17,19 +17,16 @@
 Quit your editor/program. Unzip and open the folder.
 
 **Mac + Linux (with font-viewer)**  
-1. Select the .ttf files and double click on them  
-2. Follow the on-screen guide
+Select the .ttf files and double click → Follow the on-screen guide
 
 **Windows**  
-1. Right click the .ttf files  
-2. Install
+Right click the .ttf files → Install
 
 **Linux (manually)**  
-1. Copy the .ttf files to your fonts-directory  
-2. Run `sudo fc-cache`  
+Copy the .ttf files to your fonts-directory → Run `sudo fc-cache`  
 
 **Detailed Instructions**  
-[How to Install, Remove, and Manage Fonts on Windows, Mac, and Linux](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/)  
+[How to](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/) Install, Remove, and Manage Fonts on Windows, Mac, and Linux  
 [Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
 
 ###Stylistic Alternates
@@ -38,7 +35,7 @@ The font contains more alternates than available on the webpage - see [Monoid-*.
 
 ###Tips
 
-Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
+Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)  
 [Change Monoid metrics](https://github.com/larsenwork/monoid/issues/109) if you use it together with e.g. Chinese
 
 ###Edit
@@ -49,13 +46,13 @@ Please fork and edit away. Use the also libre [FontForge](http://fontforge.githu
 <p>&nbsp;</p>
 #Ligature Support
 
-I'm using OpenType features `calt` + `liga` to create the ligatures and add contextual positioning. These are unfortunately not supported by all programs.
+Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by all programs.
 
 ###Editors + Terminals
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
-| Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, XCode | Visual Studio¹ | gVim, IntelliJ-based², libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
+| Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹ | gVim, IntelliJ-based², libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
 ¹ Ligatures with hyphens doesn't work  
 ² PHPStorm, WebStorm etc.
 
