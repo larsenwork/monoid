@@ -50,7 +50,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 ###Editors + Terminals
 
-| Working | Partly Working | Not Working |
+| Working | Partly Working | Not Working |
 |:---|:---|:---|
 | Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹ | gVim, IntelliJ-based², libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
 ¹ Ligatures with hyphens doesn't work  
@@ -58,7 +58,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 ###Browsers
 
-| Working | Partly Working | Not Working |
+| Working | Partly Working | Not Working |
 |:---|:---|:---|
 | Chrome, Firefox, IE 10+ | Safari¹ | IE <10 |
 ¹ Enabled by default - can't be turned off.
