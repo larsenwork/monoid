@@ -69,198 +69,221 @@ feature ss14 {
 feature calt {
 
   # ¯\_(ツ)_/¯
-    sub macron backslash' underscore by backslash.shrug;
-    sub parenleft' uni30C4 by parenleft.shrug;
-    sub uni30C4 parenright' by parenright.shrug;
-    sub underscore slash' macron by slash.shrug;
+  sub macron backslash' underscore by backslash.shrug;
+  sub parenleft' uni30C4 by parenleft.shrug;
+  sub uni30C4 parenright' by parenright.shrug;
+  sub underscore slash' macron by slash.shrug;
 
   # <!--
-    sub less' exclam hyphen hyphen by larsenwork5;
-    sub larsenwork5 exclam' hyphen hyphen by larsenwork5;
-    sub larsenwork5 larsenwork5 hyphen' hyphen by larsenwork5;
-    sub larsenwork5 larsenwork5 larsenwork5 hyphen' by commentstart;
+  ignore sub less' exclam hyphen hyphen hyphen;
+  ignore sub less exclam' hyphen hyphen hyphen;
+  ignore sub less exclam hyphen' hyphen hyphen;
+  ignore sub less exclam hyphen hyphen' hyphen;
+  ignore sub less exclam hyphen hyphen hyphen';
+  sub less' exclam hyphen hyphen by larsenwork5;
+  sub larsenwork5 exclam' hyphen hyphen by larsenwork5;
+  sub larsenwork5 larsenwork5 hyphen' hyphen by larsenwork5;
+  sub larsenwork5 larsenwork5 larsenwork5 hyphen' by commentstart;
 
   # <--
-    ignore sub less' hyphen hyphen hyphen;
-    sub less' hyphen hyphen by larsenwork3;
-    sub larsenwork3 hyphen' hyphen by larsenwork3;
-    sub larsenwork3 larsenwork3 hyphen' by ligaarrowleftlong;
+  ignore sub less' hyphen hyphen hyphen;
+  sub less' hyphen hyphen by larsenwork3;
+  sub larsenwork3 hyphen' hyphen by larsenwork3;
+  sub larsenwork3 larsenwork3 hyphen' by ligaarrowleftlong;
 
   # -->
-    ignore sub hyphen' hyphen' greater' greater;
-    sub hyphen' hyphen greater by larsenwork;
-    sub larsenwork hyphen' greater by larsenwork;
-    sub larsenwork larsenwork greater' by ligaarrowrightlong;
+  sub hyphen' hyphen greater by larsenwork;
+  sub larsenwork hyphen' greater by larsenwork;
+  sub larsenwork larsenwork greater' by ligaarrowrightlong;
 
   # <<-
-    ignore sub less' less' hyphen hyphen;
-    sub less' less hyphen by larsenwork1;
-    sub larsenwork1 less' hyphen by larsenwork1;
-    sub larsenwork1 larsenwork1 hyphen' by ligaarrowlefttwoheads;
+  ignore sub less' less hyphen hyphen;
+  ignore sub less less' hyphen hyphen;
+  sub less' less hyphen by larsenwork1;
+  sub larsenwork1 less' hyphen by larsenwork1;
+  sub larsenwork1 larsenwork1 hyphen' by ligaarrowlefttwoheads;
 
   # ->>
-    ignore sub hyphen' greater greater greater;
-    sub hyphen' greater greater by larsenwork1;
-    sub larsenwork1 greater' greater by larsenwork1;
-    sub larsenwork1 larsenwork1 greater' by ligaarrowrighttwoheads;
+  ignore sub hyphen' greater greater greater;
+  ignore sub hyphen' hyphen greater greater;
+  ignore sub hyphen hyphen' greater greater;
+  ignore sub hyphen hyphen greater' greater;
+  sub hyphen' greater greater by larsenwork1;
+  sub larsenwork1 greater' greater by larsenwork1;
+  sub larsenwork1 larsenwork1 greater' by ligaarrowrighttwoheads;
 
   # <-
-    sub less' hyphen by larsenwork2;
-    sub larsenwork2 hyphen' by arrowleft.liga;
+  sub space less' hyphen space by larsenwork2;
+  sub space larsenwork2 hyphen' space by arrowleft.liga;
 
   # ->
-    sub hyphen' greater by larsenwork;
-    sub larsenwork greater' by arrowright.liga;
+  sub hyphen' greater by larsenwork;
+  sub larsenwork greater' by arrowright.liga;
 
   # !==
-    ignore sub exclam' equal equal equal;
-    sub exclam' equal equal by larsenwork1;
-    sub larsenwork1 equal' equal by larsenwork1;
-    sub larsenwork1 larsenwork1 equal' by notequaltypeliga;
+  sub exclam' equal equal by larsenwork1;
+  sub larsenwork1 equal' equal by larsenwork1;
+  sub larsenwork1 larsenwork1 equal' by notequaltypeliga;
 
   # !=
-    sub exclam' equal by larsenwork2;
-    sub larsenwork2 equal' by notequalliga;
+  sub exclam' equal by larsenwork2;
+  sub larsenwork2 equal' by notequalliga;
 
   # <=>
-    sub less' equal greater by less1;
-    sub less1 equal' greater by equal.wide;
-    sub less1 equal.wide greater' by greater2;
+  sub less' equal greater by larsenwork9;
+  sub larsenwork9 equal' greater by larsenwork9;
+  sub larsenwork9 larsenwork9 greater' by lessequalgreater;
+
+  # <==>
+  sub less' equal equal greater by larsenwork10;
+  sub larsenwork10 equal' equal greater by larsenwork10;
+  sub larsenwork10 larsenwork10 equal' greater by larsenwork10;
+  sub larsenwork10 larsenwork10 larsenwork10 greater' by lessequalequalgreater;
 
   # ==>
-    ignore sub equal' equal' greater greater;
-    sub equal' equal greater by larsenwork5;
-    sub larsenwork5 equal' greater by larsenwork5;
-    sub larsenwork5 larsenwork5 greater' by rightarrowequallong;
+  sub equal' equal greater by larsenwork5;
+  sub larsenwork5 equal' greater by larsenwork5;
+  sub larsenwork5 larsenwork5 greater' by rightarrowequallong;
 
   # <==
-    ignore sub less' equal equal equal;
-    sub less' equal equal by larsenwork6;
-    sub larsenwork6 equal' equal by larsenwork6;
-    sub larsenwork6 larsenwork6 equal' by leftarrowequallong;
+  sub less' equal equal by larsenwork6;
+  sub larsenwork6 equal' equal by larsenwork6;
+  sub larsenwork6 larsenwork6 equal' by leftarrowequallong;
 
   # =:=
-    sub equal' colon equal by larsenwork7;
-    sub larsenwork7 colon' equal by larsenwork7;
-    sub larsenwork7 larsenwork7 equal' by equalcolonequal;
+  sub equal' colon equal by larsenwork7;
+  sub larsenwork7 colon' equal by larsenwork7;
+  sub larsenwork7 larsenwork7 equal' by equalcolonequal;
 
   # :=
-    sub colon equal' by equal.after;
+  sub colon equal' by equal.after;
 
   # <=
-    sub less' equal by larsenwork3;
-    sub larsenwork3 equal' by lessequalliga;
+  sub less' equal by larsenwork3;
+  sub larsenwork3 equal' by lessequalliga;
 
   # >>=
-    ignore sub greater' greater' equal equal;
-    sub greater' greater equal by larsenwork8;
-    sub larsenwork8 greater' equal by larsenwork8;
-    sub larsenwork8 larsenwork8 equal' by greatergreaterequal;
+  sub greater' greater equal by larsenwork8;
+  sub larsenwork8 greater' equal by larsenwork8;
+  sub larsenwork8 larsenwork8 equal' by greatergreaterequal;
 
   # =<<
-    ignore sub equal' less less less;
-    sub equal' less less by larsenwork8;
-    sub larsenwork8 less' less by larsenwork8;
-    sub larsenwork8 larsenwork8 less' by equallessless;
+  sub equal' less less by larsenwork8;
+  sub larsenwork8 less' less by larsenwork8;
+  sub larsenwork8 larsenwork8 less' by equallessless;
 
   # >=
-    sub greater' equal by larsenwork4;
-    sub larsenwork4 equal' by greaterequalliga;
+  sub greater' equal by larsenwork4;
+  sub larsenwork4 equal' by greaterequalliga;
 
   # =>
-    sub equal' greater by larsenwork2;
-    sub larsenwork2 greater' by ligaequalarrow;
+  sub equal' greater by larsenwork2;
+  sub larsenwork2 greater' by ligaequalarrow;
 
   # -=
-    sub hyphen' equal by hyphen.operator;
+  sub hyphen' equal by hyphen.operator;
 
   # --
-    sub hyphen' hyphen by hyphen.more;
-    sub hyphen.more hyphen' by hyphen.more;
+  sub hyphen' hyphen by hyphen.more;
+  sub hyphen.more hyphen' by hyphen.more;
 
   # ___
-    sub underscore' underscore underscore by underscore.more;
-    sub underscore.more underscore' underscore by underscore.more;
-    sub underscore.more underscore.more underscore' by underscore.more;
+  sub underscore' underscore underscore by underscore.more;
+  sub underscore.more underscore' underscore by underscore.more;
+  sub underscore.more underscore.more underscore' by underscore.more;
 
   # __
-    sub underscore' underscore by underscore.2l;
-    sub underscore.2l underscore' by underscore.2r;
+  sub underscore' underscore by underscore.2l;
+  sub underscore.2l underscore' by underscore.2r;
 
   # mm
-    ignore sub m' m m;
-    ignore sub m m' m;
-    ignore sub m m m';
-    sub m' m by larsenwork;
-    sub larsenwork m' by mm;
+  ignore sub m' m m;
+  ignore sub m m' m;
+  ignore sub m m m';
+  sub m' m by larsenwork;
+  sub larsenwork m' by mm;
 
   # &&
-    ignore sub ampersand' ampersand ampersand;
-    ignore sub ampersand ampersand' ampersand;
-    ignore sub ampersand ampersand ampersand';
-    sub ampersand' ampersand by ampamp;
-    sub ampamp ampersand' by larsenwork6;
+  ignore sub ampersand' ampersand ampersand;
+  ignore sub ampersand ampersand' ampersand;
+  ignore sub ampersand ampersand ampersand';
+  sub ampersand' ampersand by ampamp;
+  sub ampamp ampersand' by larsenwork6;
 
   # .&
-    sub period ampersand' by ampersand.method;
+  sub period ampersand' by ampersand.method;
 
   # *.
-    sub asterisk' period by asterisk.period;
+  sub asterisk' period by asterisk.period;
 
   # ||
-    ignore sub bar' bar bar;
-    ignore sub bar bar' bar;
-    ignore sub bar bar bar';
-    sub bar' bar by bar1;
-    sub bar1 bar' by bar2;
+  ignore sub bar' bar bar;
+  ignore sub bar bar' bar;
+  ignore sub bar bar bar';
+  sub bar' bar by bar1;
+  sub bar1 bar' by bar2;
+
+  # !!
+  ignore sub exclam' exclam exclam;
+  ignore sub exclam exclam' exclam;
+  ignore sub exclam exclam exclam';
+  sub exclam' exclam by exclam.2l;
+  sub exclam.2l exclam' by exclam.2r;
+
+  # ::
+  ignore sub colon' colon colon;
+  ignore sub colon colon' colon;
+  ignore sub colon colon colon';
+  sub colon' colon by colon.2l;
+  sub colon.2l colon' by colon.2r;
 
   # ...
-    ignore sub period' period period period;
-    ignore sub period period' period period;
-    ignore sub period period period' period;
-    ignore sub period period period period';
-    sub period' period period by larsenwork;
-    sub larsenwork period' period by larsenwork;
-    sub larsenwork larsenwork period' by period.x3;
+  ignore sub period' period period period;
+  ignore sub period period' period period;
+  ignore sub period period period' period;
+  ignore sub period period period period';
+  sub period' period period by larsenwork;
+  sub larsenwork period' period by larsenwork;
+  sub larsenwork larsenwork period' by period.x3;
 
   # ..<
-    sub period' period less by larsenwork;
-    sub larsenwork period' less by larsenwork;
-    sub larsenwork larsenwork less' by rangeless;
+  sub period' period less by larsenwork;
+  sub larsenwork period' less by larsenwork;
+  sub larsenwork larsenwork less' by rangeless;
 
   # ..
-    sub period' period by period.2l;
-    sub period.2l period' by period.2r;
+  sub period' period by period.2l;
+  sub period.2l period' by period.2r;
 
   # >>
-    ignore sub greater' greater greater;
-    ignore sub greater greater' greater;
-    ignore sub greater greater greater';
-    sub greater' greater by greater1;
-    sub greater1 greater' by greater2;
+  ignore sub greater' greater greater;
+  ignore sub greater greater' greater;
+  ignore sub greater greater greater';
+  sub greater' greater by greater1;
+  sub greater1 greater' by greater2;
 
   # <<
-    ignore sub less' less less;
-    ignore sub less less' less;
-    ignore sub less less less';
-    sub less' less by less1;
-    sub less1 less' by less2;
+  ignore sub less' less less;
+  ignore sub less less' less;
+  ignore sub less less less';
+  sub less' less by less1;
+  sub less1 less' by less2;
 
   # //
-    ignore sub slash' slash slash;
-    ignore sub slash slash' slash;
-    ignore sub slash slash slash';
-    ignore sub colon slash' slash;
-    sub slash' slash by larsenwork;
-    sub larsenwork slash' by ligadoubleslash;
+  ignore sub slash' slash slash;
+  ignore sub slash slash' slash;
+  ignore sub slash slash slash';
+  ignore sub colon slash' slash;
+  sub slash' slash by larsenwork;
+  sub larsenwork slash' by ligadoubleslash;
 
   # /*
-    sub slash asterisk' by asterisk.commentstart;
+  sub slash asterisk' by asterisk.commentstart;
 
   # /**
-    sub asterisk.commentstart asterisk' by asterisk.commentstart;
+  sub asterisk.commentstart asterisk' by asterisk.commentstart;
 
   # */
-    sub asterisk' slash by asterisk.commentend;
+  sub asterisk' slash by asterisk.commentend;
 
 } calt;

@@ -8,26 +8,27 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-831 200 m 1
- 740 99 l 1
- 219 528 l 1
- 237 624 l 1
- 926 1053 l 1
- 977 952 l 1
- 374 581 l 1
- 372 571 l 1
- 831 200 l 1
+360 571 m 5
+ 778 95 l 5
+ 675 5 l 5
+ 219 531 l 5
+ 237 621 l 5
+ 897 1147 l 5
+ 965 1057 l 5
+ 362 581 l 5
+ 360 571 l 5
 EndSplineSet
 Validated: 1
 Layer: 2
-Substitution2: "Single Substitution lookup 96 subtable" less2
-Substitution2: "Single Substitution lookup 95 subtable" less1
-Substitution2: "Single Substitution lookup 90 subtable" rangeless
-Substitution2: "Single Substitution lookup 64 subtable" equallessless
-Substitution2: "Single Substitution lookup 63 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 57 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 50 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 44 subtable" less1
+Substitution2: "Single Substitution lookup 104 subtable" less2
+Substitution2: "Single Substitution lookup 103 subtable" less1
+Substitution2: "Single Substitution lookup 98 subtable" rangeless
+Substitution2: "Single Substitution lookup 68 subtable" equallessless
+Substitution2: "Single Substitution lookup 67 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 61 subtable" larsenwork3
+Substitution2: "Single Substitution lookup 54 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 47 subtable" larsenwork10
+Substitution2: "Single Substitution lookup 44 subtable" larsenwork9
 Substitution2: "Single Substitution lookup 35 subtable" larsenwork2
 Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
 Substitution2: "Single Substitution lookup 29 subtable" larsenwork1

@@ -1,0 +1,15 @@
+StartChar: colon.2r
+Encoding: 1114276 -1 767
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 0 360<256 640> 664 360<256 640>
+VStem: 256 384<0 360 664 1024>
+LayerCount: 4
+Back
+Fore
+Refer: 80 58 S 1 0 0 1 -128 0 2
+Validated: 1
+Layer: 2
+Layer: 3
+EndChar

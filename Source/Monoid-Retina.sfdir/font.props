@@ -4,7 +4,7 @@ FullName: Monoid Retina
 FamilyName: Monoid
 Weight: Light
 Copyright: Copyright (c) 2015, @larsenwork
-Version: 0.60
+Version: 0.61
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 120
@@ -24,7 +24,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1427918972
-ModificationTime: 1438415582
+ModificationTime: 1439280771
 PfmFamily: 49
 TTFWeight: 300
 TTFWidth: 4
@@ -60,7 +60,7 @@ Lookup: 1 0 0 "'ss11' Style Set 11 lookup 10" { "'ss11' Style Set 11 lookup 10 s
 Lookup: 1 0 0 "'ss12' Style Set 12 lookup 11" { "'ss12' Style Set 12 lookup 11 subtable"  } ['ss12' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss13' Style Set 13 lookup 12" { "'ss13' Style Set 13 lookup 12 subtable"  } ['ss13' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss14' Style Set 14 lookup 13" { "'ss14' Style Set 14 lookup 13 subtable"  } ['ss14' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates lookup 14" { "'calt' Contextual Alternates lookup 14 contextual 0"  "'calt' Contextual Alternates lookup 14 contextual 1"  "'calt' Contextual Alternates lookup 14 contextual 2"  "'calt' Contextual Alternates lookup 14 contextual 3"  "'calt' Contextual Alternates lookup 14 contextual 4"  "'calt' Contextual Alternates lookup 14 contextual 5"  "'calt' Contextual Alternates lookup 14 contextual 6"  "'calt' Contextual Alternates lookup 14 contextual 7"  "'calt' Contextual Alternates lookup 14 contextual 8"  "'calt' Contextual Alternates lookup 14 contextual 9"  "'calt' Contextual Alternates lookup 14 contextual 10"  "'calt' Contextual Alternates lookup 14 contextual 11"  "'calt' Contextual Alternates lookup 14 contextual 12"  "'calt' Contextual Alternates lookup 14 contextual 13"  "'calt' Contextual Alternates lookup 14 contextual 14"  "'calt' Contextual Alternates lookup 14 contextual 15"  "'calt' Contextual Alternates lookup 14 contextual 16"  "'calt' Contextual Alternates lookup 14 contextual 17"  "'calt' Contextual Alternates lookup 14 contextual 18"  "'calt' Contextual Alternates lookup 14 contextual 19"  "'calt' Contextual Alternates lookup 14 contextual 20"  "'calt' Contextual Alternates lookup 14 contextual 21"  "'calt' Contextual Alternates lookup 14 contextual 22"  "'calt' Contextual Alternates lookup 14 contextual 23"  "'calt' Contextual Alternates lookup 14 contextual 24"  "'calt' Contextual Alternates lookup 14 contextual 25"  "'calt' Contextual Alternates lookup 14 contextual 26"  "'calt' Contextual Alternates lookup 14 contextual 27"  "'calt' Contextual Alternates lookup 14 contextual 28"  "'calt' Contextual Alternates lookup 14 contextual 29"  "'calt' Contextual Alternates lookup 14 contextual 30"  "'calt' Contextual Alternates lookup 14 contextual 31"  "'calt' Contextual Alternates lookup 14 contextual 32"  "'calt' Contextual Alternates lookup 14 contextual 33"  "'calt' Contextual Alternates lookup 14 contextual 34"  "'calt' Contextual Alternates lookup 14 contextual 35"  "'calt' Contextual Alternates lookup 14 contextual 36"  "'calt' Contextual Alternates lookup 14 contextual 37"  "'calt' Contextual Alternates lookup 14 contextual 38"  "'calt' Contextual Alternates lookup 14 contextual 39"  "'calt' Contextual Alternates lookup 14 contextual 40"  "'calt' Contextual Alternates lookup 14 contextual 41"  "'calt' Contextual Alternates lookup 14 contextual 42"  "'calt' Contextual Alternates lookup 14 contextual 43"  "'calt' Contextual Alternates lookup 14 contextual 44"  "'calt' Contextual Alternates lookup 14 contextual 45"  "'calt' Contextual Alternates lookup 14 contextual 46"  "'calt' Contextual Alternates lookup 14 contextual 47"  "'calt' Contextual Alternates lookup 14 contextual 48"  "'calt' Contextual Alternates lookup 14 contextual 49"  "'calt' Contextual Alternates lookup 14 contextual 50"  "'calt' Contextual Alternates lookup 14 contextual 51"  "'calt' Contextual Alternates lookup 14 contextual 52"  "'calt' Contextual Alternates lookup 14 contextual 53"  "'calt' Contextual Alternates lookup 14 contextual 54"  "'calt' Contextual Alternates lookup 14 contextual 55"  "'calt' Contextual Alternates lookup 14 contextual 56"  "'calt' Contextual Alternates lookup 14 contextual 57"  "'calt' Contextual Alternates lookup 14 contextual 58"  "'calt' Contextual Alternates lookup 14 contextual 59"  "'calt' Contextual Alternates lookup 14 contextual 60"  "'calt' Contextual Alternates lookup 14 contextual 61"  "'calt' Contextual Alternates lookup 14 contextual 62"  "'calt' Contextual Alternates lookup 14 contextual 63"  "'calt' Contextual Alternates lookup 14 contextual 64"  "'calt' Contextual Alternates lookup 14 contextual 65"  "'calt' Contextual Alternates lookup 14 contextual 66"  "'calt' Contextual Alternates lookup 14 contextual 67"  "'calt' Contextual Alternates lookup 14 contextual 68"  "'calt' Contextual Alternates lookup 14 contextual 69"  "'calt' Contextual Alternates lookup 14 contextual 70"  "'calt' Contextual Alternates lookup 14 contextual 71"  "'calt' Contextual Alternates lookup 14 contextual 72"  "'calt' Contextual Alternates lookup 14 contextual 73"  "'calt' Contextual Alternates lookup 14 contextual 74"  "'calt' Contextual Alternates lookup 14 contextual 75"  "'calt' Contextual Alternates lookup 14 contextual 76"  "'calt' Contextual Alternates lookup 14 contextual 77"  "'calt' Contextual Alternates lookup 14 contextual 78"  "'calt' Contextual Alternates lookup 14 contextual 79"  "'calt' Contextual Alternates lookup 14 contextual 80"  "'calt' Contextual Alternates lookup 14 contextual 81"  "'calt' Contextual Alternates lookup 14 contextual 82"  "'calt' Contextual Alternates lookup 14 contextual 83"  "'calt' Contextual Alternates lookup 14 contextual 84"  "'calt' Contextual Alternates lookup 14 contextual 85"  "'calt' Contextual Alternates lookup 14 contextual 86"  "'calt' Contextual Alternates lookup 14 contextual 87"  "'calt' Contextual Alternates lookup 14 contextual 88"  "'calt' Contextual Alternates lookup 14 contextual 89"  "'calt' Contextual Alternates lookup 14 contextual 90"  "'calt' Contextual Alternates lookup 14 contextual 91"  "'calt' Contextual Alternates lookup 14 contextual 92"  "'calt' Contextual Alternates lookup 14 contextual 93"  "'calt' Contextual Alternates lookup 14 contextual 94"  "'calt' Contextual Alternates lookup 14 contextual 95"  "'calt' Contextual Alternates lookup 14 contextual 96"  "'calt' Contextual Alternates lookup 14 contextual 97"  "'calt' Contextual Alternates lookup 14 contextual 98"  "'calt' Contextual Alternates lookup 14 contextual 99"  "'calt' Contextual Alternates lookup 14 contextual 100"  "'calt' Contextual Alternates lookup 14 contextual 101"  "'calt' Contextual Alternates lookup 14 contextual 102"  "'calt' Contextual Alternates lookup 14 contextual 103"  "'calt' Contextual Alternates lookup 14 contextual 104"  "'calt' Contextual Alternates lookup 14 contextual 105"  "'calt' Contextual Alternates lookup 14 contextual 106"  "'calt' Contextual Alternates lookup 14 contextual 107"  "'calt' Contextual Alternates lookup 14 contextual 108"  "'calt' Contextual Alternates lookup 14 contextual 109"  "'calt' Contextual Alternates lookup 14 contextual 110"  "'calt' Contextual Alternates lookup 14 contextual 111"  "'calt' Contextual Alternates lookup 14 contextual 112"  "'calt' Contextual Alternates lookup 14 contextual 113"  "'calt' Contextual Alternates lookup 14 contextual 114"  "'calt' Contextual Alternates lookup 14 contextual 115"  "'calt' Contextual Alternates lookup 14 contextual 116"  "'calt' Contextual Alternates lookup 14 contextual 117"  "'calt' Contextual Alternates lookup 14 contextual 118"  } ['calt' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates lookup 14" { "'calt' Contextual Alternates lookup 14 contextual 0"  "'calt' Contextual Alternates lookup 14 contextual 1"  "'calt' Contextual Alternates lookup 14 contextual 2"  "'calt' Contextual Alternates lookup 14 contextual 3"  "'calt' Contextual Alternates lookup 14 contextual 4"  "'calt' Contextual Alternates lookup 14 contextual 5"  "'calt' Contextual Alternates lookup 14 contextual 6"  "'calt' Contextual Alternates lookup 14 contextual 7"  "'calt' Contextual Alternates lookup 14 contextual 8"  "'calt' Contextual Alternates lookup 14 contextual 9"  "'calt' Contextual Alternates lookup 14 contextual 10"  "'calt' Contextual Alternates lookup 14 contextual 11"  "'calt' Contextual Alternates lookup 14 contextual 12"  "'calt' Contextual Alternates lookup 14 contextual 13"  "'calt' Contextual Alternates lookup 14 contextual 14"  "'calt' Contextual Alternates lookup 14 contextual 15"  "'calt' Contextual Alternates lookup 14 contextual 16"  "'calt' Contextual Alternates lookup 14 contextual 17"  "'calt' Contextual Alternates lookup 14 contextual 18"  "'calt' Contextual Alternates lookup 14 contextual 19"  "'calt' Contextual Alternates lookup 14 contextual 20"  "'calt' Contextual Alternates lookup 14 contextual 21"  "'calt' Contextual Alternates lookup 14 contextual 22"  "'calt' Contextual Alternates lookup 14 contextual 23"  "'calt' Contextual Alternates lookup 14 contextual 24"  "'calt' Contextual Alternates lookup 14 contextual 25"  "'calt' Contextual Alternates lookup 14 contextual 26"  "'calt' Contextual Alternates lookup 14 contextual 27"  "'calt' Contextual Alternates lookup 14 contextual 28"  "'calt' Contextual Alternates lookup 14 contextual 29"  "'calt' Contextual Alternates lookup 14 contextual 30"  "'calt' Contextual Alternates lookup 14 contextual 31"  "'calt' Contextual Alternates lookup 14 contextual 32"  "'calt' Contextual Alternates lookup 14 contextual 33"  "'calt' Contextual Alternates lookup 14 contextual 34"  "'calt' Contextual Alternates lookup 14 contextual 35"  "'calt' Contextual Alternates lookup 14 contextual 36"  "'calt' Contextual Alternates lookup 14 contextual 37"  "'calt' Contextual Alternates lookup 14 contextual 38"  "'calt' Contextual Alternates lookup 14 contextual 39"  "'calt' Contextual Alternates lookup 14 contextual 40"  "'calt' Contextual Alternates lookup 14 contextual 41"  "'calt' Contextual Alternates lookup 14 contextual 42"  "'calt' Contextual Alternates lookup 14 contextual 43"  "'calt' Contextual Alternates lookup 14 contextual 44"  "'calt' Contextual Alternates lookup 14 contextual 45"  "'calt' Contextual Alternates lookup 14 contextual 46"  "'calt' Contextual Alternates lookup 14 contextual 47"  "'calt' Contextual Alternates lookup 14 contextual 48"  "'calt' Contextual Alternates lookup 14 contextual 49"  "'calt' Contextual Alternates lookup 14 contextual 50"  "'calt' Contextual Alternates lookup 14 contextual 51"  "'calt' Contextual Alternates lookup 14 contextual 52"  "'calt' Contextual Alternates lookup 14 contextual 53"  "'calt' Contextual Alternates lookup 14 contextual 54"  "'calt' Contextual Alternates lookup 14 contextual 55"  "'calt' Contextual Alternates lookup 14 contextual 56"  "'calt' Contextual Alternates lookup 14 contextual 57"  "'calt' Contextual Alternates lookup 14 contextual 58"  "'calt' Contextual Alternates lookup 14 contextual 59"  "'calt' Contextual Alternates lookup 14 contextual 60"  "'calt' Contextual Alternates lookup 14 contextual 61"  "'calt' Contextual Alternates lookup 14 contextual 62"  "'calt' Contextual Alternates lookup 14 contextual 63"  "'calt' Contextual Alternates lookup 14 contextual 64"  "'calt' Contextual Alternates lookup 14 contextual 65"  "'calt' Contextual Alternates lookup 14 contextual 66"  "'calt' Contextual Alternates lookup 14 contextual 67"  "'calt' Contextual Alternates lookup 14 contextual 68"  "'calt' Contextual Alternates lookup 14 contextual 69"  "'calt' Contextual Alternates lookup 14 contextual 70"  "'calt' Contextual Alternates lookup 14 contextual 71"  "'calt' Contextual Alternates lookup 14 contextual 72"  "'calt' Contextual Alternates lookup 14 contextual 73"  "'calt' Contextual Alternates lookup 14 contextual 74"  "'calt' Contextual Alternates lookup 14 contextual 75"  "'calt' Contextual Alternates lookup 14 contextual 76"  "'calt' Contextual Alternates lookup 14 contextual 77"  "'calt' Contextual Alternates lookup 14 contextual 78"  "'calt' Contextual Alternates lookup 14 contextual 79"  "'calt' Contextual Alternates lookup 14 contextual 80"  "'calt' Contextual Alternates lookup 14 contextual 81"  "'calt' Contextual Alternates lookup 14 contextual 82"  "'calt' Contextual Alternates lookup 14 contextual 83"  "'calt' Contextual Alternates lookup 14 contextual 84"  "'calt' Contextual Alternates lookup 14 contextual 85"  "'calt' Contextual Alternates lookup 14 contextual 86"  "'calt' Contextual Alternates lookup 14 contextual 87"  "'calt' Contextual Alternates lookup 14 contextual 88"  "'calt' Contextual Alternates lookup 14 contextual 89"  "'calt' Contextual Alternates lookup 14 contextual 90"  "'calt' Contextual Alternates lookup 14 contextual 91"  "'calt' Contextual Alternates lookup 14 contextual 92"  "'calt' Contextual Alternates lookup 14 contextual 93"  "'calt' Contextual Alternates lookup 14 contextual 94"  "'calt' Contextual Alternates lookup 14 contextual 95"  "'calt' Contextual Alternates lookup 14 contextual 96"  "'calt' Contextual Alternates lookup 14 contextual 97"  "'calt' Contextual Alternates lookup 14 contextual 98"  "'calt' Contextual Alternates lookup 14 contextual 99"  "'calt' Contextual Alternates lookup 14 contextual 100"  "'calt' Contextual Alternates lookup 14 contextual 101"  "'calt' Contextual Alternates lookup 14 contextual 102"  "'calt' Contextual Alternates lookup 14 contextual 103"  "'calt' Contextual Alternates lookup 14 contextual 104"  "'calt' Contextual Alternates lookup 14 contextual 105"  "'calt' Contextual Alternates lookup 14 contextual 106"  "'calt' Contextual Alternates lookup 14 contextual 107"  "'calt' Contextual Alternates lookup 14 contextual 108"  "'calt' Contextual Alternates lookup 14 contextual 109"  "'calt' Contextual Alternates lookup 14 contextual 110"  "'calt' Contextual Alternates lookup 14 contextual 111"  "'calt' Contextual Alternates lookup 14 contextual 112"  "'calt' Contextual Alternates lookup 14 contextual 113"  "'calt' Contextual Alternates lookup 14 contextual 114"  "'calt' Contextual Alternates lookup 14 contextual 115"  "'calt' Contextual Alternates lookup 14 contextual 116"  "'calt' Contextual Alternates lookup 14 contextual 117"  "'calt' Contextual Alternates lookup 14 contextual 118"  "'calt' Contextual Alternates lookup 14 contextual 119"  "'calt' Contextual Alternates lookup 14 contextual 120"  "'calt' Contextual Alternates lookup 14 contextual 121"  "'calt' Contextual Alternates lookup 14 contextual 122"  "'calt' Contextual Alternates lookup 14 contextual 123"  "'calt' Contextual Alternates lookup 14 contextual 124"  "'calt' Contextual Alternates lookup 14 contextual 125"  "'calt' Contextual Alternates lookup 14 contextual 126"  "'calt' Contextual Alternates lookup 14 contextual 127"  "'calt' Contextual Alternates lookup 14 contextual 128"  "'calt' Contextual Alternates lookup 14 contextual 129"  "'calt' Contextual Alternates lookup 14 contextual 130"  "'calt' Contextual Alternates lookup 14 contextual 131"  "'calt' Contextual Alternates lookup 14 contextual 132"  "'calt' Contextual Alternates lookup 14 contextual 133"  "'calt' Contextual Alternates lookup 14 contextual 134"  "'calt' Contextual Alternates lookup 14 contextual 135"  } ['calt' ('kana' <'dflt' > 'grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
@@ -148,6 +148,14 @@ Lookup: 1 0 0 "Single Substitution lookup 98" { "Single Substitution lookup 98 s
 Lookup: 1 0 0 "Single Substitution lookup 99" { "Single Substitution lookup 99 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 100" { "Single Substitution lookup 100 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 101" { "Single Substitution lookup 101 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 102" { "Single Substitution lookup 102 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 103" { "Single Substitution lookup 103 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 104" { "Single Substitution lookup 104 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 105" { "Single Substitution lookup 105 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 106" { "Single Substitution lookup 106 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 107" { "Single Substitution lookup 107 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 108" { "Single Substitution lookup 108 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 109" { "Single Substitution lookup 109 subtable"  } []
 Lookup: 264 0 0 "'calt' Contextual Alternates lookup 0" { "'calt' Contextual Alternates lookup 0 contextual 0"  "'calt' Contextual Alternates lookup 0 contextual 1"  "'calt' Contextual Alternates lookup 0 contextual 2"  "'calt' Contextual Alternates lookup 0 contextual 3"  "'calt' Contextual Alternates lookup 0 contextual 4"  "'calt' Contextual Alternates lookup 0 contextual 5"  "'calt' Contextual Alternates lookup 0 contextual 6"  "'calt' Contextual Alternates lookup 0 contextual 7"  "'calt' Contextual Alternates lookup 0 contextual 8"  "'calt' Contextual Alternates lookup 0 contextual 9"  "'calt' Contextual Alternates lookup 0 contextual 10"  "'calt' Contextual Alternates lookup 0 contextual 11"  "'calt' Contextual Alternates lookup 0 contextual 12"  "'calt' Contextual Alternates lookup 0 contextual 13"  "'calt' Contextual Alternates lookup 0 contextual 14"  "'calt' Contextual Alternates lookup 0 contextual 15"  "'calt' Contextual Alternates lookup 0 contextual 16"  "'calt' Contextual Alternates lookup 0 contextual 17"  "'calt' Contextual Alternates lookup 0 contextual 18"  "'calt' Contextual Alternates lookup 0 contextual 19"  "'calt' Contextual Alternates lookup 0 contextual 20"  "'calt' Contextual Alternates lookup 0 contextual 21"  "'calt' Contextual Alternates lookup 0 contextual 22"  "'calt' Contextual Alternates lookup 0 contextual 23"  "'calt' Contextual Alternates lookup 0 contextual 24"  "'calt' Contextual Alternates lookup 0 contextual 25"  "'calt' Contextual Alternates lookup 0 contextual 26"  } ['calt' ('grek' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 1" { "Single Positioning lookup 1 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
@@ -178,778 +186,888 @@ Lookup: 257 0 0 "Single Positioning lookup 26" { "Single Positioning lookup 26 s
 Lookup: 257 0 0 "Single Positioning lookup 27" { "Single Positioning lookup 27 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 118" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 135" 0 0 0 1
  String: 8 asterisk
  BString: 0 
  FString: 5 slash
  1
-  SeqLookup: 0 "Single Substitution lookup 101"
+  SeqLookup: 0 "Single Substitution lookup 109"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 117" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 134" 0 0 0 1
  String: 8 asterisk
  BString: 21 asterisk.commentstart
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 100"
+  SeqLookup: 0 "Single Substitution lookup 108"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 116" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 133" 0 0 0 1
  String: 8 asterisk
  BString: 5 slash
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 99"
+  SeqLookup: 0 "Single Substitution lookup 107"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 115" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 132" 0 0 0 1
  String: 5 slash
  BString: 10 larsenwork
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 98"
+  SeqLookup: 0 "Single Substitution lookup 106"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 114" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 131" 0 0 0 1
  String: 5 slash
  BString: 0 
  FString: 5 slash
  1
-  SeqLookup: 0 "Single Substitution lookup 97"
+  SeqLookup: 0 "Single Substitution lookup 105"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 113" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 130" 0 0 0 1
  String: 5 slash
  BString: 5 colon
  FString: 5 slash
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 112" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 129" 0 0 0 1
  String: 5 slash
  BString: 11 slash slash
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 111" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 128" 0 0 0 1
  String: 5 slash
  BString: 5 slash
  FString: 5 slash
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 110" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 127" 0 0 0 1
  String: 5 slash
  BString: 0 
  FString: 11 slash slash
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 109" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 126" 0 0 0 1
  String: 4 less
  BString: 5 less1
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 96"
+  SeqLookup: 0 "Single Substitution lookup 104"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 108" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 125" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 4 less
  1
-  SeqLookup: 0 "Single Substitution lookup 95"
+  SeqLookup: 0 "Single Substitution lookup 103"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 107" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 124" 0 0 0 1
  String: 4 less
  BString: 9 less less
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 106" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 123" 0 0 0 1
  String: 4 less
  BString: 4 less
  FString: 4 less
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 105" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 122" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 9 less less
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 104" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 121" 0 0 0 1
  String: 7 greater
  BString: 8 greater1
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 94"
+  SeqLookup: 0 "Single Substitution lookup 102"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 103" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 120" 0 0 0 1
  String: 7 greater
  BString: 0 
  FString: 7 greater
  1
-  SeqLookup: 0 "Single Substitution lookup 93"
+  SeqLookup: 0 "Single Substitution lookup 101"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 102" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 119" 0 0 0 1
  String: 7 greater
  BString: 15 greater greater
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 101" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 118" 0 0 0 1
  String: 7 greater
  BString: 7 greater
  FString: 7 greater
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 100" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 117" 0 0 0 1
  String: 7 greater
  BString: 0 
  FString: 15 greater greater
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 99" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 116" 0 0 0 1
  String: 6 period
  BString: 9 period.2l
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 92"
+  SeqLookup: 0 "Single Substitution lookup 100"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 98" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 115" 0 0 0 1
  String: 6 period
  BString: 0 
  FString: 6 period
  1
-  SeqLookup: 0 "Single Substitution lookup 91"
+  SeqLookup: 0 "Single Substitution lookup 99"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 97" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 114" 0 0 0 1
  String: 4 less
  BString: 21 larsenwork larsenwork
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 90"
+  SeqLookup: 0 "Single Substitution lookup 98"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 96" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 113" 0 0 0 1
  String: 6 period
  BString: 10 larsenwork
  FString: 4 less
  1
-  SeqLookup: 0 "Single Substitution lookup 89"
+  SeqLookup: 0 "Single Substitution lookup 97"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 95" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 112" 0 0 0 1
  String: 6 period
  BString: 0 
  FString: 11 period less
  1
-  SeqLookup: 0 "Single Substitution lookup 88"
+  SeqLookup: 0 "Single Substitution lookup 96"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 94" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 111" 0 0 0 1
  String: 6 period
  BString: 21 larsenwork larsenwork
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 87"
+  SeqLookup: 0 "Single Substitution lookup 95"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 93" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 110" 0 0 0 1
  String: 6 period
  BString: 10 larsenwork
  FString: 6 period
  1
-  SeqLookup: 0 "Single Substitution lookup 86"
+  SeqLookup: 0 "Single Substitution lookup 94"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 92" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 109" 0 0 0 1
  String: 6 period
  BString: 0 
  FString: 13 period period
  1
-  SeqLookup: 0 "Single Substitution lookup 85"
+  SeqLookup: 0 "Single Substitution lookup 93"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 91" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 108" 0 0 0 1
  String: 6 period
  BString: 20 period period period
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 90" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 107" 0 0 0 1
  String: 6 period
  BString: 13 period period
  FString: 6 period
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 89" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 106" 0 0 0 1
  String: 6 period
  BString: 6 period
  FString: 13 period period
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 88" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 105" 0 0 0 1
  String: 6 period
  BString: 0 
  FString: 20 period period period
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 87" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 104" 0 0 0 1
+ String: 5 colon
+ BString: 8 colon.2l
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 92"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 103" 0 0 0 1
+ String: 5 colon
+ BString: 0 
+ FString: 5 colon
+ 1
+  SeqLookup: 0 "Single Substitution lookup 91"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 102" 0 0 0 1
+ String: 5 colon
+ BString: 11 colon colon
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 101" 0 0 0 1
+ String: 5 colon
+ BString: 5 colon
+ FString: 5 colon
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 100" 0 0 0 1
+ String: 5 colon
+ BString: 0 
+ FString: 11 colon colon
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 99" 0 0 0 1
+ String: 6 exclam
+ BString: 9 exclam.2l
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 90"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 98" 0 0 0 1
+ String: 6 exclam
+ BString: 0 
+ FString: 6 exclam
+ 1
+  SeqLookup: 0 "Single Substitution lookup 89"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 97" 0 0 0 1
+ String: 6 exclam
+ BString: 13 exclam exclam
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 96" 0 0 0 1
+ String: 6 exclam
+ BString: 6 exclam
+ FString: 6 exclam
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 95" 0 0 0 1
+ String: 6 exclam
+ BString: 0 
+ FString: 13 exclam exclam
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 94" 0 0 0 1
  String: 3 bar
  BString: 4 bar1
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 84"
+  SeqLookup: 0 "Single Substitution lookup 88"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 86" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 93" 0 0 0 1
  String: 3 bar
  BString: 0 
  FString: 3 bar
  1
-  SeqLookup: 0 "Single Substitution lookup 83"
+  SeqLookup: 0 "Single Substitution lookup 87"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 85" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 92" 0 0 0 1
  String: 3 bar
  BString: 7 bar bar
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 84" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 91" 0 0 0 1
  String: 3 bar
  BString: 3 bar
  FString: 3 bar
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 83" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 90" 0 0 0 1
  String: 3 bar
  BString: 0 
  FString: 7 bar bar
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 82" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 89" 0 0 0 1
  String: 8 asterisk
  BString: 0 
  FString: 6 period
  1
-  SeqLookup: 0 "Single Substitution lookup 82"
+  SeqLookup: 0 "Single Substitution lookup 86"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 81" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 88" 0 0 0 1
  String: 9 ampersand
  BString: 6 period
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 81"
+  SeqLookup: 0 "Single Substitution lookup 85"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 80" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 87" 0 0 0 1
  String: 9 ampersand
  BString: 6 ampamp
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 80"
+  SeqLookup: 0 "Single Substitution lookup 84"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 79" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 86" 0 0 0 1
  String: 9 ampersand
  BString: 0 
  FString: 9 ampersand
  1
-  SeqLookup: 0 "Single Substitution lookup 79"
+  SeqLookup: 0 "Single Substitution lookup 83"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 78" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 85" 0 0 0 1
  String: 9 ampersand
  BString: 19 ampersand ampersand
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 77" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 84" 0 0 0 1
  String: 9 ampersand
  BString: 9 ampersand
  FString: 9 ampersand
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 76" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 83" 0 0 0 1
  String: 9 ampersand
  BString: 0 
  FString: 19 ampersand ampersand
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 75" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 82" 0 0 0 1
  String: 1 m
  BString: 10 larsenwork
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 78"
+  SeqLookup: 0 "Single Substitution lookup 82"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 74" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 81" 0 0 0 1
  String: 1 m
  BString: 0 
  FString: 1 m
  1
-  SeqLookup: 0 "Single Substitution lookup 77"
+  SeqLookup: 0 "Single Substitution lookup 81"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 73" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 80" 0 0 0 1
  String: 1 m
  BString: 3 m m
  FString: 0 
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 72" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 79" 0 0 0 1
  String: 1 m
  BString: 1 m
  FString: 1 m
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 71" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 78" 0 0 0 1
  String: 1 m
  BString: 0 
  FString: 3 m m
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 70" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 77" 0 0 0 1
  String: 10 underscore
  BString: 13 underscore.2l
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 76"
+  SeqLookup: 0 "Single Substitution lookup 80"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 69" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 76" 0 0 0 1
  String: 10 underscore
  BString: 0 
  FString: 10 underscore
  1
-  SeqLookup: 0 "Single Substitution lookup 75"
+  SeqLookup: 0 "Single Substitution lookup 79"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 68" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 75" 0 0 0 1
  String: 10 underscore
  BString: 31 underscore.more underscore.more
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 74"
+  SeqLookup: 0 "Single Substitution lookup 78"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 67" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 74" 0 0 0 1
  String: 10 underscore
  BString: 15 underscore.more
  FString: 10 underscore
  1
-  SeqLookup: 0 "Single Substitution lookup 73"
+  SeqLookup: 0 "Single Substitution lookup 77"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 66" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 73" 0 0 0 1
  String: 10 underscore
  BString: 0 
  FString: 21 underscore underscore
  1
-  SeqLookup: 0 "Single Substitution lookup 72"
+  SeqLookup: 0 "Single Substitution lookup 76"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 65" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 72" 0 0 0 1
  String: 6 hyphen
  BString: 11 hyphen.more
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 71"
+  SeqLookup: 0 "Single Substitution lookup 75"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 64" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 71" 0 0 0 1
  String: 6 hyphen
  BString: 0 
  FString: 6 hyphen
  1
+  SeqLookup: 0 "Single Substitution lookup 74"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 70" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 73"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 69" 0 0 0 1
+ String: 7 greater
+ BString: 11 larsenwork2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 72"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 68" 0 0 0 1
+ String: 5 equal
+ BString: 0 
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 71"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 67" 0 0 0 1
+ String: 5 equal
+ BString: 11 larsenwork4
+ FString: 0 
+ 1
   SeqLookup: 0 "Single Substitution lookup 70"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 63" 0 0 0 1
- String: 6 hyphen
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 66" 0 0 0 1
+ String: 7 greater
  BString: 0 
  FString: 5 equal
  1
   SeqLookup: 0 "Single Substitution lookup 69"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 62" 0 0 0 1
- String: 7 greater
- BString: 11 larsenwork2
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 65" 0 0 0 1
+ String: 4 less
+ BString: 23 larsenwork8 larsenwork8
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 68"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 61" 0 0 0 1
- String: 5 equal
- BString: 0 
- FString: 7 greater
- 1
-  SeqLookup: 0 "Single Substitution lookup 67"
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 60" 0 0 0 1
- String: 5 equal
- BString: 11 larsenwork4
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 66"
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 59" 0 0 0 1
- String: 7 greater
- BString: 0 
- FString: 5 equal
- 1
-  SeqLookup: 0 "Single Substitution lookup 65"
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 58" 0 0 0 1
- String: 4 less
- BString: 23 larsenwork8 larsenwork8
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 64"
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 57" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 64" 0 0 0 1
  String: 4 less
  BString: 11 larsenwork8
  FString: 4 less
  1
-  SeqLookup: 0 "Single Substitution lookup 63"
+  SeqLookup: 0 "Single Substitution lookup 67"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 56" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 63" 0 0 0 1
  String: 5 equal
  BString: 0 
  FString: 9 less less
  1
-  SeqLookup: 0 "Single Substitution lookup 62"
+  SeqLookup: 0 "Single Substitution lookup 66"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 55" 0 0 0 1
- String: 5 equal
- BString: 0 
- FString: 14 less less less
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 54" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 62" 0 0 0 1
  String: 5 equal
  BString: 23 larsenwork8 larsenwork8
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 61"
+  SeqLookup: 0 "Single Substitution lookup 65"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 53" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 61" 0 0 0 1
  String: 7 greater
  BString: 11 larsenwork8
  FString: 5 equal
  1
-  SeqLookup: 0 "Single Substitution lookup 60"
+  SeqLookup: 0 "Single Substitution lookup 64"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 52" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 60" 0 0 0 1
  String: 7 greater
  BString: 0 
  FString: 13 greater equal
  1
-  SeqLookup: 0 "Single Substitution lookup 59"
+  SeqLookup: 0 "Single Substitution lookup 63"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 51" 0 0 0 1
- String: 15 greater greater
- BString: 0 
- FString: 11 equal equal
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 50" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 59" 0 0 0 1
  String: 5 equal
  BString: 11 larsenwork3
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 58"
+  SeqLookup: 0 "Single Substitution lookup 62"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 49" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 58" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 5 equal
  1
-  SeqLookup: 0 "Single Substitution lookup 57"
+  SeqLookup: 0 "Single Substitution lookup 61"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 48" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 57" 0 0 0 1
  String: 5 equal
  BString: 5 colon
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 56"
+  SeqLookup: 0 "Single Substitution lookup 60"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 47" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 56" 0 0 0 1
  String: 5 equal
  BString: 23 larsenwork7 larsenwork7
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 55"
+  SeqLookup: 0 "Single Substitution lookup 59"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 46" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 55" 0 0 0 1
  String: 5 colon
  BString: 11 larsenwork7
  FString: 5 equal
  1
-  SeqLookup: 0 "Single Substitution lookup 54"
+  SeqLookup: 0 "Single Substitution lookup 58"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 45" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 54" 0 0 0 1
  String: 5 equal
  BString: 0 
  FString: 11 colon equal
  1
-  SeqLookup: 0 "Single Substitution lookup 53"
+  SeqLookup: 0 "Single Substitution lookup 57"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 44" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 53" 0 0 0 1
  String: 5 equal
  BString: 23 larsenwork6 larsenwork6
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 52"
+  SeqLookup: 0 "Single Substitution lookup 56"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 43" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 52" 0 0 0 1
  String: 5 equal
  BString: 11 larsenwork6
  FString: 5 equal
  1
-  SeqLookup: 0 "Single Substitution lookup 51"
+  SeqLookup: 0 "Single Substitution lookup 55"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 42" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 51" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 11 equal equal
  1
-  SeqLookup: 0 "Single Substitution lookup 50"
+  SeqLookup: 0 "Single Substitution lookup 54"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 41" 0 0 0 1
- String: 4 less
- BString: 0 
- FString: 17 equal equal equal
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 40" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 50" 0 0 0 1
  String: 7 greater
  BString: 23 larsenwork5 larsenwork5
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 49"
+  SeqLookup: 0 "Single Substitution lookup 53"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 39" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 49" 0 0 0 1
  String: 5 equal
  BString: 11 larsenwork5
  FString: 7 greater
  1
-  SeqLookup: 0 "Single Substitution lookup 48"
+  SeqLookup: 0 "Single Substitution lookup 52"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 38" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 48" 0 0 0 1
  String: 5 equal
  BString: 0 
  FString: 13 equal greater
  1
+  SeqLookup: 0 "Single Substitution lookup 51"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 47" 0 0 0 1
+ String: 7 greater
+ BString: 38 larsenwork10 larsenwork10 larsenwork10
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 50"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 46" 0 0 0 1
+ String: 5 equal
+ BString: 25 larsenwork10 larsenwork10
+ FString: 7 greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 49"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 45" 0 0 0 1
+ String: 5 equal
+ BString: 12 larsenwork10
+ FString: 13 equal greater
+ 1
+  SeqLookup: 0 "Single Substitution lookup 48"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 44" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 19 equal equal greater
+ 1
   SeqLookup: 0 "Single Substitution lookup 47"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 37" 0 0 0 1
- String: 11 equal equal
- BString: 0 
- FString: 15 greater greater
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 36" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 43" 0 0 0 1
  String: 7 greater
- BString: 16 less1 equal.wide
+ BString: 23 larsenwork9 larsenwork9
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 35" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 42" 0 0 0 1
  String: 5 equal
- BString: 5 less1
+ BString: 11 larsenwork9
  FString: 7 greater
  1
   SeqLookup: 0 "Single Substitution lookup 45"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 34" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 41" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 13 equal greater
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 33" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 40" 0 0 0 1
  String: 5 equal
  BString: 11 larsenwork2
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 43"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 32" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 39" 0 0 0 1
  String: 6 exclam
  BString: 0 
  FString: 5 equal
  1
   SeqLookup: 0 "Single Substitution lookup 42"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 31" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 38" 0 0 0 1
  String: 5 equal
  BString: 23 larsenwork1 larsenwork1
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 41"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 30" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 37" 0 0 0 1
  String: 5 equal
  BString: 11 larsenwork1
  FString: 5 equal
  1
   SeqLookup: 0 "Single Substitution lookup 40"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 29" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 36" 0 0 0 1
  String: 6 exclam
  BString: 0 
  FString: 11 equal equal
  1
   SeqLookup: 0 "Single Substitution lookup 39"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 28" 0 0 0 1
- String: 6 exclam
- BString: 0 
- FString: 17 equal equal equal
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 27" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 35" 0 0 0 1
  String: 7 greater
  BString: 10 larsenwork
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 38"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 26" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 34" 0 0 0 1
  String: 6 hyphen
  BString: 0 
  FString: 7 greater
  1
   SeqLookup: 0 "Single Substitution lookup 37"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 25" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 33" 0 0 0 1
  String: 6 hyphen
- BString: 11 larsenwork2
- FString: 0 
+ BString: 17 space larsenwork2
+ FString: 5 space
  1
   SeqLookup: 0 "Single Substitution lookup 36"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 24" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 32" 0 0 0 1
  String: 4 less
- BString: 0 
- FString: 6 hyphen
+ BString: 5 space
+ FString: 12 hyphen space
  1
   SeqLookup: 0 "Single Substitution lookup 35"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 23" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 31" 0 0 0 1
  String: 7 greater
  BString: 23 larsenwork1 larsenwork1
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 34"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 22" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 30" 0 0 0 1
  String: 7 greater
  BString: 11 larsenwork1
  FString: 7 greater
  1
   SeqLookup: 0 "Single Substitution lookup 33"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 21" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 29" 0 0 0 1
  String: 6 hyphen
  BString: 0 
  FString: 15 greater greater
  1
   SeqLookup: 0 "Single Substitution lookup 32"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 20" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 28" 0 0 0 1
+ String: 7 greater
+ BString: 13 hyphen hyphen
+ FString: 7 greater
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 27" 0 0 0 1
+ String: 6 hyphen
+ BString: 6 hyphen
+ FString: 15 greater greater
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 26" 0 0 0 1
+ String: 6 hyphen
+ BString: 0 
+ FString: 22 hyphen greater greater
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 25" 0 0 0 1
  String: 6 hyphen
  BString: 0 
  FString: 23 greater greater greater
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 19" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 24" 0 0 0 1
  String: 6 hyphen
  BString: 23 larsenwork1 larsenwork1
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 31"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 18" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 23" 0 0 0 1
  String: 4 less
  BString: 11 larsenwork1
  FString: 6 hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 30"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 17" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 22" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 11 less hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 29"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 16" 0 0 0 1
- String: 9 less less
- BString: 0 
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 21" 0 0 0 1
+ String: 4 less
+ BString: 4 less
  FString: 13 hyphen hyphen
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 15" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 20" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 18 less hyphen hyphen
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 19" 0 0 0 1
  String: 7 greater
  BString: 21 larsenwork larsenwork
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 28"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 14" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 18" 0 0 0 1
  String: 6 hyphen
  BString: 10 larsenwork
  FString: 7 greater
  1
   SeqLookup: 0 "Single Substitution lookup 27"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 13" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 17" 0 0 0 1
  String: 6 hyphen
  BString: 0 
  FString: 14 hyphen greater
  1
   SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 12" 0 0 0 1
- String: 21 hyphen hyphen greater
- BString: 0 
- FString: 7 greater
- 0
-EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 11" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 16" 0 0 0 1
  String: 6 hyphen
  BString: 23 larsenwork3 larsenwork3
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 25"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 10" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 15" 0 0 0 1
  String: 6 hyphen
  BString: 11 larsenwork3
  FString: 6 hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 24"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 9" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 14" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 13 hyphen hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 23"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 8" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 13" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 20 hyphen hyphen hyphen
  0
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 7" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 12" 0 0 0 1
  String: 6 hyphen
  BString: 35 larsenwork5 larsenwork5 larsenwork5
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 6" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 11" 0 0 0 1
  String: 6 hyphen
  BString: 23 larsenwork5 larsenwork5
  FString: 6 hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 21"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 5" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 10" 0 0 0 1
  String: 6 exclam
  BString: 11 larsenwork5
  FString: 13 hyphen hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
-ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 4" 0 0 0 1
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 9" 0 0 0 1
  String: 4 less
  BString: 0 
  FString: 20 exclam hyphen hyphen
  1
   SeqLookup: 0 "Single Substitution lookup 19"
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 8" 0 0 0 1
+ String: 6 hyphen
+ BString: 25 less exclam hyphen hyphen
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 7" 0 0 0 1
+ String: 6 hyphen
+ BString: 18 less exclam hyphen
+ FString: 6 hyphen
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 6" 0 0 0 1
+ String: 6 hyphen
+ BString: 11 less exclam
+ FString: 13 hyphen hyphen
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 5" 0 0 0 1
+ String: 6 exclam
+ BString: 4 less
+ FString: 20 hyphen hyphen hyphen
+ 0
+EndFPST
+ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 4" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 27 exclam hyphen hyphen hyphen
+ 0
 EndFPST
 ChainSub2: glyph "'calt' Contextual Alternates lookup 14 contextual 3" 0 0 0 1
  String: 5 slash
@@ -1220,14 +1338,14 @@ ChainPos2: coverage "'calt' Contextual Alternates lookup 0 contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "Single Positioning lookup 1"
 EndFPST
-LangName: 1033 "" "" "" "0.60;Monoid-Retina" "" "" "" "" "" "Andreas Larsen (@larsenwork)" "" "https://larsenwork.com" "https://larsenwork.com" "Monoid is dual licensed with MIT and OFL licenses. Pick one:)" "https://github.com/larsenwork/monoid#license"
+LangName: 1033 "" "" "" "0.61;Monoid-Retina" "" "" "" "" "" "Andreas Larsen (@larsenwork)" "" "https://larsenwork.com" "https://larsenwork.com" "Monoid is dual licensed with MIT and OFL licenses. Pick one:)" "https://github.com/larsenwork/monoid#license"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114008 19 14
+WinInfo: 1114027 19 14
 BeginPrivate: 1
 BlueValues 27 [-16 0 1024 1040 1408 1424]
 EndPrivate

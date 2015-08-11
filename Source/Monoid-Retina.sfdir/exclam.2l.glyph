@@ -1,0 +1,15 @@
+StartChar: exclam.2l
+Encoding: 1114271 -1 773
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: -16 288<600.125 807.875> 1388 20G<630 778>
+VStem: 560 288<24.125 231.875> 640 128<512 1408>
+LayerCount: 5
+Back
+Fore
+Refer: 56 33 S 1 0 0 1 128 0 2
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

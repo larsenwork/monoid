@@ -29,9 +29,9 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 101 subtable" asterisk.commentend
-Substitution2: "Single Substitution lookup 100 subtable" asterisk.commentstart
-Substitution2: "Single Substitution lookup 99 subtable" asterisk.commentstart
-Substitution2: "Single Substitution lookup 82 subtable" asterisk.period
+Substitution2: "Single Substitution lookup 109 subtable" asterisk.commentend
+Substitution2: "Single Substitution lookup 108 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 107 subtable" asterisk.commentstart
+Substitution2: "Single Substitution lookup 86 subtable" asterisk.period
 Substitution2: "'ss02' Style Set 2 lookup 1 subtable" asterisk.multi
 EndChar

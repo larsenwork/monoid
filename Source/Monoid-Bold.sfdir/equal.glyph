@@ -23,19 +23,21 @@ EndSplineSet
 Validated: 1
 Layer: 2
 Layer: 3
-Substitution2: "Single Substitution lookup 67 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 66 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 62 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 61 subtable" greatergreaterequal
-Substitution2: "Single Substitution lookup 58 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 56 subtable" equal.after
-Substitution2: "Single Substitution lookup 55 subtable" equalcolonequal
-Substitution2: "Single Substitution lookup 53 subtable" larsenwork7
-Substitution2: "Single Substitution lookup 52 subtable" leftarrowequallong
-Substitution2: "Single Substitution lookup 51 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 48 subtable" larsenwork5
-Substitution2: "Single Substitution lookup 47 subtable" larsenwork5
-Substitution2: "Single Substitution lookup 45 subtable" equal.wide
+Substitution2: "Single Substitution lookup 71 subtable" larsenwork2
+Substitution2: "Single Substitution lookup 70 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 66 subtable" larsenwork8
+Substitution2: "Single Substitution lookup 65 subtable" greatergreaterequal
+Substitution2: "Single Substitution lookup 62 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 60 subtable" equal.after
+Substitution2: "Single Substitution lookup 59 subtable" equalcolonequal
+Substitution2: "Single Substitution lookup 57 subtable" larsenwork7
+Substitution2: "Single Substitution lookup 56 subtable" leftarrowequallong
+Substitution2: "Single Substitution lookup 55 subtable" larsenwork6
+Substitution2: "Single Substitution lookup 52 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 51 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 49 subtable" larsenwork10
+Substitution2: "Single Substitution lookup 48 subtable" larsenwork10
+Substitution2: "Single Substitution lookup 45 subtable" larsenwork9
 Substitution2: "Single Substitution lookup 43 subtable" notequalliga
 Substitution2: "Single Substitution lookup 41 subtable" notequaltypeliga
 Substitution2: "Single Substitution lookup 40 subtable" larsenwork1

@@ -22,6 +22,7 @@ feature calt {
   pos @wide @medium @medium' <128 0 0 0> @narrow;
   pos @narrowl' <-128 0 0 0> @medium @wide;
   pos @wide @medium @medium @narrow' <128 0 0 0> @medium;
+  pos @wide @medium @medium @narrowl' <0 0 0 0> @narrow;
   pos @wide @medium @medium @narrow' <128 0 0 0> @narrow;
   pos @narrow @medium' <-128 0 0 0> @wide;
   pos @narrow @medium @wide' <0 0 0 0>;
@@ -33,5 +34,6 @@ feature calt {
   pos @narrowi @wide' <-128 0 0 0> @medium;
   pos @narrow @narrow' <-128 0 0 0> @wide;
   pos @medium @wide' <128 0 0 0> @narrow;
+  pos @medium @wide @narrowi' <128 0 0 0>;
   pos @wide slash' <128 0 0 0> @lowfront;
 } calt;
