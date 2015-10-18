@@ -23,7 +23,7 @@ Select the .ttf files and double click → Follow the on-screen guide
 Right click the .ttf files → Install
 
 **Linux (manually)**  
-Copy the .ttf files to your fonts-directory → Run `sudo fc-cache`  
+Copy the .ttf files to your fonts-directory (e.g., `~/.fonts`) → Run `sudo fc-cache`  
 
 **Detailed Instructions**  
 [How to](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/) Install, Remove, and Manage Fonts on Windows, Mac, and Linux  
