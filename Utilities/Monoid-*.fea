@@ -113,8 +113,8 @@ feature calt {
   sub larsenwork1 larsenwork1 greater' by ligaarrowrighttwoheads;
 
   # <-
-  sub space less' hyphen space by larsenwork2;
-  sub space larsenwork2 hyphen' space by arrowleft.liga;
+  sub less' hyphen by larsenwork2;
+  sub larsenwork2 hyphen' by arrowleft.liga;
 
   # ->
   sub hyphen' greater by larsenwork;
@@ -141,6 +141,14 @@ feature calt {
   sub larsenwork10 larsenwork10 larsenwork10 greater' by lessequalequalgreater;
 
   # ==>
+  ignore sub greater' equal equal greater;
+  ignore sub greater equal' equal greater;
+  ignore sub greater equal equal' greater;
+  ignore sub greater equal equal greater';
+  ignore sub equal' equal equal greater;
+  ignore sub equal equal' equal greater;
+  ignore sub equal equal equal' greater;
+  ignore sub equal equal equal greater';
   sub equal' equal greater by larsenwork5;
   sub larsenwork5 equal' greater by larsenwork5;
   sub larsenwork5 larsenwork5 greater' by rightarrowequallong;
@@ -159,6 +167,9 @@ feature calt {
   sub colon equal' by equal.after;
 
   # <=
+  ignore sub less' less equal;
+  ignore sub less less' equal;
+  ignore sub less less equal';
   sub less' equal by larsenwork3;
   sub larsenwork3 equal' by lessequalliga;
 
@@ -285,5 +296,8 @@ feature calt {
 
   # */
   sub asterisk' slash by asterisk.commentend;
+
+  # =
+  sub space equal' space by equal.wide;
 
 } calt;

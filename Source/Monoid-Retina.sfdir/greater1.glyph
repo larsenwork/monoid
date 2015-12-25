@@ -1,5 +1,5 @@
 StartChar: greater1
-Encoding: 1114139 -1 637
+Encoding: 1114136 -1 637
 GlifName: greater1
 Width: 1024
 VWidth: 0
@@ -8,15 +8,15 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-891 571 m 1
- 891 581 l 1
- 380 1057 l 1
- 466 1147 l 1
- 1024 621 l 1
- 1024 531 l 1
- 466 5 l 1
- 380 95 l 1
- 891 571 l 1
+827 571 m 1
+ 827 581 l 1
+ 316 1057 l 1
+ 402 1147 l 1
+ 960 621 l 1
+ 960 531 l 1
+ 402 5 l 1
+ 316 95 l 1
+ 827 571 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

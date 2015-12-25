@@ -1,18 +1,18 @@
 StartChar: underscore.more
-Encoding: 1114264 -1 765
+Encoding: 1114259 -1 765
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -120 120<256 896>
+HStem: -120 120<192 832>
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 0 m 1
- 896 0 l 5
- 896 -120 l 5
- 256 -120 l 1
- 256 0 l 1
+192 0 m 1
+ 832 0 l 5
+ 832 -120 l 5
+ 192 -120 l 1
+ 192 0 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

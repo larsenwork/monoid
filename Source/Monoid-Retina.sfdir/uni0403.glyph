@@ -4,12 +4,12 @@ GlifName: uni0403
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 384> 1288 120<384 1024> 1539 256
-VStem: 256 128<0 1288> 571 304
+HStem: 0 21G<192 320> 1288 120<320 960> 1516 256
+VStem: 192 128<0 1288> 507 304
 LayerCount: 5
 Back
 Fore
-Refer: 294 769 N 1 0 0 1 83 259 2
+Refer: 294 769 N 1 0 0 1 83 236 2
 Refer: 322 1043 N 1 0 0 1 0 0 3
 Validated: 1
 Layer: 2

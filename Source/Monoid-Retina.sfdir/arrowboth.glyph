@@ -4,7 +4,7 @@ GlifName: arrowboth
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 644 120<285 867>
+HStem: 644 120<221 803>
 LayerCount: 5
 Back
 SplineSet
@@ -33,23 +33,23 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-867 644 m 1
- 285 644 l 1
- 485 303 l 1
- 379 241 l 1
- 128 670 l 1
- 128 738 l 1
- 379 1167 l 1
- 485 1105 l 1
- 285 764 l 1
- 867 764 l 1
- 667 1105 l 1
- 773 1167 l 1
- 1024 738 l 1
- 1024 670 l 1
- 773 241 l 1
- 667 303 l 1
- 867 644 l 1
+803 644 m 1
+ 221 644 l 1
+ 421 303 l 1
+ 315 241 l 1
+ 64 670 l 1
+ 64 738 l 1
+ 315 1167 l 1
+ 421 1105 l 1
+ 221 764 l 1
+ 803 764 l 1
+ 603 1105 l 1
+ 709 1167 l 1
+ 960 738 l 1
+ 960 670 l 1
+ 709 241 l 1
+ 603 303 l 1
+ 803 644 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

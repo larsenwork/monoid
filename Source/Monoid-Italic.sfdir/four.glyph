@@ -3,30 +3,30 @@ Encoding: 52 52 74
 GlifName: four
 Width: 1024
 VWidth: 0
-Flags: W
-HStem: 0 21G<628 759.866> 388 120<346 703 855 959> 1388 20G<519.228 652 898.111 1030>
+Flags: WO
+HStem: 0 21G<628 759.906> 384 120<304 703 854 959>
 LayerCount: 3
 Back
 Fore
 SplineSet
-756 0 m 1
- 628 0 l 1
- 703 388 l 1
- 191 388 l 1
- 205 460 l 1
- 526 1408 l 1
- 652 1408 l 1
- 346 508 l 1
- 727 508 l 1
- 902 1408 l 1
- 1030 1408 l 1
- 855 508 l 1
- 983 508 l 1
- 959 388 l 1
- 831 388 l 1
- 756 0 l 1
+756 0 m 5
+ 628 0 l 5
+ 703 384 l 5
+ 127 384 l 5
+ 146 484 l 5
+ 820 1436 l 5
+ 918 1380 l 5
+ 306 514 l 5
+ 304 504 l 5
+ 726 504 l 5
+ 777 768 l 5
+ 905 768 l 5
+ 854 504 l 5
+ 982 504 l 5
+ 959 384 l 5
+ 831 384 l 5
+ 756 0 l 5
 EndSplineSet
-Validated: 1
 Layer: 2
 Substitution2: "'ss12' Style Set 12 lookup 11 subtable" four.triangle
 EndChar

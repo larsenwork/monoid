@@ -4,7 +4,7 @@ GlifName: parenleft
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 360 128<401.453 1004.38>
+VStem: 296 128<431.964 973.895>
 LayerCount: 5
 Back
 SplineSet
@@ -22,13 +22,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-835 1546 m 1
- 890 1441 l 1
- 641 1316 488 1074 488 703 c 0
- 488 332 641 89 890 -35 c 1
- 835 -140 l 1
- 544 1 360 281 360 703 c 0
- 360 1125 544 1404 835 1546 c 1
+771 1546 m 1
+ 826 1441 l 1
+ 577 1316 424 1074 424 703 c 0
+ 424 332 577 89 826 -35 c 1
+ 771 -140 l 1
+ 480 1 296 281 296 703 c 0
+ 296 1125 480 1404 771 1546 c 1
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -1,23 +1,23 @@
 StartChar: equal.after
-Encoding: 1114263 -1 764
+Encoding: 1114258 -1 764
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 260 120<0 896> 772 120<0 896>
+HStem: 260 120<-64 832> 772 120<-64 832>
 LayerCount: 5
 Back
 Fore
 SplineSet
-0 380 m 5
- 896 380 l 1
- 896 260 l 1
- 0 260 l 5
- 0 380 l 5
-0 892 m 5
- 896 892 l 1
- 896 772 l 1
- 0 772 l 5
- 0 892 l 5
+-64 380 m 5
+ 832 380 l 1
+ 832 260 l 1
+ -64 260 l 5
+ -64 380 l 5
+-64 892 m 5
+ 832 892 l 1
+ 832 772 l 1
+ -64 772 l 5
+ -64 892 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

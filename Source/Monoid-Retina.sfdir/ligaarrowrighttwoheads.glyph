@@ -1,34 +1,34 @@
 StartChar: ligaarrowrighttwoheads
-Encoding: 1114126 -1 626
+Encoding: 1114125 -1 626
 GlifName: ligaarrowrighttwoheads
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<-1664 64>
+HStem: 516 120<-1728 0>
 LayerCount: 5
 Back
 Fore
 SplineSet
-635 571 m 1
- 635 581 l 1
- 124 1057 l 1
- 210 1147 l 1
- 768 621 l 1
- 768 531 l 1
- 210 5 l 1
- 124 95 l 1
- 635 571 l 1
-64 516 m 1
- -1664 516 l 5
- -1664 636 l 5
- 64 636 l 1
- -388 1057 l 1
- -302 1147 l 1
- 256 621 l 1
- 256 531 l 1
- -302 5 l 1
- -388 95 l 1
- 64 516 l 1
+571 571 m 1
+ 571 581 l 1
+ 60 1057 l 1
+ 146 1147 l 1
+ 704 621 l 1
+ 704 531 l 1
+ 146 5 l 1
+ 60 95 l 1
+ 571 571 l 1
+0 516 m 1
+ -1728 516 l 5
+ -1728 636 l 5
+ 0 636 l 1
+ -452 1057 l 1
+ -366 1147 l 1
+ 192 621 l 1
+ 192 531 l 1
+ -366 5 l 1
+ -452 95 l 1
+ 0 516 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

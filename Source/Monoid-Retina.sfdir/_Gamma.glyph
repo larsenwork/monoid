@@ -4,20 +4,20 @@ GlifName: G_amma
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 384> 1288 120<384 1024>
-VStem: 256 128<0 1288>
-AnchorPoint: "top" 640 1408 basechar 0
+HStem: 0 21G<192 320> 1288 120<320 960>
+VStem: 192 128<0 1288>
+AnchorPoint: "top" 576 1408 basechar 0
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 1408 m 1
- 1024 1408 l 1
- 1024 1288 l 1
- 384 1288 l 1
- 384 0 l 1
- 256 0 l 1
- 256 1408 l 1
+192 1408 m 5
+ 960 1408 l 5
+ 960 1288 l 5
+ 320 1288 l 5
+ 320 0 l 5
+ 192 0 l 5
+ 192 1408 l 5
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -4,22 +4,22 @@ GlifName: arrowleft
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 644 120<295 1024>
+HStem: 644 120<231 960>
 LayerCount: 5
 Back
 Fore
 SplineSet
-295 644 m 1
- 553 309 l 1
- 449 241 l 1
- 128 670 l 1
- 128 738 l 1
- 449 1167 l 1
- 553 1099 l 1
- 295 764 l 1
- 1024 764 l 1
- 1024 644 l 1
- 295 644 l 1
+231 644 m 1
+ 489 309 l 1
+ 385 241 l 1
+ 64 670 l 1
+ 64 738 l 1
+ 385 1167 l 1
+ 489 1099 l 1
+ 231 764 l 1
+ 960 764 l 1
+ 960 644 l 1
+ 231 644 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

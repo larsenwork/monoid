@@ -4,22 +4,22 @@ GlifName: arrowdown
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 512 128<298 1280>
+VStem: 448 128<298 1280>
 LayerCount: 5
 Back
 Fore
 SplineSet
-640 298 m 1
- 971 553 l 1
- 1039 449 l 1
- 610 128 l 1
- 542 128 l 1
- 113 449 l 1
- 181 553 l 1
- 512 298 l 1
- 512 1280 l 1
- 640 1280 l 1
- 640 298 l 1
+576 298 m 1
+ 907 553 l 1
+ 975 449 l 1
+ 546 128 l 1
+ 478 128 l 1
+ 49 449 l 1
+ 117 553 l 1
+ 448 298 l 1
+ 448 1280 l 1
+ 576 1280 l 1
+ 576 298 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

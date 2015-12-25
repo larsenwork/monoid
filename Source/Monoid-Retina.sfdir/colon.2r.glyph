@@ -1,5 +1,5 @@
 StartChar: colon.2r
-Encoding: 1114278 -1 780
+Encoding: 1114273 -1 780
 Width: 1024
 VWidth: 0
 Flags: W
@@ -9,6 +9,7 @@ LayerCount: 5
 Back
 Fore
 Refer: 80 58 S 1 0 0 1 -128 0 2
+Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4

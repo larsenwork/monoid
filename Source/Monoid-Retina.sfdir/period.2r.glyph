@@ -1,19 +1,19 @@
 StartChar: period.2r
-Encoding: 1114147 -1 644
+Encoding: 1114142 -1 644
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 240<256 512>
-VStem: 256 256<0 240>
+HStem: 0 240<192 448>
+VStem: 192 256<0 240>
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 240 m 1
- 512 240 l 1
- 512 0 l 1
- 256 0 l 1
- 256 240 l 1
+192 240 m 1
+ 448 240 l 1
+ 448 0 l 1
+ 192 0 l 1
+ 192 240 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

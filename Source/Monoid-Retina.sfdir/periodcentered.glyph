@@ -4,17 +4,17 @@ GlifName: periodcentered
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 528 240<384 640>
-VStem: 384 256<528 768>
+HStem: 528 240<320 576>
+VStem: 320 256<528 768>
 LayerCount: 5
 Back
 Fore
 SplineSet
-384 768 m 1
- 640 768 l 1
- 640 528 l 1
- 384 528 l 1
- 384 768 l 1
+320 768 m 1
+ 576 768 l 1
+ 576 528 l 1
+ 320 528 l 1
+ 320 768 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

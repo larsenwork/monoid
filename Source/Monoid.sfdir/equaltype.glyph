@@ -1,0 +1,31 @@
+StartChar: equaltype
+Encoding: 1114142 -1 784
+Width: 1024
+VWidth: 0
+Flags: W
+HStem: 132 120<-1536 640> 516 120<-1536 640> 900 120<-1536 640>
+CounterMasks: 1 e0
+LayerCount: 5
+Back
+Fore
+SplineSet
+-1536 132 m 1
+ -1536 252 l 1
+ 640 252 l 1
+ 640 132 l 1
+ -1536 132 l 1
+-1536 516 m 1
+ -1536 636 l 1
+ 640 636 l 1
+ 640 516 l 1
+ -1536 516 l 1
+-1536 900 m 1
+ -1536 1020 l 1
+ 640 1020 l 1
+ 640 900 l 1
+ -1536 900 l 1
+EndSplineSet
+Layer: 2
+Layer: 3
+Layer: 4
+EndChar

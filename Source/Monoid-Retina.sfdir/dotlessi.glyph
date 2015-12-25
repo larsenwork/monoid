@@ -4,20 +4,20 @@ GlifName: dotlessi
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<576 704> 904 120<320 576>
-VStem: 576 128<0 904>
-AnchorPoint: "top" 640 1024 basechar 0
+HStem: 0 21G<512 640> 904 120<256 512>
+VStem: 512 128<0 904>
+AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 5
 Back
 Fore
 SplineSet
-576 0 m 1
- 576 904 l 1
- 320 904 l 1
- 320 1024 l 1
- 704 1024 l 1
- 704 0 l 1
- 576 0 l 1
+512 0 m 1
+ 512 904 l 1
+ 256 904 l 1
+ 256 1024 l 1
+ 640 1024 l 1
+ 640 0 l 1
+ 512 0 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

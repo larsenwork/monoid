@@ -1,18 +1,18 @@
 StartChar: hyphen.more
-Encoding: 1114169 -1 668
+Encoding: 1114163 -1 668
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<256 896>
+HStem: 516 120<192 832>
 LayerCount: 5
 Back
 Fore
 SplineSet
-256 636 m 1
- 896 636 l 1
- 896 516 l 1
- 256 516 l 1
- 256 636 l 1
+192 636 m 1
+ 832 636 l 1
+ 832 516 l 1
+ 192 516 l 1
+ 192 636 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

@@ -4,8 +4,8 @@ GlifName: L_slash
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<512 1024> 1388 20G<384 512>
-VStem: 384 128<120 523 765 1408>
+HStem: 0 120<448 960> 1388 20G<320 448>
+VStem: 320 128<120 523 765 1408>
 LayerCount: 5
 Back
 SplineSet
@@ -27,21 +27,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-94 467 m 1
- 384 674 l 1
- 384 1408 l 1
- 512 1408 l 1
- 512 765 l 1
- 732 922 l 1
- 807 825 l 1
- 512 614 l 1
- 512 120 l 1
- 1024 120 l 1
- 1024 0 l 1
- 384 0 l 1
- 384 523 l 1
- 164 366 l 1
- 94 467 l 1
+30 467 m 1
+ 320 674 l 1
+ 320 1408 l 1
+ 448 1408 l 1
+ 448 765 l 1
+ 668 922 l 1
+ 743 825 l 1
+ 448 614 l 1
+ 448 120 l 1
+ 960 120 l 1
+ 960 0 l 1
+ 320 0 l 1
+ 320 523 l 1
+ 100 366 l 1
+ 30 467 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

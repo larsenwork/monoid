@@ -4,16 +4,16 @@ GlifName: uni00A_D_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 516 120<128 1024>
+HStem: 516 120<64 960>
 LayerCount: 5
 Back
 Fore
 SplineSet
-128 636 m 1
- 1024 636 l 1
- 1024 516 l 1
- 128 516 l 1
- 128 636 l 1
+64 636 m 1
+ 960 636 l 1
+ 960 516 l 1
+ 64 516 l 1
+ 64 636 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

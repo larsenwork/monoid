@@ -4,16 +4,16 @@ GlifName: block
 Width: 1024
 VWidth: 2048
 Flags: W
-VStem: 0 1024<-256 1664>
+VStem: -64 1024<-256 1664>
 LayerCount: 5
 Back
 Fore
 SplineSet
-0 1664 m 1
- 1024 1664 l 1
- 1024 -256 l 1
- 0 -256 l 1
- 0 1664 l 1
+-64 1664 m 1
+ 960 1664 l 1
+ 960 -256 l 1
+ -64 -256 l 1
+ -64 1664 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

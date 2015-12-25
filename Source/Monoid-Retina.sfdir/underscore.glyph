@@ -4,16 +4,16 @@ GlifName: underscore
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -120 120<128 1024>
+HStem: -120 120<64 960>
 LayerCount: 5
 Back
 Fore
 SplineSet
-128 0 m 1
- 1024 0 l 1
- 1024 -120 l 1
- 128 -120 l 1
- 128 0 l 1
+64 0 m 1
+ 960 0 l 1
+ 960 -120 l 1
+ 64 -120 l 1
+ 64 0 l 1
 EndSplineSet
 Validated: 1
 Layer: 2

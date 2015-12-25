@@ -1,10 +1,10 @@
 StartChar: asterisk.commentend
-Encoding: 1114254 -1 754
+Encoding: 1114249 -1 754
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1260 20G<574.358 620.534 1044.4 1090.64>
-VStem: 768 128<384 778>
+HStem: 1260 20G<510.358 556.534 980.402 1026.64>
+VStem: 704 128<384 778>
 LayerCount: 5
 Back
 Fore
