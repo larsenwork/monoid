@@ -154,6 +154,10 @@ feature calt {
   sub larsenwork5 larsenwork5 greater' by rightarrowequallong;
 
   # <==
+  ignore sub less' equal equal equal;
+  ignore sub less equal' equal equal;
+  ignore sub less equal equal' equal;
+  ignore sub less equal equal equal';
   sub less' equal equal by larsenwork6;
   sub larsenwork6 equal' equal by larsenwork6;
   sub larsenwork6 larsenwork6 equal' by leftarrowequallong;
@@ -170,6 +174,9 @@ feature calt {
   ignore sub less' less equal;
   ignore sub less less' equal;
   ignore sub less less equal';
+  ignore sub less' equal less;
+  ignore sub less equal' less;
+  ignore sub less equal less';
   sub less' equal by larsenwork3;
   sub larsenwork3 equal' by lessequalliga;
 
@@ -184,6 +191,9 @@ feature calt {
   sub larsenwork8 larsenwork8 less' by equallessless;
 
   # >=
+  ignore sub greater' equal greater;
+  ignore sub greater equal' greater;
+  ignore sub greater equal greater';
   sub greater' equal by larsenwork4;
   sub larsenwork4 equal' by greaterequalliga;
 
