@@ -4,8 +4,8 @@ GlifName: I_dotaccent
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1584 224<486.609 665.391>
-VStem: 464 224<1606.61 1785.39> 512 128<120 1288>
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1584 224<493.423 658.577>
+VStem: 464 224<1613.42 1778.58> 512 128<120 1288>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Idotaccent.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Idotaccent.sq
 EndChar

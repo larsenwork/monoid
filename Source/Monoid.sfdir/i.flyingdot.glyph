@@ -1,11 +1,11 @@
 StartChar: i.flyingdot
-Encoding: 1114155 -1 654
+Encoding: 1114155 -1 647
 GlifName: i.flyingdot
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 776 120<256 512> 1200 224<454.609 633.391>
-VStem: 432 224<1222.61 1401.39> 512 128<120 776>
+HStem: 0 120<256 512 640 896> 776 120<256 512> 1200 224<461.423 626.577>
+VStem: 432 224<1229.42 1394.58> 512 128<120 776>
 LayerCount: 5
 Back
 Fore

@@ -4,8 +4,8 @@ GlifName: O_breve
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<420.015 731.985> 1304 120<420.015 731.985> 1520 120<420.418 731.582>
-VStem: 112 128<327.465 1080.53> 236 128<1697.88 1792> 788 128<1697.88 1792> 912 128<327.465 1080.53>
+HStem: -16 120<438.425 713.575> 1304 120<438.425 713.575> 1520 120<435.067 716.933>
+VStem: 112 128<354.842 1053.16> 236 128<1704.51 1792> 788 128<1704.51 1792> 912 128<354.842 1053.16>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Obreve.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Obreve.sq
 EndChar

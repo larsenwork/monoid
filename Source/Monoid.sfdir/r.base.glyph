@@ -1,11 +1,11 @@
 StartChar: r.base
-Encoding: 1114157 -1 656
+Encoding: 1114157 -1 649
 GlifName: r.base
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 904 120<256 512> 920 120<766.351 1024>
-VStem: 512 128<120 776.956 876 904>
+HStem: 0 120<256 512 640 896> 904 120<256 512> 920 120<778.936 1024>
+VStem: 512 128<120 760.081 876 904>
 LayerCount: 5
 Back
 Fore

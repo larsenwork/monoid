@@ -4,7 +4,7 @@ GlifName: parenleft
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 360 128<401.453 1004.38>
+VStem: 360 128<431.964 973.895>
 LayerCount: 5
 Back
 SplineSet
@@ -49,5 +49,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 16 subtable" parenleft.shrug
+Substitution2: "Single Substitution lookup 2 subtable" parenleft.shrug
 EndChar

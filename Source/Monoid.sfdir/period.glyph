@@ -20,13 +20,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 104 subtable" period.2r
-Substitution2: "Single Substitution lookup 103 subtable" period.2l
-Substitution2: "Single Substitution lookup 101 subtable" larsenwork
-Substitution2: "Single Substitution lookup 100 subtable" larsenwork
-Substitution2: "Single Substitution lookup 99 subtable" period.x3
-Substitution2: "Single Substitution lookup 98 subtable" larsenwork
-Substitution2: "Single Substitution lookup 97 subtable" larsenwork
 Position2: "Single Positioning lookup 24 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 22 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 16 subtable" dx=128 dy=0 dh=0 dv=0
@@ -37,4 +30,11 @@ Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 91 subtable" period.2r
+Substitution2: "Single Substitution lookup 90 subtable" period.2l
+Substitution2: "Single Substitution lookup 88 subtable" larsenwork
+Substitution2: "Single Substitution lookup 87 subtable" larsenwork
+Substitution2: "Single Substitution lookup 86 subtable" period.x3
+Substitution2: "Single Substitution lookup 85 subtable" larsenwork
+Substitution2: "Single Substitution lookup 84 subtable" larsenwork
 EndChar

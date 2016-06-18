@@ -4,8 +4,8 @@ GlifName: uni020E_
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<407.199 744.801> 1048 120<407.199 744.801> 1432 120<420.418 731.582>
-VStem: 112 128<291.439 860.561> 236 128<1280 1374.12> 788 128<1280 1374.12> 912 128<291.439 860.561>
+HStem: -16 120<423.821 728.179> 1048 120<423.821 728.179> 1432 120<435.067 716.933>
+VStem: 112 128<312.204 839.796> 236 128<1280 1367.49> 788 128<1280 1367.49> 912 128<312.204 839.796>
 LayerCount: 5
 Back
 Fore
@@ -40,5 +40,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" uni020E.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" uni020E.sq
 EndChar

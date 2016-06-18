@@ -4,8 +4,8 @@ GlifName: three
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<259.799 704.237> 742 99<557 715.986> 1288 120<256 740>
-VStem: 800 128<207.429 648.611>
+HStem: -16 120<259.799 694.28> 742 99<557 704.563> 1288 120<256 740>
+VStem: 800 128<221.254 636.13>
 LayerCount: 5
 Back
 Fore
@@ -143,5 +143,5 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss06' Style Set 6 lookup 5 subtable" three.boob
+Substitution2: "'ss06' Style Set 6 lookup 107 subtable" three.boob
 EndChar

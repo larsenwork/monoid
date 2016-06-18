@@ -4,8 +4,8 @@ GlifName: I_tilde
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1540 120<627.68 755.914> 1668 120<396.111 524.32>
-VStem: 253 128<1561 1661.1> 512 128<120 1288> 771 128<1667.78 1767>
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1540 120<637.402 751.423> 1668 120<400.597 514.598>
+VStem: 253 128<1561 1655.42> 512 128<120 1288> 771 128<1672.67 1767>
 CounterMasks: 1 0e
 LayerCount: 5
 Back
@@ -16,5 +16,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Itilde.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Itilde.sq
 EndChar

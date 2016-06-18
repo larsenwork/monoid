@@ -4,8 +4,8 @@ GlifName: c
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<458.805 891.341> 920 120<458.805 871.765>
-VStem: 224 128<223.756 800.244>
+HStem: -16 120<471.858 891.341> 920 120<471.858 871.765>
+VStem: 224 128<240.24 783.76>
 AnchorPoint: "bottom" 704 0 basechar 0
 AnchorPoint: "top" 576 1024 basechar 0
 LayerCount: 5

@@ -4,8 +4,8 @@ GlifName: ampersand
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<385.372 761.284> 0 21G<932.61 1102> 1308 120<448.217 705.458>
-VStem: 96 128<249.612 543.087> 239 128<955.483 1230.21> 785 128<957.339 1228.19> 896 128<300.833 640>
+HStem: -16 120<404.444 745.428> 0 21G<932.61 1102> 1308 120<456.156 695.421>
+VStem: 96 128<265.174 527.972> 239 128<970.117 1216.29> 785 128<969.925 1214.41> 896 128<300.833 640>
 LayerCount: 5
 Back
 SplineSet
@@ -236,7 +236,7 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "Single Substitution lookup 89 subtable" ampersand.method
-Substitution2: "Single Substitution lookup 88 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 87 subtable" ampamp
+Substitution2: "Single Substitution lookup 76 subtable" ampersand.method
+Substitution2: "Single Substitution lookup 75 subtable" liga1
+Substitution2: "Single Substitution lookup 74 subtable" ampamp
 EndChar

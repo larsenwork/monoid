@@ -4,8 +4,8 @@ GlifName: O_tilde
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<420.015 731.985> 1304 120<420.015 731.985> 1540 120<627.68 755.914> 1668 120<396.111 524.32>
-VStem: 112 128<327.465 1080.53> 253 128<1561 1661.1> 771 128<1667.78 1767> 912 128<327.465 1080.53>
+HStem: -16 120<438.425 713.575> 1304 120<438.425 713.575> 1540 120<637.402 751.423> 1668 120<400.597 514.598>
+VStem: 112 128<354.842 1053.16> 253 128<1561 1655.42> 771 128<1672.67 1767> 912 128<354.842 1053.16>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Otilde.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Otilde.sq
 EndChar

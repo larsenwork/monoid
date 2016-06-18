@@ -4,8 +4,8 @@ GlifName: S_acute
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<255.397 795.429> 1304 120<468.491 984.716> 1536 256
-VStem: 226 128<898.481 1188.92> 488 304 926 128<231.488 529.688>
+HStem: -16 120<260.808 779.079> 1304 120<483.228 984.716> 1536 256
+VStem: 226 128<912.314 1176.61> 488 304 926 128<246.8 518.189>
 CounterMasks: 1 1c
 LayerCount: 5
 Back
@@ -16,5 +16,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Sacute.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Sacute.sq
 EndChar

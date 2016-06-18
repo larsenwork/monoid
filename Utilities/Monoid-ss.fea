@@ -1,0 +1,71 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem kana dflt;
+
+feature ss01 {
+  sub dollar by dollar.empty;
+} ss01;
+
+feature ss02 {
+  sub asterisk by asterisk.multi;
+} ss02;
+
+feature ss03 {
+  sub zero by zero.dot;
+} ss03;
+
+feature ss04 {
+  sub zero by zero.clear;
+} ss04;
+
+feature ss05 {
+  sub one by one.base;
+} ss05;
+
+feature ss06 {
+  sub three by three.boob;
+} ss06;
+
+feature ss07 {
+  sub i by i.flyingdot;
+  sub j by j.flyingdot;
+} ss07;
+
+feature ss08 {
+  sub l by l.zstyle;
+} ss08;
+
+feature ss09 {
+  sub l by l.base;
+  sub r by r.base;
+} ss09;
+
+feature ss10 {
+  sub w by w.straight;
+  sub W by W.straight;
+} ss10;
+
+feature ss11 {
+  sub j by j.long;
+  sub g by g.long;
+  sub y by y.long;
+} ss11;
+
+feature ss12 {
+  sub four by four.triangle;
+} ss12;
+
+feature ss13 {
+  sub six by six.round;
+  sub nine by nine.round;
+} ss13;
+
+feature ss14 {
+  sub [Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Jcircumflex Lacute Nacute Ncaron Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent uni0200 uni0202 uni0204 uni0206 uni0208 uni020A uni020C uni020E uni0210 uni0212 uni0214 uni0216] by [Aacute.sq Abreve.sq Acircumflex.sq Adieresis.sq Agrave.sq Amacron.sq Aring.sq Atilde.sq Cacute.sq Ccaron.sq Ccircumflex.sq Cdotaccent.sq Dcaron.sq Eacute.sq Ebreve.sq Ecaron.sq Ecircumflex.sq Edieresis.sq Edotaccent.sq Egrave.sq Emacron.sq Gbreve.sq Gcircumflex.sq Gdotaccent.sq Hcircumflex.sq Iacute.sq Ibreve.sq Icircumflex.sq Idieresis.sq Idotaccent.sq Igrave.sq Imacron.sq Itilde.sq Jcircumflex.sq Lacute.sq Nacute.sq Ncaron.sq Ntilde.sq Oacute.sq Obreve.sq Ocircumflex.sq Odieresis.sq Ograve.sq Ohungarumlaut.sq Omacron.sq Otilde.sq Racute.sq Rcaron.sq Sacute.sq Scaron.sq Scircumflex.sq Tcaron.sq Uacute.sq Ubreve.sq Ucircumflex.sq Udieresis.sq Ugrave.sq Uhungarumlaut.sq Umacron.sq Uring.sq Utilde.sq Wcircumflex.sq Yacute.sq Ycircumflex.sq Ydieresis.sq Zacute.sq Zcaron.sq Zdotaccent.sq uni0200.sq uni0202.sq uni0204.sq uni0206.sq uni0208.sq uni020A.sq uni020C.sq uni020E.sq uni0210.sq uni0212.sq uni0214.sq uni0216.sq];
+} ss14;
+
+feature ss15 {
+  sub mm by mm.alt;
+} ss15;

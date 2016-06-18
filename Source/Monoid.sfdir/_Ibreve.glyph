@@ -4,8 +4,8 @@ GlifName: I_breve
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1520 120<420.418 731.582>
-VStem: 236 128<1697.88 1792> 512 128<120 1288> 788 128<1697.88 1792>
+HStem: 0 120<256 512 640 896> 1288 120<256 512 640 896> 1520 120<435.067 716.933>
+VStem: 236 128<1704.51 1792> 512 128<120 1288> 788 128<1704.51 1792>
 CounterMasks: 1 1c
 LayerCount: 5
 Back
@@ -16,5 +16,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Ibreve.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Ibreve.sq
 EndChar

@@ -4,7 +4,7 @@ GlifName: parenright
 Width: 1024
 VWidth: 0
 Flags: W
-VStem: 664 128<401.453 1004.38>
+VStem: 664 128<431.964 973.895>
 LayerCount: 5
 Back
 Fore
@@ -21,5 +21,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 17 subtable" parenright.shrug
+Substitution2: "Single Substitution lookup 3 subtable" parenright.shrug
 EndChar

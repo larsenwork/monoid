@@ -4,8 +4,8 @@ GlifName: six
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<462.465 722.313> 792 120<465.965 721.095>
-VStem: 256 128<192.717 701.795> 800 128<193.295 703.173>
+HStem: -16 120<475.787 709.364> 792 120<480.311 708.108>
+VStem: 256 128<210.189 685.189> 800 128<210.238 685.311>
 LayerCount: 5
 Back
 Fore
@@ -63,5 +63,5 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "'ss13' Style Set 13 lookup 12 subtable" six.round
+Substitution2: "'ss13' Style Set 13 lookup 114 subtable" six.round
 EndChar

@@ -37,18 +37,18 @@ SplineSet
 EndSplineSet
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 108 subtable" less2
-Substitution2: "Single Substitution lookup 107 subtable" less1
-Substitution2: "Single Substitution lookup 102 subtable" rangeless
-Substitution2: "Single Substitution lookup 72 subtable" equallessless
-Substitution2: "Single Substitution lookup 71 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 65 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 58 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 47 subtable" larsenwork10
-Substitution2: "Single Substitution lookup 44 subtable" larsenwork9
-Substitution2: "Single Substitution lookup 35 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 30 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 29 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 23 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 19 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 95 subtable" less2
+Substitution2: "Single Substitution lookup 94 subtable" less1
+Substitution2: "Single Substitution lookup 89 subtable" rangeless
+Substitution2: "Single Substitution lookup 57 subtable" equallessless
+Substitution2: "Single Substitution lookup 56 subtable" liga18
+Substitution2: "Single Substitution lookup 50 subtable" liga16
+Substitution2: "Single Substitution lookup 43 subtable" liga14
+Substitution2: "Single Substitution lookup 36 subtable" liga12
+Substitution2: "Single Substitution lookup 33 subtable" liga11
+Substitution2: "Single Substitution lookup 15 subtable" liga4
+Substitution2: "Single Substitution lookup 13 subtable" liga3
+Substitution2: "Single Substitution lookup 12 subtable" liga3
+Substitution2: "Single Substitution lookup 9 subtable" liga2
+Substitution2: "Single Substitution lookup 5 subtable" liga1
 EndChar

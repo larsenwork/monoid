@@ -4,39 +4,39 @@ GlifName: m
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<128 256 512 640 896 1024> 920 120<308.068 480.961 669.549 865.287> 1004 20G<128 256>
-VStem: 128 128<0 890.704 949 1024> 512 128<0 890.704> 896 128<0 887.948>
+HStem: 0 21G<128 256 512 640 896 1024> 920 120<318.371 473.879 680.411 858.507> 1004 20G<128 256>
+VStem: 128 128<0 882.328 949 1024> 512 128<0 882.328> 896 128<0 881.244>
 CounterMasks: 1 1c
 LayerCount: 5
 Back
 Fore
 SplineSet
-414 1040 m 0xdc
- 498 1040 562 992 597 929 c 1
- 652 1001 716 1040 798 1040 c 0
- 874 1040 935 1004 972 954 c 0
- 1024 884 1024 814 1024 730 c 2
- 1024 0 l 1
- 896 0 l 1
- 896 730 l 2
- 896 797 896 845 866 879 c 0
- 845 903 811 920 768 920 c 0
- 725 920 691 903 670 879 c 0
- 640 845 640 797 640 730 c 2
- 640 0 l 1
- 512 0 l 1
- 512 730 l 2
- 512 797 512 845 482 879 c 0
- 461 903 427 920 384 920 c 0xdc
- 341 920 307 903 286 879 c 0
- 256 845 256 797 256 730 c 2
- 256 0 l 1
- 128 0 l 1
- 128 1024 l 1
- 256 1024 l 1xbc
- 256 949 l 1
- 266 949 l 1
- 306 1008 354 1040 414 1040 c 0xdc
+414 1040 m 4xdc
+ 498 1040 562 992 597 929 c 5
+ 652 1001 716 1040 798 1040 c 4
+ 874 1040 935 1004 972 954 c 4
+ 1024 884 1024 814 1024 730 c 6
+ 1024 0 l 5
+ 896 0 l 5
+ 896 730 l 6
+ 896 797 896 845 866 879 c 4
+ 845 903 811 920 768 920 c 4
+ 725 920 691 903 670 879 c 4
+ 640 845 640 797 640 730 c 6
+ 640 0 l 5
+ 512 0 l 5
+ 512 730 l 6
+ 512 797 512 845 482 879 c 4
+ 461 903 427 920 384 920 c 4xdc
+ 341 920 307 903 286 879 c 4
+ 256 845 256 797 256 730 c 6
+ 256 0 l 5
+ 128 0 l 5
+ 128 1024 l 5
+ 256 1024 l 5xbc
+ 256 949 l 5
+ 266 949 l 5
+ 306 1008 354 1040 414 1040 c 4xdc
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -77,10 +77,10 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "Single Substitution lookup 86 subtable" mm
-Substitution2: "Single Substitution lookup 85 subtable" larsenwork
 Position2: "Single Positioning lookup 23 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 21 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 20 subtable" dx=0 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 15 subtable" dx=0 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 73 subtable" mm
+Substitution2: "Single Substitution lookup 72 subtable" liga1
 EndChar

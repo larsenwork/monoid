@@ -4,8 +4,8 @@ GlifName: D_caron
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 120<256 682.099> 1288 120<256 682.099> 1536 256
-VStem: 128 128<120 1288> 912 128<374.669 1033.33>
+HStem: 0 120<256 664.842> 1288 120<256 664.842> 1536 256
+VStem: 128 128<120 1288> 912 128<396.93 1011.07>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Dcaron.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Dcaron.sq
 EndChar

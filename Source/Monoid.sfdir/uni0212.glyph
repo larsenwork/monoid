@@ -4,16 +4,16 @@ GlifName: uni0212
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<256 384 920.073 1065> 520 120<384 689.19> 1288 120<384 755.459> 1688 120<420.418 731.582>
-VStem: 236 128<1536 1630.12> 256 128<0 520 640 1288> 788 128<1536 1630.12> 912 128<795.125 1132.88>
+HStem: 0 21G<256 384 920.073 1065> 520 120<384 689.19> 1288 120<384 742.904> 1688 120<435.067 716.933>
+VStem: 236 128<1536 1623.49> 256 128<0 520 640 1288> 788 128<1536 1623.49> 912 128<811.269 1116.73>
 LayerCount: 5
 Back
 Fore
-Refer: 664 785 N 1 0 0 1 0 256 2
+Refer: 657 785 N 1 0 0 1 0 256 2
 Refer: 45 82 N 1 0 0 1 0 0 3
 Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" uni0212.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" uni0212.sq
 EndChar

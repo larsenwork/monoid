@@ -4,8 +4,8 @@ GlifName: exclam
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 288<472.125 679.875> 1388 20G<502 650>
-VStem: 432 288<24.125 231.875> 512 128<512 1408>
+HStem: -16 288<479.538 672.462> 1388 20G<502 650>
+VStem: 432 288<31.5385 224.462> 512 128<512 1408>
 LayerCount: 5
 Back
 Fore
@@ -25,11 +25,6 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 94 subtable" exclam.2r
-Substitution2: "Single Substitution lookup 93 subtable" exclam.2l
-Substitution2: "Single Substitution lookup 42 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 39 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 20 subtable" larsenwork5
 Position2: "Single Positioning lookup 24 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 22 subtable" dx=-128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 16 subtable" dx=128 dy=0 dh=0 dv=0
@@ -40,4 +35,9 @@ Position2: "Single Positioning lookup 5 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 4 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 2 subtable" dx=128 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 1 subtable" dx=128 dy=0 dh=0 dv=0
+Substitution2: "Single Substitution lookup 81 subtable" exclam.2r
+Substitution2: "Single Substitution lookup 80 subtable" exclam.2l
+Substitution2: "Single Substitution lookup 28 subtable" liga9
+Substitution2: "Single Substitution lookup 25 subtable" liga8
+Substitution2: "Single Substitution lookup 6 subtable" liga1
 EndChar

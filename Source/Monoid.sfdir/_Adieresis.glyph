@@ -4,8 +4,8 @@ GlifName: A_dieresis
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1279 129<554.967 597.033> 1552 224<262.609 441.391 710.609 889.391>
-VStem: 103 135<0 299.508> 240 224<1574.61 1753.39> 688 224<1574.61 1753.39> 914 135<0 299.508>
+HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1388 20G<389 763> 1552 224<269.423 434.577 717.423 882.577>
+VStem: 103 135<0 253.02> 240 224<1581.42 1746.58> 688 224<1581.42 1746.58> 914 135<0 253.803>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Adieresis.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Adieresis.sq
 EndChar

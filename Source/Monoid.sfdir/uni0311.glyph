@@ -1,11 +1,11 @@
 StartChar: uni0311
-Encoding: 785 785 664
+Encoding: 785 785 657
 GlifName: uni0311
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 1432 120<420.418 731.582>
-VStem: 236 128<1280 1374.12> 788 128<1280 1374.12>
+HStem: 1432 120<435.067 716.933>
+VStem: 236 128<1280 1367.49> 788 128<1280 1367.49>
 AnchorPoint: "top" 576 1152 mark 0
 LayerCount: 5
 Back

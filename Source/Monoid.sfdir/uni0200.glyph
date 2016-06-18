@@ -4,8 +4,8 @@ GlifName: uni0200
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1279 129<554.967 597.033> 1536 256
-VStem: 103 135<0 299.508> 914 135<0 299.508>
+HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1388 20G<389 763> 1536 256
+VStem: 103 135<0 253.02> 914 135<0 253.803>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" uni0200.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" uni0200.sq
 EndChar

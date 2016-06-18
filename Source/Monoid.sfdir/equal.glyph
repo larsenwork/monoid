@@ -24,25 +24,28 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 114 subtable" equal.wide
-Substitution2: "Single Substitution lookup 75 subtable" larsenwork2
-Substitution2: "Single Substitution lookup 74 subtable" greaterequalliga
-Substitution2: "Single Substitution lookup 70 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 69 subtable" greatergreaterequal
-Substitution2: "Single Substitution lookup 66 subtable" lessequalliga
-Substitution2: "Single Substitution lookup 64 subtable" equal.after
-Substitution2: "Single Substitution lookup 63 subtable" equalcolonequal
-Substitution2: "Single Substitution lookup 61 subtable" larsenwork7
-Substitution2: "Single Substitution lookup 60 subtable" leftarrowequallong
-Substitution2: "Single Substitution lookup 59 subtable" larsenwork6
-Substitution2: "Single Substitution lookup 56 subtable" larsenwork5
-Substitution2: "Single Substitution lookup 55 subtable" larsenwork5
-Substitution2: "Single Substitution lookup 53 subtable" equal
-Substitution2: "Single Substitution lookup 52 subtable" equal
-Substitution2: "Single Substitution lookup 49 subtable" larsenwork10
-Substitution2: "Single Substitution lookup 48 subtable" larsenwork10
-Substitution2: "Single Substitution lookup 45 subtable" larsenwork9
-Substitution2: "Single Substitution lookup 43 subtable" notequalliga
-Substitution2: "Single Substitution lookup 41 subtable" notequaltypeliga
-Substitution2: "Single Substitution lookup 40 subtable" larsenwork1
+Substitution2: "Single Substitution lookup 101 subtable" equal.wide
+Substitution2: "Single Substitution lookup 63 subtable" equalcompare
+Substitution2: "Single Substitution lookup 62 subtable" liga20
+Substitution2: "Single Substitution lookup 60 subtable" liga19
+Substitution2: "Single Substitution lookup 59 subtable" greaterequalliga
+Substitution2: "Single Substitution lookup 55 subtable" liga18
+Substitution2: "Single Substitution lookup 54 subtable" greatergreaterequal
+Substitution2: "Single Substitution lookup 51 subtable" lessequalliga
+Substitution2: "Single Substitution lookup 49 subtable" equal.after
+Substitution2: "Single Substitution lookup 48 subtable" equalcolonequal
+Substitution2: "Single Substitution lookup 46 subtable" liga15
+Substitution2: "Single Substitution lookup 45 subtable" leftarrowequallong
+Substitution2: "Single Substitution lookup 44 subtable" liga14
+Substitution2: "Single Substitution lookup 41 subtable" liga13
+Substitution2: "Single Substitution lookup 40 subtable" liga13
+Substitution2: "Single Substitution lookup 38 subtable" liga12
+Substitution2: "Single Substitution lookup 37 subtable" liga12
+Substitution2: "Single Substitution lookup 34 subtable" liga11
+Substitution2: "Single Substitution lookup 32 subtable" equaltypeliga
+Substitution2: "Single Substitution lookup 31 subtable" liga10
+Substitution2: "Single Substitution lookup 30 subtable" liga10
+Substitution2: "Single Substitution lookup 29 subtable" notequalliga
+Substitution2: "Single Substitution lookup 27 subtable" notequaltypeliga
+Substitution2: "Single Substitution lookup 26 subtable" liga8
 EndChar

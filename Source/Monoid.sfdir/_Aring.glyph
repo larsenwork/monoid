@@ -4,8 +4,8 @@ GlifName: A_ring
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1279 129<554.967 597.033> 1664 100<482.81 669.19>
-VStem: 103 135<0 303.728> 348 108<1433.91 1637.03> 696 108<1433.91 1637.03> 914 135<0 303.728>
+HStem: 0 21G<103 243.5 908.5 1049> 388 120<314 838> 1664 100<491.86 660.14>
+VStem: 103 135<0 239.125> 348 108<1441.27 1630.71> 696 108<1441.27 1630.71> 914 135<0 239.125>
 LayerCount: 5
 Back
 Fore
@@ -37,5 +37,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Aring.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Aring.sq
 EndChar

@@ -1,11 +1,11 @@
 StartChar: y.long
-Encoding: 1114162 -1 661
+Encoding: 1114162 -1 654
 GlifName: y.long
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -400 120<256 451.753> 1004 20G<204 365 788 948>
-VStem: 204 131<833.714 1024> 817 131<822.073 1024>
+HStem: -400 120<256 439> 1004 20G<204 365 788 948>
+VStem: 204 131<877.141 1024> 817 131<855.086 1024>
 LayerCount: 5
 Back
 SplineSet

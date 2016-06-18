@@ -1,10 +1,10 @@
 StartChar: Wcircumflex.sq
-Encoding: 1114235 -1 734
+Encoding: 1114235 -1 727
 Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<212 387.136 764.864 940> 1408 21G<200 384.585 767.415 952>
-VStem: 119 128<817.863 1280> 905 128<817.863 1280>
+VStem: 119 128<899.174 1280> 905 128<899.174 1280>
 LayerCount: 5
 Back
 Fore

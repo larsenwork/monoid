@@ -4,8 +4,8 @@ GlifName: zero
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -18 124<472.77 679.155> 1302 124<472.845 679.23>
-VStem: 253 124<415.309 1142.8> 775 124<265.199 992.691>
+HStem: -18 124<483.985 668.866> 1302 124<483.134 668.015>
+VStem: 253 124<415.309 1083.05> 775 124<324.95 992.691>
 LayerCount: 5
 Back
 SplineSet
@@ -267,6 +267,6 @@ SplineSet
   EndSpiro
 EndSplineSet
 Layer: 4
-Substitution2: "'ss04' Style Set 4 lookup 3 subtable" zero.clear
-Substitution2: "'ss03' Style Set 3 lookup 2 subtable" zero.dot
+Substitution2: "'ss04' Style Set 4 lookup 105 subtable" zero.clear
+Substitution2: "'ss03' Style Set 3 lookup 104 subtable" zero.dot
 EndChar

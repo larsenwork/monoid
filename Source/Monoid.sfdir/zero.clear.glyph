@@ -1,11 +1,11 @@
 StartChar: zero.clear
-Encoding: 1114149 -1 648
+Encoding: 1114149 -1 641
 GlifName: zero.clear
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -18 124<472.845 679.155> 1302 124<472.845 679.155>
-VStem: 253 124<264.612 1143.39> 775 124<264.612 1143.39>
+HStem: -18 124<483.134 668.866> 1302 124<483.134 668.866>
+VStem: 253 124<324.71 1083.29> 775 124<324.71 1083.29>
 LayerCount: 5
 Back
 Fore

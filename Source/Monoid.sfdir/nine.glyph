@@ -4,8 +4,8 @@ GlifName: nine
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: 496 120<430.905 686.035> 1304 120<431.425 691.16>
-VStem: 224 128<704.827 1214.71> 768 128<706.205 1215.28>
+HStem: 496 120<443.892 671.689> 1304 120<441.627 678.07>
+VStem: 224 128<722.689 1197.76> 768 128<722.811 1197.83>
 LayerCount: 5
 Back
 Fore
@@ -33,5 +33,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss13' Style Set 13 lookup 12 subtable" nine.round
+Substitution2: "'ss13' Style Set 13 lookup 114 subtable" nine.round
 EndChar

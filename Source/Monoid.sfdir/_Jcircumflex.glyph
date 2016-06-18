@@ -4,8 +4,8 @@ GlifName: J_circumflex
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -12 120<365.652 746.803> 1288 120<256 896> 1536 256
-VStem: 896 128<262.048 1288>
+HStem: -12 120<393.278 724.704> 1288 120<256 896> 1536 256
+VStem: 896 128<282.009 1288>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Jcircumflex.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Jcircumflex.sq
 EndChar

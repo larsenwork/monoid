@@ -19,17 +19,17 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 79 subtable" hyphen.more
-Substitution2: "Single Substitution lookup 78 subtable" hyphen.more
-Substitution2: "Single Substitution lookup 77 subtable" hyphen.operator
-Substitution2: "Single Substitution lookup 37 subtable" larsenwork
-Substitution2: "Single Substitution lookup 36 subtable" arrowleft.liga
-Substitution2: "Single Substitution lookup 32 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 31 subtable" ligaarrowlefttwoheads
-Substitution2: "Single Substitution lookup 27 subtable" larsenwork
-Substitution2: "Single Substitution lookup 26 subtable" larsenwork
-Substitution2: "Single Substitution lookup 25 subtable" ligaarrowleftlong
-Substitution2: "Single Substitution lookup 24 subtable" larsenwork3
-Substitution2: "Single Substitution lookup 22 subtable" commentstart
-Substitution2: "Single Substitution lookup 21 subtable" larsenwork5
+Substitution2: "Single Substitution lookup 66 subtable" hyphen.more
+Substitution2: "Single Substitution lookup 65 subtable" hyphen.more
+Substitution2: "Single Substitution lookup 64 subtable" hyphen.operator
+Substitution2: "Single Substitution lookup 23 subtable" liga7
+Substitution2: "Single Substitution lookup 20 subtable" liga6
+Substitution2: "Single Substitution lookup 18 subtable" liga5
+Substitution2: "Single Substitution lookup 17 subtable" liga5
+Substitution2: "Single Substitution lookup 16 subtable" arrowleft.liga
+Substitution2: "Single Substitution lookup 14 subtable" ligaarrowlefttwoheads
+Substitution2: "Single Substitution lookup 11 subtable" ligaarrowleftlong
+Substitution2: "Single Substitution lookup 10 subtable" liga2
+Substitution2: "Single Substitution lookup 8 subtable" commentstart
+Substitution2: "Single Substitution lookup 7 subtable" liga1
 EndChar

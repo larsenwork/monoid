@@ -22,19 +22,17 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "Single Substitution lookup 106 subtable" greater2
-Substitution2: "Single Substitution lookup 105 subtable" greater1
-Substitution2: "Single Substitution lookup 76 subtable" ligaequalarrow
-Substitution2: "Single Substitution lookup 73 subtable" larsenwork4
-Substitution2: "Single Substitution lookup 68 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 67 subtable" larsenwork8
-Substitution2: "Single Substitution lookup 57 subtable" rightarrowequallong
-Substitution2: "Single Substitution lookup 54 subtable" greater
-Substitution2: "Single Substitution lookup 51 subtable" greater
-Substitution2: "Single Substitution lookup 50 subtable" lessequalequalgreater
-Substitution2: "Single Substitution lookup 46 subtable" lessequalgreater
-Substitution2: "Single Substitution lookup 38 subtable" arrowright.liga
-Substitution2: "Single Substitution lookup 34 subtable" ligaarrowrighttwoheads
-Substitution2: "Single Substitution lookup 33 subtable" larsenwork1
-Substitution2: "Single Substitution lookup 28 subtable" ligaarrowrightlong
+Substitution2: "Single Substitution lookup 93 subtable" greater2
+Substitution2: "Single Substitution lookup 92 subtable" greater1
+Substitution2: "Single Substitution lookup 61 subtable" ligaequalarrow
+Substitution2: "Single Substitution lookup 58 subtable" liga18
+Substitution2: "Single Substitution lookup 53 subtable" liga17
+Substitution2: "Single Substitution lookup 52 subtable" liga17
+Substitution2: "Single Substitution lookup 42 subtable" rightarrowequallong
+Substitution2: "Single Substitution lookup 39 subtable" lessequalequalgreater
+Substitution2: "Single Substitution lookup 35 subtable" lessequalgreater
+Substitution2: "Single Substitution lookup 24 subtable" arrowright.liga
+Substitution2: "Single Substitution lookup 22 subtable" ligaarrowrighttwoheads
+Substitution2: "Single Substitution lookup 21 subtable" liga6
+Substitution2: "Single Substitution lookup 19 subtable" ligaarrowrightlong
 EndChar

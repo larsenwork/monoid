@@ -4,8 +4,8 @@ GlifName: C_acute
 Width: 1024
 VWidth: 0
 Flags: W
-HStem: -16 120<454.146 1018.69> 1304 120<453.497 988.93> 1536 256
-VStem: 112 128<353.191 1054.81> 552 304
+HStem: -16 120<476.267 1018.69> 1304 120<469.826 988.93> 1536 256
+VStem: 112 128<375.367 1032.63> 552 304
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Cacute.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Cacute.sq
 EndChar

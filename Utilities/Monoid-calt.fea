@@ -1,0 +1,248 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem kana dflt;
+
+feature calt {
+
+  # ¯\_(ツ)_/¯
+  sub macron backslash' underscore by backslash.shrug;
+  sub parenleft' uni30C4 by parenleft.shrug;
+  sub uni30C4 parenright' by parenright.shrug;
+  sub underscore slash' macron by slash.shrug;
+
+  # <!--
+  ignore sub less' exclam hyphen hyphen hyphen;
+  sub less' exclam hyphen hyphen by liga1;
+  sub liga1 exclam' hyphen hyphen by liga1;
+  sub liga1 liga1 hyphen' hyphen by liga1;
+  sub liga1 liga1 liga1 hyphen' by commentstart;
+
+  # <--
+  ignore sub less' hyphen hyphen hyphen;
+  sub less' hyphen hyphen by liga2;
+  sub liga2 hyphen' hyphen by liga2;
+  sub liga2 liga2 hyphen' by ligaarrowleftlong;
+
+  # <<-
+  ignore sub less' less hyphen hyphen;
+  sub less' less hyphen by liga3;
+  sub liga3 less' hyphen by liga3;
+  sub liga3 liga3 hyphen' by ligaarrowlefttwoheads;
+
+  # <-
+  sub less' hyphen by liga4;
+  sub liga4 hyphen' by arrowleft.liga;
+
+  # -->
+  sub hyphen' hyphen greater by liga5;
+  sub liga5 hyphen' greater by liga5;
+  sub liga5 liga5 greater' by ligaarrowrightlong;
+
+  # ->>
+  ignore sub hyphen' greater greater greater;
+  sub hyphen' greater greater by liga6;
+  sub liga6 greater' greater by liga6;
+  sub liga6 liga6 greater' by ligaarrowrighttwoheads;
+
+  # ->
+  sub hyphen' greater by liga7;
+  sub liga7 greater' by arrowright.liga;
+
+  # !==
+  ignore sub exclam' equal equal equal;
+  sub exclam' equal equal by liga8;
+  sub liga8 equal' equal by liga8;
+  sub liga8 liga8 equal' by notequaltypeliga;
+
+  # !=
+  sub exclam' equal by liga9;
+  sub liga9 equal' by notequalliga;
+
+  # ===
+  ignore sub equal' equal equal equal;
+  ignore sub less equal' equal equal;
+  ignore sub equal equal' equal equal;
+  ignore sub equal equal equal' equal;
+  ignore sub equal equal equal equal';
+  ignore sub equal' equal equal greater;
+  ignore sub equal equal' equal greater;
+  ignore sub equal equal equal' greater;
+  sub equal' equal equal by liga10;
+  sub liga10 equal' equal by liga10;
+  sub liga10 liga10 equal' by equaltypeliga;
+
+  # <=>
+  sub less' equal greater by liga11;
+  sub liga11 equal' greater by liga11;
+  sub liga11 liga11 greater' by lessequalgreater;
+
+  # <==>
+  sub less' equal equal greater by liga12;
+  sub liga12 equal' equal greater by liga12;
+  sub liga12 liga12 equal' greater by liga12;
+  sub liga12 liga12 liga12 greater' by lessequalequalgreater;
+
+  # ==>
+  sub equal' equal greater by liga13;
+  sub liga13 equal' greater by liga13;
+  sub liga13 liga13 greater' by rightarrowequallong;
+
+  # <==
+  ignore sub less' equal equal equal;
+  ignore sub less equal' equal equal;
+  ignore sub less equal equal' equal;
+  ignore sub less equal equal equal';
+  sub less' equal equal by liga14;
+  sub liga14 equal' equal by liga14;
+  sub liga14 liga14 equal' by leftarrowequallong;
+
+  # =:=
+  sub equal' colon equal by liga15;
+  sub liga15 colon' equal by liga15;
+  sub liga15 liga15 equal' by equalcolonequal;
+
+  # :=
+  sub colon equal' by equal.after;
+
+  # <=
+  ignore sub less' less equal;
+  sub less' equal by liga16;
+  sub liga16 equal' by lessequalliga;
+
+  # >>=
+  ignore sub greater' greater equal equal;
+  sub greater' greater equal by liga17;
+  sub liga17 greater' equal by liga17;
+  sub liga17 liga17 equal' by greatergreaterequal;
+
+  # =<<
+  ignore sub equal' less less less;
+  sub equal' less less by liga18;
+  sub liga18 less' less by liga18;
+  sub liga18 liga18 less' by equallessless;
+
+  # >=
+  ignore sub greater' equal equal;
+  sub greater' equal by liga18;
+  sub liga18 equal' by greaterequalliga;
+
+  # =>
+  sub equal' greater by liga19;
+  sub liga19 greater' by ligaequalarrow;
+
+  # ==
+  sub equal' equal by liga20;
+  sub liga20 equal' by equalcompare;
+
+  # -=
+  sub hyphen' equal by hyphen.operator;
+
+  # --
+  sub hyphen' hyphen by hyphen.more;
+  sub hyphen.more hyphen' by hyphen.more;
+
+  # ___
+  sub underscore' underscore underscore by underscore.more;
+  sub underscore.more underscore' underscore by underscore.more;
+  sub underscore.more underscore.more underscore' by underscore.more;
+
+  # __
+  sub underscore' underscore by underscore.2l;
+  sub underscore.2l underscore' by underscore.2r;
+
+  # mm
+  ignore sub m' m m;
+  ignore sub m m' m;
+  ignore sub m m m';
+  sub m' m by liga1;
+  sub liga1 m' by mm;
+
+  # &&
+  ignore sub ampersand' ampersand ampersand;
+  ignore sub ampersand ampersand' ampersand;
+  ignore sub ampersand ampersand ampersand';
+  sub ampersand' ampersand by ampamp;
+  sub ampamp ampersand' by liga1;
+
+  # .&
+  sub period ampersand' by ampersand.method;
+
+  # *.
+  sub asterisk' period by asterisk.period;
+
+  # ||
+  ignore sub bar' bar bar;
+  ignore sub bar bar' bar;
+  ignore sub bar bar bar';
+  sub bar' bar by bar1;
+  sub bar1 bar' by bar2;
+
+  # !!
+  ignore sub exclam' exclam exclam;
+  ignore sub exclam exclam' exclam;
+  ignore sub exclam exclam exclam';
+  sub exclam' exclam by exclam.2l;
+  sub exclam.2l exclam' by exclam.2r;
+
+  # ::
+  ignore sub colon' colon colon;
+  ignore sub colon colon' colon;
+  ignore sub colon colon colon';
+  sub colon' colon by colon.2l;
+  sub colon.2l colon' by colon.2r;
+
+  # ...
+  ignore sub period' period period period;
+  ignore sub period period' period period;
+  ignore sub period period period' period;
+  ignore sub period period period period';
+  sub period' period period by larsenwork;
+  sub larsenwork period' period by larsenwork;
+  sub larsenwork larsenwork period' by period.x3;
+
+  # ..<
+  sub period' period less by larsenwork;
+  sub larsenwork period' less by larsenwork;
+  sub larsenwork larsenwork less' by rangeless;
+
+  # ..
+  sub period' period by period.2l;
+  sub period.2l period' by period.2r;
+
+  # >>
+  ignore sub greater' greater greater;
+  ignore sub greater greater' greater;
+  ignore sub greater greater greater';
+  sub greater' greater by greater1;
+  sub greater1 greater' by greater2;
+
+  # <<
+  ignore sub less' less less;
+  ignore sub less less' less;
+  ignore sub less less less';
+  sub less' less by less1;
+  sub less1 less' by less2;
+
+  # //
+  ignore sub slash' slash slash;
+  ignore sub slash slash' slash;
+  ignore sub slash slash slash';
+  ignore sub colon slash' slash;
+  sub slash' slash by larsenwork;
+  sub larsenwork slash' by ligadoubleslash;
+
+  # /*
+  sub slash asterisk' by asterisk.commentstart;
+
+  # /**
+  sub asterisk.commentstart asterisk' by asterisk.commentstart;
+
+  # */
+  sub asterisk' slash by asterisk.commentend;
+
+  # =
+  sub space equal' space by equal.wide;
+
+} calt;

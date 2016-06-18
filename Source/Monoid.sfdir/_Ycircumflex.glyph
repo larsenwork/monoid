@@ -5,7 +5,7 @@ Width: 1024
 VWidth: 0
 Flags: W
 HStem: 0 21G<512 640> 1388 20G<100 280.5 871.5 1052> 1536 256
-VStem: 512 128<0 673.091>
+VStem: 512 128<0 661.578>
 LayerCount: 5
 Back
 Fore
@@ -15,5 +15,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
-Substitution2: "'ss14' Style Set 14 lookup 13 subtable" Ycircumflex.sq
+Substitution2: "'ss14' Style Set 14 lookup 115 subtable" Ycircumflex.sq
 EndChar

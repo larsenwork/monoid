@@ -1,5 +1,5 @@
 StartChar: mm
-Encoding: 1114132 -1 632
+Encoding: 1114132 -1 625
 GlifName: mm
 Width: 1024
 VWidth: 0
@@ -59,4 +59,5 @@ Validated: 1
 Layer: 2
 Layer: 3
 Layer: 4
+Substitution2: "'ss15' Style Set 15 lookup 116 subtable" mm.alt
 EndChar
