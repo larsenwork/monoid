@@ -18,6 +18,7 @@ dependencies:
     - woff2
     - node_modules
   pre:
+    - sudo apt-get update
     - sudo apt-get install g++
     - "[[ ! -d woff2 ]] && ./Scripts/woff2.sh || echo 'Using cached woff2_compress'"
     - "[[ ! -d node_modules ]] && npm install ttf2woff ttf2eot || echo 'Using cached ttf2woff'"
