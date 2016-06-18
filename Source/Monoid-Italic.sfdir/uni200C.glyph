@@ -1,9 +1,8 @@
-StartChar: uni200B
-Encoding: 8203 8203 596
-GlifName: uni200B_
+StartChar: uni200C
+Encoding: 8204 8204 786
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 5
 Back
 Fore
