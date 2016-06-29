@@ -4,13 +4,18 @@
 </p>
 <p align="center"><a href="#guide">Guide</a>       <a href="#liga">Ligature Support</a>       <a href="#links">Links</a>       <a href="#font_log">Log</a>       <a href="#license">License</a>
 </p>
+
 <a name="guide"></a>
-<p>&nbsp;</p>
+
+&nbsp;
+
 #Guide
 
 ###Live Preview + Download
 
 [larsenwork.com/monoid](http://larsenwork.com/monoid)
+
+&nbsp;
 
 ###Install
 
@@ -43,7 +48,9 @@ Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)
 Please fork and edit away. Use the also libre [FontForge](http://fontforge.github.io/en-US/) and read [Design With FontForge](http://designwithfontforge.com/) to get started.
 
 <a name="liga"></a>
-<p>&nbsp;</p>
+
+&nbsp;
+
 #Ligature Support
 
 Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by all programs.
@@ -71,7 +78,9 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 | Adobe CS/CC, Affinity Designer, LibreOffice Writer, Text Edit |
 
 <a name="links"></a>
-<p>&nbsp;</p>
+
+&nbsp;
+
 #Links
 
 I wrote some [Medium articles](https://medium.com/@larsenwork) explaining various aspects.  
@@ -84,7 +93,9 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 [Hasklig](https://github.com/i-tu/Hasklig) - Source Code Pro Regular with ligatures  
 
 <a name="font_log"></a>
-<p>&nbsp;</p>
+
+&nbsp;
+
 #Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
@@ -256,7 +267,9 @@ Remember to update the Font Log when you make contributions.
 </table>
 
 <a name="license"></a>
-<p>&nbsp;</p>
+
+&nbsp;
+
 #Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)  
 Monoisome is OFL license.
