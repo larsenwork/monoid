@@ -1,1 +1,1 @@
-window.MONOID_URL = 'https://cdn.rawgit.com/larsenwork/monoid/d90cb4e14eb25705e62249bd1240ecd486950c04/'
+window.MONOID_URL = 'https://cdn.rawgit.com/larsenwork/monoid/ecdabf6c303728ab3d19ce9e5b60f2431b6ba02d/'
