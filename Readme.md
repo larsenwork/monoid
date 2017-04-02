@@ -9,15 +9,15 @@
 
 &nbsp;
 
-#Guide
+# Guide
 
-###Live Preview + Download
+### Live Preview + Download
 
 [larsenwork.com/monoid](http://larsenwork.com/monoid)
 
 &nbsp;
 
-###Install
+### Install
 
 Quit your editor/program. Unzip and open the folder.
 
@@ -34,16 +34,16 @@ Copy the .ttf files to your fonts-directory (e.g., `~/.fonts`) → Run `sudo fc-
 [How to](http://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux/) Install, Remove, and Manage Fonts on Windows, Mac, and Linux  
 [Ubuntu Wiki](https://wiki.ubuntu.com/Fonts#Manually)
 
-###Stylistic Alternates
+### Stylistic Alternates
 
 The font contains more alternates than available on the webpage - see [Monoid-*.fea](https://github.com/larsenwork/monoid/blob/master/Utilities/Monoid-*.fea) for details. You can access these using `font-feature-settings` in your code editor stylesheet.
 
-###Tips
+### Tips
 
 Atom [Stylesheet](https://gist.github.com/larsenwork/255432b5101093fb07bc)  
 [Change Monoid metrics](https://github.com/larsenwork/monoid/issues/109) if you use it together with e.g. Chinese
 
-###Edit
+### Edit
 
 Please fork and edit away. Use the also libre [FontForge](http://fontforge.github.io/en-US/) and read [Design With FontForge](http://designwithfontforge.com/) to get started.
 
@@ -55,7 +55,7 @@ Please fork and edit away. Use the also libre [FontForge](http://fontforge.githu
 
 Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by all programs.
 
-###Editors + Terminals
+### Editors + Terminals
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
@@ -64,14 +64,14 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 ² PHPStorm, WebStorm etc.  
 ³ MacVim [snapshot-78](https://github.com/macvim-dev/macvim/releases/tag/snapshot-78), also see the PR [here](https://github.com/macvim-dev/macvim/pull/56)  
 
-###Browsers
+### Browsers
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
 | Chrome, Firefox, IE 10+ | Safari¹ | IE <10 |
 ¹ Enabled by default - can't be turned off.
 
-###Other Apps
+### Other Apps
 
 | Working |
 |:---|
@@ -81,7 +81,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 &nbsp;
 
-#Links
+# Links
 
 I wrote some [Medium articles](https://medium.com/@larsenwork) explaining various aspects.  
 A [video](https://www.youtube.com/watch?v=hdld21mlzbY) of me talking about Monoid at Cph Frontenders meetup.  
@@ -96,10 +96,10 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 
 &nbsp;
 
-#Font Log
+# Font Log
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
-###Made by
+### Made by
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
@@ -270,11 +270,11 @@ Remember to update the Font Log when you make contributions.
 
 &nbsp;
 
-#Licenses
+# Licenses
 Monoid is dual licensed with MIT and OFL licenses. Pick one:)  
 Monoisome is OFL license.
 
-###The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c) 2015, Andreas Larsen and contributors.
 
@@ -296,7 +296,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-###SIL OPEN FONT LICENSE  
+### SIL OPEN FONT LICENSE  
 Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.  
 This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
