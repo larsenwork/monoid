@@ -59,7 +59,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
-| Atom, Brackets, Coda, Eclipse, gEdit, IntelliJ-based², Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹, MacVim³ | gVim, libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
+| Atom, Brackets, Coda, Eclipse, gEdit, IntelliJ-based², Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹, MacVim³ | gVim, libvte-based, Notepad++, Sublime Text, Xterm, Urxvt |
 ¹ Ligatures with hyphens doesn't work  
 ² PHPStorm, WebStorm etc.  
 ³ MacVim [snapshot-78](https://github.com/macvim-dev/macvim/releases/tag/snapshot-78), also see the PR [here](https://github.com/macvim-dev/macvim/pull/56)  
