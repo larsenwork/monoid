@@ -96,10 +96,13 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 
 &nbsp;
 
-#Font Log
+# Font Log
+
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
-###Made by
+
+### Made by
+
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
@@ -296,7 +299,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-###SIL OPEN FONT LICENSE  
+### SIL OPEN FONT LICENSE  
+
 Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.  
 This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
