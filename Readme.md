@@ -96,10 +96,13 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 
 &nbsp;
 
-#Font Log
+# Font Log
+
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
-###Made by
+
+### Made by
+
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
