@@ -1,6 +1,7 @@
 #!/usr/bin/env python2.7
 # vim: sts=4 sw=4 ts=4 et
 
+from __future__ import print_function
 import sys
 if len(sys.argv) < 4:
     usage = """Build should be run with 3 arguments:
@@ -9,7 +10,7 @@ if len(sys.argv) < 4:
     Second: The parallel batch number (0+)
     Third: The .sfdir for the font
     """
-    print >> sys.stderr, usage
+    print(usage, file=sys.stderr)
     exit(1)
 
 from fontbuilder import *
