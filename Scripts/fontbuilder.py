@@ -58,9 +58,9 @@ def permutations():
     bitmap_max = 1 << count
 
     # Iterate over all possible permutations
-    for i in xrange(bitmap_max):
+    for i in range(bitmap_max):
         # Map the iteration's permutations using a bitmap
-        bitmap = [i >> n & 1 for n in xrange(count)]
+        bitmap = [i >> n & 1 for n in range(count)]
         for opts in _expand_options(bitmap):
             yield(int(float(i)/bitmap_max*100), opts)
 

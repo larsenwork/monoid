@@ -51,7 +51,7 @@ Please fork and edit away. Use the also libre [FontForge](http://fontforge.githu
 
 &nbsp;
 
-#Ligature Support
+# Ligature Support
 
 Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by all programs.
 
@@ -59,7 +59,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
-| Atom, Brackets, Coda, Eclipse, gEdit, IntelliJ-based², Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹, MacVim³ | gVim, libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
+| Atom, Brackets, Coda, Eclipse, gEdit, IntelliJ-based², Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹, MacVim³ | gVim, libvte-based, Notepad++, Sublime Text, Xterm, Urxvt |
 ¹ Ligatures with hyphens doesn't work  
 ² PHPStorm, WebStorm etc.  
 ³ MacVim [snapshot-78](https://github.com/macvim-dev/macvim/releases/tag/snapshot-78), also see the PR [here](https://github.com/macvim-dev/macvim/pull/56)  
@@ -97,9 +97,12 @@ Lifehacker article: [Monoid Is an Open Source Font That's Perfect for Coders](ht
 &nbsp;
 
 # Font Log
+
 Follow the [GitHub guide for contributing](https://guides.github.com/activities/contributing-to-open-source/#contributing) for issues, pull requests etc.<br>
 Remember to update the Font Log when you make contributions.
+
 ### Made by
+
 <table>
     <tr>
         <td><a href="https://github.com/chase"><img src="https://avatars1.githubusercontent.com/u/5411?v=3&s=460" height="80" /><br>Chase</td>
@@ -297,6 +300,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ### SIL OPEN FONT LICENSE  
+
 Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.  
 This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
